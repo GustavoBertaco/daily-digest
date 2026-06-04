@@ -16,63 +16,18 @@ areas:
     folder: "Tech"
     tags: [digest, technology, software]
     sources:
-      - type: rss
-        url: "https://news.ycombinator.com/rss"
-        name: "Hacker News"
-      - type: rss
-        url: "https://www.theverge.com/rss/index.xml"
-        name: "The Verge"
-      - type: youtube
-        channel_id: "UCsBjURrPoezykLs9EqgamOA"
-        name: "Fireship"
       - type: youtube
         channel_id: "UCPbwhExawYrn9xxI21TFfyw"
         name: "The Pragmatic Engineer"
-      - type: podcast
-        url: "https://changelog.com/podcast/feed"
-        name: "The Changelog"
-      - type: website
-        url: "https://techcrunch.com"
-        name: "TechCrunch"
 
   - name: "Finance & Markets"
     emoji: "📈"
     folder: "Finance"
     tags: [digest, finance, markets, investing]
-    sources:
-      - type: rss
-        url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
-        name: "WSJ Markets"
-      - type: rss
-        url: "https://www.economist.com/finance-and-economics/rss.xml"
-        name: "The Economist — Finance"
-      - type: podcast
-        url: "https://feeds.megaphone.fm/PLANTmoney"
-        name: "Planet Money"
-      - type: website
-        url: "https://www.bloomberg.com/markets"
-        name: "Bloomberg Markets"
+    sources: []
 
   - name: "AI & Machine Learning"
     emoji: "🤖"
     folder: "AI"
     tags: [digest, ai, machine-learning, llm]
-    sources:
-      - type: rss
-        url: "https://huggingface.co/blog/feed.xml"
-        name: "Hugging Face Blog"
-      - type: rss
-        url: "https://openai.com/news/rss/"
-        name: "OpenAI Blog"
-      - type: youtube
-        channel_id: "UCWN3xxRkmTPmbKwht9FuE5A"
-        name: "Andrej Karpathy"
-      - type: youtube
-        channel_id: "UCbfYPyITQ-7l4upoX8nvctg"
-        name: "Two Minute Papers"
-      - type: podcast
-        url: "https://lexfridman.com/feed/podcast/"
-        name: "Lex Fridman Podcast"
-      - type: website
-        url: "https://arxiv.org/list/cs.AI/recent"
-        name: "arXiv CS.AI"
+    sources: []
