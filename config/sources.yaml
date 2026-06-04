@@ -19,15 +19,20 @@ areas:
       - type: youtube
         channel_id: "UCPbwhExawYrn9xxI21TFfyw"
         name: "The Pragmatic Engineer"
-      - type: youtube
-        channel_id: "UCLtTf_uKt0Itd0NG7txrwXA"
-        name: "The Knowledge Project Podcast"
-
   - name: "Finance & Markets"
     emoji: "📈"
     folder: "Finance"
     tags: [digest, finance, markets, investing]
     sources: []
+
+  - name: "Personal Development"
+    emoji: "🧠"
+    folder: "PersonalDev"
+    tags: [digest, personal-development]
+    sources:
+      - type: youtube
+        channel_id: "UCLtTf_uKt0Itd0NG7txrwXA"
+        name: "The Knowledge Project Podcast"
 
   - name: "AI & Machine Learning"
     emoji: "🤖"
