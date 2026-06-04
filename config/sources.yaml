@@ -33,6 +33,9 @@ areas:
       - type: youtube
         channel_id: "UCLtTf_uKt0Itd0NG7txrwXA"
         name: "The Knowledge Project Podcast"
+      - type: youtube
+        channel_id: "UCZDikYGDPdpN_pLgi_RzgXg"
+        name: "Daniel Pink"
 
   - name: "AI & Machine Learning"
     emoji: "🤖"
