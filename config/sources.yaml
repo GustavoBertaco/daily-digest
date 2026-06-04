@@ -19,10 +19,10 @@ areas:
       - type: youtube
         channel_id: "UCPbwhExawYrn9xxI21TFfyw"
         name: "The Pragmatic Engineer"
-  - name: "Finance & Markets"
-    emoji: "📈"
-    folder: "Finance"
-    tags: [digest, finance, markets, investing]
+  - name: "Product Management"
+    emoji: "🗂️"
+    folder: "ProductManagement"
+    tags: [digest, product-management]
     sources: []
 
   - name: "Personal Development"
