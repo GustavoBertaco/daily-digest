@@ -25,6 +25,9 @@ areas:
       - type: youtube
         channel_id: "UCsBjURrPoezykLs9EqgamOA"
         name: "Fireship"
+      - type: youtube
+        channel_id: "UCPbwhExawYrn9xxI21TFfyw"
+        name: "The Pragmatic Engineer"
       - type: podcast
         url: "https://changelog.com/podcast/feed"
         name: "The Changelog"
