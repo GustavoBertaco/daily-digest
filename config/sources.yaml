@@ -50,6 +50,25 @@ areas:
         channel_id: "UCZDikYGDPdpN_pLgi_RzgXg"
         name: "Daniel Pink"
 
+  - name: "Data Platform"
+    emoji: "🗄️"
+    folder: "DataPlatform"
+    tags: [digest, data-platform, data-engineering]
+    sources:
+      - type: youtube
+        channel_id: "UC2ZltczfvIIJPmSYqtzv_mA"
+        name: "The Data Engineering Show"
+      - type: youtube
+        channel_id: "UC3bSfMzhHjeX_tFdte1esgQ"
+        name: "Data Mesh Learning"  # last posted ~240 days ago, may be dormant
+      - type: rss
+        url: "https://datastackshow.com/feed/"
+        name: "The Data Stack Show"
+      - type: podcast
+        url: "https://rss.libsyn.com/shows/352538/destinations/2880773.xml"
+        name: "The Analytics Engineering Podcast"
+      # Data Mesh Radio (Spotify: 4FIKajWDxdAPvW5925IBrF) excluded — no public RSS feed
+
   - name: "AI & Machine Learning"
     emoji: "🤖"
     folder: "AI"
