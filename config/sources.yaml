@@ -1,0 +1,103 @@
+# Daily Digest — Source Configuration
+# =====================================
+# Add or remove areas freely. Each area becomes its own .md file per day.
+# Supported source types: rss, podcast, youtube, website
+
+settings:
+  max_age_hours: 24           # Only include items published in the last N hours
+  max_items_per_source: 10    # Cap items per source to avoid flooding the digest
+  request_timeout_seconds: 10
+  user_agent: "daily-digest/1.0 (personal aggregator)"
+
+areas:
+
+  - name: "Technology"
+    emoji: "💻"
+    folder: "Tech"
+    tags: [digest, technology, software]
+    sources:
+      - type: youtube
+        channel_id: "UCPbwhExawYrn9xxI21TFfyw"
+        name: "The Pragmatic Engineer"
+      - type: rss
+        url: "https://netflixtechblog.com/feed"
+        name: "Netflix Tech Blog"
+      - type: rss
+        url: "https://medium.com/feed/airbnb-engineering"
+        name: "Airbnb Tech"
+      - type: rss
+        url: "https://engineering.fb.com/feed/"
+        name: "Meta Engineering"
+      - type: website
+        url: "https://eng.uber.com/"
+        name: "Uber Engineering"
+
+  - name: "Product Management"
+    emoji: "🗂️"
+    folder: "ProductManagement"
+    tags: [digest, product-management]
+    sources: []
+
+  - name: "Personal Development"
+    emoji: "🧠"
+    folder: "PersonalDev"
+    tags: [digest, personal-development]
+    sources:
+      - type: youtube
+        channel_id: "UCLtTf_uKt0Itd0NG7txrwXA"
+        name: "The Knowledge Project Podcast"
+      - type: youtube
+        channel_id: "UCZDikYGDPdpN_pLgi_RzgXg"
+        name: "Daniel Pink"
+
+  - name: "Data Platform"
+    emoji: "🗄️"
+    folder: "DataPlatform"
+    tags: [digest, data-platform, data-engineering]
+    sources:
+      - type: youtube
+        channel_id: "UC2ZltczfvIIJPmSYqtzv_mA"
+        name: "The Data Engineering Show"
+      - type: youtube
+        channel_id: "UC3bSfMzhHjeX_tFdte1esgQ"
+        name: "Data Mesh Learning"  # last posted ~240 days ago, may be dormant
+      - type: rss
+        url: "https://datastackshow.com/feed/"
+        name: "The Data Stack Show"
+      - type: podcast
+        url: "https://rss.libsyn.com/shows/352538/destinations/2880773.xml"
+        name: "The Analytics Engineering Podcast"
+      # Data Mesh Radio (Spotify: 4FIKajWDxdAPvW5925IBrF) excluded — no public RSS feed
+
+  - name: "Providers Updates"
+    emoji: "🚀"
+    folder: "ProvidersUpdates"
+    tags: [digest, providers, launches, aws, openai, anthropic, databricks]
+    sources:
+      - type: rss
+        url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+        name: "AWS What's New"
+      - type: rss
+        url: "https://aws.amazon.com/blogs/aws/feed/"
+        name: "AWS Blog"
+      - type: rss
+        url: "https://www.databricks.com/feed"
+        name: "Databricks Blog"
+      - type: website
+        url: "https://www.anthropic.com/news"
+        name: "Anthropic News"
+      - type: youtube
+        channel_id: "UCXZCJLdBC09xxGZ6gcdrc6A"
+        name: "OpenAI"
+      - type: website
+        url: "https://cognition.ai/blog"
+        name: "Devin AI (Cognition)"
+
+  - name: "AI & Machine Learning"
+    emoji: "🤖"
+    folder: "AI"
+    tags: [digest, ai, machine-learning, llm]
+    sources:
+      - type: youtube
+        channel_id: "UCLKPca3kwwd-B59HNr-_lvA"
+        name: "AI Engineer"
