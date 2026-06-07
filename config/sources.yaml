@@ -19,6 +19,16 @@ areas:
       - type: youtube
         channel_id: "UCPbwhExawYrn9xxI21TFfyw"
         name: "The Pragmatic Engineer"
+      - type: rss
+        url: "https://netflixtechblog.com/feed"
+        name: "Netflix Tech Blog"
+      - type: rss
+        url: "https://medium.com/feed/airbnb-engineering"
+        name: "Airbnb Tech"
+      - type: rss
+        url: "https://engineering.fb.com/feed/"
+        name: "Meta Engineering"
+
   - name: "Product Management"
     emoji: "🗂️"
     folder: "ProductManagement"
