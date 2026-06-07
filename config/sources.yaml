@@ -28,6 +28,9 @@ areas:
       - type: rss
         url: "https://engineering.fb.com/feed/"
         name: "Meta Engineering"
+      - type: website
+        url: "https://eng.uber.com/"
+        name: "Uber Engineering"
 
   - name: "Product Management"
     emoji: "🗂️"
