@@ -3,3 +3,4 @@ trafilatura==2.0.0
 requests==2.32.4
 PyYAML==6.0.2
 python-dateutil==2.9.0.post0
+youtube-transcript-api==1.2.4
