@@ -7,7 +7,7 @@ from .rss import fetch_rss
 
 _FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 _TRANSCRIPT_CHAR_LIMIT = 3000
-_SHORTS_MAX_SECONDS = 60
+_SHORTS_MAX_SECONDS = 120
 
 
 def _video_id(url: str) -> str:
