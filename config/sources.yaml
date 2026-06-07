@@ -73,4 +73,7 @@ areas:
     emoji: "🤖"
     folder: "AI"
     tags: [digest, ai, machine-learning, llm]
-    sources: []
+    sources:
+      - type: youtube
+        channel_id: "UCLKPca3kwwd-B59HNr-_lvA"
+        name: "AI Engineer"
