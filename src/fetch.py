@@ -18,6 +18,7 @@ from fetchers import FetchedItem
 from fetchers.rss import fetch_rss
 from fetchers.youtube import fetch_youtube
 from fetchers.web import fetch_website
+from seen import load_seen, normalize_url, prune, save_seen
 
 _REQUIRED_AREA_KEYS = {"name", "emoji", "folder", "sources"}
 _REQUIRED_SOURCE_KEYS_BY_TYPE = {
@@ -60,8 +61,34 @@ def load_config(config_path: str) -> dict:
             if missing_src:
                 print(f"ERROR: source '{src.get('name','?')}' missing fields: {missing_src}", file=sys.stderr)
                 sys.exit(1)
+            if "max_age_hours" in src and (
+                not isinstance(src["max_age_hours"], int) or src["max_age_hours"] <= 0
+            ):
+                print(f"ERROR: source '{src.get('name','?')}' max_age_hours must be a positive int", file=sys.stderr)
+                sys.exit(1)
+
+    by_type = (cfg.get("settings") or {}).get("max_age_hours_by_type") or {}
+    for src_type, hours in by_type.items():
+        if src_type not in _REQUIRED_SOURCE_KEYS_BY_TYPE:
+            print(f"ERROR: max_age_hours_by_type has unknown source type '{src_type}'", file=sys.stderr)
+            sys.exit(1)
+        if not isinstance(hours, int) or hours <= 0:
+            print(f"ERROR: max_age_hours_by_type['{src_type}'] must be a positive int", file=sys.stderr)
+            sys.exit(1)
 
     return cfg
+
+
+def resolve_max_age(src: dict, settings: dict) -> int:
+    """Freshness window for one source: CLI override > source > type default > global."""
+    if settings.get("_max_age_forced"):
+        return settings["max_age_hours"]
+    if "max_age_hours" in src:
+        return src["max_age_hours"]
+    by_type = settings.get("max_age_hours_by_type") or {}
+    if src.get("type") in by_type:
+        return by_type[src["type"]]
+    return settings.get("max_age_hours", 24)
 
 
 def _fetch_one_source(
@@ -97,7 +124,6 @@ def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
     if filter_areas and area["name"] not in filter_areas:
         return None
 
-    max_age = settings.get("max_age_hours", 24)
     max_items = settings.get("max_items_per_source", 10)
 
     result = {
@@ -115,7 +141,7 @@ def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
     max_workers = min(len(area["sources"]), 8)
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = [
-            pool.submit(_fetch_one_source, src, area["name"], max_age, max_items)
+            pool.submit(_fetch_one_source, src, area["name"], resolve_max_age(src, settings), max_items)
             for src in area["sources"]
         ]
         for future in futures:  # preserve source order
@@ -130,19 +156,25 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch daily digest content")
     parser.add_argument("--config", default="config/sources.yaml")
     parser.add_argument("--output", default=None, help="Write JSON to file (default: stdout)")
-    parser.add_argument("--max-age-hours", type=int, default=None)
+    parser.add_argument("--max-age-hours", type=int, default=None,
+                        help="Force this window for ALL sources, overriding per-source/per-type config")
     parser.add_argument("--max-items", type=int, default=None)
     parser.add_argument("--area", action="append", default=[], dest="areas",
                         help="Fetch only this area name (repeatable)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Validate config and print summary without fetching")
     parser.add_argument("--log", default=None, help="Write Markdown run log to file")
+    parser.add_argument("--seen-file", default="data/seen_urls.json",
+                        help="Seen-URL registry path for dedup across runs")
+    parser.add_argument("--no-dedup", action="store_true",
+                        help="Skip the seen-URL registry (no filtering, no registry update)")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
     settings = cfg.get("settings", {})
     if args.max_age_hours is not None:
         settings["max_age_hours"] = args.max_age_hours
+        settings["_max_age_forced"] = True
     if args.max_items is not None:
         settings["max_items_per_source"] = args.max_items
 
@@ -165,6 +197,28 @@ def main() -> None:
         if area_result is None:
             continue
         output["areas"].append(area_result)
+
+    if not args.no_dedup:
+        seen_path = Path(args.seen_file)
+        seen = load_seen(seen_path)
+        today = fetched_at[:10]
+        deduped_count = 0
+        for area_result in output["areas"]:
+            kept: list[FetchedItem] = []
+            for item in area_result["items"]:
+                key = normalize_url(item["url"])
+                if key in seen:
+                    deduped_count += 1
+                    continue
+                seen[key] = today
+                kept.append(item)
+            area_result["items"] = kept
+        output["deduped_count"] = deduped_count
+        if deduped_count:
+            print(f"Skipped {deduped_count} previously-seen items", file=sys.stderr)
+        save_seen(seen_path, prune(seen))
+
+    for area_result in output["areas"]:
         if area_result["items"]:
             all_empty = False
 
