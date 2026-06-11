@@ -131,6 +131,9 @@ def fetch_website(
             return items
 
     # Step 4: Scrape article links from the listing page and extract content
+    from datetime import datetime, timezone, timedelta
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
+
     items: list[FetchedItem] = []
     for link in _article_links(homepage_html, url):
         if len(items) >= max_items:
@@ -143,10 +146,21 @@ def fetch_website(
             title = (metadata.title if metadata else "") or link
             if not body:
                 continue
+
+            pub_dt = None
+            pub_str = metadata.date if metadata else None
+            if pub_str:
+                try:
+                    pub_dt = datetime.fromisoformat(pub_str).replace(tzinfo=timezone.utc)
+                except ValueError:
+                    pass
+            if pub_dt and pub_dt < cutoff:
+                continue
+
             items.append(FetchedItem(
                 title=title,
                 url=link,
-                published="",
+                published=pub_dt.isoformat() if pub_dt else "",
                 content_snippet=body[:500],
                 source_name=source_name,
                 source_type="website",
