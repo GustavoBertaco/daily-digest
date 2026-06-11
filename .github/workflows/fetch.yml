@@ -1,0 +1,33 @@
+name: Fetch digest content
+
+on:
+  schedule:
+    - cron: '45 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -q
+
+      - name: Fetch sources
+        run: python src/fetch.py --output data/latest_fetch.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest_fetch.json
+          git diff --cached --quiet || git commit -m "chore: fetch content $(date -u +%Y-%m-%d)"
+          git push
