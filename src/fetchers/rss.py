@@ -5,6 +5,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 
 import feedparser
+import requests
 
 from . import FetchedItem
 
@@ -42,8 +43,13 @@ def fetch_rss(
     timeout: int = 10,
 ) -> list[FetchedItem]:
     try:
-        feed = feedparser.parse(url, request_headers={"User-Agent": "daily-digest/1.0"})
+        # Use requests to download so proxy/SSL env vars are respected,
+        # then hand raw bytes to feedparser for parsing only.
+        r = requests.get(url, headers={"User-Agent": "daily-digest/1.0"}, timeout=timeout)
+        r.raise_for_status()
+        feed = feedparser.parse(r.content)
         if feed.bozo and not feed.entries:
+            print(f"WARNING fetch_rss({url}): bozo feed — {feed.get('bozo_exception', 'unknown')}", file=sys.stderr)
             return []
 
         cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
