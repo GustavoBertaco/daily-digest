@@ -2,6 +2,7 @@ import sys
 
 import feedparser
 import trafilatura
+from dateutil import parser as dateparser
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -151,9 +152,11 @@ def fetch_website(
             pub_str = metadata.date if metadata else None
             if pub_str:
                 try:
-                    pub_dt = datetime.fromisoformat(pub_str).replace(tzinfo=timezone.utc)
-                except ValueError:
-                    pass
+                    pub_dt = dateparser.parse(pub_str)
+                    if pub_dt.tzinfo is None:
+                        pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                except (ValueError, OverflowError):
+                    pub_dt = None
             if pub_dt and pub_dt < cutoff:
                 continue
 
