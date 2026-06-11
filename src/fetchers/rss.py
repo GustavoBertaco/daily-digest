@@ -1,6 +1,7 @@
 import calendar
 import html
 import re
+import sys
 from datetime import datetime, timezone, timedelta
 
 import feedparser
@@ -69,5 +70,6 @@ def fetch_rss(
             ))
 
         return items
-    except Exception:
+    except Exception as exc:
+        print(f"ERROR fetch_rss({url}): {exc}", file=sys.stderr)
         return []

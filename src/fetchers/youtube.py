@@ -1,4 +1,5 @@
 import re
+import sys
 
 import requests
 
@@ -46,33 +47,37 @@ def fetch_youtube(
     max_age_hours: int = 24,
     max_items: int = 10,
 ) -> list[FetchedItem]:
-    url = _FEED_URL.format(channel_id=channel_id)
-    # Fetch more than needed to account for Shorts being filtered out
-    candidates = fetch_rss(url, source_name, source_type="youtube",
-                           max_age_hours=max_age_hours, max_items=max_items * 3)
+    try:
+        url = _FEED_URL.format(channel_id=channel_id)
+        # Fetch more than needed to account for Shorts being filtered out
+        candidates = fetch_rss(url, source_name, source_type="youtube",
+                               max_age_hours=max_age_hours, max_items=max_items * 3)
 
-    items: list[FetchedItem] = []
-    for item in candidates:
-        if len(items) >= max_items:
-            break
+        items: list[FetchedItem] = []
+        for item in candidates:
+            if len(items) >= max_items:
+                break
 
-        # Normalise to full watch URL
-        if "youtu.be/" in item["url"] or "youtube.com/watch" not in item["url"]:
-            vid_id = _video_id(item["url"])
-            item["url"] = f"https://www.youtube.com/watch?v={vid_id}"
-        else:
-            vid_id = _video_id(item["url"])
+            # Normalise to full watch URL
+            if "youtu.be/" in item["url"] or "youtube.com/watch" not in item["url"]:
+                vid_id = _video_id(item["url"])
+                item["url"] = f"https://www.youtube.com/watch?v={vid_id}"
+            else:
+                vid_id = _video_id(item["url"])
 
-        # Skip Shorts (≤ 60s). If duration is unavailable, include the video.
-        duration = _duration_seconds(vid_id)
-        if duration is not None and duration <= _SHORTS_MAX_SECONDS:
-            continue
+            # Skip Shorts (≤ 60s). If duration is unavailable, include the video.
+            duration = _duration_seconds(vid_id)
+            if duration is not None and duration <= _SHORTS_MAX_SECONDS:
+                continue
 
-        # Prefer transcript over RSS description for richer summarisation
-        transcript = _fetch_transcript(vid_id)
-        if transcript:
-            item["content_snippet"] = transcript
+            # Prefer transcript over RSS description for richer summarisation
+            transcript = _fetch_transcript(vid_id)
+            if transcript:
+                item["content_snippet"] = transcript
 
-        items.append(item)
+            items.append(item)
 
-    return items
+        return items
+    except Exception as exc:
+        print(f"ERROR fetch_youtube({channel_id}): {exc}", file=sys.stderr)
+        return []

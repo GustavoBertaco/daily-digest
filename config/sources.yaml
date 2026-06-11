@@ -4,7 +4,7 @@
 # Supported source types: rss, podcast, youtube, website
 
 settings:
-  max_age_hours: 24           # Only include items published in the last N hours
+  max_age_hours: 26           # Only include items published in the last N hours (+2h buffer for schedule jitter)
   max_items_per_source: 10    # Cap items per source to avoid flooding the digest
   request_timeout_seconds: 10
   user_agent: "daily-digest/1.0 (personal aggregator)"

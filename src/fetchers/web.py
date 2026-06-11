@@ -1,3 +1,5 @@
+import sys
+
 import feedparser
 import requests
 import trafilatura
@@ -105,7 +107,8 @@ def fetch_website(
         r = requests.get(url, headers=_headers(url), timeout=timeout)
         r.raise_for_status()
         homepage_html = r.text
-    except Exception:
+    except Exception as exc:
+        print(f"ERROR fetch_website({url}): {exc}", file=sys.stderr)
         return []
 
     # Step 2: Find RSS from <link> tag in page head (catches sites that block /feed paths)

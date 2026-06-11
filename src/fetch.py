@@ -2,8 +2,8 @@
 Entry point: reads config/sources.yaml, fetches all sources, writes JSON.
 
 Usage:
-  python src/fetch.py [--config PATH] [--output PATH] [--max-age-hours N]
-                      [--max-items N] [--area NAME] [--dry-run]
+  python src/fetch.py [--config PATH] [--output PATH] [--log PATH]
+                      [--max-age-hours N] [--max-items N] [--area NAME] [--dry-run]
 """
 import argparse
 import json
@@ -118,6 +118,7 @@ def main() -> None:
                         help="Fetch only this area name (repeatable)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Validate config and print summary without fetching")
+    parser.add_argument("--log", default=None, help="Write Markdown run log to file")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -159,7 +160,88 @@ def main() -> None:
         print(json_out)
 
     if all_empty:
-        sys.exit(2)
+        print("WARNING: all areas returned 0 items", file=sys.stderr)
+
+    if args.log:
+        _write_log(args.log, output)
+
+
+def _write_log(log_path: str, output: dict) -> None:
+    from datetime import datetime as dt
+    fetched_at = output["fetched_at"]
+    date_str = fetched_at[:10]
+    try:
+        date_label = dt.strptime(date_str, "%Y-%m-%d").strftime("%B %-d, %Y")
+    except ValueError:
+        date_label = date_str
+
+    rows: list[str] = []
+    total_items = 0
+    total_errors = 0
+    empty_areas: list[str] = []
+
+    for area in output["areas"]:
+        area_name = area["name"]
+        area_items = len(area["items"])
+        total_items += area_items
+
+        # Group errors by source_name for clean display
+        error_map: dict[str, str] = {}
+        for e in area.get("errors", []):
+            error_map[e["source_name"]] = e["error"]
+
+        # Collect source names from items + errors
+        source_names: list[str] = []
+        seen: set[str] = set()
+        for item in area["items"]:
+            sn = item.get("source_name", "")
+            if sn and sn not in seen:
+                seen.add(sn)
+                source_names.append(sn)
+        for e in area.get("errors", []):
+            sn = e["source_name"]
+            if sn not in seen:
+                seen.add(sn)
+                source_names.append(sn)
+
+        if area_items == 0:
+            empty_areas.append(area_name)
+
+        for sn in source_names:
+            src_items = sum(1 for i in area["items"] if i.get("source_name") == sn)
+            if sn in error_map:
+                status = f"❌ {error_map[sn]}"
+                total_errors += 1
+            elif src_items == 0:
+                status = "⚠️ no items in window"
+            else:
+                status = "✅"
+            rows.append(f"| {sn} | {area_name} | {src_items} | {status} |")
+
+    table = "\n".join(rows) if rows else "| — | — | — | no sources configured |"
+
+    empty_note = (
+        f"\n- Areas with 0 items: {len(empty_areas)} ({', '.join(empty_areas)})"
+        if empty_areas else ""
+    )
+
+    log_md = (
+        f"---\ndate: {date_str}\ntype: run-log\n---\n\n"
+        f"# Digest Run Log — {date_label}\n"
+        f"Fetched at: {fetched_at} | max_age_hours: {output['max_age_hours']}\n\n"
+        f"## Results by source\n\n"
+        f"| Source | Area | Items | Status |\n"
+        f"|--------|------|-------|--------|\n"
+        f"{table}\n\n"
+        f"## Summary\n\n"
+        f"- Total items fetched: {total_items}\n"
+        f"- Sources with errors: {total_errors}"
+        f"{empty_note}\n"
+    )
+
+    Path(log_path).parent.mkdir(parents=True, exist_ok=True)
+    Path(log_path).write_text(log_md, encoding="utf-8")
+    print(f"Wrote run log to {log_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":
