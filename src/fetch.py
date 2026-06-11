@@ -109,6 +109,9 @@ def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
         "errors": [],
     }
 
+    if not area["sources"]:
+        return result
+
     max_workers = min(len(area["sources"]), 8)
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = [
