@@ -5,9 +5,9 @@ import sys
 from datetime import datetime, timezone, timedelta
 
 import feedparser
-import requests
 
 from . import FetchedItem
+from ._http import safe_get
 
 
 def _strip_html(text: str) -> str:
@@ -45,7 +45,7 @@ def fetch_rss(
     try:
         # Use requests to download so proxy/SSL env vars are respected,
         # then hand raw bytes to feedparser for parsing only.
-        r = requests.get(url, headers={"User-Agent": "daily-digest/1.0"}, timeout=timeout)
+        r = safe_get(url, headers={"User-Agent": "daily-digest/1.0"}, timeout=timeout)
         r.raise_for_status()
         feed = feedparser.parse(r.content)
         if feed.bozo and not feed.entries:

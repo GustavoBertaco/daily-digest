@@ -1,25 +1,29 @@
 import re
 import sys
 
-import requests
-
 from . import FetchedItem
+from ._http import safe_get
 from .rss import fetch_rss
 
 _FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 _TRANSCRIPT_CHAR_LIMIT = 3000
 _SHORTS_MAX_SECONDS = 120
+_VIDEO_ID_RE = re.compile(r'^[A-Za-z0-9_-]{6,20}$')
 
 
 def _video_id(url: str) -> str:
     if "v=" in url:
-        return url.split("v=")[-1].split("&")[0]
-    return url.split("/")[-1].split("?")[0]
+        vid = url.split("v=")[-1].split("&")[0]
+    else:
+        vid = url.split("/")[-1].split("?")[0]
+    if not _VIDEO_ID_RE.match(vid):
+        raise ValueError(f"Invalid video ID format: {vid!r}")
+    return vid
 
 
 def _duration_seconds(vid_id: str) -> int | None:
     try:
-        r = requests.get(
+        r = safe_get(
             f"https://www.youtube.com/watch?v={vid_id}",
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=10,

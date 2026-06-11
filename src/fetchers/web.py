@@ -1,12 +1,12 @@
 import sys
 
 import feedparser
-import requests
 import trafilatura
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 from . import FetchedItem
+from ._http import safe_get
 from .rss import _snippet, _entry_published_utc
 
 _BROWSER_HEADERS = {
@@ -23,12 +23,17 @@ def _headers(referer: str) -> dict:
 def _rss_from_link_tag(html: str, base_url: str) -> str | None:
     """Find RSS/Atom URL declared in the page <head> link tags."""
     soup = BeautifulSoup(html, "html.parser")
+    from urllib.parse import urlparse
+    base_root = ".".join(urlparse(base_url).netloc.split(".")[-2:])
     for link in soup.find_all("link", type=True):
         t = link["type"].lower()
         if "rss" in t or "atom" in t:
             href = link.get("href", "")
             if href:
-                return href if href.startswith("http") else urljoin(base_url, href)
+                resolved = href if href.startswith("http") else urljoin(base_url, href)
+                link_root = ".".join(urlparse(resolved).netloc.split(".")[-2:])
+                if link_root == base_root:
+                    return resolved
     return None
 
 
@@ -63,7 +68,7 @@ def _items_from_feed(feed_url: str, source_name: str, base_url: str,
     """Fetch an RSS/Atom feed using browser headers (bypasses WAF blocks on feed paths)."""
     from datetime import datetime, timezone, timedelta
     try:
-        r = requests.get(feed_url, headers=_headers(base_url), timeout=timeout)
+        r = safe_get(feed_url, headers=_headers(base_url), timeout=timeout)
         r.raise_for_status()
         feed = feedparser.parse(r.content)
         if not feed.entries:
@@ -104,7 +109,7 @@ def fetch_website(
 ) -> list[FetchedItem]:
     # Step 1: Fetch the homepage with browser headers
     try:
-        r = requests.get(url, headers=_headers(url), timeout=timeout)
+        r = safe_get(url, headers=_headers(url), timeout=timeout)
         r.raise_for_status()
         homepage_html = r.text
     except Exception as exc:
@@ -131,7 +136,7 @@ def fetch_website(
         if len(items) >= max_items:
             break
         try:
-            ar = requests.get(link, headers=_headers(url), timeout=timeout)
+            ar = safe_get(link, headers=_headers(url), timeout=timeout)
             ar.raise_for_status()
             metadata = trafilatura.extract_metadata(ar.text)
             body = trafilatura.extract(ar.text) or ""
