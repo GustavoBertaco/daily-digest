@@ -1,0 +1,19 @@
+# Minimal config for manual fetch testing and config-validation tests
+settings:
+  max_age_hours: 26
+  max_age_hours_by_type:
+    podcast: 180
+  max_items_per_source: 3
+  request_timeout_seconds: 10
+  user_agent: "daily-digest/test"
+
+areas:
+  - name: "Test Area"
+    emoji: "🧪"
+    folder: "Test"
+    tags: [digest, test]
+    sources:
+      - type: rss
+        url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+        name: "AWS What's New (test)"
+        max_age_hours: 999
