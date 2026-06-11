@@ -1,0 +1,358 @@
+{
+  "fetched_at": "2026-06-11T13:04:41Z",
+  "max_age_hours": 26,
+  "areas": [
+    {
+      "name": "Technology",
+      "emoji": "💻",
+      "folder": "Tech",
+      "tags": [
+        "digest",
+        "technology",
+        "software"
+      ],
+      "items": [
+        {
+          "title": "Apache Hudi™ at Uber: Engineering for Trillion-Record-Scale Data Lake Operations",
+          "url": "https://www.uber.com/blog/apache-hudi-at-uber/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "Apache Hudi™ at Uber: Engineering for Trillion-Record-Scale Data Lake Operations\nThe Foundation of Uber’s Data Platform\nUber operates one of the most diverse and demanding data ecosystems in the world. Every trip taken, order delivered, ad served, or real-time arrival time recalculated generates an unending stream of data. These data points come from hundreds of microservices, thousands of cities, and millions of riders, each with its own velocity, shape, and business-criticality. At the heart o",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "The 5 Layers Every Cloud Commitment Depends On",
+          "url": "https://www.uber.com/blog/five-layers-cloud/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "The 5 Layers Every Cloud Commitment Depends On\nVP of Engineering\nIntroduction\nCommitting to a long-term hyperscale cloud commitment is a distributed systems problem with a ten-figure price tag. The act of committing to a cloud platform is the beginning of a massive engineering initiative, one that requires fluency in a set of technical domains that many organizations only discover after the ink is dry.\nA cloud commitment at this scale is like a construction project. The team that delivers it is ",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Hybrid Core Allocation: From Overallocation to Reliable Sharing",
+          "url": "https://www.uber.com/blog/hybrid-core-allocation/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "Hybrid Core Allocation: From Overallocation to Reliable Sharing\nSenior Software Engineer\nStaff Software Engineer\nIntroduction\nSome time ago, we introduced cpusets into Odin, Uber’s stateful container orchestration system. This change gives us stricter control over how CPU time is allocated, which helps cut down on throttling, and reduces latency, but comes at the cost of assigning full dedicated CPUs.\nFor years, our vertical CPU scaler operated under the assumptions that CPU usage could be accur",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management",
+          "url": "https://www.uber.com/blog/from-static-rate-limiting-to-intelligent-load-management/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management\nIntroduction\nUber’s thousands of microservices handle traffic for over 170 million monthly active users: riders, Uber Eats users, drivers, and couriers. At the heart of this infrastructure are Docstore and Schemaless, Uber’s in-house distributed databases built on top of MySQL®. These databases span thousands of clusters, store tens of petabytes of operational data, and serve tens of millio",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™",
+          "url": "https://www.uber.com/blog/high-performance-grpc/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™\nStaff Software Engineer\nSoftware Engineer\nEngineering Manager\nIntroduction\nSearch underpins nearly every real-time experience at Uber: from matching riders and drivers, to fraud detection, to powering recommendations on Uber Eats. As these systems grew in traffic, payload size, and latency sensitivity, we hit a familiar industry limit: REST/JSON was no longer just slower—it was constraining how our search platform could",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Validating Bounding Box Annotations",
+          "url": "https://www.uber.com/blog/validating-bounding-box/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "Validating Bounding Box Annotations\nSoftware Engineering Intern\nMachine Learning Engineer II\nSenior Machine Learning Engineer\nIntroduction\nDespite advancements in open-source models, enterprises often require use-case-specific models to solve their unique business challenges. Training these models necessitates high-quality data, which is frequently collected via human annotations. While effective, these annotations often suffer from human errors, which affect model quality.\nUber AI Solutions pro",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Transforming Ads Personalization with Sequential Modeling and Hetero-MMoE at Uber",
+          "url": "https://www.uber.com/blog/transforming-ads-personalization/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "Transforming Ads Personalization with Sequential Modeling and Hetero-MMoE at Uber\nIntroduction\nPersonalization lies at the heart of an effective ads delivery system. On Uber’s platform, this means ensuring every sponsored placement is relevant and timely, context-aware, and aligned with each person’s evolving preferences. Our ads delivery system leverages large-scale machine learning models that continuously learn from behavioral signals, such as past orders, user engagements, and geographic con",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        },
+        {
+          "title": "How Uber Built an Agentic System to Automate Design Specs in Minutes",
+          "url": "https://www.uber.com/blog/automate-design-specs/",
+          "published": "2026-06-11T00:00:00+00:00",
+          "content_snippet": "How Uber Built an Agentic System to Automate Design Specs in Minutes\nIntroduction\nThe Uber Base design system serves thousands of engineers, and every component they ship depends on specs that are accurate, complete, and current. When those specs fall behind, engineering builds from assumptions instead of definitions, which causes inconsistencies and tech debt. At that scale, documentation becomes a dedicated workstream that still struggles to keep pace. This blog describes how Uber’s design sys",
+          "source_name": "Uber Engineering",
+          "source_type": "website",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
+        {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Airbnb Tech",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "Product Management",
+      "emoji": "🗂️",
+      "folder": "ProductManagement",
+      "tags": [
+        "digest",
+        "product-management"
+      ],
+      "items": [],
+      "errors": []
+    },
+    {
+      "name": "Personal Development",
+      "emoji": "🧠",
+      "folder": "PersonalDev",
+      "tags": [
+        "digest",
+        "personal-development"
+      ],
+      "items": [
+        {
+          "title": "If Learning the Greats Sounds Tedious, You’re Not in the Right Lane | Bill Gurley",
+          "url": "https://www.youtube.com/watch?v=6BNgNtNnJbE",
+          "published": "2026-06-10T19:00:02+00:00",
+          "content_snippet": "If learning the history of your field sounds tedious, this isn’t the right lane for you. Wanting to know the history signals your passion. New episode of The Knowledge Project linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conv",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
+      "errors": [
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "Data Platform",
+      "emoji": "🗄️",
+      "folder": "DataPlatform",
+      "tags": [
+        "digest",
+        "data-platform",
+        "data-engineering"
+      ],
+      "items": [],
+      "errors": [
+        {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Data Mesh Learning",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "Providers Updates",
+      "emoji": "🚀",
+      "folder": "ProvidersUpdates",
+      "tags": [
+        "digest",
+        "providers",
+        "launches",
+        "aws",
+        "openai",
+        "anthropic",
+        "databricks"
+      ],
+      "items": [
+        {
+          "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
+          "published": "2026-06-11T00:12:00+00:00",
+          "content_snippet": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is OpenAI's most capable model, designed for advanced coding, research, analysis, software operation, document workflows, and long-running agentic tasks. It can unders",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+          "published": "2026-06-10T22:58:00+00:00",
+          "content_snippet": "Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in local environment can investigate incidents using logs, traces, metrics, and alerts stored in OpenSearch domains, collections and Amazon Managed Service for Prometheus. You can easily review and verify the results in interactive MCP App visualizations without leaving your local environment. Each MCP App ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
+          "published": "2026-06-10T20:00:00+00:00",
+          "content_snippet": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and shared IPC resources on ECS Managed Instances . With this launch, you can configure two new settings in ECS daemon definitions: pidMode controls whether the daemon can see all processes on the instance, and ipcMode controls whether the daemon shares an IPC namespace with other containers on the instan",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+          "published": "2026-06-10T15:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances , powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed AWS processors, delivering the best price performance for general purpose workloads running on Amazon EC2 . ​​M9g instances serve a broad range of general-purpose workloads including application servers, microservices, gaming, caching, and containers, while also delivering the performa",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+          "published": "2026-06-10T14:32:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference. P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
+          "published": "2026-06-10T13:33:00+00:00",
+          "content_snippet": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to modify their existing exports to take advantage of new CUR 2.0 features without having to delete and recreate their exports. Previously, customers configured CUR 2.0 exports with specific table settings — including export content, time granularity, column selection, export format, and destination setting",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+          "url": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+          "published": "2026-06-10T15:04:30+00:00",
+          "content_snippet": "AWS Graviton processors have improved steadily across generations, with each iteration delivering advances in compute performance, price-performance, and energy efficiency. At re:Invent 2025, we announced Amazon EC2 M9g, the first Graviton5-powered instances, in preview. Since then, customers have tested M9g across a wide range of workloads and shared their results. ClickHouse saw a 36% performance boost compared to M8g, with zero code changes. Honeycomb achieved 36% better throughput per core c",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Scaling AI Through Data Fluency",
+          "url": "https://www.databricks.com/blog/scaling-ai-through-data-fluency",
+          "published": "2026-06-10T23:30:00+00:00",
+          "content_snippet": "Aviation is one of the most data-intensive industries on the planet. Every flight...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing the Public Preview of Custom URLs",
+          "url": "https://www.databricks.com/blog/announcing-public-preview-custom-urls",
+          "published": "2026-06-10T23:00:00+00:00",
+          "content_snippet": "One unified Databricks experienceYour Databricks account can now live on a single branded domain (e.g. mycompany...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS and Databricks at Data + AI Summit 2026: Accelerating real-world AI innovation",
+          "url": "https://www.databricks.com/blog/aws-and-databricks-data-ai-summit-2026-accelerating-real-world-ai-innovation",
+          "published": "2026-06-10T23:00:00+00:00",
+          "content_snippet": "AWS and Databricks continue to simplify complex data challenges, enabling organizations...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AI Serving Platform That Adapts to Your Model",
+          "url": "https://www.databricks.com/blog/ai-serving-platform-adapts-your-model",
+          "published": "2026-06-10T15:52:14+00:00",
+          "content_snippet": "Challenges of Running Custom Model InferencesWhen you deploy a machine learning model to production...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing the Databricks storage ecosystem: Governing the enterprise data estate, wherever it lives",
+          "url": "https://www.databricks.com/blog/announcing-databricks-storage-ecosystem-governing-enterprise-data-estate-wherever-it-lives",
+          "published": "2026-06-10T12:03:00+00:00",
+          "content_snippet": "The Data That Can't MoveFor years, the enterprise data strategy was simple: move...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Create campaign concepts and assets with Codex",
+          "url": "https://www.youtube.com/watch?v=2ey7znf8SI0",
+          "published": "2026-06-10T17:15:03+00:00",
+          "content_snippet": "See how the creative production plugin for Codex helps marketing teams move from product and campaign context to visual concepts, asset variations, and editable creative. In this demo, Codex creates a campaign mood board, refines visual directions, generates a launch asset, and hands it off for final edits. More than 5 million people now use Codex every week, with marketers, creators, operators, designers, researchers, investors, and bankers among the fastest-growing users. Learn more: https://o",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
+        {
+          "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "🤖",
+      "folder": "AI",
+      "tags": [
+        "digest",
+        "ai",
+        "machine-learning",
+        "llm"
+      ],
+      "items": [
+        {
+          "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawdord, Snorkel",
+          "url": "https://www.youtube.com/watch?v=TNwJ1LMiENk",
+          "published": "2026-06-10T17:00:25+00:00",
+          "content_snippet": "Qwen 3 235B was asked for YouTube's year over year ad revenue growth from 2023 to 2024. It queried a table that didn't exist, tried again, got nothing back both times, and hallucinated an answer. The 4B model Snorkel finetuned with RL called `get_table_name` first, inspected the schema, ran a query, hit a column error, self-corrected, and got the right answer. The training run cost under $500. Kobe Crawford covers why tool discipline matters more than reasoning depth for this class of tasks, how",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=SS-A8sE7hkw",
+          "published": "2026-06-10T15:00:06+00:00",
+          "content_snippet": "Gemma 4's 31B model sits fourth on the LM Arena open model leaderboard. The models around it are at least twice as large; some are 20 times larger. It runs on a single GPU. Competitors at comparable quality need four or five. Ian Ballantyne and Gus Martins walk through what that size efficiency unlocks: running on a Pixel phone (the E2B and E4B models use 2B and 4B of GPU memory despite having more parameters), deploying a medical variant on two GPUs for an entire hospital, and running parallel ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+          "url": "https://www.youtube.com/watch?v=zMiSRliEzv4",
+          "published": "2026-06-10T13:00:17+00:00",
+          "content_snippet": "A rage click, a 2am error spike, a customer Slack message — today each sits until a developer notices, triages, tickets, and writes a fix. PostHog is building a pipeline that collapses that chain: signal arrives, a background agent groups it with related errors and session replays, researches the codebase, and opens a PR. You wake up to green PRs instead of dashboards. Three lessons from building it: off the shelf embedding models cluster signals by structural similarity rather than meaning, so ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
