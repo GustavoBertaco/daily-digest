@@ -22,12 +22,13 @@ jobs:
         run: pip install -r requirements.txt -q
 
       - name: Fetch sources
-        run: python src/fetch.py --output data/latest_fetch.json
+        run: python src/fetch.py --output data/latest_fetch.json --log logs/latest_run.md
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest_fetch.json
+          git add data/latest_fetch.json data/seen_urls.json logs/latest_run.md
           git diff --cached --quiet || git commit -m "chore: fetch content $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push

@@ -5,6 +5,9 @@
 
 settings:
   max_age_hours: 26           # Only include items published in the last N hours (+2h buffer for schedule jitter)
+  max_age_hours_by_type:      # Per-type defaults for infrequent publishers (per-source max_age_hours wins)
+    youtube: 80               # most channels post 2-3x/week
+    podcast: 180              # weekly shows + buffer
   max_items_per_source: 10    # Cap items per source to avoid flooding the digest
   request_timeout_seconds: 10
   user_agent: "daily-digest/1.0 (personal aggregator)"
@@ -22,12 +25,15 @@ areas:
       - type: rss
         url: "https://netflixtechblog.com/feed"
         name: "Netflix Tech Blog"
+        max_age_hours: 180    # publishes ~weekly
       - type: rss
         url: "https://medium.com/feed/airbnb-engineering"
         name: "Airbnb Tech"
+        max_age_hours: 180    # publishes ~weekly
       - type: rss
         url: "https://engineering.fb.com/feed/"
         name: "Meta Engineering"
+        max_age_hours: 180    # publishes ~weekly
       - type: website
         url: "https://eng.uber.com/"
         name: "Uber Engineering"
@@ -64,6 +70,7 @@ areas:
       - type: rss
         url: "https://datastackshow.com/feed/"
         name: "The Data Stack Show"
+        max_age_hours: 180    # weekly show
       - type: podcast
         url: "https://rss.libsyn.com/shows/352538/destinations/2880773.xml"
         name: "The Analytics Engineering Podcast"

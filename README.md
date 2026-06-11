@@ -4,11 +4,15 @@ Automated daily digest aggregator. A scheduled remote Claude agent fetches conte
 
 ## How it works
 
-1. A Claude CCR routine runs daily at **7:00 AM São Paulo (10:00 UTC)**
-2. It runs `src/fetch.py` to collect raw content from all configured sources
-3. Claude synthesizes the content into digest `.md` files under `digests/`
-4. The files are committed and pushed to this repo
-5. **Obsidian Git** plugin syncs the repo into your vault automatically
+1. **GitHub Actions** (`.github/workflows/fetch.yml`, 9:45 UTC daily) runs `src/fetch.py`, committing `data/latest_fetch.json`, the seen-URL registry, and a run log
+2. A **Claude cloud routine** runs daily at **7:00 AM São Paulo (10:00 UTC)** — its prompt is versioned at `prompts/daily-routine.md`:
+   - checks data freshness (`src/check_freshness.py`); if the Actions fetch failed it re-fetches, or flags the digest with a staleness banner
+   - the **digest-writer** subagent (`.claude/agents/digest-writer.md`) drafts `digests/YYYY-MM-DD.md` following `prompts/digest-style.md`
+   - the **digest-editor** subagent (`.claude/agents/digest-editor.md`) verifies every summary against the fetched snippets, then the routine commits and pushes
+3. A **weekly curation routine** (Mondays 11:00 UTC, prompt at `prompts/curation.md`) reviews source health and writes a report to `digests/curation/`
+4. **Obsidian Git** plugin syncs the repo into your vault automatically
+
+Items only ever appear in one digest: `data/seen_urls.json` tracks normalized URLs for 30 days, so undated scraped articles can't repeat. Freshness windows are configurable per source type and per source (`max_age_hours_by_type`, per-source `max_age_hours`) so weekly publishers aren't missed by the default 26-hour window.
 
 ## Setup
 
@@ -47,7 +51,13 @@ areas:
       - type: website
         url: "https://example.com"
         name: "Example Site"
+      - type: rss
+        url: "https://weekly.example.com/feed"
+        name: "Weekly Blog"
+        max_age_hours: 180    # per-source window override for infrequent publishers
 ```
+
+Global per-type defaults live under `settings.max_age_hours_by_type` (currently `youtube: 80`, `podcast: 180`).
 
 ### Local testing
 
@@ -55,8 +65,13 @@ areas:
 # Validate config without fetching
 python src/fetch.py --dry-run
 
+# Run unit tests
+pip install -r requirements-dev.txt
+python -m pytest -q
+
 # Fetch with a wider time window to guarantee results (7 days)
-python src/fetch.py --max-age-hours 168 --output /tmp/test_fetch.json
+# --no-dedup avoids touching the committed seen-URL registry
+python src/fetch.py --max-age-hours 168 --no-dedup --output /tmp/test_fetch.json
 
 # Inspect what was fetched
 python -c "
@@ -67,7 +82,7 @@ for a in d['areas']:
 "
 
 # Test a single area
-python src/fetch.py --area "Technology" --max-age-hours 168 --output /tmp/tech.json
+python src/fetch.py --area "Technology" --max-age-hours 168 --no-dedup --output /tmp/tech.json
 ```
 
 ### CLI reference
@@ -78,10 +93,13 @@ python src/fetch.py [OPTIONS]
 Options:
   --config PATH         Path to sources.yaml  [default: config/sources.yaml]
   --output PATH         Write JSON to file instead of stdout
-  --max-age-hours INT   Hours lookback window  [default: 24]
+  --max-age-hours INT   Force this window for ALL sources (overrides per-source/per-type config)
   --max-items INT       Max items per source  [default: 10]
   --area NAME           Fetch only this area (repeatable)
   --dry-run             Validate config and exit
+  --log PATH            Write Markdown run log to file
+  --seen-file PATH      Seen-URL registry for cross-run dedup  [default: data/seen_urls.json]
+  --no-dedup            Skip the seen-URL registry (use for local testing)
 ```
 
 ## Obsidian setup
@@ -93,24 +111,26 @@ Options:
 
 ## Digest format
 
-Each area produces one file per day: `digests/{folder}/YYYY-MM-DD.md`
+One file per day covering all areas: `digests/YYYY-MM-DD.md`. The full
+formatting and tone rules live in `prompts/digest-style.md`; in short:
 
 ```markdown
 ---
-date: 2026-06-04
-area: Technology
-tags: [digest, technology]
+date: 2026-06-10
+tags: [digest]
 ---
 
-# 💻 Technology Digest — June 4, 2026
+# Daily Digest — June 10, 2026
 
-> 8 items from 4 sources. Fetched at 10:02 UTC.
+---
 
-## 📰 Hacker News
+# 💻 Technology
 
-### [Article Title](https://link)
-*Published: June 4, 2026*
+> ⚠️ Netflix Tech Blog — no new items in window
 
+## Uber Engineering
+
+**[Article Title](https://link)**
 2-3 sentence synthesis of why this matters and what's interesting.
 ```
 
