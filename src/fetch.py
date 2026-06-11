@@ -8,6 +8,7 @@ Usage:
 import argparse
 import json
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -63,6 +64,35 @@ def load_config(config_path: str) -> dict:
     return cfg
 
 
+def _fetch_one_source(
+    src: dict, area_name: str, max_age: int, max_items: int
+) -> tuple[list[FetchedItem], list[dict]]:
+    src_type = src["type"]
+    src_name = src.get("name", src_type)
+    items: list[FetchedItem] = []
+    errors: list[dict] = []
+    try:
+        if src_type in ("rss", "podcast"):
+            items = fetch_rss(src["url"], src_name, source_type=src_type,
+                              max_age_hours=max_age, max_items=max_items)
+        elif src_type == "youtube":
+            items = fetch_youtube(src["channel_id"], src_name,
+                                  max_age_hours=max_age, max_items=max_items)
+        elif src_type == "website":
+            items = fetch_website(src["url"], src_name,
+                                  max_age_hours=max_age, max_items=max_items)
+        for item in items:
+            item["area_name"] = area_name
+        if not items:
+            errors.append({
+                "source_name": src_name,
+                "error": "No items returned (feed empty or all outside time window)",
+            })
+    except Exception as e:
+        errors.append({"source_name": src_name, "error": str(e)})
+    return items, errors
+
+
 def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
     if filter_areas and area["name"] not in filter_areas:
         return None
@@ -79,31 +109,16 @@ def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
         "errors": [],
     }
 
-    for src in area["sources"]:
-        src_type = src["type"]
-        src_name = src.get("name", src_type)
-        try:
-            if src_type in ("rss", "podcast"):
-                items = fetch_rss(src["url"], src_name, source_type=src_type,
-                                  max_age_hours=max_age, max_items=max_items)
-            elif src_type == "youtube":
-                items = fetch_youtube(src["channel_id"], src_name,
-                                      max_age_hours=max_age, max_items=max_items)
-            elif src_type == "website":
-                items = fetch_website(src["url"], src_name,
-                                      max_age_hours=max_age, max_items=max_items)
-            else:
-                items = []
-
-            for item in items:
-                item["area_name"] = area["name"]
+    max_workers = min(len(area["sources"]), 8)
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = [
+            pool.submit(_fetch_one_source, src, area["name"], max_age, max_items)
+            for src in area["sources"]
+        ]
+        for future in futures:  # preserve source order
+            items, errors = future.result()
             result["items"].extend(items)
-
-            if not items:
-                result["errors"].append({"source_name": src_name, "error": "No items returned (feed empty or all outside time window)"})
-
-        except Exception as e:
-            result["errors"].append({"source_name": src_name, "error": str(e)})
+            result["errors"].extend(errors)
 
     return result
 
