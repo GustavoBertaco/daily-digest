@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T12:43:23Z",
+  "fetched_at": "2026-06-13T11:31:24Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -13,106 +13,38 @@
       ],
       "items": [
         {
-          "title": "“Watch what Claude's going to do when you give it the AWS console”",
-          "url": "https://www.youtube.com/watch?v=tYQkg-RI5io",
-          "published": "2026-06-09T16:00:33+00:00",
-          "content_snippet": "Kelsey Hightower on The Pragmatic Engineer podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world",
-          "url": "https://medium.com/airbnb-engineering/scaling-beyond-one-how-airbnb-evolved-its-data-architecture-for-a-multi-product-world-6125645d470c?source=rss----53c7c27702d5---4",
-          "published": "2026-06-09T17:01:02+00:00",
-          "content_snippet": "How Airbnb’s data engineers and analytics engineers built a consistent and flexible data modeling framework to support the expansion into Homes, Experiences, and Services. By : Patrick Lam , Namrata Lamba , Jamie Stober With the May 2025 Summer Release, Airbnb redesigned its app, relaunched Experiences, and debuted Services, pushing us beyond our traditional Homes focus. For the data teams, this meant rapidly evolving a decade-old infrastructure to integrate two brand-new product pillars. Our da",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Apache Hudi™ at Uber: Engineering for Trillion-Record-Scale Data Lake Operations",
-          "url": "https://www.uber.com/blog/apache-hudi-at-uber/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "Apache Hudi™ at Uber: Engineering for Trillion-Record-Scale Data Lake Operations\nThe Foundation of Uber’s Data Platform\nUber operates one of the most diverse and demanding data ecosystems in the world. Every trip taken, order delivered, ad served, or real-time arrival time recalculated generates an unending stream of data. These data points come from hundreds of microservices, thousands of cities, and millions of riders, each with its own velocity, shape, and business-criticality. At the heart o",
+          "title": "Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security",
+          "url": "https://www.uber.com/blog/building-ubers-multi-cloud-secrets-management-platform/",
+          "published": "2026-06-13T00:00:00+00:00",
+          "content_snippet": "Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security\nSr Staff Engineer\nIntroduction\nAt Uber, we run over 5,000 microservices, 5,000 databases, and over 500,000 analytical jobs per day to support millions of people worldwide using our apps. Over 150,000 secrets facilitate authentication among these large, distributed ecosystems with multiple stakeholders. This also includes over 400 third-party vendor integrations and 400 SaaS applications.\nCyberattacks continue to rise ind",
           "source_name": "Uber Engineering",
           "source_type": "website",
           "area_name": "Technology"
         },
         {
-          "title": "Zero-Growth Stack, Real Gains: How Stack Allocation Can Save 10% CPU in Go",
-          "url": "https://www.uber.com/blog/zero-growth-stack/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "Zero-Growth Stack, Real Gains: How Stack Allocation Can Save 10% CPU in Go\nSr Staff Engineer\nIntroduction\nAt Uber, around 65% of our services run with Go®, which accounts for more than 2 million cores. Our current scale means that a 1% efficiency improvement across the board accounts for several million dollars. Today, we’re showcasing how we improved one service’s utilization by 10% and how we plan to replicate it.\nThe Go runtime employs several mechanisms to keep resource usage low (memory), b",
+          "title": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™",
+          "url": "https://www.uber.com/blog/high-performance-grpc/",
+          "published": "2026-06-13T00:00:00+00:00",
+          "content_snippet": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™\nStaff Software Engineer\nSoftware Engineer\nEngineering Manager\nIntroduction\nSearch underpins nearly every real-time experience at Uber: from matching riders and drivers, to fraud detection, to powering recommendations on Uber Eats. As these systems grew in traffic, payload size, and latency sensitivity, we hit a familiar industry limit: REST/JSON was no longer just slower—it was constraining how our search platform could",
           "source_name": "Uber Engineering",
           "source_type": "website",
           "area_name": "Technology"
         },
         {
-          "title": "The 5 Layers Every Cloud Commitment Depends On",
-          "url": "https://www.uber.com/blog/five-layers-cloud/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "The 5 Layers Every Cloud Commitment Depends On\nVP of Engineering\nIntroduction\nCommitting to a long-term hyperscale cloud commitment is a distributed systems problem with a ten-figure price tag. The act of committing to a cloud platform is the beginning of a massive engineering initiative, one that requires fluency in a set of technical domains that many organizations only discover after the ink is dry.\nA cloud commitment at this scale is like a construction project. The team that delivers it is ",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How Ansible® Automation Powers the Uber Corporate Network at a Global Scale",
-          "url": "https://www.uber.com/blog/ansible-automation-powers/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "How Ansible® Automation Powers the Uber Corporate Network at a Global Scale\nNetwork Engineer\nStaff Infrastructure Engineer\nIntroduction\nEnterprise networks must ensure seamless uptime while handling daily operational updates. At Uber, we maintain connectivity for all our offices spread across six continents (Asia, Africa, North America, South America, Europe, and Australia/Oceania), with thousands of engineers accessing it daily. Managing a network of this scale requires orchestrating cloud and ",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Hybrid Core Allocation: From Overallocation to Reliable Sharing",
-          "url": "https://www.uber.com/blog/hybrid-core-allocation/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "Hybrid Core Allocation: From Overallocation to Reliable Sharing\nSenior Software Engineer\nStaff Software Engineer\nIntroduction\nSome time ago, we introduced cpusets into Odin, Uber’s stateful container orchestration system. This change gives us stricter control over how CPU time is allocated, which helps cut down on throttling, and reduces latency, but comes at the cost of assigning full dedicated CPUs.\nFor years, our vertical CPU scaler operated under the assumptions that CPU usage could be accur",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management",
-          "url": "https://www.uber.com/blog/from-static-rate-limiting-to-intelligent-load-management/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "How Uber Conquered Database Overload: The Journey from Static Rate-Limiting to Intelligent Load Management\nIntroduction\nUber’s thousands of microservices handle traffic for over 170 million monthly active users: riders, Uber Eats users, drivers, and couriers. At the heart of this infrastructure are Docstore and Schemaless, Uber’s in-house distributed databases built on top of MySQL®. These databases span thousands of clusters, store tens of petabytes of operational data, and serve tens of millio",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Validating Bounding Box Annotations",
-          "url": "https://www.uber.com/blog/validating-bounding-box/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "Validating Bounding Box Annotations\nSoftware Engineering Intern\nMachine Learning Engineer II\nSenior Machine Learning Engineer\nIntroduction\nDespite advancements in open-source models, enterprises often require use-case-specific models to solve their unique business challenges. Training these models necessitates high-quality data, which is frequently collected via human annotations. While effective, these annotations often suffer from human errors, which affect model quality.\nUber AI Solutions pro",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Database Federation: Decentralized and ACL-Compliant Hive™ Databases",
-          "url": "https://www.uber.com/blog/database-federation/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "Database Federation: Decentralized and ACL-Compliant Hive™ Databases\nIntroduction\nOne of Uber’s data warehouses powering the Delivery business outgrew its original design. More than 16,000 Hive datasets and 10 petabytes from multiple business domains lived inside a single, monolithic database—owned and operated by a centralized delivery Data Solutions team. While this one-big-bucket setup once simplified onboarding and discovery, scale and organizational growth turned the same design into a liab",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How Uber Built an Agentic System to Automate Design Specs in Minutes",
-          "url": "https://www.uber.com/blog/automate-design-specs/",
-          "published": "2026-06-12T00:00:00+00:00",
-          "content_snippet": "How Uber Built an Agentic System to Automate Design Specs in Minutes\nIntroduction\nThe Uber Base design system serves thousands of engineers, and every component they ship depends on specs that are accurate, complete, and current. When those specs fall behind, engineering builds from assumptions instead of definitions, which causes inconsistencies and tech debt. At that scale, documentation becomes a dedicated workstream that still struggles to keep pace. This blog describes how Uber’s design sys",
+          "title": "Evolution and Scale of Uber’s Delivery Search Platform",
+          "url": "https://www.uber.com/blog/evolution-and-scale-of-ubers-delivery-search-platform/",
+          "published": "2026-06-13T00:00:00+00:00",
+          "content_snippet": "Evolution and Scale of Uber’s Delivery Search Platform\nIntroduction\nSearch is a primary discovery funnel for Uber Eats: a large share of orders start with people typing into the search bar to find stores, dishes, and grocery items. Strong search directly translates into higher conversion, better basket quality, and faster time-to-order—especially for long-tail queries, new or seasonal items, and multilingual markets. When search misses intent, people bounce or fall back to browsing. When it unde",
           "source_name": "Uber Engineering",
           "source_type": "website",
           "area_name": "Technology"
         }
       ],
       "errors": [
+        {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Netflix Tech Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -144,65 +76,11 @@
       ],
       "items": [
         {
-          "title": "The IPO Process Favors Banks | Bill Gurley",
-          "url": "https://www.youtube.com/watch?v=LLW99xg_hLY",
-          "published": "2026-06-11T19:00:04+00:00",
-          "content_snippet": "\"I think it is insanely unfair to the companies, the way they're forced to go through this process.” The IPO process takes from companies and gives to bankers. Bill Gurley pushed for direct listings, but Wall Street chose to build a “controlled oligopoly.” Full conversation with Bill Gurley linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Websi",
+          "title": "This is what product-market fit feels like | Mark Pincus",
+          "url": "https://www.youtube.com/watch?v=4HBslgqRbxI",
+          "published": "2026-06-12T20:00:01+00:00",
+          "content_snippet": "When you find true signal around an idea, you just know it. Like being in love. Zynga founder Mark Pincus calls this approach “finding heat.” He bet on social gaming, and soon had 20% of Facebook users playing Farmville. Full conversation linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsl",
           "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "If Learning the Greats Sounds Tedious, You’re Not in the Right Lane | Bill Gurley",
-          "url": "https://www.youtube.com/watch?v=6BNgNtNnJbE",
-          "published": "2026-06-10T19:00:02+00:00",
-          "content_snippet": "If learning the history of your field sounds tedious, this isn’t the right lane for you. Wanting to know the history signals your passion. New episode of The Knowledge Project linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conv",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why writing is your calling card | Bill Gurley",
-          "url": "https://www.youtube.com/watch?v=irrJIu8r_ik",
-          "published": "2026-06-09T19:00:02+00:00",
-          "content_snippet": "Telling a great story is your calling card. Bill Gurley speaks to how writing forces clearer thinking — new episode of The Knowledge Project linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, invest",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Mental Models That Change How You Think | Bill Gurley",
-          "url": "https://www.youtube.com/watch?v=yBBhd0-Os74",
-          "published": "2026-06-09T10:00:30+00:00",
-          "content_snippet": "Bill Gurley spent years on Wall Street, built his career as a partner at Benchmark, worked through Uber’s hypergrowth era, and now serves on the board of the Santa Fe Institute, where he studies complexity and systems thinking. In this episode, Bill shares the mental models he returns to most, including systems thinking, second- and third-order effects, and the importance of understanding both the bedrock of your field and the bleeding edge. He explains what separates great founders, why storyte",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Ask These 2 Questions Before You Start",
-          "url": "https://www.youtube.com/watch?v=Ts4AmJS4TCw",
-          "published": "2026-06-11T13:00:26+00:00",
-          "content_snippet": "Discipline gets the credit. Meaning does the work. The strongest focus rarely comes from better apps or blockers. It comes from a clear answer to why the work matters in the first place. #DanielPink #Focus #DeepWork #Purpose -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Laugh At YOURSELF",
-          "url": "https://www.youtube.com/watch?v=mKo_ql-od3g",
-          "published": "2026-06-09T13:00:37+00:00",
-          "content_snippet": "Self-deprecation is a tool. Like any tool, use it on the wrong job and it makes things worse. The research comes from Cheng and colleagues at Stanford. The mechanism is simple: laughter reads as confidence when the stakes are low, and as indifference when they're high. #DanielPink #SocialIntelligence #EmotionalIntelligence #Psychology -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Perspective Taking",
-          "url": "https://www.youtube.com/watch?v=zQd8CadWmWw",
-          "published": "2026-06-09T12:29:04+00:00",
-          "content_snippet": "Perspective-taking isn't about agreement but accuracy. The people who need it most, the ones with the most power, are the ones who've practiced it least. Fun Fact: Adam Galinsky ran a 2006 study where he primed participants with power, then asked them to draw the letter E on their forehead. The high-power group drew it readable to themselves. The low-power group drew it readable to others. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -253,226 +131,82 @@
       ],
       "items": [
         {
-          "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
-          "published": "2026-06-11T20:10:00+00:00",
-          "content_snippet": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying compute environment, log snippets, and trace details in one place, making it easier to find root causes without switching tools. Customers use Application Signals to monitor the health of distributed applications, but identifying why a service",
+          "title": "Amazon Lightsail is now available in three additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
+          "published": "2026-06-12T20:43:00+00:00",
+          "content_snippet": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia, South America, and Europe. With this launch, customers in these geographical regions can now enjoy lower latency and better performance for their applications while meeting local data residency requirements. The new Regions provide access to L",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora now supports PostgreSQL major version 18",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
-          "published": "2026-06-11T18:59:00+00:00",
-          "content_snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new extension that performs fast, memory-efficient set operations on large collections of integers. This enables use cases such as audience segmentation, tag-based filtering, and permission checks directly in the database without application-layer pr",
+          "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+          "published": "2026-06-12T17:00:00+00:00",
+          "content_snippet": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
-          "published": "2026-06-11T17:00:00+00:00",
-          "content_snippet": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their environments. With this launch, customers can view CloudWatch log events without leaving the Elastic Beanstalk console. The Logs tab displays log groups that an environment streams logs to, as well as log groups matching the aws/elasticbeanst",
+          "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+          "published": "2026-06-12T16:00:00+00:00",
+          "content_snippet": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performan",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
-          "published": "2026-06-11T17:00:00+00:00",
-          "content_snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge , enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows. Previously, monitoring workflow execution required custom polling logic or manual observation. With this launch, MWAA Serverless can emit events when workflows transition between states, including started, running, succeeded, or failed, and when ind",
+          "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+          "published": "2026-06-12T14:00:00+00:00",
+          "content_snippet": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-thr",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
-          "published": "2026-06-11T13:00:00+00:00",
-          "content_snippet": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
-          "published": "2026-06-11T13:00:00+00:00",
-          "content_snippet": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside strict chronological order. You can adjust this window to match your ingestion patterns or set it to 0 to disable the feature and discard out-of-order samples. You can also configure a global rule query offset that introduces a delay before rule",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Unlocking semantics for AI: How Mercedes-Benz Korea built trusted “Talk to Data” at scale",
-          "url": "https://www.databricks.com/blog/unlocking-semantics-ai-how-mercedes-benz-korea-built-trusted-talk-data-scale",
-          "published": "2026-06-11T21:40:47+00:00",
-          "content_snippet": "“Talk to Data” is rapidly becoming an important capability across industries, and...",
+          "title": "From Wall Street to Data Platforms",
+          "url": "https://www.databricks.com/blog/wall-street-data-platforms",
+          "published": "2026-06-13T00:30:00+00:00",
+          "content_snippet": "Brickster Voices is a series that spotlights the people who make our work possible. Through personal career journeys...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Forward Deployed Engineering: Delivering Business Outcomes with AI",
-          "url": "https://www.databricks.com/blog/forward-deployed-engineering-delivering-business-outcomes-ai",
-          "published": "2026-06-11T21:06:05+00:00",
-          "content_snippet": "Over the past few years, increasingly customers have shifted from asking “help us...",
+          "title": "Enabling Evolutionary Database Development: Database branching with Lakebase, the conclusion",
+          "url": "https://www.databricks.com/blog/enabling-evolutionary-database-development-database-branching-lakebase-part-3",
+          "published": "2026-06-12T17:05:00+00:00",
+          "content_snippet": "The methodology described in Evolutionary Database Design and operationalized in Refactoring Databases: ...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Ingesting the Milky Way: Petabyte-Scale with Zerobus Ingest",
-          "url": "https://www.databricks.com/blog/ingesting-milky-way-petabyte-scale-zerobus-ingest",
-          "published": "2026-06-11T19:45:26+00:00",
-          "content_snippet": "Telemetry data is everywhere. IoT sensors on factory floors. Satellite arrays scanning...",
+          "title": "Talk to all your data, wherever it lives",
+          "url": "https://www.databricks.com/blog/talk-all-your-data-wherever-it-lives",
+          "published": "2026-06-12T09:51:30+00:00",
+          "content_snippet": "Agentic AI has created demand for cross-source reasoning that didn't exist 12 months ago...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How ERGO Hestia reduced time-to-market with Lakebase and Mosaic AI Model Serving",
-          "url": "https://www.databricks.com/blog/how-ergo-hestia-reduced-time-market-lakebase-and-mosaic-ai-model-serving",
-          "published": "2026-06-11T19:15:00+00:00",
-          "content_snippet": "Building the Next Generation of Real-Time PricingERGO Hestia, one of Poland's leading...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Welcoming the first cohort of Databricks student fellows",
-          "url": "https://www.databricks.com/blog/welcoming-first-cohort-databricks-student-fellows",
-          "published": "2026-06-11T18:00:00+00:00",
-          "content_snippet": "Welcoming the Inaugural Cohort of Databricks Student FellowsApplications are now open for the Databricks Student Fellows...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Geospatial Unbounded: Spatial SQL GA with AI/BI Maps, Delta Sharing, and Iceberg v3",
-          "url": "https://www.databricks.com/blog/geospatial-unbounded-spatial-sql-ga-aibi-maps-delta-sharing-and-iceberg-v3",
-          "published": "2026-06-11T17:06:38+00:00",
-          "content_snippet": "A hurricane is forming in the Florida Gulf. As an insurer, you need to answer key...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Azure Databricks at Data + AI Summit 2026 featuring Industry Leaders and Partners",
-          "url": "https://www.databricks.com/blog/azure-databricks-data-ai-summit-2026-featuring-industry-leaders-and-partners",
-          "published": "2026-06-11T17:00:16+00:00",
-          "content_snippet": "This is a collaborative post from Databricks and Microsoft. We thank Jason Pereira,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Empower your healthcare agents with ready-to-use MCP on Databricks Marketplace",
-          "url": "https://www.databricks.com/blog/empower-your-healthcare-agents-ready-use-mcp-databricks-marketplace",
-          "published": "2026-06-11T15:06:06+00:00",
-          "content_snippet": "While there holds great promise for AI agents to transform the healthcare industry, for agents to be successful...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Ecolab rebuilt retail intelligence on Databricks and Anthropic Claude",
-          "url": "https://www.databricks.com/blog/how-ecolab-rebuilt-retail-intelligence-databricks-and-anthropic-claude",
-          "published": "2026-06-11T14:44:00+00:00",
-          "content_snippet": "When a store manager at a major food retailer needs to know the correct hot holding temperature for a rotisserie chicken...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Preply combines AI and human tutors to personalize learning",
-          "url": "https://www.youtube.com/watch?v=-Jm-Bf3g9r8",
-          "published": "2026-06-12T09:53:26+00:00",
-          "content_snippet": "What happens when one of the world's largest language-learning platforms combines human expertise with AI? In this customer story, Preply shares how it's using OpenAI to create more personalized learning experiences for learners around the world—while giving tutors more time to focus on teaching, motivation, and human connection. Hear from Preply's Co-founder & CTO, Dmytro Voloshyn, Staff Product Manager, Emily Stott, and tutor Michelle Garcia Ramos as they discuss how AI is transforming languag",
+          "title": "Analyze earnings and update your investment thesis with Codex",
+          "url": "https://www.youtube.com/watch?v=Rlju1Z9e110",
+          "published": "2026-06-12T20:36:47+00:00",
+          "content_snippet": "See how the public equity investing plugin for Codex turns a company’s latest quarter into a post-earnings analysis. Using connected data from sources like Quartr, Daloopa, and S&P Global, Codex evaluates a company’s growth drivers, guidance, margin trends, and quality of print. It then packages the analysis into bull, base, and bear cases, a monitoring checklist, and can create detailed Excel workbooks or presentation-ready PowerPoint decks. More than 5 million people now use Codex every week, ",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Debug web apps with browser use in Codex",
-          "url": "https://www.youtube.com/watch?v=bhgYFRZLyKI",
-          "published": "2026-06-12T00:15:38+00:00",
-          "content_snippet": "Codex can now use the Chrome DevTools Protocol (CDP) in Browser Use to inspect console logs, runtime errors, local storage, applied styling, network traffic, and performance profiles while working on web applications. In this demo, Codex investigates a slow chat app by profiling interactions and inspecting network requests, then fixes the issues and supports the changes with clear measurements. To use this functionality, enable Developer mode in the Browser settings of your Codex app and approve",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Codex for Creatives: Riff, Design, Ship",
-          "url": "https://www.youtube.com/watch?v=K6wxZOqD-HY",
-          "published": "2026-06-11T21:28:51+00:00",
-          "content_snippet": "“Codex is an art director or a creative director for me, helping me riff on ideas,” - Chad Nelson, creative specialist at OpenAI. Don’t sleep on Codex for creatives. It understands brand books, style guides, fonts, composition and can create ship-worthy full funnel campaign visuals in a few hours. Put Codex to work. Tell us what you create. https://lnkd.in/dnxrM282",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Life Near OpenAI's Stargate Project",
-          "url": "https://www.youtube.com/watch?v=6QoMzZ8FdTA",
-          "published": "2026-06-11T20:58:53+00:00",
-          "content_snippet": "For more than 40 years, Tom and Lisa Perini have welcomed visitors to their ranch and restaurant in Buffalo Gap, Texas, just outside Abilene. As new investment and AI infrastructure arrive in the region, they've seen firsthand how growth can create new opportunities for local businesses while raising important questions about preserving the character of rural communities. In this conversation, the Perinis reflect on what makes their community special, why they believe small towns need opportunit",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Customer Ignite Talk: Antonio Bravo Acin (Global Head of AI Transformation, BBVA) & OpenAI",
-          "url": "https://www.youtube.com/watch?v=UNJSk90Lz1c",
-          "published": "2026-06-11T19:51:04+00:00",
-          "content_snippet": "",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Build sales account strategies and outreach with Codex",
-          "url": "https://www.youtube.com/watch?v=4YkOAYNZVOQ",
-          "published": "2026-06-11T19:24:28+00:00",
-          "content_snippet": "See how the sales plugin for Codex helps sales teams move from account context to seller-ready work. In this demo, Codex prioritizes prospect accounts from Salesforce, creates a prospecting plan, drafts account-specific outreach, and sets up a morning cadence to keep the plan updated when account status changes. More than 5 million people now use Codex every week, with sellers, marketers, operators, designers, researchers, investors, and bankers among the fastest-growing users. Learn more: https",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Creating black hole simulations with Codex",
-          "url": "https://www.youtube.com/watch?v=4XSI4SClBMA",
-          "published": "2026-06-11T16:14:47+00:00",
-          "content_snippet": "To learn more about black holes, computational astrophysicist Chi-kwan “CK” Chan is working to create the first moving image of one. CK creates simulations and compares them to observational data gathered at telescopes – but these don’t always match up. CK creates simulations and compares them to observational data gathered at telescopes – but these don’t always match up. So he uses Codex to generate new algorithms to test. It would normally take him ten days to create ten new algorithms. With C",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Training to cycle across Antarctica | with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=ACue0bPkrPs",
-          "published": "2026-06-11T15:59:45+00:00",
-          "content_snippet": "In November, @jamesbensonking will attempt to become the first person to cycle solo and unsupported from the edge of Antarctica to the South Pole, a journey that could take up to 60 days. But for James, the real challenge begins long before he sets foot or wheel on the ice. With no existing blueprint to follow, James uses ChatGPT to build and refine his training in real time, bringing together multiple disciplines, logging ideas, and troubleshooting problems as they arise. Follow James’ journey ",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Create campaign concepts and assets with Codex",
-          "url": "https://www.youtube.com/watch?v=2ey7znf8SI0",
-          "published": "2026-06-10T17:15:03+00:00",
-          "content_snippet": "See how the creative production plugin for Codex helps marketing teams move from product and campaign context to visual concepts, asset variations, and editable creative. In this demo, Codex creates a campaign mood board, refines visual directions, generates a launch asset, and hands it off for final edits. More than 5 million people now use Codex every week, with marketers, creators, operators, designers, researchers, investors, and bankers among the fastest-growing users. Learn more: https://o",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Codex for Finance: Faster Reports, Dashboards, and Decisions",
-          "url": "https://www.youtube.com/watch?v=IEYU-CgLo3E",
-          "published": "2026-06-09T21:42:40+00:00",
-          "content_snippet": "“Codex is essential in our finance workflows today. It's not just a niche tool for coding,” Wei Loke, Enterprise Platforms and Technology. Wei leads AI initiatives across the finance org and sees our OpenAI teams leveraging Codex to build: ✅ Internal apps across procurement and accounting ✅ Slides and memos ✅ Month-end executive reports ✅ Custom dashboards for vendor-rich reviews ✅ Journal entry preparation support What will you build? Codex is for every role, tool and workflow: https://lnkd.in/",
+          "title": "From data to decisions: how LSEG is scaling trusted AI",
+          "url": "https://www.youtube.com/watch?v=sU9-u5p-jA0",
+          "published": "2026-06-12T16:24:47+00:00",
+          "content_snippet": "What happens when one of the world's leading financial markets infrastructure and data providers combines trusted market intelligence with AI? In this customer story, LSEG shares how it's using ChatGPT Enterprise and OpenAI APIs to accelerate insight generation, speed up product innovation, and help employees and customers make better decisions with confidence. Hear from Emily Prince, Group Head of Enterprise AI, and Max Grigoryev, Group Director AI Products, as they discuss scaling AI responsib",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -503,91 +237,9 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
-          "url": "https://www.youtube.com/watch?v=iUWwcG-C8OU",
-          "published": "2026-06-11T18:00:06+00:00",
-          "content_snippet": "Every business question that needs SQL follows the same loop: explain the question, wait for an engineer, get an answer, realize it needs one more join, share a one-off in Slack, repeat. Garrett Galow from WorkOS built Studio to break that loop — an internal workspace where anyone can ask questions against Snowflake, Linear, and Notion in natural language and get answers or reusable widgets without filing a request. The widgets are the interesting part: the LLM writes them once as declarative Ja",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
-          "url": "https://www.youtube.com/watch?v=ghJmWQCIHRM",
-          "published": "2026-06-11T16:00:06+00:00",
-          "content_snippet": "Buying two concert tickets costs an AI agent the entire DOM, the accessibility tree, a screenshot, pixel coordinate math, and then a click that might miss because an ad just loaded and shifted the layout. Tara Agyemang from the Google Chrome team introduces WebMCP, a proposed web standard that replaces that process with structured tools: instead of guessing what your site does, agents get a menu of named, typed, described actions they can call directly. The talk covers two implementation paths. ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to Keep Shipping When You Walk Away from Your Desk — Zack Proser, WorkOS",
-          "url": "https://www.youtube.com/watch?v=so9l_MwS2yg",
-          "published": "2026-06-11T14:00:06+00:00",
-          "content_snippet": "Simon Willison fires up four parallel agents and is wiped out by 11am. That is the problem Zack Proser is solving: not that the tools are too slow but that human attention is still the hard constraint. His loop: voice brief at 184 words per minute, agent dispatched to an isolated git worktree, laptop closed, progress checked from a phone on LTE miles away via remote control. The talk covers four layers that make this sustainable: signal agents that read Slack and Linear on a loop so you never op",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawdord, Snorkel",
-          "url": "https://www.youtube.com/watch?v=TNwJ1LMiENk",
-          "published": "2026-06-10T17:00:25+00:00",
-          "content_snippet": "Qwen 3 235B was asked for YouTube's year over year ad revenue growth from 2023 to 2024. It queried a table that didn't exist, tried again, got nothing back both times, and hallucinated an answer. The 4B model Snorkel finetuned with RL called `get_table_name` first, inspected the schema, ran a query, hit a column error, self-corrected, and got the right answer. The training run cost under $500. Kobe Crawford covers why tool discipline matters more than reasoning depth for this class of tasks, how",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=SS-A8sE7hkw",
-          "published": "2026-06-10T15:00:06+00:00",
-          "content_snippet": "Gemma 4's 31B model sits fourth on the LM Arena open model leaderboard. The models around it are at least twice as large; some are 20 times larger. It runs on a single GPU. Competitors at comparable quality need four or five. Ian Ballantyne and Gus Martins walk through what that size efficiency unlocks: running on a Pixel phone (the E2B and E4B models use 2B and 4B of GPU memory despite having more parameters), deploying a medical variant on two GPUs for an entire hospital, and running parallel ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
-          "url": "https://www.youtube.com/watch?v=zMiSRliEzv4",
-          "published": "2026-06-10T13:00:17+00:00",
-          "content_snippet": "A rage click, a 2am error spike, a customer Slack message — today each sits until a developer notices, triages, tickets, and writes a fix. PostHog is building a pipeline that collapses that chain: signal arrives, a background agent groups it with related errors and session replays, researches the codebase, and opens a PR. You wake up to green PRs instead of dashboards. Three lessons from building it: off the shelf embedding models cluster signals by structural similarity rather than meaning, so ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
-          "url": "https://www.youtube.com/watch?v=zDGHt0LB-dA",
-          "published": "2026-06-09T18:15:10+00:00",
-          "content_snippet": "The iteration cycle before Flash: commit, push, build a Docker image, pull it from the registry, load it onto a server, allocate a GPU, then find out if it works. Audrey Hsu demos what replacing that with a single decorator looks like — add `@flash.endpoint` to an async Python function and it deploys to GPU cloud from your IDE, with hot reload so a model swap is one line of code rather than a container rebuild. The second demo chains three models: Qwen 3 generates image prompts, DreamShaper rend",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
-          "url": "https://www.youtube.com/watch?v=UM6sFg_jdlE",
-          "published": "2026-06-09T17:00:27+00:00",
-          "content_snippet": "Cursor added semantic search and measured a 24% increase in answer accuracy on their composer model, a 2.6% gain in code retention in large codebases, and a 2.2% drop in dissatisfied user requests. Those numbers look small until you factor in that semantic search does not fire on every query. Meanwhile Google search volume for RAG hit a new inflection point in mid 2025 and went through the roof. The Twitter \"RAG is dead\" discourse and the actual usage curve are moving in opposite directions. Kub",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=Bc6Ojl2XS1w",
-          "published": "2026-06-09T16:33:12+00:00",
-          "content_snippet": "One API call to Gemini 3 Flash Preview: speaker labels by name, timestamps, emotion tags, language detection with English translation, and a full summary. That is the audio understanding layer that underlies everything else Thor Schaeff demos here, including speech generation directed by a \"director's note\" rather than picked from a catalogue, and Gemini 3.1 Flash Live, a sound to sound real time multimodal model with thinking baked in rather than cascaded through a separate LLM. The talk ends w",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": []
     }
   ],
-  "deduped_count": 0
+  "deduped_count": 25
 }
