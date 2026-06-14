@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T11:31:24Z",
+  "fetched_at": "2026-06-14T11:46:00Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -11,35 +11,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security",
-          "url": "https://www.uber.com/blog/building-ubers-multi-cloud-secrets-management-platform/",
-          "published": "2026-06-13T00:00:00+00:00",
-          "content_snippet": "Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security\nSr Staff Engineer\nIntroduction\nAt Uber, we run over 5,000 microservices, 5,000 databases, and over 500,000 analytical jobs per day to support millions of people worldwide using our apps. Over 150,000 secrets facilitate authentication among these large, distributed ecosystems with multiple stakeholders. This also includes over 400 third-party vendor integrations and 400 SaaS applications.\nCyberattacks continue to rise ind",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™",
-          "url": "https://www.uber.com/blog/high-performance-grpc/",
-          "published": "2026-06-13T00:00:00+00:00",
-          "content_snippet": "Accelerating Search and Ingestion with High-Performance gRPC™ in OpenSearch™\nStaff Software Engineer\nSoftware Engineer\nEngineering Manager\nIntroduction\nSearch underpins nearly every real-time experience at Uber: from matching riders and drivers, to fraud detection, to powering recommendations on Uber Eats. As these systems grew in traffic, payload size, and latency sensitivity, we hit a familiar industry limit: REST/JSON was no longer just slower—it was constraining how our search platform could",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Evolution and Scale of Uber’s Delivery Search Platform",
-          "url": "https://www.uber.com/blog/evolution-and-scale-of-ubers-delivery-search-platform/",
-          "published": "2026-06-13T00:00:00+00:00",
-          "content_snippet": "Evolution and Scale of Uber’s Delivery Search Platform\nIntroduction\nSearch is a primary discovery funnel for Uber Eats: a large share of orders start with people typing into the search bar to find stores, dishes, and grocery items. Strong search directly translates into higher conversion, better basket quality, and faster time-to-order—especially for long-tail queries, new or seasonal items, and multilingual markets. When search misses intent, people bounce or fall back to browsing. When it unde",
-          "source_name": "Uber Engineering",
-          "source_type": "website",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Pragmatic Engineer",
@@ -76,11 +48,11 @@
       ],
       "items": [
         {
-          "title": "This is what product-market fit feels like | Mark Pincus",
-          "url": "https://www.youtube.com/watch?v=4HBslgqRbxI",
-          "published": "2026-06-12T20:00:01+00:00",
-          "content_snippet": "When you find true signal around an idea, you just know it. Like being in love. Zynga founder Mark Pincus calls this approach “finding heat.” He bet on social gaming, and soon had 20% of Facebook users playing Farmville. Full conversation linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsl",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "Why Finishing Feels Worse Than Starting",
+          "url": "https://www.youtube.com/watch?v=2zyIZV-M8mc",
+          "published": "2026-06-13T13:00:03+00:00",
+          "content_snippet": "The last part of a boring task often feels the worst. Not because it changed, but because your brain notices how much you’ve already endured. Zoom out and the task shrinks. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -131,88 +103,20 @@
       ],
       "items": [
         {
-          "title": "Amazon Lightsail is now available in three additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
-          "published": "2026-06-12T20:43:00+00:00",
-          "content_snippet": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia, South America, and Europe. With this launch, customers in these geographical regions can now enjoy lower latency and better performance for their applications while meeting local data residency requirements. The new Regions provide access to L",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-          "published": "2026-06-12T17:00:00+00:00",
-          "content_snippet": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
-          "published": "2026-06-12T16:00:00+00:00",
-          "content_snippet": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performan",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
-          "published": "2026-06-12T14:00:00+00:00",
-          "content_snippet": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-thr",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "From Wall Street to Data Platforms",
-          "url": "https://www.databricks.com/blog/wall-street-data-platforms",
-          "published": "2026-06-13T00:30:00+00:00",
-          "content_snippet": "Brickster Voices is a series that spotlights the people who make our work possible. Through personal career journeys...",
+          "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
+          "url": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
+          "published": "2026-06-13T15:00:00+00:00",
+          "content_snippet": "At Databricks, we use and build agents extensively, from coding with them at scale...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Enabling Evolutionary Database Development: Database branching with Lakebase, the conclusion",
-          "url": "https://www.databricks.com/blog/enabling-evolutionary-database-development-database-branching-lakebase-part-3",
-          "published": "2026-06-12T17:05:00+00:00",
-          "content_snippet": "The methodology described in Evolutionary Database Design and operationalized in Refactoring Databases: ...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Talk to all your data, wherever it lives",
-          "url": "https://www.databricks.com/blog/talk-all-your-data-wherever-it-lives",
-          "published": "2026-06-12T09:51:30+00:00",
-          "content_snippet": "Agentic AI has created demand for cross-source reasoning that didn't exist 12 months ago...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Analyze earnings and update your investment thesis with Codex",
-          "url": "https://www.youtube.com/watch?v=Rlju1Z9e110",
-          "published": "2026-06-12T20:36:47+00:00",
-          "content_snippet": "See how the public equity investing plugin for Codex turns a company’s latest quarter into a post-earnings analysis. Using connected data from sources like Quartr, Daloopa, and S&P Global, Codex evaluates a company’s growth drivers, guidance, margin trends, and quality of print. It then packages the analysis into bull, base, and bear cases, a monitoring checklist, and can create detailed Excel workbooks or presentation-ready PowerPoint decks. More than 5 million people now use Codex every week, ",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "From data to decisions: how LSEG is scaling trusted AI",
-          "url": "https://www.youtube.com/watch?v=sU9-u5p-jA0",
-          "published": "2026-06-12T16:24:47+00:00",
-          "content_snippet": "What happens when one of the world's leading financial markets infrastructure and data providers combines trusted market intelligence with AI? In this customer story, LSEG shares how it's using ChatGPT Enterprise and OpenAI APIs to accelerate insight generation, speed up product innovation, and help employees and customers make better decisions with confidence. Hear from Emily Prince, Group Head of Enterprise AI, and Max Grigoryev, Group Director AI Products, as they discuss scaling AI responsib",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
