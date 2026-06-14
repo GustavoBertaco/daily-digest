@@ -1,0 +1,44 @@
+name: Protect digests
+
+# digests/ is append-only. This check fails a PR that deletes (or renames
+# away) any existing file under digests/. To intentionally remove a file,
+# add the "allow-digest-deletion" label to the PR.
+#
+# No `paths:` filter on purpose: if this is a required status check, a paths
+# filter would leave PRs that don't touch digests/ waiting forever for a run
+# that never starts. Running always (and passing fast) avoids that deadlock.
+
+on:
+  pull_request:
+
+jobs:
+  no-deletions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fail if any digest file is deleted
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+          ALLOW: ${{ contains(github.event.pull_request.labels.*.name, 'allow-digest-deletion') }}
+        run: |
+          set -euo pipefail
+          # --no-renames so a move/rename of a digest shows the old path as a
+          # deletion (D); three-dot compares against the merge-base, i.e. only
+          # the changes this PR actually introduces.
+          deleted=$(git diff --no-renames --name-only --diff-filter=D "$BASE...$HEAD" -- digests/)
+          if [ -z "$deleted" ]; then
+            echo "No digest files deleted. OK."
+            exit 0
+          fi
+          echo "This PR would delete the following append-only digest files:"
+          echo "$deleted" | sed 's/^/  - /'
+          if [ "$ALLOW" = "true" ]; then
+            echo "Label 'allow-digest-deletion' is present — deletion allowed."
+            exit 0
+          fi
+          echo "::error::digests/ is append-only. To delete intentionally, add the 'allow-digest-deletion' label to this PR."
+          exit 1
