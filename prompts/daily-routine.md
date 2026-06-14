@@ -25,6 +25,9 @@ intelligence lives in this repo's agent and prompt files.
 
 4. Invoke the **digest-writer** subagent to draft `digests/YYYY-MM-DD.md` from
    `data/latest_fetch.json`, passing the staleness flag if applicable.
+   Note: writer and editor use `WebFetch` to draft/verify `insight`-style areas
+   from the live article, so this run needs outbound network access. If fetches
+   are blocked, `insight` items degrade to brief summaries from the snippet.
 
 5. Invoke the **digest-editor** subagent on the draft. It edits in place and
    reports PASS or a list of corrections.
