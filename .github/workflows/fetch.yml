@@ -5,6 +5,11 @@ on:
     - cron: '45 9 * * *'
   workflow_dispatch:
 
+# Prevent a manual run from racing the scheduled run on the shared push.
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -26,9 +31,15 @@ jobs:
 
       - name: Commit and push
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest_fetch.json data/seen_urls.json logs/latest_run.md
-          git diff --cached --quiet || git commit -m "chore: fetch content $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          # Bot commits are intentionally unsigned (see CLAUDE.md signing exception).
+          git commit -m "chore: fetch content $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash
           git push
