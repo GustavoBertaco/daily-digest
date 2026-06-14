@@ -1,0 +1,149 @@
+{
+  "fetched_at": "2026-06-14T11:46:00Z",
+  "max_age_hours": 26,
+  "areas": [
+    {
+      "name": "Technology",
+      "emoji": "💻",
+      "folder": "Tech",
+      "tags": [
+        "digest",
+        "technology",
+        "software"
+      ],
+      "items": [],
+      "errors": [
+        {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "Product Management",
+      "emoji": "🗂️",
+      "folder": "ProductManagement",
+      "tags": [
+        "digest",
+        "product-management"
+      ],
+      "items": [],
+      "errors": []
+    },
+    {
+      "name": "Personal Development",
+      "emoji": "🧠",
+      "folder": "PersonalDev",
+      "tags": [
+        "digest",
+        "personal-development"
+      ],
+      "items": [
+        {
+          "title": "Why Finishing Feels Worse Than Starting",
+          "url": "https://www.youtube.com/watch?v=2zyIZV-M8mc",
+          "published": "2026-06-13T13:00:03+00:00",
+          "content_snippet": "The last part of a boring task often feels the worst. Not because it changed, but because your brain notices how much you’ve already endured. Zoom out and the task shrinks. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Data Platform",
+      "emoji": "🗄️",
+      "folder": "DataPlatform",
+      "tags": [
+        "digest",
+        "data-platform",
+        "data-engineering"
+      ],
+      "items": [],
+      "errors": [
+        {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Data Mesh Learning",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "Providers Updates",
+      "emoji": "🚀",
+      "folder": "ProvidersUpdates",
+      "tags": [
+        "digest",
+        "providers",
+        "launches",
+        "aws",
+        "openai",
+        "anthropic",
+        "databricks"
+      ],
+      "items": [
+        {
+          "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
+          "url": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
+          "published": "2026-06-13T15:00:00+00:00",
+          "content_snippet": "At Databricks, we use and build agents extensively, from coding with them at scale...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "🤖",
+      "folder": "AI",
+      "tags": [
+        "digest",
+        "ai",
+        "machine-learning",
+        "llm"
+      ],
+      "items": [],
+      "errors": []
+    }
+  ],
+  "deduped_count": 25
+}
