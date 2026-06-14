@@ -1,0 +1,21 @@
+# Dependabot keeps dependencies patched — the largest real attack surface here is
+# supply chain (feedparser/trafilatura/youtube-transcript-api parse remote input).
+version: 2
+updates:
+  # Python runtime + dev dependencies
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      python-deps:
+        patterns:
+          - "*"
+
+  # GitHub Actions versions (catches actions pinned to outdated/yanked tags)
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
