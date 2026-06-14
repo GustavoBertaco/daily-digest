@@ -1,4 +1,6 @@
+import json
 import sys
+from datetime import datetime, timezone
 
 import feedparser
 import trafilatura
@@ -62,6 +64,104 @@ def _article_links(html: str, base_url: str, limit: int = 15) -> list[str]:
             if len(links) >= limit:
                 break
     return links
+
+
+def _parse_dt(value: str) -> datetime | None:
+    """Parse a date string into a tz-aware UTC datetime, or None on failure."""
+    try:
+        dt = dateparser.parse(value)
+    except (ValueError, OverflowError, TypeError):
+        return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def _jsonld_date(data) -> datetime | None:
+    """Walk a JSON-LD blob (dict, list, or @graph) for a datePublished value."""
+    if isinstance(data, list):
+        for item in data:
+            dt = _jsonld_date(item)
+            if dt:
+                return dt
+        return None
+    if isinstance(data, dict):
+        if "@graph" in data:
+            dt = _jsonld_date(data["@graph"])
+            if dt:
+                return dt
+        val = data.get("datePublished")
+        if isinstance(val, str):
+            return _parse_dt(val)
+    return None
+
+
+# Meta tags publishers set explicitly to mark publication time, in priority order.
+_PUBLISH_META_KEYS = (
+    ("property", "article:published_time"),
+    ("name", "article:published_time"),
+    ("property", "og:published_time"),
+    ("itemprop", "datePublished"),
+    ("name", "publish-date"),
+    ("name", "publication_date"),
+    ("name", "publishdate"),
+    ("name", "parsely-pub-date"),
+    ("name", "sailthru.date"),
+    ("name", "DC.date.issued"),
+    ("name", "date"),
+)
+
+
+def _extract_publish_date(html: str) -> datetime | None:
+    """Extract an article's *publication* date from explicit, semantic signals only.
+
+    Deliberately ignores htmldate/trafilatura's heuristic date guessing, which can
+    latch onto non-publication timestamps baked into a page — e.g. a CDN
+    "page_generated_at" render time — making stale articles look freshly published.
+    We only trust fields a publisher sets to mark publication: standard meta tags,
+    JSON-LD datePublished, or a semantically-marked <time> element. Keeping this
+    source-agnostic means new website sources work without per-site special-casing.
+    Returns a tz-aware UTC datetime, or None when no reliable signal is present.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    # 1. Standard publication meta tags
+    for attr, val in _PUBLISH_META_KEYS:
+        tag = soup.find("meta", attrs={attr: val})
+        if tag and tag.get("content"):
+            dt = _parse_dt(tag["content"])
+            if dt:
+                return dt
+
+    # 2. JSON-LD datePublished
+    for script in soup.find_all("script", type="application/ld+json"):
+        raw = script.string or script.get_text()
+        if not raw:
+            continue
+        try:
+            dt = _jsonld_date(json.loads(raw))
+        except (ValueError, TypeError):
+            continue
+        if dt:
+            return dt
+
+    # 3. <time> element explicitly marked as the publication date
+    for time_tag in soup.find_all("time"):
+        dt_attr = time_tag.get("datetime")
+        if not dt_attr:
+            continue
+        itemprop = (time_tag.get("itemprop") or "").lower()
+        classes = " ".join(time_tag.get("class") or []).lower()
+        if (time_tag.has_attr("pubdate")
+                or itemprop == "datepublished"
+                or any(h in classes for h in ("publish", "posted", "pubdate"))):
+            dt = _parse_dt(dt_attr)
+            if dt:
+                return dt
+
+    return None
 
 
 def _items_from_feed(feed_url: str, source_name: str, base_url: str,
@@ -132,7 +232,7 @@ def fetch_website(
             return items
 
     # Step 4: Scrape article links from the listing page and extract content
-    from datetime import datetime, timezone, timedelta
+    from datetime import timedelta
     cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
 
     items: list[FetchedItem] = []
@@ -148,16 +248,14 @@ def fetch_website(
             if not body:
                 continue
 
-            pub_dt = None
-            pub_str = metadata.date if metadata else None
-            if pub_str:
-                try:
-                    pub_dt = dateparser.parse(pub_str)
-                    if pub_dt.tzinfo is None:
-                        pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-                except (ValueError, OverflowError):
-                    pub_dt = None
-            if pub_dt and pub_dt < cutoff:
+            # Use only explicit publication-date signals (see _extract_publish_date).
+            # A scraped article whose publish date we cannot verify is dropped: in a
+            # freshness-gated digest, an unverifiable date is treated as not-fresh
+            # rather than risk surfacing stale content with a misleading timestamp.
+            pub_dt = _extract_publish_date(ar.text)
+            if pub_dt is None or pub_dt < cutoff:
+                if pub_dt is None:
+                    print(f"SKIP no publish date: {link}", file=sys.stderr)
                 continue
 
             items.append(FetchedItem(
