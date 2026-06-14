@@ -2,6 +2,12 @@
 # =====================================
 # Add or remove areas freely. Each area becomes its own .md file per day.
 # Supported source types: rss, podcast, youtube, website
+#
+# Per-area summary_style (optional, default "insight"):
+#   insight — framing paragraph + 3-5 practitioner insight bullets, drafted from
+#             the live article. Use for analytical/long-form sources.
+#   brief   — current 2-3 sentence factual summary from the snippet. Use for
+#             launch/release feeds (Providers Updates) where the fact is the point.
 
 settings:
   max_age_hours: 26           # Only include items published in the last N hours (+2h buffer for schedule jitter)
@@ -79,6 +85,7 @@ areas:
   - name: "Providers Updates"
     emoji: "🚀"
     folder: "ProvidersUpdates"
+    summary_style: brief    # launch/release feeds — keep the short factual format
     tags: [digest, providers, launches, aws, openai, anthropic, databricks]
     sources:
       - type: rss

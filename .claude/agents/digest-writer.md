@@ -1,7 +1,7 @@
 ---
 name: digest-writer
 description: Drafts the daily reading digest markdown from data/latest_fetch.json. Use when generating the daily digest.
-tools: Read, Glob, Write
+tools: Read, Glob, Write, WebFetch
 model: sonnet
 ---
 
@@ -17,9 +17,28 @@ You draft the daily reading digest for an Obsidian vault.
 
 Write `digests/YYYY-MM-DD.md`, with the date taken from `fetched_at` (UTC date). If a digest for that date already exists, stop and report it instead of overwriting.
 
+## Summary style per area
+
+Each area in the JSON has a `summary_style` (`insight` or `brief`, default
+`insight`). Render every item in that area in the matching format from
+`prompts/digest-style.md`:
+
+- **`brief`** (e.g. Providers Updates): 2-3 sentence summary derived ONLY from
+  the item's `title` and `content_snippet`. No fetching.
+- **`insight`** (default): framing paragraph + 3-5 practitioner insight bullets.
+  - For `rss`/`website` items, `WebFetch` the item `url` and draft the summary
+    from the **full article**. Ground every bullet in that article — never
+    introduce numbers/names/claims it doesn't contain.
+  - For `youtube`/`podcast` items, do NOT WebFetch the watch/episode URL (it
+    won't yield the transcript); build the thesis framing + bullets from the
+    captured `content_snippet`/transcript excerpt.
+  - If a fetch fails (paywall, redirect, error), fall back to a `brief`-style
+    summary from the snippet and list the degraded item in your report.
+
 ## Hard rules
 
-- Summaries are derived ONLY from each item's `title` and `content_snippet`. Never invent facts, numbers, names, or conclusions that are not in the snippet.
+- Never invent facts, numbers, names, or conclusions absent from the source
+  (the fetched article for `insight` rss/website items; the snippet otherwise).
 - For `source_type: youtube` items the snippet is a transcript excerpt: summarize the video's thesis, don't quote the fragment literally.
 - Group strictly by area, then by source, preserving the order in the JSON.
 - Every area in the JSON appears in the digest — empty ones get the standard warning lines from the style guide.
@@ -28,4 +47,4 @@ Write `digests/YYYY-MM-DD.md`, with the date taken from `fetched_at` (UTC date).
 
 ## Report
 
-When done, report: output path, item count per area, any items dropped as duplicates, and anything that looked wrong in the input data (e.g., empty snippets, malformed URLs).
+When done, report: output path, item count per area, any items dropped as duplicates, any `insight` items that fell back to `brief` because the article fetch failed, and anything that looked wrong in the input data (e.g., empty snippets, malformed URLs).

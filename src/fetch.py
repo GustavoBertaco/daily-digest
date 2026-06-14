@@ -21,6 +21,8 @@ from fetchers.web import fetch_website
 from seen import load_seen, normalize_url, prune, save_seen
 
 _REQUIRED_AREA_KEYS = {"name", "emoji", "folder", "sources"}
+_VALID_SUMMARY_STYLES = {"insight", "brief"}
+_DEFAULT_SUMMARY_STYLE = "insight"
 _REQUIRED_SOURCE_KEYS_BY_TYPE = {
     "rss": {"url"},
     "podcast": {"url"},
@@ -50,6 +52,13 @@ def load_config(config_path: str) -> dict:
         missing = _REQUIRED_AREA_KEYS - area.keys()
         if missing:
             print(f"ERROR: area '{area.get('name', '?')}' missing fields: {missing}", file=sys.stderr)
+            sys.exit(1)
+        if "summary_style" in area and area["summary_style"] not in _VALID_SUMMARY_STYLES:
+            print(
+                f"ERROR: area '{area['name']}' summary_style must be one of "
+                f"{sorted(_VALID_SUMMARY_STYLES)}",
+                file=sys.stderr,
+            )
             sys.exit(1)
         for src in area["sources"]:
             src_type = src.get("type")
@@ -147,6 +156,7 @@ def fetch_area(area: dict, settings: dict) -> dict:
         "name": area["name"],
         "emoji": area["emoji"],
         "folder": area["folder"],
+        "summary_style": area.get("summary_style", _DEFAULT_SUMMARY_STYLE),
         "tags": area.get("tags", []),
         "items": [],
         "errors": [],

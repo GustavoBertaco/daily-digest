@@ -8,7 +8,7 @@ Automated daily digest aggregator. A scheduled remote Claude agent fetches conte
 2. A **Claude cloud routine** runs daily at **7:00 AM São Paulo (10:00 UTC)** — its prompt is versioned at `prompts/daily-routine.md`:
    - checks data freshness (`src/check_freshness.py`); if the Actions fetch failed it re-fetches, or flags the digest with a staleness banner
    - the **digest-writer** subagent (`.claude/agents/digest-writer.md`) drafts `digests/YYYY-MM-DD.md` following `prompts/digest-style.md`
-   - the **digest-editor** subagent (`.claude/agents/digest-editor.md`) verifies every summary against the fetched snippets, then the routine commits and pushes
+   - the **digest-editor** subagent (`.claude/agents/digest-editor.md`) verifies every summary against its source — the fetched snippet for `brief` items, the live article for `insight` items — then the routine commits and pushes
 3. A **weekly curation routine** (Mondays 11:00 UTC, prompt at `prompts/curation.md`) reviews source health and writes a report to `digests/curation/`
 4. **Obsidian Git** plugin syncs the repo into your vault automatically
 
@@ -58,6 +58,11 @@ areas:
 ```
 
 Global per-type defaults live under `settings.max_age_hours_by_type` (currently `youtube: 80`, `podcast: 180`).
+
+Each area also takes an optional `summary_style` (default `insight`):
+
+- `insight` — a short framing paragraph plus 3-5 practitioner insight bullets, drafted from the **live article**. Use for analytical/long-form sources.
+- `brief` — the compact 2-3 sentence summary from the fetched snippet. Set this on launch/release feeds (e.g. Providers Updates) where the fact is the point.
 
 ### Local testing
 
@@ -131,7 +136,17 @@ tags: [digest]
 ## Uber Engineering
 
 **[Article Title](https://link)**
-2-3 sentence synthesis of why this matters and what's interesting.
+Framing sentence: the problem the piece tackles.
+
+- **Lead phrase.** A practitioner takeaway grounded in the article.
+- **Lead phrase.** Another insight; 3-5 bullets for `insight` areas.
+
+# 🚀 Providers Updates
+
+## AWS What's New
+
+**[Launch Title](https://link)**
+2-3 sentence synthesis — `brief` areas stay compact.
 ```
 
 ## Mobile access
