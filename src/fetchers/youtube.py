@@ -7,7 +7,7 @@ from .rss import fetch_rss
 
 _FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 _TRANSCRIPT_CHAR_LIMIT = 3000
-_SHORTS_MAX_SECONDS = 120
+_SHORTS_MAX_SECONDS = 60  # YouTube's own Shorts cutoff
 _VIDEO_ID_RE = re.compile(r'^[A-Za-z0-9_-]{6,20}$')
 
 
@@ -21,12 +21,12 @@ def _video_id(url: str) -> str:
     return vid
 
 
-def _duration_seconds(vid_id: str) -> int | None:
+def _duration_seconds(vid_id: str, timeout: int = 10) -> int | None:
     try:
         r = safe_get(
             f"https://www.youtube.com/watch?v={vid_id}",
             headers={"User-Agent": "Mozilla/5.0"},
-            timeout=10,
+            timeout=timeout,
         )
         m = re.search(r'"lengthSeconds":"(\d+)"', r.text)
         return int(m.group(1)) if m else None
@@ -50,12 +50,15 @@ def fetch_youtube(
     source_name: str,
     max_age_hours: int = 24,
     max_items: int = 10,
+    timeout: int = 10,
+    user_agent: str = "daily-digest/1.0",
 ) -> list[FetchedItem]:
     try:
         url = _FEED_URL.format(channel_id=channel_id)
         # Fetch more than needed to account for Shorts being filtered out
         candidates = fetch_rss(url, source_name, source_type="youtube",
-                               max_age_hours=max_age_hours, max_items=max_items * 3)
+                               max_age_hours=max_age_hours, max_items=max_items * 3,
+                               timeout=timeout, user_agent=user_agent)
 
         items: list[FetchedItem] = []
         for item in candidates:
@@ -69,8 +72,8 @@ def fetch_youtube(
             else:
                 vid_id = _video_id(item["url"])
 
-            # Skip Shorts (≤ 60s). If duration is unavailable, include the video.
-            duration = _duration_seconds(vid_id)
+            # Skip Shorts (≤ _SHORTS_MAX_SECONDS). If duration is unavailable, include the video.
+            duration = _duration_seconds(vid_id, timeout=timeout)
             if duration is not None and duration <= _SHORTS_MAX_SECONDS:
                 continue
 

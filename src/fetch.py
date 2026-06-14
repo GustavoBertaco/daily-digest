@@ -67,7 +67,8 @@ def load_config(config_path: str) -> dict:
                 print(f"ERROR: source '{src.get('name','?')}' max_age_hours must be a positive int", file=sys.stderr)
                 sys.exit(1)
 
-    by_type = (cfg.get("settings") or {}).get("max_age_hours_by_type") or {}
+    settings = cfg.get("settings") or {}
+    by_type = settings.get("max_age_hours_by_type") or {}
     for src_type, hours in by_type.items():
         if src_type not in _REQUIRED_SOURCE_KEYS_BY_TYPE:
             print(f"ERROR: max_age_hours_by_type has unknown source type '{src_type}'", file=sys.stderr)
@@ -75,6 +76,18 @@ def load_config(config_path: str) -> dict:
         if not isinstance(hours, int) or hours <= 0:
             print(f"ERROR: max_age_hours_by_type['{src_type}'] must be a positive int", file=sys.stderr)
             sys.exit(1)
+
+    if "request_timeout_seconds" in settings and (
+        not isinstance(settings["request_timeout_seconds"], int)
+        or settings["request_timeout_seconds"] <= 0
+    ):
+        print("ERROR: settings.request_timeout_seconds must be a positive int", file=sys.stderr)
+        sys.exit(1)
+    if "user_agent" in settings and not (
+        isinstance(settings["user_agent"], str) and settings["user_agent"].strip()
+    ):
+        print("ERROR: settings.user_agent must be a non-empty string", file=sys.stderr)
+        sys.exit(1)
 
     return cfg
 
@@ -92,7 +105,8 @@ def resolve_max_age(src: dict, settings: dict) -> int:
 
 
 def _fetch_one_source(
-    src: dict, area_name: str, max_age: int, max_items: int
+    src: dict, area_name: str, max_age: int, max_items: int,
+    timeout: int, user_agent: str,
 ) -> tuple[list[FetchedItem], list[dict]]:
     src_type = src["type"]
     src_name = src.get("name", src_type)
@@ -101,13 +115,17 @@ def _fetch_one_source(
     try:
         if src_type in ("rss", "podcast"):
             items = fetch_rss(src["url"], src_name, source_type=src_type,
-                              max_age_hours=max_age, max_items=max_items)
+                              max_age_hours=max_age, max_items=max_items,
+                              timeout=timeout, user_agent=user_agent)
         elif src_type == "youtube":
             items = fetch_youtube(src["channel_id"], src_name,
-                                  max_age_hours=max_age, max_items=max_items)
+                                  max_age_hours=max_age, max_items=max_items,
+                                  timeout=timeout, user_agent=user_agent)
         elif src_type == "website":
+            # website keeps its browser User-Agent (config user_agent would trip WAFs)
             items = fetch_website(src["url"], src_name,
-                                  max_age_hours=max_age, max_items=max_items)
+                                  max_age_hours=max_age, max_items=max_items,
+                                  timeout=timeout)
         for item in items:
             item["area_name"] = area_name
         if not items:
@@ -120,11 +138,10 @@ def _fetch_one_source(
     return items, errors
 
 
-def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
-    if filter_areas and area["name"] not in filter_areas:
-        return None
-
+def fetch_area(area: dict, settings: dict) -> dict:
     max_items = settings.get("max_items_per_source", 10)
+    timeout = settings.get("request_timeout_seconds", 10)
+    user_agent = settings.get("user_agent", "daily-digest/1.0")
 
     result = {
         "name": area["name"],
@@ -141,7 +158,8 @@ def fetch_area(area: dict, settings: dict, filter_areas: list[str]) -> dict:
     max_workers = min(len(area["sources"]), 8)
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = [
-            pool.submit(_fetch_one_source, src, area["name"], resolve_max_age(src, settings), max_items)
+            pool.submit(_fetch_one_source, src, area["name"],
+                        resolve_max_age(src, settings), max_items, timeout, user_agent)
             for src in area["sources"]
         ]
         for future in futures:  # preserve source order
@@ -192,11 +210,9 @@ def main() -> None:
     }
 
     all_empty = True
-    for area in cfg["areas"]:
-        area_result = fetch_area(area, settings, args.areas)
-        if area_result is None:
-            continue
-        output["areas"].append(area_result)
+    areas = [a for a in cfg["areas"] if not args.areas or a["name"] in args.areas]
+    for area in areas:
+        output["areas"].append(fetch_area(area, settings))
 
     if not args.no_dedup:
         seen_path = Path(args.seen_file)
@@ -300,7 +316,8 @@ def _write_log(log_path: str, output: dict) -> None:
     log_md = (
         f"---\ndate: {date_str}\ntype: run-log\n---\n\n"
         f"# Digest Run Log — {date_label}\n"
-        f"Fetched at: {fetched_at} | max_age_hours: {output['max_age_hours']}\n\n"
+        f"Fetched at: {fetched_at} | default window: {output['max_age_hours']}h "
+        f"(per-source/per-type overrides may differ)\n\n"
         f"## Results by source\n\n"
         f"| Source | Area | Items | Status |\n"
         f"|--------|------|-------|--------|\n"

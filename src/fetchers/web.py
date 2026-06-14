@@ -1,16 +1,16 @@
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin, urlparse
 
 import feedparser
 import trafilatura
 from dateutil import parser as dateparser
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 
 from . import FetchedItem
-from ._http import safe_get
-from .rss import _snippet, _entry_published_utc
+from ._http import registrable_domain, safe_get
+from .rss import _entries_to_items, _snippet
 
 _BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -26,35 +26,32 @@ def _headers(referer: str) -> dict:
 def _rss_from_link_tag(html: str, base_url: str) -> str | None:
     """Find RSS/Atom URL declared in the page <head> link tags."""
     soup = BeautifulSoup(html, "html.parser")
-    from urllib.parse import urlparse
-    base_root = ".".join(urlparse(base_url).netloc.split(".")[-2:])
+    base_root = registrable_domain(base_url)
     for link in soup.find_all("link", type=True):
         t = link["type"].lower()
         if "rss" in t or "atom" in t:
             href = link.get("href", "")
             if href:
                 resolved = href if href.startswith("http") else urljoin(base_url, href)
-                link_root = ".".join(urlparse(resolved).netloc.split(".")[-2:])
-                if link_root == base_root:
+                if registrable_domain(resolved) == base_root:
                     return resolved
     return None
 
 
 def _article_links(html: str, base_url: str, limit: int = 15) -> list[str]:
     """Extract candidate article links from a listing page, same domain only."""
-    from urllib.parse import urlparse
-    # Match on root domain (last two parts) to allow subdomains e.g. eng.uber.com -> www.uber.com
-    base_root = ".".join(urlparse(base_url).netloc.split(".")[-2:])
+    # Match on registrable domain so subdomains share a root (eng.uber.com -> uber.com)
+    # without collapsing multi-label TLDs (blog.x.com.br stays x.com.br, not com.br).
+    base_root = registrable_domain(base_url)
     soup = BeautifulSoup(html, "html.parser")
     seen: set[str] = set()
     links: list[str] = []
     for a in soup.find_all("a", href=True):
         href = urljoin(base_url, a["href"])
         parsed = urlparse(href)
-        link_root = ".".join(parsed.netloc.split(".")[-2:])
         path = parsed.path
         # Same root domain only; path must look like an article slug (not pure nav)
-        if (link_root == base_root
+        if (registrable_domain(href) == base_root
                 and href not in seen
                 and href != base_url
                 and path.count("/") >= 2
@@ -167,36 +164,14 @@ def _extract_publish_date(html: str) -> datetime | None:
 def _items_from_feed(feed_url: str, source_name: str, base_url: str,
                      max_age_hours: int, max_items: int, timeout: int) -> list[FetchedItem]:
     """Fetch an RSS/Atom feed using browser headers (bypasses WAF blocks on feed paths)."""
-    from datetime import datetime, timezone, timedelta
     try:
         r = safe_get(feed_url, headers=_headers(base_url), timeout=timeout)
         r.raise_for_status()
         feed = feedparser.parse(r.content)
         if not feed.entries:
             return []
-
         cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
-        items: list[FetchedItem] = []
-        for entry in feed.entries:
-            if len(items) >= max_items:
-                break
-            pub = _entry_published_utc(entry)
-            if pub and pub < cutoff:
-                continue
-            title = getattr(entry, "title", "").strip()
-            link = getattr(entry, "link", "").strip()
-            if not title or not link:
-                continue
-            items.append(FetchedItem(
-                title=title,
-                url=link,
-                published=pub.isoformat() if pub else "",
-                content_snippet=_snippet(entry),
-                source_name=source_name,
-                source_type="website",
-                area_name="",
-            ))
-        return items
+        return _entries_to_items(feed, source_name, "website", cutoff, max_items)
     except Exception:
         return []
 
@@ -232,7 +207,6 @@ def fetch_website(
             return items
 
     # Step 4: Scrape article links from the listing page and extract content
-    from datetime import timedelta
     cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
 
     items: list[FetchedItem] = []

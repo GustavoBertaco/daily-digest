@@ -34,6 +34,32 @@ def _snippet(entry) -> str:
     return ""
 
 
+def _entries_to_items(feed, source_name: str, source_type: str,
+                      cutoff: datetime, max_items: int) -> list[FetchedItem]:
+    """Convert parsed feed entries to FetchedItems, dropping anything older than cutoff."""
+    items: list[FetchedItem] = []
+    for entry in feed.entries:
+        if len(items) >= max_items:
+            break
+        pub = _entry_published_utc(entry)
+        if pub is not None and pub < cutoff:
+            continue
+        title = getattr(entry, "title", "").strip()
+        link = getattr(entry, "link", "").strip()
+        if not title or not link:
+            continue
+        items.append(FetchedItem(
+            title=title,
+            url=link,
+            published=pub.isoformat() if pub else "",
+            content_snippet=_snippet(entry),
+            source_name=source_name,
+            source_type=source_type,
+            area_name="",
+        ))
+    return items
+
+
 def fetch_rss(
     url: str,
     source_name: str,
@@ -41,11 +67,12 @@ def fetch_rss(
     max_age_hours: int = 24,
     max_items: int = 10,
     timeout: int = 10,
+    user_agent: str = "daily-digest/1.0",
 ) -> list[FetchedItem]:
     try:
         # Use requests to download so proxy/SSL env vars are respected,
         # then hand raw bytes to feedparser for parsing only.
-        r = safe_get(url, headers={"User-Agent": "daily-digest/1.0"}, timeout=timeout)
+        r = safe_get(url, headers={"User-Agent": user_agent}, timeout=timeout)
         r.raise_for_status()
         feed = feedparser.parse(r.content)
         if feed.bozo and not feed.entries:
@@ -53,29 +80,7 @@ def fetch_rss(
             return []
 
         cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=max_age_hours)
-        items: list[FetchedItem] = []
-
-        for entry in feed.entries:
-            if len(items) >= max_items:
-                break
-            pub = _entry_published_utc(entry)
-            if pub is not None and pub < cutoff:
-                continue
-            title = getattr(entry, "title", "").strip()
-            link = getattr(entry, "link", "").strip()
-            if not title or not link:
-                continue
-            items.append(FetchedItem(
-                title=title,
-                url=link,
-                published=pub.isoformat() if pub else "",
-                content_snippet=_snippet(entry),
-                source_name=source_name,
-                source_type=source_type,
-                area_name="",
-            ))
-
-        return items
+        return _entries_to_items(feed, source_name, source_type, cutoff, max_items)
     except Exception as exc:
         print(f"ERROR fetch_rss({url}): {exc}", file=sys.stderr)
         return []
