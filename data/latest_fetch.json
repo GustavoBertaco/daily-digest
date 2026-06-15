@@ -1,11 +1,12 @@
 {
-  "fetched_at": "2026-06-14T11:46:00Z",
+  "fetched_at": "2026-06-15T15:32:23Z",
   "max_age_hours": 26,
   "areas": [
     {
       "name": "Technology",
       "emoji": "💻",
       "folder": "Tech",
+      "summary_style": "insight",
       "tags": [
         "digest",
         "technology",
@@ -24,6 +25,10 @@
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Uber Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ]
     },
@@ -31,6 +36,7 @@
       "name": "Product Management",
       "emoji": "🗂️",
       "folder": "ProductManagement",
+      "summary_style": "insight",
       "tags": [
         "digest",
         "product-management"
@@ -42,16 +48,17 @@
       "name": "Personal Development",
       "emoji": "🧠",
       "folder": "PersonalDev",
+      "summary_style": "insight",
       "tags": [
         "digest",
         "personal-development"
       ],
       "items": [
         {
-          "title": "Why Finishing Feels Worse Than Starting",
-          "url": "https://www.youtube.com/watch?v=2zyIZV-M8mc",
-          "published": "2026-06-13T13:00:03+00:00",
-          "content_snippet": "The last part of a boring task often feels the worst. Not because it changed, but because your brain notices how much you’ve already endured. Zoom out and the task shrinks. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "How Great Ideas (actually) Happen",
+          "url": "https://www.youtube.com/watch?v=zfe-Ap-kIEY",
+          "published": "2026-06-15T13:00:27+00:00",
+          "content_snippet": "Creativity isn’t lightning. It’s a search. Great ideas go to the people who keep digging. Stop waiting. Start digging. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -63,6 +70,7 @@
       "name": "Data Platform",
       "emoji": "🗄️",
       "folder": "DataPlatform",
+      "summary_style": "insight",
       "tags": [
         "digest",
         "data-platform",
@@ -92,6 +100,7 @@
       "name": "Providers Updates",
       "emoji": "🚀",
       "folder": "ProvidersUpdates",
+      "summary_style": "brief",
       "tags": [
         "digest",
         "providers",
@@ -103,22 +112,45 @@
       ],
       "items": [
         {
-          "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
-          "url": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
-          "published": "2026-06-13T15:00:00+00:00",
-          "content_snippet": "At Databricks, we use and build agents extensively, from coding with them at scale...",
+          "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+          "published": "2026-06-15T11:41:48+00:00",
+          "content_snippet": "This week, New York City is hosting AWS Summit , bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to see them go live this week. I just won’t be watching from the Javits Center. I’ll be at a four-day music festival, following the launches on my phone while trying to figure out how to put up a tent. If you weren’t able to attend in person lik",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Skip the learning curve: rethinking data migration for real outcomes",
+          "url": "https://www.databricks.com/blog/skip-learning-curve-rethinking-data-migration-real-outcomes",
+          "published": "2026-06-15T12:40:00+00:00",
+          "content_snippet": "Data migrations have a reputation for being high-risk, stressful initiatives. They...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Codex as a Solutions Engineering Partner",
+          "url": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
+          "published": "2026-06-15T13:03:41+00:00",
+          "content_snippet": "“A big part of my role as a solutions engineer is not only to build but to understand,” Stephanie Anani, Solutions Engineer, OpenAI. Stephanie points Codex to Trustpilot reviews and will mock up a customer website based on the feedback to show them how easy it is to make changes. Codex can be a partner in every sort of context for you ⬇️ https://openai.com/index/codex-for-every-role-tool-workflow/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Payward Ships Faster with Codex",
+          "url": "https://www.youtube.com/watch?v=NxAxwsu6_Zs",
+          "published": "2026-06-14T22:44:45+00:00",
+          "content_snippet": "\"Without Codex, we probably would be six months behind where we are today.\" Kamo Asatryan and his team are building the core infrastructure to power inference across all products at Payward. Speed is the #1 value for his team and Codex has unlocked the ability to ship faster. 🚀 If you like to move slow 🐢 , don't click here: https://chatgpt.com/codex",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -135,15 +167,26 @@
       "name": "AI & Machine Learning",
       "emoji": "🤖",
       "folder": "AI",
+      "summary_style": "insight",
       "tags": [
         "digest",
         "ai",
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+          "url": "https://www.youtube.com/watch?v=c-2eEv2ou7Y",
+          "published": "2026-06-15T14:00:06+00:00",
+          "content_snippet": "Inspect ChatGPT's DOM while an MCP app is rendering and you find an iframe nested inside another iframe. Frédéric Barthelet traces why each simpler approach fails: `srcdoc` shares the parent origin so ChatGPT's CSP blocks all third party scripts; relaxing that CSP lets any app read ChatGPT's localStorage and cookies; adding `sandbox` removes origin indexed storage; adding `allow-same-origin` to restore it is the classic sandbox escape. The double iframe is what remains after ruling all of that o",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": []
     }
   ],
-  "deduped_count": 25
+  "deduped_count": 6
 }

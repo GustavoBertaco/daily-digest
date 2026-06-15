@@ -11,6 +11,7 @@
     "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge": "2026-06-12",
     "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting": "2026-06-12",
     "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs": "2026-06-12",
+    "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026": "2026-06-15",
     "https://medium.com/airbnb-engineering/scaling-beyond-one-how-airbnb-evolved-its-data-architecture-for-a-multi-product-world-6125645d470c": "2026-06-12",
     "https://www.databricks.com/blog/azure-databricks-data-ai-summit-2026-featuring-industry-leaders-and-partners": "2026-06-12",
     "https://www.databricks.com/blog/empower-your-healthcare-agents-ready-use-mcp-databricks-marketplace": "2026-06-12",
@@ -21,6 +22,7 @@
     "https://www.databricks.com/blog/how-ergo-hestia-reduced-time-market-lakebase-and-mosaic-ai-model-serving": "2026-06-12",
     "https://www.databricks.com/blog/ingesting-milky-way-petabyte-scale-zerobus-ingest": "2026-06-12",
     "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents": "2026-06-14",
+    "https://www.databricks.com/blog/skip-learning-curve-rethinking-data-migration-real-outcomes": "2026-06-15",
     "https://www.databricks.com/blog/talk-all-your-data-wherever-it-lives": "2026-06-13",
     "https://www.databricks.com/blog/unlocking-semantics-ai-how-mercedes-benz-korea-built-trusted-talk-data-scale": "2026-06-12",
     "https://www.databricks.com/blog/wall-street-data-platforms": "2026-06-13",
@@ -50,13 +52,16 @@
     "https://www.youtube.com/watch?v=IEYU-CgLo3E": "2026-06-12",
     "https://www.youtube.com/watch?v=K6wxZOqD-HY": "2026-06-12",
     "https://www.youtube.com/watch?v=LLW99xg_hLY": "2026-06-12",
+    "https://www.youtube.com/watch?v=NxAxwsu6_Zs": "2026-06-15",
     "https://www.youtube.com/watch?v=Rlju1Z9e110": "2026-06-13",
     "https://www.youtube.com/watch?v=SS-A8sE7hkw": "2026-06-12",
     "https://www.youtube.com/watch?v=TNwJ1LMiENk": "2026-06-12",
     "https://www.youtube.com/watch?v=Ts4AmJS4TCw": "2026-06-12",
     "https://www.youtube.com/watch?v=UM6sFg_jdlE": "2026-06-12",
     "https://www.youtube.com/watch?v=UNJSk90Lz1c": "2026-06-12",
+    "https://www.youtube.com/watch?v=_jNbM8pV9oI": "2026-06-15",
     "https://www.youtube.com/watch?v=bhgYFRZLyKI": "2026-06-12",
+    "https://www.youtube.com/watch?v=c-2eEv2ou7Y": "2026-06-15",
     "https://www.youtube.com/watch?v=ghJmWQCIHRM": "2026-06-12",
     "https://www.youtube.com/watch?v=iUWwcG-C8OU": "2026-06-12",
     "https://www.youtube.com/watch?v=irrJIu8r_ik": "2026-06-12",
@@ -67,6 +72,7 @@
     "https://www.youtube.com/watch?v=yBBhd0-Os74": "2026-06-12",
     "https://www.youtube.com/watch?v=zDGHt0LB-dA": "2026-06-12",
     "https://www.youtube.com/watch?v=zMiSRliEzv4": "2026-06-12",
-    "https://www.youtube.com/watch?v=zQd8CadWmWw": "2026-06-12"
+    "https://www.youtube.com/watch?v=zQd8CadWmWw": "2026-06-12",
+    "https://www.youtube.com/watch?v=zfe-Ap-kIEY": "2026-06-15"
   }
 }
