@@ -18,7 +18,7 @@ from fetchers import FetchedItem
 from fetchers.rss import fetch_rss
 from fetchers.youtube import fetch_youtube
 from fetchers.web import fetch_website
-from seen import load_seen, normalize_url, prune, save_seen
+from seen import load_seen, normalize_url
 
 _REQUIRED_AREA_KEYS = {"name", "emoji", "folder", "sources"}
 _VALID_SUMMARY_STYLES = {"insight", "brief"}
@@ -225,24 +225,35 @@ def main() -> None:
         output["areas"].append(fetch_area(area, settings))
 
     if not args.no_dedup:
+        # Filter out URLs already committed to the registry by a prior digest.
+        # The registry is written at *digest* time (src/mark_seen.py), not here,
+        # so an item that is fetched but never makes it into a digest can still
+        # resurface on a later run instead of being silently lost.
         seen_path = Path(args.seen_file)
         seen = load_seen(seen_path)
-        today = fetched_at[:10]
         deduped_count = 0
         for area_result in output["areas"]:
             kept: list[FetchedItem] = []
+            deduped_by_source: dict[str, int] = {}
             for item in area_result["items"]:
-                key = normalize_url(item["url"])
-                if key in seen:
+                if normalize_url(item["url"]) in seen:
                     deduped_count += 1
+                    name = item.get("source_name", "")
+                    deduped_by_source[name] = deduped_by_source.get(name, 0) + 1
                     continue
-                seen[key] = today
                 kept.append(item)
             area_result["items"] = kept
+            # Surface sources whose every item was already digested, so they don't
+            # vanish from the run log (they fetched fine — the content is just
+            # stale). A source with surviving items is reported via those instead.
+            kept_sources = {i.get("source_name", "") for i in kept}
+            area_result["deduped_sources"] = {
+                name: n for name, n in deduped_by_source.items()
+                if name and name not in kept_sources
+            }
         output["deduped_count"] = deduped_count
         if deduped_count:
-            print(f"Skipped {deduped_count} previously-seen items", file=sys.stderr)
-        save_seen(seen_path, prune(seen))
+            print(f"Skipped {deduped_count} previously-digested items", file=sys.stderr)
 
     for area_result in output["areas"]:
         if area_result["items"]:
@@ -301,6 +312,11 @@ def _write_log(log_path: str, output: dict) -> None:
             if sn not in seen:
                 seen.add(sn)
                 source_names.append(sn)
+        deduped_sources = area.get("deduped_sources", {})
+        for sn in deduped_sources:
+            if sn not in seen:
+                seen.add(sn)
+                source_names.append(sn)
 
         if area_items == 0:
             empty_areas.append(area_name)
@@ -310,6 +326,9 @@ def _write_log(log_path: str, output: dict) -> None:
             if sn in error_map:
                 status = f"❌ {error_map[sn]}"
                 total_errors += 1
+            elif sn in deduped_sources:
+                n = deduped_sources[sn]
+                status = f"↩️ {n} already digested"
             elif src_items == 0:
                 status = "⚠️ no items in window"
             else:

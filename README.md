@@ -4,15 +4,16 @@ Automated daily digest aggregator. A scheduled remote Claude agent fetches conte
 
 ## How it works
 
-1. **GitHub Actions** (`.github/workflows/fetch.yml`, 9:45 UTC daily) runs `src/fetch.py`, committing `data/latest_fetch.json`, the seen-URL registry, and a run log
+1. **GitHub Actions** (`.github/workflows/fetch.yml`, 9:45 UTC daily) runs `src/fetch.py`, committing `data/latest_fetch.json` and a run log
 2. A **Claude cloud routine** runs daily at **7:00 AM São Paulo (10:00 UTC)** — its prompt is versioned at `prompts/daily-routine.md`:
    - checks data freshness (`src/check_freshness.py`); if the Actions fetch failed it re-fetches, or flags the digest with a staleness banner
    - the **digest-writer** subagent (`.claude/agents/digest-writer.md`) drafts `digests/YYYY-MM-DD.md` following `prompts/digest-style.md`
-   - the **digest-editor** subagent (`.claude/agents/digest-editor.md`) verifies every summary against its source — the fetched snippet for `brief` items, the live article for `insight` items — then the routine commits and pushes
+   - the **digest-editor** subagent (`.claude/agents/digest-editor.md`) verifies every summary against its source — the fetched snippet for `brief` items, the live article for `insight` items
+   - `src/mark_seen.py` records the finalized digest's URLs in the seen-URL registry, then the routine commits and pushes
 3. A **weekly curation routine** (Mondays 11:00 UTC, prompt at `prompts/curation.md`) reviews source health and writes a report to `digests/curation/`
 4. **Obsidian Git** plugin syncs the repo into your vault automatically
 
-Items only ever appear in one digest: `data/seen_urls.json` tracks normalized URLs for 30 days, so undated scraped articles can't repeat. Freshness windows are configurable per source type and per source (`max_age_hours_by_type`, per-source `max_age_hours`) so weekly publishers aren't missed by the default 26-hour window.
+Items only ever appear in one digest: `data/seen_urls.json` tracks normalized URLs for 30 days, so undated scraped articles can't repeat. URLs are recorded at **digest** time (`src/mark_seen.py`), not fetch time — `src/fetch.py` only reads the registry to drop already-digested items. This means an item that is fetched but never makes it into a digest stays eligible and resurfaces on a later run instead of being silently lost. Freshness windows are configurable per source type and per source (`max_age_hours_by_type`, per-source `max_age_hours`) so weekly publishers aren't missed by the default 26-hour window.
 
 ## Setup
 

@@ -32,8 +32,14 @@ intelligence lives in this repo's agent and prompt files.
 5. Invoke the **digest-editor** subagent on the draft. It edits in place and
    reports PASS or a list of corrections.
 
-6. Commit and push:
-   `git add digests/ && git commit -S -m "digest: YYYY-MM-DD" && git push`
+6. Record the digest's URLs in the seen registry (confirm-at-digest dedup):
+   `python src/mark_seen.py digests/YYYY-MM-DD.md`
+   This must run *after* the editor finalizes the draft so only URLs that
+   actually shipped get marked seen. `src/fetch.py` no longer writes the
+   registry — this step is what keeps items from repeating across days.
+
+7. Commit and push:
+   `git add digests/ data/seen_urls.json && git commit -S -m "digest: YYYY-MM-DD" && git push`
    If the push is rejected, `git pull --rebase` and push again.
 
 **Fallback if subagents are unavailable:** if the digest-writer/digest-editor

@@ -3,11 +3,12 @@ Seen-URL registry: prevents items (especially undated scraped pages) from
 reappearing in consecutive digests. Stored as JSON with a rolling retention
 window so the file stays small.
 
-Semantics note: fetch.py marks URLs as seen at *fetch* time, not at digest time.
-If the fetch succeeds but the downstream digest never runs, those items are still
-recorded as seen and won't resurface. The 30-day retention window bounds the loss,
-but a future improvement is to have the digest step confirm inclusion before a URL
-is committed to the registry.
+Semantics: URLs are recorded at *digest* time, not fetch time. src/fetch.py only
+*reads* this registry to drop already-digested items; src/mark_seen.py *writes* it
+from the URLs that actually appear in a committed digest. So an item that is
+fetched but never digested (e.g. dropped by the writer, or fetched by an ad-hoc
+run that produces no digest) stays eligible and resurfaces on a later run rather
+than being silently lost. The 30-day retention window keeps the file bounded.
 """
 import json
 import sys
