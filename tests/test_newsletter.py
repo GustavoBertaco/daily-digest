@@ -1,6 +1,12 @@
 import feedparser
 
-from fetchers.newsletter import _entry_sender, _extract_links, _is_article_link
+from fetchers.newsletter import (
+    _entry_is_allowed,
+    _entry_sender,
+    _extract_links,
+    _forwarded_original_sender,
+    _is_article_link,
+)
 
 # Minimal kill-the-newsletter-style Atom feed: one allowed sender, one not.
 _ATOM = """<?xml version="1.0" encoding="utf-8"?>
@@ -37,6 +43,50 @@ def test_sender_allowlist_distinguishes_entries():
     allowed = [e for e in feed.entries if _entry_sender(e) in allow]
     assert len(allowed) == 1
     assert allowed[0].title == "Data Engineering Weekly #200"
+
+
+# A manually forwarded Gmail message: envelope sender is the forwarder, the real
+# sender survives only in the quoted "Forwarded message / From:" header.
+_FWD_ATOM = """<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <title>Fwd: Data Engineering Weekly #274</title>
+    <author><name>gustavobertaco@gmail.com</name><email>gustavobertaco@gmail.com</email></author>
+    <published>2026-06-16T02:23:55Z</published>
+    <content type="html">&lt;div class="gmail_quote"&gt;---------- Forwarded message ----------&lt;br&gt;From: Data Engineering Weekly &amp;lt;dataengineeringweekly@substack.com&amp;gt;&lt;br&gt;Date: Mon, Jun 15, 2026&lt;br&gt;&lt;a href="https://blog.acme.io/posts/lakehouse"&gt;Lakehouse&lt;/a&gt;&lt;/div&gt;</content>
+  </entry>
+</feed>
+"""
+
+
+def test_forwarded_original_sender_extracted_from_header():
+    feed = feedparser.parse(_FWD_ATOM)
+    body = feed.entries[0].content[0]["value"]
+    assert _forwarded_original_sender(body) == "dataengineeringweekly@substack.com"
+
+
+def test_trusted_forward_of_allowed_sender_is_accepted():
+    feed = feedparser.parse(_FWD_ATOM)
+    entry = feed.entries[0]
+    body = entry.content[0]["value"]
+    senders = {"dataengineeringweekly@substack.com"}
+    forwarders = {"gustavobertaco@gmail.com"}
+    assert _entry_is_allowed(entry, senders, forwarders, body) is True
+    # Same forward, but the forwarder is not trusted -> rejected.
+    assert _entry_is_allowed(entry, senders, set(), body) is False
+
+
+def test_forward_of_disallowed_original_sender_is_rejected():
+    atom = _FWD_ATOM.replace(
+        "dataengineeringweekly@substack.com", "spammer@evil.example.com", 1
+    )
+    feed = feedparser.parse(atom)
+    entry = feed.entries[0]
+    body = entry.content[0]["value"]
+    # Forwarder is trusted, but the original sender isn't on the senders allowlist.
+    assert _entry_is_allowed(
+        entry, {"dataengineeringweekly@substack.com"}, {"gustavobertaco@gmail.com"}, body
+    ) is False
 
 
 def test_extract_links_keeps_articles_drops_chrome():

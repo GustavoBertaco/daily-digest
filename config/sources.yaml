@@ -5,8 +5,13 @@
 #
 # newsletter — a kill-the-newsletter Atom feed of forwarded emails. UNTRUSTED: the
 #   email body is used only to harvest article links (never summarized). Requires a
-#   `senders` allowlist; only emails from those addresses are processed, and each
-#   linked article is fetched/summarized like a `website` source.
+#   `senders` allowlist; only mail whose sender (or, for `forwarders`-relayed mail,
+#   whose original forwarded `From:`) is in `senders` is processed. Each linked
+#   article is then fetched/summarized like a `website` source.
+#   - senders:    original newsletter author address(es).
+#   - forwarders: optional; addresses you forward the newsletter from (a manual
+#                 forward rewrites the sender, so the original is verified from the
+#                 quoted forward header).
 #
 # Per-area summary_style (optional, default "insight"):
 #   insight — framing paragraph + 3-5 practitioner insight bullets, drafted from
@@ -88,7 +93,8 @@ areas:
       - type: newsletter
         url: "https://kill-the-newsletter.com/feeds/l0wex115vq09if0qqspn.xml"
         name: "Data Engineering Weekly"
-        senders: ["dataengineeringweekly@substack.com"]   # only digest mail from this sender
+        senders: ["dataengineeringweekly@substack.com"]   # original newsletter sender (allowlist)
+        forwarders: ["gustavobertaco@gmail.com"]          # trusted addresses that forward DEW mail to the KTNL inbox
         max_age_hours: 180    # weekly issue
       # Data Mesh Radio (Spotify: 4FIKajWDxdAPvW5925IBrF) excluded — no public RSS feed
 

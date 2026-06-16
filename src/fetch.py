@@ -84,6 +84,12 @@ def load_config(config_path: str) -> dict:
             ):
                 print(f"ERROR: newsletter source '{src.get('name','?')}' senders must be a non-empty list of email strings", file=sys.stderr)
                 sys.exit(1)
+            if src_type == "newsletter" and "forwarders" in src and not (
+                isinstance(src["forwarders"], list)
+                and all(isinstance(s, str) and s.strip() for s in src["forwarders"])
+            ):
+                print(f"ERROR: newsletter source '{src.get('name','?')}' forwarders must be a list of email strings", file=sys.stderr)
+                sys.exit(1)
 
     settings = cfg.get("settings") or {}
     by_type = settings.get("max_age_hours_by_type") or {}
@@ -147,6 +153,7 @@ def _fetch_one_source(
         elif src_type == "newsletter":
             items = fetch_newsletter(src["url"], src_name,
                                      senders=src["senders"],
+                                     forwarders=src.get("forwarders", []),
                                      max_age_hours=max_age, max_items=max_items,
                                      timeout=timeout, user_agent=user_agent)
         for item in items:

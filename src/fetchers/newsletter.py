@@ -6,8 +6,13 @@ so its subject/body text is never summarized or shown to an LLM. We use the emai
 through the same trusted path `website` sources use. Two gates keep junk and
 attacker-controlled mail out:
 
-  1. Sender allowlist — only entries whose structured ``<author><email>`` matches a
-     configured sender are processed (``_entry_sender`` / ``senders``).
+  1. Sender allowlist — an entry is processed only if its structured
+     ``<author><email>`` is in ``senders`` (a direct delivery / auto-forward that
+     preserves the original From), OR it is in ``forwarders`` (a trusted address that
+     manually forwarded the mail) AND the original sender quoted in the forwarded
+     ``From:`` header is in ``senders``. A manual Gmail "Forward" rewrites the
+     envelope sender to the forwarder, so the real sender survives only in that
+     quoted header; we read it solely to verify the allowlist, never to digest it.
   2. Link-only + denylist — only ``http(s)`` ``<a href>`` URLs are taken, and
      non-article noise (unsubscribe, social shares, image CDNs, Substack app/profile
      action links) is dropped (``_extract_links`` / ``_is_article_link``).
@@ -15,6 +20,7 @@ attacker-controlled mail out:
 Every fetch goes through ``safe_get`` (SSRF guard + per-hop redirect re-validation),
 which also unwraps Substack tracking-redirect links to their final destination.
 """
+import re
 import sys
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
@@ -68,6 +74,38 @@ def _entry_sender(entry) -> str | None:
     return None
 
 
+_EMAIL_RE = r"[\w.%+\-]+@[\w.\-]+\.[A-Za-z]{2,}"
+
+
+def _forwarded_original_sender(html: str) -> str | None:
+    """Original sender from a forwarded email's quoted ``From:`` header, lowercased.
+
+    A manual Gmail "Forward" rewrites the envelope sender to the forwarder, leaving
+    the real sender only in the ``---------- Forwarded message ----------`` /
+    ``From:`` block. We read that block purely to extract an address for the
+    allowlist check — never to digest content, and only ever for mail that already
+    cleared the trusted-``forwarders`` gate, so a spoofed body can't bypass it.
+    """
+    text = BeautifulSoup(html, "html.parser").get_text("\n")
+    marker = re.search(r"forwarded message", text, re.IGNORECASE)
+    segment = text[marker.start():] if marker else text
+    m = re.search(r"From:\s*[^\n]*?<?(" + _EMAIL_RE + r")>?", segment, re.IGNORECASE)
+    return m.group(1).strip().lower() if m else None
+
+
+def _entry_is_allowed(entry, senders: set[str], forwarders: set[str], body: str) -> bool:
+    """True if the entry came from an allowed sender, directly or via a trusted forward."""
+    sender = _entry_sender(entry)
+    if sender is None:
+        return False
+    if sender in senders:
+        return True
+    if sender in forwarders:
+        original = _forwarded_original_sender(body)
+        return original is not None and original in senders
+    return False
+
+
 def _is_article_link(url: str) -> bool:
     """True only for http(s) links that look like real article destinations."""
     parsed = urlparse(url)
@@ -109,12 +147,14 @@ def fetch_newsletter(
     url: str,
     source_name: str,
     senders: list[str],
+    forwarders: list[str] | None = None,
     max_age_hours: int = 180,
     max_items: int = 10,
     timeout: int = 10,
     user_agent: str = "daily-digest/1.0",
 ) -> list[FetchedItem]:
     allow = {s.strip().lower() for s in senders if isinstance(s, str)}
+    allow_fwd = {s.strip().lower() for s in (forwarders or []) if isinstance(s, str)}
     try:
         r = safe_get(url, headers={"User-Agent": user_agent}, timeout=timeout)
         r.raise_for_status()
@@ -134,9 +174,6 @@ def fetch_newsletter(
     candidates: list[tuple[str, datetime | None]] = []
     seen_links: set[str] = set()
     for entry in feed.entries:
-        sender = _entry_sender(entry)
-        if sender is None or sender not in allow:
-            continue
         pub = _entry_published_utc(entry)
         if pub is not None and pub < cutoff:
             continue
@@ -146,6 +183,8 @@ def fetch_newsletter(
             body = content[0].get("value", "") or ""
         if not body:
             body = getattr(entry, "summary", "") or ""
+        if not _entry_is_allowed(entry, allow, allow_fwd, body):
+            continue
         for link in _extract_links(body):
             if link in seen_links:
                 continue
