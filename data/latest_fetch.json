@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T15:32:23Z",
+  "fetched_at": "2026-06-16T14:33:45Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -30,7 +30,10 @@
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
-      ]
+      ],
+      "deduped_sources": {
+        "Airbnb Tech": 1
+      }
     },
     {
       "name": "Product Management",
@@ -42,7 +45,8 @@
         "product-management"
       ],
       "items": [],
-      "errors": []
+      "errors": [],
+      "deduped_sources": {}
     },
     {
       "name": "Personal Development",
@@ -53,18 +57,16 @@
         "digest",
         "personal-development"
       ],
-      "items": [
+      "items": [],
+      "errors": [
         {
-          "title": "How Great Ideas (actually) Happen",
-          "url": "https://www.youtube.com/watch?v=zfe-Ap-kIEY",
-          "published": "2026-06-15T13:00:27+00:00",
-          "content_snippet": "Creativity isn’t lightning. It’s a search. Great ideas go to the people who keep digging. Stop waiting. Start digging. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "errors": []
+      "deduped_sources": {
+        "Daniel Pink": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -93,8 +95,13 @@
         {
           "source_name": "The Analytics Engineering Podcast",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Data Engineering Weekly",
+          "error": "No items returned (feed empty or all outside time window)"
         }
-      ]
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -112,47 +119,214 @@
       ],
       "items": [
         {
-          "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
-          "published": "2026-06-15T11:41:48+00:00",
-          "content_snippet": "This week, New York City is hosting AWS Summit , bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to see them go live this week. I just won’t be watching from the Javits Center. I’ll be at a four-day music festival, following the launches on my phone while trying to figure out how to put up a tent. If you weren’t able to attend in person lik",
+          "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+          "published": "2026-06-16T04:00:00+00:00",
+          "content_snippet": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), alongside the existing Amazon EBS option. AWS Transform for migrations is an agentic AI service that automates the discovery, planning, and migration of workloads, accelerating infrastructure moderniz",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Management Console Private Access now works without internet connectivity",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+          "published": "2026-06-15T23:00:00+00:00",
+          "content_snippet": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security controls in air-gapped environments. Previously, AWS Management Console Private Access allowed customers to restrict console access to authorized AWS accounts and corporate networks but still required internet connectivity. With this launch, AWS Console t",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+          "published": "2026-06-15T20:04:00+00:00",
+          "content_snippet": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise workflows. Grok 4.3 is a reasoning-first model that offers always-on and configurable reasoning effort (none, low, medium, high). Because reasoning is always active rather than optional, it behaves more consistently across multi-step agent loops",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
+          "published": "2026-06-15T20:00:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for retrieval. Previously, metadata values could only be inferred by the LLM during extraction. Now, you can also attach metadata values directly from your application, ensuring they pass through extraction and consolidation exactly as supplied with no LLM inference. When you set a metadata key's extraction ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+          "published": "2026-06-15T18:30:00+00:00",
+          "content_snippet": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond AWS Regions that are enabled by default. On-demand data replication provides a simple and resilient way to implement disaster recovery, replicate production data to a different Region or account, and enable lower latency data access for your global customer base or workforce. Amazon FSx for OpenZFS pro",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
+          "published": "2026-06-15T18:00:00+00:00",
+          "content_snippet": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and Contributor Insights for identifying top contributors - all in one place. With this launch, customers can execute multiple queries in different tabs and use all existing Logs Insights features such as patterns, saved queries with parameters, facets for interactive log exploration, natural language qu",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+          "published": "2026-06-15T17:06:00+00:00",
+          "content_snippet": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections from Palo Alto Networks directly on Route 53 DNS Firewall rules, without deploying separate firewalls or modifying VPC configurations — by subscribing to PANW from the DNS Firewall console through the embedded AWS Marketplace widget. With this launch, you can enforce DNS threat protections from Palo A",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+          "published": "2026-06-15T17:00:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch containerized applications, including web applications and APIs, making it easy to orchestrate and manage cloud architecture while maintaining full control over infrastructure resources. Every Express Mode service automatically receives an AWS-provided domain name, making your application immediately a",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
+          "published": "2026-06-15T16:07:00+00:00",
+          "content_snippet": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups. Customers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups, enabling them to view billing data priced at the pro forma rates supplied by the payer account or Bill-Transfer account. Previously, the billing group configuration resulted in restricted access to historical billing data (priced at AWS billable rates) for accounts mapped to billing groups. With this launch, a",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
+          "published": "2026-06-15T15:55:00+00:00",
+          "content_snippet": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This helps you enforce cost allocation, service control policies (SCPs), and compliance requirements across all resources provisioned by your capacity providers. LMI lets you run Lambda functions on managed EC2 instances with built-in routing, load balancing, and auto scaling, giving you access to special",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+          "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+          "published": "2026-06-15T20:42:13+00:00",
+          "content_snippet": "AWS WAF now includes AI traffic monetization capability that gives digital content owners and publishers a way to charge AI bots and agents for access to protected web content directly at the network edge. The capability helps content owners and publishers set per-request pricing by content path, bot category, or verification tier without modifying their origin infrastructure or writing application code. Content owners can define granular access policies per agent type, collect payments in stabl",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Skip the learning curve: rethinking data migration for real outcomes",
-          "url": "https://www.databricks.com/blog/skip-learning-curve-rethinking-data-migration-real-outcomes",
-          "published": "2026-06-15T12:40:00+00:00",
-          "content_snippet": "Data migrations have a reputation for being high-risk, stressful initiatives. They...",
+          "title": "What’s new with Unity Catalog at Data + AI Summit 2026",
+          "url": "https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026",
+          "published": "2026-06-16T13:25:00+00:00",
+          "content_snippet": "The agentic era is here. Hundreds of thousands of agents are now acting on enterprise...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Codex as a Solutions Engineering Partner",
-          "url": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
-          "published": "2026-06-15T13:03:41+00:00",
-          "content_snippet": "“A big part of my role as a solutions engineer is not only to build but to understand,” Stephanie Anani, Solutions Engineer, OpenAI. Stephanie points Codex to Trustpilot reviews and will mock up a customer website based on the feedback to show them how easy it is to make changes. Codex can be a partner in every sort of context for you ⬇️ https://openai.com/index/codex-for-every-role-tool-workflow/",
+          "title": "AI governance at Data + AI Summit 2026: What’s new with Unity AI Gateway",
+          "url": "https://www.databricks.com/blog/ai-governance-data-ai-summit-2026-whats-new-unity-ai-gateway",
+          "published": "2026-06-16T13:25:00+00:00",
+          "content_snippet": "AI is becoming increasingly multi-model, multi-agent, and multi-vendor. Developers...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Agent Bricks: Data + AI Summit 2026",
+          "url": "https://www.databricks.com/blog/agent-bricks-dais-2026",
+          "published": "2026-06-16T13:25:00+00:00",
+          "content_snippet": "Last year at the Data + AI Summit, we launched Agent Bricks, ushering in a new way...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing the new Databricks Startup Program",
+          "url": "https://www.databricks.com/blog/announcing-new-databricks-startup-program",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Today we are launching a major update to the Databricks Startup Program: qualifying...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing Genie ZeroOps: Put your data and AI operations on autopilot",
+          "url": "https://www.databricks.com/blog/introducing-genie-zeroops",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Data and AI work has always had a maintenance problem. Data pipelines break all the...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Lakeflow: A new era of agentic data engineering",
+          "url": "https://www.databricks.com/blog/lakeflow-new-era-agentic-data-engineering",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "All analytics, AI, and applications start with data. Over the past few decades, data...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Accelerate search queries with full-text search indexes on Databricks",
+          "url": "https://www.databricks.com/blog/accelerate-search-queries-full-text-search-indexes-databricks",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Every data team faces the same challenge as tables grow to hundreds of gigabytes or terabytes and beyond...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing Genie One, Genie Agents, and Genie Ontology",
+          "url": "https://www.databricks.com/blog/introducing-genie-one-genie-ontology-and-genie-agents",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Despite the progress in LLMs and consumer chat agents, most enterprise teams still...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Unifying Data and Governance in the Agentic Era: What’s New with Azure Databricks",
+          "url": "https://www.databricks.com/blog/unifying-data-and-governance-agentic-era-whats-new-azure-databricks",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Data + AI Summit 2026 Azure Databricks AnnouncementsAt Data + AI Summit 2026, we're...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing Lakebase Search: agent-native retrieval built into Lakebase Postgres",
+          "url": "https://www.databricks.com/blog/announcing-lakebase-search-agent-native-retrieval-built-lakebase-postgres",
+          "published": "2026-06-16T12:45:00+00:00",
+          "content_snippet": "Today, we're introducing Lakebase Search: hybrid vector and full-text retrieval built...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build and test iOS apps without leaving Codex",
+          "url": "https://www.youtube.com/watch?v=u9zLlcsCDiQ",
+          "published": "2026-06-15T23:20:32+00:00",
+          "content_snippet": "More of the iOS app loop, now inside Codex. The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex. Shoutout to the open source projects behind this: • Serve-sim powers the streaming simulator by @Baconbrix https://github.com/EvanBacon/serve-sim • SnapshotPreviews extracts SwiftUI previews by Sentry https://github.com/getsentry/SnapshotPreviews",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Payward Ships Faster with Codex",
-          "url": "https://www.youtube.com/watch?v=NxAxwsu6_Zs",
-          "published": "2026-06-14T22:44:45+00:00",
-          "content_snippet": "\"Without Codex, we probably would be six months behind where we are today.\" Kamo Asatryan and his team are building the core infrastructure to power inference across all products at Payward. Speed is the #1 value for his team and Codex has unlocked the ability to ship faster. 🚀 If you like to move slow 🐢 , don't click here: https://chatgpt.com/codex",
+          "title": "How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products",
+          "url": "https://www.youtube.com/watch?v=TDM2Dz_MuPk",
+          "published": "2026-06-15T18:02:23+00:00",
+          "content_snippet": "Fiona Tan and her @wayfair team are leveraging GPT-5.5 and our API to power their catalog enrichment program across 40M products — helping improve how product information is organized, differentiated, and understood. Next up? Pointing Codex at their gnarliest problems. https://openai.com/index/wayfair/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -161,7 +335,8 @@
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
-      ]
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -176,16 +351,17 @@
       ],
       "items": [
         {
-          "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
-          "url": "https://www.youtube.com/watch?v=c-2eEv2ou7Y",
-          "published": "2026-06-15T14:00:06+00:00",
-          "content_snippet": "Inspect ChatGPT's DOM while an MCP app is rendering and you find an iframe nested inside another iframe. Frédéric Barthelet traces why each simpler approach fails: `srcdoc` shares the parent origin so ChatGPT's CSP blocks all third party scripts; relaxing that CSP lets any app read ChatGPT's localStorage and cookies; adding `sandbox` removes origin indexed storage; adding `allow-same-origin` to restore it is the classic sandbox escape. The double iframe is what remains after ruling all of that o",
+          "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+          "url": "https://www.youtube.com/watch?v=gHs5ZiY80PM",
+          "published": "2026-06-16T13:00:06+00:00",
+          "content_snippet": "At GTC a few weeks ago, Ziv Ilan's team at NVIDIA got a video diffusion model generating in close to real time on a single Blackwell B200. The trick wasn't a new architecture, it was stripping out most of the fifty step denoising process diffusion models default to, by combining quantization, caching, and step distillation: training a student model to match a teacher's output using four steps, eight steps, or in some cases just one. Ilan walks through each layer of that stack: dynamic quantizati",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         }
       ],
-      "errors": []
+      "errors": [],
+      "deduped_sources": {}
     }
   ],
   "deduped_count": 6
