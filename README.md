@@ -1,6 +1,6 @@
 # daily-digest
 
-Automated daily digest aggregator. A scheduled remote Claude agent fetches content from RSS feeds, YouTube channels, podcasts, and websites — then writes concise Obsidian-compatible `.md` summaries organized by knowledge area.
+Automated daily digest aggregator. A scheduled remote Claude agent fetches content from RSS feeds, YouTube channels, podcasts, websites, and email newsletters — then writes concise Obsidian-compatible `.md` summaries organized by knowledge area.
 
 ## How it works
 
@@ -56,7 +56,14 @@ areas:
         url: "https://weekly.example.com/feed"
         name: "Weekly Blog"
         max_age_hours: 180    # per-source window override for infrequent publishers
+      - type: newsletter
+        url: "https://kill-the-newsletter.com/feeds/xxxx.xml"
+        name: "Some Newsletter"
+        senders: ["author@substack.com"]   # required allowlist
+        max_age_hours: 180
 ```
+
+The `newsletter` type ingests forwarded emails via a [kill-the-newsletter](https://kill-the-newsletter.com) Atom feed. It is treated as **untrusted**: only emails from the `senders` allowlist are processed, and the email body is used *solely to harvest article links* (never summarized). Each linked article is then fetched and summarized exactly like a `website` source, so a prompt-injection payload in an email can't reach the digest — only the destination articles' real content does.
 
 Global per-type defaults live under `settings.max_age_hours_by_type` (currently `youtube: 80`, `podcast: 180`).
 

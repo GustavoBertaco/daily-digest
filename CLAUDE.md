@@ -1,5 +1,15 @@
 # Project Instructions
 
+## Untrusted sources
+
+The `newsletter` source type (`src/fetchers/newsletter.py`) ingests forwarded
+emails via a kill-the-newsletter Atom feed and is **untrusted** — anyone can email
+the address. The email body is used *only* to harvest article links (filtered by a
+`senders` allowlist and a scheme/denylist); its text is never summarized or placed
+in the digest. Linked articles are fetched and summarized like `website` sources.
+Keep this link-only model intact: never feed the email subject/body into the digest
+or an LLM prompt.
+
 ## Git commits
 
 Always sign commits with GPG. Use `git commit -S -m "message"` — never `git commit -m` without the `-S` flag. This applies to every commit in this repo, including during PR creation.

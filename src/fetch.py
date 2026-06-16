@@ -18,6 +18,7 @@ from fetchers import FetchedItem
 from fetchers.rss import fetch_rss
 from fetchers.youtube import fetch_youtube
 from fetchers.web import fetch_website
+from fetchers.newsletter import fetch_newsletter
 from seen import load_seen, normalize_url
 
 _REQUIRED_AREA_KEYS = {"name", "emoji", "folder", "sources"}
@@ -28,6 +29,7 @@ _REQUIRED_SOURCE_KEYS_BY_TYPE = {
     "podcast": {"url"},
     "youtube": {"channel_id"},
     "website": {"url"},
+    "newsletter": {"url", "senders"},
 }
 
 
@@ -74,6 +76,13 @@ def load_config(config_path: str) -> dict:
                 not isinstance(src["max_age_hours"], int) or src["max_age_hours"] <= 0
             ):
                 print(f"ERROR: source '{src.get('name','?')}' max_age_hours must be a positive int", file=sys.stderr)
+                sys.exit(1)
+            if src_type == "newsletter" and not (
+                isinstance(src.get("senders"), list)
+                and src["senders"]
+                and all(isinstance(s, str) and s.strip() for s in src["senders"])
+            ):
+                print(f"ERROR: newsletter source '{src.get('name','?')}' senders must be a non-empty list of email strings", file=sys.stderr)
                 sys.exit(1)
 
     settings = cfg.get("settings") or {}
@@ -135,6 +144,11 @@ def _fetch_one_source(
             items = fetch_website(src["url"], src_name,
                                   max_age_hours=max_age, max_items=max_items,
                                   timeout=timeout)
+        elif src_type == "newsletter":
+            items = fetch_newsletter(src["url"], src_name,
+                                     senders=src["senders"],
+                                     max_age_hours=max_age, max_items=max_items,
+                                     timeout=timeout, user_agent=user_agent)
         for item in items:
             item["area_name"] = area_name
         if not items:

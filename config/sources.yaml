@@ -1,7 +1,12 @@
 # Daily Digest — Source Configuration
 # =====================================
 # Add or remove areas freely. Each area becomes its own .md file per day.
-# Supported source types: rss, podcast, youtube, website
+# Supported source types: rss, podcast, youtube, website, newsletter
+#
+# newsletter — a kill-the-newsletter Atom feed of forwarded emails. UNTRUSTED: the
+#   email body is used only to harvest article links (never summarized). Requires a
+#   `senders` allowlist; only emails from those addresses are processed, and each
+#   linked article is fetched/summarized like a `website` source.
 #
 # Per-area summary_style (optional, default "insight"):
 #   insight — framing paragraph + 3-5 practitioner insight bullets, drafted from
@@ -80,6 +85,11 @@ areas:
       - type: podcast
         url: "https://rss.libsyn.com/shows/352538/destinations/2880773.xml"
         name: "The Analytics Engineering Podcast"
+      - type: newsletter
+        url: "https://kill-the-newsletter.com/feeds/l0wex115vq09if0qqspn.xml"
+        name: "Data Engineering Weekly"
+        senders: ["dataengineeringweekly@substack.com"]   # only digest mail from this sender
+        max_age_hours: 180    # weekly issue
       # Data Mesh Radio (Spotify: 4FIKajWDxdAPvW5925IBrF) excluded — no public RSS feed
 
   - name: "Providers Updates"
