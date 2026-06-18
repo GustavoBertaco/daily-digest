@@ -1,8 +1,8 @@
 # Long-Term Product Vision for a Data Platform
 
 > Exploring techniques to collaboratively build a long-term (2–3 year) product vision
-> for platforms — Engineering and Product together — as the basis for annual OKRs and
-> squad-level initiatives.
+> for platforms — Engineering and Product together — as the basis for a North Star (or
+> OKR set) per investment area. The squad-level cascade is a separate study.
 
 - **Topic:** Product Management
 - **Date:** 2026-06-18
@@ -127,64 +127,100 @@ applies — a caveat on fit.
 
 ## Proposed dynamic (consolidation)
 
-**Fully in-person. No async pre-work** — focus is fragile and homework rarely gets
-done, so every activity happens live in the room. Where independent thinking matters
-(to avoid anchoring on the most senior voice), we get it through *silent solo writing*
-inside the session, not before it.
+**In-person by default — the only async step is an individual card-dump.** Focus is
+fragile and group homework rarely gets done, so *all synthesis and decisions happen in
+the room*. The one exception is a solo, private brain-dump before the session (see
+**Pre-work** below): it's individual and bounded, so it doesn't suffer the failure mode
+of async group work, and it buys ~30 min of room time for the parts that need the room.
+Where independent thinking matters (to avoid anchoring on the most senior voice), we
+protect it by keeping those submissions private until the room and by having the room
+actively re-shape the facilitator's draft clusters.
 
-**Format:** one intense day (~7h with breaks), or three half-day sessions if there's
+**Designed for flow, not stations.** The cross-functional room is **2 continuous
+movements** that build on a *single growing wall*, instead of a sequence of cold-start
+sessions. The room's job is to *surface and align* — diagnosis, fears/ambitions, and
+candidate investment areas; **forming the vision and positioning the clusters is a
+separate Product-team step afterward** (see *After the room*). The energy mechanics
+matter as much as the content:
+
+- **1‑2‑4‑All** ([Liberating Structures](https://www.liberatingstructures.com/1-2-4-all/))
+  replaces round-robin read-outs — everyone is always active; sharing is compressed.
+- **Gallery walk + silent dot-voting** replaces verbal read-outs — people stand, move,
+  read, and vote with dots. Movement is energy, and it converges faster.
+- **One evolving artifact** — the same wall is enriched movement after movement, so the
+  room sees momentum rather than restarting.
+- **Mixed Product+Engineering** in every pair and foursome — collaboration is the point.
+
+**Format:** the cross-functional room is short (~1.5–2h: M1 + M2, plus the pre-work);
+the Product-team synthesis happens separately afterward. Use a single sitting, or split
+if there's
 political tension or many divergent Product/Engineering views. Group: the RT key
-positions (Product + Engineering). One facilitator + one scribe.
+positions. One confident facilitator + one scribe. **The single rule, stated up front
+and enforced all day:** *no solution may be named until the problem behind it is on the
+wall.*
 
 **Flow at a glance:**
 
 ```mermaid
 flowchart LR
-    A["S1 · Diagnose<br/>pains & context"] --> B["S2 · Diverge<br/>pre-mortem"]
-    B --> C["S3 · Cluster<br/>investment areas"]
-    C --> D["S4 · Converge<br/>vision & bets"]
-    D --> E["Validate &<br/>evangelize"]
-    E --> F["Staff distill<br/>annual KRs"]
-    F --> G["Squads own<br/>initiatives"]
+    P["Pre-work<br/>individual card-dump"] --> A["M1 · React & refine<br/>pre-clustered → diagnosis"]
+    A --> B["M2 · Stretch<br/>pre-mortem, two futures"]
+    B --> C["Product synthesis<br/>vision + position clusters<br/>(Appendix A)"]
+    C --> D["Validate &<br/>evangelize"]
+    D --> E["Annual OKRs<br/>per investment area"]
+    E -.-> F["Squad cascade<br/>(separate study)"]
 ```
 
-The first four sessions are the workshop (in the room). The last three happen *after*
-and are not facilitated live.
+The two movements are the cross-functional workshop (in the room). Everything from
+*Product synthesis* onward happens *after* and is not facilitated live.
 
-### Session 1 — Diagnose pains & context (90 min)
+### Pre-work — individual card-dump (async, before the room)
 
-Goal: get every real concern on the wall and name the core problem — without anyone
-proposing solutions yet.
+- Each participant **individually** submits cards via a form/Miro on three prompts:
+  *(a)* how an internal customer (squad, risk, analyst) would describe the platform in
+  its ideal state 3 years out; *(b)* the biggest pains today that will *get worse* if we
+  don't act; *(c)* one external data platform they admire, benchmark. Deadline + a personal
+  nudge so it actually gets done.
+- **Submissions stay private** (not visible to peers) until the room — this preserves
+  independent thinking and prevents people anchoring on each other in advance.
+- Facilitator + scribe then **merge duplicates, normalize wording, and arrange the cards
+  into 5–8 draft "starter clusters"** with deliberately neutral names. Outliers and
+  dissent are parked visibly, never discarded.
 
-1. **(10 min) Frame the rule.** State out loud: *no solution may be named until the
-   problem behind it is on the wall.* Appoint someone to call it out when broken.
-2. **(15 min) Silent solo writing.** Everyone, in silence, writes on sticky notes
-   (one idea per note), answering three prompts:
-   - In its ideal state 3 years out, how would an internal customer (consuming squad,
-     risk, analyst) describe our platform?
-   - The 3 biggest pains today that will *get worse* if we don't act.
-   - One external data platform / bank you admire and what's good about it (benchmark).
-3. **(30 min) Round-robin read-out.** Each person reads their notes onto the wall —
-   no debate, just clarifying questions. Silent solo first, then share: this is what
-   replaces async and still prevents anchoring.
-4. **(20 min) Name the diagnosis (Rumelt kernel).** As a group, write *one sentence*:
-   the single biggest obstacle standing between us and the 3-year ideal. This is the
-   anchor everything later must trace back to.
-5. **(15 min) Sanity check.** Does every loud pain connect to the diagnosis? Park
-   anything that doesn't.
+### Movement 1 — React, refine, diagnose (≈45 min)
 
-### Session 2 — Diverge with an inverted pre-mortem (75 min)
+The room walks in to a **pre-clustered wall** and spends its energy on judgment, not
+generation. The starter clusters are framed as *a draft to be broken*.
 
-Goal: surface the unspoken fears, then flip them into a picture of success.
+- **Orient + the one rule (5 min).** Show the starter clusters; state out loud that they
+  are a draft the room is expected to challenge, and *no solution before the problem is
+  on the wall.*
+- **Challenge & refine — foursomes + gallery walk (20 min).** Move mis-grouped cards,
+  rename clusters, and **add anything missing** (this also covers anyone who skipped the
+  pre-work). Talking only to resolve overlaps. This active re-shaping is the anchoring
+  antidote — the room owns the clusters, not the facilitator's draft. The result is the
+  set of **candidate investment areas** (aim for 4–6).
+- **Dot-vote (10 min).** The room walks the wall and dot-votes the themes that will hurt
+  most over the long run. The facilitator reads the dot pattern aloud.
+- **Diagnosis (10 min).** From the top-voted themes, the room writes *one sentence*: the
+  single biggest obstacle between us and the 3-year ideal (the **Rumelt kernel**).
+  Everything later must trace back to it; the clusters on the wall are the trace-back,
+  so no separate gate is needed.
 
-1. **(5 min) Set the scene.** "It's 2029. The platform initiative has failed badly."
-2. **(20 min) Failure headlines in pairs.** Each pair writes the newspaper headline of
-   the failure + its top 3 causes. Pairs mix Product with Engineering deliberately.
-3. **(15 min) Read-out & cluster causes.** Post all causes; group the recurring ones.
-4. **(20 min) Invert it.** "It's 2029 and we were a clear success — what happened?"
-   Same pairs, success headline + the 3 things that made it true.
-5. **(15 min) Two columns on the wall.** Failure-causes vs. success-conditions, side by
-   side. This pairing is the raw material for the vision.
+### Movement 2 — Stretch to two futures (≈50 min)
+
+The pre-mortem, run as one storytelling beat that feeds the same wall.
+
+- **Set the scene (3 min).** "It's 2029. We're going to tell two stories of this same
+  platform — one where it failed, one where it won."
+- **Pairs write both stories back-to-back (22 min).** Each mixed pair writes the
+  *failure* headline + its top 3 causes, then immediately the *success* headline + the
+  3 things that made it true. One continuous arc, not two exercises.
+- **Post + silent scan (15 min).** Pairs post straight onto the wall in two columns;
+  the room does a quick silent gallery scan and the facilitator surfaces a few
+  recurring patterns — no full verbal read-out.
+- **Link to the clusters (10 min).** Mark which success-conditions map to Movement-1
+  clusters, and add any new cluster the futures surfaced.
 
 ```text
    FAILURE CAUSES            |   SUCCESS CONDITIONS
@@ -195,90 +231,72 @@ Goal: surface the unspoken fears, then flip them into a picture of success.
    • platform = ticket queue  | • platform consumed as a product
 ```
 
-### Session 3 — Cluster into investment areas (45 min)
-
-Goal: turn the wall into 4–6 candidate investment areas.
-
-1. **(20 min) Affinity mapping.** Silently move related notes (pains, success
-   conditions, benchmarks) together; see [NN/g affinity method](https://www.nngroup.com/articles/affinity-diagram/).
-   Talking starts only to resolve overlaps.
-2. **(15 min) Name the clusters.** Give each cluster a short, outcome-oriented name —
-   these become **candidate investment areas** (aim for 4–6).
-3. **(10 min) Trace-back test.** For each cluster, confirm it attacks the Session-1
-   diagnosis. Drop or merge clusters that don't.
-
-### Session 4 — Converge on vision & bets (120 min)
-
-Goal: produce the one-page direction.
-
-1. **(25 min) Metric.** Define a **North Star — or a small metric tree** if one number
-   can't serve squads + risk + analysts — plus 3–5 *input metrics* squads can move.
-2. **(30 min) Vision statement.** Write a 2–3 year narrative (Cagan style: "what it's
-   like to build on / consume our platform in 2029"). For a more workshop-friendly
-   canvas, fill a [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/) instead.
-3. **(25 min) Wardley Map of the clusters.** Place each investment area on
-   *evolution* (genesis → commodity) × *value to user* to decide **invest vs.
-   commoditize/buy**. Facilitator must pre-teach the axes; if the room is cold on
-   Wardley, defer this to a follow-up rather than burn time.
-
-   ```text
-   value to user
-     ^
-     |  governance        self-service
-     |  (differentiate)   (differentiate)
-     |
-     |        data catalog        compute/infra
-     |        (build)             (buy/commoditize)
-     +------------------------------------------> evolution
-       genesis   custom   product   commodity
-   ```
-
-4. **(20 min, optional · data-specific) Data Product Canvas.** For one flagship data
-   product per investment area, sketch consumers, success metric, sources, SLOs, and
-   access interface — grounds the vision in real consumer terms.
-5. **(20 min) Now-Next-Later.** Place the investment areas across horizons — **no
-   dates** — to give 11+ squads direction without micromanaging.
-
-   ```text
-   NOW            |  NEXT           |  LATER
-   (in motion)    |  (validated)    |  (needs discovery)
-   -------------- | --------------- | ----------------
-   governance v1  | self-service    | ML feature store
-   trust metrics  | data catalog    | cross-domain mesh
-   ```
-
-**One-page output of the workshop:** Diagnosis · Vision · North Star (or metric tree)
-+ input metrics · 4–6 investment areas · Now-Next-Later per area.
+**Workshop output (what the room produced).** The cross-functional room stops here —
+it does *not* write the vision. It hands off three things: the **diagnosis** (one
+sentence), the **two-futures wall** (failure causes vs. success conditions), and a set
+of **4–6 candidate investment areas** the room owns and aligned on.
 
 ### After the room (not facilitated live)
 
-- **Validate & evangelize (PM3 steps 5–6, Cagan).** Only the KPs were present, but the
-  vision must steer 11+ squads who weren't. Walk the draft through squad leads, gather
-  reactions, and evangelize it broadly *before* anything is locked.
-- **Distill annual KRs.** Staff translate the validated direction into KRs — *after*
-  validation, not in the workshop (the workshop produces direction, not OKRs).
-- **Squads own initiatives.** Each squad defines the initiatives that move the input
-  metrics — they decide the "how".
+- **Product Team synthesis — form the vision & position the areas.** Forming the vision
+  and positioning the investment-area clusters is the **Product team's** job, not a
+  whole-room activity. Working from the workshop output, Product unifies everything into
+  the long-term vision document — the template in **Appendix A** — by:
+  - **Writing the vision.** A 2–3 year narrative (Cagan style: "what it's like to build
+    on / consume our platform in 2029"), or a
+    [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/).
+  - **Setting a goal per investment area.** Give *each* investment area its own
+    **North Star metric — or an OKR set** (objective + key results) — the long-term
+    outcome that area must move. These per-area goals *are* the point of the exercise;
+    a single platform-wide number is not the aim. (How squads then pursue these goals —
+    the squad-level cascade — is a **separate study**, out of scope here.)
+  - **Positioning the clusters (Wardley).** Place each investment area on *evolution*
+    (genesis → commodity) × *value to user* to decide **invest vs. commoditize/buy**.
 
-## Takeaways
+     ```text
+     value to user
+       ^
+       |  governance        self-service
+       |  (differentiate)   (differentiate)
+       |
+       |        data catalog        compute/infra
+       |        (build)             (buy/commoditize)
+       +------------------------------------------> evolution
+         genesis   custom   product   commodity
+     ```
 
-- Separate the horizons of conversation and forbid solutions before problems are
-  mapped — this is the single biggest lever against short-term drift.
-- The inverted pre-mortem is the mechanism to surface the real, unspoken concerns.
-- The chain that makes it actionable: **Diagnosis → Vision → North Star (or metric
-  tree) + input metrics → investment areas (Now-Next-Later) → validate/evangelize →
-  annual KRs → squad initiatives.**
-- The workshop produces *direction*; it must be validated and evangelized with the
-  squads who weren't in the room *before* OKRs are distilled by staff; squads own the
-  "how".
+  - **Linking the areas (Now-Next-Later).** Place the investment areas across horizons
+    — **no dates** — to give 11+ squads direction without micromanaging.
+
+     ```text
+     NOW            |  NEXT           |  LATER
+     (in motion)    |  (validated)    |  (needs discovery)
+     -------------- | --------------- | ----------------
+     governance v1  | self-service    | ML feature store
+     trust metrics  | data catalog    | cross-domain mesh
+     ```
+
+
+
+### Downstream — to detail later
+
+Steps beyond this study's current scope, to be fleshed out in a later iteration:
+
+1. **Define next-year OKRs from the investment areas.** Based on the main areas of
+   investment, define the OKRs for the following year.
+2. **Squads define their initiatives.** Based on those OKRs, each squad defines the
+   initiatives that pursue them.
 
 ## Open questions / next iterations
 
 ### ▶ Next steps — resume here
 
-- [ ] **1. Rework the dynamic for flow & engagement.** It still has too much friction —
-  too much pause-and-continue / stop-start. Redesign toward a continuous, engaging flow
-  that keeps energy up, instead of a sequence of discrete timeboxed stations.
+- [x] **1. Rework the dynamic for flow & engagement.** ~~Too much pause-and-continue.~~
+  Done (2026-06-18): cross-functional room rebuilt as 2 continuous movements (React &
+  refine → Stretch) on one growing wall, using 1‑2‑4‑All + gallery walk + dot-voting
+  instead of read-outs; M1 fed by an individual card-dump pre-work; vision-forming and
+  cluster positioning moved to a separate Product-team synthesis step (Appendix A).
+  *Revisit if it still feels heavy after a dry run.*
 - [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
   *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
   technique (or reframe the pre-mortem) that forces a long-horizon lens.
@@ -301,16 +319,18 @@ The workshop above produces *direction*; this is the **output artifact** that ca
 it — a living document a platform org can maintain year over year. The skeleton below
 is distilled from a real-world data-platform annual vision/plan (internal codenames
 removed) and deliberately mirrors the study's chain:
-**Diagnosis → Vision → North Star (or metric tree) + input metrics → investment areas
-(Now-Next-Later) → validate/evangelize → annual KRs → squad initiatives.**
+**Diagnosis → Vision → a North Star (or OKR set) per investment area → position/link the
+areas (Wardley + Now-Next-Later) → validate/evangelize → annual OKRs per area.**
+(The squad-level cascade is a separate study and is not part of this template.)
 
 > Conventions
 > - Replace every `[ … ]` placeholder.
-> - Keep the document **outcome-oriented**: each Objective opens with *Why* (the
->   diagnosed problem from the diverge session), not a solution.
-> - Success Metrics are the *input metrics* squads can actually move; state a baseline
->   and a target with a date.
-> - Initiatives are direction, not dated commitments — pair with Now-Next-Later.
+> - Each Objective maps to an **investment area**; keep it **outcome-oriented**, opening
+>   with *Why* (the diagnosed problem from the diverge session), not a solution.
+> - Success Metrics are the area's **North Star / key results** (the outcome the area
+>   must move); state a baseline and a target with a date.
+> - Initiatives are area-level direction, not dated commitments or squad task lists —
+>   pair with Now-Next-Later.
 
 ```markdown
 # [Platform] — Long-Term Product Vision & Annual Plan ([year])
@@ -328,18 +348,21 @@ removed) and deliberately mirrors the study's chain:
 - **North Star (or small metric tree):** [The metric(s) capturing value delivered,
   e.g. time-to-trustworthy-data] — baseline [x], ambition [y].
 
-## 2) Objectives, Success Metrics & Initiatives ([year])
+## 2) Investment Areas — North Star, Annual OKRs & Initiatives ([year])
 
-### Objective [N]: [Outcome-framed title]
+### Investment area [N]: [Outcome-framed title]
 - **Why:** [The diagnosed problem and the business value of solving it.]
-- **Success Metrics (input metrics):**
-  - [Metric] — baseline [x] → target [y] by [date]
-  - [Metric] — …
-- **Initiatives:**
+- **North Star (area-level):** [The long-term outcome metric for this area] —
+  baseline [x], ambition [y].
+- **Annual OKRs ([year]):**
+  - **Objective:** [Outcome for this year]
+  - **KR:** [Metric] — baseline [x] → target [y] by [date]
+  - **KR:** …
+- **Initiatives (area-level bets, not squad task lists):**
   - [Initiative — the bet, not a dated deliverable]
   - [Initiative — …]
 
-<!-- Repeat per objective (the source doc carried four). -->
+<!-- Repeat per investment area (the source doc carried four). -->
 
 ## 3) Objectives Below the Line & Critical Trade-offs
 
