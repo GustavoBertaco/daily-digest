@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T13:02:49Z",
+  "fetched_at": "2026-06-18T12:39:59Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,12 +12,18 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "CI/CD with Robert Erez",
+          "url": "https://www.youtube.com/watch?v=2x0eq5oDOJY",
+          "published": "2026-06-17T16:40:37+00:00",
+          "content_snippet": "Robert Erez is a principal engineer at Octopus Deploy, and a longtime expert in CI/CD, deployment systems, and software delivery. Rob and I were also once colleagues on the Skype web team, working on large-scale deployments and release processes. In this episode of The Pragmatic Engineer, I sit down with Rob to discuss how teams deploy software safely and efficiently at scale. We cover Kubernetes, GitOps, platform engineering, progressive delivery, feature flags, cloud development environments, ",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Netflix Tech Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -59,28 +65,12 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Stop putting bananas in your smoothies | Dr. Rhonda Patrick",
-          "url": "https://www.youtube.com/watch?v=UeP0k4iIFmA",
-          "published": "2026-06-16T19:00:33+00:00",
-          "content_snippet": "Bananas contain an enzyme that blocks nutrients from other foods. Combined with blueberries, for example, bananas can block the cognitive benefits you want. Full conversation with Dr. Rhonda Patrick linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show ",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How Investors Get Big Returns",
-          "url": "https://www.youtube.com/watch?v=t7qla3eGU9I",
-          "published": "2026-06-17T13:00:21+00:00",
-          "content_snippet": "Behavioral economists call this the disposition effect. Shefrin and Statman documented it in 1985 across thousands of accounts. Investors realize gains too quickly and hold losses too long, the exact opposite of what compounds. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Knowledge Project Podcast": 1,
+        "Daniel Pink": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -94,30 +84,12 @@
       ],
       "items": [
         {
-          "title": "Engineer-PM Divide Kills Agentic Coding Speed #Productivity #AIWorkflow #DataEngineering",
-          "url": "https://www.youtube.com/watch?v=Q-siRsgdMvs",
-          "published": "2026-06-17T09:56:11+00:00",
-          "content_snippet": "Great conversation by the host Benjamin Wagner with Pranav Motarwar, exploring how agentic coding is beginning to challenge and reshape traditional product management structures. The discussion highlights the growing tension between AI-driven development workflows and conventional PM processes. What stood out: Why the speed of autonomous code generation is ultimately throttled by human meeting loops. The shift away from multi-layered spec reviews toward true end-to-end engineering ownership. How",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "AI for Data and Data for AI: The Dual Frontier of Modern Data Engineering ft. Pranav Motarwar",
-          "url": "https://www.youtube.com/watch?v=m_JC_7DcjHw",
-          "published": "2026-06-17T09:16:58+00:00",
-          "content_snippet": "In this episode of The Data Engineering Show, host Benjamin sits down with Pranav Motarwar, a data engineer who has worked across major tech companies and the intersection of AI and data infrastructure, to explore how artificial intelligence is fundamentally reshaping the data engineering landscape - not by eliminating roles, but by bifurcating the field into two distinct, equally critical domains. *Chapters:* [00:00] Intro [00:01:46] Data Engineering Evolution: Pre-LLM to AI-Driven Pipelines [0",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "Re-Air: The End of Busywork: How AI Transforms Productivity at Scale with Alberto Rizzoli of V7",
-          "url": "https://datastackshow.com",
-          "published": "2026-06-17T08:30:00+00:00",
-          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show , AI entrepreneur Alberto Rizzoli shares his journey from early computer vision breakthroughs to leading the automation of back-office workflows at V7. The discussion explores the shift from bespoke model training to configurable AI solutions, the impact of automation on business roles, and emerging best practices for integrating AI into enterprises. Listeners ",
-          "source_name": "The Data Stack Show",
-          "source_type": "rss",
+          "title": "DuckDB's agent moment (Jordan Tigani)",
+          "url": "https://roundup.getdbt.com",
+          "published": "2026-06-18T09:02:00+00:00",
+          "content_snippet": "Jordan Tigani helped build BigQuery, then left to bet that most data isn't big. Three years on, agents are proving him right. The MotherDuck CEO joins Tristan Handy on why local-first databases fit the agent era, and what an \"agent swarm for data management\" looks like. For full show notes and to read the podcast's companion newsletter, head to https://roundup.getdbt.com . The Analytics Engineering Podcast is sponsored by dbt Labs.",
+          "source_name": "The Analytics Engineering Podcast",
+          "source_type": "podcast",
           "area_name": "Data Platform"
         }
       ],
@@ -127,15 +99,14 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "The Analytics Engineering Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Data Engineering Show": 2,
+        "The Data Stack Show": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -153,199 +124,163 @@
       ],
       "items": [
         {
-          "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
-          "published": "2026-06-16T22:53:00+00:00",
-          "content_snippet": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guardrail resources. The API provides granular, per-request control over which safeguards to run at each step of your agent loop, returning numeric severity and confidence scores so you can implement custom thresholds and actions, whether to block, pass, retry, or log based on your specific requirements.",
+          "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
+          "published": "2026-06-17T19:15:00+00:00",
+          "content_snippet": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon SageMaker Unified Studio, or your preferred notebook environments and IDEs like Jupyter, Visual Studio Code, while running them on AWS Glue's serverless infrastructure without managing clusters. With Spark Connect, you submit Spark jobs to AWS Glue Interactive Sessions using a thin client architect",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
-          "published": "2026-06-16T21:55:00+00:00",
-          "content_snippet": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers to Amazon Bedrock. The AI-powered agent scans your codebase, identifies every AI SDK and model in use, gathers your migration requirements through interactive questions, and maps models to Bedrock equivalents with transparent cost comparisons and production-ready code changes. This managed custom tra",
+          "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
+          "published": "2026-06-17T16:00:00+00:00",
+          "content_snippet": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time engine log streaming accelerates iterative workflow development and debugging by giving researchers, bioinformaticians, and workflow developers immed",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
-          "published": "2026-06-16T21:22:00+00:00",
-          "content_snippet": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit. The higher result limit helps you retrieve a larger, more comprehensive set of candidates during similarity queries. This is especially valuable for applications with multi-stage retrieval pipelines that need to apply additional processing such as reranking, aggregations, or deduplication to produce a more relevant final result set. To get started with the higher limit, use",
+          "title": "AWS DevOps Agent adds release management capability (preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
+          "published": "2026-06-17T15:00:00+00:00",
+          "content_snippet": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps Agent now works across both delivery and operations. It accelerates and validates the deployment of code changes, then keeps your applications running optimally across AWS, multicloud, and on-prem environments, so your team ships faster, reduces MTT",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
-          "published": "2026-06-16T18:29:00+00:00",
-          "content_snippet": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis across multiple tools for discovery, reverse engineering, and code generation with manual handoffs between phases. With this launch, enterprises running z/OS COBOL and PL/I workloads can assess their portfolio to identify the discrete business functions, extract business rules, generate development",
+          "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
+          "published": "2026-06-17T15:00:00+00:00",
+          "content_snippet": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23% price/performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon RDS open source databases, depending on database engine, version, and workload. AWS Graviton5 processors are the latest generation of custom-des",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Sign-in now supports resource-based policies and resource control policies",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
-          "published": "2026-06-16T16:20:00+00:00",
-          "content_snippet": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks. Policies are evaluated during sign-in and whenever the console session requests new credentials. Resource-based policies apply to individual AWS accounts. Resource control policies apply organization-wide through AWS Organizations. You can combine these policies with AWS Management Console Private Access",
+          "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
+          "published": "2026-06-17T15:00:00+00:00",
+          "content_snippet": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL version 2 (with MySQL 5.7 compatibility) and RDS for MySQL version 5.7, giving customers additional time to plan and complete their upgrades to a supported major version while continuing to receive critical security patches and bug fixes. RDS Extended S",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
-          "published": "2026-06-16T16:10:00+00:00",
-          "content_snippet": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico (Central). Amazon Redshift's new Graviton-based RG instances deliver up to 4.2X better price-performance for data warehouse workloads compared to other data warehouses , run workloads up to 2.4x faster than previous-generation RA3 instances, and cost 30% less per vCPU. Customers in Cape Town (af-south-",
+          "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
+          "published": "2026-06-17T14:30:00+00:00",
+          "content_snippet": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA ConnectX-7 (CX7) network interface cards, delivering up to 800 Gbps of bare-metal accelerated network bandwidth operating at near line rate. Bmn-cx3a instances offer up to 256 cores and 1.5 TB of memory across two sizes, bmn-cx3a.metal-32xl and bmn-cx3a.metal-64xl, with 2x 8 TB NVMe SSD storage. With na",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
-          "published": "2026-06-16T15:49:00+00:00",
-          "content_snippet": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure tools. AWS Blocks runs a fully functional local environment with Postgres, authentication, and real-time messaging, no AWS account required. When ready to deploy, the same application code runs on production AWS services with zero changes, and developers can drop into AWS CDK at any point for direct re",
+          "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
+          "published": "2026-06-17T13:40:00+00:00",
+          "content_snippet": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns user workflows. These new capabilities enable Quick to handle recurring tasks continuously while providing unified analytics across multiple data sources. With autonomous agents, users can describe tasks in natural language and set granular autonomy",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Partner Central agents now accelerate co-selling on every deal",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
-          "published": "2026-06-16T13:00:00+00:00",
-          "content_snippet": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS Partner Central agents released on March 16, 2026, the agent can act on the partner's behalf through conversation to enrich the opportunity details. This eliminates waiting for manual review, so partners build a stronger pipeline and progress deals faster. Now, each opportunity is matched to a co-sell mot",
+          "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
+          "published": "2026-06-17T12:00:00+00:00",
+          "content_snippet": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards. These failures produce no error signal and often surface through customer complaints weeks later. AgentCore closes that gap with a loop to understand what agents are doing, generate fixes grounded in data, and prove they work. To understand ag",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
-          "published": "2026-06-16T12:44:00+00:00",
-          "content_snippet": "Amazon CloudWatch now natively supports OpenTelemetry metrics. You can send metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL), with per-GB ingestion pricing and 15 months of storage included. This allows you to consolidate custom application metrics and AWS vended metrics from more than 70 services in a single solution, queryable together in PromQL. CloudWatch exposes a Prometheus-compatible query API, so teams already using OpenTelemetry, Prom",
+          "title": "AgentCore harness in now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+          "published": "2026-06-17T12:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the brain needs to get work done. It runs the orchestration loop, executes tools, manages the context window, persists state across turns, recovers from failures, and isolates each session. The harness shapes how well an agent performs as much as th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Marketplace announces AI-assisted product listing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
-          "published": "2026-06-16T12:30:00+00:00",
-          "content_snippet": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS Marketplace using their existing digital assets. This new capability helps partners create listings optimized for discovery by buyers, while eliminating the time-consuming manual data entry and guesswork around meeting AWS Marketplace requirements. Partner Assistant automatically generates and valid",
+          "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+          "published": "2026-06-17T12:00:00+00:00",
+          "content_snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock AgentCore that controls which actions AI agents are authorized to take. Guardrails give enterprises defenses against the top security and safety risks with AI agent workloads, including prompt injection attacks and sensitive data exposure. Gu",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
-          "published": "2026-06-16T23:13:10+00:00",
-          "content_snippet": "Today, we’re announcing a new metadata capability for Amazon Simple Storage Service (Amazon S3) called annotations, enabling you to attach rich, large-scale business context directly to your objects. You can store up to 1,000 named annotations per object, each up to 1 MB in size, totaling up to 1 GB per object, in flexible formats like JSON, XML, YAML, or plain text. You can modify or delete an annotation at any time, without re-writing your objects, making it easy to keep your object context cu",
+          "title": "Top announcements of the AWS Summit in New York, 2026",
+          "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
+          "published": "2026-06-17T16:36:08+00:00",
+          "content_snippet": "Today at the AWS Summit in New York City , Swami Sivasubramanian, AWS VP of Agentic AI, provided the day’s keynote. Here’s our roundup of the biggest announcements from the event: New in agents customers create We’re introducing new capabilities on Amazon Bedrock AgentCore: connecting AI agents to organizational, web, and paid knowledge, helping teams find and fix what’s going wrong in production, and enforcing controls that scale as agents grow more capable. Together, these capabilities help yo",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Becoming the most comprehensive data & AI ecosystem on earth",
-          "url": "https://www.databricks.com/blog/becoming-most-comprehensive-data-ai-ecosystem-earth",
-          "published": "2026-06-17T16:16:37+00:00",
-          "content_snippet": "All in all, we’re just another brick in the wallAs I complete my first year at Databricks,...",
+          "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+          "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+          "published": "2026-06-17T15:09:20+00:00",
+          "content_snippet": "Today, we’re announcing Amazon Bedrock Managed Knowledge Base , a new set of capabilities that enables developers to build enterprise-grade generative AI applications with their proprietary data in minutes. Organizations building agentic AI applications need secure, reliable, and up-to-date access to enterprise-wide data to deliver accurate, fast, and trusted outcomes. Managed Knowledge Base abstracts away the complexity of building and managing retrieval-augmented generation (RAG) pipelines, al",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+          "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+          "published": "2026-06-17T15:00:11+00:00",
+          "content_snippet": "Today, we’re announcing the general availability of Web Search on Amazon Bedrock AgentCore , a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer’s secured AWS environment. Web Search uses a built-in connector target on Bedrock AgentCore Gateway using the Model Context Protocol (MCP). Your agent sends a natural-language query, and Web Search returns most relevant snippets, source URLs, titles, and publication dates that ",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+          "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+          "published": "2026-06-17T14:58:00+00:00",
+          "content_snippet": "Today, we’re announcing AWS Transform – continuous modernization (preview) , a new capability of AWS Transform for continuous, autonomous tech debt analysis and remediation at scale. AWS Transform already helps enterprises migrate out of data centers, modernize mainframe and Windows applications, and handle the undifferentiated work of software maintenance: upgrading Java versions, swapping deprecated frameworks, and updating AWS Lambda runtimes before they reach end of life. This new experience",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+          "published": "2026-06-17T14:57:34+00:00",
+          "content_snippet": "Today, we’re announcing a new release management capability in AWS DevOps Agent that is now available in preview. AWS DevOps Agent is your always-available teammate that spans software changes and operations across AWS, multicloud, and on-premises environments. The practice of DevOps aims to make software change and operations smooth and increasingly autonomous, and AWS DevOps Agent delivers on both by leveraging its deep understanding of your environment, your services, their dependencies, and ",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
+          "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
+          "published": "2026-06-17T14:54:55+00:00",
+          "content_snippet": "At re:Invent 2025, we previewed AWS Security Agent (now part of AWS Continuum ), a frontier agent that proactively secures your applications throughout the development lifecycle across all your environments. You can perform on-demand penetration testing customized to your application, discovering and reporting security risks verified through exploitability testing. Since the preview, we announced general availability for on-demand penetration testing and the preview of full repository code revie",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Databricks and NVIDIA: Building for the Agentic Era",
+          "url": "https://www.databricks.com/blog/databricks-and-nvidia-building-agentic-era",
+          "published": "2026-06-17T19:50:00+00:00",
+          "content_snippet": "The Full Stack of AI, AcceleratedNVIDIA accelerated computing powers some of the...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Design Beautiful Dashboards in AI/BI",
-          "url": "https://www.databricks.com/blog/design-beautiful-dashboards-aibi",
-          "published": "2026-06-17T15:22:41+00:00",
-          "content_snippet": "IntroductionEvery company has a brand identity that reflects what it stands for,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What’s new in Genie Code at Data + AI Summit 2026",
-          "url": "https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026",
-          "published": "2026-06-17T15:19:08+00:00",
-          "content_snippet": "Genie Code helps data and ML teams build and improve systems faster on Databricks. Over the past year...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What’s coming next to Free Edition",
-          "url": "https://www.databricks.com/blog/whats-coming-next-free-edition",
-          "published": "2026-06-17T15:02:16+00:00",
-          "content_snippet": "Today, more people than ever want to learn data and AI so we're expanding what they...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The Partner Well-Architected Framework: What's New and What's Next",
-          "url": "https://www.databricks.com/blog/partner-well-architected-framework-whats-new-and-whats-next",
-          "published": "2026-06-17T12:59:26+00:00",
-          "content_snippet": "In February, we launched the Partner Well-Architected Framework (PWAF), moving our...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What’s new in Databricks Platform security and compliance at Data + AI Summit 2026",
-          "url": "https://www.databricks.com/blog/whats-new-databricks-platform-security-and-compliance-data-ai-summit-2026",
-          "published": "2026-06-17T10:00:00+00:00",
-          "content_snippet": "As organizations scale data and AI, security and compliance teams face the challenge...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building an open ecosystem for AI governance with Unity AI Gateway",
-          "url": "https://www.databricks.com/blog/building-open-ecosystem-ai-governance-unity-ai-gateway",
-          "published": "2026-06-17T10:00:00+00:00",
-          "content_snippet": "As organizations move AI from experimentation to production, governance requirements...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing the Agentic CDP: A New Species of CDP for a New Era of Agents",
-          "url": "https://www.databricks.com/blog/what-is-an-agentic-cdp",
-          "published": "2026-06-17T01:14:58+00:00",
-          "content_snippet": "Marketing technology has seen plenty of change over the past few decades. But what...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What is data pipeline architecture?",
-          "url": "https://www.databricks.com/blog/what-is-data-pipeline-architecture",
-          "published": "2026-06-16T21:23:03+00:00",
-          "content_snippet": "Data pipeline architecture is the end-to-end design of how data is collected, processed,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Enabling Governed Vibe Coding for Enterprise Apps on Databricks",
-          "url": "https://www.databricks.com/blog/enabling-governed-vibe-coding-enterprise-apps-databricks",
-          "published": "2026-06-16T18:00:00+00:00",
-          "content_snippet": "Vibe coding needs context and control to work in the enterpriseThe rise of coding agents has been hard to miss...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
-          "url": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
-          "published": "2026-06-16T17:00:02+00:00",
-          "content_snippet": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models need to be judged on next. Chapters 00:00:24 Growing up at OpenAI 00:03:10 Why reasoning changed everything 00:06:28 What made o1 surprising 00:11:20 Why old benchmarks stopped working 00:14:45 What ma",
+          "title": "Build and test iOS apps without leaving Codex!",
+          "url": "https://www.youtube.com/watch?v=rOLKQJMLBHI",
+          "published": "2026-06-17T18:01:46+00:00",
+          "content_snippet": "The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -374,12 +309,20 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+          "url": "https://www.youtube.com/watch?v=btxGmN8RvNU",
+          "published": "2026-06-17T13:00:06+00:00",
+          "content_snippet": "Sometimes the agent did not search the web at all. It got blocked, hit a CAPTCHA, saw a fake page, or fell back to stale training data, then answered as if everything worked. This session is a direct look at that failure mode, and what changes when the same agent is given real web access instead of pretending. Using Bright Data's Web MCP, the demo compares blocked and unblocked runs across sites like LinkedIn, Instagram, Amazon, and TikTok, and walks through the mechanics behind the difference: ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 2
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 7
+  "deduped_count": 18
 }
