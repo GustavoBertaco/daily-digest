@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T12:39:59Z",
+  "fetched_at": "2026-06-19T13:01:29Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,10 @@
       ],
       "items": [
         {
-          "title": "CI/CD with Robert Erez",
-          "url": "https://www.youtube.com/watch?v=2x0eq5oDOJY",
-          "published": "2026-06-17T16:40:37+00:00",
-          "content_snippet": "Robert Erez is a principal engineer at Octopus Deploy, and a longtime expert in CI/CD, deployment systems, and software delivery. Rob and I were also once colleagues on the Skype web team, working on large-scale deployments and release processes. In this episode of The Pragmatic Engineer, I sit down with Rob to discuss how teams deploy software safely and efficiently at scale. We cover Kubernetes, GitOps, platform engineering, progressive delivery, feature flags, cloud development environments, ",
+          "title": "Rollbacks are a lie",
+          "url": "https://www.youtube.com/watch?v=dIWwoFEiQmM",
+          "published": "2026-06-18T16:00:14+00:00",
+          "content_snippet": "With Rob Erez on The Pragmatic Engineer podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -65,11 +65,20 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The story of my worst bet ever!",
+          "url": "https://www.youtube.com/watch?v=D_6NEJ1uMz8",
+          "published": "2026-06-19T11:40:22+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Daniel Pink": 2
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -82,17 +91,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "DuckDB's agent moment (Jordan Tigani)",
-          "url": "https://roundup.getdbt.com",
-          "published": "2026-06-18T09:02:00+00:00",
-          "content_snippet": "Jordan Tigani helped build BigQuery, then left to bet that most data isn't big. Three years on, agents are proving him right. The MotherDuck CEO joins Tristan Handy on why local-first databases fit the agent era, and what an \"agent swarm for data management\" looks like. For full show notes and to read the podcast's companion newsletter, head to https://roundup.getdbt.com . The Analytics Engineering Podcast is sponsored by dbt Labs.",
-          "source_name": "The Analytics Engineering Podcast",
-          "source_type": "podcast",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -105,7 +104,8 @@
       ],
       "deduped_sources": {
         "The Data Engineering Show": 2,
-        "The Data Stack Show": 1
+        "The Data Stack Show": 1,
+        "The Analytics Engineering Podcast": 1
       }
     },
     {
@@ -124,163 +124,136 @@
       ],
       "items": [
         {
-          "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
-          "published": "2026-06-17T19:15:00+00:00",
-          "content_snippet": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon SageMaker Unified Studio, or your preferred notebook environments and IDEs like Jupyter, Visual Studio Code, while running them on AWS Glue's serverless infrastructure without managing clusters. With Spark Connect, you submit Spark jobs to AWS Glue Interactive Sessions using a thin client architect",
+          "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
+          "published": "2026-06-19T01:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Block Store (Amazon EBS) Local Snapshots, enabling customers to meet data residency requirements by storing and backing up data locally. AWS Local Zones are AWS infrastructure deployments that extend core service",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
-          "published": "2026-06-17T16:00:00+00:00",
-          "content_snippet": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time engine log streaming accelerates iterative workflow development and debugging by giving researchers, bioinformaticians, and workflow developers immed",
+          "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
+          "published": "2026-06-18T22:36:00+00:00",
+          "content_snippet": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisioned clusters running Express brokers, making it effortless for customers to benefit from automatic partition balancing when scaling their Express-based clusters up or down. Intelligent Rebalancing maximizes the capacity utilization of MSK Express-ba",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS DevOps Agent adds release management capability (preview)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
-          "published": "2026-06-17T15:00:00+00:00",
-          "content_snippet": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps Agent now works across both delivery and operations. It accelerates and validates the deployment of code changes, then keeps your applications running optimally across AWS, multicloud, and on-prem environments, so your team ships faster, reduces MTT",
+          "title": "Amazon ECS announces faster service auto scaling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+          "published": "2026-06-18T21:00:00+00:00",
+          "content_snippet": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds to 86 seconds (76% faster, 4.2x), and total time to scale and provision new tasks improved from 386 seconds to 109 seconds (72% faster, 3.5x). Faster service auto scaling also enables you to reduce baseline capacity and lower compute costs while maint",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
-          "published": "2026-06-17T15:00:00+00:00",
-          "content_snippet": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23% price/performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon RDS open source databases, depending on database engine, version, and workload. AWS Graviton5 processors are the latest generation of custom-des",
+          "title": "Amazon EC2 G7 instances are now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+          "published": "2026-06-18T20:59:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6. You can use G7 instances for AI inference workloads such as language translation, video and image analysis, speech recognition, and recommender systems. Additionally, G7 instances also accelerate graphics workloads such ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
-          "published": "2026-06-17T15:00:00+00:00",
-          "content_snippet": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL version 2 (with MySQL 5.7 compatibility) and RDS for MySQL version 5.7, giving customers additional time to plan and complete their upgrades to a supported major version while continuing to receive critical security patches and bug fixes. RDS Extended S",
+          "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+          "published": "2026-06-18T20:20:00+00:00",
+          "content_snippet": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security and compliance requirements when your brokers need to reach private identity providers (such as LDAP and OAuth 2.0), other Amazon MQ for RabbitMQ brokers, or self-hosted RabbitMQ brokers. Previously, this connectivity for RabbitMQ Federation, Shovel, or authentication required Network Load Balancer ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
-          "published": "2026-06-17T14:30:00+00:00",
-          "content_snippet": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA ConnectX-7 (CX7) network interface cards, delivering up to 800 Gbps of bare-metal accelerated network bandwidth operating at near line rate. Bmn-cx3a instances offer up to 256 cores and 1.5 TB of memory across two sizes, bmn-cx3a.metal-32xl and bmn-cx3a.metal-64xl, with 2x 8 TB NVMe SSD storage. With na",
+          "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
+          "published": "2026-06-18T18:47:00+00:00",
+          "content_snippet": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in US GovCloud (US-East) and US GovCloud (US-West), in addition to existing support in all commercial regions. With nested virtualization",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
-          "published": "2026-06-17T13:40:00+00:00",
-          "content_snippet": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns user workflows. These new capabilities enable Quick to handle recurring tasks continuously while providing unified analytics across multiple data sources. With autonomous agents, users can describe tasks in natural language and set granular autonomy",
+          "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
+          "published": "2026-06-18T18:35:00+00:00",
+          "content_snippet": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their personal extension, while taking customer service calls in the meantime. When that urgent call comes in, it can now ring the agent even if the agent is currently already on another call, so the agent can decide whether to put the first caller on hold",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
-          "published": "2026-06-17T12:00:00+00:00",
-          "content_snippet": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards. These failures produce no error signal and often surface through customer complaints weeks later. AgentCore closes that gap with a loop to understand what agents are doing, generate fixes grounded in data, and prove they work. To understand ag",
+          "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
+          "published": "2026-06-18T18:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector space, enabling customers to build high-quality semantic search, text clustering, and sentence similarity applications on AWS infrastructure. all-MiniLM-L12-v2 excels at encoding sentences and short paragraphs into dense vector representations th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AgentCore harness in now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
-          "published": "2026-06-17T12:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the brain needs to get work done. It runs the orchestration loop, executes tools, manages the context window, persists state across turns, recovers from failures, and isolates each session. The harness shapes how well an agent performs as much as th",
+          "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
+          "published": "2026-06-18T18:30:00+00:00",
+          "content_snippet": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and VolumeThroughputExceededCheck, which report whether your workload consistently attempted to drive IOPS or throughput beyond your volume's provisioned performance in any given minute. By factoring in these signals, Compute Optimizer helps you make right",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
-          "published": "2026-06-17T12:00:00+00:00",
-          "content_snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock AgentCore that controls which actions AI agents are authorized to take. Guardrails give enterprises defenses against the top security and safety risks with AI agent workloads, including prompt injection attacks and sensitive data exposure. Gu",
+          "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
+          "published": "2026-06-18T18:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a compact 14B-parameter architecture optimized for edge deployment, enabling customers to build advanced AI assistants, agentic systems, and vision-enabled applications on AWS infrastructure. Ministral-3-14B-Instruct excels at analyzing images and",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Top announcements of the AWS Summit in New York, 2026",
-          "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
-          "published": "2026-06-17T16:36:08+00:00",
-          "content_snippet": "Today at the AWS Summit in New York City , Swami Sivasubramanian, AWS VP of Agentic AI, provided the day’s keynote. Here’s our roundup of the biggest announcements from the event: New in agents customers create We’re introducing new capabilities on Amazon Bedrock AgentCore: connecting AI agents to organizational, web, and paid knowledge, helping teams find and fix what’s going wrong in production, and enforcing controls that scale as agents grow more capable. Together, these capabilities help yo",
+          "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+          "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+          "published": "2026-06-18T21:22:10+00:00",
+          "content_snippet": "Today, we’re announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads. AWS is the first major cloud provider to support NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances are accelerated by these GPUs with custom sixth-generation Intel Xeon Scalable processors, delivering up to 4.6x AI inference performance and up to 2.1x graphics performance co",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
-          "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
-          "published": "2026-06-17T15:09:20+00:00",
-          "content_snippet": "Today, we’re announcing Amazon Bedrock Managed Knowledge Base , a new set of capabilities that enables developers to build enterprise-grade generative AI applications with their proprietary data in minutes. Organizations building agentic AI applications need secure, reliable, and up-to-date access to enterprise-wide data to deliver accurate, fast, and trusted outcomes. Managed Knowledge Base abstracts away the complexity of building and managing retrieval-augmented generation (RAG) pipelines, al",
+          "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
+          "published": "2026-06-18T21:06:38+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned events, and target tracking to scale dynamically on real-time metrics. You can choose proactive scaling by using predictive scaling (automatic) and scheduled scaling (customer-defined), or reactive scaling by using target tracking with just a targ",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
-          "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
-          "published": "2026-06-17T15:00:11+00:00",
-          "content_snippet": "Today, we’re announcing the general availability of Web Search on Amazon Bedrock AgentCore , a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer’s secured AWS environment. Web Search uses a built-in connector target on Bedrock AgentCore Gateway using the Model Context Protocol (MCP). Your agent sends a natural-language query, and Web Search returns most relevant snippets, source URLs, titles, and publication dates that ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
-          "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
-          "published": "2026-06-17T14:58:00+00:00",
-          "content_snippet": "Today, we’re announcing AWS Transform – continuous modernization (preview) , a new capability of AWS Transform for continuous, autonomous tech debt analysis and remediation at scale. AWS Transform already helps enterprises migrate out of data centers, modernize mainframe and Windows applications, and handle the undifferentiated work of software maintenance: upgrading Java versions, swapping deprecated frameworks, and updating AWS Lambda runtimes before they reach end of life. This new experience",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
-          "published": "2026-06-17T14:57:34+00:00",
-          "content_snippet": "Today, we’re announcing a new release management capability in AWS DevOps Agent that is now available in preview. AWS DevOps Agent is your always-available teammate that spans software changes and operations across AWS, multicloud, and on-premises environments. The practice of DevOps aims to make software change and operations smooth and increasingly autonomous, and AWS DevOps Agent delivers on both by leveraging its deep understanding of your environment, your services, their dependencies, and ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
-          "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
-          "published": "2026-06-17T14:54:55+00:00",
-          "content_snippet": "At re:Invent 2025, we previewed AWS Security Agent (now part of AWS Continuum ), a frontier agent that proactively secures your applications throughout the development lifecycle across all your environments. You can perform on-demand penetration testing customized to your application, discovering and reporting security risks verified through exploitability testing. Since the preview, we announced general availability for on-demand penetration testing and the preview of full repository code revie",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks and NVIDIA: Building for the Agentic Era",
-          "url": "https://www.databricks.com/blog/databricks-and-nvidia-building-agentic-era",
-          "published": "2026-06-17T19:50:00+00:00",
-          "content_snippet": "The Full Stack of AI, AcceleratedNVIDIA accelerated computing powers some of the...",
+          "title": "How Stagwell built privacy-safe ID matching on Databricks",
+          "url": "https://www.databricks.com/blog/how-stagwell-built-privacy-safe-id-matching-databricks",
+          "published": "2026-06-18T15:00:00+00:00",
+          "content_snippet": "The identity matching problem brands face todayBrands invest heavily in building first-party data assets...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Build and test iOS apps without leaving Codex!",
-          "url": "https://www.youtube.com/watch?v=rOLKQJMLBHI",
-          "published": "2026-06-17T18:01:46+00:00",
-          "content_snippet": "The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex.",
+          "title": "Improving health intelligence in ChatGPT",
+          "url": "https://www.youtube.com/watch?v=UxY8zJKRrHU",
+          "published": "2026-06-18T19:10:18+00:00",
+          "content_snippet": "Health is one of the most meaningful ways people use ChatGPT. Every week, more than 230 million people turn to ChatGPT for help with health and wellness questions: making sense of health information, understanding lab results, preparing for appointments, navigating insurance, building healthier habits, and figuring out what to ask next. With GPT‑5.5 Instant, we’re seeing a substantial step forward in health, with improvements in recognizing when urgent care may be needed, asking for relevant con",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Record & Replay in Codex",
+          "url": "https://www.youtube.com/watch?v=ZK3JhU73W18",
+          "published": "2026-06-18T18:57:34+00:00",
+          "content_snippet": "Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request. Codex turns that demo into an inspectable, editable skill. You control when recording starts and stops.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -311,10 +284,10 @@
       ],
       "items": [
         {
-          "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
-          "url": "https://www.youtube.com/watch?v=btxGmN8RvNU",
-          "published": "2026-06-17T13:00:06+00:00",
-          "content_snippet": "Sometimes the agent did not search the web at all. It got blocked, hit a CAPTCHA, saw a fake page, or fell back to stale training data, then answered as if everything worked. This session is a direct look at that failure mode, and what changes when the same agent is given real web access instead of pretending. Using Bright Data's Web MCP, the demo compares blocked and unblocked runs across sites like LinkedIn, Instagram, Amazon, and TikTok, and walks through the mechanics behind the difference: ",
+          "title": "The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks",
+          "url": "https://www.youtube.com/watch?v=ObTPqBGsEbA",
+          "published": "2026-06-18T13:00:06+00:00",
+          "content_snippet": "A retail bank spent £85,000 over six months on a chatbot PoC that could not reach production. No one could explain why it was failing. When Sandipan Bhaumik's team got involved, they picked the model in week seven of an eight-week engagement — the first six weeks went to evaluation data, tracing infrastructure, and a measurement pipeline. Six weeks post launch, when the bank updated its interest rate policy and customer satisfaction dropped, the tracing system caught the cause: the new policy do",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -324,5 +297,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 18
+  "deduped_count": 11
 }
