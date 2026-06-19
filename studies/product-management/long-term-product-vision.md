@@ -114,18 +114,27 @@ feel concrete.
 
 ```mermaid
 flowchart LR
-    K["①&nbsp;Kick-off · everyone"] -->|shared why + company goals| H["②&nbsp;Homework · each person, solo"]
-    H -->|cards: pains · ambitions · benchmarks| M1["③&nbsp;Workshop M1 · Product + Eng"]
-    M1 -->|diagnosis + candidate investment areas| M2["④&nbsp;Workshop M2 · Product + Eng"]
-    M2 -->|two-futures wall: fears + success conditions| S["⑤&nbsp;Synthesis · Product team"]
-    S -.->|outside scope| V["Validate & evangelize"]
-    V -.->|outside scope| O["Annual OKRs · per investment area"]
-    O -.->|outside scope| SQ["Squad cascade · separate study"]
+    K["① Kick-off<br/>align on the why<br/>+ share company goals"]
+    H["② Homework<br/>solo card-dump: pains,<br/>ambitions, benchmarks"]
+    M1["③ Workshop · M1<br/>diagnose — clusters +<br/>one-sentence diagnosis"]
+    M2["④ Workshop · M2<br/>stretch — two-futures wall<br/>(forces, fears, success)"]
+    S["⑤ Synthesis<br/>write the vision +<br/>a North Star per area"]
+
+    K --> H --> M1 --> M2 --> S
+    S -.-> DS
+
+    subgraph DS["Downstream — outside this study's scope"]
+        direction TB
+        V["Validate & evangelize<br/>endorse the vision<br/>with squad leads"]
+        O["Annual OKRs<br/>per investment area"]
+        SQ["Squad cascade<br/>squad initiatives<br/>(separate study)"]
+        V -.-> O -.-> SQ
+    end
 ```
 
-Solid steps ①–⑤ are this study's scope, ending at the **vision + a North Star per area**.
-The dotted steps — **validate & evangelize, annual OKRs, and the squad cascade** — are
-**outside this study's scope**; the dynamic stops at the North Star.
+Steps ①–⑤ are this study's scope, ending at the **vision + a North Star per area**.
+Everything in the *Downstream* box — **validate & evangelize → annual OKRs → squad
+cascade** — is outside this study's scope; the dynamic stops at the North Star.
 
 The same path, read as **input → step → output** (a table version for slides):
 
