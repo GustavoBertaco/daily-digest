@@ -298,6 +298,7 @@ Steps beyond this study's current scope, to be fleshed out in a later iteration:
   cluster positioning moved to a separate Product-team synthesis step (Appendix A).
   *Revisit if it still feels heavy after a dry run.*
 - [ ] I need to add to the dynamic proposal,a way to share what are the business objectives (as a company) and exercise how our platform vision supports the company goals
+- [ ] I want to take this article and use it to improve the context portion of this document. I want to make clear why creating the product vision is important and not a work of each squad having their own product vision. I want to make clear how important is a north star, and also differentiate what is a product vision vs product mission. this is the article: https://www.svpg.com/product-vision-vs-mission/
 - [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
   *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
   technique (or reframe the pre-mortem) that forces a long-horizon lens.
