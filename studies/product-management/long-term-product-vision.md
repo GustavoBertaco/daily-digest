@@ -297,6 +297,7 @@ Steps beyond this study's current scope, to be fleshed out in a later iteration:
   instead of read-outs; M1 fed by an individual card-dump pre-work; vision-forming and
   cluster positioning moved to a separate Product-team synthesis step (Appendix A).
   *Revisit if it still feels heavy after a dry run.*
+- [ ] I need to add to the dynamic proposal,a way to share what are the business objectives (as a company) and exercise how our platform vision supports the company goals
 - [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
   *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
   technique (or reframe the pre-mortem) that forces a long-horizon lens.
