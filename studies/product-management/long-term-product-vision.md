@@ -1,8 +1,8 @@
 # Long-Term Product Vision for a Data Platform
 
 > Exploring techniques to collaboratively build a long-term (2–3 year) product vision
-> for platforms — Engineering and Product together — as the basis for a North Star (or
-> OKR set) per investment area. The squad-level cascade is a separate study.
+> for platforms — Engineering and Product together — producing the vision and a North
+> Star per investment area. Annual OKRs and the squad-level cascade are downstream.
 
 - **Topic:** Product Management
 - **Date:** 2026-06-18
@@ -19,7 +19,7 @@
 7. [Product synthesis (after the room)](#product-synthesis-after-the-room)
 8. [Open questions and next steps](#open-questions-and-next-steps)
 9. [References](#references)
-10. [Appendix A. Vision and annual-plan template](#appendix-a-vision-and-annual-plan-template)
+10. [Appendix A. Long-term vision template](#appendix-a-long-term-vision-template)
 11. [Appendix B. Kick-off presentation storyline](#appendix-b-kick-off-presentation-storyline)
 
 ## Context
@@ -119,9 +119,12 @@ flowchart TD
     M1 -->|diagnosis + candidate investment areas| M2["④&nbsp;Workshop M2 · Product + Eng"]
     M2 -->|two-futures wall: fears + success conditions| S["⑤&nbsp;Synthesis · Product team"]
     S -->|Vision + a North Star per area + positioned clusters · Appendix A| V["⑥&nbsp;Validate & evangelize"]
-    V -->|endorsed vision| O["⑦&nbsp;Annual OKRs · per investment area"]
-    O -.->|hand-off| SQ["Squad cascade · separate study"]
+    V -.->|downstream| O["Annual OKRs · per investment area"]
+    O -.->|downstream| SQ["Squad cascade · separate study"]
 ```
+
+In scope ends at ⑥ (the **vision + a North Star per area**, validated). Annual OKRs and
+the squad cascade are **downstream** — the dynamic stops at the North Star.
 
 The same path, read as **input → step → output** (a table version for slides):
 
@@ -133,9 +136,9 @@ The same path, read as **input → step → output** (a table version for slides
  ③  Workshop M1          Product + Eng     diagnosis + candidate investment areas
  ④  Workshop M2          Product + Eng     two-futures wall (fears / success)
  ⑤  Synthesis           Product team      Vision + North Star per area (Appendix A)
- ⑥  Validate/evangelize  Product + leads   endorsed vision
- ⑦  Annual OKRs          Product / staff   OKRs per investment area
-    └→ squad cascade      (separate study)
+ ⑥  Validate/evangelize  Product + leads   endorsed vision   ← last step in scope
+    └→ annual OKRs        (downstream)      OKRs per area
+    └→ squad cascade      (separate study)  squad initiatives
 ```
 
 The two movements (③–④) are the cross-functional workshop in the room. Everything from
@@ -225,31 +228,46 @@ generation. The starter clusters are framed as *a draft to be broken*.
   Everything later must trace back to it; the clusters on the wall are the trace-back,
   so no separate gate is needed.
 
-### Movement 2 — Stretch to two futures (≈50 min)
+### Movement 2 — Stretch to two futures (≈60 min)
 
-The pre-mortem, run as one storytelling beat that feeds the same wall.
+The pre-mortem, run as one storytelling beat that feeds the same wall. The pre-mortem is
+great at surfacing *unspoken fears*, but on its own it skews **short-term**: "why did it
+fail?" recruits today's most visible pain (availability bias), and a stated "it's 2029"
+doesn't *force* anyone to reason about forces that unfold over three years. So we bracket
+it with long-horizon scaffolding — a forces warm-up before, and a long-term laddering +
+structural/operational sort after.
 
-- **Set the scene (3 min).** "It's 2029. We're going to tell two stories of this same
-  platform — one where it failed, one where it won."
-- **Pairs write both stories back-to-back (22 min).** Each mixed pair writes the
-  *failure* headline + its top 3 causes, then immediately the *success* headline + the
-  3 things that made it true. One continuous arc, not two exercises. *Optional working-
-  backwards framing:* write the success story as the **[2029] launch press release** —
-  the customer-outcome lens pushes thinking long-term (a candidate fix for next-step #2,
-  the pre-mortem's short-term bias).
-- **Post + silent scan (15 min).** Pairs post straight onto the wall in two columns;
-  the room does a quick silent gallery scan and the facilitator surfaces a few
-  recurring patterns — no full verbal read-out.
-- **Link to the clusters (10 min).** Mark which success-conditions map to Movement-1
-  clusters, and add any new cluster the futures surfaced.
+- **Forces of 2029 — warm-up (10 min).** Before any story, solo→pairs name external,
+  *structural* forces that will be true in ~3 years **regardless of what we do**: GenAI
+  demand and "is our data even AI-ready", cost/efficiency pressure, regulation, new
+  consumer types, talent & skills, build-vs-buy shifts. Post them on a **"Forces" strip**
+  above the wall — this seeds long-horizon content (driving forces, à la Schwartz; for
+  the local data market, the *State of Data* report is a ready input). Keep it to forces
+  that plausibly hit *our* platform, not a general macro essay.
+- **Set the scene (3 min).** "It's 2029. Two stories of this same platform — one where it
+  failed, one where it won — and both must reckon with those Forces."
+- **Pairs write both futures, anchored to a Force (22 min).** Each mixed pair writes the
+  *failure* headline + its top 3 causes, then the *success* story **as the [2029] launch
+  press release** (working-backwards — the customer-outcome, future-state lens). *Rule:
+  each story must reference at least one Force on the strip — not just today's pain.*
+- **Ladder the short-term pains (8 min).** Any "today" grievance that surfaces gets
+  laddered — *"so what, by 2029? what does this compound into?"* — converting an
+  operational annoyance into its long-term consequence. Convert, don't discard.
+- **Sort & link (17 min).** Tag every cause/condition **structural/long-term (□)** vs
+  **operational/short-term (○)** — the *Three Horizons* lens makes the call explicit.
+  Structural items feed the vision + diagnosis; operational items go to the **parking
+  lot / ops backlog**, not the vision. Then map success-conditions to Movement-1 clusters
+  and add any new cluster the futures surfaced. The sort *is* the forcing function: it
+  makes "short vs long term" a decision, not a hope.
 
 ```text
-   FAILURE CAUSES            |   SUCCESS CONDITIONS
-   (what we fear)            |   (what must be true)
-   -------------------------- | --------------------------
-   • siloed data, no trust    | • one trusted, governed layer
-   • squads reinvent pipelines| • self-service, reused assets
-   • platform = ticket queue  | • platform consumed as a product
+   FAILURE CAUSES            |   SUCCESS CONDITIONS        | □ long  ○ short
+   (what we fear)            |   (what must be true)       |
+   -------------------------- | -------------------------- | ----------------
+   • siloed data, no trust    | • one trusted, governed layer | □
+   • squads reinvent pipelines| • self-service, reused assets | □
+   • not AI-ready data        | • data products fit for GenAI | □  (Force)
+   • platform = ticket queue  | • platform consumed as product| ○ → ladder → □
 ```
 
 **Workshop output (what the room produced).** The cross-functional room stops here —
@@ -259,25 +277,31 @@ of **4–6 candidate investment areas** the room owns and aligned on.
 
 ## Product synthesis (after the room)
 
-Not facilitated live. Forming the vision and positioning the investment-area clusters is
-the **Product team's** job, not a whole-room activity. Working from the workshop output,
-Product unifies everything into the long-term vision document — the template in
-[Appendix A](#appendix-a-vision-and-annual-plan-template) — by:
+Not facilitated live. The **Product team consolidates the room's raw outputs** — the
+diagnosis, the two-futures wall, and the candidate investment areas — **into the
+long-term vision artifact** ([Appendix A](#appendix-a-long-term-vision-template)). Each
+step produces a section of that template:
 
-- **Writing the vision.** Pick one format: a 2–3 year narrative (Cagan style: "what
-  it's like to build on / consume our platform in 2029"); a
-  [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/); or
-  an Amazon-style [**PR/FAQ**](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq)
-  — the future press release + an FAQ that forces the hard questions ("why now, why
-  us, what we're *not* doing, what could break"). The PR/FAQ's FAQ doubles as input to
-  *validate & evangelize*.
-- **Setting a goal per investment area.** Give *each* investment area its own
-  **North Star metric — or an OKR set** (objective + key results) — the long-term
-  outcome that area must move. These per-area goals *are* the point of the exercise;
-  a single platform-wide number is not the aim. (How squads then pursue these goals —
-  the squad-level cascade — is a **separate study**, out of scope here.)
-- **Positioning the clusters (Wardley).** Place each investment area on *evolution*
-  (genesis → commodity) × *value to user* to decide **invest vs. commoditize/buy**.
+- **Write the Vision narrative → Appendix A §1.** Weave the diagnosis, the audacious
+  ambition (BHAG), and the platform North Star into one inspiring prose narrative. Pick a
+  format: a 2–3 year narrative (Cagan style: "what it's like to build on / consume our
+  platform in 2029"), a [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/),
+  or an Amazon-style [**PR/FAQ**](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq)
+  — the future press release + an FAQ that forces the hard questions ("why now, why us,
+  what we're *not* doing, what could break"); the FAQ doubles as input to *validate &
+  evangelize*.
+- **Set each area's Why + North Star → Appendix A §2.** For each investment area, write its
+  Why (from the diagnosis) and its own **North Star** — the long-term outcome it must
+  move. **The dynamic stops here, at the North Star;** annual OKRs are downstream and the
+  squad cascade is a separate study.
+- **Record the critical trade-offs → Appendix A §3, and the key risks → §4.** Draw these
+  from the two-futures wall — success conditions you are consciously *not* funding become
+  trade-offs; failure causes become risks.
+
+*Positioning aids (working tools, not template sections).* To prioritize and sequence the
+investment areas, the Product team can use a quick **Wardley map** (evolution × value →
+invest vs. commoditize/buy) and a **Now-Next-Later** placement; these inform the ordering
+of areas in §2 and the trade-offs in §3.
 
    ```text
    value to user
@@ -291,9 +315,6 @@ Product unifies everything into the long-term vision document — the template i
        genesis   custom   product   commodity
    ```
 
-- **Linking the areas (Now-Next-Later).** Place the investment areas across horizons
-  — **no dates** — to give the squads direction without micromanaging.
-
    ```text
    NOW            |  NEXT           |  LATER
    (in motion)    |  (validated)    |  (needs discovery)
@@ -303,10 +324,10 @@ Product unifies everything into the long-term vision document — the template i
    ```
 
 After synthesis, **validate & evangelize** the draft with squad leads (only the leaders
-were in the room) and **distill annual OKRs per investment area** — the last step in
-scope for this study.
+were in the room) — the last step in scope for this study. Translating each North Star
+into **annual OKRs** comes next (see *Downstream*) and is not produced by this dynamic.
 
-### Downstream — to detail later
+### Downstream
 
 Steps beyond this study's current scope, to be fleshed out in a later iteration:
 
@@ -314,42 +335,6 @@ Steps beyond this study's current scope, to be fleshed out in a later iteration:
    investment, define the OKRs for the following year.
 2. **Squads define their initiatives.** Based on those OKRs, each squad defines the
    initiatives that pursue them.
-
-## Open questions and next steps
-
-### ▶ Next steps — resume here
-
-- [x] **1. Rework the dynamic for flow & engagement.** ~~Too much pause-and-continue.~~
-  Done (2026-06-18): cross-functional room rebuilt as 2 continuous movements (React &
-  refine → Stretch) on one growing wall, using 1‑2‑4‑All + gallery walk + dot-voting
-  instead of read-outs; M1 fed by an individual card-dump pre-work; vision-forming and
-  cluster positioning moved to a separate Product-team synthesis step (Appendix A).
-  *Revisit if it still feels heavy after a dry run.*
-- [x] **Share company business objectives + tie the vision to them.** Done (2026-06-19):
-  added a **Kick-off meeting** before the homework that shares the company goals and
-  frames them as the *lens* for the take-home card-dump (new prompt *(d)*); slide
-  storyline in **Appendix B**. *(Optional future add: an explicit in-room investment-
-  area → company-objective alignment matrix.)*
-- [x] **Improve the framing: why one shared vision, north star, vision vs. mission.**
-  Done (2026-06-19): drafted as the new [Why a shared vision](#why-a-shared-vision)
-  section, grounded in Cagan's *Vision vs. Mission* and *Vision vs. Strategy*. *Refine
-  the wording as desired.*
-- [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
-  *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
-  technique (or reframe the pre-mortem) that forces a long-horizon lens. *(Lead: the
-  working-backwards "[2029] press release" framing already noted in Movement 2.)*
-- [ ] **3. (After the study is finished) Propose tooling for future studies.** Ask Claude
-  to propose **agents, skills, or workflows** that support running further studies the
-  same way we built this one — so the framework becomes repeatable/natural.
-- [ ] **4. Review the 3-year plan template** (see *Appendix A*) — validate it as the
-  output artifact.
-
-### Standing open questions
-
-- Decide on format (1 day vs. distributed) and the size of the leadership group to calibrate
-  timeboxes.
-- Possible next artifact: a detailed facilitator guide (minute-by-minute timeboxes,
-  per-station questions, ready-to-paste Miro/board templates) and the pre-work forms.
 
 ## References
 
@@ -427,6 +412,18 @@ applies — a caveat on fit.
   imbalances shrink.
   *Inspires:* the engine of Movement 1 and the anchoring-avoidance stance.
 
+- **Three Horizons of Growth — Baghai, Coley & White (McKinsey)** ([mckinsey.com](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth))
+  — manage the near, mid, and far horizons in parallel; H1 = today's core, H3 = long-term
+  bets.
+  *Inspires:* the Movement 2 **structural (long-term) vs operational (short-term)** sort —
+  the explicit time-horizon lens that fixes the pre-mortem's short-term bias.
+
+- **The Art of the Long View — Peter Schwartz** ([Goodreads](https://www.goodreads.com/book/show/247891.The_Art_Of_The_Long_View))
+  — scenario planning: name the **driving forces** (society, tech, economy, politics,
+  environment) that will shape the future before committing to a path.
+  *Inspires:* the **"Forces of 2029"** warm-up that seeds long-horizon content into the
+  pre-mortem so stories engage real forces, not just today's pain.
+
 - **Product Vision Board — Roman Pichler** ([romanpichler.com](https://www.romanpichler.com/tools/product-vision-board/))
   — a single-canvas, workshop-friendly way to capture vision, target group, needs, and
   value (a lighter alternative to a prose narrative for a cross-functional room).
@@ -490,86 +487,94 @@ applies — a caveat on fit.
   *Inspires:* reinforces the Vision Board as a workshop-friendly artifact (already
   offered above). *Note: client-rendered page — URL resolves but loads via JS.*
 
-## Appendix A. Vision and annual-plan template
+- **State of Data 2025–2026 — Data Hackers + Bain & Company** (annual report; 5th ed.,
+  3,200 BR respondents, fielded Oct–Dec 2025)
+  — a data-market x-ray: talent demand & retention, compensation, work models, and
+  **GenAI adoption** (90% of firms list it; top blockers are "data not AI-ready" 34% and
+  lack of expertise 33.5%).
+  *Inspires:* a concrete **driver** for the "Forces of 2029" warm-up — real, current
+  forces (GenAI demand, AI-readiness of data, talent/skills) instead of invented trends.
+  *Note: local PDF provided by the user; published annually by Data Hackers + Bain.*
 
-The workshop produces *direction*; this is the **output artifact** that captures
-it — a living document a platform org can maintain year over year. The skeleton below is
-a generic template synthesized from common product-strategy practice, and deliberately
-mirrors the study's chain:
-**Diagnosis → Vision → a North Star (or OKR set) per investment area → position/link the
-areas (Wardley + Now-Next-Later) → validate/evangelize → annual OKRs per area.**
-(The squad-level cascade is a separate study and is not part of this template.)
+## Appendix A. Long-term vision template
+
+This is the **output artifact** of the dynamic — a living long-term vision a platform org
+maintains year over year. The dynamic delivers direction **up to the North Star**; OKRs
+and squad initiatives are downstream and live in *other* artifacts. The template mirrors
+what the dynamic yields:
+**Vision (narrative) → per investment area: Why + North Star → trade-offs + risks.**
 
 > Conventions
 > - Replace every `[ … ]` placeholder.
-> - Each Objective maps to an **investment area**; keep it **outcome-oriented**, opening
->   with *Why* (the diagnosed problem from the diverge session), not a solution.
-> - Success Metrics are the area's **North Star / key results** (the outcome the area
->   must move); state a baseline and a target with a date.
-> - Initiatives are area-level direction, not dated commitments or squad task lists —
->   pair with Now-Next-Later.
+> - **Section 1 (Vision) is a *narrative*, in prose — not bullet points.** It weaves the
+>   future experience, the diagnosis, the BHAG, and the North Star into one inspiring
+>   story (directives are inside the section).
+> - Per investment area the dynamic delivers **Why + North Star**. **OKRs are set later**
+>   — the dynamic stops at the North Star — and **squad initiatives live in separate
+>   operational artifacts**, not here.
+> - **Trade-offs and risks** can be seeded directly from the workshop's two-futures wall
+>   (failure causes + success conditions).
 
 ```markdown
-# [Platform] — Long-Term Product Vision & Annual Plan ([year])
+# [Platform] — Long-Term Product Vision ([year])
 
 > Status: draft | in-review | committed
 > Owners: [Product lead] · [Engineering lead]
 > Last updated: [YYYY-MM-DD] (see Appendix #1 — Changelog)
 
-## 1) Vision and BHAG
+## 1) Vision
 
-- **Vision (2–3 year narrative):** [What it's like to use the platform in [year+2] —
-  written from the internal customer's point of view, Cagan style. Alternative formats:
-  a Product Vision Board, or an Amazon-style PR/FAQ (future press release + FAQ).]
-- **Diagnosis (Rumelt kernel):** [The single biggest obstacle this plan attacks.]
-- **BHAG:** [One audacious, multi-year goal that the annual objectives ladder up to.]
-- **North Star (or small metric tree):** [The metric(s) capturing value delivered,
-  e.g. time-to-trustworthy-data] — baseline [x], ambition [y].
+[Write a single 2–3 year narrative in prose — NOT bullet points. One inspiring story,
+present tense as if it is already [year+2], told from the internal customer's point of
+view. Weave these threads together without sub-headers:
+ - The future experience — what it is like to build on / consume the platform.
+ - The obstacle overcome — the single biggest problem this vision attacks (the diagnosis
+   / Rumelt kernel).
+ - The destination — the audacious, multi-year ambition the platform is heading toward
+   (the BHAG).
+ - The measure — the one North Star that tells us we are winning, and why it matters.
+Keep it inspiring and concrete, not technical; ~3–6 paragraphs. Alternative formats: a
+Product Vision Board, or an Amazon-style PR/FAQ (future press release + FAQ).]
 
-## 2) Investment Areas — North Star, Annual OKRs & Initiatives ([year])
+## 2) Investment Areas ([year])
 
 ### Investment area [N]: [Outcome-framed title]
 - **Why:** [The diagnosed problem and the business value of solving it.]
 - **North Star (area-level):** [The long-term outcome metric for this area] —
   baseline [x], ambition [y].
-- **Annual OKRs ([year]):**
-  - **Objective:** [Outcome for this year]
-  - **KR:** [Metric] — baseline [x] → target [y] by [date]
-  - **KR:** …
-- **Initiatives (area-level bets, not squad task lists):**
-  - [Initiative — the bet, not a dated deliverable]
-  - [Initiative — …]
+- **OKRs:** [Set downstream — the dynamic stops at the North Star. The yearly objective +
+  key results are defined later by Product/staff; squad initiatives live in separate
+  operational artifacts.]
 
-<!-- Repeat per investment area (the source doc carried four). -->
+<!-- Repeat per investment area (4–6). -->
 
-## 3) Objectives Below the Line & Critical Trade-offs
+## 3) Critical trade-offs
 
-- **Below the line (not funded this cycle):**
-  - [Objective/initiative consciously deferred — and why.]
-- **Headcount / capacity asks:** [What the plan above requires; what's not staffed.]
-- **Critical trade-offs (including tech debt):**
-  - [What we are *choosing not* to do, and the technical/operational debt accepted as
-    a result — make the cost explicit.]
+What we are consciously choosing *not* to do, and the cost we accept.
 
-## 4) Key Risks to the Plan
+- **[Trade-off]:** [What we give up / defer] · *Cost accepted:* [the technical /
+  operational debt or opportunity cost — make it explicit].
+- **[Trade-off]:** …
 
-- **[Risk — e.g. product-fit / user buy-in]:** [Description] · *Mitigation:* […]
-- **[Risk — e.g. maintaining two platforms during migration]:** … · *Mitigation:* …
-- **[Risk — e.g. accelerated expansion / changing scope]:** … · *Mitigation:* …
+## 4) Key Risks
+
+- **[Risk]:** [Description] · *Mitigation:* […]
+- **[Risk]:** …
 
 ## 5) Appendices
 
-### Appendix #1 — Annual Plan Changelog
+### Appendix #1 — Changelog
 
 | Date         | Editor   | Description                                  |
 |--------------|----------|----------------------------------------------|
 | [YYYY-MM-DD] | [Author] | [Initial draft]                              |
-| [YYYY-MM-DD] | [Author] | [Revised objective N / removed mention of …] |
+| [YYYY-MM-DD] | [Author] | [Reworded vision / revised area N / …]        |
 
-### Appendix #2 — Tentative Timeline for [legacy platform] Retirement
+### Appendix #2 — References
 
-- [Milestone] — [target quarter] — [status / dependency]
-- [Milestone] — …
+| Source | Why it's referenced |
+|--------|---------------------|
+| [Title / link] | [What it informed in this vision] |
 ```
 
 ## Appendix B. Kick-off presentation storyline
