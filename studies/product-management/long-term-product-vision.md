@@ -64,9 +64,9 @@ future, not a plan — collapsing the two produces a roadmap dressed up as a vis
 most common mistake. Cagan's analogy captures it: vision *inspires* (like leadership),
 strategy is *intentional* (like management). The path is carried by the elements *around*
 the vision: the **diagnosis + coherent actions** (Rumelt's kernel), the **investment
-areas** and their **Now-Next-Later** sequencing, and — if you use a PR/FAQ — the **FAQ**
-that answers "how, and what's hard." The *artifact as a whole* shows the path; the
-*vision statement* stays inspiring.
+areas** (their *later* prioritization and sequencing is downstream strategy, not part of
+this exercise), and — if you use a PR/FAQ — the **FAQ** that answers "how, and what's
+hard." The *artifact as a whole* shows the path; the *vision statement* stays inspiring.
 
 **So this dynamic delivers both the vision and the *starting point for strategy*.**
 Defining the investment areas is already early strategy work — they're the seed of
@@ -113,18 +113,19 @@ present at the kick-off: it makes the path from a private card-dump to a shared 
 feel concrete.
 
 ```mermaid
-flowchart TD
+flowchart LR
     K["①&nbsp;Kick-off · everyone"] -->|shared why + company goals| H["②&nbsp;Homework · each person, solo"]
     H -->|cards: pains · ambitions · benchmarks| M1["③&nbsp;Workshop M1 · Product + Eng"]
     M1 -->|diagnosis + candidate investment areas| M2["④&nbsp;Workshop M2 · Product + Eng"]
     M2 -->|two-futures wall: fears + success conditions| S["⑤&nbsp;Synthesis · Product team"]
-    S -->|Vision + a North Star per area + positioned clusters · Appendix A| V["⑥&nbsp;Validate & evangelize"]
-    V -.->|downstream| O["Annual OKRs · per investment area"]
-    O -.->|downstream| SQ["Squad cascade · separate study"]
+    S -.->|outside scope| V["Validate & evangelize"]
+    V -.->|outside scope| O["Annual OKRs · per investment area"]
+    O -.->|outside scope| SQ["Squad cascade · separate study"]
 ```
 
-In scope ends at ⑥ (the **vision + a North Star per area**, validated). Annual OKRs and
-the squad cascade are **downstream** — the dynamic stops at the North Star.
+Solid steps ①–⑤ are this study's scope, ending at the **vision + a North Star per area**.
+The dotted steps — **validate & evangelize, annual OKRs, and the squad cascade** — are
+**outside this study's scope**; the dynamic stops at the North Star.
 
 The same path, read as **input → step → output** (a table version for slides):
 
@@ -135,10 +136,11 @@ The same path, read as **input → step → output** (a table version for slides
  ②  Homework (solo)      each person       cards: pains, ambitions, benchmarks
  ③  Workshop M1          Product + Eng     diagnosis + candidate investment areas
  ④  Workshop M2          Product + Eng     two-futures wall (fears / success)
- ⑤  Synthesis           Product team      Vision + North Star per area (Appendix A)
- ⑥  Validate/evangelize  Product + leads   endorsed vision   ← last step in scope
-    └→ annual OKRs        (downstream)      OKRs per area
-    └→ squad cascade      (separate study)  squad initiatives
+ ⑤  Synthesis           Product team      Vision + North Star per area (Appendix A)  ← in scope
+ ┄┄ outside this study's scope ┄┄
+    └→ validate/evangelize Product + leads  endorsed vision
+    └→ annual OKRs         Product / staff  OKRs per area
+    └→ squad cascade       (separate study) squad initiatives
 ```
 
 The two movements (③–④) are the cross-functional workshop in the room. Everything from
@@ -298,10 +300,11 @@ step produces a section of that template:
   from the two-futures wall — success conditions you are consciously *not* funding become
   trade-offs; failure causes become risks.
 
-*Positioning aids (working tools, not template sections).* To prioritize and sequence the
-investment areas, the Product team can use a quick **Wardley map** (evolution × value →
-invest vs. commoditize/buy) and a **Now-Next-Later** placement; these inform the ordering
-of areas in §2 and the trade-offs in §3.
+*Positioning aid (a working tool, not a template section).* To decide where to **invest
+vs. commoditize/buy**, the Product team can use a quick **Wardley map** (evolution ×
+value); it separates differentiators (governance, self-service) from commodity infra and
+informs the **trade-offs** in §3. *Prioritizing and sequencing the areas is deliberately
+out of scope — that's downstream strategy, not vision construction.*
 
    ```text
    value to user
@@ -315,17 +318,10 @@ of areas in §2 and the trade-offs in §3.
        genesis   custom   product   commodity
    ```
 
-   ```text
-   NOW            |  NEXT           |  LATER
-   (in motion)    |  (validated)    |  (needs discovery)
-   -------------- | --------------- | ----------------
-   governance v1  | self-service    | ML feature store
-   trust metrics  | data catalog    | cross-domain mesh
-   ```
-
-After synthesis, **validate & evangelize** the draft with squad leads (only the leaders
-were in the room) — the last step in scope for this study. Translating each North Star
-into **annual OKRs** comes next (see *Downstream*) and is not produced by this dynamic.
+The **vision + a North Star per area** (Appendix A) is where this study's scope ends.
+Everything after — **validating & evangelizing** the draft with squad leads, translating
+each North Star into **annual OKRs**, and the **squad cascade** — is downstream and *not*
+produced by this dynamic (see *Downstream*).
 
 ### Downstream
 
@@ -395,10 +391,16 @@ applies — a caveat on fit.
   *Inspires:* the explicit handoff from workshop *direction* to staff-distilled annual
   KRs, without turning the workshop itself into an OKR-writing session.
 
-- **Now-Next-Later roadmap — Janna Bastow / ProdPad** ([prodpad.com](https://www.prodpad.com/blog/invented-now-next-later-roadmap/))
-  — direction by horizon instead of dates.
-  *Inspires:* giving the squads direction on investment areas without promising
-  dates or micromanaging.
+- **Como construir a visão do produto em 6 etapas — PM3** ([pm3.com.br](https://pm3.com.br/blog/como-construir-a-visao-do-produto/))
+  — a 6-step method: understand company/market → understand product → benchmark →
+  draft → validate → evangelize.
+  *Inspires:* the **benchmarking** pre-work step and the post-workshop **validation +
+  evangelization** phase (both missing from the original dynamic).
+
+- **Visão de produto: a bússola para decisões estratégicas — Tera** ([somostera.com](https://somostera.com/blog/visao-de-produto-a-bussola-para-decisoes-estrategicas))
+  — vision as a compass for decisions; recommends Roman Pichler's Product Vision Board.
+  *Inspires:* reinforces the Vision Board as a workshop-friendly artifact (already
+  offered above). *Note: client-rendered page — URL resolves but loads via JS.*
 
 ### Collaboration & facilitation
 
@@ -462,18 +464,10 @@ applies — a caveat on fit.
   *Caveat:* a contested *architecture* paradigm — use it as domain context for
   outcomes, not as a vision; don't let an architecture pattern pre-decide the strategy.
 
-### National (PT-BR) sources
-
-- **Como construir a visão do produto em 6 etapas — PM3** ([pm3.com.br](https://pm3.com.br/blog/como-construir-a-visao-do-produto/))
-  — a 6-step method: understand company/market → understand product → benchmark →
-  draft → validate → evangelize.
-  *Inspires:* the **benchmarking** pre-work step and the post-workshop **validation +
-  evangelization** phase (both missing from the original dynamic).
-
 - **Plataformas de engenharia como produto — PM3** ([pm3.com.br](https://pm3.com.br/blog/plataformas-de-engenharia-como-produto/))
   — platform-as-a-product in a PT-BR context, citing the Thoughtworks Tech Radar and
   developer experience (DX).
-  *Inspires:* national reinforcement of the platform-as-product framing and an explicit
+  *Inspires:* reinforcement of the platform-as-product framing and an explicit
   internal-customer / DX lens for the "platform vs. pile of services" question.
 
 - **Do zero ao Data Product: playbook em 7 passos — Target** ([targetsolucoes.com.br](https://targetsolucoes.com.br/do-zero-ao-data-product-um-playbook-estrategico-em-7-passos/))
@@ -481,11 +475,6 @@ applies — a caveat on fit.
   access interfaces) and starts from the business decision, not the available data.
   *Inspires:* a concrete, data-specific artifact — sketch a flagship data product per
   investment area in consumer/SLO/metric terms.
-
-- **Visão de produto: a bússola para decisões estratégicas — Tera** ([somostera.com](https://somostera.com/blog/visao-de-produto-a-bussola-para-decisoes-estrategicas))
-  — vision as a compass for decisions; recommends Roman Pichler's Product Vision Board.
-  *Inspires:* reinforces the Vision Board as a workshop-friendly artifact (already
-  offered above). *Note: client-rendered page — URL resolves but loads via JS.*
 
 - **State of Data 2025–2026 — Data Hackers + Bain & Company** (annual report; 5th ed.,
   3,200 BR respondents, fielded Oct–Dec 2025)
