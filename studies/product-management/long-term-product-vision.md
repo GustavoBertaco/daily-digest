@@ -8,6 +8,20 @@
 - **Date:** 2026-06-18
 - **Status:** draft
 
+## Contents
+
+1. [Context](#context)
+2. [Why a shared vision](#why-a-shared-vision)
+3. [The process at a glance](#the-process-at-a-glance)
+4. [Kick-off meeting](#kick-off-meeting)
+5. [Pre-work](#pre-work)
+6. [The workshop (Movements 1 and 2)](#the-workshop-movements-1-and-2)
+7. [Product synthesis (after the room)](#product-synthesis-after-the-room)
+8. [Open questions and next steps](#open-questions-and-next-steps)
+9. [References](#references)
+10. [Appendix A. Vision and annual-plan template](#appendix-a-vision-and-annual-plan-template)
+11. [Appendix B. Kick-off presentation storyline](#appendix-b-kick-off-presentation-storyline)
+
 ## Context
 
 This study explores better techniques to **collaboratively create a long-term product
@@ -17,6 +31,325 @@ isolation. The central question: how do you run a process that produces a genuin
 — while keeping the conversation out of short-term, service-activation mode and still
 surfacing the real pains and concerns of the people in the room?
 
+## Why a shared vision
+
+Three ideas underpin this study. The [kick-off](#kick-off-meeting) *sells* them to the
+room; this section is the substance behind them.
+
+**1. A platform needs *one* vision — not one per squad.** When every squad sets its own
+direction, the platform optimizes locally and pulls apart: duplicated effort, conflicting
+bets, and a result that feels like a *pile of services* rather than a product. A single,
+shared long-term vision is what lets autonomous squads stay autonomous *and* still see how
+their piece serves the whole ([Cagan, Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/)).
+
+**2. The North Star is the shared point of reference.** A north star is the metric that
+captures the value the platform delivers, so that "no matter what team you're on, you can
+see and follow it." For a platform serving many consumer types (squads, risk, analysts), a
+single number may be too blunt — a small *metric tree* can serve better (see the North Star
+Framework in [References](#references)).
+
+**3. Mission ≠ Vision ≠ Strategy.** Keeping these distinct stops the room from talking past
+each other ([Cagan, Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/)):
+
+| Term | Question it answers | Horizon |
+| --- | --- | --- |
+| **Mission** | *What* are we here to do? | Enduring |
+| **Vision** | *What future* will we create? | 2–3 years, inspiring |
+| **Strategy** | *How* will we get there? | The intentional choices |
+
+A mission statement is **not** a vision.
+
+**4. A vision *inspires*; the *path* is strategy.** A good vision shows a compelling
+future, not a plan — collapsing the two produces a roadmap dressed up as a vision, the
+most common mistake. Cagan's analogy captures it: vision *inspires* (like leadership),
+strategy is *intentional* (like management). The path is carried by the elements *around*
+the vision: the **diagnosis + coherent actions** (Rumelt's kernel), the **investment
+areas** and their **Now-Next-Later** sequencing, and — if you use a PR/FAQ — the **FAQ**
+that answers "how, and what's hard." The *artifact as a whole* shows the path; the
+*vision statement* stays inspiring.
+
+**So this dynamic delivers both the vision and the *starting point for strategy*.**
+Defining the investment areas is already early strategy work — they're the seed of
+Rumelt's guiding policy. The room produces the vision's raw material, the diagnosis, and
+the prioritized investment areas (the *strategic skeleton*); the fuller strategy —
+per-area OKRs, sequencing, and the squad-level cascade — is elaborated downstream in
+[Product synthesis](#product-synthesis-after-the-room) and beyond.
+
+## The process at a glance
+
+**In-person by default — the only async step is an individual card-dump.** Focus is
+fragile and group homework rarely gets done, so *all synthesis and decisions happen in
+the room*. The one exception is a solo, private brain-dump before the session (see
+[Pre-work](#pre-work)): it's individual and bounded, so it doesn't suffer the failure mode
+of async group work, and it buys ~30 min of room time for the parts that need the room.
+Where independent thinking matters (to avoid anchoring on the most senior voice), we
+protect it by keeping those submissions private until the room and by having the room
+actively re-shape the facilitator's draft clusters.
+
+**Designed for flow, not stations.** The cross-functional room is **2 continuous
+movements** that build on a *single growing wall*, instead of a sequence of cold-start
+sessions. The room's job is to *surface and align* — diagnosis, fears/ambitions, and
+candidate investment areas; **forming the vision and positioning the clusters is a
+separate Product-team step afterward** (see [Product synthesis](#product-synthesis-after-the-room)).
+The energy mechanics matter as much as the content:
+
+- **1‑2‑4‑All** ([Liberating Structures](https://www.liberatingstructures.com/1-2-4-all/))
+  replaces round-robin read-outs — everyone is always active; sharing is compressed.
+- **Gallery walk + silent dot-voting** replaces verbal read-outs — people stand, move,
+  read, and vote with dots. Movement is energy, and it converges faster.
+- **One evolving artifact** — the same wall is enriched movement after movement, so the
+  room sees momentum rather than restarting.
+- **Mixed Product+Engineering** in every pair and foursome — collaboration is the point.
+
+**Format:** the cross-functional room is short (~1.5–2h: M1 + M2, plus the pre-work);
+the Product-team synthesis happens separately afterward. Use a single sitting, or split
+if there's political tension or many divergent Product/Engineering views. Group: the key
+Product and Engineering leaders. One confident facilitator + one scribe. **The single
+rule, stated up front and enforced all day:** *no solution may be named until the problem
+behind it is on the wall.*
+
+**The journey — who owns each step and what it produces.** This is also the slide to
+present at the kick-off: it makes the path from a private card-dump to a shared vision
+feel concrete.
+
+```mermaid
+flowchart TD
+    K["①&nbsp;Kick-off · everyone"] -->|shared why + company goals| H["②&nbsp;Homework · each person, solo"]
+    H -->|cards: pains · ambitions · benchmarks| M1["③&nbsp;Workshop M1 · Product + Eng"]
+    M1 -->|diagnosis + candidate investment areas| M2["④&nbsp;Workshop M2 · Product + Eng"]
+    M2 -->|two-futures wall: fears + success conditions| S["⑤&nbsp;Synthesis · Product team"]
+    S -->|Vision + a North Star per area + positioned clusters · Appendix A| V["⑥&nbsp;Validate & evangelize"]
+    V -->|endorsed vision| O["⑦&nbsp;Annual OKRs · per investment area"]
+    O -.->|hand-off| SQ["Squad cascade · separate study"]
+```
+
+The same path, read as **input → step → output** (a table version for slides):
+
+```text
+ #  STEP                  WHO               WHAT COMES OUT
+ ── ───────────────────── ───────────────── ──────────────────────────────────
+ ①  Kick-off             everyone          shared "why" + company goals
+ ②  Homework (solo)      each person       cards: pains, ambitions, benchmarks
+ ③  Workshop M1          Product + Eng     diagnosis + candidate investment areas
+ ④  Workshop M2          Product + Eng     two-futures wall (fears / success)
+ ⑤  Synthesis           Product team      Vision + North Star per area (Appendix A)
+ ⑥  Validate/evangelize  Product + leads   endorsed vision
+ ⑦  Annual OKRs          Product / staff   OKRs per investment area
+    └→ squad cascade      (separate study)
+```
+
+The two movements (③–④) are the cross-functional workshop in the room. Everything from
+*Synthesis* onward happens *after* and is not facilitated live.
+
+## Kick-off meeting
+
+*Live, ~45–60 min, before the homework. Its job is buy-in and shared framing, not content
+generation.* It does four things:
+
+- **Make the case for a long-term vision now.** Name the cost of *not* having one:
+  many squads each rowing in their own direction, duplicated effort, a platform that
+  feels like a pile of services rather than a product. (The substance is in
+  [Why a shared vision](#why-a-shared-vision).)
+- **Argue for *one* shared north star, not one per squad,** and clarify the vocabulary —
+  **mission vs. vision vs. strategy** — so no one conflates them
+  ([Cagan, Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/);
+  [Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/)).
+- **Walk the journey, homework → artifacts.** Present the process visual from
+  [The process at a glance](#the-process-at-a-glance) so everyone knows **who does what,
+  when, and what comes out of each step** — this is the slide people remember. Set
+  expectations for the workshop too: there will be **dedicated space to explain your
+  views and debate**, and a **solutions parking lot** — we hold solutions until the
+  problems are clear, but no idea gets lost.
+- **Share the company's business objectives** as the backdrop, and frame them as a
+  *lens for the homework*: "as you do your card-dump, hold these company goals in mind."
+  This plants top-down context without doing the diagnosis top-down.
+
+> The full slide storyline for this meeting is in
+> [Appendix B](#appendix-b-kick-off-presentation-storyline) (written to paste into an AI
+> slide generator).
+
+## Pre-work
+
+*Individual card-dump (async, after the kick-off).*
+
+- Each participant **individually** submits cards via a form/Miro on four prompts:
+  *(a)* how an internal customer (squad, risk, analyst) would describe the platform in
+  its ideal state 3 years out; *(b)* the biggest pains today that will *get worse* if we
+  don't act; *(c)* one external data platform they admire, benchmark; *(d)* where today's
+  platform most *helps or blocks* the company goals shared at the kick-off. Deadline + a
+  personal nudge so it actually gets done.
+- **Submissions stay private** (not visible to peers) until the room — this preserves
+  independent thinking and prevents people anchoring on each other in advance.
+- Facilitator + scribe then **merge duplicates, normalize wording, and arrange the cards
+  into 5–8 draft "starter clusters"** with deliberately neutral names. Outliers and
+  dissent are parked visibly, never discarded.
+
+## The workshop (Movements 1 and 2)
+
+### Movement 1 — React, refine, diagnose (≈60 min)
+
+The room walks in to a **pre-clustered wall** and spends its energy on judgment, not
+generation. The starter clusters are framed as *a draft to be broken*.
+
+> **Solutions parking lot.** Put a visible board to the side. Teams *will* jump to
+> solutions — instead of fighting it, channel it: the moment someone proposes a fix, the
+> facilitator says *"great — park it,"* writes it on the parking lot, and moves on. The
+> person feels heard, the no-solutions rule holds without feeling repressive, and the
+> parked ideas are handed to Product synthesis later. This is what makes the rule
+> enforceable.
+
+- **Orient + set the tone (5 min).** Show the starter clusters as *a draft the room is
+  expected to challenge*. **Set the pace explicitly: challenges are welcome and part of
+  the dynamic** — we contest *ideas, not people*, seniority doesn't win an argument, and
+  the best result is a draft that gets pulled apart and rebuilt. Then the one rule:
+  *no solution before the problem is on the wall* (→ parking lot), with a dedicated space
+  later to make your case.
+- **Challenge & refine — foursomes + gallery walk (20 min).** Move mis-grouped cards,
+  rename clusters, and **add anything missing** (this also covers anyone who skipped the
+  pre-work). Talking only to resolve overlaps. This active re-shaping is the anchoring
+  antidote — the room owns the clusters, not the facilitator's draft. The result is the
+  set of **candidate investment areas** (aim for 4–6).
+- **Speak from the wall — advocate & debate (15 min).** The deliberate space for people
+  to *really explain their thinking*. Anyone may step to the wall and advocate for **the
+  one card or theme they feel strongest about — and *why it matters over the long
+  term***. ~90 seconds each, standing at the wall (movement keeps energy). After each, a
+  **short challenge exchange** — one or two clarifying/contesting questions — and capture
+  the *underlying belief* on a new card. Facilitator referees one line: *explain the
+  problem and why it matters, not the fix* (fixes → parking lot). Asking "why it matters
+  long-term" is also what pulls out long-horizon concerns.
+- **Dot-vote (10 min).** The room walks the wall and dot-votes the themes that will hurt
+  most over the long run — now informed by the debate. The facilitator reads the dot
+  pattern aloud.
+- **Diagnosis (10 min).** From the top-voted themes, the room writes *one sentence*: the
+  single biggest obstacle between us and the 3-year ideal (the **Rumelt kernel**).
+  Everything later must trace back to it; the clusters on the wall are the trace-back,
+  so no separate gate is needed.
+
+### Movement 2 — Stretch to two futures (≈50 min)
+
+The pre-mortem, run as one storytelling beat that feeds the same wall.
+
+- **Set the scene (3 min).** "It's 2029. We're going to tell two stories of this same
+  platform — one where it failed, one where it won."
+- **Pairs write both stories back-to-back (22 min).** Each mixed pair writes the
+  *failure* headline + its top 3 causes, then immediately the *success* headline + the
+  3 things that made it true. One continuous arc, not two exercises. *Optional working-
+  backwards framing:* write the success story as the **[2029] launch press release** —
+  the customer-outcome lens pushes thinking long-term (a candidate fix for next-step #2,
+  the pre-mortem's short-term bias).
+- **Post + silent scan (15 min).** Pairs post straight onto the wall in two columns;
+  the room does a quick silent gallery scan and the facilitator surfaces a few
+  recurring patterns — no full verbal read-out.
+- **Link to the clusters (10 min).** Mark which success-conditions map to Movement-1
+  clusters, and add any new cluster the futures surfaced.
+
+```text
+   FAILURE CAUSES            |   SUCCESS CONDITIONS
+   (what we fear)            |   (what must be true)
+   -------------------------- | --------------------------
+   • siloed data, no trust    | • one trusted, governed layer
+   • squads reinvent pipelines| • self-service, reused assets
+   • platform = ticket queue  | • platform consumed as a product
+```
+
+**Workshop output (what the room produced).** The cross-functional room stops here —
+it does *not* write the vision. It hands off three things: the **diagnosis** (one
+sentence), the **two-futures wall** (failure causes vs. success conditions), and a set
+of **4–6 candidate investment areas** the room owns and aligned on.
+
+## Product synthesis (after the room)
+
+Not facilitated live. Forming the vision and positioning the investment-area clusters is
+the **Product team's** job, not a whole-room activity. Working from the workshop output,
+Product unifies everything into the long-term vision document — the template in
+[Appendix A](#appendix-a-vision-and-annual-plan-template) — by:
+
+- **Writing the vision.** Pick one format: a 2–3 year narrative (Cagan style: "what
+  it's like to build on / consume our platform in 2029"); a
+  [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/); or
+  an Amazon-style [**PR/FAQ**](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq)
+  — the future press release + an FAQ that forces the hard questions ("why now, why
+  us, what we're *not* doing, what could break"). The PR/FAQ's FAQ doubles as input to
+  *validate & evangelize*.
+- **Setting a goal per investment area.** Give *each* investment area its own
+  **North Star metric — or an OKR set** (objective + key results) — the long-term
+  outcome that area must move. These per-area goals *are* the point of the exercise;
+  a single platform-wide number is not the aim. (How squads then pursue these goals —
+  the squad-level cascade — is a **separate study**, out of scope here.)
+- **Positioning the clusters (Wardley).** Place each investment area on *evolution*
+  (genesis → commodity) × *value to user* to decide **invest vs. commoditize/buy**.
+
+   ```text
+   value to user
+     ^
+     |  governance        self-service
+     |  (differentiate)   (differentiate)
+     |
+     |        data catalog        compute/infra
+     |        (build)             (buy/commoditize)
+     +------------------------------------------> evolution
+       genesis   custom   product   commodity
+   ```
+
+- **Linking the areas (Now-Next-Later).** Place the investment areas across horizons
+  — **no dates** — to give the squads direction without micromanaging.
+
+   ```text
+   NOW            |  NEXT           |  LATER
+   (in motion)    |  (validated)    |  (needs discovery)
+   -------------- | --------------- | ----------------
+   governance v1  | self-service    | ML feature store
+   trust metrics  | data catalog    | cross-domain mesh
+   ```
+
+After synthesis, **validate & evangelize** the draft with squad leads (only the leaders
+were in the room) and **distill annual OKRs per investment area** — the last step in
+scope for this study.
+
+### Downstream — to detail later
+
+Steps beyond this study's current scope, to be fleshed out in a later iteration:
+
+1. **Define next-year OKRs from the investment areas.** Based on the main areas of
+   investment, define the OKRs for the following year.
+2. **Squads define their initiatives.** Based on those OKRs, each squad defines the
+   initiatives that pursue them.
+
+## Open questions and next steps
+
+### ▶ Next steps — resume here
+
+- [x] **1. Rework the dynamic for flow & engagement.** ~~Too much pause-and-continue.~~
+  Done (2026-06-18): cross-functional room rebuilt as 2 continuous movements (React &
+  refine → Stretch) on one growing wall, using 1‑2‑4‑All + gallery walk + dot-voting
+  instead of read-outs; M1 fed by an individual card-dump pre-work; vision-forming and
+  cluster positioning moved to a separate Product-team synthesis step (Appendix A).
+  *Revisit if it still feels heavy after a dry run.*
+- [x] **Share company business objectives + tie the vision to them.** Done (2026-06-19):
+  added a **Kick-off meeting** before the homework that shares the company goals and
+  frames them as the *lens* for the take-home card-dump (new prompt *(d)*); slide
+  storyline in **Appendix B**. *(Optional future add: an explicit in-room investment-
+  area → company-objective alignment matrix.)*
+- [x] **Improve the framing: why one shared vision, north star, vision vs. mission.**
+  Done (2026-06-19): drafted as the new [Why a shared vision](#why-a-shared-vision)
+  section, grounded in Cagan's *Vision vs. Mission* and *Vision vs. Strategy*. *Refine
+  the wording as desired.*
+- [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
+  *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
+  technique (or reframe the pre-mortem) that forces a long-horizon lens. *(Lead: the
+  working-backwards "[2029] press release" framing already noted in Movement 2.)*
+- [ ] **3. (After the study is finished) Propose tooling for future studies.** Ask Claude
+  to propose **agents, skills, or workflows** that support running further studies the
+  same way we built this one — so the framework becomes repeatable/natural.
+- [ ] **4. Review the 3-year plan template** (see *Appendix A*) — validate it as the
+  output artifact.
+
+### Standing open questions
+
+- Decide on format (1 day vs. distributed) and the size of the leadership group to calibrate
+  timeboxes.
+- Possible next artifact: a detailed facilitator guide (minute-by-minute timeboxes,
+  per-station questions, ready-to-paste Miro/board templates) and the pre-work forms.
 
 ## References
 
@@ -38,6 +371,33 @@ applies — a caveat on fit.
   *Inspires:* the vision statement format ("what it's like to use our platform in
   2028") and the autonomy-respecting handoff to squads.
 
+- **Vision vs. Strategy — Marty Cagan / SVPG** ([svpg.com](https://www.svpg.com/vision-vs-strategy/))
+  — vision *inspires* (like leadership), strategy is *intentional* (like management);
+  the vision is the shared "north star" so every team sees how its piece contributes.
+  *Inspires:* the **kick-off** argument for *one* shared north star instead of each
+  squad's own — and the vision/strategy distinction to keep the room from conflating
+  them.
+
+- **Product Vision vs. Mission — Marty Cagan / SVPG** ([svpg.com](https://www.svpg.com/product-vision-vs-mission/))
+  — a mission says *what* you're trying to do; a vision shows the *future you'll
+  create*. A mission statement is not a vision.
+  *Inspires:* a crisp kick-off slide distinguishing **mission vs. vision (vs. strategy)**
+  so leadership starts from shared definitions.
+
+- **How to Create a Product Vision — Tansik Koyuncu (Dropbox), Product School** ([YouTube](https://www.youtube.com/watch?v=rYd2PN4EUOY))
+  — defining a vision, why it matters, how to create it, and **how to *sell* it**;
+  recommends the Amazon working-backwards / future press-release device.
+  *Inspires:* the kick-off's "why it matters + how to rally people" framing, and an
+  optional working-backwards device for the vision narrative.
+
+- **Working Backwards / PR-FAQ — Colin Bryar & Bill Carr** ([PR/FAQ guide](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq), *Working Backwards*)
+  — start from the customer and write the launch **press release as if it already
+  shipped**, plus an **FAQ** answering the hard questions; narratives over slides, read
+  in silence.
+  *Inspires:* a third vision-artifact option (PR/FAQ) whose FAQ forces "why now, why us,
+  what we're *not* doing" — and a **future press-release** framing for M2 that pushes a
+  long-horizon, customer-outcome lens (see next-step on the pre-mortem's short-term bias).
+
 - **North Star Framework — Amplitude / John Cutler** ([amplitude.com/north-star](https://amplitude.com/north-star))
   — one metric capturing the value delivered, with 3–5 *input metrics* teams can move.
   *Inspires:* the spine that connects vision → annual KRs → squad initiatives; the
@@ -52,21 +412,26 @@ applies — a caveat on fit.
 
 - **Now-Next-Later roadmap — Janna Bastow / ProdPad** ([prodpad.com](https://www.prodpad.com/blog/invented-now-next-later-roadmap/))
   — direction by horizon instead of dates.
-  *Inspires:* giving the 11+ squads direction on investment areas without promising
+  *Inspires:* giving the squads direction on investment areas without promising
   dates or micromanaging.
 
 ### Collaboration & facilitation
 
 - **Pre-mortem — Gary Klein** ([HBR](https://hbr.org/2007/09/performing-a-project-premortem))
   — imagine the project has already failed, then explain why.
-  *Inspires:* the Block 1 dynamic to surface the real, unspoken concerns; invert it
+  *Inspires:* the Movement 2 dynamic to surface the real, unspoken concerns; invert it
   for the success story that feeds the vision.
+
+- **1‑2‑4‑All — Liberating Structures** ([liberatingstructures.com](https://www.liberatingstructures.com/1-2-4-all/))
+  — solo → pair → foursome → whole; everyone is active, sharing is compressed, power
+  imbalances shrink.
+  *Inspires:* the engine of Movement 1 and the anchoring-avoidance stance.
 
 - **Product Vision Board — Roman Pichler** ([romanpichler.com](https://www.romanpichler.com/tools/product-vision-board/))
   — a single-canvas, workshop-friendly way to capture vision, target group, needs, and
   value (a lighter alternative to a prose narrative for a cross-functional room).
-  *Inspires:* an alternative one-page output format for Block 2 — easier to co-create
-  live than Cagan's narrative.
+  *Inspires:* an alternative one-page vision format in Product synthesis — easier to
+  co-create than Cagan's narrative.
 
 - **Wardley Mapping — Simon Wardley** ([learnwardleymapping.com](https://learnwardleymapping.com/))
   — position components on maturity (genesis → commodity) vs. value to the user.
@@ -117,210 +482,20 @@ applies — a caveat on fit.
 - **Do zero ao Data Product: playbook em 7 passos — Target** ([targetsolucoes.com.br](https://targetsolucoes.com.br/do-zero-ao-data-product-um-playbook-estrategico-em-7-passos/))
   — introduces a **Data Product Canvas** (consumers, success metrics, sources, SLOs,
   access interfaces) and starts from the business decision, not the available data.
-  *Inspires:* a concrete, data-specific Block 2 artifact — sketch a flagship data
-  product per investment area in consumer/SLO/metric terms.
+  *Inspires:* a concrete, data-specific artifact — sketch a flagship data product per
+  investment area in consumer/SLO/metric terms.
 
 - **Visão de produto: a bússola para decisões estratégicas — Tera** ([somostera.com](https://somostera.com/blog/visao-de-produto-a-bussola-para-decisoes-estrategicas))
   — vision as a compass for decisions; recommends Roman Pichler's Product Vision Board.
   *Inspires:* reinforces the Vision Board as a workshop-friendly artifact (already
   offered above). *Note: client-rendered page — URL resolves but loads via JS.*
 
-## Proposed dynamic (consolidation)
+## Appendix A. Vision and annual-plan template
 
-**In-person by default — the only async step is an individual card-dump.** Focus is
-fragile and group homework rarely gets done, so *all synthesis and decisions happen in
-the room*. The one exception is a solo, private brain-dump before the session (see
-**Pre-work** below): it's individual and bounded, so it doesn't suffer the failure mode
-of async group work, and it buys ~30 min of room time for the parts that need the room.
-Where independent thinking matters (to avoid anchoring on the most senior voice), we
-protect it by keeping those submissions private until the room and by having the room
-actively re-shape the facilitator's draft clusters.
-
-**Designed for flow, not stations.** The cross-functional room is **2 continuous
-movements** that build on a *single growing wall*, instead of a sequence of cold-start
-sessions. The room's job is to *surface and align* — diagnosis, fears/ambitions, and
-candidate investment areas; **forming the vision and positioning the clusters is a
-separate Product-team step afterward** (see *After the room*). The energy mechanics
-matter as much as the content:
-
-- **1‑2‑4‑All** ([Liberating Structures](https://www.liberatingstructures.com/1-2-4-all/))
-  replaces round-robin read-outs — everyone is always active; sharing is compressed.
-- **Gallery walk + silent dot-voting** replaces verbal read-outs — people stand, move,
-  read, and vote with dots. Movement is energy, and it converges faster.
-- **One evolving artifact** — the same wall is enriched movement after movement, so the
-  room sees momentum rather than restarting.
-- **Mixed Product+Engineering** in every pair and foursome — collaboration is the point.
-
-**Format:** the cross-functional room is short (~1.5–2h: M1 + M2, plus the pre-work);
-the Product-team synthesis happens separately afterward. Use a single sitting, or split
-if there's
-political tension or many divergent Product/Engineering views. Group: the RT key
-positions. One confident facilitator + one scribe. **The single rule, stated up front
-and enforced all day:** *no solution may be named until the problem behind it is on the
-wall.*
-
-**Flow at a glance:**
-
-```mermaid
-flowchart LR
-    P["Pre-work<br/>individual card-dump"] --> A["M1 · React & refine<br/>pre-clustered → diagnosis"]
-    A --> B["M2 · Stretch<br/>pre-mortem, two futures"]
-    B --> C["Product synthesis<br/>vision + position clusters<br/>(Appendix A)"]
-    C --> D["Validate &<br/>evangelize"]
-    D --> E["Annual OKRs<br/>per investment area"]
-    E -.-> F["Squad cascade<br/>(separate study)"]
-```
-
-The two movements are the cross-functional workshop (in the room). Everything from
-*Product synthesis* onward happens *after* and is not facilitated live.
-
-### Pre-work — individual card-dump (async, before the room)
-
-- Each participant **individually** submits cards via a form/Miro on three prompts:
-  *(a)* how an internal customer (squad, risk, analyst) would describe the platform in
-  its ideal state 3 years out; *(b)* the biggest pains today that will *get worse* if we
-  don't act; *(c)* one external data platform they admire, benchmark. Deadline + a personal
-  nudge so it actually gets done.
-- **Submissions stay private** (not visible to peers) until the room — this preserves
-  independent thinking and prevents people anchoring on each other in advance.
-- Facilitator + scribe then **merge duplicates, normalize wording, and arrange the cards
-  into 5–8 draft "starter clusters"** with deliberately neutral names. Outliers and
-  dissent are parked visibly, never discarded.
-
-### Movement 1 — React, refine, diagnose (≈45 min)
-
-The room walks in to a **pre-clustered wall** and spends its energy on judgment, not
-generation. The starter clusters are framed as *a draft to be broken*.
-
-- **Orient + the one rule (5 min).** Show the starter clusters; state out loud that they
-  are a draft the room is expected to challenge, and *no solution before the problem is
-  on the wall.*
-- **Challenge & refine — foursomes + gallery walk (20 min).** Move mis-grouped cards,
-  rename clusters, and **add anything missing** (this also covers anyone who skipped the
-  pre-work). Talking only to resolve overlaps. This active re-shaping is the anchoring
-  antidote — the room owns the clusters, not the facilitator's draft. The result is the
-  set of **candidate investment areas** (aim for 4–6).
-- **Dot-vote (10 min).** The room walks the wall and dot-votes the themes that will hurt
-  most over the long run. The facilitator reads the dot pattern aloud.
-- **Diagnosis (10 min).** From the top-voted themes, the room writes *one sentence*: the
-  single biggest obstacle between us and the 3-year ideal (the **Rumelt kernel**).
-  Everything later must trace back to it; the clusters on the wall are the trace-back,
-  so no separate gate is needed.
-
-### Movement 2 — Stretch to two futures (≈50 min)
-
-The pre-mortem, run as one storytelling beat that feeds the same wall.
-
-- **Set the scene (3 min).** "It's 2029. We're going to tell two stories of this same
-  platform — one where it failed, one where it won."
-- **Pairs write both stories back-to-back (22 min).** Each mixed pair writes the
-  *failure* headline + its top 3 causes, then immediately the *success* headline + the
-  3 things that made it true. One continuous arc, not two exercises.
-- **Post + silent scan (15 min).** Pairs post straight onto the wall in two columns;
-  the room does a quick silent gallery scan and the facilitator surfaces a few
-  recurring patterns — no full verbal read-out.
-- **Link to the clusters (10 min).** Mark which success-conditions map to Movement-1
-  clusters, and add any new cluster the futures surfaced.
-
-```text
-   FAILURE CAUSES            |   SUCCESS CONDITIONS
-   (what we fear)            |   (what must be true)
-   -------------------------- | --------------------------
-   • siloed data, no trust    | • one trusted, governed layer
-   • squads reinvent pipelines| • self-service, reused assets
-   • platform = ticket queue  | • platform consumed as a product
-```
-
-**Workshop output (what the room produced).** The cross-functional room stops here —
-it does *not* write the vision. It hands off three things: the **diagnosis** (one
-sentence), the **two-futures wall** (failure causes vs. success conditions), and a set
-of **4–6 candidate investment areas** the room owns and aligned on.
-
-### After the room (not facilitated live)
-
-- **Product Team synthesis — form the vision & position the areas.** Forming the vision
-  and positioning the investment-area clusters is the **Product team's** job, not a
-  whole-room activity. Working from the workshop output, Product unifies everything into
-  the long-term vision document — the template in **Appendix A** — by:
-  - **Writing the vision.** A 2–3 year narrative (Cagan style: "what it's like to build
-    on / consume our platform in 2029"), or a
-    [Product Vision Board](https://www.romanpichler.com/tools/product-vision-board/).
-  - **Setting a goal per investment area.** Give *each* investment area its own
-    **North Star metric — or an OKR set** (objective + key results) — the long-term
-    outcome that area must move. These per-area goals *are* the point of the exercise;
-    a single platform-wide number is not the aim. (How squads then pursue these goals —
-    the squad-level cascade — is a **separate study**, out of scope here.)
-  - **Positioning the clusters (Wardley).** Place each investment area on *evolution*
-    (genesis → commodity) × *value to user* to decide **invest vs. commoditize/buy**.
-
-     ```text
-     value to user
-       ^
-       |  governance        self-service
-       |  (differentiate)   (differentiate)
-       |
-       |        data catalog        compute/infra
-       |        (build)             (buy/commoditize)
-       +------------------------------------------> evolution
-         genesis   custom   product   commodity
-     ```
-
-  - **Linking the areas (Now-Next-Later).** Place the investment areas across horizons
-    — **no dates** — to give 11+ squads direction without micromanaging.
-
-     ```text
-     NOW            |  NEXT           |  LATER
-     (in motion)    |  (validated)    |  (needs discovery)
-     -------------- | --------------- | ----------------
-     governance v1  | self-service    | ML feature store
-     trust metrics  | data catalog    | cross-domain mesh
-     ```
-
-
-
-### Downstream — to detail later
-
-Steps beyond this study's current scope, to be fleshed out in a later iteration:
-
-1. **Define next-year OKRs from the investment areas.** Based on the main areas of
-   investment, define the OKRs for the following year.
-2. **Squads define their initiatives.** Based on those OKRs, each squad defines the
-   initiatives that pursue them.
-
-## Open questions / next iterations
-
-### ▶ Next steps — resume here
-
-- [x] **1. Rework the dynamic for flow & engagement.** ~~Too much pause-and-continue.~~
-  Done (2026-06-18): cross-functional room rebuilt as 2 continuous movements (React &
-  refine → Stretch) on one growing wall, using 1‑2‑4‑All + gallery walk + dot-voting
-  instead of read-outs; M1 fed by an individual card-dump pre-work; vision-forming and
-  cluster positioning moved to a separate Product-team synthesis step (Appendix A).
-  *Revisit if it still feels heavy after a dry run.*
-- [ ] I need to add to the dynamic proposal,a way to share what are the business objectives (as a company) and exercise how our platform vision supports the company goals
-- [ ] I want to take this article and use it to improve the context portion of this document. I want to make clear why creating the product vision is important and not a work of each squad having their own product vision. I want to make clear how important is a north star, and also differentiate what is a product vision vs product mission. this is the article: https://www.svpg.com/product-vision-vs-mission/
-- [ ] **2. Fix the inverted pre-mortem's short-term bias.** As written it likely surfaces
-  *short-term* pains, not the *long-term* pains and concerns we actually want. Find a
-  technique (or reframe the pre-mortem) that forces a long-horizon lens.
-- [ ] **3. (After the study is finished) Propose tooling for future studies.** Ask Claude
-  to propose **agents, skills, or workflows** that support running further studies the
-  same way we built this one — so the framework becomes repeatable/natural.
-- [ ] **4. Review the 3-year plan template** (see *Appendix A*) — validate it as the
-  output artifact.
-
-### Standing open questions
-
-- Decide on format (1 day vs. distributed) and the size of the KP group to calibrate
-  timeboxes.
-- Possible next artifact: a detailed facilitator guide (minute-by-minute timeboxes,
-  per-station questions, ready-to-paste Miro/board templates) and the pre-work forms.
-
-## Appendix A — Long-term vision & annual-plan document template
-
-The workshop above produces *direction*; this is the **output artifact** that captures
-it — a living document a platform org can maintain year over year. The skeleton below
-is distilled from a real-world data-platform annual vision/plan (internal codenames
-removed) and deliberately mirrors the study's chain:
+The workshop produces *direction*; this is the **output artifact** that captures
+it — a living document a platform org can maintain year over year. The skeleton below is
+a generic template synthesized from common product-strategy practice, and deliberately
+mirrors the study's chain:
 **Diagnosis → Vision → a North Star (or OKR set) per investment area → position/link the
 areas (Wardley + Now-Next-Later) → validate/evangelize → annual OKRs per area.**
 (The squad-level cascade is a separate study and is not part of this template.)
@@ -344,7 +519,8 @@ areas (Wardley + Now-Next-Later) → validate/evangelize → annual OKRs per are
 ## 1) Vision and BHAG
 
 - **Vision (2–3 year narrative):** [What it's like to use the platform in [year+2] —
-  written from the internal customer's point of view, Cagan style.]
+  written from the internal customer's point of view, Cagan style. Alternative formats:
+  a Product Vision Board, or an Amazon-style PR/FAQ (future press release + FAQ).]
 - **Diagnosis (Rumelt kernel):** [The single biggest obstacle this plan attacks.]
 - **BHAG:** [One audacious, multi-year goal that the annual objectives ladder up to.]
 - **North Star (or small metric tree):** [The metric(s) capturing value delivered,
@@ -395,3 +571,77 @@ areas (Wardley + Now-Next-Later) → validate/evangelize → annual OKRs per are
 - [Milestone] — [target quarter] — [status / dependency]
 - [Milestone] — …
 ```
+
+## Appendix B. Kick-off presentation storyline
+
+*For slide generation.* A narrative arc for the kick-off meeting, written as a **story,
+not bullet points** — paste it into an AI slide generator (or build it by hand) to
+produce the deck. Each beat ≈ one slide: a *headline*, the *story beat* (what's on the
+slide), and a *speaker note*. Replace every `[ … ]` with your specifics. Grounded in
+Cagan ([Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/),
+[Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/)) and Koyuncu's
+*How to Create a Product Vision* (the working-backwards device).
+
+> Conventions: keep it inspiring, not technical. Open with tension, end with a clear
+> ask. ~12 slides, ~30 min of talking.
+
+**Act 1 — The tension (why this, why now)**
+
+1. **Headline: "We have [N] squads. How many directions are we rowing?"**
+   *Beat:* a simple image — many arrows pointing different ways.
+   *Note:* open with the felt problem: lots of motion, not enough shared direction.
+2. **Headline: "A platform, or a pile of services?"**
+   *Beat:* contrast a coherent product vs. a catalog of disconnected services.
+   *Note:* name the risk in plain terms; invite recognition, not blame.
+3. **Headline: "What [a consuming squad / risk / an analyst] feels today"**
+   *Beat:* one concrete pain story from a real internal customer.
+   *Note:* make it human — a moment, not a metric.
+
+**Act 2 — The stakes (the cost of doing nothing)**
+
+4. **Headline: "Fast-forward to [2029] if nothing changes"**
+   *Beat:* the gloomy version — duplicated pipelines, eroding trust, local optimization.
+   *Note:* this is the pre-mortem in miniature; create urgency.
+5. **Headline: "Many north stars ≠ a north star"**
+   *Beat:* if every squad picks its own, the platform pulls apart.
+   *Note:* the core argument — *one* shared north star is what lets autonomous squads
+   still see how their piece serves the whole (Cagan).
+
+**Act 3 — The shift (what we mean, and why it inspires)**
+
+6. **Headline: "Mission ≠ Vision ≠ Strategy"**
+   *Beat:* one line each — mission = *what* we do; vision = the *future* we'll create;
+   strategy = *how* we get there.
+   *Note:* shared vocabulary so we don't talk past each other (Cagan).
+7. **Headline: "[2029]: a day on our platform"**
+   *Beat:* a working-backwards snapshot — narrate the future as if it's already here
+   (Koyuncu / Amazon press-release device). *This is a teaser; the room builds the real
+   one.*
+   *Note:* show what "inspiring" feels like; don't over-specify — leave room to co-create.
+
+**Act 4 — How we'll build it together**
+
+8. **Headline: "From your homework to one shared vision"**
+   *Beat:* render the **end-to-end journey as a visual** — a 7-step left-to-right (or
+   top-down) pipeline where each step shows *who owns it* and *the artifact it produces*:
+   ① Kick-off → ② Homework (cards) → ③ Workshop M1 (diagnosis + investment areas) →
+   ④ Workshop M2 (two-futures wall) → ⑤ Synthesis (Vision + North Star per area) →
+   ⑥ Validate & evangelize → ⑦ Annual OKRs per area. (Use the diagram/table from
+   "The process at a glance" as the source.)
+   *Note:* this is *the* slide people remember — set expectations: the room *surfaces
+   and aligns*, Product *synthesizes*; emphasize what each person's homework turns into.
+9. **Headline: "Your role: bring the truth, not the polish"**
+   *Beat:* what each participant owns — honest pains, ambitions, one benchmark.
+   *Note:* lower the bar to participate; private submissions, no wrong answers.
+
+**Act 5 — The backdrop and the ask**
+
+10. **Headline: "Where the company is going"**
+    *Beat:* the [2–3] company business objectives, plainly stated.
+    *Note:* this is the *lens* for the homework — not a script to parrot.
+11. **Headline: "Hold these in mind as you reflect"**
+    *Beat:* the homework prompts on screen, tied back to the company goals.
+    *Note:* give the link, the deadline, and the nudge.
+12. **Headline: "Let's go build our north star."**
+    *Beat:* a single, energizing call to action.
+    *Note:* close on momentum; thank them; restate the date of the workshop.
