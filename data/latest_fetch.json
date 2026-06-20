@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T13:01:29Z",
+  "fetched_at": "2026-06-20T11:33:15Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -13,6 +13,15 @@
         "software"
       ],
       "items": [
+        {
+          "title": "New Zealand the “secret” canary country",
+          "url": "https://www.youtube.com/watch?v=NrPCIKYc4Dw",
+          "published": "2026-06-19T16:00:06+00:00",
+          "content_snippet": "With Rob Erez on The Pragmatic Engineer podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
         {
           "title": "Rollbacks are a lie",
           "url": "https://www.youtube.com/watch?v=dIWwoFEiQmM",
@@ -67,6 +76,15 @@
       ],
       "items": [
         {
+          "title": "5 Untranslatable Words We Need in English",
+          "url": "https://www.youtube.com/watch?v=QwAhAdWDIdg",
+          "published": "2026-06-19T13:00:29+00:00",
+          "content_snippet": "A word is permission to notice. Without one, the experience stays half-formed. Cognitive scientist Lera Boroditsky has shown that Russian speakers, who use separate words for light blue and dark blue, can distinguish the two shades faster than English speakers. The language gives the eye the category. The category sharpens the eye. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
           "title": "The story of my worst bet ever!",
           "url": "https://www.youtube.com/watch?v=D_6NEJ1uMz8",
           "published": "2026-06-19T11:40:22+00:00",
@@ -76,10 +94,13 @@
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1
-      }
+      "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -124,120 +145,30 @@
       ],
       "items": [
         {
-          "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
-          "published": "2026-06-19T01:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Block Store (Amazon EBS) Local Snapshots, enabling customers to meet data residency requirements by storing and backing up data locally. AWS Local Zones are AWS infrastructure deployments that extend core service",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "What Codex Unlocks for NTT Data",
+          "url": "https://www.youtube.com/watch?v=0JIbgZ544wU",
+          "published": "2026-06-19T22:57:58+00:00",
+          "content_snippet": "After introducing Codex, it grew to more than 10,000 active users and became one of the largest internal community in just a few months.\" We chatted with Hiroaki Sato, Head of the AI CoE at NTT DATA who gave us insight into all of the new ways his technical and non-tech teams are leveraging Codex. His Sales teams uses Codex to automate tasks like customer list maintenance, which has created net new workflows and report creation that used to take 2 days now takes 30 min 💥",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
-          "published": "2026-06-18T22:36:00+00:00",
-          "content_snippet": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisioned clusters running Express brokers, making it effortless for customers to benefit from automatic partition balancing when scaling their Express-based clusters up or down. Intelligent Rebalancing maximizes the capacity utilization of MSK Express-ba",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Plan with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=YPNOjXTDP9c",
+          "published": "2026-06-19T21:22:26+00:00",
+          "content_snippet": "",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS announces faster service auto scaling",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
-          "published": "2026-06-18T21:00:00+00:00",
-          "content_snippet": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds to 86 seconds (76% faster, 4.2x), and total time to scale and provision new tasks improved from 386 seconds to 109 seconds (72% faster, 3.5x). Faster service auto scaling also enables you to reduce baseline capacity and lower compute costs while maint",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 G7 instances are now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
-          "published": "2026-06-18T20:59:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6. You can use G7 instances for AI inference workloads such as language translation, video and image analysis, speech recognition, and recommender systems. Additionally, G7 instances also accelerate graphics workloads such ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
-          "published": "2026-06-18T20:20:00+00:00",
-          "content_snippet": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security and compliance requirements when your brokers need to reach private identity providers (such as LDAP and OAuth 2.0), other Amazon MQ for RabbitMQ brokers, or self-hosted RabbitMQ brokers. Previously, this connectivity for RabbitMQ Federation, Shovel, or authentication required Network Load Balancer ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-          "published": "2026-06-18T18:47:00+00:00",
-          "content_snippet": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in US GovCloud (US-East) and US GovCloud (US-West), in addition to existing support in all commercial regions. With nested virtualization",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
-          "published": "2026-06-18T18:35:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their personal extension, while taking customer service calls in the meantime. When that urgent call comes in, it can now ring the agent even if the agent is currently already on another call, so the agent can decide whether to put the first caller on hold",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-          "published": "2026-06-18T18:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector space, enabling customers to build high-quality semantic search, text clustering, and sentence similarity applications on AWS infrastructure. all-MiniLM-L12-v2 excels at encoding sentences and short paragraphs into dense vector representations th",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
-          "published": "2026-06-18T18:30:00+00:00",
-          "content_snippet": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and VolumeThroughputExceededCheck, which report whether your workload consistently attempted to drive IOPS or throughput beyond your volume's provisioned performance in any given minute. By factoring in these signals, Compute Optimizer helps you make right",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
-          "published": "2026-06-18T18:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a compact 14B-parameter architecture optimized for edge deployment, enabling customers to build advanced AI assistants, agentic systems, and vision-enabled applications on AWS infrastructure. Ministral-3-14B-Instruct excels at analyzing images and",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
-          "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
-          "published": "2026-06-18T21:22:10+00:00",
-          "content_snippet": "Today, we’re announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads. AWS is the first major cloud provider to support NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances are accelerated by these GPUs with custom sixth-generation Intel Xeon Scalable processors, delivering up to 4.6x AI inference performance and up to 2.1x graphics performance co",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
-          "published": "2026-06-18T21:06:38+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned events, and target tracking to scale dynamically on real-time metrics. You can choose proactive scaling by using predictive scaling (automatic) and scheduled scaling (customer-defined), or reactive scaling by using target tracking with just a targ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Stagwell built privacy-safe ID matching on Databricks",
-          "url": "https://www.databricks.com/blog/how-stagwell-built-privacy-safe-id-matching-databricks",
-          "published": "2026-06-18T15:00:00+00:00",
-          "content_snippet": "The identity matching problem brands face todayBrands invest heavily in building first-party data assets...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Score with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=5sDfhQq_g8A",
+          "published": "2026-06-19T21:20:04+00:00",
+          "content_snippet": "",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
@@ -260,6 +191,18 @@
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -297,5 +240,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 8
 }
