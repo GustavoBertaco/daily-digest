@@ -174,9 +174,13 @@ generation.* It does four things:
   expectations for the workshop too: there will be **dedicated space to explain your
   views and debate**, and a **solutions parking lot** — we hold solutions until the
   problems are clear, but no idea gets lost.
-- **Share the company's business objectives** as the backdrop, and frame them as a
-  *lens for the homework*: "as you do your card-dump, hold these company goals in mind."
-  This plants top-down context without doing the diagnosis top-down.
+- **Share two lenses for the homework** (top-down context, *not* the diagnosis):
+  - **The company's business objectives** — "as you do your card-dump, hold these in mind."
+  - **A market & trends provocation** — a short, **GPM-prepared outside-in read** of where
+    the data/platform market is heading (grounded in *State of Data*, Three Horizons,
+    driving forces). Share it explicitly as *a starting point, not the truth* — the point
+    is a *common* picture of the future to react to, since the dynamic itself is what
+    produces our actual view. It also seeds the *Forces of 2029* warm-up in Movement 2.
 
 > The full slide storyline for this meeting is in
 > [Appendix B](#appendix-b-kick-off-presentation-storyline) (written to paste into an AI
@@ -585,66 +589,74 @@ Cagan ([Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/),
 [Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/)) and Koyuncu's
 *How to Create a Product Vision* (the working-backwards device).
 
-> Conventions: keep it inspiring, not technical. Open with tension, end with a clear
-> ask. ~12 slides, ~30 min of talking.
+> Conventions: keep it inspiring, not technical. **Open on a positive "why now" hook,
+> honor the work, make the principled (sourced) case, give the room its payoff, then end
+> with a clear ask.** ~9 slides, ~20 min. **Don't assert what's broken** — this is an
+> *improvement* dynamic, not a critique of past work; surfacing the actual pains is the
+> homework's and workshop's job, so the kick-off argues the *principle*, not the diagnosis.
+> Internalize the sources — cite one or two on screen, speak the rest.
 
-**Act 1 — The tension (why this, why now)**
+**Opening**
 
-1. **Headline: "We have [N] squads. How many directions are we rowing?"**
-   *Beat:* a simple image — many arrows pointing different ways.
-   *Note:* open with the felt problem: lots of motion, not enough shared direction.
-2. **Headline: "A platform, or a pile of services?"**
-   *Beat:* contrast a coherent product vs. a catalog of disconnected services.
-   *Note:* name the risk in plain terms; invite recognition, not blame.
-3. **Headline: "What [a consuming squad / risk / an analyst] feels today"**
-   *Beat:* one concrete pain story from a real internal customer.
-   *Note:* make it human — a moment, not a metric.
+1. **Headline: "Building our long-term product vision — together"**
+   *Beat:* title + a 30-second preview of what we'll do: *why* a shared vision, *how* we
+   build it (kick-off → homework → workshop → vision), and *what we walk away with* — a
+   vision and a **North Star per investment area**.
+   *Note:* orient the room; set a collaborative, build-on-what-we-have tone.
 
-**Act 2 — The stakes (the cost of doing nothing)**
+**Act 1 — Why now, and where we stand**
 
-4. **Headline: "Fast-forward to [2029] if nothing changes"**
-   *Beat:* the gloomy version — duplicated pipelines, eroding trust, local optimization.
-   *Note:* this is the pre-mortem in miniature; create urgency.
-5. **Headline: "Many north stars ≠ a north star"**
-   *Beat:* if every squad picks its own, the platform pulls apart.
-   *Note:* the core argument — *one* shared north star is what lets autonomous squads
-   still see how their piece serves the whole (Cagan).
+2. **Headline: "The ground is shifting under data platforms"**
+   *Beat:* the *why now* — an outside-in market read the GPMs bring. Lead with one vivid,
+   sourced signal: **~1 in 3 organizations say their data isn't ready for AI**
+   (*State of Data 2025–2026*). The platforms that aim themselves at this shift — together
+   — win the next three years.
+   *Note:* opportunity, not doom or blame. Frame it as *a read to react to, not the truth*;
+   the trends study is raw material, and it seeds the *Forces of 2029* warm-up (Movement
+   2). Sources: State of Data, Three Horizons, driving forces (Schwartz).
+3. **Headline: "We've built a lot — now let's aim it, together"**
+   *Beat:* a genuine, specific nod to what the team and platform already deliver; frame
+   this as choosing where to point that strength next — building *on* it, not fixing it.
+   *Note:* set the tone explicitly: an *improvement* dynamic, not a critique. Nobody's
+   work is in question.
 
-**Act 3 — The shift (what we mean, and why it inspires)**
+**Act 2 — The idea that gets us there**
 
-6. **Headline: "Mission ≠ Vision ≠ Strategy"**
-   *Beat:* one line each — mission = *what* we do; vision = the *future* we'll create;
-   strategy = *how* we get there.
-   *Note:* shared vocabulary so we don't talk past each other (Cagan).
-7. **Headline: "[2029]: a day on our platform"**
-   *Beat:* a working-backwards snapshot — narrate the future as if it's already here
-   (Koyuncu / Amazon press-release device). *This is a teaser; the room builds the real
-   one.*
-   *Note:* show what "inspiring" feels like; don't over-specify — leave room to co-create.
+4. **Headline: "One shared north star multiplies our work"**
+   *Beat:* empowered, autonomous squads are our strength — but a *single* shared North
+   Star is what lets all that local work *add up* toward one outcome instead of diverging.
+   *(Quick aside: a vision is the future we'll create — not a mission, not a roadmap.)*
+   *Note:* the heart of the "why," framed as multiplying good work. Cite **Cagan** + the
+   **North Star Framework**; say the mission/vision/strategy distinction out loud rather
+   than spending a whole slide on it.
+5. **Headline: "Coherent direction makes effort compound" — Rumelt**
+   *Beat:* a coherent guiding direction coordinates action so effort adds up (*Good
+   Strategy / Bad Strategy*). Creating that shared direction is exactly what these sessions
+   do — the specific pains and bets are what *you* surface in the homework and workshop.
+   *Note:* opportunity framing; bridges to the process; diagnosis happens *with* the room.
+6. **Headline: "What this gives you"**
+   *Beat:* the payoff for the people in the room — fewer conflicting asks, clearer
+   prioritization, squads pulling the same way, less thrash and rework, and a story you
+   can rally your own teams behind.
+   *Note:* the WIIFM — answer the silent "what do I get?" for busy leaders; keep it
+   concrete and honest.
 
-**Act 4 — How we'll build it together**
+**Act 3 — How we'll build it, and the ask**
 
-8. **Headline: "From your homework to one shared vision"**
-   *Beat:* render the **end-to-end journey as a visual** — a 7-step left-to-right (or
-   top-down) pipeline where each step shows *who owns it* and *the artifact it produces*:
-   ① Kick-off → ② Homework (cards) → ③ Workshop M1 (diagnosis + investment areas) →
-   ④ Workshop M2 (two-futures wall) → ⑤ Synthesis (Vision + North Star per area) →
-   ⑥ Validate & evangelize → ⑦ Annual OKRs per area. (Use the diagram/table from
-   "The process at a glance" as the source.)
-   *Note:* this is *the* slide people remember — set expectations: the room *surfaces
-   and aligns*, Product *synthesizes*; emphasize what each person's homework turns into.
-9. **Headline: "Your role: bring the truth, not the polish"**
-   *Beat:* what each participant owns — honest pains, ambitions, one benchmark.
-   *Note:* lower the bar to participate; private submissions, no wrong answers.
-
-**Act 5 — The backdrop and the ask**
-
-10. **Headline: "Where the company is going"**
-    *Beat:* the [2–3] company business objectives, plainly stated.
-    *Note:* this is the *lens* for the homework — not a script to parrot.
-11. **Headline: "Hold these in mind as you reflect"**
-    *Beat:* the homework prompts on screen, tied back to the company goals.
-    *Note:* give the link, the deadline, and the nudge.
-12. **Headline: "Let's go build our north star."**
-    *Beat:* a single, energizing call to action.
-    *Note:* close on momentum; thank them; restate the date of the workshop.
+7. **Headline: "From your homework to one shared vision"**
+   *Beat:* the end-to-end journey as a visual — in-scope steps with *who owns it* and
+   *what it produces*: ① Kick-off → ② Homework → ③ Workshop M1 → ④ Workshop M2 →
+   ⑤ Synthesis (Vision + a North Star per area). Validate, annual OKRs, and the squad
+   cascade are downstream. Use the diagram from "The process at a glance".
+   *Note:* the slide people remember — the room *surfaces and aligns*, Product
+   *synthesizes*; emphasize what each person's homework turns into.
+8. **Headline: "Your part: bring the truth — through two lenses"**
+   *Beat:* what each person owns in the homework — honest pains, ambitions, one benchmark
+   — held against two lenses: where the **company** is going (inside-out) and where the
+   **market** is going (outside-in, from slide 2). Show the [2–3] company objectives here.
+   *Note:* lower the bar — private submissions, no wrong answers; the company objectives
+   are the inside-out lens, *not* a script to parrot.
+9. **Headline: "The window is now — let's build it"**
+   *Beat:* the ask — do the homework by [date] and come ready to shape our north star.
+   Callback to slide 2: the shift is happening; this is how we get ahead of it, together.
+   *Note:* homework link + deadline + nudge; close on momentum; restate the workshop date.
