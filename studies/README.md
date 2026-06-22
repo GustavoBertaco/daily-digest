@@ -8,6 +8,7 @@ A place to capture and share studies, notes, and brainstorms on topics I care ab
 - [**Product Management**](./product-management/) — discovery, strategy, prioritization, metrics, ways of working.
 - [**Data Platform**](./data-platform/) — architecture, ingestion, modeling, governance, tooling.
 - [**Engineering**](./engineering/) — systems design, code, infrastructure, practices.
+- [**Agentic Paradigm**](./agentic-paradigm/) — LLM agents, tool use, multi-agent systems, autonomy patterns.
 
 ## Conventions
 
