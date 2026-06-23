@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T15:09:01Z",
+  "fetched_at": "2026-06-23T12:23:53Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,26 +14,117 @@
       ],
       "items": [
         {
-          "title": "Kubernetes clusters out at open sea",
-          "url": "https://www.youtube.com/watch?v=38qHuDGZOuA",
-          "published": "2026-06-21T16:00:23+00:00",
+          "title": "Feature toggles are addictive",
+          "url": "https://www.youtube.com/watch?v=q8PUK_aR224",
+          "published": "2026-06-22T16:00:02+00:00",
           "content_snippet": "With Rob Erez on The Pragmatic Engineer podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
+          "url": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2?source=rss----2615bd06b42e---4",
+          "published": "2026-06-23T00:31:01+00:00",
+          "content_snippet": "By Zhuoning Yuan , Ta-Ying Cheng , Benjamin Klein , Bahareh Azarnoush Introduction At Netflix, we build technology to help storytellers bring their creative visions to life and to help members discover the stories they love. To connect stories with diverse audiences around the world, we produce promotional assets, including trailers, teasers, and social short‑form videos, that build on and elevate the original footage. Through close collaboration with the teams crafting these assets, we identifi",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "How Netflix Simplified Batch Compute with Kueue",
+          "url": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
+          "published": "2026-06-22T21:35:01+00:00",
+          "content_snippet": "By Alvin Bao , Alex Petrov , Jennifer Lai , Aidan Sherr , and Samartha Chandrashekar As a part of the journey to transition Netflix’s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform Titus . One example of this is our use of Kueue , a cloud-native job queueing system for batch workloads, which has largely replaced the custom queuing and scheduling logic in our homegrown managed batch soluti",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "The Data Canary: How Netflix Validates Catalog Metadata",
+          "url": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:54:17+00:00",
+          "content_snippet": "By Celina Amados At Netflix, our catalog metadata is crucial to our member experience, and a single corrupted data state can impact millions of viewers immediately. To protect streaming reliability, we built an automated data canary system that validates data transformations using production traffic. This canary detects issues in under 10 minutes, and blocks bad data from reaching our members. Intro Catalog metadata is what makes Netflix functional. It defines what titles exist, where they’re av",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Data Projects: Managing Data Assets at Netflix Scale",
+          "url": "https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:54:00+00:00",
+          "content_snippet": "By Amer Hesson , Marcelo Mayworm , James Mulcahy , and Brittany Truong The Problem: Managing Assets at Netflix Scale Netflix’s Data Platform is vast. We have millions of tables in our data warehouse and tens of thousands of scheduled workloads running across our orchestration systems. Behind each of these assets sits an engineer, a team, or an initiative — and behind each of those sits a set of decisions about who can access what , and how those workloads execute day after day. For years, the to",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
+          "url": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:53:47+00:00",
+          "content_snippet": "by Emily Gill Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and build relationships within the community. This post is one of several topics presented at the Summit highlighting the breadth and impact of Analytics work across different areas of the business. Understanding Risk in Content Launches Every title you see on Netflix goes through sever",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "The Evolution of Cassandra Data Movement at Netflix",
+          "url": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:53:30+00:00",
+          "content_snippet": "By Guil Pires , Jennifer Prince , Jose Camacho , Ken Kurzweil , Phanindra Chunduru Background In a previous post, we introduced Data Bridge , a unified management plane for batch Data Movement at Netflix. Historically, several bespoke Data Movement connectors were developed across different engineering organizations to fulfill their specific requirements. Over the last few years, the Data Movement team has started centralizing these offerings through an abstraction that provides a catalog of con",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Thinking Fast & Slow for a Personalized Notification System",
+          "url": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:53:16+00:00",
+          "content_snippet": "by Matthew Wood , Ishan Gupta , Kevin Mercurio, Devon Bryant , and Claire Dorman In his seminal book “Thinking, Fast and Slow,” Daniel Kahneman describes two systems that drive human cognition: System 1, which operates automatically and quickly with little effort, and System 2, which allocates attention to more challenging mental activities requiring deliberate focus. This dual-process theory has profound implications not just for understanding human behavior, but for designing intelligent syste",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
+          "url": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:53:06+00:00",
+          "content_snippet": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus Introduction Imagine asking a data agent to analyze the causal relationship between two variables, such as the effect of watching a popular Netflix show on long-term member retention. It queries your data, runs a regression, and confidently returns an answer. How much should you trust it? Can you be confident that the agent accounted for subtle biases — or does it treat passionate fans as if they were the",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+          "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:52:02+00:00",
+          "content_snippet": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netflix running smoothly for our members around the world. The Puzzle with a Thousand Pieces Picture this: It’s 3am, and an engineer gets paged. One of our critical services is showing elevated error rates. Members trying to watch their favorite films and series are seeing degraded e",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "VMAF v1: Good Is Not Good Enough",
+          "url": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
+          "published": "2026-06-19T23:50:05+00:00",
+          "content_snippet": "By Christos G. Bampis , Zhi Li , Kyle Swanson, Nil Fons Miret and Pavan Madhusudanarao Will this encode look good to Netflix members? Does switching to a new codec improve quality at the same bitrate and by how much? What is the best way to encode a movie title given a target bitrate budget? For years, VMAF has reliably helped us answer those questions and deliver an optimized quality of experience to our members. But good is not good enough . If VMAF misjudges quality, that may lead to loss of ",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+          "url": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+          "published": "2026-06-22T16:00:08+00:00",
+          "content_snippet": "Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We’re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We’re presenting several technologies for improving AV1 call quality, including rate control and error resilience. The AV1 video codec, first standardized by AOMedia in 2018, has rapidly",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
         {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -67,21 +158,25 @@
       ],
       "items": [
         {
-          "title": "You’ve Been POOPING All Wrong!",
-          "url": "https://www.youtube.com/watch?v=3n2p0zgPjG8",
-          "published": "2026-06-21T13:00:33+00:00",
-          "content_snippet": "Three key takeaways from “You’ve Been Pooping All Wrong” by Dr. Trisha Pasricha -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "Microbiome Expert: Revealing the Biggest Myths About Your Gut, Diet, and Health",
+          "url": "https://www.youtube.com/watch?v=79320h28XFo",
+          "published": "2026-06-23T10:00:18+00:00",
+          "content_snippet": "Dr. Giulia Enders has changed the way millions of people think about the human body. As a physician, microbiome researcher, and bestselling author, she has spent years studying the surprising role the gut plays in everything from digestion and immunity to mood, sleep, metabolism, and long-term health. In this conversation, Giulia explains why your gut is one of the most influential systems in your body, how stress can quietly damage it, why ultra-processed foods may be creating problems you don'",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "How To Actually Want To Do The Work",
+          "url": "https://www.youtube.com/watch?v=VkSStTimmQU",
+          "published": "2026-06-22T23:32:12+00:00",
+          "content_snippet": "In this video, I share the top lessons from my New York Times best-selling book Drive on motivation and how to actually want to do the work that you've been putting off. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [
-        {
-          "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        }
-      ],
+      "errors": [],
       "deduped_sources": {}
     },
     {
@@ -94,12 +189,18 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "The Rise of the \"AI Data Engineer\" #AIEngineering #TechTrends #DataEngineering",
+          "url": "https://www.youtube.com/watch?v=kqxdd8Q7ayE",
+          "published": "2026-06-23T11:00:26+00:00",
+          "content_snippet": "We're seeing an entirely new engineering specialization emerge. Pranav Motarwar joined us on the show to break down the exact skill sets defining the modern \"AI Data Engineer.\" What fascinated us most: The dual responsibility of managing data for AI while leveraging AI for data. Why top-tier tech companies are aggressively opening roles specifically for agent-focused data pipelines. How to practically integrate autonomous tooling into your current environment. 💡 Key Takeaway: The role of the dat",
           "source_name": "The Data Engineering Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
@@ -130,20 +231,106 @@
       ],
       "items": [
         {
-          "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
-          "published": "2026-06-22T14:46:17+00:00",
-          "content_snippet": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches in his keynote , all built around one thesis: agents that compound value over time. Agents for working – You can launch autonomous agents and access a smarter activity feed with new Amazon Quick features , which now let you create and run mul",
+          "title": "AWS HealthOmics now supports Nextflow profiles",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+          "published": "2026-06-22T22:00:00+00:00",
+          "content_snippet": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them at the point of execution, making it easy to switch between execution settings without modifying workflow source code. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflow",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+          "published": "2026-06-22T20:37:00+00:00",
+          "content_snippet": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own compute environment to securely run code without managing virtualization infrastructure or choosing between isolation, speed, and state retention. Developers are increasingly building multi-tenant applications that execute code supplied by end users or",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+          "published": "2026-06-22T17:30:40+00:00",
+          "content_snippet": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Customers can now deploy workloads in any commercial region, making it easier to meet data residency requirements. The new migration target regions are: US East (N. California), Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pa",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Network Firewall updates default drop action for improved connection reliability",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
+          "published": "2026-06-22T17:00:00+00:00",
+          "content_snippet": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Application drop established (bidirectional)\" (formerly named \"Application layer drop established\"). No action is required to benefit from this change when creating new policies. AWS Network Firewall is a managed service that lets you deploy network protections across your Amazon VPCs. Previously, the “Appli",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+          "published": "2026-06-22T16:30:00+00:00",
+          "content_snippet": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your compute environments. BFPO and SCOP enable you to manually define instance type ordering based on your workload-specific performance characteristics. To use these features in AWS Batch, specify BEST_FIT_PROGRESSIVE_ORDERED allocation strategy for your on-demand compute environments or SPOT_CAPACITY_OPT",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+          "published": "2026-06-22T16:07:00+00:00",
+          "content_snippet": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,000 AWS accounts and up to 7,000 applications independently, so that using more of one does not consume capacity from the other. Quotas can be further increased by submitting a quota increase request through AWS Service Quotas console. Customers with existing higher limits are automatically granted th",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+          "published": "2026-06-22T15:00:00+00:00",
+          "content_snippet": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troubleshooting, sizing, configuring, monitoring, and migration from external Kafka clusters. Teams can leverage these skills to keep their clusters healthy and performant, and to migrate their external Kafka workloads to MSK Express to take advantage of up to 3 times more throughput per broker, scale up",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+          "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+          "published": "2026-06-22T22:40:07+00:00",
+          "content_snippet": "Today, we are announcing AWS Lambda MicroVMs, a new serverless compute primitive within AWS Lambda that lets you run code generated by users or AI in isolated, stateful execution environments. You get virtual machine level isolation, near-instant launch and resume, and direct control over environment lifecycle and state, all without managing infrastructure or building expertise in complex virtualization technologies. Lambda MicroVMs are powered by Firecracker , the same lightweight virtualizatio",
           "source_name": "AWS Blog",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Omio is building the future of conversational travel",
+          "url": "https://www.youtube.com/watch?v=qU5-komJ-GE",
+          "published": "2026-06-23T11:30:20+00:00",
+          "content_snippet": "What happens when one of the world's leading travel platforms combines real-time transportation data with AI? In this customer story, Omio shares how it's using ChatGPT, Codex, and the OpenAI API to reimagine how travelers discover and book journeys, while transforming how teams build and operate across the business. Hear from Tomas Vocetka, CTO at Omio, as he discusses the shift from search-based experiences to conversational travel, the company's journey to becoming AI-native, and how AI is he",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Meet the ChatGPT Futures, Class of 2026",
+          "url": "https://www.youtube.com/watch?v=GhCP2eDrKHk",
+          "published": "2026-06-22T21:06:32+00:00",
+          "content_snippet": "The next generation is already building the future with AI. The ChatGPT Futures Class of 2026 came together in San Francisco to share the ideas they're pursuing, the projects they're building, and the experiences that inspired them to start. As the first graduating class to have ChatGPT throughout college, they offer a glimpse of how young builders, researchers, creators, and advocates are turning new tools into real-world progress.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Zendesk CEO Tom Eggemeier goes from Idea to Action",
+          "url": "https://www.youtube.com/watch?v=27-GjDIWGo0",
+          "published": "2026-06-22T17:45:36+00:00",
+          "content_snippet": "We’re excited to launch our new Monday Morning series, a leadership first take on going from idea to action in the AI era. First up is Tom Eggemeier, CEO at Zendesk who shares the one question that every CEO should ask of their board, and the Monday morning routine that sets him up for success. Grab your coffee. Buckle up. 🚀",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -157,9 +344,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -179,5 +364,5 @@
       }
     }
   ],
-  "deduped_count": 9
+  "deduped_count": 6
 }
