@@ -71,6 +71,9 @@ areas:
       - type: youtube
         channel_id: "UCZDikYGDPdpN_pLgi_RzgXg"
         name: "Daniel Pink"
+      - type: youtube
+        channel_id: "UCvQECJukTDE2i6aCoMnS-Vg"
+        name: "Big Think"
 
   - name: "Data Platform"
     emoji: "🗄️"
