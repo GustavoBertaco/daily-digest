@@ -17,101 +17,565 @@
 
 ## Context
 
-<!-- What prompted this study and the question it answers. Frame the central
-question: what will a data platform plausibly look like in 2029, and what forces are
-driving it there? Note the scope explicitly — this study describes the future *state*;
-the "what to do about it now" planning lives in a separate study. Note also that this
-is a foresight exercise, not a single prediction — a map of plausible states. -->
+This study takes a **glance at where data platforms are plausibly heading by 2029** — to
+help teams making multi-year commitments (storage formats, compute engines, governance
+models, build-vs-buy, cloud strategy) plan against a target that is moving under them.
 
-_TODO: opening framing._
+A word on epistemic humility, because this domain earns it. Forecasting data architecture
+has a poor track record: the industry spent roughly a decade building distributed systems
+for data that mostly fit on a single machine ([DuckDB, *The Lost Decade of Small Data*](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)),
+and the first data-mesh wave produced about as many "lip-service" domains as genuine ones
+([Thoughtworks, *State of data mesh 2026*](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+So this is a **foresight exercise** (in the Shell/GBN scenario-planning tradition) — a map of
+plausible directions held with calibrated confidence, not a prediction. **Scope:** it
+describes the future *state*; "what to do about it now" is left to a separate planning study.
+And a caveat on the evidence itself: much public material on the 2029 platform comes from
+vendors forecasting outcomes they profit from, so this study leans on primary and independent
+signals where it can and flags conflicts where it can't.
 
-**The central finding.**
+**What looks near-certain** (multiple independent signals, not one vendor's roadmap):
 
-<!-- One or two sentences capturing the single most important through-line of the
-study — the dominant shift that defines the 2029 platform (mirrors the reference
-study's "central finding" device). -->
+- **The data foundation — not the model — is the binding constraint on AI.** Around eight in
+  ten organizations cite data limitations as the roadblock to scaling agents, and fewer than
+  10% have scaled them to tangible value ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale));
+  Gartner expects **60% of AI projects to be abandoned through 2026** for lack of AI-ready
+  data, with 63% of organizations lacking or unsure of AI-ready data practices ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk)).
+- **Data keeps growing — and most individual workloads stay small.** IDC's Global DataSphere
+  shows total data creation rising steeply, led by unstructured data ([IDC](https://my.idc.com/getdoc.jsp?containerId=US53363625)),
+  even as the median analytical scan sits near ~100 MB and the 99.9th-percentile read under a
+  few hundred GB ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)).
+  Both are true; the platform must serve a long tail of small queries over an ever-larger whole.
+- **Open table formats are consolidating** into a converging Iceberg/Delta core ([Databricks](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks)).
+- **Kubernetes is the de-facto production substrate** — ~82% of organizations run it in
+  production, a majority with stateful workloads ([CNCF 2025 survey](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/)).
+- **Regulation is rising and hardening**, turning governance into an architecture input
+  rather than a downstream overlay (BCBS 239, DORA, regional privacy such as LGPD).
 
-_TODO._
+**What is genuinely contested** (this is where the planning risk lives, and where I won't
+pretend the sources agree):
 
-**Five things to expect by 2029:**
+- **How far agent autonomy actually goes** by 2029 — first-class consumer, or assistive
+  copilot that still routes through humans. Adoption is real; *scaled value* is not yet.
+- **Open vs. consolidated.** Even as formats open, the stack is consolidating into a few
+  large vendors, and independent voices warn that "neutrality is eroding" and lock-in is
+  shifting rather than disappearing ([The New Stack](https://thenewstack.io/data-stack-consolidation-risks/)).
+  "Open" looks more like a *battleground* than a settled destination — which is precisely why
+  Kubernetes/BYOC hedges exist.
+- **Centralized vs. decentralized vs. federated ownership.** The pendulum keeps swinging; data
+  mesh reached "hard-won maturity" largely by *re-centralizing the platform* while
+  decentralizing ownership, and all three models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+- **Which modeling layer organizes the platform** — dimensional, Data Vault, semantic layer,
+  knowledge graph — remains unsettled; they coexist today and likely still will in 2029.
 
-1. _TODO — headline + one-line rationale._
-2. _TODO._
-3. _TODO._
-4. _TODO._
-5. _TODO._
+**The through-line.** There is no single "2029 data platform," and any source promising one
+is selling something. The most robust pattern across the *independent* signals is that the
+platform's centre of gravity is drifting **toward the data layer** — open formats, immutable
+and versioned assets, and governance and meaning enforced where the data lives — because that
+is what AI-readiness and tightening regulation *separately* demand, which is why it shows up
+regardless of who is forecasting. But the largest architectural bets — autonomy,
+centralization, open-vs-consolidated, scale-out-vs-single-node — stay genuinely open. The
+planning-relevant insight is therefore not "adopt the winning architecture"; it is **build
+for optionality** across these axes, because the evidence does not yet justify betting the
+platform on any one of them.
 
 ## 1. The forces shaping the next three years
 
-<!-- The drivers pushing the platform toward its 2029 state: e.g. agentic/AI-native
-consumption, cost & FinOps pressure, regulation, open table formats & interop,
-data/compute economics, talent and operating-model shifts. Establish which forces are
-near-certain vs. contested, and which are within a team's control vs. exogenous. -->
+Five forces are pushing the platform toward its 2029 state. They are not equal: some are
+**exogenous** (they happen *to* the platform team — AI demand, data growth, regulation) and
+some are **choices** the team and its vendors are still actively contesting (open vs.
+consolidated, where ownership sits, which modeling layer wins). The planning value is in
+telling them apart — you adapt to the first set and place bets on the second. Each force
+below is tagged for confidence and for *who benefits from believing it*, because in this
+domain the loudest sources are rarely disinterested.
 
-**1.1 _TODO — driver._**
+**1.1 The demand force: AI pulls hard, but the data foundation is the throttle.**
+*(Exogenous · near-certain direction, contested magnitude.)* The dominant pull on the
+platform is no longer reporting or even self-service BI — it is feeding AI and, increasingly,
+agents. But the constraint is not model quality; it is the data beneath it. Roughly eight in
+ten organizations cite data limitations as the roadblock to scaling agents, and fewer than
+10% have scaled them to tangible value ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale));
+Gartner expects 60% of AI projects to be abandoned through 2026 for lack of AI-ready data
+([Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk)).
+What's near-certain is that AI demand reshapes platform priorities (governed access, lineage,
+real-time context) and that the platform team owns much of the upside. What's contested is
+*how far agent autonomy actually goes* by 2029 — first-class consumer or assistive copilot.
 
-**1.2 _TODO — driver._**
+**1.2 The architecture force: open formats and composability — pulling against a
+consolidation undertow.** *(Partly choice · genuinely two-directional.)* Open table formats
+are converging on an Iceberg/Delta core ([Databricks](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks)),
+and the composable-systems movement is decoupling engines from storage through shared
+intermediate representations ([Composable Data Management Manifesto, VLDB 2023](https://www.vldb.org/pvldb/vol16/p2679-pedreira.pdf)).
+That points toward interchangeable, lock-in-resistant stacks. But the *opposite* force is
+just as real: the stack is consolidating into a few large vendors, and independent voices
+warn that "neutrality erodes" and lock-in shifts rather than disappears ([The New Stack](https://thenewstack.io/data-stack-consolidation-risks/)).
+By 2029 "open" is most plausibly a **contested equilibrium** — open at the format layer,
+consolidated at the platform layer — which is exactly why Kubernetes-native and
+bring-your-own-cloud deployments persist as hedges ([CNCF](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/)).
 
-**1.3 _TODO — driver._**
+**1.3 The economics force: the unit of compute shrinks and cost moves left.** *(Exogenous
+hardware trend + choice.)* Two cost pressures compound. First, single-node engines now handle
+the overwhelming majority of real workloads — the median analytical scan is ~100 MB and the
+99.9th-percentile read is under a few hundred GB ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data))
+— eroding the assumption that everything needs a scale-out cluster, *without* removing the
+need for one: IDC's DataSphere shows the total keeps growing, led by unstructured data
+([IDC](https://my.idc.com/getdoc.jsp?containerId=US53363625)). Second, cloud-data spend has
+become a board-level line item, pushing FinOps from after-the-fact reporting toward
+shaping spend *before* it happens ([State of FinOps](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/)).
+Direction by 2029: a long tail of small, cheap, often single-node/streaming workloads
+alongside a still-growing core — and cost-awareness designed into the platform, not bolted on.
 
-| Force | Direction by 2029 | Confidence | What it implies for the platform |
-| --- | --- | --- | --- |
-| _TODO_ | _TODO_ | _TODO_ | _TODO_ |
+**1.4 The control force: regulation and sovereignty become architecture inputs.**
+*(Exogenous · near-certain and one-directional — it only tightens.)* The least speculative
+force. Risk-data-aggregation rules (BCBS 239), operational-resilience and ICT-concentration
+rules (DORA, in force since Jan 2025), and a thickening mesh of regional privacy regimes
+(GDPR, LGPD and peers) increasingly dictate *where data lives, how long it's kept, how it's
+lineage-tracked, and how resilient the platform must be*. By 2029 these are design
+constraints set before architecture, not compliance overlays applied after — most acutely in
+financial services, where they are effectively non-negotiable. This force is exogenous and
+compounding: no platform team gets to opt out, and it tends to *favor* the immutability,
+lineage and portability trends above for independent reasons.
+
+**1.5 The operating-model force: platform-as-product, on an unsettled ownership question.**
+*(Choice · contested.)* How platforms are *built and owned* is shifting from project-style
+infrastructure toward a product discipline — Gartner projects ~80% of large software
+organizations run platform-engineering teams operating the platform as a product
+([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)),
+and data contracts are formalizing the producer/consumer interface. But the *locus of
+ownership* — central, decentralized, or federated — remains genuinely open: data mesh reached
+"hard-won maturity" largely by **re-centralizing the platform while decentralizing
+ownership**, and all three models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Expect the *product* framing to be near-universal by 2029 and the *ownership* question to
+still be argued team by team.
+
+| Force | Direction by 2029 | Confidence | Who benefits from the claim (read skeptically) | Implication for the platform |
+| --- | --- | --- | --- | --- |
+| **AI / agentic demand** | Dominant pull; data foundation is the throttle | High on direction, low on autonomy magnitude | AI vendors & consultancies (upside); data-quality vendors (the "fix") | Invest in governed access, lineage, real-time context; don't over-build for full autonomy yet |
+| **Open formats & composability** | Open at the format layer, consolidating at the platform layer | Medium — genuinely two-directional | Open-format vendors *and* consolidators both spin it their way | Treat portability (K8s/BYOC, open formats) as a hedge, not a settled win |
+| **Compute & cost economics** | Small/streaming long tail beside a still-growing core; cost designed-in | High on direction, medium on mix | Single-node vendors push "small data"; hyperscalers push "scale-out" | Support both single-node and distributed; bake FinOps into provisioning |
+| **Regulation & sovereignty** | Tightening, one-directional; becomes a design input | Highest in the set | Compliance/governance tooling vendors amplify it (but it's real) | Design for residency, retention, lineage, resilience up front — non-negotiable in FS |
+| **Operating model & ownership** | Platform-as-product near-universal; ownership locus unsettled | High on product framing, low on ownership | Platform-tooling & IDP vendors; data-mesh consultancies | Adopt product practices; keep ownership model reversible, not dogmatic |
 
 ## 2. The likely state of the platform in 2029
 
-<!-- The substance: describe the plausible 2029 architecture and capabilities. Consider
-presenting as scenarios (e.g. conservative / mainstream / aggressive) or as a layered
-reference picture. Cover ingestion, storage/table formats, compute, the semantic/metrics
-layer, governance, consumption surfaces (BI vs. agents), and interoperability. -->
+This section sketches the plausible 2029 platform as a **layered reference picture** — but
+read it as a *band* of states, not a blueprint. The forces in §1 that are near-certain shape
+the layers consistently; the contested ones cut across them, so the layer descriptions give
+the **mainstream-plausible** reading and the scenario lens at the end bounds the uncertainty.
+Nothing here is a single-vendor architecture; it is the shape the independent signals point to.
 
-**2.1 _TODO — architecture / layer._**
+**2.1 The substrate: open, immutable, portable storage on a composable compute fabric.** The
+base of the 2029 platform is open by default and immutable by construction. Open table formats
+have converged on an Iceberg/Delta core ([Databricks](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks)),
+data files are immutable with snapshots and time-travel native, and a versioning layer — at
+the catalog ([Project Nessie](https://projectnessie.org/)) or the storage tier ([lakeFS](https://lakefs.io/))
+— gives the data lake git-like branching and history. Compute is decoupled from storage and
+*plural*: multiple engines query the same tables through shared intermediate representations
+([Composable Data Management Manifesto, VLDB 2023](https://www.vldb.org/pvldb/vol16/p2679-pedreira.pdf)),
+with single-node engines serving the long tail and distributed engines the still-growing core
+([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)). Increasingly this runs
+on a Kubernetes-native or bring-your-own-cloud substrate for portability and sovereignty
+([CNCF](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/)).
+*High confidence on open/immutable; contested is how much actually escapes vendor consolidation (§1.2).*
 
-**2.2 _TODO — architecture / layer._**
+**2.2 The processing path: streaming-first, with batch as a peer not a default.** Ingestion,
+enrichment, quality and governance shift *left* toward the source: streams become queryable
+tables (Kafka topics materializing directly into Iceberg/Delta), and analytics increasingly run
+in the stream rather than waiting for a warehouse load ([Kai Waehner, *2026 streaming trends*](https://www.kai-waehner.de/blog/2025/12/10/top-trends-for-data-streaming-with-apache-kafka-and-flink-in-2026/)).
+Batch does not disappear; what changes is that real-time stops being a special case, and schema
+and quality are enforced at the boundary by contracts rather than discovered downstream
+([Chad Sanderson](https://dataproducts.substack.com/p/the-consumer-defined-data-contract)).
 
-**2.3 _TODO — architecture / layer._**
+**2.3 The organizing layer: from tables to governed business meaning.** The platform's primary
+interface is no longer the physical table but a governed semantic layer — trending toward
+ontologies and knowledge graphs that encode entities, metrics and relationships ([Salesforce](https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/);
+[arXiv 2604.00555](https://arxiv.org/abs/2604.00555)) — with metrics defined as version-controlled
+code ([dbt/MetricFlow](https://www.getdbt.com/blog/how-the-dbt-semantic-layer-works)). Beneath it,
+modeling stays *plural*: Data Vault where auditable history is mandatory (notably FS), wide/
+One-Big-Table where AI and ML consume flattened features, dimensional where it still earns its
+keep. "No metadata, no AI" becomes literal — the modeling layer is the precondition for
+trustworthy AI ([Gartner active metadata](https://atlan.com/gartner-active-metadata-management/)).
+*Contested: whether knowledge graphs go mainstream or stay niche, and which method dominates.*
+
+**2.4 The control layer: active metadata, governance, observability, cost — enforced where data
+lives.** Governance moves from periodic and downstream to **real-time, data-layer and
+event-driven**, orchestrated by active metadata that drives action across the estate ([Gartner/Atlan](https://atlan.com/gartner-active-metadata-management/)).
+Data observability (freshness, volume, distribution, schema, lineage) becomes table-stakes
+([Monte Carlo](https://www.montecarlodata.com/blog-data-testing-vs-data-quality-monitoring-vs-data-observability-whats-right-for-your-team/)),
+and FinOps is designed into provisioning rather than reconciled after the invoice ([FinOps Foundation](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/)).
+In regulated and financial-services settings this layer is where the platform is won or lost:
+lineage, retention, residency and resilience are architectural requirements set by BCBS 239,
+DORA and regional privacy law, mapped through frameworks like EDM Council's CDMC.
+
+**2.5 The consumption surface: agents alongside humans.** Access broadens from dashboards and
+hand-written SQL to **agent-mediated querying** through governed, intent-shaped tools that hit
+the semantic layer rather than raw tables. Production reporting and human exploration persist;
+the change is that a second class of consumer — autonomous or semi-autonomous agents — now
+drives a meaningful share of load and demands a correct, governed contract. *How far that
+autonomy goes by 2029 is the single most contested variable in the study (§1.1).*
 
 | Layer | Where it is in 2026 | Plausible 2029 state | What changes most |
 | --- | --- | --- | --- |
-| _TODO_ | _TODO_ | _TODO_ | _TODO_ |
+| Ingestion / processing | Batch-default; streaming as add-on | Streaming-first; batch a peer; quality/governance shifted left | Real-time stops being a special case |
+| Storage / table format | Iceberg/Delta gaining; some lock-in | Converged open core; immutable + versioned (git-for-data) | History, time-travel, audit become native |
+| Compute / engine | Mostly distributed clusters | Decoupled, engine-plural; single-node tail + distributed core | Compute unit shrinks; portability (K8s/BYOC) |
+| Modeling / semantic | Tables + BI metrics; semantic layer emerging | Semantic layer/knowledge graph as primary interface; metrics-as-code | Interface moves from tables to meaning |
+| Governance / metadata | Periodic, downstream, catalog-based | Real-time, data-layer, active-metadata-orchestrated | Governance becomes enforcement, not audit |
+| Consumption | Humans via dashboards/SQL | Humans + agents via governed tools over the semantic layer | Agents become first-class consumers |
+
+**Scenario lens — bounding the four contested axes.** Rather than predict one outcome, the
+study brackets the axes that §1 leaves open. A given organization in 2029 will likely sit at
+different points on each:
+
+| Contested axis | Conservative | Mainstream | Aggressive |
+| --- | --- | --- | --- |
+| Agent autonomy | Copilots; humans approve every action | Agents run governed queries under supervision | Agents act semi-autonomously across domains |
+| Ownership locus | Central platform owns data | Central platform, federated domain ownership | Fully decentralized data products |
+| Open vs. consolidated | Single-vendor stack | Open formats under 1–2 platform vendors | Composable best-of-breed on open formats |
+| Compute model | Scale-out default | Single-node tail + distributed core | Mostly single-node/streaming, burst to cloud |
 
 ## 3. What changes for the people and the operating model
 
-<!-- Beyond technology: roles, team topology, skills, ownership, and ways of working.
-What does the data team look like, who owns what, and how does self-service / agentic
-access change the demand on the platform team? -->
+The people changes follow the technology and lag it — and they are where most of the value,
+and most of the failure, actually lands. The honest caveat up front: tooling is rarely the
+constraint here; culture and adoption are. Industry adoption of internal platforms is high yet
+a minority of organizations realize the productivity gains they expect, so everything below is
+contingent on the operating model, not just the stack.
 
-_TODO._
+**The platform team becomes a product team.** The clearest, highest-confidence shift: data
+platforms are built and run as *products* — with internal users, SLOs, roadmaps, user research
+and a paved-road developer experience — rather than as project-style infrastructure. Gartner
+projects roughly 80% of large software organizations operate platform-engineering teams on this
+model ([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)).
+For data specifically, this means the platform team's job shifts from building pipelines on
+request to providing self-serve, governed capabilities that domains consume.
+
+**Ownership splits from enablement — but where the line sits stays contested.** The mainstream
+pattern is a central platform/CoE that *enables*, with domains that *own* their data products —
+the federated middle ground. But data mesh reached "hard-won maturity" largely by
+re-centralizing the platform while decentralizing ownership, and many "data domains" turned out
+to be lip service rather than genuine ownership ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Centralized, decentralized and federated models all coexist in 2026 and likely still will in
+2029 ([McKinsey](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030));
+this is the operating-model question to keep *reversible*, not to settle dogmatically.
+
+**The unit of collaboration becomes the data contract / data product.** As governance shifts
+left, the interface between producers and consumers is increasingly an explicit contract —
+schema, freshness and quality guarantees enforced in the pipeline — rather than a ticket and a
+downstream surprise ([Chad Sanderson](https://dataproducts.substack.com/p/the-consumer-defined-data-contract)).
+Data products with clear contracts are also described as the prerequisite for trustworthy,
+production-grade AI, which ties the operating model directly to the AI demand force of §1.1.
+
+**Roles and skills shift from plumbing to meaning, governance and supervision.** As ingestion
+and transformation automate and shift left, scarce human effort moves up the stack: semantic
+and analytics-engineering work (modeling-as-code), data product management, governance and
+lineage stewardship, and a genuinely new function — *supervising agents* that now read and act
+on the platform. The single most-desired emerging skill reported across organizations is **AI
+cost management**, reflecting both the growth of AI spend and the difficulty of allocating it
+([State of FinOps](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/)).
+
+**A second audience joins every interaction: the reviewer and the regulator.** In regulated and
+financial-services contexts, the artifacts that make agentic and self-serve access *trustworthy*
+— lineage, reasoning traces, source attribution, action logs — are the same artifacts an
+auditor needs. Designing for both at once (rather than bolting on auditability later) becomes an
+operating-model assumption, and frameworks like EDM Council's DCAM give teams a shared maturity
+language for "where the platform must be."
 
 ## Takeaways
 
-<!-- The few things worth remembering about the 2029 state — the dominant shift and the
-handful of changes most likely to define the platform. (How to act on this belongs in a
-separate planning study.) -->
-
-- _TODO._
-- _TODO._
-- _TODO._
+- **There is no single "2029 data platform."** Any source promising one is selling something.
+  Plan for a *band* of outcomes and keep the four contested axes — agent autonomy, ownership
+  locus, open-vs-consolidated, single-node-vs-scale-out — reversible rather than bet on one.
+- **The centre of gravity moves to the data layer.** Open table formats, immutable and
+  versioned assets, and governance and meaning enforced *where the data lives* — this is the
+  one pattern robust across independent signals, because AI-readiness and regulation demand it
+  separately. It is the closest thing to a safe bet in the study.
+- **The interface shifts from tables to business meaning.** A governed semantic layer — trending
+  toward knowledge graphs — becomes the primary surface, with modeling left plural beneath it
+  (Data Vault for audit, wide tables for AI, dimensional where it fits). "No metadata, no AI."
+- **AI is the demand driver, but the data foundation is the throttle — and regulation only
+  tightens.** Both reward the *same* investments (lineage, immutability, governance, real-time
+  context), which is why those investments are low-regret even under deep uncertainty.
+- **The platform team becomes a product team — and the hard, unresolved question is ownership.**
+  Platform-as-product is near-universal; central vs. federated vs. decentralized is not. Culture
+  and adoption, not tooling, decide whether any of this delivers.
+- **In financial services, the contested becomes settled.** Immutability, lineage, residency and
+  resilience are non-negotiable architectural constraints (BCBS 239, DORA, LGPD) — the regulated
+  case is less a different platform than the general one with its optional parts made mandatory.
 
 ## References
 
-<!-- Grouped by the role each source plays in the study. Each entry: a (validated) link,
-a brief explanation, the contribution it makes, and — where it applies — a caveat on fit.
-State the check date and note that vendor materials are cited for signals/patterns, not
-as endorsements. Suggested groupings below; rename as the content settles. -->
+Grouped by the role each source plays in the study. Each entry has a link, a brief
+explanation, the contribution it makes, and — where it applies — a caveat on fit.
+*Links checked June 2026. Vendor materials are cited for design patterns and market
+signals, not as endorsements. Analyst reports behind paywalls (McKinsey, Gartner) are
+cited from their public abstracts/landing pages — read the primary before quoting figures.*
+<!-- This is the working source shortlist from the June 2026 research pass; prune and
+promote into the body as sections §1–§3 are written. -->
 
 ### Forces & market signal
 
-- _TODO — [Title](url) — explanation; supports: §X._
+- **Charting a path to the data- and AI-driven enterprise of 2030 — McKinsey** ([mckinsey.com](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030))
+  — the single most on-point source: a named end-state vision for the data/AI enterprise
+  at the end of this decade, with the centralized vs. decentralized vs. federated
+  architecture split. *Supports:* the §2 2029 reference picture and the §1 framing.
+  *Caveat:* scraper-blocked; URL confirmed via McKinsey's own index, read in-browser.
+- **Building the foundations for agentic AI at scale — McKinsey** ([mckinsey.com](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/building-the-foundations-for-agentic-ai-at-scale))
+  — eight in ten companies cite *data limitations* as the roadblock to scaling agents;
+  the data foundation is the binding constraint. *Supports:* the §1 "forces" argument
+  that AI demand is pulling the platform forward. *Caveat:* same source as the agentic
+  study — reused deliberately as the load-bearing market signal.
+- **Rethinking enterprise architecture for the agentic era — McKinsey** ([mckinsey.com](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rethinking-enterprise-architecture-for-the-agentic-era))
+  — argues infrastructure must become modular and "mesh-like," with agents/tools/systems
+  joined through a shared orchestration layer. *Supports:* the §1 driver "agentic
+  consumption reshapes architecture" and the §3 operating-model shift.
+- **Over 100 Data, Analytics and AI Predictions Through 2030 — Gartner (compendium PDF)** ([agatadata.com mirror](https://agatadata.com/wp-content/uploads/2024/11/Over-100-data-analytics-and-ai-predictions-through-2030-2024-Gartner.pdf))
+  — a dated, quotable set of Gartner strategic-planning assumptions through 2030.
+  *Supports:* the §1 forces table (confidence/horizon per trend). *Caveat:* hosted on a
+  third-party mirror — verify each assumption against the originating Gartner note.
+- **Experts Give 8 Big Data Predictions for 2026 — Database Trends & Applications** ([dbta.com](https://www.dbta.com/Editorial/News-Flashes/Experts-Give-8-Big-Data-Predictions-for-2026-172655.aspx))
+  — a near-term practitioner-press read on where platforms head next. *Supports:* the §1
+  near-term forces. *Caveat:* aggregated vendor commentary — directional, not primary.
+- **Lack of AI-Ready Data Puts AI Projects at Risk — Gartner (press release)** ([gartner.com](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk))
+  — **primary** Gartner source for the Context reality-check: 60% of AI projects abandoned
+  through 2026 without AI-ready data; 63% of orgs lack/are unsure of AI-ready data practices
+  (Q3 2024 survey, n=248). *Supports:* the Context "data is the binding constraint, hype
+  outruns value" framing — a deliberate counterweight to the optimistic vendor sources.
+- **Worldwide IDC Global DataSphere Forecast, 2025–2029 — IDC** ([idc.com](https://my.idc.com/getdoc.jsp?containerId=US53363625))
+  — the canonical data-growth forecast (total creation rising steeply, unstructured fastest).
+  *Supports:* the Context tension — data keeps growing *and* most workloads stay small; both
+  the IDC and DuckDB pictures hold at once. *Caveat:* paywalled landing page; the headline
+  trend is public, the precise 2029 figures require the report.
+- **What engineering leaders get wrong about data-stack consolidation — The New Stack** ([thenewstack.io](https://thenewstack.io/data-stack-consolidation-risks/))
+  — an **independent** (non-vendor) counter-signal: as the stack consolidates into a few
+  vendors, "neutrality erodes" and lock-in shifts rather than disappears. *Supports:* the
+  Context "open vs. consolidated is contested" point — included specifically to balance the
+  open-source/composable optimism elsewhere in the set.
+- **FinOps for Data Cloud Platforms — FinOps Foundation** ([finops.org](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/))
+  — the practitioner-standard scope for governing data-cloud spend, shifting FinOps from
+  after-the-fact reporting toward shaping spend before it happens. *Supports:* the §1.3 cost
+  force. *Caveat:* the canonical *State of FinOps 2026* report (data.finops.org) blocks
+  automated fetch — pull its figures manually before quoting.
 
 ### Architecture & the 2029 platform
 
-- _TODO._
+- **The next era of the open lakehouse: Apache Iceberg™ v3 in Public Preview — Databricks** ([databricks.com](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks))
+  — (Apr 2026) row lineage, deletion vectors, the VARIANT type, and Delta↔Iceberg
+  convergence via UniForm "write-once, read-anywhere." *Supports:* the §2 storage/table-
+  format layer — the open-format convergence likely settled by 2029. *Caveat:* vendor
+  framing of an open standard; corroborate with the Iceberg spec.
+- **Apache Iceberg v4 Roadmap: Adaptive Metadata, Single-File Commits, the Delta Convergence — Alex Merced** ([iceberglakehouse.com](https://iceberglakehouse.com/posts/apache-iceberg-v4-roadmap-adaptive-metadata-delta-convergence/))
+  — the forward roadmap beyond v3, including the stated v4/Delta-5 metadata unification.
+  *Supports:* the §2 trajectory of where table formats land by 2029. *Caveat:* practitioner
+  blog tracking a moving roadmap — treat dates as provisional.
+- **The Lost Decade of Small Data? — DuckDB** ([duckdb.org](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data))
+  — median warehouse scan ~100 MB and 99.9-pct reads <300 GB; argues "99% of useful
+  datasets" fit a single node ("data singularity"). *Supports:* the §2 counter-current to
+  scale-out — single-node/decoupled compute as a real 2029 design point. *Caveat:* authored
+  by the engine's vendor; the underlying telemetry (Redshift/Snowflake studies) is the
+  primary evidence.
+- **Separating Storage and Compute in DuckDB — MotherDuck** ([motherduck.com](https://motherduck.com/blog/separating-storage-compute-duckdb/))
+  — the architectural pattern that lets single-node engines scale via the cloud when
+  needed. *Supports:* the §2 "decoupled compute" point. *Caveat:* vendor (a16z-backed) —
+  cited for the pattern, not the product.
+- **Top Trends for Data Streaming with Kafka and Flink in 2026 — Kai Waehner** ([kai-waehner.de](https://www.kai-waehner.de/blog/2025/12/10/top-trends-for-data-streaming-with-apache-kafka-and-flink-in-2026/))
+  — diskless Kafka + Iceberg, analytics shifting into the stream layer, and agentic AI fed
+  by real-time context over MCP. *Supports:* the §2 "streaming-first lakehouse" direction.
+  *Caveat:* author is a Confluent employee — strong on the streaming view, read alongside
+  batch-centric sources.
+- **The Agentic Future Demands an Open Semantic Layer — Salesforce** ([salesforce.com](https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/))
+  — the semantic layer as the governed contract between data and agents. *Supports:* the
+  §2 semantic/metrics layer as the 2029 control plane (links to the companion agentic
+  study). *Caveat:* vendor positioning around its own stack.
+- **Toward Data Systems That Are Business Semantic Centric and AI Agents Assisted — Cecil Pang (arXiv 2506.05520)** ([arxiv.org](https://arxiv.org/abs/2506.05520))
+  — the academic anchor: proposes a Business-Semantics-Centric, AI-Agents-Assisted data
+  system (BSDS) — curated data linked to business entities, a knowledge base for agents,
+  governed pipelines. *Supports:* the §2 thesis that the 2029 platform is organized around
+  business meaning, not tables. *Caveat:* a single-author preprint (rev. Mar 2026) — a
+  conceptual framework, not empirical.
+- **Gartner Active Metadata Management Research Guide (2026) — Atlan summary** ([atlan.com](https://atlan.com/gartner-active-metadata-management/))
+  — "no metadata, no AI"; catalogs giving way to metadata-"anywhere" orchestration that
+  drives action across the estate. *Supports:* the §2 governance/metadata layer. *Caveat:*
+  a vendor's reading of Gartner — go to the Gartner note for the assumptions.
+- **Revisiting data architecture for next-gen data products — McKinsey** ([mckinsey.com](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/revisiting-data-architecture-for-next-gen-data-products))
+  — how the reference data architecture is being reworked around reusable data products.
+  *Supports:* the §2 layered picture and the §3 product-oriented operating model.
+  *Caveat:* scraper-blocked; URL confirmed via McKinsey's index.
+
+- **Building a modern data platform on the lakehouse architecture and cloud-native ecosystem — Discover Applied Sciences (Springer, 2025)** ([link.springer.com](https://link.springer.com/article/10.1007/s42452-025-06545-w))
+  — peer-reviewed treatment of running the lakehouse on a **Kubernetes / cloud-native**
+  substrate. *Trend:* "platforms over Kubernetes to avoid lock-in." *Supports:* the §2
+  infrastructure layer — open, portable, cloud-agnostic deployment. *Lifecycle:* spans
+  ingestion→serving on a portable substrate.
+- **OKDP — Open Kubernetes Data Platform** ([okdp.io](https://okdp.io/en/))
+  — a fully open-source, Kubernetes-native data-platform distribution (v1.0 slated Sep 2026).
+  *Trend:* anti-vendor-lock-in / open platform on K8s. *Supports:* the §2 evidence that
+  cloud-agnostic, operator-based stacks are productizing by 2029. *Caveat:* early-stage
+  project — cited as a directional signal, not a proven standard.
+- **BYOC Data Plane Atomicity: a Simpler, Secure Cloud — Redpanda** ([redpanda.com](https://www.redpanda.com/blog/byoc-data-plane-atomicity-secure-cloud))
+  — the clearest articulation of **control-plane / data-plane separation**: vendor-managed
+  control plane, data plane inside the customer's VPC for sovereignty. *Trend:* control
+  planes + BYOC. *Supports:* the §2 deployment-topology shift and the §1 sovereignty force.
+  *Caveat:* vendor framing of its own model — cited for the pattern, not the product.
+- **The Three Layers of Modern Software Architecture: Control, Data & Management Planes — Pankaj Parashar (Medium)** ([medium.com](https://medium.com/@pankaj-parashar/the-three-layers-of-modern-software-architecture-control-data-and-management-planes-58d3cb2f677a))
+  — the **vendor-neutral** articulation of the control/data/management-plane split, paired with
+  the Redpanda entry above so the pattern isn't sourced solely from a party that sells it.
+  *Supports:* the §2 deployment topology. *Caveat:* a personal essay — used for the neutral
+  conceptual framing, not data.
+- **Kubernetes Established as the De Facto "Operating System" for AI — 2025 CNCF Annual Survey** ([cncf.io](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/))
+  — **neutral, large-sample** evidence (Linux Foundation/CNCF): K8s production use at 82%,
+  ~70% running stateful workloads on it, plus the Data-on-Kubernetes Community (DoKC).
+  *Supports:* hardens the §2 Kubernetes-substrate claim that otherwise rested on one paper +
+  one early project. *Caveat:* survey self-report; "stateful on K8s" ≠ "full platform on K8s."
+- **Project Nessie — Transactional Catalog with Git-like Semantics** ([projectnessie.org](https://projectnessie.org/))
+  — branches/tags/commits over Iceberg catalogs; references **immutable data files** rather
+  than copying them, giving an auditable, time-travelable history. *Trend:* immutable assets
+  + "git for data." *Supports:* the §2 catalog layer and the §3/governance audit story (and
+  the FS audit-trail need). *Lifecycle:* versioning/governance over immutable storage.
+- **lakeFS — Data Version Control for the Data Lake** ([lakefs.io](https://lakefs.io/))
+  — turns object storage into a Git-like repo (zero-copy branching of production data).
+  *Trend:* immutable assets + git-for-data, at the storage tier rather than the catalog.
+  *Supports:* the same §2 point from a complementary angle. *Caveat:* one of two competing
+  models (storage-level vs. Nessie's catalog-level) — present both, don't pick a winner.
+- **Event Sourcing pattern — Microsoft Azure Architecture Center** ([learn.microsoft.com](https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing))
+  — the durable, vendor-neutral statement of the **immutability/append-only** principle:
+  store every change as an immutable event, derive state. *Trend:* immutable assets (the
+  *why*, upstream of the lakehouse). *Supports:* the §2 framing that immutability is a design
+  principle the 2029 platform inherits, not just an Iceberg side-effect. *Lifecycle:* ingestion/modeling.
+
+### Data modeling methodologies
+
+*The methods that produce what the semantic layer serves — the thinnest area in the first
+research passes, and decisive for both AI-readiness and FS auditability.*
+
+- **Data Vault 2.0 in the Lakehouse Era — Sendoa Moronta (Towards Data Engineering)** ([medium.com](https://medium.com/towards-data-engineering/data-vault-2-0-in-the-lakehouse-era-advanced-architecture-and-patterns-f1cdab23bf89))
+  — insert-only hubs/links/satellites give full historization and audit-grade lineage, applied
+  to the lakehouse. *FS relevance:* the dominant modeling method where audit/lineage are
+  mandatory (banking, insurance) — directly serves BCBS 239's traceability demands. *Caveat:*
+  practitioner blog; the canonical reference is Dan Linstedt's *Building a Scalable Data
+  Warehouse with Data Vault 2.0*. *Lifecycle:* modeling/historization.
+- **Dimensional Modeling Is Dead? Why Kimball's principles survived — Reliable Data Engineering (Feb 2026)** ([medium.com](https://medium.com/@reliabledataengineering/dimensional-modeling-is-dead-d9f5eea4f18c))
+  — the wide-table / One-Big-Table shift: columnar storage rewards denormalization and ML/AI
+  prefer flat tables, yet fact-vs-dimension thinking still guides query design. *Supports:* the
+  §2 modeling-layer trajectory (from star schema toward wide, AI-consumable tables). *Caveat:*
+  opinion piece; pair with Kimball's *The Data Warehouse Toolkit* as the canonical baseline.
+- **Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems — arXiv 2604.00555 (2026)** ([arxiv.org](https://arxiv.org/abs/2604.00555))
+  — a neurosymbolic architecture where an enterprise **ontology / knowledge graph** grounds and
+  validates agent actions (reporting large accuracy gains from KG grounding vs. ungrounded LLMs).
+  *Trend:* knowledge-graph / ontology modeling as the 2029 substrate for agentic AI (GraphRAG).
+  *Supports:* the §2 thesis that modeling shifts toward business-meaning graphs, not just tables.
+  *Caveat:* recent preprint — directional; verify the quoted figures against the primary.
+- **How the dbt Semantic Layer works with MetricFlow — dbt Labs** ([getdbt.com](https://www.getdbt.com/blog/how-the-dbt-semantic-layer-works))
+  — metrics-as-code: semantic models and metrics defined in version-controlled YAML, compiled to
+  SQL on demand. *Trend:* analytics-engineering / modeling-as-code feeding the semantic layer.
+  *Supports:* the §2 metrics/semantic layer (the *how it's built*) and the §3 ways-of-working
+  shift; version-controlled metric definitions double as FS-grade metric auditability. *Caveat:*
+  vendor primary for its own tool — cited for the now-cross-vendor pattern, not the product.
+- **From Golden Record to Golden Context: Redefining Master Data for AI Agent Consumption — Tahir Khan (Apr 2026)** ([medium.com](https://medium.com/@Tahir-Khan/from-golden-record-to-golden-context-redefining-master-data-for-ai-agent-consumption-2349eec0840b))
+  — **MDM / reference data**, reframed for 2029: the golden record evolves into "golden context"
+  agents can consume. *FS relevance:* counterparty, instrument, legal-entity and customer
+  mastering is acute in banking (cf. GoldenSource, SIX for FS instrument/security masters);
+  entity resolution underpins both BCBS 239 aggregation and AI-readiness. *Supports:* the §2
+  modeling layer and §3 governance. *Caveat:* practitioner essay for the forward framing; the
+  discipline's authorities are the FS reference-data vendors named above. *Lifecycle:* mastering/entity resolution.
+
+### Engineering canon & systems literature
+
+*Peer-reviewed / primary sources anchoring the architecture claims, so the study does not
+rest on vendor forecasts alone.*
+
+- **Lakehouse: A New Generation of Open Platforms… — Zaharia, Ghodsi, Xin, Armbrust (CIDR 2021)** ([cidrdb.org PDF](https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf))
+  — the foundational paper that named and argued the lakehouse: open direct-access formats,
+  first-class ML, warehouse-class performance on the lake. *Lifecycle:* storage + modeling +
+  serving. *Supports:* the §2 baseline architecture the 2029 state evolves from. *Caveat:*
+  authored by Databricks founders — foundational but not disinterested; the durable definition.
+- **DuckDB: an Embeddable Analytical Database — Raasveldt & Mühleisen (SIGMOD 2019)** ([duckdb.org PDF](https://duckdb.org/pdf/SIGMOD2019-demo-duckdb.pdf))
+  — the peer-reviewed primary behind the in-process / single-node analytics movement
+  (replaces the marketing blog as the load-bearing citation). *Lifecycle:* compute/query.
+  *Supports:* the §2 "decoupled, single-node compute" design point with academic grounding.
+- **The Composable Data Management System Manifesto — Pedreira, Erling, Karanasos, Wes McKinney et al. (VLDB 2023)** ([vldb.org PDF](https://www.vldb.org/pvldb/vol16/p2679-pedreira.pdf))
+  — the missing engineering through-line: decoupling UIs from engines via a shared IR
+  (Substrait) and reusable components (Velox, Arrow, DuckDB). *Lifecycle:* spans the stack.
+  *Supports:* the §2 thesis that the 2029 platform is *composable* — engines, formats, and
+  catalogs interchangeable. The single most important systems-trend source in the set.
+- **Data observability vs. data quality… — Monte Carlo** ([montecarlodata.com](https://www.montecarlodata.com/blog-data-testing-vs-data-quality-monitoring-vs-data-observability-whats-right-for-your-team/))
+  — the firm that coined "data downtime"; the five-pillar observability frame (freshness,
+  volume, distribution, schema, lineage). *Lifecycle:* the quality/observability stage the
+  earlier list under-served. *Supports:* the §2/§3 reliability layer. *Caveat:* vendor-origin;
+  the durable reference is the O'Reilly book *Data Quality Fundamentals* (Moses et al.).
+
+### Financial-services regulation & standards
+
+*The FS spine — the constraints that turn a generic platform into a banking-grade one. These
+are primary/institutional sources, not commentary.*
+
+- **BCBS 239 — Principles for effective risk data aggregation and risk reporting — Basel Committee / BIS** ([bis.org](https://www.bis.org/publ/bcbs239.htm))
+  — the defining banking data-platform regulation (14 principles: governance, data
+  architecture/infrastructure, aggregation capability, reporting). *FS relevance:* the
+  backbone of the §4-companion-study (a future "FS planning" study); dictates lineage,
+  accuracy, timeliness, and stress-time aggregation. *Caveat:* applies to G-SIBs/D-SIBs —
+  scope to the institution; widely treated as best practice beyond its formal scope.
+- **Digital Operational Resilience Act (DORA) — ESMA / EU** ([esma.europa.eu](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora))
+  — binding EU ICT-risk framework (in force Jan 2025): five pillars incl. third-party/ICT
+  concentration risk and resilience testing. *FS relevance:* reshapes data-platform
+  resilience, cloud-provider dependency, and incident reporting — an architecture constraint,
+  not just policy. *Caveat:* EU scope; map to the equivalent regime per market.
+- **DCAM — Data Management Capability Assessment Model — EDM Council** ([edmcouncil.org](https://edmcouncil.org/frameworks/dcam/))
+  — the FS-originated global standard for assessing data-management maturity. *FS relevance:*
+  the maturity yardstick boards and regulators recognize; a structured way to phrase "where
+  the platform must be by 2029."
+- **CDMC — Cloud Data Management Capabilities — EDM Council** ([edmcouncil.org](https://edmcouncil.org/frameworks/cdmc/))
+  — six components / 14 capabilities / 37 sub-capabilities for governed data in cloud &
+  multi-cloud, co-chaired by Morgan Stanley and LSEG. *FS relevance:* directly addresses the
+  cloud data-lifecycle controls (classification, protection, residency) the earlier list
+  lacked. *Lifecycle:* governance + protection + residency + retention.
+- **FINOS — Fintech Open Source Foundation (Linux Foundation)** ([finos.org](https://www.finos.org/))
+  — where FS open standards are codified: the Common Domain Model (CDM), FDC3, and RegTech/AI
+  initiatives. *FS relevance:* evidence that the 2029 FS platform converges on shared open
+  standards rather than bespoke per-bank stacks; the FS analog to the open-format convergence
+  in §2.
+- **LGPD — Brazil's General Data Protection Law (overview) — DLA Piper, Data Protection Laws of the World** ([dlapiperdataprotection.com](https://www.dlapiperdataprotection.com/index.html?t=law&c=BR))
+  — GDPR-aligned regime (in force 2020), enforced by the ANPD, fines up to 2% of revenue; the
+  template the rest of LatAm is converging toward. *Relevance:* the regional/privacy layer the
+  earlier list lacked — for a LatAm FS footprint, controls map to *each* market's regime, not a
+  single framework. Pair with **InCountry's LATAM data-residency guide** ([incountry.com](https://incountry.com/blog/data-residency-requirements-in-latam-brazil-mexico-and-argentina/))
+  for Brazil/Mexico/Argentina residency. *Lifecycle:* governance + residency. *Caveat:* law-firm
+  /vendor summaries — cite the statute (and ANPD guidance) for anything binding.
 
 ### Operating model & people
 
-- _TODO._
+- **The state of data mesh in 2026: From hype to hard-won maturity — Thoughtworks** ([thoughtworks.com](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity))
+  — (Jan 2026, Werner et al.) data products with AI-ready outputs, central teams evolving
+  into enabling CoEs, federated governance as policy-as-code with stakeholder alignment as
+  the real bottleneck. *Supports:* the §3 operating-model and ownership trajectory.
+- **Data Mesh Principles and Logical Architecture — Zhamak Dehghani / Martin Fowler** ([martinfowler.com](https://martinfowler.com/articles/data-mesh-principles.html))
+  — the foundational four-principle definition (domain ownership, data as product,
+  self-serve platform, federated governance). *Supports:* the §3 vocabulary and the
+  baseline the 2026→2029 maturation is measured against. *Caveat:* 2020 origin — cited as
+  the canonical definition, not a current-state read.
+- **Platform Engineering Empowers Developers… — Gartner (Top Tech Trends)** ([gartner.com](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers))
+  — the projection that 80% of large software orgs stand up platform-engineering teams by
+  2026, operating the platform as a product. *Supports:* the §3 "platform-as-product"
+  operating model applied to the data platform. *Caveat:* general software-platform framing
+  — adapt to the data-platform context.
+- **The Consumer-Defined Data Contract — Chad Sanderson** ([dataproducts.substack.com](https://dataproducts.substack.com/p/the-consumer-defined-data-contract))
+  — data contracts as the producer/consumer interface that shifts quality enforcement left.
+  *Supports:* the §3 ways-of-working shift (contracts/SLAs as the unit of collaboration).
+  *Caveat:* an opinionated practitioner newsletter — strong framing, one viewpoint.
 
 ### Scenario & forecasting method
 
-- _TODO._
+- **The state of AI in 2025: Agents, innovation, and transformation — McKinsey (QuantumBlack)** ([mckinsey.com](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))
+  — the survey baseline for adoption rates and where value is/ isn't being captured.
+  *Supports:* calibrating the §1 forces to actual adoption rather than hype. *Caveat:*
+  survey self-report; scraper-blocked, read in-browser.
+- **Hype Cycle / Planning Guide for Data Management, 2026 — Gartner** ([gartner.com](https://www.gartner.com/en/documents/7001098))
+  — positions each capability on the maturity curve, a useful confidence filter for the
+  §1 forces table. *Supports:* separating near-certain shifts from contested ones.
+  *Caveat:* paywalled; landing page only — figures require the licensed document.
+- **Three Decades of Scenario Planning in Shell — Wack / van der Heijden (via ResearchGate)** ([researchgate.net](https://www.researchgate.net/publication/272585648_Three_Decades_of_Scenario_Planning_in_Shell))
+  — the methodological backbone: scenario planning builds *multiple plausible narratives* ("what
+  could happen?") rather than a single forecast — the Shell/GBN tradition (Pierre Wack, later
+  Peter Schwartz's *The Art of the Long View*). *Supports:* the study's own method — it justifies
+  framing 2029 as a map of plausible states, not a prediction, and disciplines the §1→§2
+  scenario construction. *Caveat:* cite Schwartz's book / van der Heijden's *Scenarios* as the
+  canonical primaries; the link is a convenience copy.
