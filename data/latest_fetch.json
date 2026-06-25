@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T12:08:49Z",
+  "fetched_at": "2026-06-25T12:04:28Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,21 +14,12 @@
       ],
       "items": [
         {
-          "title": "Slow down to speed up: AI and software engineering",
-          "url": "https://www.youtube.com/watch?v=5wks1W-auKY",
-          "published": "2026-06-23T15:26:35+00:00",
-          "content_snippet": "AI agents are writing code pretty much everywhere. And yet, most teams and companies are not seeing that dramatic productivity gains… or are they? Keynote at Craft Conference, on 4 June 2026, in Budapest, Hungary: https://craft-conf.com/2026 Timestamps: 00:00 The Instagram exploit at Meta 09:45 Everything changed in the last 6 months 14:30 What is happening at OpenAI 16:32 Cursor 18:18 Google 19:43 Meta 21:05 Uber's in-house AI tooling 24:05 Startups and traditional companies 25:45 Industry-wide",
+          "title": "Tech interviews with NeetCode",
+          "url": "https://www.youtube.com/watch?v=xafwfGVBxos",
+          "published": "2026-06-24T17:13:15+00:00",
+          "content_snippet": "Navdeep Singh – oftentimes better known as NeetCode – is the creator of NeetCode.io, one of the most popular coding interview preparation platforms and YouTube channels for software engineers. Before building NeetCode full-time, he worked as a software engineer at Amazon and Google. In this episode of The Pragmatic Engineer, I sit down with Neet to discuss his path from Amazon and Google to building his own startup, why he left Amazon after just two months, what he learned at Google, and the dec",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
-          "url": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
-          "published": "2026-06-23T16:00:38+00:00",
-          "content_snippet": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses all day into a form factor narrower than an adult’s pinky finger? You have to rethink how batteries are made. In episode 86 of the Meta Tech Podcast , host Pascal Hartig sat down with Karthik and Myuran,",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -43,7 +34,8 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 10
+        "Netflix Tech Blog": 10,
+        "Meta Engineering": 2
       }
     },
     {
@@ -70,44 +62,28 @@
       ],
       "items": [
         {
-          "title": "Stop Overcomplicating Gut Health | Dr. Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=DPZxtZsCLo0",
-          "published": "2026-06-23T14:00:06+00:00",
-          "content_snippet": "Dr. Giulia Enders on why the best gut health advice isn't a supplement stack — it's an appetite and a bit of knowledge. Full episode linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and",
+          "title": "3 Simple Habits for Better Digestion | Dr. Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=fl-Z8BBOHPM",
+          "published": "2026-06-24T14:00:22+00:00",
+          "content_snippet": "Dr. Giulia Enders on the gut habits most people skip. Full episode linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive su",
           "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "No One Is Thinking About You",
-          "url": "https://www.youtube.com/watch?v=5FMGbI911RA",
-          "published": "2026-06-23T13:00:25+00:00",
-          "content_snippet": "Nobody's thinking about you as much as you think they are. That's not cynicism, it's social psychology. The Spotlight Effect is real, well-documented, and quietly liberating once it sinks in. And if someone does happen to notice? So what? Let them. Thank you for the conversation @melrobbins ! -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "This map shows a hidden underground circulatory system | Marvin Liyanage @marvinliyanage",
-          "url": "https://www.youtube.com/watch?v=zi6Awj5fhRM",
-          "published": "2026-06-23T14:01:25+00:00",
-          "content_snippet": "This map shows a hidden underground circulatory system | Marvin Liyanage @marvinliyanage",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Improve your shrinking attention span | Chris Bailey",
-          "url": "https://www.youtube.com/watch?v=OEpsOAUtBEw",
-          "published": "2026-06-22T18:02:19+00:00",
-          "content_snippet": "Improve your shrinking attention span | Chris Bailey",
+          "title": "AI chatbots don't fully nourish connection | Paul Bloom",
+          "url": "https://www.youtube.com/watch?v=0_m_dYFqkHU",
+          "published": "2026-06-24T18:02:16+00:00",
+          "content_snippet": "AI chatbots don't fully nourish connection | Paul Bloom",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -126,13 +102,16 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
         "The Data Engineering Show": 1,
-        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -152,93 +131,75 @@
       ],
       "items": [
         {
-          "title": "Amazon CloudWatch now supports tags on dashboards",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
-          "published": "2026-06-24T08:00:00+00:00",
-          "content_snippet": "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identify and manage AWS resources across your environment. With this launch, the PutDashboard API now accepts an optional Tags parameter, allowing you to assign up to 50 tags when creating a new dashboard. The TagResource, UntagResource, and ListTagsForResource APIs now support dashboard ARNs, enabling yo",
+          "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+          "published": "2026-06-24T20:00:00+00:00",
+          "content_snippet": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether you copy it across regions or create a new AMI from a running instance. Watermarks also remain visible when you share an AMI with other accounts. This helps you identify trusted AMIs, track provenance, and enforce governance policies across your organization. Each watermark includes metadata such a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
-          "published": "2026-06-23T20:30:00+00:00",
-          "content_snippet": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's launch, customers can configure their network devices and servers to send syslog messages over TCP, TCP+TLS, or UDP to a VPC endpoint in their account - without installing or managing any agents. Amazon CloudWatch Logs supports RFC 5424, RFC 3164, and Cisco FTD/ASA syslog formats, making it compatible",
+          "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
+          "published": "2026-06-24T19:21:00+00:00",
+          "content_snippet": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings, while existing workloads continue uninterrupted with their original configuration. Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate mainten",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "SageMaker Notebook Instances now support G6e instance types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
-          "published": "2026-06-23T18:14:00+00:00",
-          "content_snippet": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of memory per GPU and third generation AMD EPYC processors. G6e instances deliver up to 2.5x better performance compared to EC2 G5 instances. Customers can use G6e instances to interactively test model deployment and for interactive model training use cases such as generative AI fine-tuning. You can us",
+          "title": "AWS IoT Device SDK for Swift is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
+          "published": "2026-06-24T18:48:00+00:00",
+          "content_snippet": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as Linux. This SDK addresses the previous lack of native Swift support for AWS IoT services, providing stable, production-ready APIs specifically designed for teams managing IoT device fleets and building cross-platform IoT solutions across the Apple ecosystem. The SDK delivers comprehensive capabilit",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
-          "published": "2026-06-23T17:20:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can grant principals in one account permission to call memory data plane APIs against resources in another account using resource-based policies, and configure memory delivery destinations (Amazon S3, Amazon SNS, Amazon Kinesis Data Streams) that reside in a separate account. Cross-account access is configu",
+          "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+          "published": "2026-06-24T13:00:00+00:00",
+          "content_snippet": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deployment, storing configurations in source control, and integrating with CI/CD pipelines. Neptune global databases provide a primary cluster with read-write capability and up to five read-only secondary clusters in different AWS Regions, connected through low-",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
-          "published": "2026-06-23T17:15:00+00:00",
-          "content_snippet": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task now receives a dedicated local volume mounted at /tmp, and workflows that generate significant scratch data, such as genomic sequence alignment, BAM sorting, and variant calling, can experience faster run times. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences cust",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Cognito now supports customer managed key for encryption at rest",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
-          "published": "2026-06-23T17:00:46+00:00",
-          "content_snippet": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer managed keys give you full control over the encryption keys, helping you achieve your organization's data governance objectives. With customer managed keys, you can define organizational policies and revoke access to encrypted data by disabling or deleting your key. You create and manage the customer m",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
-          "published": "2026-06-23T16:20:00+00:00",
-          "content_snippet": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy of generative AI responses against a policy you define, helping detect hallucinations and provide verifiable explanations. The quality of validation results depends on how well a policy is defined. The new workflows help customers improve their policies with less manual effort, leading to more reli",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
-          "published": "2026-06-23T15:12:00+00:00",
-          "content_snippet": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each metric carries OpenTelemetry semantic conventions and Kubernetes labels, making it straightforward to correlate across nodes, pods, and workloads in a single PromQL query. Pre-built dashboards give you immediate visibility into cluster health, node performance, and pod-level resource usage. The CloudWa",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Genesis Workbench: A blueprint for industry AI in life sciences, powered by Databricks and NVIDIA",
-          "url": "https://www.databricks.com/blog/genesis-workbench-blueprint-industry-ai-life-sciences-powered-databricks-and-nvidia",
-          "published": "2026-06-23T18:45:12+00:00",
-          "content_snippet": "Bringing GPU-accelerated drug discovery to your dataLife sciences leaders need domain-specific,...",
+          "title": "The Rise of Sports Intelligence: How the Lakehouse Turns Tracking Data into Competitive Advantage",
+          "url": "https://www.databricks.com/blog/rise-sports-intelligence-how-lakehouse-turns-tracking-data-competitive-advantage",
+          "published": "2026-06-24T22:00:00+00:00",
+          "content_snippet": "Every second of a professional basketball game now generates more than 20,000 data...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders",
-          "url": "https://www.youtube.com/watch?v=mVpCDzoNtxA",
-          "published": "2026-06-23T18:45:29+00:00",
-          "content_snippet": "We asked the ChatGPT Futures Class of 2026 what they hope AI helps people do next. Their answers came back to access, education, connection, and possibility: AI that helps close gaps instead of widening them, gives more people the tools to learn and build, and creates more room for the human parts of life.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "How Daikin Applied Americas builds consistent data pipelines at scale with Genie Code",
+          "url": "https://www.databricks.com/blog/how-daikin-applied-americas-builds-consistent-data-pipelines-scale-genie-code",
+          "published": "2026-06-24T18:00:00+00:00",
+          "content_snippet": "Agentic data engineering is changing how pipelines are builtDaikin Applied Americas...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What if the answer was already in your data?",
+          "url": "https://www.databricks.com/blog/what-if-answer-was-already-your-data",
+          "published": "2026-06-24T16:45:36+00:00",
+          "content_snippet": "What If the Answer Was Already in Your Data?Kythera Labs is building an AI-native...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Databricks positioned highest in execution and furthest in vision for the second consecutive year in Gartner Magic Quadrant",
+          "url": "https://www.databricks.com/blog/databricks-positioned-highest-execution-and-furthest-vision-second-consecutive-year-gartner",
+          "published": "2026-06-24T15:00:00+00:00",
+          "content_snippet": "Enterprises are rapidly deploying agentic applications at scale, from back-office...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
@@ -256,7 +217,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 4
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -279,5 +242,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 25
 }
