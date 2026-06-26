@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T12:04:28Z",
+  "fetched_at": "2026-06-26T12:00:47Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -21,6 +21,15 @@
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
+        },
+        {
+          "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
+          "url": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+          "published": "2026-06-25T22:30:51+00:00",
+          "content_snippet": "Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. This can be complex, as demonstrated by a field simply named “ age “: In one context, it might describe a person and require strict protections, while in another, it could be a cache time-to-live (TTL) numerical value in an infrast",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
         }
       ],
       "errors": [
@@ -34,8 +43,7 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 10,
-        "Meta Engineering": 2
+        "Netflix Tech Blog": 10
       }
     },
     {
@@ -62,11 +70,38 @@
       ],
       "items": [
         {
+          "title": "Your Gut Isn't as Fragile as You Think | Dr. Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=U_UYwqosH34",
+          "published": "2026-06-25T14:00:21+00:00",
+          "content_snippet": "Dr. Giulia Enders on the gut health myth that keeps people eliminating foods they don't need to. Full episode linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to un",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
           "title": "3 Simple Habits for Better Digestion | Dr. Giulia Enders",
           "url": "https://www.youtube.com/watch?v=fl-Z8BBOHPM",
           "published": "2026-06-24T14:00:22+00:00",
           "content_snippet": "Dr. Giulia Enders on the gut habits most people skip. Full episode linked above. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive su",
           "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Good Advice That Will Destroy You",
+          "url": "https://www.youtube.com/watch?v=c9fMbUEqexE",
+          "published": "2026-06-25T13:00:30+00:00",
+          "content_snippet": "A 2018 study by Carol Dweck found people who believe passions are developed stick with difficult work longer than those who think passions must be “found.” -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "How we made the art for our latest print issue | Sarah Soryal",
+          "url": "https://www.youtube.com/watch?v=40KL3fBaDaw",
+          "published": "2026-06-25T18:00:55+00:00",
+          "content_snippet": "How we made the art for our latest print issue | Sarah Soryal",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
@@ -81,9 +116,7 @@
         }
       ],
       "errors": [],
-      "deduped_sources": {
-        "Daniel Pink": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -95,7 +128,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Core of Unstructured Data Workloads #DataInfrastructure #VectorDB #TechStack",
+          "url": "https://www.youtube.com/watch?v=kmgE7ETgeQM",
+          "published": "2026-06-26T11:00:36+00:00",
+          "content_snippet": "Excellent technical breakdown with Pranav Motarwar on the show about the shift from structured tables to massive, unstructured data workloads designed for AI agents. Key takeaways from our discussion: - Why legacy ETL data flows break down when introduced to modern text, audio, and video workloads. - The technical realities of designing efficient chunking and embedding strategies. - Balancing latency and retrieval accuracy when selecting your vector database layer. 💡 Key Takeaway: Processing dat",
+          "source_name": "The Data Engineering Show",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -106,14 +149,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Data Engineering Show": 1,
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -131,75 +175,93 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
-          "published": "2026-06-24T20:00:00+00:00",
-          "content_snippet": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether you copy it across regions or create a new AMI from a running instance. Watermarks also remain visible when you share an AMI with other accounts. This helps you identify trusted AMIs, track provenance, and enforce governance policies across your organization. Each watermark includes metadata such a",
+          "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
+          "published": "2026-06-25T22:24:00+00:00",
+          "content_snippet": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher performance compared to C6a instances. C7a instances offer new processor capabilities such as AVX-512, VNNI, and bfloat16. They feature Double Data Rate 5 (DDR5) memory to enable high-speed access to data in memory and 2.25x more memory bandwid",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
-          "published": "2026-06-24T19:21:00+00:00",
-          "content_snippet": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings, while existing workloads continue uninterrupted with their original configuration. Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate mainten",
+          "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
+          "published": "2026-06-25T22:15:00+00:00",
+          "content_snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to M7a instances. M8a instances deliver 45% more memory bandwidth compared to M7a instances, making these instances ideal for even latency sensitive workloads. M8a instances delive",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS IoT Device SDK for Swift is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
-          "published": "2026-06-24T18:48:00+00:00",
-          "content_snippet": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as Linux. This SDK addresses the previous lack of native Swift support for AWS IoT services, providing stable, production-ready APIs specifically designed for teams managing IoT device fleets and building cross-platform IoT solutions across the Apple ecosystem. The SDK delivers comprehensive capabilit",
+          "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
+          "published": "2026-06-25T21:00:00+00:00",
+          "content_snippet": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within Amazon Bedrock in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use these models on Amazon Bedrock to build and scale generative AI applications with confidence that they me",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
-          "published": "2026-06-24T13:00:00+00:00",
-          "content_snippet": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deployment, storing configurations in source control, and integrating with CI/CD pipelines. Neptune global databases provide a primary cluster with read-write capability and up to five read-only secondary clusters in different AWS Regions, connected through low-",
+          "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
+          "published": "2026-06-25T20:18:00+00:00",
+          "content_snippet": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Network Firewall, giving customers access to proprietary threat intelligence built on VisionHeight's Pulse telemetry. Zero-Day Threat Protection proactively blocks malicious IP infrastructure before it appears on public blocklists. This rule group helps or",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The Rise of Sports Intelligence: How the Lakehouse Turns Tracking Data into Competitive Advantage",
-          "url": "https://www.databricks.com/blog/rise-sports-intelligence-how-lakehouse-turns-tracking-data-competitive-advantage",
-          "published": "2026-06-24T22:00:00+00:00",
-          "content_snippet": "Every second of a professional basketball game now generates more than 20,000 data...",
+          "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+          "published": "2026-06-25T17:00:00+00:00",
+          "content_snippet": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use Kiro as their agentic engineering partner with confidence that it meets the security and compliance standards required for sensitive workloads. Kiro is an agentic AI with an in",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
+          "published": "2026-06-25T16:39:00+00:00",
+          "content_snippet": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit from significant savings over on-demand rates. The new payment options join the previously available No Upfront option, giving customers greater flexibility to optimize compute costs based on their financial preferences. All Upfront delivers the maximum discount by paying for the full reservation ter",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
+          "published": "2026-06-25T12:00:00+00:00",
+          "content_snippet": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensures that 24/7 technical support across both AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions is handled exclusively by full-time AWS employees who are US citizens on US soil, trained to maintain ITAR compliance and meet other applicable AWS GovCloud (US) requirements. With this update, AWS Go",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "From test bench to lakehouse: how AVL modernizes measurement data analytics with Impulse",
+          "url": "https://www.databricks.com/blog/test-bench-lakehouse-how-avl-modernizes-measurement-data-analytics-impulse",
+          "published": "2026-06-25T19:30:00+00:00",
+          "content_snippet": "1. Introduction - Impulse: time-series analytics for measurement dataA single automotive...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Daikin Applied Americas builds consistent data pipelines at scale with Genie Code",
-          "url": "https://www.databricks.com/blog/how-daikin-applied-americas-builds-consistent-data-pipelines-scale-genie-code",
-          "published": "2026-06-24T18:00:00+00:00",
-          "content_snippet": "Agentic data engineering is changing how pipelines are builtDaikin Applied Americas...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Verso, l'entreprise qui ne dort jamais",
+          "url": "https://www.youtube.com/watch?v=mFwWax5pLTs",
+          "published": "2026-06-26T11:00:22+00:00",
+          "content_snippet": "Découvrez comment Verso développe une entreprise véritablement AI-native. Lors de cette session enregistrée lors de l'événement OpenAI France en juin 2026, Lydia Bellahouel, cofondatrice et CEO de Verso, partage la manière dont son équipe s'appuie sur les modèles OpenAI, Codex et des systèmes multi-agents pour automatiser ses opérations, accélérer la recherche consommateur et faire évoluer l'entreprise avec une structure particulièrement légère. Lydia explique comment fonctionne le « Verso Brain",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "What if the answer was already in your data?",
-          "url": "https://www.databricks.com/blog/what-if-answer-was-already-your-data",
-          "published": "2026-06-24T16:45:36+00:00",
-          "content_snippet": "What If the Answer Was Already in Your Data?Kythera Labs is building an AI-native...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks positioned highest in execution and furthest in vision for the second consecutive year in Gartner Magic Quadrant",
-          "url": "https://www.databricks.com/blog/databricks-positioned-highest-execution-and-furthest-vision-second-consecutive-year-gartner",
-          "published": "2026-06-24T15:00:00+00:00",
-          "content_snippet": "Enterprises are rapidly deploying agentic applications at scale, from back-office...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "What if plants could talk?",
+          "url": "https://www.youtube.com/watch?v=q_diWy3xdrw",
+          "published": "2026-06-25T17:19:53+00:00",
+          "content_snippet": "Now our plants won't shut up. Give your plants a voice: https://github.com/openai/planttalk",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
@@ -217,9 +279,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 4
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -232,15 +292,74 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+          "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
+          "published": "2026-06-26T07:00:38+00:00",
+          "content_snippet": "Come and learn about building AI Agents in production. Learn hands-on directly with the AI Agents team from OpenGov which powers AI workflows across thousands of state and local governments. This session will cover: * The core agent loop/harness * A2A protocol * Building with Effect-TS and Typescript * Feedback and evals * Long context handling * Monitoring and observability * Building out tools and skills * Enterprise contribution model * Accelerating workflows with Claude and Cursor Speakers: ",
           "source_name": "AI Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "A Genius With Amnesia - Victor Savkin, Nx",
+          "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
+          "published": "2026-06-26T01:15:06+00:00",
+          "content_snippet": "Imagine a genie grants your wish and materializes the best engineer in the world, John Carmack in his prime, to work on your codebase. The catch: he can only see a tiny corner of it, and he forgets everything between interactions. No matter how good he is, the value isn’t there. This is what coding agents are today. We need to fix it. Speakers: - Victor Savkin (Nx): Victor is the creator of Nx, the agentic monorepo platform, and Polygraph, the meta-harness for maximum agent autonomy, with 20+ ye",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
+          "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
+          "published": "2026-06-25T21:15:06+00:00",
+          "content_snippet": "Think about a character you've spent 100 hours playing in a video game like Skyrim or Elden Ring. What exactly is your character? - Is it the game engine (the loop)? No. - Is it the PlayStation console (the compute)? No. - Is it the controller (the tools)? No. Your character is the save file (the data). If your PlayStation bursts into flames, your character isn't dead. You just buy a new PlayStation, download your save file from the cloud, and your character is exactly where they were, mid-swing",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+          "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
+          "published": "2026-06-25T21:00:06+00:00",
+          "content_snippet": "Raymond Weitekamp explores Recursive Language Models and how their inference-time compute patterns map onto coding agents for higher performance and reliability. Speaker: Dr. Raymond Weitekamp, AI Engineer at OpenProse.",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs",
+          "url": "https://www.youtube.com/watch?v=vljxQZfJ9wY",
+          "published": "2026-06-25T18:15:06+00:00",
+          "content_snippet": "As AI systems evolve from chat interfaces into autonomous agents capable of reasoning, planning, and tool usage, traditional evaluation approaches are breaking down. Offline benchmarks and static datasets fail to capture the complexity, non-determinism, and operational risks of real-world AI systems operating in production environments. In this talk, I’ll share practical lessons and architectural patterns for building evaluation systems for agentic AI workflows at scale. We’ll explore how modern",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Build Systems, Not Code - Angie Jones, Agentic AI Foundation",
+          "url": "https://www.youtube.com/watch?v=ZD9-4fW2HhM",
+          "published": "2026-06-25T18:00:06+00:00",
+          "content_snippet": "AI coding agents are changing what it feels like to be a software engineer. For a lot of us, that's challenging our sense of craftsmanship. If agents are writing the code, do we lose the joy of building? I don't think so. The building moves up a layer. In this talk, I'll share how I found that familiar engineering flow state again. Not by writing every line myself, but by designing agentic systems that still require the engineering principles we value: systems thinking, decomposition, separation",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+          "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
+          "published": "2026-06-25T16:30:06+00:00",
+          "content_snippet": "Your persona-eval pipeline rates an Alexander Hamilton simulation at 80% personality fidelity. It is also rating a Hamilton who sounds like he has read his own Broadway musical. The dominant failure mode of every character-based AI system now in production is invisible to LLM-as-judge, personality-scale benchmarks, and behavioral consistency scores because every one of them was built to detect convincingness, and convincingness is exactly what the failure produces. The failure has a name: Mirand",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
         }
       ],
+      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 25
+  "deduped_count": 20
 }
