@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T11:14:07Z",
+  "fetched_at": "2026-06-28T11:23:42Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -15,6 +15,10 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -24,8 +28,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 10,
+        "Netflix Tech Blog": 2,
         "Meta Engineering": 3
       }
     },
@@ -53,28 +56,19 @@
       ],
       "items": [
         {
-          "title": "Calorie counting doesn't work | Tim Spector",
-          "url": "https://www.youtube.com/watch?v=r8pgL7Ei0pw",
-          "published": "2026-06-26T16:04:09+00:00",
-          "content_snippet": "Calorie counting doesn't work | Tim Spector",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "A neuroscientist’s guide to protecting your brain, in 58 minutes | Lisa Genova: Full Interview",
-          "url": "https://www.youtube.com/watch?v=LViE-cD_WJQ",
-          "published": "2026-06-26T13:00:17+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, What 85 years of research says is the real key to happiness | Robert Waldinger: Full Interview ► https://www.youtube.com/watch?v=_CxmzkYPvsg A retired Japanese engineer once memorized pi ",
-          "source_name": "Big Think",
+          "title": "It's Your Fault",
+          "url": "https://www.youtube.com/watch?v=y49oYPhJ6ls",
+          "published": "2026-06-27T13:00:28+00:00",
+          "content_snippet": "You can't regret what someone else did. Regret requires agency, which is why it feels so personal. That feeling isn't proof something is wrong with you. It's information. As @melrobbins said, unpack that suitcase and find out what it’s in there weighing you down. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 2,
-        "Daniel Pink": 1
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 3
       }
     },
     {
@@ -124,56 +118,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon EC2 R8g instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
-          "published": "2026-06-26T15:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These ins",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Databricks is turning video into searchable, actionable intelligence",
-          "url": "https://www.databricks.com/blog/how-databricks-turning-video-searchable-actionable-intelligence",
-          "published": "2026-06-26T20:30:00+00:00",
-          "content_snippet": "A utility company deploys drones to inspect hundreds of miles of power lines. A police...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "A Decision Framework for ETL Migration to Databricks",
-          "url": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
-          "published": "2026-06-26T20:20:00+00:00",
-          "content_snippet": "Your team has hundreds of stored procedures, a couple of schedulers, permissions...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How the English Office for Students leverages Databricks to enhance higher education standards and drive better student outcomes",
-          "url": "https://www.databricks.com/blog/how-english-office-students-leverages-databricks-enhance-higher-education-standards-and-drive",
-          "published": "2026-06-26T20:15:00+00:00",
-          "content_snippet": "8 hours → minutes | Processing time for a 300-million-record data job after moving...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Builders Unscripted: Ep. 4 - Pietro Schirano",
-          "url": "https://www.youtube.com/watch?v=SPC_yCe1cUw",
-          "published": "2026-06-26T19:40:00+00:00",
-          "content_snippet": "Pietro Schirano, Founder & CEO of MagicPath sits down with Romain Huet to talk about pushing the creative edges of GPT-5.5 and using Codex to turn ideas into software. 03:45 Images into sound 07:57 Multi-agent Codex workflows 14:34 Reviving hardware with Codex 25:27 From doing to directing",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -185,7 +141,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 3
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -198,29 +156,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co",
-          "url": "https://www.youtube.com/watch?v=ij-AU9dpJjc",
-          "published": "2026-06-26T20:00:35+00:00",
-          "content_snippet": "Brand voice that survives real users isn't an instruction you write once - it's an architecture. Drawing on production code from a wedding venue, a personal AI companion, and a tool for families of missing people, this talk breaks voice into four layers: immutable identity, situational mode, example-anchored voice, and a deterministic post-generation veto. The difference between a prompt that holds and one that breaks on turn 21 is knowing which job belongs to which layer. Speakers: - Isadora Ma",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
-          "url": "https://www.youtube.com/watch?v=ZRM_TfEZcIo",
-          "published": "2026-06-26T14:00:07+00:00",
-          "content_snippet": "Full implementation is open-source: https://github.com/iusztinpaul/ai-research-os-workshop Agent Engineering: Building Multi-Agent Systems Course: https://academy.towardsai.net/courses/agent-engineering Turning thousands of notes, videos, documents, and repositories into usable AI context requires more than a bigger context window. It requires memory and context engineering: organizing sources, indexing what matters, and loading only what the model needs. The talk shows how the authors turn an O",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 8
+      }
     }
   ],
-  "deduped_count": 28
+  "deduped_count": 22
 }
