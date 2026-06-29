@@ -133,7 +133,10 @@ lineage-tracked, and how resilient the platform must be*. By 2029 these are desi
 constraints set before architecture, not compliance overlays applied after — most acutely in
 financial services, where they are effectively non-negotiable. This force is exogenous and
 compounding: no platform team gets to opt out, and it tends to *favor* the immutability,
-lineage and portability trends above for independent reasons.
+lineage and portability trends above for independent reasons. With one sharp exception: on the
+*deletion* axis, privacy law (erasure, minimization, retention maxima) pulls directly *against*
+immutability and time-travel — a tension §2.4 treats explicitly rather than pretending the
+forces align on every axis.
 
 **1.5 The operating-model force: platform-as-product, on an unsettled ownership question.**
 *(Choice · contested.)* How platforms are *built and owned* is shifting from project-style
@@ -175,7 +178,9 @@ with single-node engines serving the long tail and distributed engines the still
 ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)). Increasingly this runs
 on a Kubernetes-native or bring-your-own-cloud substrate for portability and sovereignty
 ([CNCF](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/)).
-*High confidence on open/immutable; contested is how much actually escapes vendor consolidation (§1.2).*
+*High confidence on open/immutable; contested is how much actually escapes vendor consolidation (§1.2).
+Immutability is not free, either: it buys audit and reproducibility at the cost of an erasure
+obligation someone has to engineer back in — see §2.4.*
 
 **2.2 The processing path: streaming-first, with batch as a peer not a default.** Ingestion,
 enrichment, quality and governance shift *left* toward the source: streams become queryable
@@ -184,6 +189,14 @@ in the stream rather than waiting for a warehouse load ([Kai Waehner, *2026 stre
 Batch does not disappear; what changes is that real-time stops being a special case, and schema
 and quality are enforced at the boundary by contracts rather than discovered downstream
 ([Chad Sanderson](https://dataproducts.substack.com/p/the-consumer-defined-data-contract)).
+
+*The unglamorous first mile still dominates the bill.* Whatever processing paradigm wins, most
+platform effort in 2029 still goes into *capture* — change-data-capture off operational stores,
+the long tail of SaaS APIs, and schema drift at the source ([Debezium](https://debezium.io/) as
+the open CDC baseline). Contracts move *where* quality is enforced (left, at the boundary); they
+do not remove the underlying integration load. A 2029 plan that budgets for the streaming engine
+but not for connector sprawl and source-schema volatility will be wrong in the same direction
+platform plans have been wrong for a decade.
 
 **2.3 The organizing layer: from tables to governed business meaning.** The platform's primary
 interface is no longer the physical table but a governed semantic layer — trending toward
@@ -206,12 +219,45 @@ In regulated and financial-services settings this layer is where the platform is
 lineage, retention, residency and resilience are architectural requirements set by BCBS 239,
 DORA and regional privacy law, mapped through frameworks like EDM Council's CDMC.
 
+**Retention and erasure — the immutable platform's standing debt.** The immutability that makes
+the substrate auditable (§2.1) collides head-on with privacy law's right-to-erasure, data
+minimization, and retention *maxima*: you cannot simply `DELETE` a subject out of a chain of
+immutable snapshots and time-travel history. The 2029 platform pays this debt deliberately, with
+mechanisms designed in rather than bolted on — **crypto-shredding** (destroy a per-subject key so
+its data is unrecoverable), row-level deletes and snapshot/partition rewrites that physically
+expire history (Iceberg and Delta now expose these), tombstoning, and retention-tier expiry. The
+hardest cases are governance, not engineering: **legal hold vs. retention maximum** — BCBS 239
+wants long, reconstructable history while LGPD/GDPR want the same data gone — and **time-travel
+vs. minimization**, where every retained snapshot is a copy a regulator can ask you to justify.
+The honest position is that immutability and erasure *coexist by engineering, not by nature*; a
+platform that adopts git-for-data without a deletion story has built an audit asset and a
+compliance liability in one stroke ([CDMC](https://edmcouncil.org/frameworks/cdmc/) for the
+control taxonomy; [LGPD](https://www.dlapiperdataprotection.com/index.html?t=law&c=BR)/GDPR for
+the obligation; [Event Sourcing](https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+for the append-only principle the tension is inherent to). *This qualifies the study's own safe
+bet: immutability is low-regret only where a deletion path is engineered beside it.*
+
+**Security is a first-class layer, not a sub-clause of governance.** Governance answers *who may
+use what, for which purpose*; security answers *who can reach the bytes at all* — a different
+control set and a different budget line. The load-bearing 2029 controls are attribute/policy-based
+access enforced at the data layer (policy-as-code over the catalog), automated PII discovery,
+classification and masking/tokenization, and encryption with customer-managed keys (the substrate
+beneath crypto-shredding above). Agentic consumption (§2.5) adds an attack surface that governance
+framing alone misses: an autonomous agent holding broad, governed query rights is a high-value
+target and a confused-deputy risk — prompt-injected or over-scoped, it can exfiltrate at machine
+speed *through* a perfectly governed contract. Least-privilege, per-action scoping and full
+action-logging for agents are 2029 security requirements, not 2030 nice-to-haves
+([OWASP Top 10 for LLM Applications](https://genai.owasp.org/)).
+
 **2.5 The consumption surface: agents alongside humans.** Access broadens from dashboards and
 hand-written SQL to **agent-mediated querying** through governed, intent-shaped tools that hit
 the semantic layer rather than raw tables. Production reporting and human exploration persist;
 the change is that a second class of consumer — autonomous or semi-autonomous agents — now
-drives a meaningful share of load and demands a correct, governed contract. *How far that
-autonomy goes by 2029 is the single most contested variable in the study (§1.1).*
+drives a meaningful share of load and demands a correct, governed contract. A third surface
+widens too: **governed sharing across organizational boundaries** — data clean rooms and
+data-product exchange — shifts sharing from bulk copies toward query-time, permissioned access
+over the same open formats and semantic contracts, extending the in-house consumption model
+outward. *How far that autonomy goes by 2029 is the single most contested variable in the study (§1.1).*
 
 | Layer | Where it is in 2026 | Plausible 2029 state | What changes most |
 | --- | --- | --- | --- |
@@ -220,6 +266,7 @@ autonomy goes by 2029 is the single most contested variable in the study (§1.1)
 | Compute / engine | Mostly distributed clusters | Decoupled, engine-plural; single-node tail + distributed core | Compute unit shrinks; portability (K8s/BYOC) |
 | Modeling / semantic | Tables + BI metrics; semantic layer emerging | Semantic layer/knowledge graph as primary interface; metrics-as-code | Interface moves from tables to meaning |
 | Governance / metadata | Periodic, downstream, catalog-based | Real-time, data-layer, active-metadata-orchestrated | Governance becomes enforcement, not audit |
+| Security / retention | Perimeter + scheduled deletes | Data-layer access control, PII masking, crypto-shred erasure path | Deletion & least-privilege become design inputs |
 | Consumption | Humans via dashboards/SQL | Humans + agents via governed tools over the semantic layer | Agents become first-class consumers |
 
 **Scenario lens — bounding the four contested axes.** Rather than predict one outcome, the
@@ -288,7 +335,9 @@ language for "where the platform must be."
 - **The centre of gravity moves to the data layer.** Open table formats, immutable and
   versioned assets, and governance and meaning enforced *where the data lives* — this is the
   one pattern robust across independent signals, because AI-readiness and regulation demand it
-  separately. It is the closest thing to a safe bet in the study.
+  separately. It is the closest thing to a safe bet in the study. *The asterisk: immutability owes
+  a deletion debt — git-for-data without an erasure path is an audit asset and a privacy liability
+  at once (§2.4).*
 - **The interface shifts from tables to business meaning.** A governed semantic layer — trending
   toward knowledge graphs — becomes the primary surface, with modeling left plural beneath it
   (Data Vault for audit, wide tables for AI, dimensional where it fits). "No metadata, no AI."
@@ -441,6 +490,15 @@ promote into the body as sections §1–§3 are written. -->
   store every change as an immutable event, derive state. *Trend:* immutable assets (the
   *why*, upstream of the lakehouse). *Supports:* the §2 framing that immutability is a design
   principle the 2029 platform inherits, not just an Iceberg side-effect. *Lifecycle:* ingestion/modeling.
+- **Debezium — open-source change data capture** ([debezium.io](https://debezium.io/))
+  — the vendor-neutral CDC baseline for the *first mile*: streaming row-level changes off
+  operational databases into the platform. *Supports:* the §2.2 point that capture/integration,
+  not the processing engine, still dominates platform effort in 2029. *Lifecycle:* ingestion/capture.
+- **OWASP Top 10 for LLM Applications — OWASP GenAI Security Project** ([genai.owasp.org](https://genai.owasp.org/))
+  — the practitioner reference for LLM/agent risks (prompt injection, excessive agency,
+  sensitive-information disclosure). *Supports:* the §2.4 security layer and the agent-as-attack-
+  surface point in §2.5 — the threat model that governance framing alone misses. *Caveat:*
+  fast-moving project; treat the list as directional. *Lifecycle:* security/consumption.
 
 ### Data modeling methodologies
 
