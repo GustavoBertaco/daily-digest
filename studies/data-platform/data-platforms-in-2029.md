@@ -21,7 +21,7 @@ This study takes a **glance at where data platforms are plausibly heading by 202
 help teams making multi-year commitments (storage formats, compute engines, governance
 models, build-vs-buy, cloud strategy) plan against a target that is moving under them.
 
-A word on epistemic humility, because this domain earns it. Forecasting data architecture
+A word on epistemic humility (knowing the limits of what we can claim to know), because this domain earns it. Forecasting data architecture
 has a poor track record: the industry spent roughly a decade building distributed systems
 for data that mostly fit on a single machine ([DuckDB, *The Lost Decade of Small Data*](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)),
 and the first data-mesh wave produced about as many "lip-service" domains as genuine ones
