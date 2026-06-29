@@ -5,6 +5,7 @@ from fetchers.newsletter import (
     _entry_sender,
     _extract_links,
     _forwarded_original_sender,
+    _gmail_autoforward_base,
     _is_article_link,
 )
 
@@ -89,6 +90,43 @@ def test_forward_of_disallowed_original_sender_is_rejected():
     ) is False
 
 
+# A Gmail auto-forward ("canonical address forward"): the sender is rewritten to a
+# +caf_ plus-address of the forwarding account, and there is NO quoted original-sender
+# header in the body (unlike a manual Forward).
+_AUTOFWD_ATOM = """<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <title>Data Engineering Weekly #276</title>
+    <author><name>auto</name><email>gustavobertaco+caf_=l0wex115vq09if0qqspn=kill-the-newsletter.com@gmail.com</email></author>
+    <published>2026-06-29T03:53:14Z</published>
+    <content type="html">&lt;p&gt;Read &lt;a href="https://blog.acme.io/posts/streaming"&gt;this&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>
+"""
+
+
+def test_gmail_autoforward_base_extracts_account():
+    assert _gmail_autoforward_base(
+        "gustavobertaco+caf_=l0wex115vq09if0qqspn=kill-the-newsletter.com@gmail.com"
+    ) == "gustavobertaco@gmail.com"
+    # Not a +caf_ auto-forward -> ordinary plus-addressing is NOT broadened.
+    assert _gmail_autoforward_base("someone+newsletters@gmail.com") is None
+    assert _gmail_autoforward_base("gustavobertaco@gmail.com") is None
+    assert _gmail_autoforward_base("attacker+caf_=x@evil.com") is None
+
+
+def test_autoforward_from_trusted_forwarder_is_accepted():
+    feed = feedparser.parse(_AUTOFWD_ATOM)
+    entry = feed.entries[0]
+    body = entry.content[0]["value"]
+    senders = {"dataengineeringweekly@substack.com"}
+    forwarders = {"gustavobertaco@gmail.com"}
+    # Auto-forwarded by a trusted forwarder -> accepted (no quoted sender to verify).
+    assert _entry_is_allowed(entry, senders, forwarders, body) is True
+    # Same mail, but the forwarder account is not trusted -> rejected.
+    assert _entry_is_allowed(entry, senders, set(), body) is False
+
+
 def test_extract_links_keeps_articles_drops_chrome():
     html = """
     <html><body>
@@ -119,6 +157,22 @@ def test_is_article_link_scheme_and_denylist():
     assert _is_article_link("https://x.com/share") is False
     assert _is_article_link("https://www.youtube.com/watch?v=1") is False
     assert _is_article_link("https://news.example.com/manage/prefs") is False
+
+
+def test_is_article_link_drops_substack_chrome():
+    # The curated tracking redirect survives (safe_get unwraps it to the article);
+    # Substack's own system links and the issue's self-references do not.
+    assert _is_article_link("https://substack.com/redirect/abc-123?j=tok") is True
+    assert _is_article_link("https://substack.com/redirect/2/eyJlIjoi?x") is False
+    assert _is_article_link("https://substack.com/@dataengineeringweekly") is False
+    assert _is_article_link("https://substack.com/app?utm_source=email") is False
+    assert _is_article_link("https://substack.com/signup?r=abc") is False
+    assert _is_article_link("https://open.substack.com/pub/x/p/y") is False
+    assert _is_article_link("https://kill-the-newsletter.com/feeds/abc") is False
+    # "view image in post" links resolve to the issue page with an ?img= query.
+    assert _is_article_link("https://www.dataengineeringweekly.com/p/dew-276?img=https://x") is False
+    # A real external article is unaffected.
+    assert _is_article_link("https://jack-vanlightly.com/blog/2026/6/21/storage") is True
 
 
 def test_email_body_text_never_leaks_into_links():

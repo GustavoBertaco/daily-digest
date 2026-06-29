@@ -13,6 +13,15 @@
 #                 forward rewrites the sender, so the original is verified from the
 #                 quoted forward header).
 #
+# Per-source options (optional, any type):
+#   max_age_hours           — freshness window override for this source.
+#   max_items               — item-cap override (raise above the global flood-guard
+#                             for roundups that curate many links per issue).
+#   request_timeout_seconds — HTTP timeout override (raise for large feeds).
+#   skip_dedup: true        — always include this source's items, even if a URL
+#                             was already digested (for weekly roundups where
+#                             every link should be treated as fresh each issue).
+#
 # Per-area summary_style (optional, default "insight"):
 #   insight — framing paragraph + 3-5 practitioner insight bullets, drafted from
 #             the live article. Use for analytical/long-form sources.
@@ -98,7 +107,11 @@ areas:
         name: "Data Engineering Weekly"
         senders: ["dataengineeringweekly@substack.com"]   # original newsletter sender (allowlist)
         forwarders: ["gustavobertaco@gmail.com"]          # trusted addresses that forward DEW mail to the KTNL inbox
-        max_age_hours: 180    # weekly issue
+                                                          # (Gmail auto-forward's +caf_=...@gmail.com plus-address is matched to this base)
+        max_age_hours: 180             # weekly issue
+        max_items: 25                  # weekly roundup curates ~12-15 articles; lift the global 10-item cap
+        request_timeout_seconds: 30    # KTNL inbox feed is large (accumulates issues); 10s global default times out
+        skip_dedup: true               # weekly roundup — treat every harvested link as fresh, never dedup against seen_urls.json
       # Data Mesh Radio (Spotify: 4FIKajWDxdAPvW5925IBrF) excluded — no public RSS feed
 
   - name: "Providers Updates"

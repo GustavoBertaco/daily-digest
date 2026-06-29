@@ -77,6 +77,19 @@ def load_config(config_path: str) -> dict:
             ):
                 print(f"ERROR: source '{src.get('name','?')}' max_age_hours must be a positive int", file=sys.stderr)
                 sys.exit(1)
+            if "max_items" in src and (
+                not isinstance(src["max_items"], int) or src["max_items"] <= 0
+            ):
+                print(f"ERROR: source '{src.get('name','?')}' max_items must be a positive int", file=sys.stderr)
+                sys.exit(1)
+            if "request_timeout_seconds" in src and (
+                not isinstance(src["request_timeout_seconds"], int) or src["request_timeout_seconds"] <= 0
+            ):
+                print(f"ERROR: source '{src.get('name','?')}' request_timeout_seconds must be a positive int", file=sys.stderr)
+                sys.exit(1)
+            if "skip_dedup" in src and not isinstance(src["skip_dedup"], bool):
+                print(f"ERROR: source '{src.get('name','?')}' skip_dedup must be a boolean", file=sys.stderr)
+                sys.exit(1)
             if src_type == "newsletter" and not (
                 isinstance(src.get("senders"), list)
                 and src["senders"]
@@ -128,6 +141,30 @@ def resolve_max_age(src: dict, settings: dict) -> int:
     return settings.get("max_age_hours", 24)
 
 
+def resolve_max_items(src: dict, settings: dict) -> int:
+    """Item cap for one source: CLI override > per-source > global default.
+
+    A weekly roundup (e.g. a newsletter that curates a dozen links) may raise its own
+    cap above the global flood-guard so every curated article can be included.
+    """
+    if settings.get("_max_items_forced"):
+        return settings["max_items_per_source"]
+    if "max_items" in src:
+        return src["max_items"]
+    return settings.get("max_items_per_source", 10)
+
+
+def resolve_timeout(src: dict, settings: dict) -> int:
+    """Request timeout for one source: per-source override > global > library default.
+
+    Large feeds (e.g. a kill-the-newsletter inbox that accumulates many issues) can
+    need more than the global default, so a source may raise its own ceiling.
+    """
+    if "request_timeout_seconds" in src:
+        return src["request_timeout_seconds"]
+    return settings.get("request_timeout_seconds", 10)
+
+
 def _fetch_one_source(
     src: dict, area_name: str, max_age: int, max_items: int,
     timeout: int, user_agent: str,
@@ -169,8 +206,6 @@ def _fetch_one_source(
 
 
 def fetch_area(area: dict, settings: dict) -> dict:
-    max_items = settings.get("max_items_per_source", 10)
-    timeout = settings.get("request_timeout_seconds", 10)
     user_agent = settings.get("user_agent", "daily-digest/1.0")
 
     result = {
@@ -190,7 +225,8 @@ def fetch_area(area: dict, settings: dict) -> dict:
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = [
             pool.submit(_fetch_one_source, src, area["name"],
-                        resolve_max_age(src, settings), max_items, timeout, user_agent)
+                        resolve_max_age(src, settings), resolve_max_items(src, settings),
+                        resolve_timeout(src, settings), user_agent)
             for src in area["sources"]
         ]
         for future in futures:  # preserve source order
@@ -226,6 +262,7 @@ def main() -> None:
         settings["_max_age_forced"] = True
     if args.max_items is not None:
         settings["max_items_per_source"] = args.max_items
+        settings["_max_items_forced"] = True
 
     if args.dry_run:
         print(f"Config OK — {len(cfg['areas'])} areas:")
@@ -252,11 +289,23 @@ def main() -> None:
         # resurface on a later run instead of being silently lost.
         seen_path = Path(args.seen_file)
         seen = load_seen(seen_path)
+        # Sources flagged skip_dedup always pass through, even if a URL was already
+        # digested — e.g. a weekly newsletter roundup where every link should be
+        # treated as fresh each issue.
+        skip_dedup_sources = {
+            src["name"]
+            for area in cfg["areas"]
+            for src in area["sources"]
+            if src.get("skip_dedup") and "name" in src
+        }
         deduped_count = 0
         for area_result in output["areas"]:
             kept: list[FetchedItem] = []
             deduped_by_source: dict[str, int] = {}
             for item in area_result["items"]:
+                if item.get("source_name") in skip_dedup_sources:
+                    kept.append(item)
+                    continue
                 if normalize_url(item["url"]) in seen:
                     deduped_count += 1
                     name = item.get("source_name", "")

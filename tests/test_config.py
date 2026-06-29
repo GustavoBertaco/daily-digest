@@ -51,3 +51,32 @@ def test_rejects_unknown_source_type(tmp_path):
     cfg = _write(tmp_path, {"areas": [bad_area]})
     with pytest.raises(SystemExit):
         load_config(cfg)
+
+
+def test_rejects_bad_source_timeout(tmp_path):
+    bad_area = {**_BASE_AREA, "sources": [
+        {"type": "rss", "url": "https://e.com/feed", "name": "f", "request_timeout_seconds": 0},
+    ]}
+    cfg = _write(tmp_path, {"areas": [bad_area]})
+    with pytest.raises(SystemExit):
+        load_config(cfg)
+
+
+def test_rejects_non_bool_skip_dedup(tmp_path):
+    bad_area = {**_BASE_AREA, "sources": [
+        {"type": "rss", "url": "https://e.com/feed", "name": "f", "skip_dedup": "yes"},
+    ]}
+    cfg = _write(tmp_path, {"areas": [bad_area]})
+    with pytest.raises(SystemExit):
+        load_config(cfg)
+
+
+def test_accepts_per_source_overrides(tmp_path):
+    area = {**_BASE_AREA, "sources": [
+        {"type": "rss", "url": "https://e.com/feed", "name": "f",
+         "request_timeout_seconds": 30, "skip_dedup": True},
+    ]}
+    cfg = load_config(_write(tmp_path, {"areas": [area]}))
+    src = cfg["areas"][0]["sources"][0]
+    assert src["request_timeout_seconds"] == 30
+    assert src["skip_dedup"] is True

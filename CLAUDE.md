@@ -10,6 +10,15 @@ in the digest. Linked articles are fetched and summarized like `website` sources
 Keep this link-only model intact: never feed the email subject/body into the digest
 or an LLM prompt.
 
+Mail reaches the feed three ways: direct/auto-forward preserving the original `From:`
+(verified against `senders`); a manual Gmail "Forward" (verified by the trusted
+`forwarders` address *plus* the original sender quoted in the body); and a Gmail
+**auto-forward**, whose sender is rewritten to a `<account>+caf_=...@gmail.com`
+plus-address. An auto-forward carries no quoted original sender, so it is trusted on
+the forwarder identity alone (the `+caf_` base account must be a `forwarders` entry) —
+relying on the secret feed URL and the user's Gmail filter. This is a deliberate,
+user-approved relaxation; the link-only model above still fully applies.
+
 ## Sync before editing studies
 
 Files under `studies/` are sometimes edited directly on GitHub (web UI), so the local

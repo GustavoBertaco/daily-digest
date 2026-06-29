@@ -23,7 +23,7 @@ which also unwraps Substack tracking-redirect links to their final destination.
 import re
 import sys
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlparse
 
 import feedparser
 import trafilatura
@@ -38,6 +38,8 @@ from .web import _headers
 # against the URL. Keeps the curated links (real articles) and drops newsletter chrome.
 _DENY_HOST_SUFFIXES = (
     "substackcdn.com",        # image/asset CDN
+    "open.substack.com",      # "read in app" / restack chrome (points back at the issue)
+    "kill-the-newsletter.com",  # the KTNL feed itself appears as a footer link
     "twitter.com",
     "x.com",
     "facebook.com",
@@ -59,6 +61,15 @@ _DENY_PATH_FRAGMENTS = (
     "/redirect/feed",
 )
 
+# Substack newsletter chrome on the bare ``substack.com`` host. The genuinely
+# curated links are ``substack.com/redirect/<uuid>?j=...`` tracking URLs (unwrapped
+# by safe_get to the real article); Substack's own system links instead use these
+# path prefixes — profile pages, the mobile app, signup, and the base64
+# ``/redirect/2/<payload>`` form (subscribe / footer / restack / disable-email).
+_SUBSTACK_CHROME_PREFIXES = (
+    "/@", "/app", "/signup", "/sign-in", "/note", "/notes", "/redirect/2/",
+)
+
 
 def _entry_sender(entry) -> str | None:
     """The sender email from the Atom ``<author><email>`` element, lowercased.
@@ -75,6 +86,28 @@ def _entry_sender(entry) -> str | None:
 
 
 _EMAIL_RE = r"[\w.%+\-]+@[\w.\-]+\.[A-Za-z]{2,}"
+
+# Gmail "canonical address forward" (auto-forward) rewrites the sender to a
+# plus-addressed variant of the forwarding account, e.g.
+#   user+caf_=<encoded-destination>@gmail.com   (the +caf_ tag is Gmail's marker).
+# Unlike a manual "Forward", an auto-forward carries no quoted original-sender
+# header, so the real sender can't be re-verified from the body. We therefore
+# trust it on the forwarder identity alone (base local-part on the forwarders
+# allowlist) — the link-only / never-summarize-the-body model still holds.
+_GMAIL_AUTOFORWARD_RE = re.compile(
+    r"^(?P<base>[\w.%\-]+)\+caf_=[^@\s]*@gmail\.com$", re.IGNORECASE
+)
+
+
+def _gmail_autoforward_base(sender: str) -> str | None:
+    """For a Gmail auto-forward sender, the underlying account address; else None.
+
+    ``user+caf_=...@gmail.com`` -> ``user@gmail.com`` (lowercased). Returns None for
+    any address that isn't a Gmail ``+caf_`` auto-forward, so ordinary plus-addressed
+    mail is *not* broadened into the forwarder allowlist.
+    """
+    m = _GMAIL_AUTOFORWARD_RE.match(sender)
+    return f"{m.group('base').lower()}@gmail.com" if m else None
 
 
 def _forwarded_original_sender(html: str) -> str | None:
@@ -103,11 +136,23 @@ def _entry_is_allowed(entry, senders: set[str], forwarders: set[str], body: str)
     if sender in forwarders:
         original = _forwarded_original_sender(body)
         return original is not None and original in senders
+    # Gmail auto-forward: sender is a +caf_ plus-address of a trusted forwarder.
+    # No quoted original sender exists to verify, so trust rests on the forwarder
+    # identity plus the secret kill-the-newsletter feed URL (accepted tradeoff).
+    base = _gmail_autoforward_base(sender)
+    if base is not None and base in forwarders:
+        return True
     return False
 
 
 def _is_article_link(url: str) -> bool:
-    """True only for http(s) links that look like real article destinations."""
+    """True only for http(s) links that look like real article destinations.
+
+    Applied twice: to the raw ``<a href>`` at harvest time, and again to the final
+    URL after ``safe_get`` unwraps any tracking redirect — so a redirect that
+    resolves to newsletter chrome (app, image viewer, the issue's own page) is
+    dropped even though its wrapper looked benign.
+    """
     parsed = urlparse(url)
     if parsed.scheme not in ("http", "https"):
         return False
@@ -118,6 +163,12 @@ def _is_article_link(url: str) -> bool:
         return False
     path = parsed.path.lower()
     if any(frag in path for frag in _DENY_PATH_FRAGMENTS):
+        return False
+    if host == "substack.com" and path.startswith(_SUBSTACK_CHROME_PREFIXES):
+        return False
+    # Substack "view image in post" links resolve to the issue page with an ?img=
+    # query — an image viewer, never an article.
+    if "img" in {k for k, _ in parse_qsl(parsed.query)}:
         return False
     return True
 
@@ -198,11 +249,15 @@ def fetch_newsletter(
         try:
             ar = safe_get(link, headers=_headers(url), timeout=timeout)
             ar.raise_for_status()
+            final_url = ar.url or link  # safe_get unwraps tracking redirects
+            # A wrapper that looked like a real link may resolve to chrome (the app,
+            # an image viewer, the issue's own page). Re-check the unwrapped URL.
+            if not _is_article_link(final_url):
+                continue
             metadata = trafilatura.extract_metadata(ar.text)
             body = trafilatura.extract(ar.text) or ""
             if not body:
                 continue
-            final_url = ar.url or link  # safe_get unwraps tracking redirects
             title = (metadata.title if metadata else "") or final_url
             items.append(FetchedItem(
                 title=title,
