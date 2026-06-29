@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T11:23:42Z",
+  "fetched_at": "2026-06-29T13:53:11Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+          "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
+          "published": "2026-06-29T13:01:02+00:00",
+          "content_snippet": "Authors: Lequn Wang , J iangwei Pan , and Linas Baltrunas Figure 1. Autoregressive homepage generation. GenPage builds a Netflix homepage one row or entity at a time, each one conditioned on what’s already on the page and the user’s context. Introduction The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of it is personalized, including which rows appear, which entities show up within those rows, and how ",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Pragmatic Engineer",
@@ -28,7 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 2,
         "Meta Engineering": 3
       }
     },
@@ -56,19 +65,32 @@
       ],
       "items": [
         {
-          "title": "It's Your Fault",
-          "url": "https://www.youtube.com/watch?v=y49oYPhJ6ls",
-          "published": "2026-06-27T13:00:28+00:00",
-          "content_snippet": "You can't regret what someone else did. Regret requires agency, which is why it feels so personal. That feeling isn't proof something is wrong with you. It's information. As @melrobbins said, unpack that suitcase and find out what it’s in there weighing you down. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "How To Be Persuasive!",
+          "url": "https://www.youtube.com/watch?v=0u3eqT1cB1k",
+          "published": "2026-06-29T13:20:08+00:00",
+          "content_snippet": "Think about the last time someone changed your mind. Did they argue harder? -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The Progress Principle",
+          "url": "https://www.youtube.com/watch?v=7wqztC5tFYk",
+          "published": "2026-06-29T13:00:21+00:00",
+          "content_snippet": "If you manage people, the highest leverage thing you can do this week is remove one obstacle that's blocking their progress. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 3
+        "Big Think": 2
       }
     },
     {
@@ -142,7 +164,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 3
+        "OpenAI": 2
       }
     },
     {
@@ -156,12 +178,101 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Frontier results, on device - RL Nabors, Arize",
+          "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
+          "published": "2026-06-29T03:30:03+00:00",
+          "content_snippet": "Most of use reach for a frontier model by default and pay for it on every call, in latency, in energy, in cash, and in everything that leaves their stack. For most of those calls, a small local model would do the job. RL Nabors, former Meta/React core team member and AWS alum, covers the vocabulary you need to reason about model performance (capability evals, golden datasets, LLM-as-judge) and walks through real cases: a local agentic harness replacing a frontier call, an in-browser moderation c",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+          "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
+          "published": "2026-06-29T03:00:14+00:00",
+          "content_snippet": "“Composition over inheritance” has always been a good engineering rule. It may also be the unlock for useful AI. A Gmail agent is fundamentally more powerful than a Gmail skill — and when composed with Sheets, Notion, and GitHub agents, the system gets more capable, more reliable, and cheaper to run. Suddenly, smaller models can do real work, and AI can move from internal copilots to customer-facing products. In this talk, we’ll unpack why this architecture hasn’t become the default yet, what’s ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+          "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
+          "published": "2026-06-29T02:30:20+00:00",
+          "content_snippet": "Writing code is no longer the bottleneck. With AI generating specifications, tests, and entire implementations on demand, the expensive part of the software development lifecycle has shifted upstream to the people work. Getting the right stakeholders into the room, eliciting the real requirements, and figuring out what is actually worth building. This talk draws on a VisualLabs internal hackathon where 21 agent ideas were generated and 17 were abandoned, not because of technology limitations, bu",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+          "url": "https://www.youtube.com/watch?v=APh1Vx0oLmQ",
+          "published": "2026-06-29T02:00:28+00:00",
+          "content_snippet": "AI agents are rapidly evolving from copilots into autonomous systems capable of reasoning, invoking tools, coordinating workflows, and interacting with production infrastructure. But most platforms today were designed for deterministic microservices — not long-running, non-deterministic systems powered by LLMs. This creates a massive infrastructure gap. In this talk, I’ll share lessons from building large-scale agentic and elastic compute infrastructure powering production AI workloads. We’ll ex",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+          "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
+          "published": "2026-06-29T01:30:19+00:00",
+          "content_snippet": "In this video we introduce the concept of the agentic ai engineer. similar to coding agent loops for agents we build a system that build AI Agents in an Eval-Driven Developement Loop. The Agentic AI Enginner is a collection of a multi-agent team, steared by an orchestrator and combines, spec, build, evaluate, diagnose, monitor, optimse. We round up the talk with a live demo from one of our agents in research preview. Speakers: - Benedikt Sanftl (Mutagent): Bene is the CEO and Co-Founder of Mutag",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+          "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
+          "published": "2026-06-29T01:00:36+00:00",
+          "content_snippet": "Coding agents challenge long-standing software engineering practices. Instead of using general-purpose libraries, frameworks, or platforms, agents synthesize bespoke systems on demand. In this talk, I'll show where agents fail, where agents succeed, and the workflow for making the specification the product and the prompt the platform. Speakers: - Dominik Tornow (Resonate HQ, Inc): Dominik Tornow is the founder and CEO of Resonate and the author of Think Distributed Systems. He has spent more tha",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
+          "url": "https://www.youtube.com/watch?v=LrGCT7G_rU8",
+          "published": "2026-06-29T00:30:05+00:00",
+          "content_snippet": "Cloud ETL failures often require engineers to manually inspect logs, diagnose schema or data-quality issues, select a repair, rerun the job, and validate recovery. This talk presents an RL-guided pipeline health agent that automates this workflow through deterministic anomaly detection, interpretable Q-learning, bounded remediation actions, and an external safety layer. The system detects schema drift, null-rate spikes, type changes, and runtime failures, then selects actions such as retry, sche",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft",
+          "url": "https://www.youtube.com/watch?v=Lc8zRh9muoY",
+          "published": "2026-06-29T00:00:39+00:00",
+          "content_snippet": "When an autonomous agent fails in production and corrupts an enterprise data record, it rarely repeats the exact same execution trajectory twice. Standard application logs reveal what broke but completely fail to explain why, leaving platform teams unable to reproduce non-deterministic failures on demand. While durable execution engines excel at keeping an agent loop alive through state recovery, durability is fundamentally distinct from debuggability. State recovery reconstructs the present; it",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+          "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
+          "published": "2026-06-28T23:30:33+00:00",
+          "content_snippet": "The latest AI models have made it possible to go past text-based chats, and build what Andrej Karpathy argues is the pinnacle of AI UX: voice-in, visuals-out. In this talk, Forestwalk Labs co-founder Allen Pike shares why this approach for LLM-powered product development is so useful, what's necessary to make it actually delight users, and lessons his team has learned building products with highly responsive AI agents like these – with a key focus on techniques for achieving low latency. Speaker",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent",
+          "url": "https://www.youtube.com/watch?v=Iwe_RY-fYgI",
+          "published": "2026-06-28T23:00:18+00:00",
+          "content_snippet": "Traditional compliance and fraud detection systems analyze financial documents in isolation, making it difficult to identify sophisticated fraud patterns that emerge across multiple enterprise systems. This session presents an AI-driven framework that combines graph-based entity correlation, adaptive probabilistic risk modeling, and cross-jurisdictional normalization to detect hidden compliance risks across payroll, tax, procurement, and financial records. Drawing on an evaluation of approximate",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 8
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 22
+  "deduped_count": 11
 }
