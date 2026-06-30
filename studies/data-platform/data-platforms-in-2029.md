@@ -205,7 +205,7 @@ do not remove the underlying integration load. A 2029 plan that budgets for the 
 but not for connector sprawl and source-schema volatility will be wrong in the same direction
 platform plans have been wrong for a decade.
 
-**2.3 The organizing layer: from tables to governed business meaning.** The platform's primary
+**2.3 The semantic layer: from tables to governed business meaning.** The platform's primary
 interface is no longer the physical table but a governed semantic layer — trending toward
 ontologies and knowledge graphs that encode entities, metrics and relationships ([Salesforce](https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/);
 [arXiv 2604.00555](https://arxiv.org/abs/2604.00555)) — with metrics defined as version-controlled
