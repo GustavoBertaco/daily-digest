@@ -18,8 +18,9 @@
 6. [The operating model: probabilistic work, oversight, and the centralized/decentralized balance](#5-the-operating-model-probabilistic-work-oversight-and-the-centralizeddecentralized-balance)
 7. [What gates the whole thing: the binding constraints](#6-what-gates-the-whole-thing-the-binding-constraints)
 8. [A 2026 → 2029 roadmap](#7-a-2026--2029-roadmap)
-9. [Takeaways](#takeaways)
-10. [References](#references)
+9. [Critical counterpoints: what the evidence base doesn't show](#8-critical-counterpoints-what-the-evidence-base-doesnt-show)
+10. [Takeaways](#takeaways)
+11. [References](#references)
 
 ## Context
 
@@ -378,6 +379,76 @@ Treat oversight capacity as the planning constraint and the data/governance foun
 ([[agentic-access-to-the-data-platform]]) as the prerequisite it gates on. Keep named human
 accountability for every autonomous action.
 
+## 8. Critical counterpoints: what the evidence base doesn't show
+
+Sections 1–7 argue a coherent direction. Before committing org capital to it, six gaps in the
+evidence deserve the same scrutiny applied to the diamond's permanence in §2.
+
+**8.1 The evidence is mostly consulting selling consulting.** McKinsey, PwC, BCG, and Bain all
+have a transformation-services business that needs "you must restructure" to be the answer; four
+firms converging on the same prescription is not four independent data points, it is one
+incentive structure with four logos. Every claim above is forward-looking — "by 2027," "expects,"
+"foresee" — and none is a published account of a real company that tried this restructuring and
+reported the outcome on cost, quality, or attrition, success or failure. The only non-forecast
+evidence in the whole study is Anthropic's account of its own multi-agent *architecture*
+([Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system)) — real production
+data on token economics and coordination limits, but silent on Anthropic's own headcount, span of
+control, or supervisor ratios. This study uses it to back org-design claims the source itself never
+makes; treat §1's and §3.2's org-level conclusions as *inference from an engineering case study*,
+not as a measured organizational outcome.
+
+**8.2 Correlated failure, not just review capacity, is the real ceiling.** §5.2 frames oversight as
+a volume problem — how much output one person can review. But a bad prompt, a poisoned context, or
+a model/policy update propagates *identically* across all 50–100 agents in a fleet at once. A
+2–5 person team sized for independent, one-at-a-time errors is poorly positioned for a
+simultaneous, fleet-wide failure — and the study's own source admits automated evals miss
+behavioral problems that only human testers catch
+([Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system)). Sizing spans by
+average review load, as §5.2 prescribes, treats a risk-concentration problem as a math-of-attention
+problem; the two require different mitigations (canary rollout of prompt/policy changes across a
+fleet, kill-switches, staggered exposure), none of which appear above.
+
+**8.3 No cost model exists to test the central claim against.** The "~15× tokens" figure
+([Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system)) appears once and
+is never priced against the fully-loaded cost of the alternative — more headcount — including the
+supervisor's own comp, the platform/CoE overhead in §3.1, and the cost of incident response when a
+fleet fails the way §8.2 describes. Without that comparison, "oversight capacity, not headcount, is
+the binding constraint" is a directionally plausible but unfalsifiable claim: there is no number a
+CFO could test it against.
+
+**8.4 The accountability claim has no mechanism at the scale the study itself proposes.** §4 and §7
+both assert a "named human accountable for every autonomous action" *and* spans of control widening
+by an order of magnitude. Those two claims are compatible only if "accountable" means
+exception-based, statistically sampled audit rather than literal per-action review — which is a
+materially weaker and more honest claim than the one stated. Where actions are regulator-facing,
+that gap is not just imprecise language but a compliance gap: nothing in this study engages with
+how "named accountability" maps onto an actual regime (the EU AI Act, SOX, or a sector regulator),
+despite governance being named in §6 as *the* binding constraint on the whole shift.
+
+**8.5 The diamond is also a layoff narrative, and the people inside the org know it.** "No more
+pyramids" ([PwC](https://www.pwc.com/us/en/tech-effect/ai-analytics/agentic-ai-workforce-redesign.html))
+reads as neutral structural evolution. In most real executions, narrowing the base means reducing
+headcount, and presenting that as org-design rather than naming it plainly costs trust with exactly
+the people whose judgment the diamond's supervisory middle depends on. A leader adopting this
+roadmap should say what it is rather than inherit the consulting euphemism — the credibility and
+retention cost of the framing is itself a design variable, and it is absent from every source cited
+here.
+
+**8.6 The apprenticeship fix is named, not costed.** §2 correctly identifies the eroding
+apprenticeship pipeline as "the single most-cited unsolved problem," then dispatches it with one
+sentence of mechanisms — rotations, apprenticeships, "do it by hand once" norms. None of the
+sources price the lost subsidy (junior labor used to fund its own training) or define an actual
+evaluation criterion for promoting someone into a supervisor role they never did the underlying
+execution work to earn. This deserves the same weight the study gives the org-shape question, not a
+closing aside.
+
+**Leading indicators worth tracking, not just hedging on.** Given §2's own admission that the
+diamond may be transitional, a leader following this roadmap should instrument, from Phase 2
+onward: span of control versus incident/defect rate per supervisor (tests §8.2); junior-pipeline
+headcount versus internal promotion rate into supervisor roles (tests §8.6); fully-loaded fleet cost
+versus headcount-equivalent cost (tests §8.3); and time-to-detect a correlated, fleet-wide failure
+(tests §8.2). Without these, "hold the shape loosely" in Phase 4 is a sentiment, not a plan.
+
 ## Takeaways
 
 - **The org chart itself changes, not just the tooling.** The unit of work becomes "a person
@@ -397,6 +468,12 @@ accountability for every autonomous action.
   forecast to be canceled by 2027 for missing structural foundations; the win is redesigning
   end-to-end workflows on a governed data foundation, with a **named human accountable** for every
   autonomous action and a **deliberately rebuilt apprenticeship pipeline** for the eroding base.
+- **Treat the prescription as a hypothesis, not a settled answer (§8).** The evidence base is
+  almost entirely consulting forecasts converging on a structure that suits their own business
+  model, with no published account of a real org that tried it. "Named accountability" at scale
+  means statistical audit, not per-action review; correlated fleet-wide failure — not average
+  review load — is the real ceiling on span of control; and the diamond shape is, in practice, a
+  layoff narrative that deserves to be named as such rather than inherited as a euphemism.
 
 ## References
 
