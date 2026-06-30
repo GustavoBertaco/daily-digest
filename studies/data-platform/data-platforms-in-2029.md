@@ -56,11 +56,14 @@ pretend the sources agree):
 
 - **How far agent autonomy actually goes** by 2029 — first-class consumer, or assistive
   copilot that still routes through humans. Adoption is real; *scaled value* is not yet.
-- **Open vs. consolidated.** Even as formats open, the stack is consolidating into a few
-  large vendors, and independent voices warn that "neutrality is eroding" and lock-in is
-  shifting rather than disappearing ([The New Stack](https://thenewstack.io/data-stack-consolidation-risks/)).
-  "Open" looks more like a *battleground* than a settled destination — which is precisely why
-  Kubernetes/BYOC hedges exist.
+- **Open formats vs. consolidated vendors.** "Open" here means *format-level* openness — a
+  published, vendor-neutral on-disk spec any engine can read and write — not that the surrounding
+  platform is open-source or vendor-plural. Even as the formats open in that narrow sense, the
+  stack around them is consolidating into a few large vendors, and independent voices warn that
+  "neutrality is eroding" and lock-in is shifting rather than disappearing
+  ([The New Stack](https://thenewstack.io/data-stack-consolidation-risks/)). Format openness looks
+  more like a *battleground* than a settled destination — which is precisely why Kubernetes/BYOC
+  hedges exist.
 - **Centralized vs. decentralized vs. federated ownership.** The pendulum keeps swinging; data
   mesh reached "hard-won maturity" largely by *re-centralizing the platform* while
   decentralizing ownership, and all three models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
@@ -69,11 +72,12 @@ pretend the sources agree):
 
 **The through-line.** There is no single "2029 data platform," and any source promising one
 is selling something. The most robust pattern across the *independent* signals is that the
-platform's centre of gravity is drifting **toward the data layer** — open formats, immutable
-and versioned assets, and governance and meaning enforced where the data lives — because that
-is what AI-readiness and tightening regulation *separately* demand, which is why it shows up
-regardless of who is forecasting. But the largest architectural bets — autonomy,
-centralization, open-vs-consolidated, scale-out-vs-single-node — stay genuinely open. The
+platform's centre of gravity is drifting **toward the data layer** — open (vendor-neutral)
+table formats, immutable and versioned assets, and governance and meaning enforced where the
+data lives — because that is what AI-readiness and tightening regulation *separately* demand,
+which is why it shows up regardless of who is forecasting. But the largest architectural bets —
+autonomy, centralization, open-formats-vs-consolidated-vendors, scale-out-vs-single-node — stay
+genuinely unresolved. The
 planning-relevant insight is therefore not "adopt the winning architecture"; it is **build
 for optionality** across these axes, because the evidence does not yet justify betting the
 platform on any one of them.
@@ -82,8 +86,8 @@ platform on any one of them.
 
 Five forces are pushing the platform toward its 2029 state. They are not equal: some are
 **exogenous** (they happen *to* the platform team — AI demand, data growth, regulation) and
-some are **choices** the team and its vendors are still actively contesting (open vs.
-consolidated, where ownership sits, which modeling layer wins). The planning value is in
+some are **choices** the team and its vendors are still actively contesting (open formats vs.
+consolidated vendors, where ownership sits, which modeling layer wins). The planning value is in
 telling them apart — you adapt to the first set and place bets on the second. Each force
 below is tagged for confidence and for *who benefits from believing it*, because in this
 domain the loudest sources are rarely disinterested.
@@ -166,8 +170,10 @@ the layers consistently; the contested ones cut across them, so the layer descri
 the **mainstream-plausible** reading and the scenario lens at the end bounds the uncertainty.
 Nothing here is a single-vendor architecture; it is the shape the independent signals point to.
 
-**2.1 The substrate: open, immutable, portable storage on a composable compute fabric.** The
-base of the 2029 platform is open by default and immutable by construction. Open table formats
+**2.1 The substrate: open table formats, immutable and portable storage on a composable compute
+fabric.** The base of the 2029 platform is open *at the format layer* — table/data formats with
+a published, vendor-neutral spec that any engine can read and write, not necessarily an
+open-source platform around them — and immutable by construction. Open table formats
 have converged on an Iceberg/Delta core ([Databricks](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks)),
 data files are immutable with snapshots and time-travel native, and a versioning layer — at
 the catalog ([Project Nessie](https://projectnessie.org/)) or the storage tier ([lakeFS](https://lakefs.io/))
@@ -178,7 +184,8 @@ with single-node engines serving the long tail and distributed engines the still
 ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)). Increasingly this runs
 on a Kubernetes-native or bring-your-own-cloud substrate for portability and sovereignty
 ([CNCF](https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/)).
-*High confidence on open/immutable; contested is how much actually escapes vendor consolidation (§1.2).
+*High confidence on format-level openness and immutability; contested is how much of the
+surrounding platform actually escapes vendor consolidation (§1.2).
 Immutability is not free, either: it buys audit and reproducibility at the cost of an erasure
 obligation someone has to engineer back in — see §2.4.*
 
@@ -198,7 +205,7 @@ do not remove the underlying integration load. A 2029 plan that budgets for the 
 but not for connector sprawl and source-schema volatility will be wrong in the same direction
 platform plans have been wrong for a decade.
 
-**2.3 The organizing layer: from tables to governed business meaning.** The platform's primary
+**2.3 The semantic layer: from tables to governed business meaning.** The platform's primary
 interface is no longer the physical table but a governed semantic layer — trending toward
 ontologies and knowledge graphs that encode entities, metrics and relationships ([Salesforce](https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/);
 [arXiv 2604.00555](https://arxiv.org/abs/2604.00555)) — with metrics defined as version-controlled
@@ -277,7 +284,7 @@ different points on each:
 | --- | --- | --- | --- |
 | Agent autonomy | Copilots; humans approve every action | Agents run governed queries under supervision | Agents act semi-autonomously across domains |
 | Ownership locus | Central platform owns data | Central platform, federated domain ownership | Fully decentralized data products |
-| Open vs. consolidated | Single-vendor stack | Open formats under 1–2 platform vendors | Composable best-of-breed on open formats |
+| Open formats vs. consolidated vendors | Single-vendor stack | Open formats under 1–2 platform vendors | Composable best-of-breed on open formats |
 | Compute model | Scale-out default | Single-node tail + distributed core | Mostly single-node/streaming, burst to cloud |
 
 ## 3. What changes for the people and the operating model
@@ -331,7 +338,8 @@ language for "where the platform must be."
 
 - **There is no single "2029 data platform."** Any source promising one is selling something.
   Plan for a *band* of outcomes and keep the four contested axes — agent autonomy, ownership
-  locus, open-vs-consolidated, single-node-vs-scale-out — reversible rather than bet on one.
+  locus, open-formats-vs-consolidated-vendors, single-node-vs-scale-out — reversible rather than
+  bet on one.
 - **The centre of gravity moves to the data layer.** Open table formats, immutable and
   versioned assets, and governance and meaning enforced *where the data lives* — this is the
   one pattern robust across independent signals, because AI-readiness and regulation demand it
@@ -397,8 +405,8 @@ promote into the body as sections §1–§3 are written. -->
 - **What engineering leaders get wrong about data-stack consolidation — The New Stack** ([thenewstack.io](https://thenewstack.io/data-stack-consolidation-risks/))
   — an **independent** (non-vendor) counter-signal: as the stack consolidates into a few
   vendors, "neutrality erodes" and lock-in shifts rather than disappears. *Supports:* the
-  Context "open vs. consolidated is contested" point — included specifically to balance the
-  open-source/composable optimism elsewhere in the set.
+  Context "open formats vs. consolidated vendors is contested" point — included specifically to
+  balance the open-source/composable optimism elsewhere in the set.
 - **FinOps for Data Cloud Platforms — FinOps Foundation** ([finops.org](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/))
   — the practitioner-standard scope for governing data-cloud spend, shifting FinOps from
   after-the-fact reporting toward shaping spend before it happens. *Supports:* the §1.3 cost
