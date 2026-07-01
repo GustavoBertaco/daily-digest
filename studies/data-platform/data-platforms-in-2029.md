@@ -153,24 +153,17 @@ lineage and portability trends above for independent reasons. With one sharp exc
 immutability and time-travel — a tension §2.4 treats explicitly rather than pretending the
 forces align on every axis.
 
-**1.5 The operating-model force: the product *label* has already won; data-specific product
-*rigor* has not.** *(Choice · contested.)* Gartner's benchmark — ~80% of large software
-organizations running platform-engineering teams that operate the platform as a product — was a
-target for *2026*, not 2029 ([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)):
-that shift has already happened. What hasn't is the *rigor* behind the label, especially for
-data. A survey of 518 platform engineers found nearly 30% of platform teams still don't measure
-success at all ([State of Platform Engineering, Vol. 4, Jan 2026](https://platformengineering.org/reports/state-of-platform-engineering-volume-4)) —
-the framing arrived before the discipline did — and data lags furthest: data mesh, the movement
-that first argued for treating data as a product, reached only "hard-won maturity" by 2026, with
-many declared "data domains" turning out to be lip service rather than accountable ownership
-([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
-Data contracts are only beginning to formalize the producer/consumer interface that would make
-that rigor real. On top of that, the *locus of ownership* — central, decentralized, or
-federated — remains genuinely open: data mesh reached its current state largely by
-**re-centralizing the platform while decentralizing ownership**, and all three models coexist in
-practice. The 2029 question is therefore not *whether* platforms are run as products — that's
-settled — but whether *data* products specifically close the gap to the rigor general platform
-engineering already claims, and where ownership ends up sitting.
+**1.5 The operating-model force: platform-as-product, on an unsettled ownership question.**
+*(Choice · contested.)* How platforms are *built and owned* is shifting from project-style
+infrastructure toward a product discipline — Gartner projects ~80% of large software
+organizations run platform-engineering teams operating the platform as a product
+([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)),
+and data contracts are formalizing the producer/consumer interface. But the *locus of
+ownership* — central, decentralized, or federated — remains genuinely open: data mesh reached
+"hard-won maturity" largely by **re-centralizing the platform while decentralizing
+ownership**, and all three models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Expect the *product* framing to be near-universal by 2029 and the *ownership* question to
+still be argued team by team.
 
 | Force | Direction by 2029 | Confidence | Who benefits from the claim (read skeptically) | Implication for the platform |
 | --- | --- | --- | --- | --- |
@@ -178,7 +171,7 @@ engineering already claims, and where ownership ends up sitting.
 | **Open formats & composability** | Open at the format layer, consolidating at the platform layer | Medium — genuinely two-directional | Open-format vendors *and* consolidators both spin it their way | Treat portability (K8s/BYOC, open formats) as a hedge, not a settled win |
 | **Compute & cost economics** | Small/streaming long tail beside a still-growing core; cost designed-in | High on direction, medium on mix | Single-node vendors push "small data"; hyperscalers push "scale-out" | Support both single-node and distributed; bake FinOps into provisioning |
 | **Regulation & sovereignty** | Tightening, one-directional; becomes a design input | Highest in the set | Compliance/governance tooling vendors amplify it (but it's real) | Design for residency, retention, lineage, resilience up front — non-negotiable in FS |
-| **Operating model & ownership** | Product *label* already near-universal (2026); data-specific product *rigor* and ownership locus both unsettled through 2029 | High on label, low on rigor and ownership | Platform-tooling & IDP vendors; data-mesh consultancies | Don't credit the label; fund the rigor (SLOs, catalogs, accountability) and keep ownership model reversible |
+| **Operating model & ownership** | Platform-as-product near-universal; ownership locus unsettled | High on product framing, low on ownership | Platform-tooling & IDP vendors; data-mesh consultancies | Adopt product practices; keep ownership model reversible, not dogmatic |
 
 ## 2. The likely state of the platform in 2029
 
@@ -313,73 +306,44 @@ constraint here; culture and adoption are. Industry adoption of internal platfor
 a minority of organizations realize the productivity gains they expect, so everything below is
 contingent on the operating model, not just the stack.
 
-**A framing note before the changes: "platform teams become product teams" already happened —
-it is not a 2029 prediction.** Gartner's own benchmark for that shift was 80% of large software
-orgs by *2026* ([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)),
-which is now, not three years out. Stating it as a change *coming* by 2029 would be describing
-the present as the future — an easy trap in forecasts that lean on adoption headlines instead of
-checking their timestamps. What actually still moves between now and 2029 is narrower and less
-comfortable: whether the *rigor* behind that
-label — especially for data specifically, as distinct from general software platform
-engineering — closes the gap it's currently well short of.
+**The platform team becomes a product team.** The clearest, highest-confidence shift: data
+platforms are built and run as *products* — with internal users, SLOs, roadmaps, user research
+and a paved-road developer experience — rather than as project-style infrastructure. Gartner
+projects roughly 80% of large software organizations operate platform-engineering teams on this
+model ([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)).
+For data specifically, this means the platform team's job shifts from building pipelines on
+request to providing self-serve, governed capabilities that domains consume.
 
-**The product label is universal; product rigor for data is not — that gap, not adoption, is
-the real 2029 question.** A survey of 518 platform engineers found nearly 30% of platform teams
-still don't measure success at all ([State of Platform Engineering, Vol. 4, Jan 2026](https://platformengineering.org/reports/state-of-platform-engineering-volume-4)),
-even where "platform as product" is the stated model — the label arrived well ahead of the
-discipline (SLOs tied to outcomes, roadmaps driven by user research, paved-road UX) that's
-supposed to come with it. Data lags furthest: data mesh, the movement that first argued data
-should be treated as a product, reached only "hard-won maturity" by 2026, and many declared
-"data domains" turned out to be lip service rather than genuine, accountable ownership
-([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
-So the realistic 2029 claim is not "data platforms become product teams" — that box is
-already checked on paper — it's whether *data* products specifically reach the rigor general
-platform engineering already claims: discoverable catalogs, producer accountability, contracts
-that are enforced rather than aspirational. Whether that closes by 2029 is itself uncertain: it
-was already "a few years out" once, in the original 2019 data-mesh telling, and missed.
+**Ownership splits from enablement — but where the line sits stays contested.** The mainstream
+pattern is a central platform/CoE that *enables*, with domains that *own* their data products —
+the federated middle ground. But data mesh reached "hard-won maturity" largely by
+re-centralizing the platform while decentralizing ownership, and many "data domains" turned out
+to be lip service rather than genuine ownership ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Centralized, decentralized and federated models all coexist in 2026 and likely still will in
+2029 ([McKinsey](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030));
+this is the operating-model question to keep *reversible*, not to settle dogmatically.
 
-**Ownership splits from enablement — but where the line sits stays as contested in 2029 as it is
-today.** The mainstream pattern is a central platform/CoE that *enables*, with domains that
-*own* their data products — the federated middle ground. But data mesh reached its current state
-largely by re-centralizing the platform while decentralizing ownership (§1.5), and centralized,
-decentralized and federated models all coexist in 2026 and likely still will in 2029
-([McKinsey](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030)).
-Unlike the product-label question above, this one genuinely isn't settling — it's the
-operating-model axis to keep *reversible*, not the one to bet a target-state design on.
+**The unit of collaboration becomes the data contract / data product.** As governance shifts
+left, the interface between producers and consumers is increasingly an explicit contract —
+schema, freshness and quality guarantees enforced in the pipeline — rather than a ticket and a
+downstream surprise ([Chad Sanderson](https://dataproducts.substack.com/p/the-consumer-defined-data-contract)).
+Data products with clear contracts are also described as the prerequisite for trustworthy,
+production-grade AI, which ties the operating model directly to the AI demand force of §1.1.
 
-**The unit of collaboration shifts from ticket to contract — from pocket adoption today to the
-default by 2029.** Data contracts already exist in scattered, team-by-team form now; the
-2026→2029 move is from that patchwork to contracts as the *default* producer/consumer interface
-— schema, freshness and quality guarantees enforced in the pipeline rather than discovered
-downstream ([Chad Sanderson](https://dataproducts.substack.com/p/the-consumer-defined-data-contract)).
-That shift is also what would let the "data domains" above stop being lip service: an
-unenforced contract is just documentation, and it's the enforcement, not the paperwork, that's
-still rare today. Contracts are also described as the prerequisite for trustworthy,
-production-grade AI, tying this operating-model change directly to the §1.1 AI demand force —
-which is a real reason to expect the adoption curve to steepen rather than stay flat.
+**Roles and skills shift from plumbing to meaning, governance and supervision.** As ingestion
+and transformation automate and shift left, scarce human effort moves up the stack: semantic
+and analytics-engineering work (modeling-as-code), data product management, governance and
+lineage stewardship, and a genuinely new function — *supervising agents* that now read and act
+on the platform. The single most-desired emerging skill reported across organizations is **AI
+cost management**, reflecting both the growth of AI spend and the difficulty of allocating it
+([State of FinOps](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/)).
 
-**Roles and skills shift from plumbing to meaning and governance — plus one function that
-genuinely doesn't exist yet in most organizations: supervising agents.** As ingestion and
-transformation automate and shift left, scarce human effort moves up the stack: semantic and
-analytics-engineering work (modeling-as-code), data product management, and governance/lineage
-stewardship are already emerging roles today, not 2029 novelties. *Supervising agents* that read
-and act on the platform is different — it has no real incumbent in most 2026 org charts, which is
-what makes it the one item on this list that is an actual forward change rather than a maturing
-of something already underway. The single most-desired emerging skill reported across
-organizations is **AI cost management**, reflecting both the growth of AI spend and the
-difficulty of allocating it ([State of FinOps](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/))
-— itself a symptom of a role gap that's open now and plausibly closes by 2029, not one that's
-already closed.
-
-**A second audience joins every interaction: the reviewer and the regulator — moving from
-bolted-on to designed-in, and spreading beyond financial services.** The *audience* isn't new:
-BCBS 239 and DORA already force this in FS today. What's not yet arrived is the *design
-posture* — building for the auditor from the outset (lineage, reasoning traces, source
-attribution, action logs as first-class artifacts) rather than retrofitting compliance after
-the fact, and that posture generalizing past FS into other regulated sectors as agentic access
-broadens (§2.5). Frameworks like EDM Council's DCAM give teams a shared maturity language for
-"where the platform must be" — a useful yardstick precisely because most platforms aren't there
-yet.
+**A second audience joins every interaction: the reviewer and the regulator.** In regulated and
+financial-services contexts, the artifacts that make agentic and self-serve access *trustworthy*
+— lineage, reasoning traces, source attribution, action logs — are the same artifacts an
+auditor needs. Designing for both at once (rather than bolting on auditability later) becomes an
+operating-model assumption, and frameworks like EDM Council's DCAM give teams a shared maturity
+language for "where the platform must be."
 
 ## Takeaways
 
@@ -399,12 +363,9 @@ yet.
 - **AI is the demand driver, but the data foundation is the throttle — and regulation only
   tightens.** Both reward the *same* investments (lineage, immutability, governance, real-time
   context), which is why those investments are low-regret even under deep uncertainty.
-- **The product label already won; product rigor for data — and ownership — haven't.** Platform-
-  as-product passed 80% adoption in 2026, so don't mistake the label for the change. What's
-  actually still open through 2029 is whether *data* products reach the same rigor (measured
-  SLOs, discoverable catalogs, enforced contracts, accountable producers) general platform
-  engineering already claims, plus where ownership ends up sitting. Culture and adoption, not
-  tooling, decide whether any of this delivers.
+- **The platform team becomes a product team — and the hard, unresolved question is ownership.**
+  Platform-as-product is near-universal; central vs. federated vs. decentralized is not. Culture
+  and adoption, not tooling, decide whether any of this delivers.
 - **In financial services, the contested becomes settled.** Immutability, lineage, residency and
   resilience are non-negotiable architectural constraints (BCBS 239, DORA, LGPD) — the regulated
   case is less a different platform than the general one with its optional parts made mandatory.
@@ -685,22 +646,13 @@ are primary/institutional sources, not commentary.*
   the canonical definition, not a current-state read.
 - **Platform Engineering Empowers Developers… — Gartner (Top Tech Trends)** ([gartner.com](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers))
   — the projection that 80% of large software orgs stand up platform-engineering teams by
-  2026, operating the platform as a product. *Supports:* the §1.5/§3 point that the *product
-  label* shift is already the present, not a 2029 forecast. *Caveat:* general software-platform
-  framing — adapt to the data-platform context; also dates the claim to 2026, which is why §3
-  treats it as arrived rather than pending.
-- **State of Platform Engineering Report, Volume 4 — platformengineering.org (Jan 2026)** ([platformengineering.org](https://platformengineering.org/reports/state-of-platform-engineering-volume-4))
-  — survey of 518 platform engineers: nearly 30% of platform teams report they don't measure
-  success at all, even under a stated "platform as product" model. *Supports:* the §1.5/§3
-  counterweight to the Gartner adoption headline — the label has outrun the discipline (SLOs
-  tied to outcomes, roadmaps driven by user research) it's supposed to imply. *Caveat:*
-  self-reported industry survey, not academic; general software platform engineering, not
-  data-specific — cited as the closest available proxy for the maturity gap.
+  2026, operating the platform as a product. *Supports:* the §3 "platform-as-product"
+  operating model applied to the data platform. *Caveat:* general software-platform framing
+  — adapt to the data-platform context.
 - **The Consumer-Defined Data Contract — Chad Sanderson** ([dataproducts.substack.com](https://dataproducts.substack.com/p/the-consumer-defined-data-contract))
   — data contracts as the producer/consumer interface that shifts quality enforcement left.
-  *Supports:* the §3 ways-of-working shift (contracts/SLAs as the unit of collaboration, moving
-  from pocket adoption today to a default by 2029). *Caveat:* an opinionated practitioner
-  newsletter — strong framing, one viewpoint.
+  *Supports:* the §3 ways-of-working shift (contracts/SLAs as the unit of collaboration).
+  *Caveat:* an opinionated practitioner newsletter — strong framing, one viewpoint.
 
 ### Scenario & forecasting method
 
