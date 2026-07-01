@@ -43,7 +43,8 @@ signals where it can and flags conflicts where it can't.
 - **Data keeps growing — and most individual workloads stay small.** IDC's Global DataSphere
   shows total data creation rising steeply, led by unstructured data ([IDC](https://my.idc.com/getdoc.jsp?containerId=US53363625)),
   even as the median analytical scan sits near ~100 MB and the 99.9th-percentile read under a
-  few hundred GB ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)).
+  few hundred GB — a DuckDB finding independently corroborated by Amazon's and Snowflake's own
+  fleet telemetry (§1.3) ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)).
   Both are true; the platform must serve a long tail of small queries over an ever-larger whole.
 - **Open table formats are consolidating** into a converging Iceberg/Delta core ([Databricks](https://www.databricks.com/blog/next-era-open-lakehouse-apache-icebergtm-v3-public-preview-databricks)).
 - **Kubernetes is the de-facto production substrate** — ~82% of organizations run it in
@@ -119,9 +120,19 @@ bring-your-own-cloud deployments persist as hedges ([CNCF](https://www.cncf.io/a
 **1.3 The economics force: the unit of compute shrinks and cost moves left.** *(Exogenous
 hardware trend + choice.)* Two cost pressures compound. First, single-node engines now handle
 the overwhelming majority of real workloads — the median analytical scan is ~100 MB and the
-99.9th-percentile read is under a few hundred GB ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data))
-— eroding the assumption that everything needs a scale-out cluster, *without* removing the
-need for one: IDC's DataSphere shows the total keeps growing, led by unstructured data
+99.9th-percentile read is under a few hundred GB ([DuckDB](https://duckdb.org/2025/05/19/the-lost-decade-of-small-data)).
+That figure comes from the vendor with the most to gain from it, so it's worth checking against
+telemetry from vendors with the opposite incentive — and it holds up. Amazon's own analysis of
+its production Redshift fleet (sampled across 200 instances, the public "Redset" trace) finds a
+~2,030x gap between median and 99.9th-percentile query cost, with well under 0.1% of queries
+consuming roughly a quarter of all compute ([*Why TPC Is Not Enough*, VLDB 2024](https://www.vldb.org/pvldb/vol17/p3694-saxena.pdf)).
+The public "Snowset" trace of 70M real production Snowflake queries shows the same skew: a small
+minority of large queries consume nearly half (45.6%) of total CPU time while the bulk of
+queries stay small and cheap ([Snowset, NSDI 2020](https://www.usenix.org/conference/nsdi20/presentation/vuppalapati)).
+Three vendors' own operational telemetry — DuckDB, Redshift, Snowflake — independently converges
+on the same shape: most queries small and cheap, a thin tail huge and expensive. That erodes the
+assumption that everything needs a scale-out cluster, *without* removing the need for one: IDC's
+DataSphere shows the total keeps growing, led by unstructured data
 ([IDC](https://my.idc.com/getdoc.jsp?containerId=US53363625)). Second, cloud-data spend has
 become a board-level line item, pushing FinOps from after-the-fact reporting toward
 shaping spend *before* it happens ([State of FinOps](https://www.finops.org/framework/scope/finops-for-data-cloud-platforms/)).
@@ -428,8 +439,8 @@ promote into the body as sections §1–§3 are written. -->
   — median warehouse scan ~100 MB and 99.9-pct reads <300 GB; argues "99% of useful
   datasets" fit a single node ("data singularity"). *Supports:* the §2 counter-current to
   scale-out — single-node/decoupled compute as a real 2029 design point. *Caveat:* authored
-  by the engine's vendor; the underlying telemetry (Redshift/Snowflake studies) is the
-  primary evidence.
+  by the engine's vendor; independently corroborated below by Amazon's Redshift-fleet study
+  and the Snowset Snowflake trace — vendors with no single-node engine to sell.
 - **Separating Storage and Compute in DuckDB — MotherDuck** ([motherduck.com](https://motherduck.com/blog/separating-storage-compute-duckdb/))
   — the architectural pattern that lets single-node engines scale via the cloud when
   needed. *Supports:* the §2 "decoupled compute" point. *Caveat:* vendor (a16z-backed) —
@@ -558,6 +569,21 @@ rest on vendor forecasts alone.*
   — the peer-reviewed primary behind the in-process / single-node analytics movement
   (replaces the marketing blog as the load-bearing citation). *Lifecycle:* compute/query.
   *Supports:* the §2 "decoupled, single-node compute" design point with academic grounding.
+- **Why TPC Is Not Enough: An Analysis of the Amazon Redshift Fleet — van Renen, Saxena, Kraska et al. (VLDB 2024)** ([vldb.org PDF](https://www.vldb.org/pvldb/vol17/p3694-saxena.pdf))
+  — Amazon's own operational telemetry from 200 sampled production Redshift instances (the
+  public "Redset" trace): a ~2,030x gap between median and 99.9th-percentile query cost, with
+  under 0.1% of queries consuming roughly a quarter of all compute. *Lifecycle:* compute/query.
+  *Supports:* independent, non-DuckDB confirmation of the §1.3 claim that real analytical
+  workloads are extremely skewed toward small and cheap. *Caveat:* still vendor telemetry, but
+  peer-reviewed and against Amazon's own scale-out interest — a useful counterweight to the
+  DuckDB entry above.
+- **Building an Elastic Query Engine on Disaggregated Storage (the "Snowset" trace) — Vuppalapati, Miron, Agarwal, Truong, Motivala, Cruanes (NSDI 2020)** ([usenix.org](https://www.usenix.org/conference/nsdi20/presentation/vuppalapati))
+  — 70M real production Snowflake queries over 14 days (Cornell + Snowflake co-authors); a small
+  minority of large queries consume nearly half (45.6%) of total CPU time while most queries stay
+  small and cheap. *Lifecycle:* compute/query. *Supports:* a second, independent large-scale
+  telemetry confirmation of the §1.3 skewed-workload claim, from a different vendor and compute
+  model than DuckDB's. *Caveat:* 2018 trace data — directionally durable but worth checking for
+  drift against more recent studies.
 - **The Composable Data Management System Manifesto — Pedreira, Erling, Karanasos, Wes McKinney et al. (VLDB 2023)** ([vldb.org PDF](https://www.vldb.org/pvldb/vol16/p2679-pedreira.pdf))
   — the missing engineering through-line: decoupling UIs from engines via a shared IR
   (Substrait) and reusable components (Velox, Arrow, DuckDB). *Lifecycle:* spans the stack.
