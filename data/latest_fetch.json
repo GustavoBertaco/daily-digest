@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T11:59:57Z",
+  "fetched_at": "2026-07-01T12:21:00Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,30 @@
       ],
       "items": [
         {
-          "title": "Getting a Google job skyrocketed Neetcode's Youtube channel",
-          "url": "https://www.youtube.com/watch?v=GSlsSZXUV0Q",
-          "published": "2026-06-29T15:00:45+00:00",
+          "title": "\"Some people should just give up on tech careers\"",
+          "url": "https://www.youtube.com/watch?v=t9LQZ6EnZa8",
+          "published": "2026-06-30T18:00:03+00:00",
           "content_snippet": "With Neet, Founder of ⁨@NeetCode. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Companies have no idea how to evaluate engineers",
+          "url": "https://www.youtube.com/watch?v=VEljB3kwzSY",
+          "published": "2026-06-30T13:00:04+00:00",
+          "content_snippet": "With Neet, Founder of ⁨@NeetCode. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "10 Years of Meta’s Commitment to Python",
+          "url": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/",
+          "published": "2026-06-30T16:00:46+00:00",
+          "content_snippet": "This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF) , the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from the backend of our apps and products like Instagram and Threads to cutting-edge AI research . We recognize the vital role t",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -34,8 +52,7 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 2,
-        "Meta Engineering": 2
+        "Netflix Tech Blog": 1
       }
     },
     {
@@ -62,10 +79,10 @@
       ],
       "items": [
         {
-          "title": "The Progress Principle",
-          "url": "https://www.youtube.com/watch?v=7wqztC5tFYk",
-          "published": "2026-06-29T13:00:21+00:00",
-          "content_snippet": "If you manage people, the highest leverage thing you can do this week is remove one obstacle that's blocking their progress. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "4 Habits To Reduce Negative Thinking!",
+          "url": "https://www.youtube.com/watch?v=p-T5ldqJPEU",
+          "published": "2026-06-30T13:16:14+00:00",
+          "content_snippet": "Yale psychologist Susan Nolen-Hoeksema spent decades studying rumination. Her research found it's one of the strongest predictors of anxiety and depression, often a bigger factor than the event that triggered it. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -132,47 +149,133 @@
       ],
       "items": [
         {
-          "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
-          "published": "2026-06-30T09:00:00+00:00",
-          "content_snippet": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region. OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and multi-step agentic workflows. It helps developers build AI applications and production workflows that can interpret context, interact with tools, operate software environments, and verify outputs across multiple steps. GPT-5.4 runs on Amazon Bedrock's next-generation inference engine with isolated queues and ",
+          "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
+          "published": "2026-06-30T21:15:00+00:00",
+          "content_snippet": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as team ownership, environment, cost center, or application name, without requiring changes to your logging instrumentation. With tag enrichment, Amazon CloudWatch Logs adds resource tags directly to your log events at ingestion time. You can immediately use tags in log queries, to scope your analysis without building",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
-          "published": "2026-06-29T22:00:00+00:00",
-          "content_snippet": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web exploits and abuse. As enterprises move agentic applications from prototype to production, this launch gives security and platform teams ability to apply consistent, customizable web protections at the Gateway layer. You can now associate an AWS WAF protection pack with your AgentCore Gateway to enfo",
+          "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
+          "published": "2026-06-30T21:00:00+00:00",
+          "content_snippet": "AWS CloudFormation customers can now get immediate feedback on deployment errors in seconds, eliminating the need to wait through a full provision-and-rollback cycle to discover preventable failures. CloudFormation now runs pre-deployment validation on Create Stack and Update Stack operations, catching common deployment errors before resource provisioning begins. This accelerates development velocity across all deployment workflows, from manual iteration to CI/CD pipelines to AI agents provision",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MWAA Serverless now supports shared VPC configurations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
-          "published": "2026-06-29T17:19:00+00:00",
-          "content_snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a validation error when creating MWAA Serverless workflows. With this update, MWAA Serverless correctly validates subnet ownership in shared VPC configurations, consistent with MWAA Provisioned environments. Sharing VPC subnets across accounts using AWS RAM is a common pattern in multi-account landing z",
+          "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
+          "published": "2026-06-30T21:00:00+00:00",
+          "content_snippet": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations when CloudFormation confirms resource configuration is applied, rather than waiting for extended stabilization checks such as traffic readiness, region propagation, and resource cleanup. This enables faster iteration cycles for developers and AI agents building infrastructure. When iterating on infr",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Advent Accelerates Deals with ChatGPT + Codex",
-          "url": "https://www.youtube.com/watch?v=f-HiB82Tl94",
-          "published": "2026-06-29T14:30:09+00:00",
-          "content_snippet": "ChatGPT + Codex are a one-two punch for investment firms. \"Having the ability to connect your deal folder with all of the context, and then be able to ask ChatGPT and Codex real time questions has been really impactful to our workflows,\" - Jasmine Azizi (Advent). Financial firms hold a tremendous amount of context. ChatGPT acts like a brain layer so teams can spend more time focusing on the next big bet.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Amazon RDS Enhances IAM Database Authentication with Connection Rate Scaling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
+          "published": "2026-06-30T20:00:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (Amazon RDS) now offers dynamic connection scaling for IAM database authentication, allowing connection rates to scale with instance resources. IAM database authentication performance now scales with available instance resources, enabling enterprise workloads to leverage IAM authentication for high-volume connection patterns. The number of new IAM authentication requests your instance can handle depends on available resources and workload characteristics. For o",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Parallel Computing Service supports in-place Slurm major version upgrades",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
+          "published": "2026-06-30T19:12:00+00:00",
+          "content_snippet": "AWS Parallel Computing Service (PCS) now supports managed in-place Slurm version upgrades for existing clusters. You can move your clusters up to three Slurm major versions ahead with no disruption to running jobs. To upgrade, update your Cluster configuration with your target Slurm version using the AWS Management Console, AWS CLI, or UpdateCluster API. PCS handles the upgrade of all managed Slurm components — the controller, accounting database, and REST API. Running jobs continue uninterrupte",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/",
+          "published": "2026-06-30T19:00:00+00:00",
+          "content_snippet": "Amazon ElastiCache now supports T4g node types in the following AWS Regions: Africa (Cape Town), Asia Pacific (Jakarta), Asia Pacific (Osaka), AWS GovCloud (US-East), and AWS GovCloud (US-West). T4g nodes are powered by AWS Graviton2 processors and provide a baseline level of CPU performance with the ability to burst CPU usage at any time, making them ideal for applications that experience temporary spikes in usage. For complete information on pricing and regional availability, please refer to t",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Neptune announces dual stack support with IPv6",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/",
+          "published": "2026-06-30T19:00:00+00:00",
+          "content_snippet": "Amazon Neptune now supports dual-stack mode, enabling database clusters to accept connections over IPv4, IPv6, or both protocols simultaneously. This allows organizations to adopt IPv6 while maintaining backward compatibility with existing IPv4 deployments. Neptune dual-stack mode supports two configurations. Private dual-stack mode provides IPv6 endpoints that remain isolated from the internet, suitable for internal applications and private graph databases. Public dual-stack mode enables IPv6 e",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS End User Messaging RCS now supports rich media and interactive messaging",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-end-user-messaging-rcs/",
+          "published": "2026-06-30T18:21:00+00:00",
+          "content_snippet": "AWS End User Messaging now supports rich media and interactive messaging for RCS across all 22 supported countries. With the new SendRcsMessage API, you can send rich cards, carousels, images, videos, and interactive suggestion buttons that let recipients take action directly inside their messaging app. RCS message recipients can tap to confirm an appointment, browse a product catalog, complete a payment in a webview, share their location, or interact with an AI agent, all without leaving their ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Time Sync Service adds support for Microsecond accurate time on 26 additional EC2 instance types in all commercial regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
+          "published": "2026-06-30T17:30:00+00:00",
+          "content_snippet": "Amazon Time Sync Service introduces support for microsecond accurate time on 26 additional EC2 instance types in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nitro System, microsecond accurate time and nanosecond precision hardware timestamps leverage the reference clocks running in the Nitro System directly, enabling customers to easily order application events, measure 1-way network latency, and increase distributed application transaction speed. Starting",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing general availability of Amazon WorkSpaces for AI agents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-ai/",
+          "published": "2026-06-30T17:28:00+00:00",
+          "content_snippet": "Amazon WorkSpaces for agents is now generally available, enabling AI agents to securely access and operate desktop applications through managed WorkSpaces environments. Enterprises run critical business processes on desktop applications (ERP systems, CRMs, mainframes, and proprietary tools) where years of customization, undocumented logic, and strict compliance requirements make them too critical to abandon and costly to modernize. WorkSpaces for agentsnow gives AI agents a managed cloud workspa",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+          "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+          "published": "2026-06-30T21:30:33+00:00",
+          "content_snippet": "Today, we’re announcing AWS CloudFormation Express mode, a new deployment mode that accelerates deployments for developers and AI tools iterating on infrastructure. Express mode accelerates deployments by completing when CloudFormation confirms resource configuration is applied, rather than waiting for extended stabilization checks. This reduces deployment time by up to 4 times for iterative development workflows and production scenarios. How it works Every CloudFormation deployment performs sta",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
+          "published": "2026-06-30T20:56:44+00:00",
+          "content_snippet": "When you run compute-intensive workloads like real-time analytics, batch processing, video encoding, scientific modeling, or CPU-based machine learning inference, every percentage point of performance matters. You need instances that deliver higher throughput per vCPU, faster memory access, and more network bandwidth, all while keeping your costs in check. Today I am happy to announce the general availability of Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Gra",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
+          "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+          "published": "2026-06-30T20:15:11+00:00",
+          "content_snippet": "If you manage TLS certificates for your applications, you know the challenge: certificates expire, and when they do, your customers see errors or your service goes down. As certificate validity periods get shorter (the Certification Authority (CA)/Browser Forum mandates reduced maximum validity to 100 days starting March 2027, and to 47 days by 2029), manual renewal processes become untenable. You need automation. Automatic Certificate Management Environment (ACME) is an open protocol for reques",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "From monolith to Lakebase to LTAP: rethinking the database from storage up",
+          "url": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
+          "published": "2026-06-30T18:05:48+00:00",
+          "content_snippet": "When I started my PhD at UC Berkeley 16 years ago, my advisor told me: \"OLTP databases...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -183,7 +286,7 @@
         }
       ],
       "deduped_sources": {
-        "AWS Blog": 1
+        "OpenAI": 1
       }
     },
     {
@@ -199,10 +302,10 @@
       ],
       "items": [
         {
-          "title": "Building Great Agent Skills: The Missing Manual",
-          "url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
-          "published": "2026-06-29T18:53:10+00:00",
-          "content_snippet": "Let's discuss how to navigate \"skill hell\" by providing a structured framework for building high-quality agent skills. Without a shared rubric, developers and organizations struggle to create effective, maintainable skills for AI agents. Timestamps: 0:00 - Introduction to the talk and the concept of \"skill hell\" 2:12 - Overview of the skill checklist framework 3:16 - Trigger: Choosing between user-invoked and model-invoked skills 7:29 - Structure: Organizing steps and references 9:00 - Making th",
+          "title": "AI Engineer World's Fair 2026 Day 1: Software Factories & Keynotes",
+          "url": "https://www.youtube.com/watch?v=htM02KMNZnk",
+          "published": "2026-07-01T00:55:48+00:00",
+          "content_snippet": "Live from San Francisco, AI Engineer World’s Fair 2026 brings the main stage to viewers online for Day 1 of session programming. Watch live for keynote sessions, main-stage programming, and highlights from one of the biggest gatherings in AI engineering. Follow along with AI Engineer as we stream the opening day of World’s Fair 2026. Event: AI Engineer World’s Fair 2026 Date: Tuesday, June 30, 2026 Venue: Moscone West, San Francisco Schedule highlights: • 90m Keynotes: 9:00 AM–10:30 AM PT • Main",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -212,5 +315,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 17
+  "deduped_count": 16
 }
