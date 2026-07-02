@@ -153,17 +153,17 @@ lineage and portability trends above for independent reasons. With one sharp exc
 immutability and time-travel — a tension §2.4 treats explicitly rather than pretending the
 forces align on every axis.
 
-**1.5 The operating-model force: platform-as-product, on an unsettled ownership question.**
-*(Choice · contested.)* How platforms are *built and owned* is shifting from project-style
-infrastructure toward a product discipline — Gartner projects ~80% of large software
-organizations run platform-engineering teams operating the platform as a product
-([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)),
-and data contracts are formalizing the producer/consumer interface. But the *locus of
-ownership* — central, decentralized, or federated — remains genuinely open: data mesh reached
-"hard-won maturity" largely by **re-centralizing the platform while decentralizing
-ownership**, and all three models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
-Expect the *product* framing to be near-universal by 2029 and the *ownership* question to
-still be argued team by team.
+**1.5 The operating-model force: platform-as-product already won; ownership is what's still
+unsettled.** *(Choice · contested.)* Gartner's ~80%-of-large-orgs benchmark for running
+platform-engineering as a product is a *2026* figure, not a 2029 forecast
+([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)) —
+most platform teams already operate this way, and data contracts are formalizing the
+producer/consumer interface. What's still genuinely open through 2029 is the *locus of
+ownership* — central, decentralized, or federated: data mesh reached "hard-won maturity"
+largely by **re-centralizing the platform while decentralizing ownership**, and all three
+models coexist in practice ([Thoughtworks](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Expect *product* to remain the default framing — it's not a 2029 prediction, it's already the
+present — and the *ownership* question to still be argued team by team.
 
 | Force | Direction by 2029 | Confidence | Who benefits from the claim (read skeptically) | Implication for the platform |
 | --- | --- | --- | --- | --- |
@@ -171,7 +171,7 @@ still be argued team by team.
 | **Open formats & composability** | Open at the format layer, consolidating at the platform layer | Medium — genuinely two-directional | Open-format vendors *and* consolidators both spin it their way | Treat portability (K8s/BYOC, open formats) as a hedge, not a settled win |
 | **Compute & cost economics** | Small/streaming long tail beside a still-growing core; cost designed-in | High on direction, medium on mix | Single-node vendors push "small data"; hyperscalers push "scale-out" | Support both single-node and distributed; bake FinOps into provisioning |
 | **Regulation & sovereignty** | Tightening, one-directional; becomes a design input | Highest in the set | Compliance/governance tooling vendors amplify it (but it's real) | Design for residency, retention, lineage, resilience up front — non-negotiable in FS |
-| **Operating model & ownership** | Platform-as-product near-universal; ownership locus unsettled | High on product framing, low on ownership | Platform-tooling & IDP vendors; data-mesh consultancies | Adopt product practices; keep ownership model reversible, not dogmatic |
+| **Operating model & ownership** | Platform-as-product already near-universal (2026); ownership locus unsettled through 2029 | High on product framing (already arrived), low on ownership | Platform-tooling & IDP vendors; data-mesh consultancies | Don't count "adopt product practices" as forward progress — it's done; focus effort on ownership model, keep it reversible |
 
 ## 2. The likely state of the platform in 2029
 
@@ -306,13 +306,15 @@ constraint here; culture and adoption are. Industry adoption of internal platfor
 a minority of organizations realize the productivity gains they expect, so everything below is
 contingent on the operating model, not just the stack.
 
-**The platform team becomes a product team.** The clearest, highest-confidence shift: data
-platforms are built and run as *products* — with internal users, SLOs, roadmaps, user research
-and a paved-road developer experience — rather than as project-style infrastructure. Gartner
-projects roughly 80% of large software organizations operate platform-engineering teams on this
-model ([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)).
-For data specifically, this means the platform team's job shifts from building pipelines on
-request to providing self-serve, governed capabilities that domains consume.
+**The platform team already is a product team.** The clearest, highest-confidence shift isn't
+coming — it's arrived: data platforms are built and run as *products*, with internal users,
+SLOs, roadmaps, user research and a paved-road developer experience, rather than as
+project-style infrastructure. Gartner's benchmark of roughly 80% of large software
+organizations running platform-engineering teams this way is dated *2026*
+([Gartner](https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers)),
+not 2029. For data specifically, this means the platform team's job has already shifted from
+building pipelines on request to providing self-serve, governed capabilities that domains
+consume.
 
 **Ownership splits from enablement — but where the line sits stays contested.** The mainstream
 pattern is a central platform/CoE that *enables*, with domains that *own* their data products —
@@ -363,9 +365,9 @@ language for "where the platform must be."
 - **AI is the demand driver, but the data foundation is the throttle — and regulation only
   tightens.** Both reward the *same* investments (lineage, immutability, governance, real-time
   context), which is why those investments are low-regret even under deep uncertainty.
-- **The platform team becomes a product team — and the hard, unresolved question is ownership.**
-  Platform-as-product is near-universal; central vs. federated vs. decentralized is not. Culture
-  and adoption, not tooling, decide whether any of this delivers.
+- **The platform team already is a product team — and the hard, unresolved question is ownership.**
+  Platform-as-product is already near-universal (2026, not a 2029 shift); central vs. federated
+  vs. decentralized is not. Culture and adoption, not tooling, decide whether any of this delivers.
 - **In financial services, the contested becomes settled.** Immutability, lineage, residency and
   resilience are non-negotiable architectural constraints (BCBS 239, DORA, LGPD) — the regulated
   case is less a different platform than the general one with its optional parts made mandatory.
