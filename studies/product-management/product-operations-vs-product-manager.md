@@ -81,6 +81,15 @@ single-product-area role; Product Ops is an internal-facing, cross-cutting one
 | **Owns** | Vision, strategy, roadmap trade-offs, outcomes for their product area — the **value** and **viability** of a solution, in Cagan's CORE model ([SVPG, Empowered Product Teams](https://www.svpg.com/empowered-product-teams/)) | Data/reporting infrastructure, the intake & voice-of-customer pipeline, planning cadence, the PM tool stack, process standards |
 | **Scope** | Usually one product or product area | Usually the whole product org, cross-cutting |
 | **Measured by** | Business outcomes of their product (adoption, revenue, retention) | Consistency and efficiency of how the *org* operates — time-to-decision, time-to-market, PM time reclaimed |
+
+A platform organization's internal PM/Product Ops guidance I've seen puts the same split
+even more tersely, worth carrying forward as a gut-check: **PM** = identify and define
+the *right problem* to solve, and build toward a value proposition that is clearly
+differentiated *and* technically and economically viable. **Product Ops** = business
+strategy execution, scalability, operational excellence, and project/process management
+— frequently absorbing internal (and sometimes external) stakeholder management along
+the way. Same shape as the table above (problem/value vs. execution/process), just
+stated from inside an org that actually runs both roles side by side.
 | **Fails silently as** | A feature factory — output without product judgement | PMs drowning in ops work instead of doing high-judgement product thinking |
 
 Two things are easy to get wrong, and worth calling out explicitly:
