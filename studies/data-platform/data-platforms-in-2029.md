@@ -6,6 +6,10 @@
 - **Date:** 2026-06-21
 - **Status:** draft
 
+> *The words written here are all AI-generated, but all the content was critically reviewed
+> and validated by me — the use of AI is to accelerate the knowledge searching and narrative
+> building.*
+
 ## Contents
 
 1. [Context](#context)

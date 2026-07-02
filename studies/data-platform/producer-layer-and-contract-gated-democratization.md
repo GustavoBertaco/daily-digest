@@ -8,6 +8,10 @@
 - **Date:** 2026-07-01
 - **Status:** draft
 
+> *The words written here are all AI-generated, but all the content was critically reviewed
+> and validated by me — the use of AI is to accelerate the knowledge searching and narrative
+> building.*
+
 ## Context
 
 The trigger for this note: an observed shift away from traditional data-layer taxonomies —
