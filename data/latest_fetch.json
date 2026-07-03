@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T11:55:37Z",
+  "fetched_at": "2026-07-03T11:54:39Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,30 +14,12 @@
       ],
       "items": [
         {
-          "title": "How Kent Beck shapes the software engineering industry",
-          "url": "https://www.youtube.com/watch?v=ddHQQtjIOpw",
-          "published": "2026-07-01T16:41:08+00:00",
-          "content_snippet": "Few have made as big an impact on software engineering as this week’s guest on the Pragmatic Engineer podcast, Kent Beck. He created Extreme Programming, pioneered test-driven development (TDD), co-created JUnit, and is one of the authors of the famous ‘Agile Manifesto’. But these days, he's re-examining many ideas for the age of AI, and says we’re failing to accumulate trust during this new era at the same high rate as new code is being accumulated. In this episode of the Pragmatic Engineer pod",
+          "title": "Kent Beck: Why TDD got less popular",
+          "url": "https://www.youtube.com/watch?v=WUqA6eCDxIE",
+          "published": "2026-07-02T16:00:33+00:00",
+          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Martin Kleppmann also hated the CAP theorem",
-          "url": "https://www.youtube.com/watch?v=VoTdpW06DUY",
-          "published": "2026-07-01T13:00:23+00:00",
-          "content_snippet": "With Neet, Founder of @NeetCode. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Meta’s AI Storage Blueprint at Scale",
-          "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
-          "published": "2026-07-01T16:00:36+00:00",
-          "content_snippet": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both the speed and computational cost of this AI innovation. If AI is the brain, storage is the memory: Capability and speed are highly dependent on the size of memory and speed of retrieval. Yet while AI compute performance ha",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -52,7 +34,8 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1
+        "Netflix Tech Blog": 1,
+        "Meta Engineering": 2
       }
     },
     {
@@ -77,33 +60,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "You're Not That Special",
-          "url": "https://www.youtube.com/watch?v=9NzeLQYctLA",
-          "published": "2026-07-01T13:00:04+00:00",
-          "content_snippet": "The harshest self-critics aren't humble. They're just running narcissism in the other direction. You're a human who had a moment where things went sideways. Treat it like a data point, not a verdict, and it actually becomes useful. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Who's the victim? | Paul Bloom",
-          "url": "https://www.youtube.com/watch?v=ow7R3CIhsWw",
-          "published": "2026-07-01T18:02:05+00:00",
-          "content_snippet": "Who's the victim? | Paul Bloom",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 2,
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -154,178 +121,74 @@
       ],
       "items": [
         {
-          "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
-          "published": "2026-07-01T22:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, connect, and optimize AI agents. The new default limits support up to 5,000 active concurrent sessions in US East (N. Virginia) and US West (Oregon), and 2,500 in all other supported Regions. All AWS Regions where AgentCore is available now support 200 agent interactions per second and 25 new sessions c",
+          "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+          "published": "2026-07-02T21:49:00+00:00",
+          "content_snippet": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain through version-controlled templates. With this launch, platform teams can bring SageMaker Unified Studio into their existing infrastructure-as-code pipelines, maintaining consistency across development, staging, and production accounts. Amazon SageMaker Unified Studio is a unified development environm",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch supports creating alarms from log queries",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
-          "published": "2026-07-01T21:30:00+00:00",
-          "content_snippet": "Amazon CloudWatch allows you to create alarms on log data using log queries, and get alerted on anomalies without leaving your log analysis workflow. With today's launch, you can configure an alarm on log query and specify the alarm threshold directly, thereby eliminating the need to first create metric filters or custom metrics as intermediate steps. This streamlines the path to actively monitoring the data in your logs, and monitoring and alerting on it. For example, you can write a query to c",
+          "title": "Amazon EC2 X8i instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+          "published": "2026-07-02T20:48:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more m",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ECS Service Connect now supports Zone-Aware routing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-          "published": "2026-07-01T21:28:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automatically prioritizing service-to-service traffic within the same AZ. With this launch, ECS Service Connect preferentially routes requests to endpoints in the same AZ as the originating task while dynamically adjusting traffic weights as endpoints scale to maintain balanced load across target services",
+          "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+          "published": "2026-07-02T17:00:00+00:00",
+          "content_snippet": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use. Customers can allocate a Dedicated Host with SEV-SNP enabled and launch SEV-SNP instances on it. This gives customers the benefits of Dedicated Hosts for confidential computing workloads, including control over instance placement, and host affinity that allows ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
-          "published": "2026-07-01T20:48:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now provides real-time deployment observability in the Amazon ECS Console. With this launch, customers can track deployment progress, monitor deployment health, and diagnose failures directly from the console, and understand exactly what is happening during a deployment, identify issues as they occur, and reduce the time it takes to troubleshoot and resolve deployment failures. The enhanced deployment observability introduces a live deployment timeli",
+          "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+          "published": "2026-07-02T16:00:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastructure for training and deploying foundation models at scale. Cluster administrators previously had limited insight into which AMI versions were running, making drift hard to detect and security patching a manual, reactive process that was difficult to ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
-          "published": "2026-07-01T20:01:00+00:00",
-          "content_snippet": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service through which AWS provides compliance reports, certifications, and agreements to customers. Assurance Assistant helps third-party risk managers, compliance officers, security engineers, and auditors accelerate vendor assessments and due diligence questionnaire (DDQ) completion by providing sourced ans",
+          "title": "AWS Config now supports 8 new resource types",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+          "published": "2026-07-02T15:00:00+00:00",
+          "content_snippet": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also avail",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Partner Central now supports AWS Marketplace listings for co-selling",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-co-selling-support/",
-          "published": "2026-07-01T19:06:00+00:00",
-          "content_snippet": "Today, AWS announces that partners can associate one or more AWS Marketplace solutions and product listings from their AWS Marketplace catalog directly to co-sell opportunities in AWS Partner Central. Previously, opportunities required partners to use solutions specially created for co-selling, which meant partners managed their solutions for the AWS Marketplace catalog and solutions for co-selling separately. Partners can now associate their existing AWS Marketplace listings with opportunities ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
-          "published": "2026-07-01T17:00:00+00:00",
-          "content_snippet": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US West (N. California); between Asia Pacific (Taipei) and Asia Pacific (Singapore) or Asia Pacific (Tokyo); between Asia Pacific (New Zealand) and Asia Pacific (Singapore), Asia Pacific (Sydney), or Asia Pacific (Melbourne); and between Asia Pacific (Thailand) and Asia Pacific (Sing",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
-          "published": "2026-07-01T17:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers ship agents fast with any framework and any model, connect them to enterprise systems and tools, and optimize them continuously, with security enforced at the infrastructure layer that agents can't bypass. With this expansion, customers in t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-          "published": "2026-07-01T17:00:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior, deployment needs, and tolerance for task failures, so rollback works the way you need across different applications and environments. The ECS deployment circuit breaker automatically detects failed deployments and rolls them back to the las",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon GuardDuty adds sensitive file modification threat detections",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-          "published": "2026-07-01T16:58:00+00:00",
-          "content_snippet": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amazon EKS or Amazon ECS. These findings help identify post-compromise attacker activities by monitoring critical system files, including configuration files, authentication settings, and system logs. This capability is designed for security teams, DevSecOps professionals, and cloud security architects ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
-          "url": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
-          "published": "2026-07-01T17:20:30+00:00",
-          "content_snippet": "Upgrading a Kubernetes control plane has long been a one way door. Open source Kubernetes doesn’t support control plane rollback, so once you upgrade, there’s no going back. The community is making real progress here, and KEP-4330 introduces emulated versions to ease rollback. But in practice this constraint has pushed organizations to build elaborate compensating mechanisms like bake periods, stagger groups, automated sign offs, and months long upgrade cycles. With Kubernetes releasing three mi",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How we keep GPUs reliable across Databricks AI",
-          "url": "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai",
-          "published": "2026-07-01T23:00:00+00:00",
-          "content_snippet": "Distributed GPU training has become routine across the industry. Teams now train...",
+          "title": "The 3 questions to answer to take AI from experimentation to impact",
+          "url": "https://www.databricks.com/blog/3-questions-answer-take-ai-experimentation-impact",
+          "published": "2026-07-02T17:04:19+00:00",
+          "content_snippet": "Companies are starting to see the potential of AI in their businesses. Today, 60%...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Celebrating the Winners of the 2026 Built-On Databricks Startup Challenge",
-          "url": "https://www.databricks.com/blog/celebrating-winners-2026-built-databricks-startup-challenge",
-          "published": "2026-07-01T22:00:00+00:00",
-          "content_snippet": "We are excited to announce the winners of the 2026 Built-On Databricks Startup Challenge...",
+          "title": "Inside the infrastructure strategies propelling AI leaders",
+          "url": "https://www.databricks.com/blog/inside-infrastructure-strategies-propelling-ai-leaders",
+          "published": "2026-07-02T16:47:56+00:00",
+          "content_snippet": "AI adoption is starting to translate into real-world returns. But as efforts accelerate,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Granular Usage Attribution for dbt Pipelines with Query Tags",
-          "url": "https://www.databricks.com/blog/granular-usage-attribution-dbt-pipelines-query-tags",
-          "published": "2026-07-01T19:23:01+00:00",
-          "content_snippet": "Your dbt project runs 80 models every night. The warehouse bill doubled last quarter....",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Beyond dashboards: Introducing Decision Execution Platforms",
-          "url": "https://www.databricks.com/blog/beyond-dashboards-introducing-decision-execution-platforms",
-          "published": "2026-07-01T18:20:00+00:00",
-          "content_snippet": "Figure 1: Decision Execution Platforms by Databricks Forward Deployed EngineeringDecision...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Forecasting at the speed of modern retail",
-          "url": "https://www.databricks.com/blog/forecasting-speed-modern-retail",
-          "published": "2026-07-01T15:30:00+00:00",
-          "content_snippet": "Demand forecasting has always been at the center of retail and CPG planning. It shapes...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Codex for Solutions Engineers: Making AI Tangible for Customers",
-          "url": "https://www.youtube.com/watch?v=08hgAtg-P_8",
-          "published": "2026-07-01T18:31:25+00:00",
-          "content_snippet": "\"As a solutions engineer, my job is to make customers believe our technology can take them where they want to go. Codex helps me turn raw, messy context - customer emails, industry signals, product information, and even Trustpilot reviews - into something they can react to. I can analyze what their customers are asking for, mock up their website, apply those changes, and package the demo with a voiceover walkthrough. It makes the value tangible in their world, not ours.” Stephanie Anani, Solutio",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Setup with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=IUGEvzfvUWU",
-          "published": "2026-07-01T14:30:32+00:00",
-          "content_snippet": "",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Grow With ChatGPT",
-          "url": "https://www.youtube.com/watch?v=N3Hzsf2PuHA",
-          "published": "2026-07-01T14:28:59+00:00",
-          "content_snippet": "",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -335,7 +198,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 3
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -350,10 +215,19 @@
       ],
       "items": [
         {
-          "title": "WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive",
-          "url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
-          "published": "2026-07-02T00:59:42+00:00",
-          "content_snippet": "Live from San Francisco, AI Engineer World’s Fair 2026 continues with Day 2 of session programming from the main stage. Watch live for keynote sessions, main-stage programming, and more from World’s Fair 2026 as AI Engineer brings another full day of AI engineering content to viewers online. Event: AI Engineer World’s Fair 2026 Date: Wednesday, July 1, 2026 Venue: Moscone West, San Francisco Schedule highlights: • 90m Keynotes: 9:00 AM–10:30 AM PT • Main programming: 10:45 AM–12:25 PM PT • Main ",
+          "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
+          "url": "https://www.youtube.com/watch?v=I2cbIws9j10",
+          "published": "2026-07-03T01:22:12+00:00",
+          "content_snippet": "Live from San Francisco, AI Engineer World’s Fair 2026 wraps with the final day of main-stage programming. Watch live for keynote sessions, featured talks, and closing-day highlights from World’s Fair 2026 as AI Engineer streams the final day of the event online. Event: AI Engineer World’s Fair 2026 Date: Thursday, July 2, 2026 Venue: Moscone West, San Francisco Schedule highlights: • 90m Keynotes: 9:00 AM–10:30 AM PT • Main programming: 10:45 AM–12:25 PM PT • Main programming: 1:30 PM–4:05 PM P",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+          "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
+          "published": "2026-07-02T16:25:19+00:00",
+          "content_snippet": "Interfaces outlive their constraints. The keyboard, command line, mouse, menus, forms, voice assistants, and even prompts were all brilliant compromises with the machines of their time. But AI gives us a chance to renegotiate that bargain. This talk reframes AI as an interface technology, not only an intelligence technology. We will trace a pattern across computing history: humans repeatedly learn the machine’s protocol, from punching cards to writing commands to engineering prompts. Then we wil",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -363,5 +237,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 14
+  "deduped_count": 16
 }
