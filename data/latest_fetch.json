@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T11:54:39Z",
+  "fetched_at": "2026-07-04T11:10:16Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,9 +14,9 @@
       ],
       "items": [
         {
-          "title": "Kent Beck: Why TDD got less popular",
-          "url": "https://www.youtube.com/watch?v=WUqA6eCDxIE",
-          "published": "2026-07-02T16:00:33+00:00",
+          "title": "Kent Beck pairing with Ward Cunningham",
+          "url": "https://www.youtube.com/watch?v=PwUDbTGrhIE",
+          "published": "2026-07-03T16:00:09+00:00",
           "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
@@ -60,17 +60,42 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Motivational Interviewing",
+          "url": "https://www.youtube.com/watch?v=r9XYCu4IElM",
+          "published": "2026-07-03T19:14:30+00:00",
+          "content_snippet": "Save this for next time you have a hard conversation. The power of persuasion lies in the questions you ask, not the commands you give. Whether it’s parenting, sales, or leadership, remember this: Influence is strongest when it’s self-driven. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "5 things you can do to avoid Alzheimer's | Lisa Genova",
+          "url": "https://www.youtube.com/watch?v=AE68Y3kBKCY",
+          "published": "2026-07-03T18:02:57+00:00",
+          "content_snippet": "5 things you can do to avoid Alzheimer's | Lisa Genova",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The 250-million year rise and fall of the dinosaurs | Steve Brusatte",
+          "url": "https://www.youtube.com/watch?v=Kk0VyaXjWXQ",
+          "published": "2026-07-03T13:00:32+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Hollywood lied to you about Ancient Rome. Here’s the truth | Mary Beard: Full Interview ► https://www.youtube.com/watch?v=v_yP8C7uo3Y Steve Brusatte, the paleontologist behind Jurassic Wo",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 2,
-        "Big Think": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -119,74 +144,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-          "published": "2026-07-02T21:49:00+00:00",
-          "content_snippet": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain through version-controlled templates. With this launch, platform teams can bring SageMaker Unified Studio into their existing infrastructure-as-code pipelines, maintaining consistency across development, staging, and production accounts. Amazon SageMaker Unified Studio is a unified development environm",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 X8i instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-          "published": "2026-07-02T20:48:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more m",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-          "published": "2026-07-02T17:00:00+00:00",
-          "content_snippet": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use. Customers can allocate a Dedicated Host with SEV-SNP enabled and launch SEV-SNP instances on it. This gives customers the benefits of Dedicated Hosts for confidential computing workloads, including control over instance placement, and host affinity that allows ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
-          "published": "2026-07-02T16:00:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastructure for training and deploying foundation models at scale. Cluster administrators previously had limited insight into which AMI versions were running, making drift hard to detect and security patching a manual, reactive process that was difficult to ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Config now supports 8 new resource types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
-          "published": "2026-07-02T15:00:00+00:00",
-          "content_snippet": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also avail",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The 3 questions to answer to take AI from experimentation to impact",
-          "url": "https://www.databricks.com/blog/3-questions-answer-take-ai-experimentation-impact",
-          "published": "2026-07-02T17:04:19+00:00",
-          "content_snippet": "Companies are starting to see the potential of AI in their businesses. Today, 60%...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Inside the infrastructure strategies propelling AI leaders",
-          "url": "https://www.databricks.com/blog/inside-infrastructure-strategies-propelling-ai-leaders",
-          "published": "2026-07-02T16:47:56+00:00",
-          "content_snippet": "AI adoption is starting to translate into real-world returns. But as efforts accelerate,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -213,29 +182,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy",
-          "url": "https://www.youtube.com/watch?v=I2cbIws9j10",
-          "published": "2026-07-03T01:22:12+00:00",
-          "content_snippet": "Live from San Francisco, AI Engineer World’s Fair 2026 wraps with the final day of main-stage programming. Watch live for keynote sessions, featured talks, and closing-day highlights from World’s Fair 2026 as AI Engineer streams the final day of the event online. Event: AI Engineer World’s Fair 2026 Date: Thursday, July 2, 2026 Venue: Moscone West, San Francisco Schedule highlights: • 90m Keynotes: 9:00 AM–10:30 AM PT • Main programming: 10:45 AM–12:25 PM PT • Main programming: 1:30 PM–4:05 PM P",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
-          "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
-          "published": "2026-07-02T16:25:19+00:00",
-          "content_snippet": "Interfaces outlive their constraints. The keyboard, command line, mouse, menus, forms, voice assistants, and even prompts were all brilliant compromises with the machines of their time. But AI gives us a chance to renegotiate that bargain. This talk reframes AI as an interface technology, not only an intelligence technology. We will trace a pattern across computing history: humans repeatedly learn the machine’s protocol, from punching cards to writing commands to engineering prompts. Then we wil",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 3
+      }
     }
   ],
-  "deduped_count": 16
+  "deduped_count": 15
 }
