@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T11:10:16Z",
+  "fetched_at": "2026-07-05T11:18:22Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Kent Beck pairing with Ward Cunningham",
-          "url": "https://www.youtube.com/watch?v=PwUDbTGrhIE",
-          "published": "2026-07-03T16:00:09+00:00",
-          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Airbnb Tech",
@@ -34,6 +24,7 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
         "Meta Engineering": 2
       }
@@ -60,42 +51,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Motivational Interviewing",
-          "url": "https://www.youtube.com/watch?v=r9XYCu4IElM",
-          "published": "2026-07-03T19:14:30+00:00",
-          "content_snippet": "Save this for next time you have a hard conversation. The power of persuasion lies in the questions you ask, not the commands you give. Whether it’s parenting, sales, or leadership, remember this: Influence is strongest when it’s self-driven. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "5 things you can do to avoid Alzheimer's | Lisa Genova",
-          "url": "https://www.youtube.com/watch?v=AE68Y3kBKCY",
-          "published": "2026-07-03T18:02:57+00:00",
-          "content_snippet": "5 things you can do to avoid Alzheimer's | Lisa Genova",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The 250-million year rise and fall of the dinosaurs | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=Kk0VyaXjWXQ",
-          "published": "2026-07-03T13:00:32+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Hollywood lied to you about Ancient Rome. Here’s the truth | Mary Beard: Full Interview ► https://www.youtube.com/watch?v=v_yP8C7uo3Y Steve Brusatte, the paleontologist behind Jurassic Wo",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -163,13 +129,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "OpenAI",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -182,12 +150,47 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Missing Layer After Launch - Raphael Kalandadze, Wandero AI",
+          "url": "https://www.youtube.com/watch?v=kZsf_Sfm7RU",
+          "published": "2026-07-05T03:15:05+00:00",
+          "content_snippet": "We run a production system of agents for real customers. The team that keeps it healthy is also made of agents. Operating an agent product isn't like operating software. When our agent fails a customer — a dropped constraint, a stale price, a confident wrong answer — nothing crashes and no log lights up. The failure is in the conversation, not the stack trace. So we put agents on the operations: - One monitors production conversations and judges where the agent actually let a customer down — acr",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI",
+          "url": "https://www.youtube.com/watch?v=2IxD9OB3XuQ",
+          "published": "2026-07-05T03:13:35+00:00",
+          "content_snippet": "Agents fail in production in ways that static benchmarks cannot fully capture. The key question is whether they can learn from those experiences without drifting or breaking prior capabilities. This talk introduces verifiable continual learning for AI agents: a framework for converting traces, failures, and feedback into testable, regression-aware improvements. I will discuss four core requirements: turning failures into replayable learning environments, preserving prior capabilities during upda",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc",
+          "url": "https://www.youtube.com/watch?v=sAOBXCDiDOs",
+          "published": "2026-07-05T03:12:17+00:00",
+          "content_snippet": "Everyone in this room knows what MCP is, but I am sure not many people know what MCP Apps are, how they work, how to build them and distribute them. By the end of this talk you'll know everything you need to join the race! MCP Apps are not just MCP servers with a UI bolted on. They're a full interaction layer: bidirectional, stateful, rendered by the host, with the model and the UI sharing live context. This talk is structured around **What MCP Apps actually are.** The architecture: how an App i",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI",
+          "url": "https://www.youtube.com/watch?v=d_Ftrl3vfV0",
+          "published": "2026-07-05T03:10:50+00:00",
+          "content_snippet": "You’re shipping faster than ever, but still can’t quickly answer: \"Why does this matter to an average user?\" A decade ago, the market would find you. Now, if people can't instantly understand what your AI product does, you’re in trouble. That communication gap has become fatal. This talk? Your emergency hotline. With 7M views helping complex AI systems make sense to everyday people, and direct work with YC startups, AI tools, and safety organizations across SF, Veronica Hylak shares how technica",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 3
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 11
 }
