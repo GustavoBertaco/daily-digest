@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T13:08:23Z",
+  "fetched_at": "2026-07-07T12:16:40Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,18 +12,12 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Why Kent Beck named it “Extreme Programming”",
-          "url": "https://www.youtube.com/watch?v=VdlyuCKTNu4",
-          "published": "2026-07-05T16:00:25+00:00",
-          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
@@ -34,7 +28,7 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1,
+        "The Pragmatic Engineer": 1,
         "Meta Engineering": 2
       }
     },
@@ -60,17 +54,33 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Psychology of Elite Performers | Dr. Gio Valiante",
+          "url": "https://www.youtube.com/watch?v=JOh-9iaPcGU",
+          "published": "2026-07-07T10:00:10+00:00",
+          "content_snippet": "Dr. Gio Valiante is one of the world's leading performance psychologists, trusted by elite athletes, investors, executives, and high performers to help them perform at their best when the stakes are highest. In this conversation, Gio explains why most people never reach their potential, how confidence and fear shape performance, and what separates those who consistently excel from those who stay stuck. He shares practical strategies for building better habits, overcoming self-imposed limits, sta",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Fermented foods power your gut microbes | Tim Spector",
+          "url": "https://www.youtube.com/watch?v=L69SpBJ-Rqs",
+          "published": "2026-07-06T16:03:03+00:00",
+          "content_snippet": "Fermented foods power your gut microbes | Tim Spector",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
-          "source_name": "The Knowledge Project Podcast",
+          "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 1,
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -121,30 +131,153 @@
       ],
       "items": [
         {
-          "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-          "published": "2026-07-06T09:00:00+00:00",
-          "content_snippet": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software. With CodePipeline, you model the full release process for building your code, deploying to pre-production environments, testing your application and releasing it to production. CodePipeline then builds, tests, and deploys your application according ",
+          "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+          "published": "2026-07-06T21:29:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — onto dedicated GPU pools and transfers the key-value (KV) cache between them over Elastic Fabric Adapter (EFA) using GPU-Direct RDMA. Customers running LLMs in production for chat assistants, agentic pipelines, retrieval-augmented generation, and long-document analysis need consistent per-token latenc",
           "source_name": "AWS What's New",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
+          "published": "2026-07-06T21:00:00+00:00",
+          "content_snippet": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform in your user pools in each AWS Region, and you can purchase additional limits on adjustable API categories. With the new on-demand model, you can adjust your rate limits up or down more quickly to match your application’s traffic patterns. Previously, to adjust your Cognito API rate limits, you would",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
+          "published": "2026-07-06T20:30:00+00:00",
+          "content_snippet": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported model on Hugging Face and choose \"Customize on SageMaker AI\" or \"Deploy on SageMaker AI\" to land directly on the corresponding workflow page with the model pre-loaded and ready to use. Previously, getting from model discovery to a working environment required navigating the AWS Co",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EVS VCF 9.0 and 9.1 support",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
+          "published": "2026-07-06T17:29:00+00:00",
+          "content_snippet": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon Virtual Private Cloud (VPC) on EC2 bare-metal instances. With this latest announcement, you now have complete control of the installation, operations, and management of the VMware virtualization solution running the VCF 9.0 and recently released VCF 9.1 versions. You can continue to use the same tools",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
+          "published": "2026-07-06T15:00:00+00:00",
+          "content_snippet": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public certificates becomes untenable. ACME support in ACM gives developers a standards-based path to fully automate certificat",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+          "published": "2026-07-06T15:00:00+00:00",
+          "content_snippet": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment events from instrumented services without additional code changes. Customers can now quickly identify whether a deployment has introduced new exceptions by navigating to CloudWatch > Application Signals > [Service] > Errors in the CloudWatch console. Service Events is available to any application with Cl",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+          "published": "2026-07-06T15:46:43+00:00",
+          "content_snippet": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually solving. One story that stayed with me came from Marco Negreiros, founder of EyeCare Health , a Brazilian healthtech expanding access to eye care. He shared a striking fact: more than 70% of Brazilian municipalities don’t have a single ophthalmol",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Automatic Upgrades: best practice features for your lakehouse tables",
+          "url": "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables",
+          "published": "2026-07-06T23:10:00+00:00",
+          "content_snippet": "Your Unity Catalog (UC) managed tables now get better on their own. Automatic (Auto)...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Reimagining Data Modeling on the Lakehouse: Introducing Vibe Data Modeling",
+          "url": "https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling",
+          "published": "2026-07-06T20:40:00+00:00",
+          "content_snippet": "The challenges with Data ModelingIn every analytics stack, the Silver layer is where...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Scaling Security Alert Triage With Specialized Agents on Databricks",
+          "url": "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks",
+          "published": "2026-07-06T18:00:00+00:00",
+          "content_snippet": "What if low severity didn't mean low priority?Databricks ingests petabytes of security...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Contextual Policies in Omnigent: Using session state to better govern AI agents",
+          "url": "https://www.databricks.com/blog/contextual-policies-omnigent-using-session-state-better-govern-ai-agents",
+          "published": "2026-07-06T17:42:58+00:00",
+          "content_snippet": "We recently launched Omnigent, an open source meta-harness for AI agents. It lets...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "OpenAI and Databricks at DAIS 2026: Making enterprise AI real",
+          "url": "https://www.databricks.com/blog/openai-and-databricks-dais-2026-making-enterprise-ai-real",
+          "published": "2026-07-06T15:04:20+00:00",
+          "content_snippet": "Data + AI Summit 2026 brought together over 32k+ in-person attendees across hundreds of sessions, product announcements...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Réinventer l'expérience beauté grâce à l'IA",
+          "url": "https://www.youtube.com/watch?v=sLYXRA5Ay9g",
+          "published": "2026-07-07T09:01:40+00:00",
+          "content_snippet": "Découvrez comment Sephora réinvente l'expérience beauté grâce à l'intelligence artificielle. Lors de cette session enregistrée à l'occasion de l'événement OpenAI France en juin 2026, Géraldine Servouze, Global VP Data, AI & Insights chez Sephora, présente la stratégie IA de l'entreprise et la manière dont elle s'appuie sur les modèles d'OpenAI pour proposer des expériences toujours plus personnalisées à ses clients, tout en accompagnant ses équipes et ses partenaires. Géraldine revient notamment",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What does an AI-native future look like for one of the world's largest automotive marketplaces?",
+          "url": "https://www.youtube.com/watch?v=0x4KRxmRGz4",
+          "published": "2026-07-07T08:23:39+00:00",
+          "content_snippet": "In this customer story, Justin Re, Global Chief Product Officer at AutoScout24 Group, shares how the company is using Codex across the organization to accelerate software development, automate workflows, and explore new ways of working. Hear how AutoScout24 is working toward a future of \"hands off coding,\" built an AI-powered agent in just 48 hours, and is already saving approximately one million working hours annually through a single workflow. Read the full AutoScout24 story: https://openai.co",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Builders Unscripted: Ep. 5 - Derya Unutmaz",
+          "url": "https://www.youtube.com/watch?v=4sexN3yE8xg",
+          "published": "2026-07-06T20:03:49+00:00",
+          "content_snippet": "Derya Unutmaz, M.D., an immunologist and professor at The Jackson Laboratory, chats with Romain Huet about building tools for biology with Codex and a future where AI helps scientists simulate experiments. 00:00 Builders Unscripted Episode 5 09:17 Cell analysis with Codex 13:26 Simulating immune cells 29:48 The future of AI-powered science",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Thomson Reuters CEO Steve Hasker swears by this AI Routine",
+          "url": "https://www.youtube.com/watch?v=sha3EL1ngN8",
+          "published": "2026-07-06T14:39:55+00:00",
+          "content_snippet": "The Monday morning AI routine that Thomson Reuters CEO Steve Hasker Steve Hasker swears by: 🎙️ Listen to the Reuters News World pod 💡 Prep for the day with your GPT 📈 Roll up your sleeves & immerse yourself in the work",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "OpenAI",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -165,12 +298,47 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing",
+          "url": "https://www.youtube.com/watch?v=bRnoEpoK5m4",
+          "published": "2026-07-07T03:46:29+00:00",
+          "content_snippet": "The entire software distribution stack assumes one version of your software, the same for everyone. It was the only thing we could afford when producing a change was expensive. Now it's nearly free, and it can happen at runtime, on the client, in the user's session, so the line between distribution and development is dissolving. This talk is about the infrastructure that has to catch up: where truth lives when every user runs a different version, how you debug a program that exists for one perso",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic",
+          "url": "https://www.youtube.com/watch?v=UcYoMg-8-L8",
+          "published": "2026-07-07T03:46:24+00:00",
+          "content_snippet": "Automattic, the company behind WordPress, ran a 30-day experiment called Radical Speed Month: pause the roadmap, and see how fast real software could ship. I am a product Designer and I shipped three products that month. I'll share what each one revealed about a new kind of collaboration between designers and engineers and how teams are unlocked when bottlenecks disappear. Speakers: - Sanja Grbic (Automattic): Sanja is a product designer based in San Francisco, with over a decade of experience, ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI",
+          "url": "https://www.youtube.com/watch?v=Rx8f05JI_WA",
+          "published": "2026-07-07T03:45:51+00:00",
+          "content_snippet": "SWE-Marathon is a benchmark for long-horizon autonomous software work: 20 project-scale tasks spanning product clones, library rewrites, and ML engineering. We discuss what happens when coding agents run for tens to hundreds of millions of tokens, why full-stack evals need computer-use verifiers, and why reward-hacking resistance is now central to benchmark design. Speakers: - Rishi Desai (Abundant AI): Rishi Desai is an ML Engineer at Abundant AI, where he works on RL environments and SWE bench",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Field Guide to Fable — Thariq Shihipar, Anthropic",
+          "url": "https://www.youtube.com/watch?v=9fubhllmsBU",
+          "published": "2026-07-06T16:00:06+00:00",
+          "content_snippet": "Ask a chat model which Pokemon names end in aw and it fails, even though it knows every Pokemon by heart. Ask Claude Code and it writes a script, fetches the list, and filters for the answer in seconds. Thariq Shihipar, who works on Claude Code at Anthropic, calls that gap capability overhang: models get smarter in spiky ways, and the tools you give them decide which spikes you can reach. Thariq covers what it takes to work with Fable, Anthropic's newest model. Claude Code cut 80 percent of its ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 4
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 12
+  "deduped_count": 8
 }
