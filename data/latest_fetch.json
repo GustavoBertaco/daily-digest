@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T11:28:17Z",
+  "fetched_at": "2026-07-09T12:20:44Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,19 @@
       ],
       "items": [
         {
-          "title": "Dario is wrong about software engineering",
-          "url": "https://www.youtube.com/watch?v=xFzFUW7Cs1I",
-          "published": "2026-07-07T16:00:15+00:00",
-          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "The Pragmatic Engineer AMA",
+          "url": "https://www.youtube.com/watch?v=cSIMVYjVF28",
+          "published": "2026-07-08T16:18:51+00:00",
+          "content_snippet": "In this special “ask me anything” episode of Pragmatic Engineer podcast, I am in the hot seat facing questions sent in by subscribers that are read out by guest Volodymyr Giginiak, CTO and cofounder of Wordsmith AI, a legal tech startup (note: I’m an investor). I tackle your questions on the software industry, AI, hiring, engineering organizations, career growth, the business model of the Pragmatic Engineer, and more. We also discuss where software engineering is headed, and I offer advice on so",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "I quit Amazon after two months",
+          "url": "https://www.youtube.com/watch?v=pBQ8ZP3WQP4",
+          "published": "2026-07-08T13:00:29+00:00",
+          "content_snippet": "With Neet, Founder of @NeetCode. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -33,13 +42,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Meta Engineering": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -63,16 +74,29 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Why Forcing Yourself To Work... Never Works",
+          "url": "https://www.youtube.com/watch?v=-_fCHBbgi-0",
+          "published": "2026-07-08T13:36:56+00:00",
+          "content_snippet": "What if the way we motivate people is mostly wrong? That was the argument at the heart of Drive. But fifteen years later, too many companies, schools, and families stubbornly cling to the old ways. So, I made a video revisiting the book and highlighting the seven ideas that still matter most. The core lesson: You don’t install motivation in people. You create the conditions for it. Subscribe for more on motivation, performance, and doing work that actually matters. See you in the next one. -- To",
           "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The bacteria myth everybody believes | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=LSz1QGtDhNg",
+          "published": "2026-07-08T16:01:53+00:00",
+          "content_snippet": "The bacteria myth everybody believes | Giulia Enders",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
+      "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 1
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -124,127 +148,154 @@
       ],
       "items": [
         {
-          "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
-          "published": "2026-07-07T21:26:00+00:00",
-          "content_snippet": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, query running processes, check GPU utilization, and examine application state — all without managing SSH keys, open ports, or infrastructure credentials. Stream Session Admin Shell provides a terminal connection with the same level of access as your Amazon GameLift Streams applications. To connect, c",
+          "title": "AWS Builder Center Now Offers Free Sandbox Environments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
+          "published": "2026-07-08T22:45:00+00:00",
+          "content_snippet": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges. Previously, workshops could only be completed using a builder's own AWS account. With sandbox environments, builders of all skill levels can safely deploy resources, write code, and experiment in a pre-provisioned AWS account. Free sandbox environments are ideal for builders who w",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/",
-          "published": "2026-07-07T19:00:00+00:00",
-          "content_snippet": "Amazon S3 Vectors is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S3 Vectors is designed to provide the same elasticity, durability, and availability as Amazon S3, with a dedicated set of APIs that let you store, access, and query vectors without provisioning any infrastructure. For a full list of AWS Regions where A",
+          "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
+          "published": "2026-07-08T21:00:00+00:00",
+          "content_snippet": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet. Network Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables. It discovers public IP addresses, virtual machines, and load balancers across your AWS and Azure environments, identifies reachable ports, and determines what services are ru",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Security Hub extends unified security management to Microsoft Azure",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
-          "published": "2026-07-07T18:21:00+00:00",
-          "content_snippet": "Today, AWS announces that AWS Security Hub now monitors Microsoft Azure resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads in AWS and Azure have had to operate separate security tools for each environment, making it difficult to prioritize risks holistically or respond consistently. Security Hub now provides a single, unified experience to detect and respond to",
+          "title": "Amazon Redshift RG instances now available on the trailing track",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
+          "published": "2026-07-08T18:12:00+00:00",
+          "content_snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track . Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trailing track (P201). The trailing track is designed for customers who prioritize stability for production workloads, running on a version already validated through the leading track. With RG instances now available on both tracks, customers can take advantage of AWS Graviton-powered performance - del",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
-          "published": "2026-07-07T18:00:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management fees are reduced by 35%, and P-series and AWS Trainium fees are reduced by 60%. These reductions apply automatically and no action is required from customers already using GPU instances with ECS Managed Instances. With ECS Managed Instances, you get the application performance you want and the simp",
+          "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
+          "published": "2026-07-08T18:00:00+00:00",
+          "content_snippet": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integration workflows. Aurora DSQL CDC automatically captures the results of insert, update, and delete operations as change events and delivers them to Kinesis Data Streams with no infrastructure to manage. You can use CDC to synchronize data across microservices, trigger AWS Lambda functions, or deliver",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
-          "published": "2026-07-07T17:06:00+00:00",
-          "content_snippet": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker configuration available on EMR Serverless was 16 vCPUs with up to 120 GB of memory. Larger workers can help you improve the runtime performance as well as cost profiles for your workloads. For shuffle-heavy workloads, larger workers reduce inefficient data transfers between executors. For jobs with d",
+          "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
+          "published": "2026-07-08T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique characteristics of each channel, including concurrent work handling, duration of work from minutes to months, and distinct service level requirements, so your forecasts and schedules reflect how your operation actually runs. For example, if your agents ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
-          "published": "2026-07-07T17:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards, delivering up to 43% higher performance compared to previous generation C6in instances. C8ine instances offer up to 2.5 times higher packet performance per vCPU versus prior generation network op",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
-          "published": "2026-07-07T17:00:00+00:00",
-          "content_snippet": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual ETL, and notebooks. This capability is already available in IAM Identity Center-based domains. The interactive lineage graph provides an aggregate visual representation of how data moves from source to consumption, with configurable graph depth, event timestamp mode for detailed column-level lineage, a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
-          "published": "2026-07-07T16:00:00+00:00",
-          "content_snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL ana",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
-          "published": "2026-07-07T15:00:00+00:00",
-          "content_snippet": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude, Amazon Nova, and Meta Llama. With Oracle Database 26ai, you can leverage Oracle's Select AI feature to generate and run SQL queries from natural language prompts, increasing productivity for both developers and business users. You can also implement retrieval augmented generation (RAG) directly fro",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
-          "published": "2026-07-07T13:00:00+00:00",
-          "content_snippet": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region. Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Standard. It enables workloads such as machine learning t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Imperial College London is accelerating dementia research with a modern data platform",
-          "url": "https://www.databricks.com/blog/how-imperial-college-london-accelerating-dementia-research-modern-data-platform",
-          "published": "2026-07-07T19:20:00+00:00",
-          "content_snippet": "Imagine being unable to tell your doctor whether you're in pain or running a fever...",
+          "title": "Navigating a Synapse Migration to Databricks",
+          "url": "https://www.databricks.com/blog/navigating-synapse-migration-databricks",
+          "published": "2026-07-08T19:00:00+00:00",
+          "content_snippet": "Azure Synapse has served as a reliable foundation for SQL analytics at scale, and...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "MUFG aims to become AI-native with OpenAI",
-          "url": "https://www.youtube.com/watch?v=pE1ljLVY1Rg",
-          "published": "2026-07-08T00:02:05+00:00",
-          "content_snippet": "With OpenAI, MUFG is working to become an AI-native financial group—bringing ChatGPT Enterprise to approximately 35,000 Mitsubishi UFJ Bank employees and building the foundation for secure, responsible AI adoption at scale. See how MUFG is using AI to help employees focus on higher-value customer work while creating more accessible, personalized financial experiences: https://openai.com/index/mufg/ OpenAI とともに、MUFG は AI-Native な企業への変革を進めています。三菱 UFJ 銀行の約35,000人の従業員に ChatGPT Enterprise を導入し、安全かつ責任",
+          "title": "Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase",
+          "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+          "published": "2026-07-08T16:30:51+00:00",
+          "content_snippet": "At Databricks, the way we build software is changing quickly as we aggressively adopt...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Bain Capital Is Scaling AI with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=8xqQzrLf0co",
+          "published": "2026-07-08T22:51:23+00:00",
+          "content_snippet": "For businesses, AI is most powerful when everyone can use it. “Having 2,700 employees, all of whom now have an enterprise ChatGPT license, has just been a giant force multiplier for the business.” -James Mackey, Bain Capital See how Bain Capital portfolio company Zelis is using ChatGPT to streamline claims processing and help reduce costs across the healthcare system.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How TPG Is Accelerating Investment Research with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=mC8nKdQbbO4",
-          "published": "2026-07-07T17:33:50+00:00",
-          "content_snippet": "For investment firms, getting smart faster is a competitive advantage. “My team uses ChatGPT on a daily basis… for market studies and desktop information scrapes… It enables us to get smart on industries really, really quickly.” -David Bessel, TPG See how TPG is putting ChatGPT to work across research and diligence.",
+          "title": "The next generation of ChatGPT Voice",
+          "url": "https://www.youtube.com/watch?v=9f-Ew_lDtxc",
+          "published": "2026-07-08T21:13:26+00:00",
+          "content_snippet": "Join Kundan Kumar, Yuchen Zhang, Ehsan Asdar, and Rithesh Kumar as they introduce and demo a new generation of voice models.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How TPG Is Accelerating Investment Research with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=SRXJevuTnNI",
-          "published": "2026-07-07T17:15:23+00:00",
-          "content_snippet": "For investment firms, getting smart faster is a competitive advantage. “My team uses ChatGPT on a daily basis… for market studies and desktop information scrapes… It enables us to get smart on industries really, really quickly.” -David Bessel, TPG See how TPG is putting ChatGPT to work across research and diligence.",
+          "title": "Image interaction with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=KS4X-BPjxN8",
+          "published": "2026-07-08T17:37:19+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Discoverability widgets with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=QUOwyLwoykU",
+          "published": "2026-07-08T17:36:34+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Natural Conversations with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=3bL6IpdgddQ",
+          "published": "2026-07-08T17:33:32+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Temporal awareness with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=8vvWTz6N7Qg",
+          "published": "2026-07-08T17:33:31+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Listening & Speaking with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=K-fYBO8t3-A",
+          "published": "2026-07-08T17:33:31+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "This is the new ChatGPT Voice, powered by GPT-Live",
+          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
+          "published": "2026-07-08T17:23:27+00:00",
+          "content_snippet": "You’ll want to turn the sound on for this one. Read more here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "OpenAI Academy: Parent-Coaches with the San Antonio Spurs",
+          "url": "https://www.youtube.com/watch?v=94cXnSu6kUQ",
+          "published": "2026-07-08T15:25:08+00:00",
+          "content_snippet": "The San Antonio Spurs Community Impact organization, OpenAI Academy and the Positive Coaching Alliance teamed up to bring together coaches, parents, and community leaders on Sunday to explore how AI can support learning, coaching, and youth engagement—on and off the court.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "OpenAI Academy x Veterans Forge | Building with ChatGPT: Practical AI Skills for Veterans",
+          "url": "https://www.youtube.com/watch?v=J2ZNjSplGd8",
+          "published": "2026-07-08T15:25:04+00:00",
+          "content_snippet": "Veterans and active-duty service members gathered in Baltimore for a hands-on OpenAI Academy workshop focused on practical AI skills. Hosted in partnership with Veterans Forge and The AI Collective • Hampton Roads, the session combined guided instruction, real-world exercises, and peer learning to help participants build confidence using ChatGPT for career growth, professional development, and lifelong learning. You can learn more about OpenAI Academy and take free AI literacy courses here: acad",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -279,91 +330,37 @@
       ],
       "items": [
         {
-          "title": "Teaching Coding Agents to do Spreadsheets - Nuno Campos, Witan Labs",
-          "url": "https://www.youtube.com/watch?v=HEFSExa0xl0",
-          "published": "2026-07-08T09:03:25+00:00",
-          "content_snippet": "https://github.com/witanlabs/research-log",
+          "title": "What do we build now? — Theo Browne, @t3dotgg",
+          "url": "https://www.youtube.com/watch?v=xUnRQ9vLXxo",
+          "published": "2026-07-08T19:59:33+00:00",
+          "content_snippet": "For the closing keynote of AIEWF2026, Theo provokes you to think wider, not just bigger. In this keynote from the AI Engineer World's Fair, developer and YouTuber Theo Browne (@t3dotgg) argues that the rapid evolution of AI models—moving from tool-calling (Sonnet 3.5) to long-running task execution (Opus 4.5) and now orchestration (Mythos)—requires software engineers to fundamentally change how they build products. Key Themes: Rejecting Skeuomorphism: Browne compares the current state of softwar",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your coding agent doesn't always follow your rules — Talha Sheikh, Checkout.com",
-          "url": "https://www.youtube.com/watch?v=MpZzWMdmQCE",
-          "published": "2026-07-08T08:31:41+00:00",
-          "content_snippet": "Your coding agent doesn't always follow your rules. An agent harness makes sure it does, in real-time, every time.",
+          "title": "Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
+          "url": "https://www.youtube.com/watch?v=grdoOC1BT1s",
+          "published": "2026-07-08T15:00:06+00:00",
+          "content_snippet": "With the recent development of AI, either you or your friend probably vibe coded a game using Gemini, on Three.js. But that is old news now. If everyone can do that, what is next? The next massive hit, the one that millions of people across the world will play, is just about to be born. Wanna know more? Come see this talk!",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Running a Chess YouTube Channel entirely by AI — Stephan Steinfurt, TNG",
-          "url": "https://www.youtube.com/watch?v=BqZrTdgBaPw",
-          "published": "2026-07-08T08:30:29+00:00",
-          "content_snippet": "Daily chess puzzle explanations on YouTube: Our agent analyzes and describes chess puzzles in an accessible way - arrows included!",
+          "title": "Your agent is blindfolded — Johan Lajili, Poolside AI",
+          "url": "https://www.youtube.com/watch?v=iRcX54EO5g8",
+          "published": "2026-07-08T13:45:06+00:00",
+          "content_snippet": "Your agent is blindfolded. How giving it (good) eyes multiplies performance and trust!",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Shipping Production AI Inside Government — William Tarr, Ministry of Justice (DO NOT PUBLISH)",
-          "url": "https://www.youtube.com/watch?v=qlHaO6laBlM",
-          "published": "2026-07-08T08:08:19+00:00",
-          "content_snippet": "The UK Ministry of Justice Justice AI Unit is about 40 people doing work that normally takes 300. Their probation officer tool went from MVP to national rollout with two engineers in a matter of months. A team of 40 would have been the standard approach. What makes the difference is that their engineers spend two or three days a week on site: sitting with probation officers, walking prison wings with keys, watching workflows that no policy document accurately describes and no one at HQ knows abo",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON",
-          "url": "https://www.youtube.com/watch?v=4kYl2_mqmnQ",
-          "published": "2026-07-08T08:05:32+00:00",
-          "content_snippet": "An honest field report from my own personal fleet of AI agents, run across several machines as a daily driver. Less about any single tool, more about the journey: how things that work on one machine break once you scale to many, what it takes to keep a setup like this running, and where it's all converging. Not a company platform — just real, evolving lessons from running it myself. Speakers: - Kyle Jaejun Lee (KRAFTON): Kyle is a builder and AI Platform Engineer working to make AI agents first-",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis",
-          "url": "https://www.youtube.com/watch?v=IQkVMvXQKLY",
-          "published": "2026-07-08T08:05:21+00:00",
-          "content_snippet": "You fine-tune LLMs and ship them. Your evals are green, your behavioral monitors are green — and a sleeper-agent backdoor can still flip the model to harmful output on a trigger you never tested. Behavioral testing can't reach it, and the interpretability tool people reach for — joint cross-model features (crosscoders) — dilutes the signal until it sits at the noise floor. The fix is in what the training data changed. A backdoor is a directional shift that fine-tuning writes into the model's act",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "GTM Is You - Victoria Melnikova, Evil Martians",
-          "url": "https://www.youtube.com/watch?v=G6IlDzj8OjA",
-          "published": "2026-07-07T23:32:05+00:00",
-          "content_snippet": "In this talk, Victoria Melnikova revisits interviews with successful developer tool founders (Sam Lambert, David Cramer, Paul Copplestone, Ivan Burazin, Zeno Rocha, Jason Bosco) in San Francisco to derive optimal Go-To-Market tactics for developer tools and AI startups focusing on personal brand. Speakers: - Victoria Melnikova (Evil Martians): Victoria run new business at Evil Martians and hosts Dev Propulsion Labs podcast X/Twitter: https://x.com/vmelnikova_en LinkedIn: https://www.linkedin.com",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs",
-          "url": "https://www.youtube.com/watch?v=qdZzND79mcg",
-          "published": "2026-07-07T23:32:02+00:00",
-          "content_snippet": "Building products has been commoditised. As AI models grow more capable, the real opportunity shifts to the hard problems — the big, messy, tangled challenges of the physical and social world. That, after all, is the engineer's true job: to solve problems. But our current paradigm leans on fixed harnesses - predetermined structures imposed on the problem. In a world of complex, shifting systems, that rigidity becomes a liability. We need harnesses that adapt in real time, the way a great leader ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How we taught agents to use good retrieval - Hanna Lichtenberg, Mixedbread AI",
-          "url": "https://www.youtube.com/watch?v=1IdzkRVmWAA",
-          "published": "2026-07-07T23:31:57+00:00",
-          "content_snippet": "RAG is dead. Again. Vector search is useless. All you need is BM25. Not even BM25, all you need is grep. Or maybe even just cat+ls. If you care at all about agents, you probably read a variation of this as part of your daily routine. In a way, isn't it true that semantic search is full of failure cases? And yet, in all sorts of knowledge tasks, whether it be Deep Research, financial analysis or legal research, grep does not seem to cut it. The Oracle Gap, the performance difference between perfe",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "What if the harness mattered more than the model? - Aditya Bhargava, Etsy",
-          "url": "https://www.youtube.com/watch?v=2e9ANoOEn28",
-          "published": "2026-07-07T23:31:54+00:00",
-          "content_snippet": "The models are getting so good now that all you need is a simple harness, some tools, and a loop... right? Aditya Bhargava argues that this direction promotes overreliance on large, proprietary models, and we should be focusing on building harnesses that improve the performance of models that can be run locally. Speakers: - Aditya Bhargava (Etsy): Aditya Bhargava is a Staff Engineer and IC Initiative Lead of Agentic Commerce at Etsy. GitHub: http://github.com/egonSchiele",
+          "title": "Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
+          "url": "https://www.youtube.com/watch?v=HsxQICTLF84",
+          "published": "2026-07-08T12:00:07+00:00",
+          "content_snippet": "In this session, we'll be building a coding agent that implements ACP — covering protocol design, session lifecycle management, and handling tool calls. The session ends with a live demo of the finished agent running inside Zed, showing what ACP looks like in practice from both sides of the protocol.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
