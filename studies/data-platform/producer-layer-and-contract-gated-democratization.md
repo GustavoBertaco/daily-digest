@@ -1,300 +1,362 @@
-# From Bronze/Silver/Gold to the Producer Layer
+# Movements in Data-Layer Architecture — a 2026 market scan
 
-> A research note on an emerging split in data-layer thinking: keeping a domain's raw,
-> immutable data private to its producer team, and democratizing it only once a data
-> contract exists for the first layer of consumption.
+> A research note that *maps the movements* observable in how data platforms are structuring
+> their layers in 2026 — medallion, storage/catalog, governance, semantic, and the
+> producer/contract split — and weighs each by evidence strength and counter-signal, rather
+> than assuming the market is heading toward any single one of them.
 
 - **Topic:** Data Platform
-- **Date:** 2026-07-01
+- **Date:** 2026-07-09
 - **Status:** draft
 
 > *The words written here are all AI-generated, but all the content was critically reviewed
 > and validated by me — the use of AI is to accelerate the knowledge searching and narrative
 > building.*
 
-## Context
+## What this note is (and is not) doing
 
-The trigger for this note: an observed shift away from traditional data-layer taxonomies —
-System of Record / Source of Truth (SOR/SOT, plus whatever a given org calls its third tier —
-no standardized "SPEC" acronym turned up in research; treat that as org-specific vocabulary,
-not an industry term) and Bronze/Silver/Gold (medallion) — toward platforms that don't want
-to democratize *all* domain data, but do want to make it available *within* the owning
-domain. The pattern: a pre-democratization tier where data is immutable and restricted to its
-producer, which only gets democratized once a **data contract** is created for the first
-layer of consumption. Some practitioners informally call this a **Producer Layer**.
+This is a **landscape scan, not a thesis**. The goal is to record what is actually moving in
+data-layer thinking right now and how strong the evidence is for each movement — not to argue
+that the market is converging on one destination.
 
-**A method caveat, stated up front.** Most direct page fetches in this research pass were
-blocked (HTTP 403) at the source — Medium, InfoQ, Databricks, Wikipedia, Intuit's engineering
-blog, Data Engineering Weekly, Oracle's blog, Gable.ai, and others all refused the fetch tool
-this session, while a plain GitHub raw file fetched fine — so this is a proxy/bot-blocking
-issue on the target sites, not a content problem. What follows is therefore built from search-
-engine result synthesis (titles, snippets, and the search tool's own summarization) rather than
-full-text verification of every source. **Re-confirm quotes and dates against the primary before
-citing this note as authoritative** — flagged per-entry below where it applies.
+The note began from a narrower observation worth stating so it isn't smuggled in as a
+conclusion: a practitioner pattern where a domain's raw, immutable data stays **private to its
+producer team** and is democratized only once a **data contract** exists for the first layer of
+consumption — sometimes informally called a *"Producer Layer."* That pattern is real and appears
+below as **Movement 5**, weighed alongside everything else. It is treated here as *one signal to
+size*, not as the direction the market is taking. Where earlier drafts of this note read the
+evidence as confirming that shift, this version deliberately does not: each movement gets a
+"who's moving it," an evidence-strength rating, and a counter-signal.
 
-## Notes
+**A method caveat, stated up front.** Direct page fetches worked this session for some primary
+sources (Thoughtworks, several vendor benchmark blogs) and were historically blocked (HTTP 403)
+for others (Medium, InfoQ, Databricks, Intuit's engineering blog, Data Engineering Weekly,
+Gable.ai). Much of the quantitative material below comes from **vendor and analyst blogs**
+(Databricks, Actian, Promethium, Dremio, Alation, Atlan, dataforest.ai) whose numbers are
+marketing-adjacent projections, not independent measurement. **Treat every percentage as
+directional, not audited**, and re-confirm quotes/dates against the primary before citing this
+note as authoritative. Evidence-strength labels below already discount for this.
 
-### 1. The traditional taxonomies, and where the friction actually lives
+## How to read the ratings
 
-**SOR/SOT** is an established enterprise-architecture pair: a *System of Record* is the
-authoritative store for one domain's data (e.g., a CRM for customer data); a *Source of Truth*
-aggregates and harmonizes multiple SORs into a cross-domain view ([IBM](https://www.ibm.com/think/topics/system-of-record-vs-source-of-truth)).
-It's a functional distinction, not a technology — the same database can be an SOR for one
-domain and feed an SOT for another.
+Each movement carries an **evidence strength**: how much independent, non-vendor corroboration
+exists that the movement is real and spreading (as distinct from whether any single vendor is
+promoting it).
 
-**Medallion architecture** (Bronze/Silver/Gold) is Databricks' popularized pattern: Bronze
-ingests data as-is with no quality enforcement, Silver cleans/conforms/deduplicates, Gold
-aggregates to business-ready form ([Databricks](https://www.databricks.com/blog/what-is-medallion-architecture)).
-It was never *specified* as an access-control model — it's a data-quality staging convention —
-but 2026 commentary converges on exactly the friction the user's observation names: Bronze
-gets treated as broadly queryable in practice, and that's increasingly called a mistake. Oracle's
-platform blog frames it explicitly as **governed data products across the three layers**, with
-Bronze scoped to data engineers and enrichment workloads, not analysts (Oracle AI Data Platform
-blog, "Governed Data Products with Bronze, Silver, and Gold Layers" — *fetch blocked; title/URL
-confirmed via search index, content read from snippet only*). InfoQ's "The End of the Bronze
-Age" makes the sharper version of the same argument: a raw, copy-everything Bronze layer is
-frequently broken and forces reprocessing, and modern ingestion tooling can often validate data
-into a usable state without a separate undifferentiated raw tier (InfoQ — *same fetch-blocked
-caveat*). Ananth Packkildurai's independent newsletter *Data Engineering Weekly* has a piece
-titled "Revisiting Medallion Architecture" pointed at the same rethink, and a companion piece
-"An Engineering Guide to Data Quality — A Data Contract Perspective" ties it directly to
-contracts (both fetch-blocked this session — titles/URLs only, verify before quoting). The
-common thread: medallion's *quality* staging and *access* staging got conflated, and the 2026
-correction is to separate them — Bronze narrows to producer/engineer access, contracts (not
-storage tier alone) decide what gets promoted to a broadly consumable layer.
+- **Strong** — broad, multi-vendor + practitioner + (where present) academic agreement.
+- **Moderate** — real and repeatedly reported, but leaning on vendor/analyst framing or still early.
+- **Emerging** — visible as a named idea, thin on independent corroboration; could fade or get relabeled.
 
-### 2. The shift: a producer-owned layer, gated into democratization by contract
+---
 
-This isn't appearing from nowhere — it's the data mesh vocabulary maturing into an enforceable
-mechanism, plus data-lake access-zoning being formalized around contracts rather than ACLs
-alone.
+## The movements
 
-- **Data mesh's own vocabulary already drew this line.** Zhamak Dehghani's model distinguishes
-  **source-aligned domain data** (raw, operational-adjacent, owned by the domain) from
-  **data products** published through **output ports**, with **input ports** setting up
-  the contract around what feeds a product in the first place ([Data Mesh Architecture reference](https://www.datamesh-architecture.com/data-product-canvas);
-  Dehghani's *Data Mesh* book, O'Reilly). An output port "can be specified by a data contract" —
-  the contract is the thing that turns internal domain data into something another domain can
-  rely on. This is the same shape the user is describing, under different names.
-- **Intuit's data mesh is a documented real-world instance of exactly this split.** Per Tristan
-  Baker's (Intuit Engineering) write-ups, internal/source-aligned data is *not generally
-  discoverable or accessible* except by the owning team; a "clean data maturity model" gates
-  promotion, with a **3-star threshold** marking the point at which data becomes "consumable" —
-  i.e., safe to expose org-wide — and discovery UX is split between an internal "data map" (for
-  owners) and a domain/subdomain-organized catalog (for consumers) (Medium, *Intuit's Data Mesh
-  Strategy* and *Intuit's Data Mesh Concepts* — fetch blocked, verify before quoting figures).
-  This is a concrete, named precedent for "immutable + producer-private until promoted."
-- **Data contracts supply the *mechanism and the culture*, not just the storage boundary.**
-  Chad Sanderson's "shift-left" framing (and Gable.ai, the company he founded around it) argues
-  quality and ownership belong with the producer at the point of creation — "data is code," so
-  contracts are enforced close to production code via tests/review/monitoring, and the immutable
-  warehouse downstream is a *consequence* of contract discipline upstream, not the thing doing
-  the disciplining (dataproducts.substack.com, *The Rise of Data Contracts* / *The Consumer-
-  Defined Data Contract*; gable.ai/blog). This is the piece that turns "restrict Bronze" into
-  "democratize Silver/Gold *specifically because* a contract now exists" — access control by
-  itself doesn't do that; it needs the explicit promotion criterion.
-- **Write-Audit-Publish (WAP) is the technical pattern implementing the same gate.** Popularized
-  by Netflix's Michelle Winters at DataWorks Summit 2017 ("Whoops the Numbers are Wrong! Scaling
-  Data Quality @ Netflix"): write to an isolated staging area, audit against quality rules,
-  publish only what passes — now commonly implemented via Iceberg/Nessie branching or lakeFS
-  ([lakeFS blog](https://lakefs.io/blog/data-engineering-patterns-write-audit-publish/) — fetch
-  blocked, verify). This is the *engineering* half of the pattern the user is naming; the
-  *data contract* is what decides what "passing audit" actually means for a given consumer.
-- **The access-restriction half isn't new — data-lake zone architecture already did it.** AWS,
-  Azure, and practitioner sources (Capital One's tech blog) all describe raw/landing zones
-  scoped to data-engineering personas, with cleaned/curated zones opened to analysts only after
-  quality gates ([AWS whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-serverless-data-analytics-pipeline/logical-architecture-of-modern-data-lake-centric-analytics-platforms.html);
-  [Azure Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/best-practices/data-lake-zones)).
-  What's arguably new in 2026 isn't the zoning — it's replacing a purely storage/ACL-based gate
-  with an explicit, versioned **contract artifact** as the promotion criterion, which is what
-  ties this pattern back to data mesh and shift-left rather than plain data-lake hygiene.
-- **An academic anchor exists specifically on this intersection.** Wasser, Kumara, Monsieur,
-  Van Den Heuvel & Tamburri, *"Data Contracts in Data Mesh: A Systematic Gray Literature
-  Review"* (BMSD 2025 proceedings, Springer LNBIP, published 2026; Tilburg University / TU
-  Eindhoven) is a peer-reviewed synthesis of how practitioners actually use data contracts
-  inside data mesh implementations ([Springer](https://link.springer.com/chapter/10.1007/978-3-031-98033-6_2) /
-  [ResearchGate abstract](https://www.researchgate.net/publication/393173581_Data_Contracts_in_Data_Mesh_A_Systematic_Gray_Literature_Review) —
-  fetch blocked, confirmed via search index only). Companion academic work: an earlier
-  general gray-literature review of data mesh itself ([arXiv 2304.01062](https://arxiv.org/pdf/2304.01062))
-  and a paper on decentralized governance mechanisms in data mesh platforms
-  ([arXiv 2307.02357](https://arxiv.org/abs/2307.02357)), both useful for grounding the
-  vocabulary this note leans on.
+### Movement 1 — Medallion is being *adapted and re-scoped*, not abandoned
 
-### 3. Naming the pattern: "Producer Layer" is real usage, not yet a standard
+**Evidence strength: Moderate–Strong.**
 
-Search turned up scattered practitioner framing that matches "producer layer" reasonably
-closely — e.g. Elliott Cordo's *"Medallion Architecture in a Data Product World"* (Medium,
-Data Futures) and Gowri Shankar Raju's *"Data Products in Data Mesh"* (Medium, Towards Data
-Engineering, Apr 2026) both describe domain data sitting in a producer-owned, pre-product state
-that "transitions through curation and preparation stages" before becoming consumable (both
-fetch-blocked; read via search synthesis only) — but **no single canonical definition or named
-standard for "Producer Layer" was found**. It reads as an informal label a subset of
-practitioners use for a pattern that already has more established names elsewhere: *source-
-aligned domain data* / *input data port* (data mesh), *raw/landing zone* (data-lake zoning), or
-simply "the producer's private schema" (data-contract literature). Worth stating plainly in any
-follow-up study: **the architecture is real and well-evidenced; the specific term "Producer
-Layer" is not (yet) an industry-standard name for it.** If the source that introduced this
-phrasing to the user is identifiable, it would be worth locating directly rather than inferring
-it from adjacent literature.
+The dominant 2026 conversation about Bronze/Silver/Gold is not "replace it" but "stop applying
+it rigidly." Recurring threads across the scan:
 
-### 4. Why this is surfacing now
+- Rigid three-layer-everywhere is criticized for adding latency and pointless staging for data
+  that doesn't need it; the community proposes **extra tiers** — a pre-Bronze *landing zone*, a
+  *Platinum* layer above Gold for ML/operational serving ([Actian](https://www.actian.com/blog/data-architecture/rethinking-the-medallion-architecture-for-modern-data-platforms/);
+  [dataforest.ai medallion guide](https://dataforest.ai/blog/medallion-architecture)).
+- Databricks itself now frames medallion as a **recommended pattern, not a mandate** — use the
+  layer count and naming that fit your consumers.
+- The sharpest reframe: medallion's real failure mode is treating it as a *storage convention*
+  when it is actually **a team contract about who owns data-quality responsibility at each
+  stage** — "most teams get the layer names right and the ownership model wrong" ([Medium: Is It Still Relevant in 2026?](https://medium.com/@reliabledataengineering/medallion-architecture-bronze-silver-gold-is-it-still-relevant-in-2026-5e616fc03245)).
+- The strongest single critique remains InfoQ's *"The End of the Bronze Age"* — an
+  undifferentiated, broadly-queryable Bronze layer is a frequent source of breakage and rework
+  ([InfoQ](https://www.infoq.com/articles/rethinking-medallion-architecture/) — *fetch historically blocked, title/argument from search index*).
 
-Three forces converge, all already flagged as forces in this repo's companion study,
-[*Data Platforms in 2029*](./data-platforms-in-2029.md) (§1.1, §1.4, §2.1–§2.4):
+**Who's moving it:** Databricks (softening its own guidance), independent practitioners (Actian,
+Medium data-engineering writers), InfoQ, Ananth Packkildurai's *Data Engineering Weekly*.
 
-- **AI/agent consumption raises the cost of over-exposing ungoverned data.** An agent with
-  broad query rights over an undifferentiated raw layer is a bigger blast radius than a human
-  analyst with the same rights — this is the same concern the sibling study raises under
-  "agent as attack surface" (OWASP LLM Top 10), and it argues *for* restricting the raw tier
-  and gating promotion, not just for better cataloging.
-- **Immutability and audit trends make "private until contracted" cheap to keep.** Once the
-  substrate is already immutable/versioned (Iceberg/Delta + Nessie/lakeFS — see the sibling
-  study §2.1), keeping a domain's raw data in place but access-scoped is a policy change, not
-  a re-architecture — which likely explains why this pattern is spreading now rather than
-  requiring new infrastructure.
-- **Shift-left is a borrowed DevOps analogy, now applied to data.** Gable's framing ("data is
-  code... if you want to manage something well, you start at the point of creation") is a
-  direct transplant of software shift-left culture onto data ownership, and it's the cultural
-  argument for why *producers*, not central platform teams, should hold the gate.
+**Counter-signal:** Medallion is *not* going away. It's still the default in Databricks docs and
+Delta Live Tables, and much of the "critique" is incremental (add a layer, rename a layer). The
+honest read is *maturation*, not displacement.
 
-### 5. What's contested
+### Movement 2 — Storage/table-format consolidation onto Iceberg, with governance shifting to the *catalog layer*
 
-- **Gatekeeping risk.** The general data-democratization literature (e.g., Immuta's "Pros,
-  Cons, and Real-World Impact of Data Democratization") repeatedly flags that access-request
-  processes anchored on a central or producer-side approval step can become a bottleneck
-  rather than a safeguard. A contract-gated producer layer inherits this risk by construction:
-  it's only a net win if writing/maintaining the contract is cheaper than the friction it
-  removes downstream, and that's an empirical claim per-organization, not a given.
-  Nothing found in this pass quantifies the tradeoff.
-- **Is this actually new, or relabeled zoning?** The raw-zone/curated-zone access split
-  predates data contracts by years (AWS/Azure zoning docs above). The genuinely new element is
-  using a **contract as the explicit, negotiated, versioned promotion criterion** instead of an
-  ACL a platform team sets unilaterally — but whether that distinction holds up as
-  architecturally significant, or is mostly a governance/process change wearing new vocabulary,
-  is not settled in the sources gathered here.
-- **Terminology will likely consolidate**, and "Producer Layer" may or may not be what survives
-  — data mesh's "source-aligned domain data" / "input port" vocabulary has a multi-year head
-  start and academic grounding (§2 above) that ad hoc "producer layer" framing doesn't yet have.
+**Evidence strength: Strong.**
+
+The clearest, best-corroborated movement in the scan. Apache Iceberg has effectively won the
+open-table-format contest — Snowflake, Databricks, AWS, Google, and Microsoft all read/write it,
+and open-source engines default to it. The dataforest benchmark cites a target of **>80% of
+net-new table creation on open formats by end of 2026** (directional, vendor-sourced).
+
+The architecturally interesting part is *where governance is going as a result*: not into the
+storage tier but into the **catalog layer** — REST Catalog with RBAC (table/schema/column) and
+ABAC (attribute-based policy), and **federated catalogs** (Apache Polaris) unifying metadata
+across clouds ([lakehouse 2026 guide](https://iceberglakehouse.com/posts/2025-09-2026-guide-to-data-lakehouses/);
+[Iceberg catalogs state, June 2026](https://dev.to/alexmercedcoder/the-state-of-apache-iceberg-catalogs-in-june-2026-265e)).
+
+**Who's moving it:** every major cloud/warehouse vendor; the Iceberg/Polaris open-source
+community; Alex Merced's lakehouse writing as an independent tracker.
+
+**Counter-signal:** Format consolidation is genuine, but "the catalog is the new governance
+plane" is partly *vendor positioning* (whoever owns the catalog owns the account). Delta Lake and
+Hudi persist; multi-format interop (e.g. translation layers) complicates the "Iceberg won"
+narrative.
+
+### Movement 3 — The "three complementary layers" framing: lakehouse + fabric + mesh as *co-existing*
+
+**Evidence strength: Moderate.**
+
+A notable reframing: rather than lakehouse *vs.* fabric *vs.* mesh as rival architectures, 2026
+benchmark writing positions them as **different layers of one stack** — lakehouse as the
+*storage* layer, data fabric (active metadata, knowledge graphs, AI-assisted pipelines) as the
+*integration/metadata* layer, and data mesh as the *governance/ownership* model ([dataforest benchmark](https://dataforest.ai/blog/state-of-modern-data-architecture-benchmark-report);
+[Alation: mesh vs fabric](https://www.alation.com/blog/data-mesh-vs-data-fabric/)). This matters
+for the layer question because it says the "layers" debate is fragmenting along *different axes*
+(storage vs. metadata vs. ownership), which can be conflated when people argue about "data
+layers" as one thing.
+
+**Who's moving it:** analyst/vendor thought-leadership (Alation, dataforest, Atlan's
+"metadata lakehouse").
+
+**Counter-signal:** This is the *least independently corroborated* framing here — it reads partly
+as vendors reconciling three product categories they all sell. Useful as a lens; weak as evidence
+of an industry-wide consensus.
+
+### Movement 4 — The semantic/metrics layer rising toward "default infrastructure," pulled by AI
+
+**Evidence strength: Moderate–Strong.**
+
+Broad convergence that a **semantic layer** (define a metric once, serve it consistently to any
+BI tool, AI query, or data product) is moving from "nice to have" toward assumed infrastructure,
+with a widely-repeated distinction: the **metrics layer** stores pre-computed standardized
+metrics (dbt Semantic Layer / MetricFlow), while the **semantic layer** stores *definitions that
+generate queries* — many orgs run both ([Databricks: semantic layer architecture](https://www.databricks.com/blog/semantic-layer-architecture-components-design-patterns-and-ai-integration);
+[Promethium: what is a semantic layer](https://promethium.ai/guides/what-is-semantic-layer-complete-guide-2026/);
+[Dremio](https://www.dremio.com/blog/semantic-layer-tools/)).
+
+The 2026-specific driver is **AI/agents**: the semantic/metric layer is repeatedly cast as the
+thing that gives agents "business context and semantic consistency" for trustworthy answers.
+Contenders named: dbt Semantic Layer, AtScale, Cube, Snowflake Semantic Views, Databricks Metric
+Views.
+
+**Who's moving it:** dbt Labs, Cube, AtScale, Snowflake, Databricks; the "AI needs a governed
+semantic layer" narrative is near-universal in 2026 vendor writing.
+
+**Counter-signal:** "Default infrastructure" is a *prediction* (dataforest pins it to 2028), and
+the space is a crowded, un-consolidated tool market — high promotion, still-fragmented adoption.
+
+### Movement 5 — Producer-owned data, gated into democratization by a contract ("shift-left")
+
+**Evidence strength: Moderate for the behaviors; Emerging for "Producer Layer" as a named layer.**
+
+This is where the note's original observation lives. The underlying behaviors are genuinely
+spreading; the specific packaging as a distinct named tier is not yet standard.
+
+- **The behavior — contract-gated promotion — is being reported as real and accelerating.**
+  "Shift left" = moving ownership, quality, and governance from downstream consumers to upstream
+  **producers**, enforced via **contract-as-code** (YAML/JSON in Git, checked in CI/CD)
+  ([Chad Sanderson, *Shift Left Data Manifesto*](https://dataproducts.substack.com/p/the-shift-left-data-manifesto);
+  [Confluent: shifting left](https://www.confluent.io/blog/shifting-left/);
+  [Atlan: data contracts 2026](https://atlan.com/data-contracts/)). Analyst-style figures floated:
+  *40% of large enterprises adopting a formal data-contract framework by 2026* and a *30%
+  reduction in engineering time spent fixing downstream breakage* ([OvalEdge](https://www.ovaledge.com/blog/data-contract-in-data-mesh))
+  — **both vendor/analyst-sourced; directional only.**
+- **It has documented precedent.** Data mesh's *source-aligned domain data* (private to the
+  domain) vs. *data products published via output ports* (contract-specified) is the same shape
+  under older names ([Data Mesh Architecture](https://www.datamesh-architecture.com/data-product-canvas);
+  Dehghani, *Data Mesh*, O'Reilly). Intuit's data mesh is the strongest concrete instance — a
+  3-star "clean data" maturity threshold gating when data becomes org-consumable (Tristan Baker,
+  Intuit Engineering — *fetch historically blocked, verify figures*). Write-Audit-Publish
+  (Netflix, 2017; now Iceberg/Nessie or lakeFS branching) is the technical gate underneath.
+- **"Producer Layer" as a *named layer* is Emerging at best.** No canonical definition surfaced;
+  it reads as informal shorthand for patterns that already have established names (*source-aligned
+  data*, *raw/landing zone*, *the producer's private schema*). A peer-reviewed anchor on the
+  contract-in-mesh intersection exists — Wasser et al., *"Data Contracts in Data Mesh: A
+  Systematic Gray Literature Review"* (BMSD 2025 / Springer LNBIP, 2026) — worth chasing for a
+  rigorous follow-up.
+
+**Who's moving it:** Chad Sanderson / Gable.ai (originators of the shift-left framing, *vendor —
+discount accordingly*), Confluent, Ataccama, Atlan; Intuit as a real-world implementer.
+
+**Counter-signal (substantial):** the friction is openly acknowledged now — "producer velocity
+takes a hit," breaking changes need deprecation windows, "without governance *Shift Left* becomes
+*Spread Chaos Left*" ([Ataccama shift-left playbook](https://www.ataccama.com/blog/the-shift-left-playbook-data-contracts-data-quality-gates-and-feedback-loops)).
+And the classic critique holds: a producer-side approval gate can become the **democratization
+bottleneck** it was meant to remove ([Immuta](https://www.immuta.com/blog/exploring-data-democratization/)).
+Whether contract-gating is a net win is an *empirical, per-org* claim; nothing in this scan
+quantifies it independently.
+
+### Movement 6 — Data mesh maturing from hype to hybrid — a partial *re-centralization*
+
+**Evidence strength: Moderate–Strong (credible independent source).**
+
+The counter-current to "push everything to the domains." Thoughtworks' 2026 assessment: data mesh
+is now "hard-won maturity," and the pattern that actually works is a **hybrid** — a *central*
+platform provides the "plumbing" (storage, compute, identity, policy-as-code) while domains keep
+autonomy over last-mile tooling; the Center of Excellence shifts *from gatekeeper to facilitator*
+([Thoughtworks: state of data mesh 2026](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity)).
+Failure modes named: rebranding IT teams as "domains" without real ownership, analysis-paralysis
+over domain boundaries, over-engineering platforms before proving value.
+
+**Who's moving it:** Thoughtworks (Dehghani's original consultancy — credible, and notably
+*self-critical* here, which raises the evidence weight).
+
+**Counter-signal to Movement 5:** this directly tempers the "producers should hold the gate"
+story — the winning shape re-centralizes the substrate and softens the gate into facilitation,
+not stricter producer-side control.
+
+### Movement 7 — AI/agent consumption is the force reshaping the layer debate
+
+**Evidence strength: Strong as a stated priority; Emerging as a *cause of specific layer changes*.**
+
+Cutting across all of the above: agentic analytics is a top-cited 2026 priority (a State of the
+Data Lakehouse report cites ~65% naming it a priority; ~70% blaming siloed data + weak governance
+as the blocker). The consequences pull in two directions at once — *toward* a governed semantic
+layer (Movement 4) and *toward* restricting broad, ungoverned query access, because an agent with
+raw-tier query rights is a larger blast radius than a single analyst (the "agent as attack
+surface" concern, OWASP LLM Top 10).
+
+**Who's moving it:** effectively everyone; it's the ambient driver cited by nearly every source.
+
+**Counter-signal:** "AI is reshaping the layers" is asserted far more than it is *demonstrated*
+with before/after architecture evidence — strong as motivation, thin as measured cause.
+
+---
+
+## Synthesis: what's actually converging vs. contested
+
+**Best-evidenced (Strong):** table-format consolidation onto Iceberg (Movement 2) and AI as the
+*motivating* pressure (Movement 7). If you had to bet on one structural fact, it's Iceberg +
+catalog-as-governance-plane.
+
+**Real but vendor-inflected (Moderate):** semantic-layer-as-default (4), contract/shift-left
+behaviors (5), the mesh→hybrid re-centralization (6), medallion re-scoping (1).
+
+**Weakest / most likely to be relabeled (Emerging):** the "three complementary layers" tidy
+framing (3), and specifically **"Producer Layer" as a distinct named tier** (inside 5).
+
+**The cross-cutting tension** worth flagging is between **Movement 5** (push the gate and
+ownership to producers) and **Movement 6** (the mature pattern re-centralizes the platform and
+turns the gate into facilitation). These aren't the same direction — a scan that only tracked the
+shift-left literature would miss that the most credible independent source (Thoughtworks) is
+describing a *pullback* from maximal decentralization. That tension is the single most useful
+output of doing this as a scan rather than a thesis.
+
+**On the original "Producer Layer" question specifically:** the scan neither confirms nor refutes
+it as *the* direction. What it supports is narrower and more defensible — *contract-gated
+promotion of producer-owned data is a real, growing behavior with documented precedent (data
+mesh, Intuit, WAP) and real, openly-discussed friction* — while the specific idea that this
+deserves its own named architectural layer called a "Producer Layer" remains **unstandardized and
+weakly evidenced**, more likely to be absorbed into existing "source-aligned data" / "input port"
+/ "raw zone" vocabulary than to become a new standard tier.
 
 ## Takeaways
 
-- **The pattern is real and well-evidenced; the name isn't standardized.** What the user
-  observed maps cleanly onto data mesh's source-aligned-data / output-port split, Intuit's
-  documented 3-star promotion model, and the 2026 medallion-architecture critique — but
-  "Producer Layer" itself is informal practitioner shorthand, not an industry term with one
-  agreed definition.
-- **Data contracts are the mechanism that turns "restricted" into "restricted-until-promoted."**
-  Access zoning (raw vs. curated) already existed; what's new is making the *contract* — not
-  just an ACL — the explicit artifact that decides promotion, borrowed from data mesh's
-  input/output ports and Chad Sanderson's shift-left contract culture.
-- **Write-Audit-Publish is the engineering pattern underneath the governance pattern.** WAP
-  (Netflix, 2017; now commonly Iceberg/Nessie or lakeFS branching) is how the gate gets
-  implemented technically; the contract is what decides what "audit" checks for.
-- **This is a narrower, more concrete cut of a trend this repo already flagged.** The sibling
-  study *Data Platforms in 2029* names "governance and meaning enforced where the data lives"
-  and "the producer/consumer interface formalizing as a data contract" as near-certain forces
-  (§1.5, §2.1, §3) — this note is the zoomed-in version of that claim, specifically about the
-  pre-democratization tier.
-- **Open and worth another research pass:** quantified evidence on whether contract-gated
-  producer layers reduce or worsen democratization bottlenecks; and locating the specific
-  source that uses "Producer Layer" as a named term, if it can be identified, to cite it
-  directly rather than via adjacent literature.
-- **Sourcing caveat carries into any future draft of this note:** most sources here were read
-  via search-engine synthesis, not full-text fetch (see Context). Before this graduates past
-  "draft," each citation should be re-fetched/re-read directly to confirm quotes, dates, and
-  author attributions.
+- **Don't read the market as moving to one destination.** At least seven distinct movements are
+  live, along *different axes* (storage format, catalog governance, metadata integration,
+  semantic/metric definition, producer ownership, mesh maturity, AI pressure). Arguments that
+  treat "data layers" as one converging thing usually conflate these axes.
+- **The most certain thing is boring:** Iceberg + catalog-as-governance-plane. The most
+  *contested* thing is exactly the producer/contract split the note started from.
+- **Contract-gated producer ownership is a real behavior, not yet a settled layer.** It's
+  well-precedented (data mesh source-aligned data, Intuit's 3-star gate, Write-Audit-Publish) and
+  its friction is now openly named ("Spread Chaos Left," producer-velocity cost, democratization
+  bottleneck). Sizing it as *one signal* is the honest posture.
+- **A credible counter-current exists.** Thoughtworks' 2026 data-mesh retrospective describes
+  *re-centralizing the platform substrate* and softening producer-side gatekeeping into
+  facilitation — directly in tension with the shift-left "producers hold the gate" story.
+- **Numbers here are directional.** The concrete percentages (40% contract adoption, 80% open-
+  format tables, 65% agentic-analytics priority) are vendor/analyst projections, not independent
+  measurement — useful for shape, not for citation as fact.
+- **Open for the next pass:** independent (non-vendor) quantification of whether contract-gating
+  reduces or worsens democratization bottlenecks; re-fetching the historically-blocked primaries
+  (Intuit, InfoQ, Data Engineering Weekly, Gable) to confirm figures directly; and locating the
+  specific source, if any, that introduced "Producer Layer" as a named term.
 
 ## References
 
-*Fetch-blocked this session = confirmed to exist via search index/snippet only; re-verify
-full text before quoting. Grouped by role in the argument.*
+*Fetch status noted per entry where relevant. Vendor/analyst sources are flagged — discount their
+quantitative claims. Grouped by the movement they support.*
 
-### Traditional taxonomies
+### Movement 1 — Medallion critique / re-scoping
 
-- **System of Record vs. Source of Truth — IBM** ([ibm.com](https://www.ibm.com/think/topics/system-of-record-vs-source-of-truth))
-  — the canonical SOR/SOT definitions this note starts from.
-- **What is Medallion Architecture? — Databricks** ([databricks.com](https://www.databricks.com/blog/what-is-medallion-architecture))
-  — the canonical Bronze/Silver/Gold definitions. *Caveat:* fetch blocked this session,
-  content summarized from search index.
-
-### Medallion critique / access-scoping the raw layer
-
+- **Medallion Architecture: Is It Still Relevant in 2026? — Medium (Reliable Data Engineering)** ([medium.com](https://medium.com/@reliabledataengineering/medallion-architecture-bronze-silver-gold-is-it-still-relevant-in-2026-5e616fc03245))
+  — "layer names right, ownership model wrong" reframing.
+- **Rethinking the Medallion Architecture for Modern Data Platforms — Actian** ([actian.com](https://www.actian.com/blog/data-architecture/rethinking-the-medallion-architecture-for-modern-data-platforms/))
+  — landing-zone / platinum-layer extensions. *Vendor.*
+- **Medallion Architecture (2026 Guide) — dataforest.ai** ([dataforest.ai](https://dataforest.ai/blog/medallion-architecture)) — *vendor.*
 - **The End of the Bronze Age: Rethinking the Medallion Architecture — InfoQ** ([infoq.com](https://www.infoq.com/articles/rethinking-medallion-architecture/))
-  — argues an undifferentiated, broadly-accessible Bronze layer is a frequent source of
-  breakage. *Caveat:* fetch blocked, title/argument from search index only.
-- **Governed Data Products with Bronze, Silver, and Gold Layers — Oracle AI Data Platform**
-  ([blogs.oracle.com](https://blogs.oracle.com/ai-data-platform/governed-data-products-with-bronze-silver-and-gold-layers))
-  — scopes Bronze to engineers/enrichment workloads specifically. *Caveat:* fetch blocked.
-- **Revisiting Medallion Architecture — Ananth Packkildurai, Data Engineering Weekly**
-  ([dataengineeringweekly.com](https://www.dataengineeringweekly.com/p/revisiting-medallion-architecture))
-  — independent newsletter reassessing medallion's fit. *Caveat:* fetch blocked, verify before
-  citing.
-- **An Engineering Guide to Data Quality — A Data Contract Perspective — Data Engineering
-  Weekly** ([dataengineeringweekly.com](https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-quality))
-  — ties data quality staging directly to contracts. *Caveat:* fetch blocked, verify.
-- **Medallion Architecture in a Data Product World — Elliott Cordo (Medium, Data Futures)**
-  ([medium.com](https://medium.com/datafutures/medallion-architecture-in-a-data-product-world-3758d17b6cf6))
-  — closest match found to "producer layer" framing. *Caveat:* fetch blocked, read via search
-  synthesis only — treat as a lead to verify, not a settled citation.
+  — the sharpest "broad Bronze access is a mistake" argument. *Fetch historically blocked; verify.*
+- **Revisiting Medallion Architecture — Ananth Packkildurai, Data Engineering Weekly** ([dataengineeringweekly.com](https://www.dataengineeringweekly.com/p/revisiting-medallion-architecture))
+  — independent newsletter. *Fetch blocked; verify.*
+- **What is Medallion Architecture? — Databricks** ([databricks.com](https://www.databricks.com/blog/what-is-medallion-architecture))
+  — canonical definition; source of the "recommended, not required" softening. *Vendor; fetch historically blocked.*
 
-### Data mesh vocabulary (the pattern's real origin)
+### Movement 2 — Table format / catalog governance
 
-- **Data Mesh Architecture — data product canvas, input/output ports** ([datamesh-architecture.com](https://www.datamesh-architecture.com/data-product-canvas))
-  — the input-port/output-port/data-contract vocabulary this note maps the user's observation
-  onto. *Caveat:* fetch blocked, verify definitions directly.
-- **Data Mesh: Delivering Data-Driven Value at Scale — Zhamak Dehghani (O'Reilly)** — the
-  primary source for source-aligned domain data vs. data products; cited here from secondary
-  summaries, the book itself is the authority to check quotes against.
-- **Intuit's Data Mesh Strategy / Intuit's Data Mesh Concepts — Tristan Baker (Intuit
-  Engineering, Medium)** ([medium.com/intuit-engineering](https://medium.com/intuit-engineering/intuits-data-mesh-strategy-778e3edaa017),
+- **The 2025 & 2026 Ultimate Guide to the Data Lakehouse — Alex Merced** ([iceberglakehouse.com](https://iceberglakehouse.com/posts/2025-09-2026-guide-to-data-lakehouses/))
+  — Iceberg dominance + REST Catalog / RBAC-ABAC governance.
+- **The State of Apache Iceberg Catalogs in June 2026 — DEV / Alex Merced** ([dev.to](https://dev.to/alexmercedcoder/the-state-of-apache-iceberg-catalogs-in-june-2026-265e))
+  — federated catalogs (Polaris) as the 2026 governance plane.
+- **What is Apache Iceberg? — Google Cloud** ([cloud.google.com](https://cloud.google.com/discover/what-is-apache-iceberg)) — schema evolution / time travel primer. *Vendor.*
+
+### Movement 3 — Lakehouse + fabric + mesh as complementary layers
+
+- **State of Modern Data Architecture 2026: Benchmark Report — dataforest.ai** ([dataforest.ai](https://dataforest.ai/blog/state-of-modern-data-architecture-benchmark-report))
+  — the three-complementary-layers framing + open-format/observability stats. *Vendor/analyst; directional numbers.*
+- **Data Fabric vs. Data Mesh: 2026 Guide — Alation** ([alation.com](https://www.alation.com/blog/data-mesh-vs-data-fabric/)) — *vendor.*
+- **Metadata Lakehouse — Atlan** ([atlan.com](https://atlan.com/know/metadata-lakehouse/)) — *vendor.*
+
+### Movement 4 — Semantic / metrics layer
+
+- **Semantic Layer Architecture — Databricks** ([databricks.com](https://www.databricks.com/blog/semantic-layer-architecture-components-design-patterns-and-ai-integration)) — *vendor.*
+- **What is a Semantic Layer? Complete Guide 2026 — Promethium** ([promethium.ai](https://promethium.ai/guides/what-is-semantic-layer-complete-guide-2026/))
+  — metrics-layer vs. semantic-layer distinction. *Vendor.*
+- **Semantic Layer Tools — Dremio** ([dremio.com](https://www.dremio.com/blog/semantic-layer-tools/)) — *vendor.*
+
+### Movement 5 — Producer ownership / data contracts / shift-left
+
+- **The Shift Left Data Manifesto — Chad Sanderson** ([dataproducts.substack.com](https://dataproducts.substack.com/p/the-shift-left-data-manifesto))
+  — primary voice on producer-owned, contract-gated data. *Originator; also founder of Gable.*
+- **Shifting Left — Confluent** ([confluent.io](https://www.confluent.io/blog/shifting-left/)) — *vendor.*
+- **The Shift-Left Playbook for Data Trust — Ataccama** ([ataccama.com](https://www.ataccama.com/blog/the-shift-left-playbook-data-contracts-data-quality-gates-and-feedback-loops))
+  — names the producer-velocity friction / "Spread Chaos Left" risk. *Vendor.*
+- **Data Contracts Explained (2026) — Atlan** ([atlan.com](https://atlan.com/data-contracts/)) — contract-as-code / CI-CD framing. *Vendor.*
+- **Data Contract in Data Mesh — OvalEdge** ([ovaledge.com](https://www.ovaledge.com/blog/data-contract-in-data-mesh))
+  — source of the "40% adoption / 30% breakage reduction" figures. *Vendor; directional only.*
+- **Data Mesh Architecture — data product canvas / input-output ports** ([datamesh-architecture.com](https://www.datamesh-architecture.com/data-product-canvas))
+  — source-aligned data vs. contract-specified output port. *Fetch historically blocked.*
+- **Intuit's Data Mesh Strategy / Concepts — Tristan Baker** ([medium.com/intuit-engineering](https://medium.com/intuit-engineering/intuits-data-mesh-strategy-778e3edaa017),
   [tcbakes.medium.com](https://tcbakes.medium.com/intuits-data-mesh-concepts-214268257dd2))
-  — the concrete real-world precedent (3-star clean-data maturity model gating promotion to
-  "consumable"). *Caveat:* fetch blocked this session; the strongest single lead to re-verify
-  directly, since it's the closest documented real implementation of the exact pattern.
+  — 3-star clean-data gate; strongest real-world precedent. *Fetch historically blocked; verify figures.*
+- **Data Engineering Patterns: Write-Audit-Publish — lakeFS** ([lakefs.io](https://lakefs.io/blog/data-engineering-patterns-write-audit-publish/))
+  — the technical gate (Netflix 2017 → Iceberg/Nessie/lakeFS). *Fetch historically blocked; verify Netflix attribution.*
+- **Data Contracts in Data Mesh: A Systematic Gray Literature Review — Wasser, Kumara, Monsieur, Van Den Heuvel & Tamburri (BMSD 2025 / Springer LNBIP 2026)** ([springer](https://link.springer.com/chapter/10.1007/978-3-031-98033-6_2))
+  — peer-reviewed anchor; best source for a rigorous follow-up. *Fetch blocked; abstract only.*
 
-### Data contracts & shift-left (the gating mechanism and its culture)
+### Movement 6 — Data mesh maturity / re-centralization (counter-current)
 
-- **The Rise of Data Contracts / The Consumer-Defined Data Contract — Chad Sanderson**
-  ([dataproducts.substack.com](https://dataproducts.substack.com/p/the-rise-of-data-contracts))
-  — the primary voice on data contracts as a producer-ownership, shift-left mechanism.
-- **Gable Blog — Shift Left Data Manifesto / Best Data Producer Practices** ([gable.ai/blog](https://www.gable.ai/blog/shift-left-data-manifesto),
-  [gable.ai/blog/data-producers](https://www.gable.ai/blog/data-producers)) — vendor (Sanderson's
-  company) elaboration of the same philosophy into product form. *Caveat:* vendor framing;
-  fetch blocked, verify before quoting.
-- **Data Contracts in Data Mesh: A Systematic Gray Literature Review — Wasser, Kumara,
-  Monsieur, Van Den Heuvel & Tamburri (BMSD 2025 / Springer LNBIP, 2026)** ([springer](https://link.springer.com/chapter/10.1007/978-3-031-98033-6_2))
-  — peer-reviewed anchor specifically on data contracts inside data mesh implementations; the
-  single best source to chase down for a rigorous follow-up. *Caveat:* fetch blocked, abstract
-  read via search index only.
-- **Data Mesh: a Systematic Gray Literature Review** ([arXiv 2304.01062](https://arxiv.org/pdf/2304.01062))
-  and **Decentralized Data Governance as Part of a Data Mesh Platform** ([arXiv 2307.02357](https://arxiv.org/abs/2307.02357))
-  — supporting academic grounding for the data mesh vocabulary section.
+- **The state of data mesh in 2026: From hype to hard-won maturity — Thoughtworks** ([thoughtworks.com](https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity))
+  — hybrid re-centralization; CoE gatekeeper→facilitator. *Fetched this session; credible + self-critical.*
 
-### Technical implementation of the gate
+### Movement 7 — AI / agent consumption as driver
 
-- **Data Engineering Patterns: Write-Audit-Publish (WAP) — lakeFS** ([lakefs.io](https://lakefs.io/blog/data-engineering-patterns-write-audit-publish/))
-  — the WAP pattern, its Netflix 2017 origin (Michelle Winters, DataWorks Summit), and its
-  modern Iceberg/Nessie/lakeFS implementations. *Caveat:* fetch blocked, verify before quoting
-  the Netflix attribution directly.
+- **Data Lakehouse Architecture in 2026: Streaming, Iceberg, and the Real-Time Layer — Medium** ([medium.com](https://medium.com/real-time-data-evolution/data-lakehouse-architecture-in-2026-streaming-iceberg-and-the-real-time-layer-4bb23ed2c645))
+  — agentic-analytics priority / governance-as-blocker stats.
+- **OWASP Top 10 for LLM Applications** — the "agent as attack surface" grounding for restricting broad raw-tier query access.
 
-### Zone-based precedent (the access-restriction half, pre-dating contracts)
-
-- **AWS: Logical architecture of modern data-lake-centric analytics platforms** ([docs.aws.amazon.com](https://docs.aws.amazon.com/whitepapers/latest/aws-serverless-data-analytics-pipeline/logical-architecture-of-modern-data-lake-centric-analytics-platforms.html))
-  — raw/cleaned/curated zone definitions and persona-based access scoping.
-- **Data lake zones and containers — Microsoft Cloud Adoption Framework** ([learn.microsoft.com](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/best-practices/data-lake-zones))
-  — the Azure equivalent of the same zoning pattern.
-- **Data Lake Architecture: What is a Zone? — Capital One Tech** ([capitalone.com](https://www.capitalone.com/tech/cloud/data-lake-zones/))
-  — practitioner (non-vendor-platform) articulation of the same zones. *Caveat:* fetch blocked.
-
-### Contested / counter-signal
+### Contested / counter-signal (cross-cutting)
 
 - **The Pros, Cons, and Real-World Impact of Data Democratization — Immuta** ([immuta.com](https://www.immuta.com/blog/exploring-data-democratization/))
-  — the gatekeeping/bottleneck risk counter-argument to gating promotion behind a contract or
-  central approval step. *Caveat:* vendor blog; fetch blocked, verify.
+  — the gatekeeping/bottleneck risk of any promotion gate. *Vendor; fetch historically blocked.*
+
+### Traditional taxonomy baseline
+
+- **System of Record vs. Source of Truth — IBM** ([ibm.com](https://www.ibm.com/think/topics/system-of-record-vs-source-of-truth))
+  — the SOR/SOT definitions the layer debate sits on top of.
 
 ### Related repo study
 
-- [**Data Platforms in 2029**](./data-platforms-in-2029.md) — this repo's broader foresight
-  study; §1.5, §2.1–§2.4 and §3 already name the forces (contract-formalized producer/consumer
-  interface, immutable/versioned substrate, governance enforced at the data layer) that this
-  note zooms in on for the specific pre-democratization-tier question.
+- [**Data Platforms in 2029**](./data-platforms-in-2029.md) — this repo's broader foresight study;
+  §1.5, §2.1–§2.4 and §3 name several of the same forces (immutable/versioned substrate,
+  contract-formalized producer/consumer interface, governance at the data layer). This note is the
+  *present-tense market scan* complementing that forward-looking piece.
