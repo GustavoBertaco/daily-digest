@@ -1,8 +1,7 @@
-# Product Development Roles — A Quick Track Map
+# Product Development Roles and Responsibilities
 
-> A one-glance map of who owns what on a product team, and which track(s) — Discovery,
-> Delivery, Go-to-Market — each role sits in. Built from an Excalidraw sketch of 5
-> overlapping roles; evolved into 3 named tracks so each person can place themselves fast.
+> A quick-reference roles-and-responsibilities guide for a product discovery and delivery
+> structure: who owns what, how the key roles correlate, and where they depend on each other.
 
 - **Topic:** Product Management
 - **Date:** 2026-07-09
@@ -14,124 +13,159 @@
 
 ## Context
 
-The starting point is a 5-circle Venn (ENG, TL, PM, PMM, CX) each labeled with its core
-question, with arrows calling out the artifact that keeps each *pair* aligned, and two
-markers — **Product Delivery** and **Product Launch** — sitting where three circles meet.
-It's accurate but takes a beat to parse. The goal here is the opposite: a **quick
-reference** — no long role descriptions — where a person can look at it and immediately
-say *"I'm on this/these track(s), and here's who I sync with at the edges."*
+This study is a **roles-and-responsibilities reference** for the key positions in a product
+development team — Product Manager, Tech Lead, Engineering, Design/CX, and Product
+Marketing — operating within a **product discovery and delivery structure**. It exists to
+let anyone on the team quickly answer two questions: *"what is my role actually accountable
+for (and not for)?"* and *"whose work does mine depend on?"*
 
-## Notes
+## Quick correlation between the roles
 
-### The original 5 roles, as-is
-
-| Role | Core question |
-| --- | --- |
-| **ENG** — Engineering | How do we build the thing *right*? |
-| **TL** — Tech Lead | How do we structure the team to deliver it? |
-| **PM** — Product Manager | What is the *right* thing to build? |
-| **CX** — Design / Customer Experience | Are we delivering on the promise we made? |
-| **PMM** — Product Marketing | How do we communicate / sell it the *right* way? |
-
-PM sits in the middle overlapping all four — the connective role. The two named
-convergence points are where three circles meet at once: **Product Delivery** (ENG ∩ TL ∩
-PM) and **Product Launch** (PM ∩ CX ∩ PMM).
-
-### The evolution: name the tracks, not just the overlaps
-
-Those two convergence points are already, implicitly, **track boundaries**. Making the
-tracks explicit — instead of leaving them as emergent Venn overlaps — is what turns this
-into a fast self-ID tool. This also matches how the field already names this split:
-**dual-track agile** splits Discovery from Delivery ([Cagan/SVPG](https://www.svpg.com/dual-track-agile/)),
-and a third, **go-to-market** track is a well-attested extension for teams that treat
-launch as its own parallel stream (e.g. Caroli's *Triple-Track Development* below).
+Five roles, each anchored to one core question, connected by the artifact that keeps each
+pair aligned. Two points mark where three roles must converge at once: **Product Delivery**
+(Engineering ships it) and **Product Launch** (the market receives it).
 
 ```mermaid
-flowchart LR
-    subgraph D["🔍 DISCOVERY — is it the right thing?"]
-        PM1["PM"]
-        CX1["CX"]
-    end
-    subgraph B["🛠 DELIVERY — are we building it right?"]
-        PM2["PM"]
-        TL["TL"]
-        ENG["ENG"]
-    end
-    subgraph G["📣 GO-TO-MARKET — right message, right promise kept"]
-        PM3["PM"]
-        CX2["CX"]
-        PMM["PMM"]
-    end
+graph TD
+    TL(("TL<br/>How to structure<br/>the team to deliver"))
+    ENG(("ENG<br/>How to build<br/>it right"))
+    PM(("PM<br/>What is the right<br/>thing to build"))
+    PMM(("PMM<br/>How to communicate /<br/>sell it right"))
+    CX(("CX<br/>Are we delivering<br/>the promise made"))
 
-    D -- "Product Delivery ◆<br/>specs + capacity aligned" --> B
-    B -- "Product Launch ◆<br/>personas + journey stage clear" --> G
+    TL ---|Capacity allocation aligned| ENG
+    TL ---|Roadmap expectations aligned & documented| PM
+    ENG ---|Product specs well-structured & clear| PM
+    PM ---|Personas & functional description well-defined| PMM
+    PM ---|Correct pains selected to work on| CX
+    CX ---|Journey stage impacted by the message is clear| PMM
+
+    Delivery{{"◆ Product Delivery"}}
+    Launch{{"◆ Product Launch"}}
+    TL -.- Delivery
+    ENG -.- Delivery
+    PM -.- Delivery
+    PM -.- Launch
+    CX -.- Launch
+    PMM -.- Launch
 ```
 
-*(PM1/PM2/PM3 and CX1/CX2 are the same person in each case — split only so the diagram
-reads left-to-right; PM spans all three tracks, CX spans Discovery and Go-to-Market.)*
+- **Product Delivery** = TL + ENG + PM converge: the team is structured, capacity is
+  allocated, specs are clear, and the roadmap is agreed — the thing gets shipped.
+- **Product Launch** = PM + CX + PMM converge: the right pain was solved, the experience
+  keeps the promise, and the message matches it — the market receives the thing correctly.
+- **PM sits at the center of both convergences** — it is the only role present in each.
 
-### Quick self-ID table
+## Roles Description
 
-| Role | Track(s) | Sync with, at the boundary |
-| --- | --- | --- |
-| **PM** | Discovery + Delivery + Go-to-Market | Everyone — the one role present in all three |
-| **CX / Design** | Discovery + Go-to-Market | PM on *which pains are correct to work on*; PMM on *which journey stage the message hits* |
-| **TL** | Delivery (+ feasibility input to Discovery) | ENG on *capacity allocation*; PM on *roadmap expectations, documented* |
-| **ENG** | Delivery | TL on *capacity*; PM on *clear, structured specs* |
-| **PMM** | Go-to-Market | PM on *personas + functional description*; CX on *journey-stage clarity* |
+### PM — Product Manager
+- **Responsible for:** deciding *what* is the right thing to build; owning the roadmap and
+  its priorities; writing clear, structured product specs; defining personas and the
+  functional description handed to Marketing; selecting which customer pains are worth
+  solving; owning the outcome (value) and business viability of what ships.
+- **Not responsible for:** how the team is structured or staffed (Tech Lead); the technical
+  architecture or implementation (Engineering); the visual/interaction design of the
+  experience (CX); writing positioning, messaging, or running launch campaigns (PMM);
+  acting as a project manager who just tracks tickets and dates.
 
-The **six boundary artifacts** from the original arrows still hold — they're just now
-grouped by which track transition they guard, rather than floating between circles:
+### TL — Tech Lead
+- **Responsible for:** structuring the engineering team to deliver the roadmap; allocating
+  capacity; owning technical feasibility and architecture risk; surfacing what a request
+  actually costs so roadmap expectations stay realistic and documented.
+- **Not responsible for:** deciding product priorities or what gets built (PM); the
+  customer-facing promise or experience design (CX); go-to-market messaging (PMM); writing
+  every line of code personally instead of enabling the team to deliver.
 
-- **Into Delivery:** capacity allocation aligned (TL↔ENG) · specs well-structured and clear
-  (ENG↔PM) · roadmap expectations aligned and documented (TL↔PM)
-- **Into Go-to-Market:** personas and functional description well-defined (PM↔PMM) ·
-  correct pains selected (PM↔CX) · journey stage impacted by the message is clear (CX↔PMM)
+### ENG — Engineering
+- **Responsible for:** building the thing *right* — implementation, code quality,
+  estimates, and technical execution against the specs the PM hands over.
+- **Not responsible for:** deciding what gets built or why (PM); how the team is organized
+  or resourced across initiatives (TL); how the product is positioned or sold (PMM).
 
-## Takeaways
+### CX — Design / Customer Experience
+- **Responsible for:** validating that the pain selected is the correct one; designing an
+  experience that keeps the promise made to the customer; usability and journey-mapping;
+  clarifying which stage of the customer journey a piece of communication touches.
+- **Not responsible for:** technical feasibility or implementation (Engineering); final
+  roadmap prioritization (PM decides, informed by CX); sales enablement or running the
+  launch campaign itself (PMM).
 
-- **PM is the only role native to all three tracks** — that's *why* the original Venn puts
-  PM in the center overlapping everyone else.
-- **CX bridges Discovery and Go-to-Market**, not Delivery — its job is "are we solving the
-  right pain" up front and "does the message match the promise" at the back end.
-- **TL and ENG live in Delivery**; TL's extra job is shaping the team *before* Delivery
-  starts, which is why it also touches capacity/roadmap conversations with Discovery.
-- Treat the **two (now three) named handoff points** — not the role boxes — as the thing to
-  actually manage: that's where alignment breaks in practice, not inside any single role.
-- This map is deliberately shallow. If a role's *day-to-day* responsibilities need
-  spelling out, that's a separate, longer study — this one stays a one-page lookup.
+### PMM — Product Marketing
+- **Responsible for:** positioning and messaging; defining how to communicate and sell the
+  product the right way; leading launch communication and sales enablement; making sure the
+  message matches the journey stage it's meant to hit.
+- **Not responsible for:** deciding what gets built or the roadmap (PM); the technical
+  build or feasibility (ENG/TL); designing or validating the product experience itself (CX).
+
+## Interdependence
+
+No role here delivers value alone — each core question only gets answered correctly if the
+adjacent role's output is trustworthy:
+
+- **TL ↔ ENG:** if capacity isn't honestly allocated, either the team overcommits or
+  under-builds; ENG's estimates are only as good as TL's read on team structure.
+- **TL ↔ PM:** if roadmap expectations aren't documented and aligned with TL, the roadmap
+  promises things the team isn't structured to deliver.
+- **ENG ↔ PM:** unclear or unstructured specs from PM force ENG to guess, producing rework;
+  ENG's technical constraints should in turn shape what PM commits to.
+- **PM ↔ CX:** if PM selects the wrong pain, CX designs a beautiful experience for the
+  wrong problem; if CX doesn't validate the pain, PM's roadmap is built on assumption.
+- **PM ↔ PMM:** fuzzy personas or functional descriptions from PM produce a launch message
+  that doesn't match what actually shipped; PMM's read on the market should also inform
+  what PM prioritizes.
+- **CX ↔ PMM:** if CX doesn't clarify which journey stage is impacted, PMM's message can
+  target the wrong moment in the customer's experience — technically true but practically
+  useless.
+
+Two systemic consequences follow:
+
+- **Product Delivery only holds if TL, ENG, and PM stay aligned *simultaneously*** — it's a
+  three-way convergence, not three separate two-way relationships. A weak link in any one
+  pair (e.g. PM↔ENG specs) breaks delivery even if the other two pairs are healthy.
+- **Product Launch only holds if PM, CX, and PMM stay aligned *simultaneously***, on the
+  same logic — the promise (CX), the message (PMM), and the definition of the customer
+  (PM) all have to describe the same product.
+- **PM is the load-bearing role in both convergences.** Every dependency chain in this map
+  routes through PM at least once, which is also why weak PM output (vague specs, fuzzy
+  personas, wrong pain selected) is the single most common way both convergences break.
 
 ## References
 
+- **Empowered — Marty Cagan / SVPG** ([svpg.com](https://www.svpg.com/empowered-product-teams/))
+  — splits product risk across the trio: PM owns *value* and *viability*, the designer owns
+  *usability*, the tech lead owns *feasibility*.
+  *Inspires:* the responsible/not-responsible split between PM, CX, and TL in this study.
+
+- **Escaping the Build Trap — Melissa Perri** ([O'Reilly](https://www.oreilly.com/library/view/escaping-the-build/9781491973783/))
+  — names the failure modes of PM-as-project-manager and PM-as-backlog-administrator: a PM
+  with no decision-making power just ushers others' ideas through.
+  *Inspires:* the explicit "PM is not a project manager" line in the PM's *not responsible
+  for* bullets.
+
 - **Dual-Track Agile — Marty Cagan / SVPG** ([svpg.com](https://www.svpg.com/dual-track-agile/))
-  — the original Discovery/Delivery split: discovery decides *what*, delivery builds it,
-  and they run continuously in parallel, not as sequential phases.
-  *Inspires:* the Discovery/Delivery boundary and its "Product Delivery" handoff.
+  — discovery (deciding *what*) and delivery (building it) run continuously, in parallel,
+  not as sequential phases, with discovery's outputs feeding delivery.
+  *Inspires:* framing this team as a discovery-and-delivery structure in the Context section.
 
 - **Continuous Discovery Habits — Teresa Torres** ([producttalk.org](https://www.producttalk.org/))
   — names the **product trio** (PM, Design, Engineering) as the unit that runs discovery
-  together, weekly, with real customers.
-  *Inspires:* CX's seat in the Discovery track alongside PM, and TL/ENG's feasibility voice.
-
-- **Triple-Track Development — Paulo Caroli** ([age-of-product.com summary](https://age-of-product.com/food-for-agile-thought-420-triple-track-development-outcome-roadmaps-building-trust-productops-guide/))
-  — extends dual-track with a third parallel track; the source pairs Discovery/Delivery
-  with **Business Strategy**, not Go-to-Market.
-  *Inspires:* the *shape* of a third track running in parallel — adapted here to
-  **Go-to-Market**, since that's what the PM∩CX∩PMM "Product Launch" convergence in the
-  original image actually represents for this team.
+  together, with weekly customer contact.
+  *Inspires:* CX's responsibility for validating the pain alongside PM, not after the fact.
 
 - **Team Topologies — Skelton & Pais** ([teamtopologies.com](https://teamtopologies.com/))
-  — stream-aligned teams own delivery end-to-end; team shape and cognitive load are a
-  first-class design problem, not an afterthought.
-  *Inspires:* TL's role as "how do we structure the team to deliver" inside Delivery.
+  — team shape and cognitive load are a first-class design problem; stream-aligned teams
+  own delivery end-to-end.
+  *Inspires:* the Tech Lead's responsibility for structuring the team, separate from what
+  gets built.
 
 - **Product Manager vs. Product Marketing Manager — ProductPlan** ([productplan.com](https://www.productplan.com/learn/product-manager-vs-product-marketing-manager))
   — PM owns what gets built; PMM owns go-to-market — positioning, messaging, launch
-  leadership — with PM staying accountable for readiness.
-  *Inspires:* PMM's scope inside Go-to-Market and the PM↔PMM handoff artifact (personas +
-  functional description).
+  leadership — while PM stays accountable for product readiness.
+  *Inspires:* the PM/PMM division of responsibility and their shared dependency on personas
+  and the functional description.
 
 - **Obviously Awesome — April Dunford** ([aprildunford.com](https://www.aprildunford.com/))
-  — positioning is the definition of go-to-market: who it's for, the category, the
-  meaningful difference vs. the obvious alternative.
-  *Inspires:* what "communicate/sell it the right way" concretely means for PMM.
+  — positioning defines go-to-market: the target customer, the category, and the
+  meaningful difference versus the obvious alternative.
+  *Inspires:* what "communicate/sell it the right way" concretely means for PMM's
+  responsibilities.
