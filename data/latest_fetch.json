@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T12:20:44Z",
+  "fetched_at": "2026-07-10T12:14:57Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,19 +14,10 @@
       ],
       "items": [
         {
-          "title": "The Pragmatic Engineer AMA",
-          "url": "https://www.youtube.com/watch?v=cSIMVYjVF28",
-          "published": "2026-07-08T16:18:51+00:00",
-          "content_snippet": "In this special “ask me anything” episode of Pragmatic Engineer podcast, I am in the hot seat facing questions sent in by subscribers that are read out by guest Volodymyr Giginiak, CTO and cofounder of Wordsmith AI, a legal tech startup (note: I’m an investor). I tackle your questions on the software industry, AI, hiring, engineering organizations, career growth, the business model of the Pragmatic Engineer, and more. We also discuss where software engineering is headed, and I offer advice on so",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "I quit Amazon after two months",
-          "url": "https://www.youtube.com/watch?v=pBQ8ZP3WQP4",
-          "published": "2026-07-08T13:00:29+00:00",
-          "content_snippet": "With Neet, Founder of @NeetCode. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "\"I Want to Be in Charge, I Want to Run the Machine\"",
+          "url": "https://www.youtube.com/watch?v=F1DKnBht-0o",
+          "published": "2026-07-09T16:00:35+00:00",
+          "content_snippet": "AMA with Gergely Orosz, founder of The Pragmatic Engineer. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -76,19 +67,10 @@
       ],
       "items": [
         {
-          "title": "Why Forcing Yourself To Work... Never Works",
-          "url": "https://www.youtube.com/watch?v=-_fCHBbgi-0",
-          "published": "2026-07-08T13:36:56+00:00",
-          "content_snippet": "What if the way we motivate people is mostly wrong? That was the argument at the heart of Drive. But fifteen years later, too many companies, schools, and families stubbornly cling to the old ways. So, I made a video revisiting the book and highlighting the seven ideas that still matter most. The core lesson: You don’t install motivation in people. You create the conditions for it. Subscribe for more on motivation, performance, and doing work that actually matters. See you in the next one. -- To",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The bacteria myth everybody believes | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=LSz1QGtDhNg",
-          "published": "2026-07-08T16:01:53+00:00",
-          "content_snippet": "The bacteria myth everybody believes | Giulia Enders",
+          "title": "Dan Carlin: What happens when a nation’s truth splinters into 1,000 versions | Kmele Foster",
+          "url": "https://www.youtube.com/watch?v=nXzrmkFj1u0",
+          "published": "2026-07-09T13:00:35+00:00",
+          "content_snippet": "Read Dan Carlin, in print. An excerpt from this interview is in 'The Opt-Out Nation' — our quarterly magazine just for Big Think members: https://bigthink.com/membership/ Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Hollywood lied to you about Ancient Rome. Here’s the truth | Mary Beard: Full Interview ► https://www.youtube.com/watch?v=v_yP8C7uo3Y Dan Carlin has spent decades explaining history's collapses. Now he's watc",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -96,7 +78,8 @@
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1
+        "The Knowledge Project Podcast": 1,
+        "Daniel Pink": 1
       }
     },
     {
@@ -124,13 +107,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -148,154 +133,172 @@
       ],
       "items": [
         {
-          "title": "AWS Builder Center Now Offers Free Sandbox Environments",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
-          "published": "2026-07-08T22:45:00+00:00",
-          "content_snippet": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges. Previously, workshops could only be completed using a builder's own AWS account. With sandbox environments, builders of all skill levels can safely deploy resources, write code, and experiment in a pre-provisioned AWS account. Free sandbox environments are ideal for builders who w",
+          "title": "OAuth support for the AWS MCP Server",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
+          "published": "2026-07-09T23:03:00+00:00",
+          "content_snippet": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identities, sign-in methods, IAM permissions, and governance controls you have already set up continue to apply. Developers can authorize agents interactively through a browser or programmatically using non-interactive (headless) authorization. Administrators can govern OAuth access using familiar IAM polic",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
-          "published": "2026-07-08T21:00:00+00:00",
-          "content_snippet": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet. Network Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables. It discovers public IP addresses, virtual machines, and load balancers across your AWS and Azure environments, identifies reachable ports, and determines what services are ru",
+          "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
+          "published": "2026-07-09T17:24:00+00:00",
+          "content_snippet": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter group updates, maintenance windows, and reboot — covering both successful completions and failures. With this capability, customers can use Amazon EventBridge rules to programmatically react to database operations without polling the API for status.",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift RG instances now available on the trailing track",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
-          "published": "2026-07-08T18:12:00+00:00",
-          "content_snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track . Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trailing track (P201). The trailing track is designed for customers who prioritize stability for production workloads, running on a version already validated through the leading track. With RG instances now available on both tracks, customers can take advantage of AWS Graviton-powered performance - del",
+          "title": "AWS Client VPN extends availability to four additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
+          "published": "2026-07-09T17:08:00+00:00",
+          "content_snippet": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely connect their remote workforce to resources in AWS or on-premises networks. AWS Client VPN eliminates the need for hardware VPN appliances and complex operational management through its pay-as-you-go model. Organizations can easily manage and monitor VPN connections through a single console. To lear",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
-          "published": "2026-07-08T18:00:00+00:00",
-          "content_snippet": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integration workflows. Aurora DSQL CDC automatically captures the results of insert, update, and delete operations as change events and delivers them to Kinesis Data Streams with no infrastructure to manage. You can use CDC to synchronize data across microservices, trigger AWS Lambda functions, or deliver",
+          "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+          "published": "2026-07-09T16:04:00+00:00",
+          "content_snippet": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, revenue dashboards built in PowerBI, or PDF research reports generated by a third-party platform. Custom asset types bring all assets, regardless of their underlying format, into the SageMaker catalog so teams can search, discover, and subscribe to them",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
-          "published": "2026-07-08T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique characteristics of each channel, including concurrent work handling, duration of work from minutes to months, and distinct service level requirements, so your forecasts and schedules reflect how your operation actually runs. For example, if your agents ",
+          "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
+          "published": "2026-07-09T16:00:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running instances at any time. Continuous provisioning lets you start training quickly and scale instance groups asynchronously without all-or-nothing failures, and you can now pair that flexibility with comprehensive hardware validation as instances come online. This capability addresses a critical challenge ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Navigating a Synapse Migration to Databricks",
-          "url": "https://www.databricks.com/blog/navigating-synapse-migration-databricks",
-          "published": "2026-07-08T19:00:00+00:00",
-          "content_snippet": "Azure Synapse has served as a reliable foundation for SQL analytics at scale, and...",
+          "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
+          "published": "2026-07-09T15:35:00+00:00",
+          "content_snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion, record discovery, and offline store cataloging. Data scientists can now write multiple records across multiple feature groups in a single request with BatchWriteRecord, list the records stored in a feature group without knowing each record identifi",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+          "published": "2026-07-09T15:00:00+00:00",
+          "content_snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capability extends replication support to MSK Standard brokers, in addition to the existing support for MSK Express brokers. With this launch, you can migrate workloads to MSK Standard brokers, support disaster recovery by using MSK clusters as a failover or backup target, and enable data distribution a",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Config now supports 191 additional managed rules",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
+          "published": "2026-07-09T12:00:00+00:00",
+          "content_snippet": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTrail. This expansion increases built-in governance coverage across AI workloads and core cloud infrastructure. Examples of the new managed rules include evaluating resource configurations for encryption, logging, public access, network security, data protection, and other operational best practices ac",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The Ambulatory Intelligence Gap",
+          "url": "https://www.databricks.com/blog/ambulatory-intelligence-gap",
+          "published": "2026-07-10T09:00:00+00:00",
+          "content_snippet": "Ambulatory care, the outpatient clinics and physician practices where most patients...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase",
-          "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-          "published": "2026-07-08T16:30:51+00:00",
-          "content_snippet": "At Databricks, the way we build software is changing quickly as we aggressively adopt...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Bain Capital Is Scaling AI with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=8xqQzrLf0co",
-          "published": "2026-07-08T22:51:23+00:00",
-          "content_snippet": "For businesses, AI is most powerful when everyone can use it. “Having 2,700 employees, all of whom now have an enterprise ChatGPT license, has just been a giant force multiplier for the business.” -James Mackey, Bain Capital See how Bain Capital portfolio company Zelis is using ChatGPT to streamline claims processing and help reduce costs across the healthcare system.",
+          "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+          "url": "https://www.youtube.com/watch?v=SvGLxXHYCd8",
+          "published": "2026-07-10T09:19:42+00:00",
+          "content_snippet": "In this customer story, Jonathan Abrahamson, Chief Product & Digital Officer at Deutsche Telekom, shares how the company is reimagining telecommunications with AI—transforming employee workflows, customer service, network operations, and the future of voice. Hear how Deutsche Telekom is working toward becoming an AI-native telecommunications company, bringing AI into communications experiences through capabilities such as live translation, in-call assistants, and automated summarization, while r",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The next generation of ChatGPT Voice",
-          "url": "https://www.youtube.com/watch?v=9f-Ew_lDtxc",
-          "published": "2026-07-08T21:13:26+00:00",
-          "content_snippet": "Join Kundan Kumar, Yuchen Zhang, Ehsan Asdar, and Rithesh Kumar as they introduce and demo a new generation of voice models.",
+          "title": "ChatGPT Work | How NVIDIA Scales GTM with AI",
+          "url": "https://www.youtube.com/watch?v=xYVfknDQHU4",
+          "published": "2026-07-09T22:30:40+00:00",
+          "content_snippet": "“ChatGPT has really been a force multiplier” Will Daney, Go-To-Market Strategist at NVIDIA, uses ChatGPT Work to: 🤖 Automate repeatable workflows ⏱️ Eliminate manual analysis 📈 Turn customer data into actionable insights “You build the building block yourself, and then it can scale to your global team pretty easily.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Image interaction with GPT-Live",
-          "url": "https://www.youtube.com/watch?v=KS4X-BPjxN8",
-          "published": "2026-07-08T17:37:19+00:00",
-          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "title": "ChatGPT Work | NVIDIA’s GTM Team Uses AI to Scale Faster",
+          "url": "https://www.youtube.com/watch?v=Cb0N8Pnja30",
+          "published": "2026-07-09T22:30:35+00:00",
+          "content_snippet": "“ChatGPT has really been a force multiplier” Will Daney (tag), Go-To-Market Strategist at NVIDIA (tag), uses ChatGPT Work to: 🤖 Automate repeatable workflows ⏱️ Eliminate manual analysis 📈 Turn customer data into actionable insights “You build the building block yourself, and then it can scale to your global team pretty easily.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Discoverability widgets with GPT-Live",
-          "url": "https://www.youtube.com/watch?v=QUOwyLwoykU",
-          "published": "2026-07-08T17:36:34+00:00",
-          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
+          "url": "https://www.youtube.com/watch?v=md5t5Nu44A4",
+          "published": "2026-07-09T21:26:20+00:00",
+          "content_snippet": "“We quantified the impact of this project to the tune of seven figures in pipeline every single month.” Angela Ferrante, Head of Enterprise Marketing at Zapier, used ChatGPT Work to automate a process that once took 35–45 minutes per lead. Now, her team can QA thousands of inbound leads, recover missed opportunities, and spend more time on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Natural Conversations with GPT-Live",
-          "url": "https://www.youtube.com/watch?v=3bL6IpdgddQ",
-          "published": "2026-07-08T17:33:32+00:00",
-          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
+          "url": "https://www.youtube.com/watch?v=sqXsMDOxP0Y",
+          "published": "2026-07-09T21:19:10+00:00",
+          "content_snippet": "“We quantified the impact of this project to the tune of seven figures in pipeline every single month.” Angela Ferrante, Head of Enterprise Marketing at Zapier, used ChatGPT Work to automate a process that once took 35–45 minutes per lead. Now, her team can QA thousands of inbound leads, recover missed opportunities, and spend more time on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Temporal awareness with GPT-Live",
-          "url": "https://www.youtube.com/watch?v=8vvWTz6N7Qg",
-          "published": "2026-07-08T17:33:31+00:00",
-          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "title": "Get started with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=GphgJjaKKhw",
+          "published": "2026-07-09T21:00:03+00:00",
+          "content_snippet": "ChatGPT Work gives you one place to delegate real work across your apps, files, local projects, browser, and computer. It works across web, mobile, and the new ChatGPT desktop app. In this walkthrough, see how to connect your tools, set up recurring work, move between devices, and collaborate with ChatGPT as it works toward an outcome. Get started: https://learn.chatgpt.com/ Chapters: 00:00 Introducing ChatGPT Work 00:45 Scheduled tasks 01:42 Marketing workflow 02:37 Data analytics workflow 03:4",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Listening & Speaking with GPT-Live",
-          "url": "https://www.youtube.com/watch?v=K-fYBO8t3-A",
-          "published": "2026-07-08T17:33:31+00:00",
-          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "title": "Meet a mathematician solving previously unsolvable math problems with GPT-5.6",
+          "url": "https://www.youtube.com/watch?v=5X5CALvYvp0",
+          "published": "2026-07-09T20:00:35+00:00",
+          "content_snippet": "Meet Bartosz. A mathematician solving previously unsolvable math problems with GPT-5.6",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "This is the new ChatGPT Voice, powered by GPT-Live",
-          "url": "https://www.youtube.com/watch?v=EAN5Cj347PY",
-          "published": "2026-07-08T17:23:27+00:00",
-          "content_snippet": "You’ll want to turn the sound on for this one. Read more here: https://openai.com/index/introducing-gpt-live/",
+          "title": "Meet the broccoli farmer running his farm with GPT-5.6.",
+          "url": "https://www.youtube.com/watch?v=hWhfrR9WJ_c",
+          "published": "2026-07-09T20:00:24+00:00",
+          "content_snippet": "Meet Hiroki. A broccoli farmer running his farm with GPT-5.6.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI Academy: Parent-Coaches with the San Antonio Spurs",
-          "url": "https://www.youtube.com/watch?v=94cXnSu6kUQ",
-          "published": "2026-07-08T15:25:08+00:00",
-          "content_snippet": "The San Antonio Spurs Community Impact organization, OpenAI Academy and the Positive Coaching Alliance teamed up to bring together coaches, parents, and community leaders on Sunday to explore how AI can support learning, coaching, and youth engagement—on and off the court.",
+          "title": "Meet a family running a cereal business from their dining room with GPT-5.6.",
+          "url": "https://www.youtube.com/watch?v=A5VgJ0KZgKs",
+          "published": "2026-07-09T20:00:18+00:00",
+          "content_snippet": "Meet the Wishingrads. A family running a cereal business from their dining room with GPT-5.6.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI Academy x Veterans Forge | Building with ChatGPT: Practical AI Skills for Veterans",
-          "url": "https://www.youtube.com/watch?v=J2ZNjSplGd8",
-          "published": "2026-07-08T15:25:04+00:00",
-          "content_snippet": "Veterans and active-duty service members gathered in Baltimore for a hands-on OpenAI Academy workshop focused on practical AI skills. Hosted in partnership with Veterans Forge and The AI Collective • Hampton Roads, the session combined guided instruction, real-world exercises, and peer learning to help participants build confidence using ChatGPT for career growth, professional development, and lifelong learning. You can learn more about OpenAI Academy and take free AI literacy courses here: acad",
+          "title": "ChatGPT Work for Marketing Teams",
+          "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
+          "published": "2026-07-09T18:30:29+00:00",
+          "content_snippet": "Marketing work usually starts with a lot of moving pieces: customer insights, campaign ideas, feedback, channel plans, and a deadline that is already getting closer. See how ChatGPT Work can help teams move from insight to brief to campaign-ready work https://openai.com/business/solutions/marketing/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -330,37 +333,10 @@
       ],
       "items": [
         {
-          "title": "What do we build now? — Theo Browne, @t3dotgg",
-          "url": "https://www.youtube.com/watch?v=xUnRQ9vLXxo",
-          "published": "2026-07-08T19:59:33+00:00",
-          "content_snippet": "For the closing keynote of AIEWF2026, Theo provokes you to think wider, not just bigger. In this keynote from the AI Engineer World's Fair, developer and YouTuber Theo Browne (@t3dotgg) argues that the rapid evolution of AI models—moving from tool-calling (Sonnet 3.5) to long-running task execution (Opus 4.5) and now orchestration (Mythos)—requires software engineers to fundamentally change how they build products. Key Themes: Rejecting Skeuomorphism: Browne compares the current state of softwar",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Think You Can Build a Game with AI? Think Again! - Danielle An & David Hoe, Meta",
-          "url": "https://www.youtube.com/watch?v=grdoOC1BT1s",
-          "published": "2026-07-08T15:00:06+00:00",
-          "content_snippet": "With the recent development of AI, either you or your friend probably vibe coded a game using Gemini, on Three.js. But that is old news now. If everyone can do that, what is next? The next massive hit, the one that millions of people across the world will play, is just about to be born. Wanna know more? Come see this talk!",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your agent is blindfolded — Johan Lajili, Poolside AI",
-          "url": "https://www.youtube.com/watch?v=iRcX54EO5g8",
-          "published": "2026-07-08T13:45:06+00:00",
-          "content_snippet": "Your agent is blindfolded. How giving it (good) eyes multiplies performance and trust!",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Building an ACP-Compatible Agent Live — Bennet Fenner, Zed",
-          "url": "https://www.youtube.com/watch?v=HsxQICTLF84",
-          "published": "2026-07-08T12:00:07+00:00",
-          "content_snippet": "In this session, we'll be building a coding agent that implements ACP — covering protocol design, session lifecycle management, and handling tool calls. The session ends with a live demo of the finished agent running inside Zed, showing what ACP looks like in practice from both sides of the protocol.",
+          "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
+          "url": "https://www.youtube.com/watch?v=pMggiOb18tc",
+          "published": "2026-07-09T18:53:34+00:00",
+          "content_snippet": "OpenAI's Dev Day 2024 demo ran on an o1 preview model that could not run or check its own code, so Romain Huet had to cross his fingers live on stage. A year later, the same kind of demo ran a full camera and lighting rig, because the model could now test its own work. Alexander Embiricos and Huet use that jump to show how fast Codex is moving: new model releases went from every 15 months to about every 6 weeks. They walk through why Codex is built on the same responses API, open source harness,",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -370,5 +346,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 15
 }
