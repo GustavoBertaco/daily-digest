@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T12:14:57Z",
+  "fetched_at": "2026-07-11T10:44:21Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,9 +14,9 @@
       ],
       "items": [
         {
-          "title": "\"I Want to Be in Charge, I Want to Run the Machine\"",
-          "url": "https://www.youtube.com/watch?v=F1DKnBht-0o",
-          "published": "2026-07-09T16:00:35+00:00",
+          "title": "Which engineers are in high demand right now?",
+          "url": "https://www.youtube.com/watch?v=AdJ7nhwg5iA",
+          "published": "2026-07-10T15:00:10+00:00",
           "content_snippet": "AMA with Gergely Orosz, founder of The Pragmatic Engineer. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
@@ -67,18 +67,31 @@
       ],
       "items": [
         {
-          "title": "Dan Carlin: What happens when a nation’s truth splinters into 1,000 versions | Kmele Foster",
-          "url": "https://www.youtube.com/watch?v=nXzrmkFj1u0",
-          "published": "2026-07-09T13:00:35+00:00",
-          "content_snippet": "Read Dan Carlin, in print. An excerpt from this interview is in 'The Opt-Out Nation' — our quarterly magazine just for Big Think members: https://bigthink.com/membership/ Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Hollywood lied to you about Ancient Rome. Here’s the truth | Mary Beard: Full Interview ► https://www.youtube.com/watch?v=v_yP8C7uo3Y Dan Carlin has spent decades explaining history's collapses. Now he's watc",
+          "title": "How to diagnose a habit | Charles Duhigg",
+          "url": "https://www.youtube.com/watch?v=9XUjCHqUeW8",
+          "published": "2026-07-10T16:03:05+00:00",
+          "content_snippet": "How to diagnose a habit | Charles Duhigg",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "A philosopher’s argument against the cult of achievement | Zena Hitz: Full Interview",
+          "url": "https://www.youtube.com/watch?v=JD4Fhh6GDcY",
+          "published": "2026-07-10T13:00:20+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Love, sex, and happiness, explained by philosophy | Jonny Thomson: Full Interview ► https://www.youtube.com/watch?v=esneN8HQKeY A philosopher who walked away from an elite academic career",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
         "Daniel Pink": 1
       }
     },
@@ -133,100 +146,136 @@
       ],
       "items": [
         {
-          "title": "OAuth support for the AWS MCP Server",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
-          "published": "2026-07-09T23:03:00+00:00",
-          "content_snippet": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identities, sign-in methods, IAM permissions, and governance controls you have already set up continue to apply. Developers can authorize agents interactively through a browser or programmatically using non-interactive (headless) authorization. Administrators can govern OAuth access using familiar IAM polic",
+          "title": "Amazon EC2 network/EBS instances now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
+          "published": "2026-07-10T20:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS and feature the latest sixth generation AWS Nitro cards. These instances deliver up to 43% better compute performance per vCPU compared to previous generation R6in and R6idn instances. R8in, R8idn instances ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
-          "published": "2026-07-09T17:24:00+00:00",
-          "content_snippet": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter group updates, maintenance windows, and reboot — covering both successful completions and failures. With this capability, customers can use Amazon EventBridge rules to programmatically react to database operations without polling the API for status.",
+          "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
+          "published": "2026-07-10T18:16:00+00:00",
+          "content_snippet": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PySpark code recommendations without manually navigating distributed logs and Spark History Server data. The agent analyzes Spark History Server data, distributed executor logs, and cluster configurations to identify issues such as memory errors, data skew, resource contention, and connectivity failure",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Client VPN extends availability to four additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
-          "published": "2026-07-09T17:08:00+00:00",
-          "content_snippet": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely connect their remote workforce to resources in AWS or on-premises networks. AWS Client VPN eliminates the need for hardware VPN appliances and complex operational management through its pay-as-you-go model. Organizations can easily manage and monitor VPN connections through a single console. To lear",
+          "title": "Amazon Location Service enhances Places APIs with new address and search options",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
+          "published": "2026-07-10T17:26:00+00:00",
+          "content_snippet": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and drive-through data. These capabilities span the Geocode, ReverseGeocode, GetPlace, Suggest, Autocomplete, SearchNearby, and SearchText APIs. Developers can now control how address component names are returned using the new AddressNamesMode parameter. By default, addresses are returned with normalized",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
-          "published": "2026-07-09T16:04:00+00:00",
-          "content_snippet": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, revenue dashboards built in PowerBI, or PDF research reports generated by a third-party platform. Custom asset types bring all assets, regardless of their underlying format, into the SageMaker catalog so teams can search, discover, and subscribe to them",
+          "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
+          "published": "2026-07-10T17:00:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and this launch extends AMI-based configuration to clusters using this mode. With this support, clusters using continuous provisioning can be created without downloading, configuring, or uploading lifecycle configuration scripts to Amazon S3. AMI-based configuration provisions nodes with the software a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
-          "published": "2026-07-09T16:00:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running instances at any time. Continuous provisioning lets you start training quickly and scale instance groups asynchronously without all-or-nothing failures, and you can now pair that flexibility with comprehensive hardware validation as instances come online. This capability addresses a critical challenge ",
+          "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
+          "published": "2026-07-10T15:14:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analysis, a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
-          "published": "2026-07-09T15:35:00+00:00",
-          "content_snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion, record discovery, and offline store cataloging. Data scientists can now write multiple records across multiple feature groups in a single request with BatchWriteRecord, list the records stored in a feature group without knowing each record identifi",
+          "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
+          "published": "2026-07-10T15:09:00+00:00",
+          "content_snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity to your source databases. You extract metadata using standard database commands in your own environment, then upload it to DMS Schema Conversion for processing. This eliminates security reviews, firewall changes, and VPN setup that delay migration projects, while delivering the same conversion resul",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
-          "published": "2026-07-09T15:00:00+00:00",
-          "content_snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capability extends replication support to MSK Standard brokers, in addition to the existing support for MSK Express brokers. With this launch, you can migrate workloads to MSK Standard brokers, support disaster recovery by using MSK clusters as a failover or backup target, and enable data distribution a",
+          "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
+          "published": "2026-07-10T14:55:00+00:00",
+          "content_snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, offering up to 40% better compute performance and 20% better price performance over existing I3en instances. I7ie instances offer up to 120TB local NVMe storage density for storage optimized instances and offer up to twice as",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Config now supports 191 additional managed rules",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
-          "published": "2026-07-09T12:00:00+00:00",
-          "content_snippet": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTrail. This expansion increases built-in governance coverage across AI workloads and core cloud infrastructure. Examples of the new managed rules include evaluating resource configurations for encryption, logging, public access, network security, data protection, and other operational best practices ac",
+          "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
+          "published": "2026-07-10T14:00:00+00:00",
+          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling customers to achieve higher throughput and support larger working sets in memory. With R8g.24xlarge (96 vCPUs, 768 GiB memory) and R8g.48xlarge (192 vCPUs, 1,536 GiB memory), customers can run more demanding workloads such as high-concurrency transactional applications, large-scale document processing",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The Ambulatory Intelligence Gap",
-          "url": "https://www.databricks.com/blog/ambulatory-intelligence-gap",
-          "published": "2026-07-10T09:00:00+00:00",
-          "content_snippet": "Ambulatory care, the outpatient clinics and physician practices where most patients...",
+          "title": "The agentic marketing stack starts with the data layer",
+          "url": "https://www.databricks.com/blog/agentic-marketing-stack-starts-data-layer",
+          "published": "2026-07-10T19:00:00+00:00",
+          "content_snippet": "There's a version of the AI modernization story that goes: build the platform, then...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-          "url": "https://www.youtube.com/watch?v=SvGLxXHYCd8",
-          "published": "2026-07-10T09:19:42+00:00",
-          "content_snippet": "In this customer story, Jonathan Abrahamson, Chief Product & Digital Officer at Deutsche Telekom, shares how the company is reimagining telecommunications with AI—transforming employee workflows, customer service, network operations, and the future of voice. Hear how Deutsche Telekom is working toward becoming an AI-native telecommunications company, bringing AI into communications experiences through capabilities such as live translation, in-call assistants, and automated summarization, while r",
+          "title": "Introducing Feature Views",
+          "url": "https://www.databricks.com/blog/introducing-feature-views",
+          "published": "2026-07-10T16:46:11+00:00",
+          "content_snippet": "In a perfect world, ML Features are built only once. But for many teams, a feature...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "RingCentral Scales Customer Programs with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=MdTqoR-7oHg",
+          "published": "2026-07-10T21:21:13+00:00",
+          "content_snippet": "“ChatGPT Work helped me scale from six customers that I was tracking in the pilot phase to about 80.” Vaneet Seth, R&D Efficiency Manager at RingCentral, uses ChatGPT Work to bring together information across siloed teams, turn scattered knowledge into a living operating system, and move from insights to execution faster. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ChatGPT Work | How NVIDIA Scales GTM with AI",
-          "url": "https://www.youtube.com/watch?v=xYVfknDQHU4",
-          "published": "2026-07-09T22:30:40+00:00",
-          "content_snippet": "“ChatGPT has really been a force multiplier” Will Daney, Go-To-Market Strategist at NVIDIA, uses ChatGPT Work to: 🤖 Automate repeatable workflows ⏱️ Eliminate manual analysis 📈 Turn customer data into actionable insights “You build the building block yourself, and then it can scale to your global team pretty easily.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "title": "Stampli scales product marketing with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=eD5lc1mZDZk",
+          "published": "2026-07-10T21:17:12+00:00",
+          "content_snippet": "“It’s allowed basically a one-person team to do the work of a team of four or five.” Melad Zahedi, Director of Product Marketing at Stampli, uses ChatGPT Work to pull product context from Jira, GitHub, and meeting notes, then automatically update downstream content across help centers, presentations, web pages, and more. The result? Hundreds of pieces of content each week—and more time to focus on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-yo",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Stampli scales product marketing with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=yATno77Uo6A",
+          "published": "2026-07-10T21:11:41+00:00",
+          "content_snippet": "“It’s allowed basically a one-person team to do the work of a team of four or five.” Melad Zahedi, Director of Product Marketing at Stampli, uses ChatGPT Work to pull product context from Jira, GitHub, and meeting notes, then automatically update downstream content across help centers, presentations, web pages, and more. The result? Hundreds of pieces of content each week—and more time to focus on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-yo",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "ChatGPT Computer Use: Now faster with Live Picture-in-Picture",
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10T19:45:02+00:00",
+          "content_snippet": "Computer Use is getting an upgrade as part of ChatGPT Work. It's faster and more accurate with GPT-5.6, and Live Picture-in-Picture lets you keep an eye on its progress. You can also send the live PiP to your Pet while you multitask -- or simply sit back and watch.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "RingCentral Scales Customer Programs with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=nep5byxmr_M",
+          "published": "2026-07-10T16:02:41+00:00",
+          "content_snippet": "“ChatGPT Work helped me scale from six customers that I was tracking in the pilot phase to about 80.” Vaneet Seth, R&D Efficiency Manager at RingCentral, uses ChatGPT Work to bring together information across siloed teams, turn scattered knowledge into a living operating system, and move from insights to execution faster. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -242,63 +291,9 @@
         },
         {
           "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
-          "url": "https://www.youtube.com/watch?v=md5t5Nu44A4",
-          "published": "2026-07-09T21:26:20+00:00",
-          "content_snippet": "“We quantified the impact of this project to the tune of seven figures in pipeline every single month.” Angela Ferrante, Head of Enterprise Marketing at Zapier, used ChatGPT Work to automate a process that once took 35–45 minutes per lead. Now, her team can QA thousands of inbound leads, recover missed opportunities, and spend more time on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
           "url": "https://www.youtube.com/watch?v=sqXsMDOxP0Y",
           "published": "2026-07-09T21:19:10+00:00",
           "content_snippet": "“We quantified the impact of this project to the tune of seven figures in pipeline every single month.” Angela Ferrante, Head of Enterprise Marketing at Zapier, used ChatGPT Work to automate a process that once took 35–45 minutes per lead. Now, her team can QA thousands of inbound leads, recover missed opportunities, and spend more time on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Get started with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=GphgJjaKKhw",
-          "published": "2026-07-09T21:00:03+00:00",
-          "content_snippet": "ChatGPT Work gives you one place to delegate real work across your apps, files, local projects, browser, and computer. It works across web, mobile, and the new ChatGPT desktop app. In this walkthrough, see how to connect your tools, set up recurring work, move between devices, and collaborate with ChatGPT as it works toward an outcome. Get started: https://learn.chatgpt.com/ Chapters: 00:00 Introducing ChatGPT Work 00:45 Scheduled tasks 01:42 Marketing workflow 02:37 Data analytics workflow 03:4",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meet a mathematician solving previously unsolvable math problems with GPT-5.6",
-          "url": "https://www.youtube.com/watch?v=5X5CALvYvp0",
-          "published": "2026-07-09T20:00:35+00:00",
-          "content_snippet": "Meet Bartosz. A mathematician solving previously unsolvable math problems with GPT-5.6",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meet the broccoli farmer running his farm with GPT-5.6.",
-          "url": "https://www.youtube.com/watch?v=hWhfrR9WJ_c",
-          "published": "2026-07-09T20:00:24+00:00",
-          "content_snippet": "Meet Hiroki. A broccoli farmer running his farm with GPT-5.6.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meet a family running a cereal business from their dining room with GPT-5.6.",
-          "url": "https://www.youtube.com/watch?v=A5VgJ0KZgKs",
-          "published": "2026-07-09T20:00:18+00:00",
-          "content_snippet": "Meet the Wishingrads. A family running a cereal business from their dining room with GPT-5.6.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work for Marketing Teams",
-          "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
-          "published": "2026-07-09T18:30:29+00:00",
-          "content_snippet": "Marketing work usually starts with a lot of moving pieces: customer insights, campaign ideas, feedback, channel plans, and a deadline that is already getting closer. See how ChatGPT Work can help teams move from insight to brief to campaign-ready work https://openai.com/business/solutions/marketing/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -333,10 +328,28 @@
       ],
       "items": [
         {
-          "title": "The Golden Age of AI Engineering — Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",
-          "url": "https://www.youtube.com/watch?v=pMggiOb18tc",
-          "published": "2026-07-09T18:53:34+00:00",
-          "content_snippet": "OpenAI's Dev Day 2024 demo ran on an o1 preview model that could not run or check its own code, so Romain Huet had to cross his fingers live on stage. A year later, the same kind of demo ran a full camera and lighting rig, because the model could now test its own work. Alexander Embiricos and Huet use that jump to show how fast Codex is moving: new model releases went from every 15 months to about every 6 weeks. They walk through why Codex is built on the same responses API, open source harness,",
+          "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
+          "url": "https://www.youtube.com/watch?v=YZQsWVeN3rE",
+          "published": "2026-07-11T00:57:36+00:00",
+          "content_snippet": "A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore, but it’s just because the problem grew up. Today, your AI still doesn’t know how to say “I’m not sure.” Instead, it hands you a revenue number that’s wrong in ways that look exactly like being right. The good news is we already solved this once, for people: you onboard a new hire so they understand your business; you put subjective, high-stakes calls in front of more than one set of eyes. This talk ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
+          "url": "https://www.youtube.com/watch?v=WkBPX-oDMnA",
+          "published": "2026-07-10T22:14:52+00:00",
+          "content_snippet": "Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement. And to guide your agents well, it's not enough to just verify correctness -- you actually need to understand the work they're doing. In this talk, I'll share some techniques for staying in the loop and efficiently developing understanding, combining old ideas from education and cognitive science with modern agent capabilities. You'll walk away with some practical tips for moving faster with agents",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
+          "url": "https://www.youtube.com/watch?v=ZpK5PWX2YRM",
+          "published": "2026-07-10T18:00:06+00:00",
+          "content_snippet": "\"How much better do the models have to get before you'll stop reading the code?\" Theo asked that question recently and the replies caught fire. Mitchell Hashimoto is calling it agent psychosis. ThePrimeagen's subreddit is in open revolt about people shipping code they never read. Uncle Bob says we have about a year left of looking at code at all. Alex Volkov saw this argument coming three months ago, and gave it a name. At AI Engineer Europe, OpenAI's Ryan Lopopolo opened the conference by sayin",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -346,5 +359,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 17
 }
