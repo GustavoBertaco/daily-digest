@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T10:44:21Z",
+  "fetched_at": "2026-07-12T10:59:37Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -89,11 +89,13 @@
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -145,96 +147,6 @@
         "databricks"
       ],
       "items": [
-        {
-          "title": "Amazon EC2 network/EBS instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
-          "published": "2026-07-10T20:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS and feature the latest sixth generation AWS Nitro cards. These instances deliver up to 43% better compute performance per vCPU compared to previous generation R6in and R6idn instances. R8in, R8idn instances ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
-          "published": "2026-07-10T18:16:00+00:00",
-          "content_snippet": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PySpark code recommendations without manually navigating distributed logs and Spark History Server data. The agent analyzes Spark History Server data, distributed executor logs, and cluster configurations to identify issues such as memory errors, data skew, resource contention, and connectivity failure",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Location Service enhances Places APIs with new address and search options",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
-          "published": "2026-07-10T17:26:00+00:00",
-          "content_snippet": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and drive-through data. These capabilities span the Geocode, ReverseGeocode, GetPlace, Suggest, Autocomplete, SearchNearby, and SearchText APIs. Developers can now control how address component names are returned using the new AddressNamesMode parameter. By default, addresses are returned with normalized",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
-          "published": "2026-07-10T17:00:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and this launch extends AMI-based configuration to clusters using this mode. With this support, clusters using continuous provisioning can be created without downloading, configuring, or uploading lifecycle configuration scripts to Amazon S3. AMI-based configuration provisions nodes with the software a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
-          "published": "2026-07-10T15:14:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analysis, a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
-          "published": "2026-07-10T15:09:00+00:00",
-          "content_snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity to your source databases. You extract metadata using standard database commands in your own environment, then upload it to DMS Schema Conversion for processing. This eliminates security reviews, firewall changes, and VPN setup that delay migration projects, while delivering the same conversion resul",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
-          "published": "2026-07-10T14:55:00+00:00",
-          "content_snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, offering up to 40% better compute performance and 20% better price performance over existing I3en instances. I7ie instances offer up to 120TB local NVMe storage density for storage optimized instances and offer up to twice as",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
-          "published": "2026-07-10T14:00:00+00:00",
-          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling customers to achieve higher throughput and support larger working sets in memory. With R8g.24xlarge (96 vCPUs, 768 GiB memory) and R8g.48xlarge (192 vCPUs, 1,536 GiB memory), customers can run more demanding workloads such as high-concurrency transactional applications, large-scale document processing",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The agentic marketing stack starts with the data layer",
-          "url": "https://www.databricks.com/blog/agentic-marketing-stack-starts-data-layer",
-          "published": "2026-07-10T19:00:00+00:00",
-          "content_snippet": "There's a version of the AI modernization story that goes: build the platform, then...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Feature Views",
-          "url": "https://www.databricks.com/blog/introducing-feature-views",
-          "published": "2026-07-10T16:46:11+00:00",
-          "content_snippet": "In a perfect world, ML Features are built only once. But for many teams, a feature...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
         {
           "title": "RingCentral Scales Customer Programs with ChatGPT Work",
           "url": "https://www.youtube.com/watch?v=MdTqoR-7oHg",
@@ -301,7 +213,15 @@
       ],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -328,28 +248,91 @@
       ],
       "items": [
         {
-          "title": "Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers — Alex Bauer, Upside.tech",
-          "url": "https://www.youtube.com/watch?v=YZQsWVeN3rE",
-          "published": "2026-07-11T00:57:36+00:00",
-          "content_snippet": "A couple of years ago, everyone worried about AI hallucinating. We rarely hear that word anymore, but it’s just because the problem grew up. Today, your AI still doesn’t know how to say “I’m not sure.” Instead, it hands you a revenue number that’s wrong in ways that look exactly like being right. The good news is we already solved this once, for people: you onboard a new hire so they understand your business; you put subjective, high-stakes calls in front of more than one set of eyes. This talk ",
+          "title": "remobi.app: Don't change your terminal workflow for mobile",
+          "url": "https://www.youtube.com/watch?v=5192csoTkVo",
+          "published": "2026-07-12T08:47:17+00:00",
+          "content_snippet": "remobi.app: Don't change your terminal workflow for mobile. Swipe between agents, unblock when stuck.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Understanding is the new bottleneck — Geoffrey Litt, Notion",
-          "url": "https://www.youtube.com/watch?v=WkBPX-oDMnA",
-          "published": "2026-07-10T22:14:52+00:00",
-          "content_snippet": "Autonomous loops are hot, but the reality is that most agentic tasks still require human judgement. And to guide your agents well, it's not enough to just verify correctness -- you actually need to understand the work they're doing. In this talk, I'll share some techniques for staying in the loop and efficiently developing understanding, combining old ideas from education and cognitive science with modern agent capabilities. You'll walk away with some practical tips for moving faster with agents",
+          "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
+          "url": "https://www.youtube.com/watch?v=EfcfUB2uprc",
+          "published": "2026-07-12T08:00:21+00:00",
+          "content_snippet": "Psychologists spent the last century learning how to measure something invisible and uncooperative: a human mind. AI evaluation, meanwhile, still scores like it is 1950. Count the right answers, treat every question as equal, trust the percentage (this is Classical Test Theory). We are sitting on decades of measurement theory built for exactly this problem, and we forgot to use it. Borrow it and the picture changes. Item Response Theory (or IRT, the math behind the SAT and the GRE) models every ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Should AI Engineers Still Read Code in 2026? The Z/L Continuum — Alex Volkov, ThursdAI",
-          "url": "https://www.youtube.com/watch?v=ZpK5PWX2YRM",
-          "published": "2026-07-10T18:00:06+00:00",
-          "content_snippet": "\"How much better do the models have to get before you'll stop reading the code?\" Theo asked that question recently and the replies caught fire. Mitchell Hashimoto is calling it agent psychosis. ThePrimeagen's subreddit is in open revolt about people shipping code they never read. Uncle Bob says we have about a year left of looking at code at all. Alex Volkov saw this argument coming three months ago, and gave it a name. At AI Engineer Europe, OpenAI's Ryan Lopopolo opened the conference by sayin",
+          "title": "What Does Done Even Mean? Agents and Paperclip's Liveness Model - Dotta, Paperclip",
+          "url": "https://www.youtube.com/watch?v=7P0elyLIxXo",
+          "published": "2026-07-12T06:45:06+00:00",
+          "content_snippet": "What does “done” mean when agents can produce more work than humans can possibly review? This talk argues that the future of agentic work is not just faster output, but a stronger trust protocol: systems where “done” means an artifact has met a stated standard, carries evidence, has been checked by the right verifier, assigns ownership of remaining risk, and clearly authorizes the next action. Drawing from Paperclip’s liveness model, it shows how teams can avoid approval theater, keep work movin",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
+          "url": "https://www.youtube.com/watch?v=xg1zNlzw7Jk",
+          "published": "2026-07-11T22:30:06+00:00",
+          "content_snippet": "Running OpenClaw without hardening access to it is a bad idea. We'll cover how I secured my OpenClaw, McClaw, contributed trusted-proxy auth mode to the OpenClaw project, and how I use it to build tools. We're going to build something live during the talk using OpenClaw, the same way I built Clawspace, a browser-based file explorer/editor for your OpenClaw workspace. feat(gateway): add trusted-proxy auth modegiithub.com/nickytonline/clawspace, a browser-based file explorer/editor for an OpenClaw",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS",
+          "url": "https://www.youtube.com/watch?v=vJukHCIv7Ck",
+          "published": "2026-07-11T21:45:00+00:00",
+          "content_snippet": "AI agents that book 15 guests in a 10-person room. Agents that fabricate statistics when data doesn't exist. Agents that pick wrong tools from 29 options, wasting $47 in tokens. These aren't prompt engineering failures, they're architectural limitations that need structural solutions. This hands-on workshop covers 5 research-backed techniques to prevent agent hallucinations: 1. Graph-RAG (Neo4j) - Replace vector similarity guessing with precise entity relationships. Result: 73% fewer fabricated ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft",
+          "url": "https://www.youtube.com/watch?v=jtzh-GBXBWc",
+          "published": "2026-07-11T20:00:27+00:00",
+          "content_snippet": "Most AI demos are built around a toy workflow. Ira was built around a factory. This talk is the story of how a third-generation Indian machinery company built a multi-agent operating system that helps run sales, business development, recruitment, quoting, marketing, production context, email workflows, and organizational memory. Ira is not a chatbot and not a wrapper around a single framework. It is a company brain: 39 bounded specialist agents, Athena as orchestrator, a 17-stage request pipelin",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Chat and citations won't save your vertical AI - Atul Ramachandran, Filed Inc",
+          "url": "https://www.youtube.com/watch?v=RGiXcVxSD3s",
+          "published": "2026-07-11T17:30:06+00:00",
+          "content_snippet": "Most vertical SaaS teams are doing the same things: chasing higher accuracy, building better model harnesses, shipping more features. And their customers are saying the same things: the AI got this wrong, it hallucinated, the accuracy is not good enough. So teams go back and push the numbers higher. We did the same at Filed. We built AI data entry for tax firms and hit 80%+ accuracy against an industry baseline of 50-60%. Many users still complained. Same model, same stack, different outcomes. S",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
+          "url": "https://www.youtube.com/watch?v=KB41dTlX1Uc",
+          "published": "2026-07-11T16:30:06+00:00",
+          "content_snippet": "Local AI has crossed from interesting to useful, driven by stronger open models, better hardware, and a maturing ecosystem for running intelligence outside the cloud. This panel explores what that shift unlocks for sovereignty, defense, regulated industries, privacy, cost, and resilience, and why open-source AI may be central to who benefits from the next wave of intelligence. Moderator: Nader Khalil (NVIDIA). Panelists: Joseph Nelson (Roboflow), Alex Cheema (Exo Labs), Ahmad Osman (r/LocalLLaMA",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony",
+          "url": "https://www.youtube.com/watch?v=WLXxTaPagA8",
+          "published": "2026-07-11T16:30:04+00:00",
+          "content_snippet": "If you build agents alone long enough, you will independently reinvent five things software engineering solved decades ago. A way to test whether your agent's output is still correct after you changed something. A way to run it on a schedule and know if it failed. A way to prevent one skill's schema change from silently breaking three downstream skills. A way to roll back when today's run produces garbage. A way to validate outputs before they hit production. You just reinvented regression testi",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat",
+          "url": "https://www.youtube.com/watch?v=9arM9b7JgOo",
+          "published": "2026-07-11T14:45:18+00:00",
+          "content_snippet": "The biggest gap in production AI agent systems is not the model—it's the harness. After 1,000 hours of orchestrating autonomous fleets under human direction, the pattern is unmistakable: agents that finish complex tasks on the first run routinely fail on subsequent iterations because the surrounding loop lacks persistent memory and contextual guardrails. In this talk, I dissects the key multi-agent primitives required to turn raw models into deterministic teammates. Moving beyond simple API wrap",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -359,5 +342,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 17
+  "deduped_count": 5
 }
