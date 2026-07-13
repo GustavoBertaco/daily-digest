@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T10:59:37Z",
+  "fetched_at": "2026-07-13T12:21:20Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,10 @@
       ],
       "items": [
         {
-          "title": "Which engineers are in high demand right now?",
-          "url": "https://www.youtube.com/watch?v=AdJ7nhwg5iA",
-          "published": "2026-07-10T15:00:10+00:00",
-          "content_snippet": "AMA with Gergely Orosz, founder of The Pragmatic Engineer. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "I was a big AI hater — now AI writes most of my code",
+          "url": "https://www.youtube.com/watch?v=OeIPw3bZUEg",
+          "published": "2026-07-12T16:00:02+00:00",
+          "content_snippet": "With Neet, Founder of ⁨@NeetCode. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -65,26 +65,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "How to diagnose a habit | Charles Duhigg",
-          "url": "https://www.youtube.com/watch?v=9XUjCHqUeW8",
-          "published": "2026-07-10T16:03:05+00:00",
-          "content_snippet": "How to diagnose a habit | Charles Duhigg",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "A philosopher’s argument against the cult of achievement | Zena Hitz: Full Interview",
-          "url": "https://www.youtube.com/watch?v=JD4Fhh6GDcY",
-          "published": "2026-07-10T13:00:20+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Love, sex, and happiness, explained by philosophy | Jonny Thomson: Full Interview ► https://www.youtube.com/watch?v=esneN8HQKeY A philosopher who walked away from an elite academic career",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -95,7 +76,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -148,24 +131,6 @@
       ],
       "items": [
         {
-          "title": "RingCentral Scales Customer Programs with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=MdTqoR-7oHg",
-          "published": "2026-07-10T21:21:13+00:00",
-          "content_snippet": "“ChatGPT Work helped me scale from six customers that I was tracking in the pilot phase to about 80.” Vaneet Seth, R&D Efficiency Manager at RingCentral, uses ChatGPT Work to bring together information across siloed teams, turn scattered knowledge into a living operating system, and move from insights to execution faster. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Stampli scales product marketing with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=eD5lc1mZDZk",
-          "published": "2026-07-10T21:17:12+00:00",
-          "content_snippet": "“It’s allowed basically a one-person team to do the work of a team of four or five.” Melad Zahedi, Director of Product Marketing at Stampli, uses ChatGPT Work to pull product context from Jira, GitHub, and meeting notes, then automatically update downstream content across help centers, presentations, web pages, and more. The result? Hundreds of pieces of content each week—and more time to focus on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-yo",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
           "title": "Stampli scales product marketing with ChatGPT Work",
           "url": "https://www.youtube.com/watch?v=yATno77Uo6A",
           "published": "2026-07-10T21:11:41+00:00",
@@ -175,37 +140,10 @@
           "area_name": "Providers Updates"
         },
         {
-          "title": "ChatGPT Computer Use: Now faster with Live Picture-in-Picture",
-          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
-          "published": "2026-07-10T19:45:02+00:00",
-          "content_snippet": "Computer Use is getting an upgrade as part of ChatGPT Work. It's faster and more accurate with GPT-5.6, and Live Picture-in-Picture lets you keep an eye on its progress. You can also send the live PiP to your Pet while you multitask -- or simply sit back and watch.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
           "title": "RingCentral Scales Customer Programs with ChatGPT Work",
           "url": "https://www.youtube.com/watch?v=nep5byxmr_M",
           "published": "2026-07-10T16:02:41+00:00",
           "content_snippet": "“ChatGPT Work helped me scale from six customers that I was tracking in the pilot phase to about 80.” Vaneet Seth, R&D Efficiency Manager at RingCentral, uses ChatGPT Work to bring together information across siloed teams, turn scattered knowledge into a living operating system, and move from insights to execution faster. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work | NVIDIA’s GTM Team Uses AI to Scale Faster",
-          "url": "https://www.youtube.com/watch?v=Cb0N8Pnja30",
-          "published": "2026-07-09T22:30:35+00:00",
-          "content_snippet": "“ChatGPT has really been a force multiplier” Will Daney (tag), Go-To-Market Strategist at NVIDIA (tag), uses ChatGPT Work to: 🤖 Automate repeatable workflows ⏱️ Eliminate manual analysis 📈 Turn customer data into actionable insights “You build the building block yourself, and then it can scale to your global team pretty easily.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
-          "url": "https://www.youtube.com/watch?v=sqXsMDOxP0Y",
-          "published": "2026-07-09T21:19:10+00:00",
-          "content_snippet": "“We quantified the impact of this project to the tune of seven figures in pipeline every single month.” Angela Ferrante, Head of Enterprise Marketing at Zapier, used ChatGPT Work to automate a process that once took 35–45 minutes per lead. Now, her team can QA thousands of inbound leads, recover missed opportunities, and spend more time on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -248,91 +186,55 @@
       ],
       "items": [
         {
-          "title": "remobi.app: Don't change your terminal workflow for mobile",
-          "url": "https://www.youtube.com/watch?v=5192csoTkVo",
-          "published": "2026-07-12T08:47:17+00:00",
-          "content_snippet": "remobi.app: Don't change your terminal workflow for mobile. Swipe between agents, unblock when stuck.",
+          "title": "RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI",
+          "url": "https://www.youtube.com/watch?v=8oyalrfwgjw",
+          "published": "2026-07-12T23:00:06+00:00",
+          "content_snippet": "Large codebases break coding agents: they lose the architecture and drown in tool output as context grows. This talk introduces Recursive Language Models (RLM) from a MIT paper a pattern that loads the repo into a programmable REPL where the model writes code to inspect it and recursively delegates focused sub-questions via llm_query. With a live demo on RLM Code (independent, unofficial), you'll see the loop run end to end on local and cloud models, with a fully inspectable trajectory. Speakers",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
-          "url": "https://www.youtube.com/watch?v=EfcfUB2uprc",
-          "published": "2026-07-12T08:00:21+00:00",
-          "content_snippet": "Psychologists spent the last century learning how to measure something invisible and uncooperative: a human mind. AI evaluation, meanwhile, still scores like it is 1950. Count the right answers, treat every question as equal, trust the percentage (this is Classical Test Theory). We are sitting on decades of measurement theory built for exactly this problem, and we forgot to use it. Borrow it and the picture changes. Item Response Theory (or IRT, the math behind the SAT and the GRE) models every ",
+          "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
+          "url": "https://www.youtube.com/watch?v=7JgIS42mz7U",
+          "published": "2026-07-12T22:00:09+00:00",
+          "content_snippet": "Something shifted in the past year that most security teams haven't fully reckoned with yet: AI models can now find serious vulnerabilities in production code, at scale, with minimal human skill required. Not in toy examples. In libraries that have been reviewed hundreds of times by the best researchers in the world. Jack Cable, Co-Founder and CEO of Corridor, will walk through what this means for the 80% of organizations that have never had to defend against adversaries doing in-house vuln disc",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "What Does Done Even Mean? Agents and Paperclip's Liveness Model - Dotta, Paperclip",
-          "url": "https://www.youtube.com/watch?v=7P0elyLIxXo",
-          "published": "2026-07-12T06:45:06+00:00",
-          "content_snippet": "What does “done” mean when agents can produce more work than humans can possibly review? This talk argues that the future of agentic work is not just faster output, but a stronger trust protocol: systems where “done” means an artifact has met a stated standard, carries evidence, has been checked by the right verifier, assigns ownership of remaining risk, and clearly authorizes the next action. Drawing from Paperclip’s liveness model, it shows how teams can avoid approval theater, keep work movin",
+          "title": "Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh & Vanč Levstik, Phaidra",
+          "url": "https://www.youtube.com/watch?v=EUsPvBeIx70",
+          "published": "2026-07-12T16:00:36+00:00",
+          "content_snippet": "You cannot solve a combinatorial engineering problem with a next token prediction engine. We learned this the hard way. Modern LLMs can write code, summarize research papers, and reason across massive datasets. But what happens when you connect them to mission-critical physical infrastructure with 50,000 live sensors, deterministic dependencies, and real-world thermodynamic constraints? We deployed state-of-the-art LLMs to manage real time operations within industrial and AI factory environments",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
-          "url": "https://www.youtube.com/watch?v=xg1zNlzw7Jk",
-          "published": "2026-07-11T22:30:06+00:00",
-          "content_snippet": "Running OpenClaw without hardening access to it is a bad idea. We'll cover how I secured my OpenClaw, McClaw, contributed trusted-proxy auth mode to the OpenClaw project, and how I use it to build tools. We're going to build something live during the talk using OpenClaw, the same way I built Clawspace, a browser-based file explorer/editor for your OpenClaw workspace. feat(gateway): add trusted-proxy auth modegiithub.com/nickytonline/clawspace, a browser-based file explorer/editor for an OpenClaw",
+          "title": "The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab",
+          "url": "https://www.youtube.com/watch?v=sum9DgexFRQ",
+          "published": "2026-07-12T14:00:07+00:00",
+          "content_snippet": "The AI agent industry is currently focused on memory, orchestration, enterprise deployment, and tooling. But these are the first steps toward a larger transformation: the emergence of the Agentic Web. Today’s ecosystem resembles the early days of AOL: closed platforms, proprietary agent stores, and siloed orchestration layers. The next era of AI agents will require open infrastructure that allows agents to discover, transact, and co-learn across organizational boundaries. This talk explores thre",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS",
-          "url": "https://www.youtube.com/watch?v=vJukHCIv7Ck",
-          "published": "2026-07-11T21:45:00+00:00",
-          "content_snippet": "AI agents that book 15 guests in a 10-person room. Agents that fabricate statistics when data doesn't exist. Agents that pick wrong tools from 29 options, wasting $47 in tokens. These aren't prompt engineering failures, they're architectural limitations that need structural solutions. This hands-on workshop covers 5 research-backed techniques to prevent agent hallucinations: 1. Graph-RAG (Neo4j) - Replace vector similarity guessing with precise entity relationships. Result: 73% fewer fabricated ",
+          "title": "A Song of Types and Agents - Roberto Stagi, Ratel",
+          "url": "https://www.youtube.com/watch?v=UlFB6efYN5Q",
+          "published": "2026-07-12T12:45:05+00:00",
+          "content_snippet": "Python ruled unchallenged for a decade, sitting comfortably on the AIron Throne. But a quiet rebellion is brewing: the entire stack that actually deploys AI agents in production runs on npm, not pip. This lightning talk is an opinionated, slightly unhinged tour of how TypeScript is taking over the AI throne, why this happened and how you can prepare for it. Speakers: - Roberto Stagi (Ratel): Roberto is the CTO & Co-Founder of Ratel, context layer for AI Agents, EU-Ambassador at AI Socratic, and ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft",
-          "url": "https://www.youtube.com/watch?v=jtzh-GBXBWc",
-          "published": "2026-07-11T20:00:27+00:00",
-          "content_snippet": "Most AI demos are built around a toy workflow. Ira was built around a factory. This talk is the story of how a third-generation Indian machinery company built a multi-agent operating system that helps run sales, business development, recruitment, quoting, marketing, production context, email workflows, and organizational memory. Ira is not a chatbot and not a wrapper around a single framework. It is a company brain: 39 bounded specialist agents, Athena as orchestrator, a 17-stage request pipelin",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Chat and citations won't save your vertical AI - Atul Ramachandran, Filed Inc",
-          "url": "https://www.youtube.com/watch?v=RGiXcVxSD3s",
-          "published": "2026-07-11T17:30:06+00:00",
-          "content_snippet": "Most vertical SaaS teams are doing the same things: chasing higher accuracy, building better model harnesses, shipping more features. And their customers are saying the same things: the AI got this wrong, it hallucinated, the accuracy is not good enough. So teams go back and push the numbers higher. We did the same at Filed. We built AI data entry for tax firms and hit 80%+ accuracy against an industry baseline of 50-60%. Many users still complained. Same model, same stack, different outcomes. S",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
-          "url": "https://www.youtube.com/watch?v=KB41dTlX1Uc",
-          "published": "2026-07-11T16:30:06+00:00",
-          "content_snippet": "Local AI has crossed from interesting to useful, driven by stronger open models, better hardware, and a maturing ecosystem for running intelligence outside the cloud. This panel explores what that shift unlocks for sovereignty, defense, regulated industries, privacy, cost, and resilience, and why open-source AI may be central to who benefits from the next wave of intelligence. Moderator: Nader Khalil (NVIDIA). Panelists: Joseph Nelson (Roboflow), Alex Cheema (Exo Labs), Ahmad Osman (r/LocalLLaMA",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony",
-          "url": "https://www.youtube.com/watch?v=WLXxTaPagA8",
-          "published": "2026-07-11T16:30:04+00:00",
-          "content_snippet": "If you build agents alone long enough, you will independently reinvent five things software engineering solved decades ago. A way to test whether your agent's output is still correct after you changed something. A way to run it on a schedule and know if it failed. A way to prevent one skill's schema change from silently breaking three downstream skills. A way to roll back when today's run produces garbage. A way to validate outputs before they hit production. You just reinvented regression testi",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat",
-          "url": "https://www.youtube.com/watch?v=9arM9b7JgOo",
-          "published": "2026-07-11T14:45:18+00:00",
-          "content_snippet": "The biggest gap in production AI agent systems is not the model—it's the harness. After 1,000 hours of orchestrating autonomous fleets under human direction, the pattern is unmistakable: agents that finish complex tasks on the first run routinely fail on subsequent iterations because the surrounding loop lacks persistent memory and contextual guardrails. In this talk, I dissects the key multi-agent primitives required to turn raw models into deterministic teammates. Moving beyond simple API wrap",
+          "title": "ReviewDebt: a practical framework for scoring every pull request — Sachin Gupta, Ebay",
+          "url": "https://www.youtube.com/watch?v=TJPInBjhE4Q",
+          "published": "2026-07-12T12:15:38+00:00",
+          "content_snippet": "Coding agents ship PRs faster than humans can trust them. The gap is filling up with a debt nobody is measuring — and it's about to swallow your engineering velocity. Every team in 2026 measures coding agents the same way: PR count, lines of code, cycle time, developer NPS. None of those see the real cost — bloated diffs, weak tests, ambiguous rationale, ownership sprawl, and human reviewers spending more time verifying AI code than they used to spend writing their own. This talk introduces Revi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -342,5 +244,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 5
+  "deduped_count": 11
 }
