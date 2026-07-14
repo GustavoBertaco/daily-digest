@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T12:21:20Z",
+  "fetched_at": "2026-07-14T11:11:05Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,26 +14,36 @@
       ],
       "items": [
         {
-          "title": "I was a big AI hater — now AI writes most of my code",
-          "url": "https://www.youtube.com/watch?v=OeIPw3bZUEg",
-          "published": "2026-07-12T16:00:02+00:00",
-          "content_snippet": "With Neet, Founder of ⁨@NeetCode. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "With AI, we hire candidates who can explain their work",
+          "url": "https://www.youtube.com/watch?v=rr9bUgQHIa8",
+          "published": "2026-07-13T15:00:31+00:00",
+          "content_snippet": "with Gigz, co-founder and CTO of Wordsmith AI. See the full episode on where Gigz takes over hosting on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
+          "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4",
+          "published": "2026-07-13T22:44:11+00:00",
+          "content_snippet": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale: from streaming architectures and distributed aggregation pipelines to time-travel queries and the methodology that made it work. Introduction In our first post , we introduced the problem: engineers at Netflix needed a unified, real-time view of service dependencies to troubleshoot faster, understand blast ",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
+          "url": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
+          "published": "2026-07-13T16:00:50+00:00",
+          "content_snippet": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance. When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery workload. The result: a 28% reduction in ads retrieval stage tail(99th percentile) latency, 3.28 megawatts(MW) power saving, and a 1.1% increase i",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
         {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -65,7 +75,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Your gut hates elimination diets | Tim Spector",
+          "url": "https://www.youtube.com/watch?v=yzq6Ky_cTKw",
+          "published": "2026-07-13T16:05:27+00:00",
+          "content_snippet": "Your gut hates elimination diets | Tim Spector",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -76,9 +96,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -131,37 +149,124 @@
       ],
       "items": [
         {
-          "title": "Stampli scales product marketing with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=yATno77Uo6A",
-          "published": "2026-07-10T21:11:41+00:00",
-          "content_snippet": "“It’s allowed basically a one-person team to do the work of a team of four or five.” Melad Zahedi, Director of Product Marketing at Stampli, uses ChatGPT Work to pull product context from Jira, GitHub, and meeting notes, then automatically update downstream content across help centers, presentations, web pages, and more. The result? Hundreds of pieces of content each week—and more time to focus on strategic work. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-yo",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
+          "published": "2026-07-13T22:03:00+00:00",
+          "content_snippet": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard for intelligence and efficiency, allowing you to solve harder problems in less time and with more intelligence per token. The three models span capability tiers from flagship reasoning (Sol) to balanced performance (Terra) to fast, cost-effi",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "RingCentral Scales Customer Programs with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=nep5byxmr_M",
-          "published": "2026-07-10T16:02:41+00:00",
-          "content_snippet": "“ChatGPT Work helped me scale from six customers that I was tracking in the pilot phase to about 80.” Vaneet Seth, R&D Efficiency Manager at RingCentral, uses ChatGPT Work to bring together information across siloed teams, turn scattered knowledge into a living operating system, and move from insights to execution faster. Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
+          "published": "2026-07-13T21:17:00+00:00",
+          "content_snippet": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational metrics at scale. Amazon Managed Service for Prometheus is available in multiple AWS Regions . Customers can send up to 1 billion active metric series to a single workspace and can create many workspaces per account, where a workspace is a logical space",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
+          "published": "2026-07-13T18:00:00+00:00",
+          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS . With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using step-by-step best-practice workflows, reducing errors and helping developers move faster without needing to look up DocumentDB operations guidance manually. The Amazon DocumentDB skill covers seven workflows: cluster provisioning, schema design, Mong",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+          "published": "2026-07-13T17:00:00+00:00",
+          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query API compatibility, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes. New capabilities span seven categories: Accumulators (13): $top, $topN, $bottom, $bottomN, $firstN, $lastN, $maxN, $minN, $count, $median, $percentile, $stdDevPop, $stdDevSamp Trigo",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
+          "published": "2026-07-13T15:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a multimodal, instruction-tuned model optimized for efficient local execution, enabling customers to build capable AI applications on AWS infrastructure. Gemma-4-E2B-it processes text, image, and audio input and generates text output, with a built-in reasoning mode that lets the model think step-by-step ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
+          "published": "2026-07-13T15:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text, enabling customers to build data sanitization workflows on AWS infrastructure. Privacy-filter is fast, context-aware, and tunable, designed for high-throughput data sanitization workflows that t",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+          "published": "2026-07-13T15:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model, enabling customers to build low-latency speech applications on AWS infrastructure. Voxtral-Mini-4B-Realtime excels at high-quality transcription of audio to text with a natively streaming architecture that enables real-time transcription. It",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+          "published": "2026-07-13T15:30:00+00:00",
+          "content_snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and cross-modal understanding, enabling customers to build comprehensive search pipelines on AWS infrastructure. The two models are typically used in tandem: the embedding model performs efficient initial recall, while the reranker refines results i",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
+          "published": "2026-07-13T14:31:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific organizational requirements. Customers deploying AI/ML workloads on HyperPod Slurm clusters need customized environments that meet strict security, compliance, and operational requirements while maintaining fast cluster startup times, but often struggle with complex lifecycle configuration scripts th",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+          "published": "2026-07-13T18:13:57+00:00",
+          "content_snippet": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3 . We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and that service was slow or unavailable, failures cascaded through the entire system. Message queuing solved this by letting services communicate asyn",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+          "published": "2026-07-13T16:18:20+00:00",
+          "content_snippet": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering everything shipped over the past year: AWS Capabilities by Region (1,500+ services across 37 Regions), Spaces for community-created groups, workshops ",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Unity Catalog managed tables bring interoperability, performance, and unified governance to the Lakehouse",
+          "url": "https://www.databricks.com/blog/how-unity-catalog-managed-tables-bring-interoperability-performance-and-unified-governance",
+          "published": "2026-07-13T22:30:00+00:00",
+          "content_snippet": "Unity Catalog was designed for interoperability at scale. Enterprises have the flexibility...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Learning with AI at Any Stage of Life | Fast Campus x OpenAI",
+          "url": "https://www.youtube.com/watch?v=-J5KoSMfPLk",
+          "published": "2026-07-13T23:07:18+00:00",
+          "content_snippet": "In Seoul, OpenAI and Fast Campus brought together learners in their 50s and 60s for a hands-on AI education program with ChatGPT and Codex. Fast Campus is using OpenAI tools to design practical learning experiences where learners can move from an idea to something they can build. In the film, the Fast Campus team shares how ChatGPT and Codex are being used in the program, and what that makes possible in the classroom. The film also captures the energy in the room: curiosity, focus, and the excit",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -186,55 +291,37 @@
       ],
       "items": [
         {
-          "title": "RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI",
-          "url": "https://www.youtube.com/watch?v=8oyalrfwgjw",
-          "published": "2026-07-12T23:00:06+00:00",
-          "content_snippet": "Large codebases break coding agents: they lose the architecture and drown in tool output as context grows. This talk introduces Recursive Language Models (RLM) from a MIT paper a pattern that loads the repo into a programmable REPL where the model writes code to inspect it and recursively delegates focused sub-questions via llm_query. With a live demo on RLM Code (independent, unofficial), you'll see the loop run end to end on local and cloud models, with a fully inspectable trajectory. Speakers",
+          "title": "In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs",
+          "url": "https://www.youtube.com/watch?v=-CnA2lGfymY",
+          "published": "2026-07-13T19:25:09+00:00",
+          "content_snippet": "AI agents today execute on blind trust, and the failure modes are already in the headlines: a dealership chatbot agreeing to sell a $76,000 Chevy Tahoe for $1, a coding agent wiping a production database during a code freeze, an \"agent skill\" quietly installing a keylogger on a developer's machine. These are not edge cases. They are the predictable consequence of allowing agents to act without any mechanical guarantee of correctness or safety. Execution is irreversible. You cannot unsend a messa",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
-          "url": "https://www.youtube.com/watch?v=7JgIS42mz7U",
-          "published": "2026-07-12T22:00:09+00:00",
-          "content_snippet": "Something shifted in the past year that most security teams haven't fully reckoned with yet: AI models can now find serious vulnerabilities in production code, at scale, with minimal human skill required. Not in toy examples. In libraries that have been reviewed hundreds of times by the best researchers in the world. Jack Cable, Co-Founder and CEO of Corridor, will walk through what this means for the 80% of organizations that have never had to defend against adversaries doing in-house vuln disc",
+          "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
+          "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8",
+          "published": "2026-07-13T17:56:55+00:00",
+          "content_snippet": "Psychologists spent the last century learning how to measure something invisible and uncooperative: a human mind. AI evaluation, meanwhile, still scores like it is 1950. Count the right answers, treat every question as equal, trust the percentage (this is Classical Test Theory). We are sitting on decades of measurement theory built for exactly this problem, and we forgot to use it. Borrow it and the picture changes. Item Response Theory (or IRT, the math behind the SAT and the GRE) models every ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh & Vanč Levstik, Phaidra",
-          "url": "https://www.youtube.com/watch?v=EUsPvBeIx70",
-          "published": "2026-07-12T16:00:36+00:00",
-          "content_snippet": "You cannot solve a combinatorial engineering problem with a next token prediction engine. We learned this the hard way. Modern LLMs can write code, summarize research papers, and reason across massive datasets. But what happens when you connect them to mission-critical physical infrastructure with 50,000 live sensors, deterministic dependencies, and real-world thermodynamic constraints? We deployed state-of-the-art LLMs to manage real time operations within industrial and AI factory environments",
+          "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+          "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk",
+          "published": "2026-07-13T17:00:06+00:00",
+          "content_snippet": "Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle diverse tasks with minimal setup. This talk explores the architectural challenges of building an agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine persistence and storage as the next major unlock for agent capabilities, and discuss the key decisions involved in orchestrating and scaling sandboxes. Abhishek Bhardwaj works on Agent and Reinforcement Learning I",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab",
-          "url": "https://www.youtube.com/watch?v=sum9DgexFRQ",
-          "published": "2026-07-12T14:00:07+00:00",
-          "content_snippet": "The AI agent industry is currently focused on memory, orchestration, enterprise deployment, and tooling. But these are the first steps toward a larger transformation: the emergence of the Agentic Web. Today’s ecosystem resembles the early days of AOL: closed platforms, proprietary agent stores, and siloed orchestration layers. The next era of AI agents will require open infrastructure that allows agents to discover, transact, and co-learn across organizational boundaries. This talk explores thre",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "A Song of Types and Agents - Roberto Stagi, Ratel",
-          "url": "https://www.youtube.com/watch?v=UlFB6efYN5Q",
-          "published": "2026-07-12T12:45:05+00:00",
-          "content_snippet": "Python ruled unchallenged for a decade, sitting comfortably on the AIron Throne. But a quiet rebellion is brewing: the entire stack that actually deploys AI agents in production runs on npm, not pip. This lightning talk is an opinionated, slightly unhinged tour of how TypeScript is taking over the AI throne, why this happened and how you can prepare for it. Speakers: - Roberto Stagi (Ratel): Roberto is the CTO & Co-Founder of Ratel, context layer for AI Agents, EU-Ambassador at AI Socratic, and ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "ReviewDebt: a practical framework for scoring every pull request — Sachin Gupta, Ebay",
-          "url": "https://www.youtube.com/watch?v=TJPInBjhE4Q",
-          "published": "2026-07-12T12:15:38+00:00",
-          "content_snippet": "Coding agents ship PRs faster than humans can trust them. The gap is filling up with a debt nobody is measuring — and it's about to swallow your engineering velocity. Every team in 2026 measures coding agents the same way: PR count, lines of code, cycle time, developer NPS. None of those see the real cost — bloated diffs, weak tests, ambiguous rationale, ownership sprawl, and human reviewers spending more time verifying AI code than they used to spend writing their own. This talk introduces Revi",
+          "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
+          "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ",
+          "published": "2026-07-13T15:34:07+00:00",
+          "content_snippet": "Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the verifiers and prime-rl libraries, as well as the Lab platform for self-serve training and inference. Speaker: Will Brown — Research Lead, Prime Intellect Will Brown leads Applied Research at Prime Intellect and builds open research infrastructure to enable every company to train, deploy, and self-improve their own frontier agentic models. He holds a PhD in Computer Science from Columbia University. X: ht",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -244,5 +331,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 7
 }
