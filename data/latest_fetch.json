@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T11:11:05Z",
+  "fetched_at": "2026-07-15T11:14:12Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,44 +14,34 @@
       ],
       "items": [
         {
-          "title": "With AI, we hire candidates who can explain their work",
-          "url": "https://www.youtube.com/watch?v=rr9bUgQHIa8",
-          "published": "2026-07-13T15:00:31+00:00",
-          "content_snippet": "with Gigz, co-founder and CTO of Wordsmith AI. See the full episode on where Gigz takes over hosting on The Pragmatic Engineer Podcast",
+          "title": "The future of The Pragmatic Engineer",
+          "url": "https://www.youtube.com/watch?v=d_rZY6RsW8Y",
+          "published": "2026-07-14T16:00:31+00:00",
+          "content_snippet": "AMA with Gergely Orosz, founder of The Pragmatic Engineer. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-          "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4",
-          "published": "2026-07-13T22:44:11+00:00",
-          "content_snippet": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale: from streaming architectures and distributed aggregation pipelines to time-travel queries and the methodology that made it work. Introduction In our first post , we introduced the problem: engineers at Netflix needed a unified, real-time view of service dependencies to troubleshoot faster, understand blast ",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-          "url": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
-          "published": "2026-07-13T16:00:50+00:00",
-          "content_snippet": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance. When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned to sched_ext — the upstream, BPF-based extensible scheduling framework — to build a scheduling policy customized to the Ads delivery workload. The result: a 28% reduction in ads retrieval stage tail(99th percentile) latency, 3.28 megawatts(MW) power saving, and a 1.1% increase i",
-          "source_name": "Meta Engineering",
+          "title": "From weeks to a day: how we made LLM evaluation fast enough to iterate on",
+          "url": "https://medium.com/airbnb-engineering/from-weeks-to-a-day-how-we-made-llm-evaluation-fast-enough-to-iterate-on-14e2d35198b4?source=rss----53c7c27702d5---4",
+          "published": "2026-07-14T17:01:03+00:00",
+          "content_snippet": "Training an LLM is the easy part. The hard part is designing experiments and evaluations that you can trust enough to know whether the new model is actually an improvement. By : Baharak Saberidokht Introduction Shipping a production LLM system means iterating fast on improvements to something that is, by construction, non-deterministic. Models drift, judges disagree with themselves, references regenerate as different strings, and bugs may persist until the next release, because retraining takes ",
+          "source_name": "Airbnb Tech",
           "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
         {
-          "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Netflix Tech Blog": 1,
+        "Meta Engineering": 1
+      }
     },
     {
       "name": "Product Management",
@@ -75,17 +65,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Your gut hates elimination diets | Tim Spector",
-          "url": "https://www.youtube.com/watch?v=yzq6Ky_cTKw",
-          "published": "2026-07-13T16:05:27+00:00",
-          "content_snippet": "Your gut hates elimination diets | Tim Spector",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -96,7 +76,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -149,124 +131,173 @@
       ],
       "items": [
         {
-          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
-          "published": "2026-07-13T22:03:00+00:00",
-          "content_snippet": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard for intelligence and efficiency, allowing you to solve harder problems in less time and with more intelligence per token. The three models span capability tiers from flagship reasoning (Sol) to balanced performance (Terra) to fast, cost-effi",
+          "title": "AWS Lambda announces self-managed code storage",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+          "published": "2026-07-15T07:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This eliminates code storage limits and reduces function activation time after function creates and updates by removing the copy step. AWS Lambda is a serverless compute service that runs your code without requiring you to manage servers. Customers who deploy many functions and additional code as Lambda layer",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
-          "published": "2026-07-13T21:17:00+00:00",
-          "content_snippet": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational metrics at scale. Amazon Managed Service for Prometheus is available in multiple AWS Regions . Customers can send up to 1 billion active metric series to a single workspace and can create many workspaces per account, where a workspace is a logical space",
+          "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+          "published": "2026-07-14T22:00:56+00:00",
+          "content_snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores EBS volumes from snapshots, the data loads from Amazon S3 in the background, and I/O to blocks that haven't loaded yet can be slower until initialization finishes. With this launch, you can set a volume initialization rate on your DRS-managed EC2 launch template, and DRS applies it automatically whe",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
-          "published": "2026-07-13T18:00:00+00:00",
-          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS . With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using step-by-step best-practice workflows, reducing errors and helping developers move faster without needing to look up DocumentDB operations guidance manually. The Amazon DocumentDB skill covers seven workflows: cluster provisioning, schema design, Mong",
+          "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+          "published": "2026-07-14T20:00:00+00:00",
+          "content_snippet": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serverless best practices from the start. This setup is available on the Lambda console wherever the developers start their Lambda journey: whether they are getting started with Lambda, exploring its capabilities, or have created their first function. Developers use coding agents to build, test, and depl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
-          "published": "2026-07-13T17:00:00+00:00",
-          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query API compatibility, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes. New capabilities span seven categories: Accumulators (13): $top, $topN, $bottom, $bottomN, $firstN, $lastN, $maxN, $minN, $count, $median, $percentile, $stdDevPop, $stdDevSamp Trigo",
+          "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+          "published": "2026-07-14T19:10:00+00:00",
+          "content_snippet": "AWS IAM Identity Center is now in scope for FedRAMP Class C in the US East (Ohio), US East (N. Virginia), US West (N. California), and US West (Oregon) Regions. You can now use IAM Identity Center to enable workforce access to AWS accounts and applications that are subject to FedRAMP Class C compliance. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, certification, and continuous monitor",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
-          "published": "2026-07-13T15:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a multimodal, instruction-tuned model optimized for efficient local execution, enabling customers to build capable AI applications on AWS infrastructure. Gemma-4-E2B-it processes text, image, and audio input and generates text output, with a built-in reasoning mode that lets the model think step-by-step ",
+          "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+          "published": "2026-07-14T19:00:00+00:00",
+          "content_snippet": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visibility into threats specifically targeting AI workloads, such as anomalous model invocations, cost harvesting attacks, and prompt injection attempts. GuardDuty AI Protection continuously monitors these workloads so security teams can detect and respond to AI-specific threats without manual configurat",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
-          "published": "2026-07-13T15:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text, enabling customers to build data sanitization workflows on AWS infrastructure. Privacy-filter is fast, context-aware, and tunable, designed for high-throughput data sanitization workflows that t",
+          "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+          "published": "2026-07-14T18:20:00+00:00",
+          "content_snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications, troubleshooting, scaling, monitoring, networking configuration, and cost optimization. Customers can leverage these skills to keep Flink applications healthy and performant, accelerate development of new streaming applications, and easily upgra",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-          "published": "2026-07-13T15:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model, enabling customers to build low-latency speech applications on AWS infrastructure. Voxtral-Mini-4B-Realtime excels at high-quality transcription of audio to text with a natively streaming architecture that enables real-time transcription. It",
+          "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+          "published": "2026-07-14T17:00:00+00:00",
+          "content_snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines, security teams may lack visibility into what AI assets exist across their organization. Without centralized visibility connecting AI assets to active threats and misconfigurations, organizations cannot secure what they don't know exists. Secur",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-          "published": "2026-07-13T15:30:00+00:00",
-          "content_snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and cross-modal understanding, enabling customers to build comprehensive search pipelines on AWS infrastructure. The two models are typically used in tandem: the embedding model performs efficient initial recall, while the reranker refines results i",
+          "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+          "published": "2026-07-14T17:00:00+00:00",
+          "content_snippet": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow and checkpoint snapshot support. These new capabilities enable administrators to migrate WorkSpaces at scale with minimal manual intervention. Amazon DCV is a high-performance streaming protocol built by AWS that powers Amazon WorkSpaces services. By migrating to DCV, customers gain access to broader o",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
-          "published": "2026-07-13T14:31:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific organizational requirements. Customers deploying AI/ML workloads on HyperPod Slurm clusters need customized environments that meet strict security, compliance, and operational requirements while maintaining fast cluster startup times, but often struggle with complex lifecycle configuration scripts th",
+          "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+          "published": "2026-07-14T17:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you to build always-available applications with virtually unlimited scalability, the highest availability, and zero infrastructure management, making scaling and resilience effortless for your applications. With this launch, Aurora DSQL is avail",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-          "published": "2026-07-13T18:13:57+00:00",
-          "content_snippet": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3 . We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and that service was slow or unavailable, failures cascaded through the entire system. Message queuing solved this by letting services communicate asyn",
-          "source_name": "AWS Blog",
+          "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+          "published": "2026-07-14T10:00:00+00:00",
+          "content_snippet": "AWS Storage Gateway now allows you to copy file shares across gateways directly from the Storage Gateway console. When you initiate a copy, the console reads the configuration of your source share and creates a new file share on the destination gateway with compatible settings preserved. Previously, you had to manually recreate each file share on the destination gateway and re-enter configuration details one by one. Now you can copy a file share and have its configuration automatically applied t",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-          "published": "2026-07-13T16:18:20+00:00",
-          "content_snippet": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering everything shipped over the past year: AWS Capabilities by Region (1,500+ services across 37 Regions), Spaces for community-created groups, workshops ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Unity Catalog managed tables bring interoperability, performance, and unified governance to the Lakehouse",
-          "url": "https://www.databricks.com/blog/how-unity-catalog-managed-tables-bring-interoperability-performance-and-unified-governance",
-          "published": "2026-07-13T22:30:00+00:00",
-          "content_snippet": "Unity Catalog was designed for interoperability at scale. Enterprises have the flexibility...",
+          "title": "Take insights anywhere with Genie One on mobile",
+          "url": "https://www.databricks.com/blog/take-insights-anywhere-genie-one-mobile",
+          "published": "2026-07-14T22:00:00+00:00",
+          "content_snippet": "We recently announced Genie One, the data-smart AI coworker for business users. Today,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Learning with AI at Any Stage of Life | Fast Campus x OpenAI",
-          "url": "https://www.youtube.com/watch?v=-J5KoSMfPLk",
-          "published": "2026-07-13T23:07:18+00:00",
-          "content_snippet": "In Seoul, OpenAI and Fast Campus brought together learners in their 50s and 60s for a hands-on AI education program with ChatGPT and Codex. Fast Campus is using OpenAI tools to design practical learning experiences where learners can move from an idea to something they can build. In the film, the Fast Campus team shares how ChatGPT and Codex are being used in the program, and what that makes possible in the classroom. The film also captures the energy in the room: curiosity, focus, and the excit",
+          "title": "How Retail Finance teams are using Agentic AI to protect omni-channel margins",
+          "url": "https://www.databricks.com/blog/how-retail-finance-teams-are-using-agentic-ai-protect-omni-channel-margins",
+          "published": "2026-07-14T15:00:00+00:00",
+          "content_snippet": "Ask a retail CFO where the quarter's margin is landing and you will always get a hard-won answer...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Foundational context: Cross-industry & function-specific accelerators for Lakebase",
+          "url": "https://www.databricks.com/blog/foundational-context-cross-industry-function-specific-accelerators-lakebase",
+          "published": "2026-07-14T13:15:00+00:00",
+          "content_snippet": "Databricks Lakebase is a fully managed, serverless Postgres database built for the...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Blocking Slow-Burn Attacks: Contextual Policies in Omnigent",
+          "url": "https://www.databricks.com/blog/blocking-slow-burn-attacks-contextual-policies-omnigent",
+          "published": "2026-07-14T12:47:28+00:00",
+          "content_snippet": "Judging an agent one action at a time isn't enough. In this post, we show how a realistic...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Codex just got better for developers",
+          "url": "https://www.youtube.com/watch?v=eiQgljOrkWU",
+          "published": "2026-07-14T23:30:19+00:00",
+          "content_snippet": "Here’s what’s new in Codex for developers. Thanks for helping us make it better! We packed in a lot: * GPT‑5.6 * Ultra * New ways to manage parallel work * Big updates to Computer Use * Inline code and document edits * PR reviews * Sites * ...and much more. Make sure you watch until the end: something that isn’t out yet makes a cameo! Chapters: 00:00 What's new for developers 00:46 GPT-5.6 Sol and Ultra mode 01:28 Computer Use and appshots 02:11 Browser Use and inline editing 03:17 Publishing wi",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Background Robustness with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=matzTxfrhJU",
+          "published": "2026-07-14T22:35:03+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Improved Intelligence with GPT-Live",
+          "url": "https://www.youtube.com/watch?v=avpZWh6sm9M",
+          "published": "2026-07-14T20:22:11+00:00",
+          "content_snippet": "More about our next generation voice model here: https://openai.com/index/introducing-gpt-live/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build and publish web apps directly in ChatGPT",
+          "url": "https://www.youtube.com/watch?v=8zH_O74hZBw",
+          "published": "2026-07-14T19:19:36+00:00",
+          "content_snippet": "See how to build a working web app directly in ChatGPT. Describe what you want, try the first version, ask for changes in plain language, and publish it when it’s ready—with hosting and storage built in. Learn more: https://learn.chatgpt.com/ Chapters 00:00 Introducing Sites 00:21 Building a launch site 00:41 Refining with feedback 00:55 Annotating and publishing 01:09 Working with Build Web Apps 01:20 Creating a web game",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -291,37 +322,46 @@
       ],
       "items": [
         {
-          "title": "In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs",
-          "url": "https://www.youtube.com/watch?v=-CnA2lGfymY",
-          "published": "2026-07-13T19:25:09+00:00",
-          "content_snippet": "AI agents today execute on blind trust, and the failure modes are already in the headlines: a dealership chatbot agreeing to sell a $76,000 Chevy Tahoe for $1, a coding agent wiping a production database during a code freeze, an \"agent skill\" quietly installing a keylogger on a developer's machine. These are not edge cases. They are the predictable consequence of allowing agents to act without any mechanical guarantee of correctness or safety. Execution is irreversible. You cannot unsend a messa",
+          "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+          "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ",
+          "published": "2026-07-14T22:45:06+00:00",
+          "content_snippet": "In the last two years, models have gotten exponentially smarter. Two years ago they couldn't pass the bar. Today, top 1% of test scorers. And yet most agents still can't answer a simple business question correctly. You ship a demo that works. You deploy it. The business abandons it in a month. The missing variable is context: the business definitions, procedural knowledge, and operational norms that make a human expert valuable. Drawing on hundreds of production deployments, Prukalpa Sankar will",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
-          "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8",
-          "published": "2026-07-13T17:56:55+00:00",
-          "content_snippet": "Psychologists spent the last century learning how to measure something invisible and uncooperative: a human mind. AI evaluation, meanwhile, still scores like it is 1950. Count the right answers, treat every question as equal, trust the percentage (this is Classical Test Theory). We are sitting on decades of measurement theory built for exactly this problem, and we forgot to use it. Borrow it and the picture changes. Item Response Theory (or IRT, the math behind the SAT and the GRE) models every ",
+          "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=0vphxNt4wyk",
+          "published": "2026-07-14T22:00:06+00:00",
+          "content_snippet": "There are thousands of agent skills. Almost none of them are tested. They get vibe-checked with two manual runs, maybe a thumbs-up from a colleague, then shipped. You wouldn't merge code without tests — so why are we shipping skills without evals? This talk covers the full lifecycle of building reliable agent skills: what a skill actually is (and isn't), how to write one that triggers correctly, and how to build a lightweight eval harness that catches failures before your users do. ### Philipp S",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
-          "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk",
-          "published": "2026-07-13T17:00:06+00:00",
-          "content_snippet": "Sandboxes unleash agents by giving them secure, fully functional computers where they can tackle diverse tasks with minimal setup. This talk explores the architectural challenges of building an agent sandbox cloud. We compare runtime isolation technologies and their trade-offs, examine persistence and storage as the next major unlock for agent capabilities, and discuss the key decisions involved in orchestrating and scaling sandboxes. Abhishek Bhardwaj works on Agent and Reinforcement Learning I",
+          "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+          "url": "https://www.youtube.com/watch?v=APqXGyCoGW4",
+          "published": "2026-07-14T21:00:06+00:00",
+          "content_snippet": "# How Forward Deployed Engineering is done at Cursor **Location:** Forward Deployed Engineering / Room 2020 **When:** Day 2 - June 30, 2026 · 11:10am-11:30am ## Speakers ### Pauline Brunet VP, Forward Deployed Engineering · Cursor [LinkedIn](https://www.linkedin.com/in/pauline-brunet/) VP of Forward Deployed Engineering at Cursor. Building the motion and team to help customers adopt Cursor and drive meaningful returns. We configure and co-build alongside customer software and transformation team",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
-          "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ",
-          "published": "2026-07-13T15:34:07+00:00",
-          "content_snippet": "Deep dive into Prime Intellect's open-source ecosystem of post-training tools, including the verifiers and prime-rl libraries, as well as the Lab platform for self-serve training and inference. Speaker: Will Brown — Research Lead, Prime Intellect Will Brown leads Applied Research at Prime Intellect and builds open research infrastructure to enable every company to train, deploy, and self-improve their own frontier agentic models. He holds a PhD in Computer Science from Columbia University. X: ht",
+          "title": "\"The engineer of the future is the person who is able to choose what is worth doing.\" — Addy Osmani",
+          "url": "https://www.youtube.com/watch?v=n97BCfyFIvw",
+          "published": "2026-07-14T17:16:43+00:00",
+          "content_snippet": "For his closing keynote, Addy Osmani explores the evolving role of software engineers in the age of AI agents. He argues that as coding tasks become increasingly automated, the true value of an engineer shifts from mere code production to accountability, judgment, and system ownership. https://addyosmani.com/ https://x.com/addyosmani/status/2074927530482835916 Timestamps 0:00 Introduction and the human side of engineering 1:46 Rebundling roles and ownership of systems 2:34 Harnesses, loop engine",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+          "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
+          "published": "2026-07-13T20:36:45+00:00",
+          "content_snippet": "Oxford Style Debate: There is, or is not, a delta between the hype behind loops and what actually works in practice. Team No Delta (pro the way we do loops today) The hype around loops is valid and loops work well today in practice. Loops today can be a silver bullet and result in outsize productivity gains, and marks an important step up the autonomy curve towards real software factories. Ian Livingstone Geoff Huntley Team Delta (anti the way we do loops today) There is a delta between the hype",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -331,5 +371,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 7
+  "deduped_count": 11
 }
