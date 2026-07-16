@@ -95,6 +95,9 @@ areas:
       - type: youtube
         channel_id: "UC3bSfMzhHjeX_tFdte1esgQ"
         name: "Data Mesh Learning"  # last posted ~240 days ago, may be dormant
+      - type: youtube
+        channel_id: "UC12nyzcbNM1J-Bl9uCZn-8A"
+        name: "NextGenLakehouse"
       - type: rss
         url: "https://datastackshow.com/feed/"
         name: "The Data Stack Show"
