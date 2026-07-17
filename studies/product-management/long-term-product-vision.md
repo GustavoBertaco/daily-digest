@@ -593,24 +593,53 @@ Cagan ([Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/),
 [Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/)) and Koyuncu's
 *How to Create a Product Vision* (the working-backwards device).
 
-> Conventions: keep it inspiring, not technical. **Open on a positive "why now" hook,
-> honor the work, make the principled (sourced) case, give the room its payoff, then end
-> with a clear ask.** ~9 slides, ~20 min. **Don't assert what's broken** — this is an
-> *improvement* dynamic, not a critique of past work; surfacing the actual pains is the
-> homework's and workshop's job, so the kick-off argues the *principle*, not the diagnosis.
-> Internalize the sources — cite one or two on screen, speak the rest.
+> Conventions: keep it inspiring, not technical. **Ground the concept, name the cost of
+> fragmentation, make the case for one north star, hook with "why now," honor the work,
+> make the principled (sourced) case, give the room its payoff, then end with a clear
+> ask.** ~10 slides, ~20–22 min. **Don't assert what's broken** — this is an *improvement*
+> dynamic, not a critique of past work; surfacing the actual pains is the homework's and
+> workshop's job, so the kick-off argues the *principle*, not the diagnosis. Internalize
+> the sources — cite one or two on screen, speak the rest.
 
-**Opening**
+**Slides 1–3 — Grounding the concept**
 
-1. **Headline: "Building our long-term product vision — together"**
-   *Beat:* title + a 30-second preview of what we'll do: *why* a shared vision, *how* we
-   build it (kick-off → homework → workshop → vision), and *what we walk away with* — a
-   vision and a **North Star per investment area**.
-   *Note:* orient the room; set a collaborative, build-on-what-we-have tone.
+1. **Headline: "What is a Product Vision?"**
+   *Beat:* define the term before making any case — a product vision is **the future we're
+   trying to create**, 2–3 years out; inspiring, not a plan. Show the Mission → Vision →
+   Strategy table so the room starts from shared vocabulary. On-screen quote:
+   > "The product vision describes the future we are trying to create... it keeps us
+   > focused on the customer, serves as the North Star for the product organization so
+   > that we have a common understanding of what we are hoping to accomplish together."
+   > — Marty Cagan, SVPG ([Product Vision vs. Mission](https://www.svpg.com/product-vision-vs-mission/))
+   *Note:* nobody's assumed to already share a definition — this is the baseline everything
+   else builds on. Close with a one-line preview of the session: define it, see the cost of
+   fragmentation, land on why *one* north star, then walk the process.
+2. **Headline: "What happens when every team picks its own north star"**
+   *Beat:* name the cost concretely, without blaming anyone — each squad optimizing for
+   its own metric, duplicated effort, conflicting bets, a platform that ends up feeling
+   like a **pile of services** rather than a product. On-screen quote:
+   > "If anyone in your organization can't come into work and articulate how the work
+   > they're doing is connected to a sustainable growth strategy, then either you don't
+   > have a strategy... or you're working on the wrong thing. Bringing coherence to the
+   > work of everyone in your organization is what it's all about."
+   > — John Cutler, Amplitude ([North Star Framework](https://amplitude.com/north-star))
+   *Note:* frame as *what naturally happens absent one* — an improvement dynamic, not a
+   critique of past decisions. Nobody's work is in question.
+3. **Headline: "One shared north star — so every team's work adds up"**
+   *Beat:* the resolution — a single shared North Star (or small metric tree) is what lets
+   autonomous squads *stay* autonomous **and** see how their piece serves the whole.
+   On-screen quote:
+   > "One of the key purposes of the product vision is to provide the common 'north star'
+   > so that every product team, no matter what area they are working on, understands how
+   > their work contributes to the larger whole."
+   > — Marty Cagan, SVPG ([Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/))
+   *Note:* pair with Rumelt's coherence framing — a shared direction is what makes effort
+   *compound* instead of scatter. This is the pivot into "here's how we'll build it
+   together."
 
-**Act 1 — Why now, and where we stand**
+**Slides 4–5 — Why now, and where we stand**
 
-2. **Headline: "The ground is shifting under data platforms"**
+4. **Headline: "The ground is shifting under data platforms"**
    *Beat:* the *why now* — an outside-in market read the GPMs bring. Lead with one vivid,
    sourced signal: **~1 in 3 organizations say their data isn't ready for AI**
    (*State of Data 2025–2026*). The platforms that aim themselves at this shift — together
@@ -618,49 +647,44 @@ Cagan ([Vision vs. Strategy](https://www.svpg.com/vision-vs-strategy/),
    *Note:* opportunity, not doom or blame. Frame it as *a read to react to, not the truth*;
    the trends study is raw material, and it seeds the *Forces of 2029* warm-up (Movement
    2). Sources: State of Data, Three Horizons, driving forces (Schwartz).
-3. **Headline: "We've built a lot — now let's aim it, together"**
+5. **Headline: "We've built a lot — now let's aim it, together"**
    *Beat:* a genuine, specific nod to what the team and platform already deliver; frame
    this as choosing where to point that strength next — building *on* it, not fixing it.
    *Note:* set the tone explicitly: an *improvement* dynamic, not a critique. Nobody's
    work is in question.
 
-**Act 2 — The idea that gets us there**
+**Slides 6–7 — The idea that gets us there**
 
-4. **Headline: "One shared north star multiplies our work"**
-   *Beat:* empowered, autonomous squads are our strength — but a *single* shared North
-   Star is what lets all that local work *add up* toward one outcome instead of diverging.
-   *(Quick aside: a vision is the future we'll create — not a mission, not a roadmap.)*
-   *Note:* the heart of the "why," framed as multiplying good work. Cite **Cagan** + the
-   **North Star Framework**; say the mission/vision/strategy distinction out loud rather
-   than spending a whole slide on it.
-5. **Headline: "Coherent direction makes effort compound" — Rumelt**
+6. **Headline: "Coherent direction makes effort compound" — Rumelt**
    *Beat:* a coherent guiding direction coordinates action so effort adds up (*Good
-   Strategy / Bad Strategy*). Creating that shared direction is exactly what these sessions
-   do — the specific pains and bets are what *you* surface in the homework and workshop.
+   Strategy / Bad Strategy*): good strategy is "coherent action backed up by an argument"
+   — a diagnosis, a guiding policy, and coherent action. Creating that shared direction is
+   exactly what these sessions do — the specific pains and bets are what *you* surface in
+   the homework and workshop.
    *Note:* opportunity framing; bridges to the process; diagnosis happens *with* the room.
-6. **Headline: "What this gives you"**
+7. **Headline: "What this gives you"**
    *Beat:* the payoff for the people in the room — fewer conflicting asks, clearer
    prioritization, squads pulling the same way, less thrash and rework, and a story you
    can rally your own teams behind.
    *Note:* the WIIFM — answer the silent "what do I get?" for busy leaders; keep it
    concrete and honest.
 
-**Act 3 — How we'll build it, and the ask**
+**Slides 8–10 — How we'll build it, and the ask**
 
-7. **Headline: "From your homework to one shared vision"**
+8. **Headline: "From your homework to one shared vision"**
    *Beat:* the end-to-end journey as a visual — in-scope steps with *who owns it* and
    *what it produces*: ① Kick-off → ② Homework → ③ Workshop M1 → ④ Workshop M2 →
    ⑤ Synthesis (Vision + a North Star per area). Validate, annual OKRs, and the squad
    cascade are downstream. Use the diagram from "The process at a glance".
    *Note:* the slide people remember — the room *surfaces and aligns*, Product
    *synthesizes*; emphasize what each person's homework turns into.
-8. **Headline: "Your part: bring the truth — through two lenses"**
+9. **Headline: "Your part: bring the truth — through two lenses"**
    *Beat:* what each person owns in the homework — honest pains, ambitions, one benchmark
    — held against two lenses: where the **company** is going (inside-out) and where the
-   **market** is going (outside-in, from slide 2). Show the [2–3] company objectives here.
+   **market** is going (outside-in, from slide 4). Show the [2–3] company objectives here.
    *Note:* lower the bar — private submissions, no wrong answers; the company objectives
    are the inside-out lens, *not* a script to parrot.
-9. **Headline: "The window is now — let's build it"**
-   *Beat:* the ask — do the homework by [date] and come ready to shape our north star.
-   Callback to slide 2: the shift is happening; this is how we get ahead of it, together.
-   *Note:* homework link + deadline + nudge; close on momentum; restate the workshop date.
+10. **Headline: "The window is now — let's build it"**
+    *Beat:* the ask — do the homework by [date] and come ready to shape our north star.
+    Callback to slide 4: the shift is happening; this is how we get ahead of it, together.
+    *Note:* homework link + deadline + nudge; close on momentum; restate the workshop date.
