@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T11:08:55Z",
+  "fetched_at": "2026-07-18T10:48:00Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,38 +14,20 @@
       ],
       "items": [
         {
-          "title": "What is context engineering?",
-          "url": "https://www.youtube.com/watch?v=r-cvllSYZCY",
-          "published": "2026-07-16T18:13:25+00:00",
-          "content_snippet": "with Dex Horthy, Founder of HumanLayer and coiner of 'context engineering'. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "What is the “dark factory”?",
+          "url": "https://www.youtube.com/watch?v=oyuKk670wfM",
+          "published": "2026-07-17T16:00:11+00:00",
+          "content_snippet": "with Dex Horthy, Founder of HumanLayer See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "Context engineering with Dex Horthy",
-          "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
-          "published": "2026-07-15T15:59:47+00:00",
-          "content_snippet": "Knowing how LLM contexts work and how to work around context limitations – aka “context engineering” – is becoming more important for software engineers working with LLMs. Let’s look into what works and what doesn’t, today. In this episode of The Pragmatic Engineer podcast, I sit down with the CEO and cofounder of HumanLayer, Dex Horthy, who coined the term “context engineering”. We discuss the ideas behind this context engineering, harness engineering, loop engineering, software factories, why ",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Should you jump jobs or stay put, in this market?",
-          "url": "https://www.youtube.com/watch?v=4MVFQ9HNFjk",
-          "published": "2026-07-15T15:00:26+00:00",
-          "content_snippet": "AMA with Gergely Orosz, founder of The Pragmatic Engineer. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
-          "url": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
-          "published": "2026-07-15T17:00:52+00:00",
-          "content_snippet": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are an in-house transformer based graph learning with bias-aware attention and self-supervised cross-view distil",
-          "source_name": "Meta Engineering",
+          "title": "In-House LLM Serving at Netflix",
+          "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
+          "published": "2026-07-17T21:32:39+00:00",
+          "content_snippet": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. This post focuses on the choices where alternatives were seriously considered: engine selection, model",
+          "source_name": "Netflix Tech Blog",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -57,8 +39,8 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1
+        "Airbnb Tech": 1,
+        "Meta Engineering": 2
       }
     },
     {
@@ -85,19 +67,19 @@
       ],
       "items": [
         {
-          "title": "Carnie Wilson’s most beautiful epiphany",
-          "url": "https://www.youtube.com/watch?v=IOmQrv7GLvU",
-          "published": "2026-07-16T13:00:39+00:00",
-          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Growing up as Brian Wilson's daughter meant music everywhere, and very little peace. In the first episode of The Me I Used to Be, Carnie Wilson opens up about what she was really looking for all those years, and how she finally found it. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subs",
+          "title": "How to define the conversation | Charles Duhigg",
+          "url": "https://www.youtube.com/watch?v=au4CjRNO8x4",
+          "published": "2026-07-17T16:04:24+00:00",
+          "content_snippet": "How to define the conversation | Charles Duhigg",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "Are you self-lonely? | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=iJ0CgGMHHJY",
-          "published": "2026-07-15T16:03:33+00:00",
-          "content_snippet": "Are you self-lonely? | Giulia Enders",
+          "title": "The psychology of morality, perversion, and revenge, in 67 minutes | Paul Bloom: Full Interview",
+          "url": "https://www.youtube.com/watch?v=rsE_kFE_ZHE",
+          "published": "2026-07-17T13:00:16+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8Swxy4tUE3s&vl=en Psychologist Paul Bloom has spent h",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -168,147 +150,57 @@
       ],
       "items": [
         {
-          "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
-          "published": "2026-07-16T19:31:00+00:00",
-          "content_snippet": "Amazon Managed Grafana is now a FedRAMP High authorized service in the AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High compliance requirements can now use Amazon Managed Grafana to visualize, query, and alert on operational metrics across their AWS and hybrid environments while meeting their strict security and compliance requirements. Amazon Managed Grafana is a fully managed service based on open-",
+          "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
+          "published": "2026-07-17T17:29:00+00:00",
+          "content_snippet": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB tables. With this launch, you can pass a RoleArn parameter when starting a stream session, and your application automatically receives short-lived, auto-refreshing AWS credentials through the standard AWS SDK credential resolution chain — no application code changes required. Previously, customers who ne",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Track cost efficiency trends directly in Billing and Cost Management Dashboards with the new Cost Efficiency widget",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
-          "published": "2026-07-16T18:56:00+00:00",
-          "content_snippet": "Today, AWS Billing and Cost Management (BCM) announces support for Cost Efficiency widget in BCM Dashboards. You can now view cost efficiency trends alongside Cost Explorer, Budgets, and reports for Savings Plans and Reserved Instance coverage and utilization reports. This provides a unified view of your spending, commitments, and optimization performance in a single, tailored dashboard. The Cost Efficiency widget displays your efficiency score over time, showing how your efficiency across your ",
+          "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+          "published": "2026-07-17T17:23:00+00:00",
+          "content_snippet": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unified observability across multiple data sources. With this launch, the multiple tenants and thousands of saved objects you created in legacy OpenSearch Dashboards become reusable in your OpenSearch UI applications, reducing the operational complexity of",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-public-images-ssm-parameters",
-          "published": "2026-07-16T18:20:00+00:00",
-          "content_snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover and reference in your configurations. Previously, finding the SSM parameter associated with a public AMI required searching through SSM parameter namespaces manually. Now, when you describe a public AMI, the response includes the public SSM pa",
+          "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
+          "published": "2026-07-17T15:16:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topology in another, with each partition using the topology best suited to its instance types. This improves distributed training performance by keeping job placement aligned with the interconnect characteristics of each instance type, so GPU-to-GPU communication is faster, NCCL collective operations ar",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 Event Notifications now include system-generated tags",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-          "published": "2026-07-16T18:00:00+00:00",
-          "content_snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services. You can use these tags to filter events from thousands of buckets with a single EventBridge rule, instead of listing each bucket name individually. To get started, enable S3 Event Notifications on your general purpose buckets through the AWS M",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-          "published": "2026-07-16T18:00:00+00:00",
-          "content_snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview Environment that has the benefits of a fully managed database. PostgreSQL 19 introduces parallel autovacuum with configurable worker limits, so routine maintenance no longer bottlenecks large databases. The new REPACK CONCURRENTLY command ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Sustainability service now includes water withdrawals data",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
-          "published": "2026-07-16T16:43:00+00:00",
-          "content_snippet": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comprehensive visibility into their environmental impact across carbon and water. Water withdrawals data is available by AWS Region, service, and AWS account on an annual basis through the AWS Sustainability console and API. The data represents the total volume of water withdrawn for data center operati",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-          "published": "2026-07-16T16:00:00+00:00",
-          "content_snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7i instances offer up to 45% better price performance over existing U-1 instances. U7in-24TB ins",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-          "published": "2026-07-16T16:00:00+00:00",
-          "content_snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than previous-generation RA3 instances at 30% lower price per vCPU, giving you more flexibility to right-size your provisioned clusters for any workload. rg.large and rg.12xlarge instance sizes are available on the current track (P202) only. Custome",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
-          "published": "2026-07-16T15:00:00+00:00",
-          "content_snippet": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day minimum retention in S3 Standard. These storage classes offer up to 40% lower storage costs than S3 Standard while still providing millisecond access when needed, making them ideal for backups, log analytics, and compliance workloads where data becomes cold within hours or days. To get started, create ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
-          "published": "2026-07-16T10:00:00+00:00",
-          "content_snippet": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). With logically air-gapped vaults now available in these Regions, you can store immutable, isolated backups that are locked by default and encrypted using AWS owned keys or customer-managed keys. You can back up directly to logically air-gapped vaults, copy backups a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Your AI is ready. Your data foundation probably isn’t",
-          "url": "https://www.databricks.com/blog/your-ai-ready-your-data-foundation-probably-isnt",
-          "published": "2026-07-16T22:00:00+00:00",
-          "content_snippet": "For most large enterprises, AI transformation is a story of silos — business units...",
+          "title": "Tech builds on AI. Finance protects the margin.",
+          "url": "https://www.databricks.com/blog/tech-builds-ai-finance-protects-margin",
+          "published": "2026-07-17T19:26:20+00:00",
+          "content_snippet": "Ask a tech company CFO where the quarter's margin is landing, and you will get a...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "From experiment to insight: how Dotmatics Luma and Databricks make AI-ready science a reality",
-          "url": "https://www.databricks.com/blog/experiment-insight-how-dotmatics-luma-and-databricks-make-ai-ready-science-reality",
-          "published": "2026-07-16T21:07:45+00:00",
-          "content_snippet": "The gap between scientific data and scientific insightModern scientific workflows...",
+          "title": "Building a soccer coaching app on Databricks",
+          "url": "https://www.databricks.com/blog/building-soccer-coaching-app-databricks",
+          "published": "2026-07-17T17:00:00+00:00",
+          "content_snippet": "Tracking data is now the richest signal in sport, but the real gap is turning the...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "What happens in the milliseconds after you tap pay",
-          "url": "https://www.databricks.com/blog/what-happens-milliseconds-after-you-tap-pay",
-          "published": "2026-07-16T18:00:00+00:00",
-          "content_snippet": "You're standing at the register. You tap your card. A tiny spinner appears for maybe...",
+          "title": "Meta’s Spark Muse 1.1 is now available on Databricks, fully governed by Unity AI Gateway",
+          "url": "https://www.databricks.com/blog/metas-spark-muse-11-now-available-databricks-fully-governed-unity-ai-gateway",
+          "published": "2026-07-17T13:08:01+00:00",
+          "content_snippet": "Every new model release promises better reasoning, lower costs, or new capabilities,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Unified context: The missing layer for enterprise AI coworkers",
-          "url": "https://www.databricks.com/blog/unified-context-missing-layer-enterprise-ai-coworkers",
-          "published": "2026-07-16T18:00:00+00:00",
-          "content_snippet": "AI assistants are quickly spreading across the surface layer of work. They draft...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The skills gap behind agentic AI — and how Databricks is closing it with a new context engineer certification and agent trainings",
-          "url": "https://www.databricks.com/blog/skills-gap-behind-agentic-ai-and-how-databricks-closing-it-new-context-engineer-certification",
-          "published": "2026-07-16T18:00:00+00:00",
-          "content_snippet": "Engineering the Future: The Context Engineer CertificationAs organizations race to...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
-          "url": "https://www.youtube.com/watch?v=fnPMkEe6Nik",
-          "published": "2026-07-16T22:19:27+00:00",
-          "content_snippet": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.” Chris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources. “What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambi",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
@@ -316,78 +208,6 @@
           "url": "https://www.youtube.com/watch?v=OHVu3Y4B3RI",
           "published": "2026-07-16T22:15:11+00:00",
           "content_snippet": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.” Chris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources. “What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambi",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT can now complete tasks on your computer",
-          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
-          "published": "2026-07-16T18:00:16+00:00",
-          "content_snippet": "With GPT-5.6, ChatGPT can use the apps on your computer and your browser to complete tasks for you. See how it works across macOS and Windows, how you can collaborate with it in real time, and how it keeps multi-step work moving in the tools you already use. Learn more: https://learn.chatgpt.com/ Chapters: 00:00 Browser and Computer Use 00:12 Analyzing community feedback 00:26 Annotating in the in-app browser 00:38 Connecting Chrome 00:52 Controlling desktop apps 01:07 Connecting everyday tools",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What racing reveals about working with AI — the OpenAI Podcast Ep. 22",
-          "url": "https://www.youtube.com/watch?v=KNPjRpNtQ7s",
-          "published": "2026-07-16T17:00:16+00:00",
-          "content_snippet": "Racing is a sport of tiny margins and mountains of data. OpenAI researcher Joyce Ruffell and RaceTek Systems co-founder Chase Holden are each using AI to help teams make better use of information from the track, the garage, and the people behind the wheel. They discuss OpenAI’s research collaboration with Chip Ganassi Racing and how Chase used ChatGPT and Codex to go from hosting a NASCAR podcast to building a racing intelligence company. They also examine how AI could give smaller teams an edge",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=Xk-X1TI2pQ4",
-          "published": "2026-07-16T15:37:36+00:00",
-          "content_snippet": "How should companies think about hiring in the age of AI? In this OpenAI France voxpop video, Peter Steinberger, Member of Technical Staff at OpenAI, shares why creativity, curiosity and the ability to work with AI agents are becoming increasingly valuable—and why organisations may need to rethink what great AI talent looks like.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=Fu3WWi-pAv4",
-          "published": "2026-07-16T15:37:30+00:00",
-          "content_snippet": "What are the most successful companies doing differently with AI? At OpenAI France, Emmanuel Marill, Managing Director, EMEA at OpenAI, shares why the biggest opportunities come from thinking AI-first rather than adding AI to existing ways of working. He also reflects on focus, solving real business problems and why France has one of the world's strongest AI ecosystems.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=1fL_lwsdMd4",
-          "published": "2026-07-16T15:37:20+00:00",
-          "content_snippet": "The way we work with AI is changing. Katia Gil Guzman, Developer Experience at OpenAI, explains why we're moving from prompts to goals, how AI is enabling anyone to become a builder, and what excites her most about the rapidly evolving builder community in France. Filmed at OpenAI France.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=W0mU8zgop60",
-          "published": "2026-07-16T15:37:16+00:00",
-          "content_snippet": "AI is moving beyond experimentation. In this OpenAI France voxpop video, François Weider, Go-to-Market Leader for France & Southern Europe at OpenAI, explains why organisations are shifting from pilots to production, how to prioritise AI use cases that deliver measurable business value, and why executive role modelling is critical for successful AI adoption.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What Great AI Founders Do Differently | Laura Modiano | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=K9_G-v8AE_s",
-          "published": "2026-07-16T15:37:12+00:00",
-          "content_snippet": "What separates the most successful AI founders? Laura Modiano, Founder Experience at OpenAI, shares the lessons she sees across Europe's startup ecosystem—from testing and listening to customers to shipping quickly. Filmed at OpenAI France event, this voxpop video explores what it really means to build an AI-native company.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Have a Crazy Idea? Build It with Codex | Romain Huet | OpenAI France",
-          "url": "https://www.youtube.com/watch?v=jaYDbeQTUR0",
-          "published": "2026-07-16T15:37:08+00:00",
-          "content_snippet": "If you've been sitting on an idea, now is the time to build it. In this OpenAI France voxpop video, Romain Huet, Developer Experience at OpenAI, talks about the incredible energy of France's developer community, why curiosity is every builder's superpower, and how tools like Codex are helping people turn ambitious ideas into reality.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -422,55 +242,46 @@
       ],
       "items": [
         {
-          "title": "The New Physics of Business — Garry Tan, Y Combinator",
-          "url": "https://www.youtube.com/watch?v=eBUyTS7SzV4",
-          "published": "2026-07-17T01:00:06+00:00",
-          "content_snippet": "Garry Tan, President of Y Combinator, discusses how the rise of AI-native companies is revolutionizing organizational productivity, allowing lean teams to operate at a scale previously requiring hundreds or thousands of employees (0:52-1:07). Key Takeaways: The 400x Leverage: Tan reports a massive increase in output (approximately 400x) by shifting from writing individual lines of code to managing AI agents (2:32-2:35). Wiring the Work: He emphasizes that founders should treat AI not as a simple",
+          "title": "Your Agents Need a Save Button - Hamza Tahir, ZenML",
+          "url": "https://www.youtube.com/watch?v=bZISsg7H7DA",
+          "published": "2026-07-18T07:00:06+00:00",
+          "content_snippet": "Most of an agent's life is spent waiting - on a tool, a human, the next step - and the whole time you're holding a live process awake and billing for it. Multiply that across every agent your org wants to run overnight and the math stops working. A save button fixes the obvious stuff: freeze an agent to durable state, drop its compute to zero, bring it back in milliseconds when there's work, and if it crashes, resume from the last save instead of re-burning every token from the top. The interest",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator",
-          "url": "https://www.youtube.com/watch?v=Z2Erdirpudo",
-          "published": "2026-07-16T23:45:06+00:00",
-          "content_snippet": "Eve Bouffard from Y Combinator explores the concept of \"Imagination Engineering\"—the idea that with increasingly powerful AI models, the primary challenge for humans is no longer technical execution, but the ability to dream up bold, innovative ideas (0:13-0:59). Key themes and experiments shared: Thinking in Public: Inspired by Paul Graham, Eve describes an experiment where she shared her stream of consciousness in a dedicated Slack channel (Eve thoughts). She then used AI to aggregate these ra",
+          "title": "Agents Need Feature Flags - Sachin Gupta",
+          "url": "https://www.youtube.com/watch?v=zU4EagB311U",
+          "published": "2026-07-18T07:00:06+00:00",
+          "content_snippet": "Most AI teams ship behavior changes to 100% of users on every deploy — no canary, no segment, no kill switch. Web teams stopped doing this in 2012. AI teams are about to learn why. Feature flags are table stakes in software engineering. In agent systems they're almost nonexistent — prompts, tool access, model selection, memory policy, and autonomy level all change globally the moment you ship. That's why your \"small\" prompt tweak just broke 12% of your users and you found out from a Discord scre",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge — Zhengyao Jiang, Weco",
-          "url": "https://www.youtube.com/watch?v=iCj_ATyThvc",
-          "published": "2026-07-16T18:08:16+00:00",
-          "content_snippet": "Earlier this year, OpenAI ran Parameter Golf, a model-training competition that doubled as a hiring filter. Over 1,000 researchers competed to train the best small language model under a 16MB cap. The top contributor was the one candidate OpenAI couldn't hire. Our autonomous research agent Aiden finished with 7 merged records, more than twice as many as any other contributor, and ended up the most-cited participant in the community. This talk is about what those 22 days showed. I'll cover on hig",
+          "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+          "url": "https://www.youtube.com/watch?v=uIiA6DquRiE",
+          "published": "2026-07-17T17:00:06+00:00",
+          "content_snippet": "An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshops, but all are welcome!) PLS WATCH: https://www.youtube.com/@aiDotEngineer/search?query=daniel%20han Timestamps: 0:00 Introduction to Unsloth and model distribution 2:32 The State of AI: Meter plots and performance trends 20:26 Open Source vs. Closed Source models 38:51 Throughput maxing and accuracy minimizing 1:03:00 Benchmarking and cheating in AI 1:37:49 Kernels and algorithmic improvements 2:04:16 Reinforcement ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
-          "url": "https://www.youtube.com/watch?v=ZSQb5fzRFPw",
-          "published": "2026-07-15T22:45:06+00:00",
-          "content_snippet": "Three agents click, type, and scroll through three different apps on one desktop at the same time, and the user's own mouse and keyboard never move. That's the live demo behind cua driver, a tool the team built in a single weekend after Codex shipped its own computer use model. Instead of taking over the hardware cursor, it talks straight to the accessibility layer underneath the operating system: UI Automation on Windows, AT SPI on Linux, AX on macOS. Those undocumented APIs let a click land on",
+          "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+          "url": "https://www.youtube.com/watch?v=RGSFUqzqErE",
+          "published": "2026-07-17T16:30:06+00:00",
+          "content_snippet": "Pablo Castro explores AI and knowledge systems for building better applications and agents. Speaker: Pablo Castro —Distinguished Engineer and CVP, Microsoft, leads the AI Knowledge team in Microsoft's CoreAI division, where he focuses on state-of-the-art information understanding and retrieval systems for AI applications and agents, including Foundry IQ, Azure AI Search, and Azure Content Understanding. LinkedIn: https://www.linkedin.com/in/pabloc Timestamps: 0:00 Introduction and speaker backgr",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
-          "url": "https://www.youtube.com/watch?v=q4Tr-DknG2M",
-          "published": "2026-07-15T20:13:51+00:00",
-          "content_snippet": "Lee Robinson discusses the future of Cursor and AI-native software development. Speaker: Lee Robinson — ML, Model Behavior, Cursor Model research and personality at Cursor. Previously Vercel. X: https://x.com/leerob LinkedIn: https://www.linkedin.com/in/leeerob/ GitHub: https://github.com/leerob Website: https://leerob.com Timestamps 0:37 - Introduction and recursive model improvement overview 1:55 - The two-loop training framework (inner and outer loops) 2:33 - Progress and success of Composer ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
-          "url": "https://www.youtube.com/watch?v=uU5Gv2h8-9g",
-          "published": "2026-07-15T15:05:06+00:00",
-          "content_snippet": "A long form Q&A with Cat Wu (Head of Product, Claude Code) and Thariq Shihipar (Engineer, Claude Code) from Anthropic, moderated by Simon Willison. The discussion focuses on the evolution of coding agents and how they have fundamentally shifted software development practices. Key Takeaways: Changing Developer Workflow (1:22 - 3:51): Coding agents like Claude Code have moved developers from manual, low-level implementation toward higher-level product strategy. The focus has shifted from writing e",
+          "title": "\"Software engineering is not about writing code\" — Benoit Schillings, Google DeepMind VP of Research",
+          "url": "https://www.youtube.com/watch?v=1P1hJ36rxM0",
+          "published": "2026-07-17T15:24:44+00:00",
+          "content_snippet": "A keynote exploring generative AI for code, deep-thinking algorithms, and the future of pre-training and transformer models for Gemini. Speaker: Benoit Schillings leads the Thinking, Reasoning, and Coding teams at Google DeepMind, directing foundational research toward AGI. His work focuses on advancing next-generation model reasoning and integrating software development best practices into AI code generation. Previously, as CTO at X, Benoit guided early-stage teams prototyping Alphabet's moonsh",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -480,5 +291,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 24
 }
