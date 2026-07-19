@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T10:48:00Z",
+  "fetched_at": "2026-07-19T10:59:29Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "What is the “dark factory”?",
-          "url": "https://www.youtube.com/watch?v=oyuKk670wfM",
-          "published": "2026-07-17T16:00:11+00:00",
-          "content_snippet": "with Dex Horthy, Founder of HumanLayer See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "In-House LLM Serving at Netflix",
-          "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
-          "published": "2026-07-17T21:32:39+00:00",
-          "content_snippet": "By AI Platform’s Model Runtime team and Inference team Introduction Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under production load. This post focuses on the choices where alternatives were seriously considered: engine selection, model",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -39,6 +20,8 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 2,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
       }
@@ -67,20 +50,11 @@
       ],
       "items": [
         {
-          "title": "How to define the conversation | Charles Duhigg",
-          "url": "https://www.youtube.com/watch?v=au4CjRNO8x4",
-          "published": "2026-07-17T16:04:24+00:00",
-          "content_snippet": "How to define the conversation | Charles Duhigg",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The psychology of morality, perversion, and revenge, in 67 minutes | Paul Bloom: Full Interview",
-          "url": "https://www.youtube.com/watch?v=rsE_kFE_ZHE",
-          "published": "2026-07-17T13:00:16+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8Swxy4tUE3s&vl=en Psychologist Paul Bloom has spent h",
-          "source_name": "Big Think",
+          "title": "Why The World Cup Is Not Really About Soccer...",
+          "url": "https://www.youtube.com/watch?v=VzIWwmGYcvw",
+          "published": "2026-07-18T19:02:30+00:00",
+          "content_snippet": "In October 2005, a soccer player took a microphone into a locker room and said something that changed his country. I've been thinking about that moment all month, because as I watched the World Cup unfold across North America, I kept noticing things that had nothing to do with the score. So this video is about three things I learned — about bias, about joy, and about how quickly \"them\" can become \"us.\" It turns out the world's biggest sporting event might be the world's best mirror. -- To find o",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -89,13 +63,11 @@
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -148,74 +120,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
-          "published": "2026-07-17T17:29:00+00:00",
-          "content_snippet": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB tables. With this launch, you can pass a RoleArn parameter when starting a stream session, and your application automatically receives short-lived, auto-refreshing AWS credentials through the standard AWS SDK credential resolution chain — no application code changes required. Previously, customers who ne",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-          "published": "2026-07-17T17:23:00+00:00",
-          "content_snippet": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unified observability across multiple data sources. With this launch, the multiple tenants and thousands of saved objects you created in legacy OpenSearch Dashboards become reusable in your OpenSearch UI applications, reducing the operational complexity of",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
-          "published": "2026-07-17T15:16:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topology in another, with each partition using the topology best suited to its instance types. This improves distributed training performance by keeping job placement aligned with the interconnect characteristics of each instance type, so GPU-to-GPU communication is faster, NCCL collective operations ar",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Tech builds on AI. Finance protects the margin.",
-          "url": "https://www.databricks.com/blog/tech-builds-ai-finance-protects-margin",
-          "published": "2026-07-17T19:26:20+00:00",
-          "content_snippet": "Ask a tech company CFO where the quarter's margin is landing, and you will get a...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building a soccer coaching app on Databricks",
-          "url": "https://www.databricks.com/blog/building-soccer-coaching-app-databricks",
-          "published": "2026-07-17T17:00:00+00:00",
-          "content_snippet": "Tracking data is now the richest signal in sport, but the real gap is turning the...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meta’s Spark Muse 1.1 is now available on Databricks, fully governed by Unity AI Gateway",
-          "url": "https://www.databricks.com/blog/metas-spark-muse-11-now-available-databricks-fully-governed-unity-ai-gateway",
-          "published": "2026-07-17T13:08:01+00:00",
-          "content_snippet": "Every new model release promises better reasoning, lower costs, or new capabilities,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
-          "url": "https://www.youtube.com/watch?v=OHVu3Y4B3RI",
-          "published": "2026-07-16T22:15:11+00:00",
-          "content_snippet": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.” Chris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources. “What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.” Check out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambi",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -227,7 +143,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 10
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -242,46 +160,64 @@
       ],
       "items": [
         {
-          "title": "Your Agents Need a Save Button - Hamza Tahir, ZenML",
-          "url": "https://www.youtube.com/watch?v=bZISsg7H7DA",
-          "published": "2026-07-18T07:00:06+00:00",
-          "content_snippet": "Most of an agent's life is spent waiting - on a tool, a human, the next step - and the whole time you're holding a live process awake and billing for it. Multiply that across every agent your org wants to run overnight and the math stops working. A save button fixes the obvious stuff: freeze an agent to durable state, drop its compute to zero, bring it back in milliseconds when there's work, and if it crashes, resume from the last save instead of re-burning every token from the top. The interest",
+          "title": "Autonomous Agents for Scientific Tasks - Sina Shahandeh, Radicait",
+          "url": "https://www.youtube.com/watch?v=XLEYtv3cMlw",
+          "published": "2026-07-18T23:30:06+00:00",
+          "content_snippet": "There has been much work on Autoresearch where the objectives are coding puzzles, toy optimization problems, or static supervised-learning ML tasks. However, for an autonomous agent to assist with a scientific discovery task, the problems must come from real measurement data of the world and they are highly open-ended, requiring a scientific method in the solution loop. In this talk, we show scenarios where the agent has to search over methods, priors, data preprocessing, model classes, and hype",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agents Need Feature Flags - Sachin Gupta",
-          "url": "https://www.youtube.com/watch?v=zU4EagB311U",
-          "published": "2026-07-18T07:00:06+00:00",
-          "content_snippet": "Most AI teams ship behavior changes to 100% of users on every deploy — no canary, no segment, no kill switch. Web teams stopped doing this in 2012. AI teams are about to learn why. Feature flags are table stakes in software engineering. In agent systems they're almost nonexistent — prompts, tool access, model selection, memory policy, and autonomy level all change globally the moment you ship. That's why your \"small\" prompt tweak just broke 12% of your users and you found out from a Discord scre",
+          "title": "A Practitioner's Guide to Graphs - Tim Ainge, Good Collective",
+          "url": "https://www.youtube.com/watch?v=3ySF0I5iE_0",
+          "published": "2026-07-18T21:30:06+00:00",
+          "content_snippet": "A speed-run through the basics... what is a graph, extracting graphs from unstructured text, schema first and ontological improvements and then a slightly more detailed discussion of personalised page rank, shortest path and subgraph matching algorithms. Every idea is explored with an explanation of the principles, and accessible example with code and linked to real-world implementations or references to articulate the value and relevance. Speakers: - Tim Ainge (Good Collective): Software Engine",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
-          "url": "https://www.youtube.com/watch?v=uIiA6DquRiE",
-          "published": "2026-07-17T17:00:06+00:00",
-          "content_snippet": "An advanced seminar (good prerequisites: Daniel's 2024 and 2025 hit AIE workshops, but all are welcome!) PLS WATCH: https://www.youtube.com/@aiDotEngineer/search?query=daniel%20han Timestamps: 0:00 Introduction to Unsloth and model distribution 2:32 The State of AI: Meter plots and performance trends 20:26 Open Source vs. Closed Source models 38:51 Throughput maxing and accuracy minimizing 1:03:00 Benchmarking and cheating in AI 1:37:49 Kernels and algorithmic improvements 2:04:16 Reinforcement ",
+          "title": "The UX of AI: Making AI-Powered Apps Your Users Don't Hate - Kathryn Grayson Nanz, Progress Software",
+          "url": "https://www.youtube.com/watch?v=L3RuP_q8Bwc",
+          "published": "2026-07-18T20:30:06+00:00",
+          "content_snippet": "As a developer, AI is fun, exciting, and full of potential – but users don't always feel the same way about it. From a UX perspective, AI comes with a whole new set of considerations around user trust, privacy, and security. From a UI perspective, AI brings new interaction patterns, new icons, new visual cues, and so much more! If we want people to get the most from what we build, we have to teach our users how to use AI. Let's look at ways to introduce new capabilities in our apps and guide our",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
-          "url": "https://www.youtube.com/watch?v=RGSFUqzqErE",
-          "published": "2026-07-17T16:30:06+00:00",
-          "content_snippet": "Pablo Castro explores AI and knowledge systems for building better applications and agents. Speaker: Pablo Castro —Distinguished Engineer and CVP, Microsoft, leads the AI Knowledge team in Microsoft's CoreAI division, where he focuses on state-of-the-art information understanding and retrieval systems for AI applications and agents, including Foundry IQ, Azure AI Search, and Azure Content Understanding. LinkedIn: https://www.linkedin.com/in/pabloc Timestamps: 0:00 Introduction and speaker backgr",
+          "title": "Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse",
+          "url": "https://www.youtube.com/watch?v=eAXxdtNlK04",
+          "published": "2026-07-18T20:15:06+00:00",
+          "content_snippet": "We ran auto-improvement loops on a paper classification task against a ground-truth dataset. A real problem, narrow enough to measure precisely, and in fact one of the few clear cut target functions out there. We’ll share how to properly set up an agent for auto-improvement, what task specificity and target function quality is actually required for it to work, and why the most efficient path to a continuously improving agentic system is one where domain experts and automation know when to hand o",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "\"Software engineering is not about writing code\" — Benoit Schillings, Google DeepMind VP of Research",
-          "url": "https://www.youtube.com/watch?v=1P1hJ36rxM0",
-          "published": "2026-07-17T15:24:44+00:00",
-          "content_snippet": "A keynote exploring generative AI for code, deep-thinking algorithms, and the future of pre-training and transformer models for Gemini. Speaker: Benoit Schillings leads the Thinking, Reasoning, and Coding teams at Google DeepMind, directing foundational research toward AGI. His work focuses on advancing next-generation model reasoning and integrating software development best practices into AI code generation. Previously, as CTO at X, Benoit guided early-stage teams prototyping Alphabet's moonsh",
+          "title": "Stop Renting Your Cognitive Infrastructure - Thiyagarajan Maruthavanan, Kalmantic Labs",
+          "url": "https://www.youtube.com/watch?v=Bck7ABCZRZI",
+          "published": "2026-07-18T18:15:06+00:00",
+          "content_snippet": "I pointed my lab at one problem, inference, after 200 users burned $1,000 in credits and the math just wouldn't close. So I built the thing, felt the cost, and went looking for why renting intelligence never pencils out. Turns out everyone in this market sells a gospel shaped like their own invoice. Jensen: build a token factory. Nadella: don't even think about the meter. Fireworks: own your model (on our infra). Three smart people, three different layers, three pitches that all end at \"keep pay",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Content Is Code - Matt Palmer, Conductor",
+          "url": "https://www.youtube.com/watch?v=yv6xovSsB1U",
+          "published": "2026-07-18T16:15:06+00:00",
+          "content_snippet": "Code has become the fastest medium for producing technical content, but the most important piece isn't a secret agent skill or a magical framework: its the same thing that makes a great developer experience. Speakers: - Matt Palmer (Conductor): Matt Palmer is a DevRel & product leader focused on AI devtools, developer education, and making complex concepts accessible. Away from the keyboard, you can find him lifting, hiking, riding motorcycles, or caring for plants. X/Twitter: https://x.com/matt",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
+          "url": "https://www.youtube.com/watch?v=Fu45geO3zX8",
+          "published": "2026-07-18T13:45:07+00:00",
+          "content_snippet": "In this talk, I’ll show an agent publish a service, another agent discover and invoke it, and a signed receipt that proves what happened. The point is simple: if agents are going to buy, sell, and compose work across hosts, logs and API dashboards are not enough. Froglet is an open-source protocol and node for agent-to-agent compute. It reduces named services, data-backed services, and open-ended compute to one signed flow: Descriptor to Offer to Quote to Deal to Receipt. The same surface is exp",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
