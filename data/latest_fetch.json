@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T10:59:29Z",
+  "fetched_at": "2026-07-20T12:02:16Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "JUnit was built on a plane",
+          "url": "https://www.youtube.com/watch?v=xhplGdHRf_M",
+          "published": "2026-07-19T16:00:04+00:00",
+          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -20,7 +30,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 2,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
@@ -48,17 +57,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Why The World Cup Is Not Really About Soccer...",
-          "url": "https://www.youtube.com/watch?v=VzIWwmGYcvw",
-          "published": "2026-07-18T19:02:30+00:00",
-          "content_snippet": "In October 2005, a soccer player took a microphone into a locker room and said something that changed his country. I've been thinking about that moment all month, because as I watched the World Cup unfold across North America, I kept noticing things that had nothing to do with the score. So this video is about three things I learned — about bias, about joy, and about how quickly \"them\" can become \"us.\" It turns out the world's biggest sporting event might be the world's best mirror. -- To find o",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -66,7 +65,8 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 3
+        "Daniel Pink": 1,
+        "Big Think": 2
       }
     },
     {
@@ -79,7 +79,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The scarce resource is consensus (Ian Macomber)",
+          "url": "https://roundup.getdbt.com",
+          "published": "2026-07-16T07:00:00+00:00",
+          "content_snippet": "The last time Ramp's Ian Macomber joined the show, the episode was titled, \"Ramp's $8 billion data strategy.\" Ramp is now valued at $44 billion, and the data team's job has completely changed. Ian Macomber returns to talk with Tristan Handy about self-serve analytics at 50x scale, routing agents through the data lake, and why consensus is the scarce resource in a post-AI world. For full show notes and to read the podcast's companion newsletter, head to https://roundup.getdbt.com . The Analytics ",
+          "source_name": "The Analytics Engineering Podcast",
+          "source_type": "podcast",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -102,9 +112,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -120,7 +128,17 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Celebrating 2 million with you!",
+          "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
+          "published": "2026-07-19T18:46:37+00:00",
+          "content_snippet": "From launches and livestreams to the moments in between, thank you for watching, learning, and building with us. Here’s a look back at some of what we’ve shared on the way to 2 million subscribers. We’re grateful you’ve been part of it—and excited for what’s next.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
       "errors": [
         {
           "source_name": "AWS What's New",
@@ -143,9 +161,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 10
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -160,64 +176,91 @@
       ],
       "items": [
         {
-          "title": "Autonomous Agents for Scientific Tasks - Sina Shahandeh, Radicait",
-          "url": "https://www.youtube.com/watch?v=XLEYtv3cMlw",
-          "published": "2026-07-18T23:30:06+00:00",
-          "content_snippet": "There has been much work on Autoresearch where the objectives are coding puzzles, toy optimization problems, or static supervised-learning ML tasks. However, for an autonomous agent to assist with a scientific discovery task, the problems must come from real measurement data of the world and they are highly open-ended, requiring a scientific method in the solution loop. In this talk, we show scenarios where the agent has to search over methods, priors, data preprocessing, model classes, and hype",
+          "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
+          "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc",
+          "published": "2026-07-20T06:25:22+00:00",
+          "content_snippet": "Run the same task twice, and sometimes you get two materially different answers. While many dismiss this as the \"stochastic nature of LLMs,\" this inconsistency is a critical product flaw that destroys customer trust—especially in high-stakes fields like cybersecurity, where a \"flip-flop\" between a malicious threat and a benign alert can lead to disastrous outcomes. This session explores why these flip-flops are usually not model failures. They occur in the \"gray zone\" near the decision boundary,",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "A Practitioner's Guide to Graphs - Tim Ainge, Good Collective",
-          "url": "https://www.youtube.com/watch?v=3ySF0I5iE_0",
-          "published": "2026-07-18T21:30:06+00:00",
-          "content_snippet": "A speed-run through the basics... what is a graph, extracting graphs from unstructured text, schema first and ontological improvements and then a slightly more detailed discussion of personalised page rank, shortest path and subgraph matching algorithms. Every idea is explored with an explanation of the principles, and accessible example with code and linked to real-world implementations or references to articulate the value and relevance. Speakers: - Tim Ainge (Good Collective): Software Engine",
+          "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
+          "url": "https://www.youtube.com/watch?v=m24UKZomm7k",
+          "published": "2026-07-20T06:25:18+00:00",
+          "content_snippet": "The LLM in my voice tutor doesn't decide when the lesson is over. It doesn't decide whether the user got the answer right. It doesn't decide which step comes next. A harness does all of that. The LLM just shows up and talks. Every engineer who's tried to ship a multi-step flow agent has felt this: the model declares itself done before it should, skips a check, loops on a step, or quietly drops half the procedure. Prompting gets you most of the way. Tool-use discipline gets you closer. The last s",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The UX of AI: Making AI-Powered Apps Your Users Don't Hate - Kathryn Grayson Nanz, Progress Software",
-          "url": "https://www.youtube.com/watch?v=L3RuP_q8Bwc",
-          "published": "2026-07-18T20:30:06+00:00",
-          "content_snippet": "As a developer, AI is fun, exciting, and full of potential – but users don't always feel the same way about it. From a UX perspective, AI comes with a whole new set of considerations around user trust, privacy, and security. From a UI perspective, AI brings new interaction patterns, new icons, new visual cues, and so much more! If we want people to get the most from what we build, we have to teach our users how to use AI. Let's look at ways to introduce new capabilities in our apps and guide our",
+          "title": "Your Voice Agent Doesn't Need a Frontier Model - Joel Allou & Ornella Bahidika, Microsoft",
+          "url": "https://www.youtube.com/watch?v=fnLBmfsI_Fg",
+          "published": "2026-07-20T06:25:15+00:00",
+          "content_snippet": "My AI voice tutor doesn't run on a frontier model. It runs on a small one, and the reason isn't cost. It's that voice lives or dies on latency, and the scaffolding around the model is what makes it feel smart anyway. When you build a voice agent the clock is brutal. A pause longer than a held breath feels broken, so your real budget is time to first token, not benchmark score. A big model that thinks for a second has already lost the room. So the model choice gets made for you: pick the fastest ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse",
-          "url": "https://www.youtube.com/watch?v=eAXxdtNlK04",
-          "published": "2026-07-18T20:15:06+00:00",
-          "content_snippet": "We ran auto-improvement loops on a paper classification task against a ground-truth dataset. A real problem, narrow enough to measure precisely, and in fact one of the few clear cut target functions out there. We’ll share how to properly set up an agent for auto-improvement, what task specificity and target function quality is actually required for it to work, and why the most efficient path to a continuously improving agentic system is one where domain experts and automation know when to hand o",
+          "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
+          "url": "https://www.youtube.com/watch?v=B8l81jhvHbI",
+          "published": "2026-07-20T06:25:12+00:00",
+          "content_snippet": "Most enterprise agents fail for the same reason: the model can generate SQL, call tools, and follow workflows, but it has no understanding of how the business actually defines its data. Most teams try to fix this with longer prompts, more RAG, or a bigger model. The real fix is building semantic retrieval infrastructure — a machine-readable metadata layer that lets agents reason over business concepts instead of guessing at raw schemas. In this talk, I’ll walk through how this metadata powers bu",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Renting Your Cognitive Infrastructure - Thiyagarajan Maruthavanan, Kalmantic Labs",
-          "url": "https://www.youtube.com/watch?v=Bck7ABCZRZI",
-          "published": "2026-07-18T18:15:06+00:00",
-          "content_snippet": "I pointed my lab at one problem, inference, after 200 users burned $1,000 in credits and the math just wouldn't close. So I built the thing, felt the cost, and went looking for why renting intelligence never pencils out. Turns out everyone in this market sells a gospel shaped like their own invoice. Jensen: build a token factory. Nadella: don't even think about the meter. Fireworks: own your model (on our infra). Three smart people, three different layers, three pitches that all end at \"keep pay",
+          "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
+          "url": "https://www.youtube.com/watch?v=bUJgirn4_yc",
+          "published": "2026-07-20T06:25:07+00:00",
+          "content_snippet": "Ask an agent to find every night-time pedestrian frame across terabytes of dashcam video in S3. The first pass can cost thousands of dollars and run for hours or days. Once you’ve paid that cost, the agent’s favorite move - loop, inspect, re-derive - becomes the worst thing it can do. Most agent intuition comes from a different physics: coding and business automation, where recompute is cheap, verification means re-running code, and state fits in context. That physics is real, useful, and everyw",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Content Is Code - Matt Palmer, Conductor",
-          "url": "https://www.youtube.com/watch?v=yv6xovSsB1U",
-          "published": "2026-07-18T16:15:06+00:00",
-          "content_snippet": "Code has become the fastest medium for producing technical content, but the most important piece isn't a secret agent skill or a magical framework: its the same thing that makes a great developer experience. Speakers: - Matt Palmer (Conductor): Matt Palmer is a DevRel & product leader focused on AI devtools, developer education, and making complex concepts accessible. Away from the keyboard, you can find him lifting, hiking, riding motorcycles, or caring for plants. X/Twitter: https://x.com/matt",
+          "title": "Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)",
+          "url": "https://www.youtube.com/watch?v=ltv-L5oMPIs",
+          "published": "2026-07-20T06:25:04+00:00",
+          "content_snippet": "As part of a GTM motion, an AI agent goes live on the site. The first visitor lands. The conversation starts. That's the moment everyone optimizes for- the right conversation, the right offer etc.. It's the wrong moment. A well-built AI GTM system does something very different. By the time a buyer sends their first message, the system already knows who they are, what they're looking for, how likely they are to convert, and how to route them. Most teams aren't building that. They're just building",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
           "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
-          "url": "https://www.youtube.com/watch?v=Fu45geO3zX8",
-          "published": "2026-07-18T13:45:07+00:00",
+          "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs",
+          "published": "2026-07-20T06:25:01+00:00",
           "content_snippet": "In this talk, I’ll show an agent publish a service, another agent discover and invoke it, and a signed receipt that proves what happened. The point is simple: if agents are going to buy, sell, and compose work across hosts, logs and API dashboards are not enough. Froglet is an open-source protocol and node for agent-to-agent compute. It reduces named services, data-backed services, and open-ended compute to one signed flow: Descriptor to Offer to Quote to Deal to Receipt. The same surface is exp",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens",
+          "url": "https://www.youtube.com/watch?v=maTp79FD9gI",
+          "published": "2026-07-20T06:24:59+00:00",
+          "content_snippet": "Getting a model to produce the right output is the part everyone works on. Turning that output into something people will actually use is the part that decides whether an AI feature ships. This talk is about that layer, the one between model output and the product experience, grounded in lessons from building agentic CX on mobile at the scale of hundreds of millions of devices. Most teams building agentic CX hit the same wall: the feature works, the demo is impressive, and then production UX bec",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
+          "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8",
+          "published": "2026-07-20T06:24:55+00:00",
+          "content_snippet": "Chat agents get seconds to respond. Voice agents get 200 milliseconds, and if they get it wrong, the user doesn't retry, they hang up. The gap between \"impressive voice demo\" and \"agent people actually want to talk to\" is entirely in the engineering: latency budgets, barge-in handling, turn-taking, and the silence detection problem nobody warns you about. In this workshop you'll build a production voice agent using Pipecat (open-source real-time AI framework) that handles the three things most v",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Skills are the New SDKs - Elvin Aghammadzada, DataRobot",
+          "url": "https://www.youtube.com/watch?v=LC3-P7v3yoI",
+          "published": "2026-07-20T06:24:53+00:00",
+          "content_snippet": "You shipped a REST API. Then an SDK. Then MCP tool calling. And still, when a developer asks a coding agent to use your platform, it invents steps, and breaks in production. The problem is that your platform isn't teachable yet. The fix is a skill layer. Versioned, task-specific packages that encode the workflow knowledge your platform team has always had. Building step ordering, failure modes and security hygiene into something agents can load and execute. This became one of the hardest challen",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -227,5 +270,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 24
+  "deduped_count": 9
 }
