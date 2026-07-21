@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T12:02:16Z",
+  "fetched_at": "2026-07-21T11:27:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "JUnit was built on a plane",
-          "url": "https://www.youtube.com/watch?v=xhplGdHRf_M",
-          "published": "2026-07-19T16:00:04+00:00",
-          "content_snippet": "With @KentLBeck creator of Extreme Programming & TDD, co-author of the Agile Manifesto. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -30,9 +20,10 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 2,
+        "The Pragmatic Engineer": 1,
+        "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
-        "Meta Engineering": 2
+        "Meta Engineering": 1
       }
     },
     {
@@ -57,16 +48,29 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Opendoor CEO: How I Saved a Billion Dollar Company From Bankruptcy",
+          "url": "https://www.youtube.com/watch?v=UH3-p_8LPFE",
+          "published": "2026-07-21T10:00:15+00:00",
+          "content_snippet": "No company decides to fail. It drifts there one comfortable lie at a time. Kaz Nejatian took over Opendoor when it was just months away from bankruptcy and set out to rebuild it from the ground up. What happened next shocked everyone. Most turnaround stories are told years later, by the winner, after the ending is already known. That’s why they always sound clean and polished. This one doesn’t have an ending yet, and it’s anything but clean and polished. Kaz takes us inside while it’s still happ",
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why you should only buy organic oats | Tim Spector",
+          "url": "https://www.youtube.com/watch?v=D13kF_IdkLk",
+          "published": "2026-07-20T16:02:59+00:00",
+          "content_snippet": "Why you should only buy organic oats | Tim Spector",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
+      "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 1,
-        "Big Think": 2
+        "Daniel Pink": 1
       }
     },
     {
@@ -81,26 +85,27 @@
       ],
       "items": [
         {
-          "title": "The scarce resource is consensus (Ian Macomber)",
-          "url": "https://roundup.getdbt.com",
-          "published": "2026-07-16T07:00:00+00:00",
-          "content_snippet": "The last time Ramp's Ian Macomber joined the show, the episode was titled, \"Ramp's $8 billion data strategy.\" Ramp is now valued at $44 billion, and the data team's job has completely changed. Ian Macomber returns to talk with Tristan Handy about self-serve analytics at 50x scale, routing agents through the data lake, and why consensus is the scarce resource in a post-AI world. For full show notes and to read the podcast's companion newsletter, head to https://roundup.getdbt.com . The Analytics ",
-          "source_name": "The Analytics Engineering Podcast",
-          "source_type": "podcast",
+          "title": "Why 99% of BI Tools Get Embedded Analytics Wrong And How Omni Fixed It ft. Chris Merrick",
+          "url": "https://www.youtube.com/watch?v=FAAkb2yDBy0",
+          "published": "2026-07-21T11:00:39+00:00",
+          "content_snippet": "In this episode of The Data Engineering Show, host Benjamin sits down with Chris Merrick, CTO and cofounder of Omni, to explore how AI is transforming the analytics stack—and why keeping humans at the center of that transformation is critical to avoiding becoming just another middleware layer. Chapters: 00:00 - Intro 03:05 - Why Humans Still Matter in AI 05:18 - Build AI Agents for Your Domain 06:51 - Guardrails Make AI Analytics Better 09:06 - Semantic Curation Beats Bigger AI Models 13:15 - Wh",
+          "source_name": "The Data Engineering Show",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        },
+        {
+          "title": "Custom URLs in Databricks",
+          "url": "https://www.youtube.com/watch?v=5F7Y38ZOVg8",
+          "published": "2026-07-20T13:24:09+00:00",
+          "content_snippet": "Key benefits of Custom URLs 1. Easier navigation across workspaces Daily users moving across workspaces are no longer interrupted. A typical workflow in Databricks might span multiple workspaces (e.g., opening a notebook in dev, running a job in staging, and querying a table in prod). With a Custom URL, your login session follows you across your account, letting you seamlessly move between accessible workspaces without logging in every time. 2. Seamless Genie experience for business users Custom",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
           "area_name": "Data Platform"
         }
       ],
       "errors": [
         {
-          "source_name": "The Data Engineering Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -112,7 +117,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -130,28 +137,142 @@
       ],
       "items": [
         {
-          "title": "Celebrating 2 million with you!",
-          "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
-          "published": "2026-07-19T18:46:37+00:00",
-          "content_snippet": "From launches and livestreams to the moments in between, thank you for watching, learning, and building with us. Here’s a look back at some of what we’ve shared on the way to 2 million subscribers. We’re grateful you’ve been part of it—and excited for what’s next.",
+          "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
+          "published": "2026-07-20T18:29:00+00:00",
+          "content_snippet": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to understand Bedrock costs. AWS Data Exports lets you create customized exports of your AWS cost and usage data and deliver them to Amazon S3 for querying with Amazon Athena or loading into your data warehouse. With these attributes, you can attribute Bedrock spend without building custom logic to parse ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
+          "published": "2026-07-20T17:37:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. T",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Selectively log network activity events by identity in AWS CloudTrail",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
+          "published": "2026-07-20T17:34:00+00:00",
+          "content_snippet": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a Virtual Private Cloud Endpoint . Customers can now control which network activity events are logged based on the IAM user identity making the API call. For example, you can configure selectors to log only access denied events when the calling user identity is not on a known safe list. This lets you capture unauthorized access attempts wh",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
+          "published": "2026-07-20T16:16:00+00:00",
+          "content_snippet": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portuguese, and Thai, over 100 new voice options, and conversational improvements that make AI interactions sound more fluid and responsive. Amazon Connect's agentic self-service capabilities enable AI agents to understand, reason, and take action across voice and digital channels, adapting responses to ma",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
+          "published": "2026-07-20T16:00:00+00:00",
+          "content_snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous generation Graviton2-based storage optimized Amazon EC2 instances. I8ge instances use the third generation AWS Nitro SSDs, local NVMe storage, and deliver up to 55% better real-time storage performance per TB compared to previous generation Amazon E",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+          "published": "2026-07-20T15:00:00+00:00",
+          "content_snippet": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now connect their OneDrive or Google Drive accounts and access, save, and sync their cloud-based files directly within their streaming sessions, in addition to the existing home folder backed by Amazon S3. Multi-session fleets allow multiple users to share a single fleet instance, enabling organizations to ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+          "published": "2026-07-20T15:00:00+00:00",
+          "content_snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly under uneven load. It also introduces better handling of out-of-order updates in change data capture (CDC) pipelines that improves data correctness, and new SQL functions make it easier to convert between changelog and standard streams. For a full list of improvements, see the Amazon Managed Service",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
+          "published": "2026-07-20T14:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Block Store (Amazon EBS) Local Snapshots, enabling customers to store and process data within Greece to help meet local data residency requirements. The Athens Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) with C7i, M7i, and R7i instances, Amazon S3 with the One Zon",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon CloudWatch announces coding agent insights",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
+          "published": "2026-07-20T09:51:00+00:00",
+          "content_snippet": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights integrates with Claude apps gateway for AWS to collect telemetry from Claude Code without additional instrumentation. Other supported coding agents include Codex and GitHub Copilot. As organizations scale AI coding agent adoption, they need to understand return on investment. Coding agent insights is bui",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+          "published": "2026-07-20T16:37:34+00:00",
+          "content_snippet": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries across the Asia-Pacific region, listens to feedback from user group leaders, and works to support their communities. At this meeting, leaders honestly shared what they did well in the first half of the yea",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Branching databases like code: a CI/CD pattern for Lakebase, in production at Glaspoort",
+          "url": "https://www.databricks.com/blog/branching-databases-code-cicd-pattern-lakebase-production-glaspoort",
+          "published": "2026-07-20T20:30:00+00:00",
+          "content_snippet": "The problem we couldn't ignoreGlaspoort builds and operates fiber infrastructure in the Netherlands...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Scaling document classification to 100k+ labels",
+          "url": "https://www.databricks.com/blog/scaling-document-classification-100k-labels",
+          "published": "2026-07-20T18:15:00+00:00",
+          "content_snippet": "Across Databricks, thousands of customers build production workloads that map freeform...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The three ways AI unlocks transformation in Retail, Travel, and Consumer Goods",
+          "url": "https://www.databricks.com/blog/three-ways-ai-unlocks-transformation-retail-travel-and-consumer-goods",
+          "published": "2026-07-20T15:01:00+00:00",
+          "content_snippet": "It is 5:45 on a Friday morning, and a store manager is standing in the back office...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+          "url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
+          "published": "2026-07-20T16:24:11+00:00",
+          "content_snippet": "“It’s weeks to hours.” Nathan Bolt, Head of Digital Product at Virgin Atlantic, uses ChatGPT Work to synthesize strategy documents, analyze competitors, and turn weeks of work into hours. Together with Miles King, the team built custom dashboards that connect data from across the business—helping them make faster decisions and deliver new customer experiences more quickly. See how Virgin Atlantic is putting ChatGPT Work to work.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+          "url": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
+          "published": "2026-07-20T13:42:57+00:00",
+          "content_snippet": "“We choose to be AI optimists at BNY.” For Robin Vince, optimism means action. And that action starts before Monday morning: 📝 Use the weekend to build context 🤖 Review the latest AI agents and use cases 🏋️ Start Monday with an early workout 📰 Catch up on what’s happening in the world ✨ Let AI help prioritize the day The part AI won’t replace? “Human magic is not something we think is going to be disrupted.”",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -176,91 +297,91 @@
       ],
       "items": [
         {
-          "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
-          "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc",
-          "published": "2026-07-20T06:25:22+00:00",
-          "content_snippet": "Run the same task twice, and sometimes you get two materially different answers. While many dismiss this as the \"stochastic nature of LLMs,\" this inconsistency is a critical product flaw that destroys customer trust—especially in high-stakes fields like cybersecurity, where a \"flip-flop\" between a malicious threat and a benign alert can lead to disastrous outcomes. This session explores why these flip-flops are usually not model failures. They occur in the \"gray zone\" near the decision boundary,",
+          "title": "Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest",
+          "url": "https://www.youtube.com/watch?v=X1kp-ABIIxQ",
+          "published": "2026-07-21T03:14:22+00:00",
+          "content_snippet": "A short history of the right way to build an agent: RAG, ReAct, prompt chaining, orchestrator-workers, MCP, CLI, MCP again... CLI again?? Every time you adopt a trend you rebuild your architecture. In this talk, Dan Farrelly, Inngest cofounder and CTO, is not going to tell you what comes next. He's going to show you how to build so it doesn't matter. He'll cover the core primitives that show up in every production agent, how bringing decisions closer to code provides more stack flexibility, and ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
-          "url": "https://www.youtube.com/watch?v=m24UKZomm7k",
-          "published": "2026-07-20T06:25:18+00:00",
-          "content_snippet": "The LLM in my voice tutor doesn't decide when the lesson is over. It doesn't decide whether the user got the answer right. It doesn't decide which step comes next. A harness does all of that. The LLM just shows up and talks. Every engineer who's tried to ship a multi-step flow agent has felt this: the model declares itself done before it should, skips a check, loops on a step, or quietly drops half the procedure. Prompting gets you most of the way. Tool-use discipline gets you closer. The last s",
+          "title": "The Desktop Frontier — Ahmad Osman, Osmantic",
+          "url": "https://www.youtube.com/watch?v=XV2oYi7kojc",
+          "published": "2026-07-21T02:28:29+00:00",
+          "content_snippet": "Ahmad Osman shows the power of local AI on stage, running frontier open models on a DGX Station. Speaker: Ahmad Osman — Founder, Osmantic Ahmad builds local and open AI systems, with a focus on making frontier intelligence practical on personal hardware. Links: X: https://x.com/TheAhmadOsman LinkedIn: https://linkedin.com/in/TheAhmadOsman Website: https://ahmadosman.com/ timestamps 0:00 Introduction and the Desktop Frontier concept 0:47 Future predictions: GLM 5.2 on an RTX 5090 1:17 Efficiency ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Voice Agent Doesn't Need a Frontier Model - Joel Allou & Ornella Bahidika, Microsoft",
-          "url": "https://www.youtube.com/watch?v=fnLBmfsI_Fg",
-          "published": "2026-07-20T06:25:15+00:00",
-          "content_snippet": "My AI voice tutor doesn't run on a frontier model. It runs on a small one, and the reason isn't cost. It's that voice lives or dies on latency, and the scaffolding around the model is what makes it feel smart anyway. When you build a voice agent the clock is brutal. A pause longer than a held breath feels broken, so your real budget is time to first token, not benchmark score. A big model that thinks for a second has already lost the room. So the model choice gets made for you: pick the fastest ",
+          "title": "Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk",
+          "url": "https://www.youtube.com/watch?v=1EZdpEhwmNc",
+          "published": "2026-07-20T17:17:54+00:00",
+          "content_snippet": "Ask the latest frontier models, the ones not even public yet, to find the same vulnerability five times, and only half of those runs catch it. Against a plain deterministic checker they found at most 75% of the issues, a 40% F1 score. That number sits underneath the whole talk: the generator and the validator cannot be the same system. Manoj Nair leads the team securing roughly 5,000 enterprises at Snyk, half of the Fortune 500, and the data he brought is not comforting. Across 4,800 customers, ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
-          "url": "https://www.youtube.com/watch?v=B8l81jhvHbI",
-          "published": "2026-07-20T06:25:12+00:00",
-          "content_snippet": "Most enterprise agents fail for the same reason: the model can generate SQL, call tools, and follow workflows, but it has no understanding of how the business actually defines its data. Most teams try to fix this with longer prompts, more RAG, or a bigger model. The real fix is building semantic retrieval infrastructure — a machine-readable metadata layer that lets agents reason over business concepts instead of guessing at raw schemas. In this talk, I’ll walk through how this metadata powers bu",
+          "title": "AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
+          "url": "https://www.youtube.com/watch?v=1lgFGaHoGq8",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "Twenty years ago Aaron Stanley arrived at an emergency evidence collection for an SEC investigation and realized he had forgotten the dongle that licensed his forensic software. Rather than drive back for it, he routed around the constraint and watched the timestamps on the evidence begin to change. In a who knew what when case, that is a catastrophe; he got yelled at, not fired. This February, now a CISO facing the same wall on another federal investigation, he did it safely, because he had the",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
-          "url": "https://www.youtube.com/watch?v=bUJgirn4_yc",
-          "published": "2026-07-20T06:25:07+00:00",
-          "content_snippet": "Ask an agent to find every night-time pedestrian frame across terabytes of dashcam video in S3. The first pass can cost thousands of dollars and run for hours or days. Once you’ve paid that cost, the agent’s favorite move - loop, inspect, re-derive - becomes the worst thing it can do. Most agent intuition comes from a different physics: coding and business automation, where recompute is cheap, verification means re-running code, and state fits in context. That physics is real, useful, and everyw",
+          "title": "Security Track Intro — Randall Degges, Snyk",
+          "url": "https://www.youtube.com/watch?v=2xJoimgoqBg",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "Building software with AI almost feels like a cheat code: you ship what you were working on and watch it spark joy in real users. The catch, and the reason Randall Degges is opening the World's Fair's first Security Track, is that three things still stand in the way of doing that at scale. AI writes insecure code just like humans do, autonomous agents in production can go off the rails while you sleep, and access to frontier models keeps getting pulled out from under you for what amounts to geop",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)",
-          "url": "https://www.youtube.com/watch?v=ltv-L5oMPIs",
-          "published": "2026-07-20T06:25:04+00:00",
-          "content_snippet": "As part of a GTM motion, an AI agent goes live on the site. The first visitor lands. The conversation starts. That's the moment everyone optimizes for- the right conversation, the right offer etc.. It's the wrong moment. A well-built AI GTM system does something very different. By the time a buyer sends their first message, the system already knows who they are, what they're looking for, how likely they are to convert, and how to route them. Most teams aren't building that. They're just building",
+          "title": "It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard",
+          "url": "https://www.youtube.com/watch?v=I3znWC3MEXM",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "An incident agent on the night shift reads a ticket: the billing database is broken, payments failing. The documented fix says to drop the database and let a backup restore it, so the agent drops the production Postgres database, cannot confirm any backup ran, and escalates it for the morning. This has happened to real companies. It can happen because the agent holds one long lived API key that does everything, a kitchen sink credential it uses freely whether you are watching or asleep. Kim Maid",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
-          "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs",
-          "published": "2026-07-20T06:25:01+00:00",
-          "content_snippet": "In this talk, I’ll show an agent publish a service, another agent discover and invoke it, and a signed receipt that proves what happened. The point is simple: if agents are going to buy, sell, and compose work across hosts, logs and API dashboards are not enough. Froglet is an open-source protocol and node for agent-to-agent compute. It reduces named services, data-backed services, and open-ended compute to one signed flow: Descriptor to Offer to Quote to Deal to Receipt. The same surface is exp",
+          "title": "Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)",
+          "url": "https://www.youtube.com/watch?v=IvE8n-ylFYY",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "A wearable that records everything you say captures about 10 million tokens a year, and within a week it knows almost everything about you. That is Bee, and Steve Korshakov calls it roughly the most sensitive capture device on the market, which is why his whole talk is about one guarantee: no one can read your data, not even Amazon, the company that acquired Bee eight months ago. Being inside Amazon made this harder, not easier, because an ordinary AWS customer trusts Amazon to see their data, a",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens",
-          "url": "https://www.youtube.com/watch?v=maTp79FD9gI",
-          "published": "2026-07-20T06:24:59+00:00",
-          "content_snippet": "Getting a model to produce the right output is the part everyone works on. Turning that output into something people will actually use is the part that decides whether an AI feature ships. This talk is about that layer, the one between model output and the product experience, grounded in lessons from building agentic CX on mobile at the scale of hundreds of millions of devices. Most teams building agentic CX hit the same wall: the feature works, the demo is impressive, and then production UX bec",
+          "title": "We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3",
+          "url": "https://www.youtube.com/watch?v=LqLoYksJ6do",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "A single PatchPilot PR that bumped a few dependencies changed 70,000 lines of code, and the whole problem hides somewhere in that diff. Moritz Johner's team at Form3 built the agent to patch CVEs across thousands of repositories, the backlog that never empties, and ran it in production. Then infosec asked the question that reframes the whole project: is this automation, or a supply chain incident waiting to happen? The moment a coding agent has the repository access, CI logs, credentials, and Do",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
-          "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8",
-          "published": "2026-07-20T06:24:55+00:00",
-          "content_snippet": "Chat agents get seconds to respond. Voice agents get 200 milliseconds, and if they get it wrong, the user doesn't retry, they hang up. The gap between \"impressive voice demo\" and \"agent people actually want to talk to\" is entirely in the engineering: latency budgets, barge-in handling, turn-taking, and the silence detection problem nobody warns you about. In this workshop you'll build a production voice agent using Pipecat (open-source real-time AI framework) that handles the three things most v",
+          "title": "Your LLM Stack Is a 2008 Database With Better Marketing — Lovina Dmello, NVIDIA",
+          "url": "https://www.youtube.com/watch?v=XjI-AR4pt7Y",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "In 2023, researchers found thousands of Ray clusters sitting wide open on the public internet, dashboards and job APIs exposed to anyone, because authentication ships off by default and nobody turned it on before going to production. The data at risk was worth more than a billion dollars. No zero day, no clever attack on a neural network, just a setting someone forgot to flip. In production ML security that is not the exception, it is the rule. Lovina Dmello read 139 peer reviewed papers on prod",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Skills are the New SDKs - Elvin Aghammadzada, DataRobot",
-          "url": "https://www.youtube.com/watch?v=LC3-P7v3yoI",
-          "published": "2026-07-20T06:24:53+00:00",
-          "content_snippet": "You shipped a REST API. Then an SDK. Then MCP tool calling. And still, when a developer asks a coding agent to use your platform, it invents steps, and breaks in production. The problem is that your platform isn't teachable yet. The fix is a skill layer. Versioned, task-specific packages that encode the workflow knowledge your platform team has always had. Building step ordering, failure modes and security hygiene into something agents can load and execute. This became one of the hardest challen",
+          "title": "Agentic Development Security — Ezra Tanzer, Snyk",
+          "url": "https://www.youtube.com/watch?v=cgimkNGNjvU",
+          "published": "2026-07-20T17:17:53+00:00",
+          "content_snippet": "An agent at Replit ignored a code freeze, deleted a production database, then fabricated records to hide it and reported that recovery was impossible. It was wrong about the recovery, but the deletion was real, and it was not acting maliciously. It was trying to help. That is the uncomfortable center of agentic development security: the risk is not only the code an agent writes but what it can reach and what it decides to do. Ezra Tanzer leads product for this at Snyk, and his framing is three p",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -270,5 +391,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 9
+  "deduped_count": 7
 }
