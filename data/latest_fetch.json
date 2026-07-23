@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T11:28:18Z",
+  "fetched_at": "2026-07-23T11:30:24Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,44 +12,21 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "From \"napkin math\" to turbopuffer",
-          "url": "https://www.youtube.com/watch?v=h8TBLKyo7Rs",
-          "published": "2026-07-21T16:47:53+00:00",
-          "content_snippet": "The benefits of longer tenure, using first principles to build durable software – and why founders should be cautious when raising VC money. turbopuffer CEO Simon Eskildsen at AI Engineer's World Fair, in San Francisco, in July 2026, interviewed by Gergely Orosz. See the accompanying The Pragmatic Engineer deepdive: Pushing software engineering limits with “napkin math” at https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits Timestamps: 00:00 Intro 02:00 Competitive pro",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "The smart zone vs dumb zone for LLMs",
-          "url": "https://www.youtube.com/watch?v=DWwLsjo1eB8",
-          "published": "2026-07-21T16:00:20+00:00",
-          "content_snippet": "with Dex Horthy, Founder of HumanLayer See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Personalizing Airbnb search by learning from the guest journey",
-          "url": "https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624?source=rss----53c7c27702d5---4",
-          "published": "2026-07-21T17:01:04+00:00",
-          "content_snippet": "How we built a Transformer-based sequence model that encodes years of guest behavior to surface the right listings at the right time. By: Daochen Zha , Chun How Tan , Xin Liu , Bin Xu , Han Zhao , Xiaowei Liu , Jun Shi , Tracy Yu , Hui Gao , Huiji Gao , Liwei He , Michael Kinoti , Stephanie Moyerman , and Sanjeev Katariya Introduction Planning a trip on Airbnb rarely happens in a single session. A guest searching for a place to stay in San Francisco might browse dozens of listings over several d",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
-        "Meta Engineering": 1
+        "Airbnb Tech": 1
       }
     },
     {
@@ -74,7 +51,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The muscle protein that explains success | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=Z_ot2d8Qshg",
+          "published": "2026-07-22T16:04:35+00:00",
+          "content_snippet": "The muscle protein that explains success | Giulia Enders",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "Daniel Pink",
@@ -82,8 +69,7 @@
         }
       ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 1
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -96,17 +82,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Human Context Is AI’s Competitive Advantage #DataEngineering #DataAnalytics #BusinessIntelligence",
-          "url": "https://www.youtube.com/watch?v=FEse3aAmRu4",
-          "published": "2026-07-21T11:26:57+00:00",
-          "content_snippet": "To build data tools that actually stick, a generic chat interface isn't enough. It's the deep, human context that creates a true competitive advantage. In our latest conversation with Chris Merrick, we dive into how Omni is steering away from becoming generic middleware by focusing heavily on the end-user experience. Here’s what we uncovered: - The Commoditization of Chat: Anyone can build a basic chat interface, but the real value lies in what powers it. - Leveraging User Context: By knowing wh",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -122,6 +98,7 @@
         }
       ],
       "deduped_sources": {
+        "The Data Engineering Show": 2,
         "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -142,111 +119,120 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-          "published": "2026-07-21T20:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro System , deliver up to 200Gbps network bandwidth, 2x more network bandwidth, and up to 2x higher packet-processing performance over comparable fifth-generation instances. Customers can use R6in and R6idn instances t",
+          "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+          "published": "2026-07-22T21:42:00+00:00",
+          "content_snippet": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher performance compared to C6a instances. C7a instances offer new processor capabilities such as AVX-512, VNNI, and bfloat16. They feature Double Data Rate 5 (DDR5) memory to enable high-speed access to data in memory and 2.25x more memory bandwidt",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-          "published": "2026-07-21T20:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro System , deliver up to 200Gbps network bandwidth, for 2x more network bandwidth over comparable fifth-generation instances. Customers can use C6in instances to scale the performance of applications such as network virtual appliances (firewalls, vi",
+          "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+          "published": "2026-07-22T20:55:00+00:00",
+          "content_snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to M7a instances. M8a instances deliver 45% more memory bandwidth compared to M7a instances, making these instances ideal for even latency sensitive workloads. M8a instances del",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
-          "published": "2026-07-21T20:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro System , deliver up to 200Gbps network bandwidth, for 2x more network bandwidth over comparable fifth-generation instances. Customers can use M6in and M6idn instances to scale their performance an",
+          "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+          "published": "2026-07-22T19:13:00+00:00",
+          "content_snippet": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB sends IPv6 client traffic to IPv6 targets and IPv4 client traffic to IPv4 targets, preserving the original client IP address end to end for both address families. Previously, serving both IPv4 and IPv6 clients from one NLB meant accepting a tradeoff: either run two separate load balancers (one per IP",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
-          "published": "2026-07-21T17:00:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized applications safer and allowing you to release new application versions faster with greater confidence. Built directly into Amazon ECS, these capabilities eliminate the need for custom deployment tooling while providing production-ready controls including deployment lifecycle hooks, bake time, and q",
+          "title": "AWS Entity Resolution now supports advanced real-time matching",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
+          "published": "2026-07-22T19:00:00+00:00",
+          "content_snippet": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API. Previously, real-time matching was limited to simple rule-based workflows, while advanced rulesets—which support operators like Exact and ExactManyToMany combined with AND/OR logic—could only be used for batch processing that took minutes to hours. This created a critical gap for customers needing real-",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SES introduces pricing plans",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
-          "published": "2026-07-21T16:35:00+00:00",
-          "content_snippet": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three hierarchical options: Essentials, Pro, and Enterprise. Each plan builds on the one before it, offering progressively more capability at a discount compared to à-la-carte pricing. Businesses depend on email reaching the inbox and getting read, but the capabilities needed to ensure this have traditiona",
+          "title": "AWS Lambda durable functions now supports customer managed key encryption",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
+          "published": "2026-07-22T18:30:00+00:00",
+          "content_snippet": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, reliable workflows directly in your Lambda function code with automatic state management. Lambda encrypts execution state at rest by default with an AWS owned key. Now with support for AWS KMS, you can choose and manage the encryption key yourself. If you operate in regulated industries such as fina",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
-          "published": "2026-07-21T15:30:00+00:00",
-          "content_snippet": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of customers during service deployments and ECS Managed Daemon updates. By surfacing service-side operations that were previously invisible, Action Logs help you monitor and troubleshoot your workloads directly, without contacting AWS Support or manually correlating data from multiple sources. With Action",
+          "title": "Amazon Corretto July 2026 Quarterly Updates",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
+          "published": "2026-07-22T18:00:00+00:00",
+          "content_snippet": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 17.0.20, 11.0.32, and 8u502 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Starting with this release, the default Amazon Corretto Docker images are based on Amazon Linux 2023. Amazon Linux 2 images will continue to be provided",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
-          "published": "2026-07-21T14:00:00+00:00",
-          "content_snippet": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many workspaces per account, enabling the storage and analysis of billions of Prometheus metrics across their organization. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational metrics at scale. It automaticall",
+          "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+          "published": "2026-07-22T17:00:00+00:00",
+          "content_snippet": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions available to resources across member accounts in your organization. This quota increase helps customers managing large, complex, multi-account environments define more granular resource access controls without encountering policy limits. With RCPs, you can restrict which external principals can access res",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The last mile: why great first-party data still doesn't make great marketing",
-          "url": "https://www.databricks.com/blog/last-mile-first-party-data-great-marketing",
-          "published": "2026-07-21T22:19:28+00:00",
-          "content_snippet": "Last month, a data team and a marketing team sat in the same room and talked past...",
+          "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
+          "published": "2026-07-22T14:30:00+00:00",
+          "content_snippet": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source Karpenter project, enabling you to optimize EKS workloads for performance and availability. These capabilities allow you to control EFA network interface configuration and how EC2 instances are physically distributed across AWS infrastructure for distributed training and inference workloads. With EKS Aut",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Simplify AI agent orchestration with Lakebase Postgres",
+          "url": "https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres",
+          "published": "2026-07-22T23:00:00+00:00",
+          "content_snippet": "IntroductionTraditionally, auditing is a tedious process that often requires detailed...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Dow Built a Carbon Footprint Ledger on Databricks to Accelerate Sustainability at Scale",
-          "url": "https://www.databricks.com/blog/how-dow-built-carbon-footprint-ledger-databricks-accelerate-sustainability-scale",
-          "published": "2026-07-21T19:45:00+00:00",
-          "content_snippet": "Why we built the Carbon Footprint LedgerAt Dow, our ambition is to be the most innovative,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why R&D Data Belongs in the Lakehouse - and Why Agents Need It There",
-          "url": "https://www.databricks.com/blog/why-rd-data-belongs-lakehouse-and-why-agents-need-it-there",
-          "published": "2026-07-21T19:45:00+00:00",
-          "content_snippet": "The setupAt cellcentric, a joint venture of Daimler Truck and Volvo Group, we develop...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Announcing the Public Preview of Discover and Domains, powered by Unity Catalog",
-          "url": "https://www.databricks.com/blog/announcing-public-preview-discover-and-domains-powered-unity-catalog",
-          "published": "2026-07-21T19:10:00+00:00",
-          "content_snippet": "Today, we're announcing the Public Preview of Domains and the Discover page, powered...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Plugins in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=pKwRNdDtai0",
-          "published": "2026-07-21T18:00:39+00:00",
-          "content_snippet": "Plugins connect ChatGPT to the tools you use for email, cloud storage, calendars, work chat, and more. See how to browse the plugin directory, choose the right tools and skills for a task, and bring context together across your work to get to a finished result. Learn more: https://learn.chatgpt.com/ Chapters: 00:00 Connecting tools with plugins 00:14 Browsing the plugin directory 00:32 Creating a flyer with Canva 01:00 Plugins for specific roles 01:10 Preparing for a customer meeting 01:33 Revie",
+          "title": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful",
+          "url": "https://www.youtube.com/watch?v=MX95QbxSc9Q",
+          "published": "2026-07-23T09:33:40+00:00",
+          "content_snippet": "We caught up with Barak Kaufman, Chief Strategy Officer at Wonderful, at RAISE Summit in Paris to discuss what the next chapter of enterprise AI looks like. As organisations move beyond experimenting with AI, the opportunity is shifting from automating individual tasks to fundamentally redesigning how work gets done. Barak shares why enterprise leaders should focus on transformation over infrastructure, how AI agents are unlocking new ways of working, and why now is the time to rethink how organ",
           "source_name": "OpenAI",
           "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
+          "url": "https://www.youtube.com/watch?v=4Nv--b12hxQ",
+          "published": "2026-07-22T20:43:58+00:00",
+          "content_snippet": "Over six months, the SME AI Accelerator brought practical AI training to small and medium-sized businesses across Europe. Delivered by OpenAI Academy with Booking.com, the program combined online learning with events in Dublin, Warsaw, London, Munich, Milan, and Paris. Through mentor-led demonstrations, participants explored how ChatGPT and Codex can save time, strengthen operations, and create more room for growth. SMEs represent 99% of European businesses. Expanding their access to practical A",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
+          "url": "https://www.youtube.com/watch?v=cFyFF3Ad2aM",
+          "published": "2026-07-22T20:37:36+00:00",
+          "content_snippet": "OpenAI Academy and California GO-Biz brought hands-on AI training to San Diego’s small business community. At SDSU’s Tula Community Center, participants explored ChatGPT fundamentals and advanced workflows for marketing, customer communications, administrative tasks, and other everyday business needs. San Diego was the second stop in a statewide OpenAI Academy series designed to expand access to practical AI skills.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Cognition Signs MOU with U.S. Department of Energy to Join The Genesis Mission",
+          "url": "https://cognition.ai/blog/cognition-doe-genesis-mission",
+          "published": "2026-07-22T17:00:00+00:00",
+          "content_snippet": "Cognition Signs MOU with U.S. Department of Energy to Join The Genesis Mission\nCognition has signed a memorandum of understanding (MOU) with the U.S. Department of Energy (DOE) to join the Genesis Mission, a national initiative described as “America's Manhattan Project for AI.”\nLaunched by executive order in November 2025, the Genesis Mission mobilizes America's 17 national laboratories, along with industry and academia, to connect the world's most powerful supercomputers with the largest collec",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
@@ -257,10 +243,6 @@
         },
         {
           "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -279,37 +261,91 @@
       ],
       "items": [
         {
-          "title": "Better Agent Auth — Bereket Habtemeskel & Paola Estefania, Better Auth",
-          "url": "https://www.youtube.com/watch?v=JvKO40CFq-s",
-          "published": "2026-07-21T23:43:54+00:00",
-          "content_snippet": "Better Auth has grown to 27k GitHub stars and more than 1.5M weekly downloads, becoming a popular choice for developers who want to own their authentication stack. Agent Auth is a protocol for autonomous and delegated agents operating services for an organization or a user. It lets agents dynamically negotiate capabilities, manage access boundaries, and maintain secure authorization flows. This session breaks down the protocol design and demonstrates it live. Speakers: Bereket Habtemeskel — CEO,",
+          "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
+          "url": "https://www.youtube.com/watch?v=kRkcNOsRyYg",
+          "published": "2026-07-23T07:00:23+00:00",
+          "content_snippet": "Your agent can reach your data and still get it wrong. Vector search hands it a slice, Text2SQL hands it another, and neither tells it what is actually relevant or how the pieces connect, so the answer comes back confident and wrong. Zach Blumenfeld's argument in this hands on workshop is that the missing piece is not a better model or a better query. It is context, and context comes in shapes. He builds three reusable graph shapes on top of lakehouse data with Neo4j, each answering a question t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
-          "url": "https://www.youtube.com/watch?v=8qWIPUia2O8",
-          "published": "2026-07-21T21:30:06+00:00",
-          "content_snippet": "Most harness discussion is a reprise of Context Engineering from last summer. But it is not 2025 anymore: we live in a Claude Code world, and the best way to think about a harness is Context Engineering + Coding Agents = Harness. Harnesses are a powerful developer experience because of planning mode, parallel subagents, skills, background tasks, and more. But they do not stop there. Teams are putting harnesses in a box, making them listen to external events, giving them channels to ping users, a",
+          "title": "Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates",
+          "url": "https://www.youtube.com/watch?v=u6jJcIFDLE4",
+          "published": "2026-07-23T05:00:02+00:00",
+          "content_snippet": "Their first pharma analytics system mimicked a human analyst: one agent to detect a signal, one to localize it, one to find the cause, one to synthesize, all wired to an orchestrator. It produced answers like this: prescriptions dropped 18% in a territory because a payer moved the drug to a worse tier, so send more sales reps. The cause was right and the action was wrong, because no single agent owned the whole picture. So Subbiah Sethuraman's team at ZS killed the multi agent pipeline. Instead ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "HTML Is All Agents Need — James Russo, HeyGen",
-          "url": "https://www.youtube.com/watch?v=Cz4v1WHVyZc",
-          "published": "2026-07-21T18:54:01+00:00",
-          "content_snippet": "LLMs are great at writing code. So the question we kept asking was: can they write code that produces a video? We thought it would be easy. The reality was a year of trying. We started with massive prompts to get very mediocre output. We made it more agentic to iterate and improve its output. This worked okay but wasn't production-ready. Eventually we tried Remotion. It got us deterministic video, but the React framework kept boxing the agent in. The more guardrails we added, the safer and more ",
+          "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
+          "url": "https://www.youtube.com/watch?v=H7puB0RwJMM",
+          "published": "2026-07-23T04:00:02+00:00",
+          "content_snippet": "An agent hands a doctor a clean, confident fact: the patient has a penicillin allergy. But that fact was synthesized from three sources, an EHR record, a lab report, and something the patient typed into an intake chatbot, and by the time it reaches the doctor, which one it came from is gone. You cannot just stamp a source ID on it, because the LLM merged entities and later data invalidated earlier facts, so the store keeps shifting under your pointer. Daniel Chalef's argument is that provenance ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "2026 State of AI Engineering — Barr Yaron, Amplify Partners",
-          "url": "https://www.youtube.com/watch?v=RGe6EjucbzI",
-          "published": "2026-07-21T16:11:29+00:00",
-          "content_snippet": "Barr Yaron shares her perspective on the results and emerging state of AI engineering in 2026. Speaker: Barr Yaron — Partner, Amplify Partners Barr backs founders building the AI infrastructure and applications that will shape the future. Links: X: https://x.com/barrnanas LinkedIn: https://linkedin.com/in/barryaron Website: https://barrchives.com Timestamps 0:00 Introduction and Survey Context 2:26 The AI Engineering Workforce 3:21 Current Modalities and Adoption 5:34 Model Strategy: Closed vs. ",
+          "title": "Local Agentic Theory For Mobile Games — Shafik Quoraishee & Joanne Song, The New York Times",
+          "url": "https://www.youtube.com/watch?v=418t26CVz-w",
+          "published": "2026-07-23T03:00:01+00:00",
+          "content_snippet": "An agent runs entirely on your phone, no cloud, and plays Space Invaders, perceiving the scene, predicting the aliens, and dodging bullets in a loop. Another solves the New York Times mini crossword with a constraint graph that backtracks when the fills stop fitting. These are experimental, and the Times is emphatic that its actual puzzles are made by people with no AI in the games. The hard part is the budget: a local agent has to plan its next move inside a single 16 millisecond frame, without",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
+          "url": "https://www.youtube.com/watch?v=mOf-PP4mVjA",
+          "published": "2026-07-23T02:00:03+00:00",
+          "content_snippet": "Feed it 67 videos from the 2022 World Cup and ask for the near misses, the shots that almost scored but did not, each with a reason, and it returns them. Ask it to track Messi across the entire corpus and describe the camera framing, and it finds the moment he slaloms past a sliding defender. James Le's point is that this is unusual because video has no memory. Almost every video AI system answers each query from scratch, and a bigger context window does not fix it, because the real problem is t",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley",
+          "url": "https://www.youtube.com/watch?v=Sir59K8ZDPU",
+          "published": "2026-07-23T01:00:07+00:00",
+          "content_snippet": "A second refund on the same order. A payout sent to the support desk instead of the buyer. An order status of \"probably shipped.\" These are the kinds of mistakes a probabilistic agent makes and a paragraph of instructions cannot reliably stop. Frank Coyle argues that most agent failures, from brittle tools to fragile handoffs, are symptoms of one missing layer: a formal ontology sitting outside the model as logical guardrails. LLMs reason probabilistically over domains they only half understand,",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Learned Execution Graphs for Anomaly Detection & Drift in APIs — Ritvik Pandya, JP Morgan Chase",
+          "url": "https://www.youtube.com/watch?v=u1yaOeEX4e8",
+          "published": "2026-07-23T00:00:04+00:00",
+          "content_snippet": "Traditional monitoring reported the system healthy: latency down, errors at zero. A mandatory processing step had been silently skipped, and nothing caught it except the graph. Ritvik Pandya's team at JP Morgan models each API request as a short lived execution graph, a DAG of the middleware steps it passes through, learned from telemetry at over 1,600 requests per second. Compare what actually ran against that learned graph and a skipped, reordered, or injected step stops hiding behind healthy ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
+          "url": "https://www.youtube.com/watch?v=Btk8wDUVs74",
+          "published": "2026-07-22T23:00:11+00:00",
+          "content_snippet": "Ask your AI assistant what you should focus on right now and you get a list of disconnected bullets dressed up as a confident paragraph. When Omri Bruchim tried it, Claude told him to go to the gym. The assistant has every board, task, email, and Slack message you have ever touched, and still zero understanding, because the problem was never retrieval. It is that a system of record stores what happened but not what it means. monday.com's answer is to become a system of context. They build that c",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
+          "url": "https://www.youtube.com/watch?v=jt1Pbr_n6oU",
+          "published": "2026-07-22T21:30:31+00:00",
+          "content_snippet": "Models, frontends, and agent frameworks all commoditize. Mike Phipps argues the durable moat is the one thing that does not: your data model, and the tacit knowledge of how your questions are supposed to be answered. At the Gates Foundation he and his team modeled 25 years of grantmaking, over 7 billion dollars a year across 2,000 grants and 4,000 people, into a single Neo4j knowledge graph served to Claude through one MCP server. The graph is built for agents, not dashboards: hierarchies become",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
+          "url": "https://www.youtube.com/watch?v=khVX_BUnEwU",
+          "published": "2026-07-22T20:00:06+00:00",
+          "content_snippet": "Yohei Nakajima was running a 500 question eval when his API key died at question 350. Normally that means restarting the whole long agent from scratch. Instead it rolled back one step and resumed at 353, because in ActiveGraph the log is the agent. Most people build agents around the LLM and bolt on memory and logging; Nakajima, the creator of BabyAGI, flips it and builds around an immutable event log. Every action and every change to the agent flattens into one typed log, which projects a graph",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -319,5 +355,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 17
+  "deduped_count": 13
 }
