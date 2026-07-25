@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T11:22:09Z",
+  "fetched_at": "2026-07-25T10:55:19Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,8 +12,22 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "\"You're absolutely right\" is your cue to start over",
+          "url": "https://www.youtube.com/watch?v=ApzGW6gdFyc",
+          "published": "2026-07-24T16:00:37+00:00",
+          "content_snippet": "with Dex Horthy, Founder of HumanLayer See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -24,8 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
-        "Netflix Tech Blog": 1,
         "Airbnb Tech": 1
       }
     },
@@ -53,10 +65,19 @@
       ],
       "items": [
         {
-          "title": "How I evolved out of ‘survival mode’ | Ice-T",
-          "url": "https://www.youtube.com/watch?v=uqT1DGIeyzw",
-          "published": "2026-07-23T13:00:17+00:00",
-          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Ice-T lost everything early in life. Decades later, he says that not knowing what came next became his reason to keep going. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 From ",
+          "title": "How to navigate a difficult conversation | Charles Duhigg",
+          "url": "https://www.youtube.com/watch?v=ljXdGs0Mb4g",
+          "published": "2026-07-24T16:04:18+00:00",
+          "content_snippet": "How to navigate a difficult conversation | Charles Duhigg",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The 3 elements of stupidity, according to philosophy | Jonny Thomson: Full Interview",
+          "url": "https://www.youtube.com/watch?v=HbQ-t8GXYTA",
+          "published": "2026-07-24T13:00:38+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, A philosopher’s argument against the cult of achievement | Zena Hitz: Full Interview ► https://www.youtube.com/watch?v=JD4Fhh6GDcY Philosopher Jonny Thomson walks through Dietrich Bonhoef",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -64,13 +85,15 @@
       ],
       "errors": [
         {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -82,26 +105,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Blending Exploratory and Governed Analytics Together #DataGovernance #Analytics #DataArchitecture",
-          "url": "https://www.youtube.com/watch?v=C_JryFWmLEY",
-          "published": "2026-07-24T11:00:25+00:00",
-          "content_snippet": "Data teams have always had to balance two distinct modes of operation: fast, ad-hoc exploration and strict, governed metrics. Chris Merrick breaks down how to bridge this gap without losing data integrity. The core approach behind Omni's vision focuses on: - Embracing Dual Modes: Acknowledging that data workflows need to support both unstructured exploration and standardized reporting. - AI for Ad-Hoc Discovery: Using AI as a powerful tool to point at complex datasets and quickly diagnose anomal",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "The Future of Unity Catalog Managed Tables: Inside Scoop with the PM at Data + AI Summit",
-          "url": "https://www.youtube.com/watch?v=k72PX-qqbHA",
-          "published": "2026-07-23T12:58:21+00:00",
-          "content_snippet": "UC managed tables combine the interoperability of Delta Lake and Apache Iceberg with automatic, built-in capabilities that improve query performance, lower storage costs, and keep tables healthy over time. They are also the foundation for platform features, such as disaster recovery and Zerobus ingestion. Databricks automatically tunes managed tables through Predictive Optimization. Predictive Optimization cleans up storage, collects query statistics, and automatically selects Liquid clustering ",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -120,7 +124,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Data Engineering Show": 1,
+        "NextGenLakehouse": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -138,208 +145,91 @@
       ],
       "items": [
         {
-          "title": "AWS now supports automatic credit memo application preferences",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
-          "published": "2026-07-23T18:16:00+00:00",
-          "content_snippet": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different application preferences directly on the Billing and Cost Management console to match their internal payment processes. These options include combinations of applying credit memos to the original invoice, next eligible invoice, and oldest unpaid invoice. By default, credit memos are applied to the o",
+          "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+          "published": "2026-07-24T23:11:00+00:00",
+          "content_snippet": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administrators need to complete a one-time setup for their virtual desktop environment. Once configured, media is redirected from the virtual desktop to the agent's local device, improving audio quality. Agents simply log into their Azure Virtual Desktop or Windows 365 Cloud PC session and start accepting cal",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
-          "published": "2026-07-23T18:05:00+00:00",
-          "content_snippet": "Amazon RDS for MySQL now supports version community MySQL 9.7 in the Amazon RDS Database Preview Environment , allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can test applications and explore new MySQL 9.7 capabilities before they become generally available. MySQL 9.7 is the latest Long-Term Support release for community MySQL. MySQL Long-Term Support releases include bug fixes, security patches, as well as new features.",
+          "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+          "published": "2026-07-24T21:57:00+00:00",
+          "content_snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of managing the underlying infrastructure. Apache Airflow 2.11.2 is a maintenance release that includes security improvements, bug fixes, and dependency upgrades. This release upgrades core dependencies with security patches and stability improvements to the Airflow webserver and task execution layers. I",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda durable execution SDK for .NET is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
-          "published": "2026-07-23T18:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications like payment processing pipelines, AI agent orchestration, and human-in-the-loop approvals directly in their applications without implementing custom progress tracking or integrating external orchestration services. Lambda durable functions ex",
+          "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+          "published": "2026-07-24T21:00:00+00:00",
+          "content_snippet": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS License Manager. This flexibility is particularly valuable for EC2 Mac Instance customers and for customers who need Dedicated Hosts for hardware-level isolation rather than Bring Your Own License (BYOL). Customers with BYOL workloads can continue to create HRGs with SMLs to ensure that only instanc",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
-          "published": "2026-07-23T17:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. Previously, AgentCore split agent telemetry across multiple destinations trace spans went to the shared `aws/spans` log group while event logs containing prompts, inputs, and outputs went to a separate resource-specific log group. This meant debugging an agent invocation required searching across multipl",
+          "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+          "published": "2026-07-24T18:55:00+00:00",
+          "content_snippet": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity in response to rising data ingest usage. With On-demand Advantage mode, you can proactively manage stream capacity using warm throughput to prepare streams for sudden changes in data traffic. We are extending warm throughput with the ability to also scale down ingest capacity, giving you full contr",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
-          "published": "2026-07-23T17:00:00+00:00",
-          "content_snippet": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB access, connection and health check logs directly in CloudWatch to gain insights into client connections, traffic distribution, connection status and target health, helping you identify and troubleshoot network issues faster. Additionally, you can set up CloudWatch telemetry enablement rules to automatical",
+          "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+          "published": "2026-07-24T16:00:00+00:00",
+          "content_snippet": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI enables you to run Lambda functions on Amazon EC2 instances while maintaining serverless operational simplicity. Capacity providers are resources that let you define compute resources that Lambda provisions on your behalf. With capacity provider logs, you can monitor, troubleshoot, and optimize these mana",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EVS is now available in additional Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
-          "published": "2026-07-23T16:24:00+00:00",
-          "content_snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm) Regions. This expansion provides more options to leverage the scale and flexibility of AWS for running your VMware workloads in the cloud. Amazon EVS lets you run VMware Cloud Foundation (VCF) directly within your Amazon Virtual Private Cloud (VPC) on EC2 bare-metal instances, powered by AWS Nitro. You can set up a complete VCF environment ",
+          "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+          "published": "2026-07-24T15:03:00+00:00",
+          "content_snippet": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but configuring its resources individually to set up SMTP sending requires multiple steps. The new guided setup creates and configures these resources automatically, so developers can get started in just a few clicks. The guided setup gives developers a working SMTP endpoint and downloadable credentials they",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
-          "published": "2026-07-23T16:02:00+00:00",
-          "content_snippet": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capability, cost, and speed. For coding, it navigates large codebases, lands multi-file changes, and carries debugging and refactoring tasks through to completion with fewer rounds of correction. For agents, it calls tools precisely, holds state across many steps, and recovers from errors so more runs fini",
+          "title": "Claude Opus 5 is now available on AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+          "published": "2026-07-24T15:00:00+00:00",
+          "content_snippet": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude Opus 5 delivers advances in coding, understanding and navigating codebases like an experienced engineer and writing production-quality code while adapting its strategy as it works. It powers dependable agents that run for hours and even overnight, finding",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
-          "published": "2026-07-23T15:04:00+00:00",
-          "content_snippet": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs with 96 GB of memory per GPU, 5th Generation Intel Xeon processors, and up to 1,600 Gbps of Elastic Fabric Adapter networking bandwidth, delivering up to 2.3x inference performance compared to previous-generation G6e instances. With this region ex",
+          "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+          "published": "2026-07-24T14:00:00+00:00",
+          "content_snippet": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient tool calling, and better follow-through on long-horizon projects. It plans before it edits, catches its own mistakes, and finds creative paths around obstacles instead of stalling, making it well suited for complex multi-step tasks that previously required close supervision. Available with a 1M contex",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
-          "published": "2026-07-23T14:51:00+00:00",
-          "content_snippet": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs, each with 24 GB of memory, and third-generation AMD EPYC processors, delivering up to 2x the deep learning inference performance compared to G4dn instances. With this region expansion, government agencies and organizations operating in GovCloud can deploy inference endpoints on G6 instances to",
+          "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+          "published": "2026-07-24T13:00:00+00:00",
+          "content_snippet": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers building agents that operate on AWS infrastructure need an objective, reproducible way to measure performance and diagnose failures. aws-bench provides a public suite of test cases derived from analysis of real AWS usage, including investigation, troubleshooting, and infrastructure creation tasks. E",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
-          "url": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
-          "published": "2026-07-23T19:00:00+00:00",
-          "content_snippet": "“We showed the value of having a foundational data platform, and that success story...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Permission isn't purpose: Intent-based authorization in Omnigent",
-          "url": "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent",
-          "published": "2026-07-23T18:05:06+00:00",
-          "content_snippet": "In earlier posts, we introduced contextual policies in Omnigent and showed them blocking...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Provisioning for the Agentic Era: How Databricks Built a Self-Serve Infrastructure Vending Machine",
-          "url": "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine",
-          "published": "2026-07-23T18:00:00+00:00",
-          "content_snippet": "At Databricks, our field engineering organization exists to help customers succeed....",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why A Frontier Data Agent Outperforms General Coding Agents in Quality and Cost",
-          "url": "https://www.databricks.com/blog/why-frontier-data-agent-outperforms-general-coding-agents-quality-and-cost",
-          "published": "2026-07-23T15:33:58+00:00",
-          "content_snippet": "Conventional wisdom in agentic AI says that better answers cost more tokens: let...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Connect Amazon S3 data to Databricks with Delegated IAM Permissions",
-          "url": "https://www.databricks.com/blog/connect-amazon-s3-data-databricks-delegated-iam-permissions",
-          "published": "2026-07-23T15:30:00+00:00",
-          "content_snippet": "Importance of Simpler S3 connectivityConnecting Amazon S3 is one of the most important...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing AI spend controls with Unity AI Gateway",
-          "url": "https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway",
-          "published": "2026-07-23T14:04:00+00:00",
-          "content_snippet": "Today, we're announcing AI Spend Controls in Unity AI Gateway. This release extends...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
-          "url": "https://www.youtube.com/watch?v=PB7DBemxl3E",
-          "published": "2026-07-24T09:12:21+00:00",
-          "content_snippet": "We caught up with Grant Lee, Founder and CEO of Gamma, at RAISE Summit in Paris to discuss what it takes to build at the pace of AI innovation. As AI capabilities continue to evolve, the companies that move fastest are those that can quickly turn new breakthroughs into better products and better customer experiences. Grant shares how Gamma uses OpenAI across its platform and internal engineering workflows, why strong partnerships have been key to its growth, and why adaptability has become one o",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What is AI Slop?",
-          "url": "https://www.youtube.com/watch?v=-_p2a6uWfjk",
-          "published": "2026-07-23T20:51:09+00:00",
-          "content_snippet": "AI Slop or not? Explore the Epistemologies of Slop at tiat Gallery in San Francisco through July 31.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How IT Admins can manage ChatGPT Work at scale | OpenAI",
-          "url": "https://www.youtube.com/watch?v=t8Ej9aeW388",
-          "published": "2026-07-23T20:50:48+00:00",
-          "content_snippet": "As AI adoption grows, so does the admin workload—but it shouldn’t have to. ChatGPT Work and the new Admin APIs make day-to-day workspace management easier. In this demo, we show how IT teams can automate group management, analyze spend, and adjust usage limits. It’s a practical look at AI-assisted administration: surfacing the right data, flagging what needs attention, and helping admins act quickly.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic",
-          "url": "https://www.youtube.com/watch?v=zq88iLsSfMA",
-          "published": "2026-07-23T20:23:01+00:00",
-          "content_snippet": "ChatGPT Work is rolling out to Enterprise plans—available wherever you use ChatGPT: chatgpt.com, desktop, and mobile. The teams already using it say it best. People at Zapier, Shopify, Virgin Atlantic, and more share how ChatGPT Work is helping them move faster and expand what their teams can accomplish. Watch their stories and learn more: https://lnkd.in/gVbXg8sk",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building with ChatGPT Voice | OpenAI",
-          "url": "https://www.youtube.com/watch?v=E0ZMOschrTU",
-          "published": "2026-07-23T19:40:16+00:00",
-          "content_snippet": "Control your computer and direct multiple agents running in ChatGPT Work or Codex, using just your voice. It's powered by GPT-Live, so it can speak, listen, and coordinate work in the app at the same time. Rolling out globally today on macOS and Windows to Plus, Pro, Business, and Enterprise plans. Find out more: https://developers.openai.com/codex/features/voice Chapters 00:00 Building with ChatGPT Voice 00:26 Shaping a feature idea 00:39 Debugging with Codex 00:55 Ready to launch",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Now it won’t take you 10 years to get tickets",
-          "url": "https://www.youtube.com/watch?v=oikd-FocWrI",
-          "published": "2026-07-23T18:58:16+00:00",
-          "content_snippet": "Check out ChatGPT Work today: https://openai.com/chatgpt-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Health in ChatGPT is coming to U.S. users",
-          "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
-          "published": "2026-07-23T17:03:29+00:00",
-          "content_snippet": "Health in ChatGPT is starting to roll out to U.S. users. You can securely connect Apple Health and supported medical records to understand your information in context, track what has changed, and have more informed conversations. We built this experience based on feedback from early testers and physicians. With your permission, ChatGPT can use relevant context you’ve connected in Health across your conversations — to help you compare a new result with prior tests, summarize changes since your la",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Work with docs, sheets, and slides in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=E3dDr_QtBuo",
-          "published": "2026-07-23T14:17:31+00:00",
-          "content_snippet": "See how you can use ChatGPT to bring context together from your apps and files, make focused edits, analyze data, and use templates to create polished documents, spreadsheets, and presentations for you to review and share. Learn more: https://learn.chatgpt.com/ Chapters: 00:00 Documents, spreadsheets, and slides 00:10 Updating a launch plan 00:32 Analyzing video performance 00:44 Creating a presentation 00:56 Reusing a template 01:07 Editing files directly",
+          "title": "Build Hour: Valuemaxxing with GPT-5.6",
+          "url": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+          "published": "2026-07-24T19:47:16+00:00",
+          "content_snippet": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance. Charlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) will cover how to: • Choose between GPT‑5.6 Sol, Terra, and Luna based on intelligence, latency, and cost • Measure and optimize cost-performance across real workloads • Adapt evals, agent harnesses, to",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -348,6 +238,10 @@
       "errors": [
         {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -374,46 +268,82 @@
       ],
       "items": [
         {
-          "title": "Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
-          "url": "https://www.youtube.com/watch?v=O-CBZ3JtRvo",
-          "published": "2026-07-24T05:19:15+00:00",
-          "content_snippet": "NOTE: see further context from Thom: https://x.com/Thom_Wolf/status/2079954096950264238?s=20 Give a frontier model a real chain of Keycloak, Vault, and a broker, start it as a low privileged user, and ask it to reach production code. There is a genuine zero day in there: one check validates the admin by name while another checks by ID, so a user can simply rename themselves to the admin and inherit the privilege. GPT 5.5 and Opus probe everything, even reach the check, and never make that logica",
+          "title": "From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
+          "url": "https://www.youtube.com/watch?v=Ib5t2RLtxvM",
+          "published": "2026-07-25T01:00:02+00:00",
+          "content_snippet": "Take a real production trace, rebuild the database state, tools, and files the agent touched, and you have a task any model can replay under identical conditions. That reconstruction is the move at the center of this talk. Public benchmarks like WebArena hand you a single success rate on someone else's tasks, but what you actually care about is cost per solved task, latency, and whether the agent followed your policies. So you build a private benchmark from your own traces, wire in the same skil",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest & Isaac Miller",
-          "url": "https://www.youtube.com/watch?v=GgLQ02aO-hs",
-          "published": "2026-07-23T17:45:06+00:00",
-          "content_snippet": "By declaring a task's inputs and outputs without initially considering model capability, you create the space needed to determine execution later. DSPy's promise is that AI engineering should happen above a particular prompt template or provider API shape: the Signature. That remains useful in a world of tools, RLMs, and Skills. Define a task strictly through its inputs and outputs, and the underlying implementation becomes flexible: experiment with models, settings, weights, templates, and outp",
+          "title": "Evaling Video Slop — Maor Bril, Character.ai",
+          "url": "https://www.youtube.com/watch?v=b_PmGocP4rc",
+          "published": "2026-07-25T00:00:02+00:00",
+          "content_snippet": "A generated clip where the character stands frozen for four seconds can still score well, because the judge rewarded the gloss and the vibe instead of what actually happened. That failure is the whole problem with evaling video: CLIP score misses temporal incoherence, a team watching clips on Friday does not scale, and any AI judge you wire up drifts from human preference unless you measure the drift. Video breaks the text playbook because it has to hold temporal consistency, shot continuity, an",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Notion's Token Town — Sarah Sachs, Notion",
-          "url": "https://www.youtube.com/watch?v=-I5W5QVAT8E",
-          "published": "2026-07-23T17:30:06+00:00",
-          "content_snippet": "Every month it is the same trap. A reasoning model gets upgraded at the same price per token, then quietly burns three times the output tokens. Or the new version costs 40% more and deprecates its predecessor in four months. Are you growing 40%? Making three times the revenue? Sarah Sachs, who leads AI engineering at Notion and negotiates its model contracts, says no, and that is why she treats every vendor as a competitor. Buy tokens from a lab that also sells the first party product and you ar",
+          "title": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+          "url": "https://www.youtube.com/watch?v=31GUkCBD-Uc",
+          "published": "2026-07-24T22:00:25+00:00",
+          "content_snippet": "This talk covers how Uber designed evals for its food enhancement agent, which edits food photography to better present dishes for smaller, independent Uber Eats merchants, along with the pitfalls and lessons learned along the way. The problem is uniquely hard: the system must stay faithful to the original dish, preserve each merchant's brand and packaging, and avoid homogenizing the marketplace, all without an existing playbook for multimodal evals in a narrow domain. Soumya Gupta and Jai Chopr",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
-          "url": "https://www.youtube.com/watch?v=Ib5GBkD555M",
-          "published": "2026-07-23T16:30:06+00:00",
-          "content_snippet": "In July 2025 Dex Horthy turned the lights off: an agent software factory where nobody read the code. It fell apart. An issue appeared that no amount of prompting could fix, the site was down, users were furious, and he was digging through a codebase he had stopped reading three months earlier. His claim is that this is not a skill or scale issue, and no harness or extra tokens fixes it, because it is a model training problem. Coding models are reinforced on one thing, did the test pass without b",
+          "title": "How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, YouTube Ads",
+          "url": "https://www.youtube.com/watch?v=xyL2Ltkh-SA",
+          "published": "2026-07-24T21:00:00+00:00",
+          "content_snippet": "Getting an AI agent to behave the way you want isn't just about writing better prompts. In real systems, behavior emerges from a loop: prompts, evals, iteration, and feedback. Small changes in any part of that loop can completely change outcomes. The Google team shares lessons from building a seed-asset agent that turns messy advertising creatives — low-quality images, cluttered visuals, and heavy text overlays — into clean, reusable assets for downstream generative AI tools. They explain why pr",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Perception Agents — Antje Barth, Amazon AGI Lab",
-          "url": "https://www.youtube.com/watch?v=2JX6JYyQG4Y",
-          "published": "2026-07-23T16:00:06+00:00",
-          "content_snippet": "Human-agent collaboration is changing, becoming more visual. The agents most teams ship today still wait for us to type a paragraph to explain what we're looking at. They cannot see a screen, navigate a UI that changes, or recover when an application throws an unexpected modal. That is the architectural gap between agents that demo well and agents that work alongside real teams in real software. Perception agents close it: they see and use computers the way people do, reason about what they see,",
+          "title": "From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+          "url": "https://www.youtube.com/watch?v=9HbzAWnKbo4",
+          "published": "2026-07-24T20:15:32+00:00",
+          "content_snippet": "Instead of getting paged at midnight and starting to dig, you wake up to an issue that has already been investigated: the traces pulled, the root cause found, and a pull request with the fix waiting for review. That is what Arize built with Signal, and Jason Lopatecki walks through the anatomy of it. The unlock is boring and specific: traces on a filesystem. A skill pulls the relevant production traces and logs down as files into the repo, right next to the code, sometimes ten megabytes of them,",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI",
+          "url": "https://www.youtube.com/watch?v=q2JrUKBMf0w",
+          "published": "2026-07-24T20:00:06+00:00",
+          "content_snippet": "Across a dozen eval jobs Arize watches the top teams run, one pattern holds: the eval has to change as fast as the agent it grades. In 2023 an agent was barely more than a prompt; since then reasoning, tool calls, and long multi step loops piled on, and every jump in capability quietly broke the eval that came before. So the evals evolved with them. Deterministic checks catch what you can define up front, LLM as a judge adds the analysis a fixed rule cannot, and the newest step, agent as a judge",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+          "url": "https://www.youtube.com/watch?v=jRCpXUjz4CI",
+          "published": "2026-07-24T16:00:06+00:00",
+          "content_snippet": "Alex Shaw and Ryan Marten present a rollout-centered view of evaluating and improving AI agents. Drawing on their work on Harbor, Terminal-Bench, and OpenThoughts-Agent, they connect sandboxed environments, agent evaluations, and optimization workflows into a practical framework for generating and learning from rollouts. Speakers: Alex Shaw — Member of Technical Staff, Laude Institute Alex is the creator of Harbor, a framework for evaluating and optimizing agents and language models in sandboxed",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs",
+          "url": "https://www.youtube.com/watch?v=cO8qC6HBuBg",
+          "published": "2026-07-24T15:00:06+00:00",
+          "content_snippet": "An hour before this talk, Andon Labs published a blog post laying off Gemini. Gemini had been running their café in Stockholm, a real café that no human operates, and it had lost $6,000, so they handed it to GPT. That café once hired its own staff by posting a job on LinkedIn. This is the real world half of Lukas Petersson's work; the other half is Vending Bench, where models run a simulated vending business for a year and keep producing behavior nobody prompted: price cartels, lying to supplier",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
+          "url": "https://www.youtube.com/watch?v=il1c1a2FufU",
+          "published": "2026-07-24T15:00:06+00:00",
+          "content_snippet": "Jason Liu walks through how Codex works as a general tool for controlling your computer: setting up a memory vault and assistant threads, prompting it to collaborate with other threads, exploring computer use, thinking about long-running work streams, and preparing to work in loops. Speaker: Jason Liu — Developer Experience, OpenAI Jason helps developers get more from Codex, the Agents SDK, and the OpenAI API. Before OpenAI, he created Instructor and taught developers how to build reliable AI ap",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -423,5 +353,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 16
+  "deduped_count": 15
 }
