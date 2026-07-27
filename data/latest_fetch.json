@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T11:07:15Z",
+  "fetched_at": "2026-07-27T12:44:03Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -66,7 +66,7 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 3
+        "Big Think": 2
       }
     },
     {
@@ -86,6 +86,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -99,8 +103,7 @@
         }
       ],
       "deduped_sources": {
-        "The Data Engineering Show": 1,
-        "NextGenLakehouse": 1
+        "The Data Engineering Show": 1
       }
     },
     {
@@ -141,7 +144,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 10
+        "OpenAI": 2
       }
     },
     {
@@ -157,37 +160,19 @@
       ],
       "items": [
         {
-          "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
-          "url": "https://www.youtube.com/watch?v=KhYifX22yhE",
-          "published": "2026-07-26T01:00:06+00:00",
-          "content_snippet": "Good code data runs out, so poolside manufactures more of it, and the hard part is making it teach. Their synthetic pipeline pairs templates with supplementary context and spreads generations across an axis of phrasing, with difficulty tuned so a task is neither trivial nor so hard the model learns nothing from it. Multistage pipelines port existing data into new shapes, swapping character styles or plots and turning single prompts into multi turn chats, while an orchestrator polices every gener",
+          "title": "DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve",
+          "url": "https://www.youtube.com/watch?v=Yk87oUPVaxU",
+          "published": "2026-07-26T18:10:56+00:00",
+          "content_snippet": "DeepSWE is 113 software engineering tasks written from scratch, not scraped from pull requests, so a model cannot have seen them in training. Each one is a long horizon problem drawn from a real open source repository, authored by engineers who actually maintain that code, with isolated environments and program based verifiers that check observable behavior rather than trusting the model's own account. James Shi's point is that once you remove the contamination the leaderboard stops clustering: ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Evals-Driven Development for a Mental Health AI Coach — Akele Reed & Dave Revere, SonderMind",
-          "url": "https://www.youtube.com/watch?v=O72p-rBb2bA",
-          "published": "2026-07-25T23:00:36+00:00",
-          "content_snippet": "In the world of AI mental health, vibes can be dangerous, with real consequences. Building SonderMind's Mental Health AI Coach required a new playbook for eval-driven development that balances effectiveness and safety. The team explains the clinical feedback loop that turns human therapist insights into machine-readable evaluations across thousands of conversations; the Ethics Engine of modular guardrails that can evolve with clinical guidelines; the move from single-prompt agents to a closed-lo",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
-          "url": "https://www.youtube.com/watch?v=xIt_mTQp6mY",
-          "published": "2026-07-25T20:41:40+00:00",
-          "content_snippet": "A coding agent will happily hand you a 40,000 line pull request that nobody can review and that quietly does the wrong thing. Kyle Mistele's argument is that the fix is not a better prompt but a better loop, borrowed from control theory: a thermostat senses the error between where a system is and where you want it, emits a control signal, and measures again, over and over. Infrastructure as code already approximates this. The point is to design agent loops the same way, so each iteration makes a",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
-          "url": "https://www.youtube.com/watch?v=hacEQHHhu2Q",
-          "published": "2026-07-25T17:00:06+00:00",
-          "content_snippet": "The constraint on edge AI is not compute, it is RAM, and it is getting worse: phone makers are shipping less of it this year, and a 6GB Raspberry Pi costs 2.5 times what it did at launch. So Cormac Brick's team at Google AI Edge spends its effort making models small enough to fit. A 2 billion parameter Gemma, quantized to 2.9 bits per weight, runs on a Raspberry Pi at about 8 tokens per second and on a Qualcomm NPU fast enough for a few frames of vision a second. Below that sit tiny models, from",
+          "title": "State of Data — Sean Cai, Independent / State of Data",
+          "url": "https://www.youtube.com/watch?v=ZyIoTOAbRfs",
+          "published": "2026-07-26T17:00:06+00:00",
+          "content_snippet": "Data Quality Research at Prime Intellect and State of Data Author. Prior investor at Hummingbird and Costanoa. Speaker: Sean Cai — CEO, Independent / State of Data X: https://x.com/SeanZCai Website: https://www.seancai.com/",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -197,5 +182,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 23
+  "deduped_count": 15
 }
