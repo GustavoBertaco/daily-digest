@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T12:44:03Z",
+  "fetched_at": "2026-07-28T11:37:37Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Engineers “cash in” on AI time savings",
+          "url": "https://www.youtube.com/watch?v=qsuR0g4Gy_s",
+          "published": "2026-07-27T16:00:18+00:00",
+          "content_snippet": "With Dax Raad, co-founder of OpenCode on The Pragmatic Engineer podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -28,7 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
         "Airbnb Tech": 1
       }
     },
@@ -54,7 +63,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Try eating just 2 meals per day | Tim Spector",
+          "url": "https://www.youtube.com/watch?v=nffrRK98yVc",
+          "published": "2026-07-27T16:05:16+00:00",
+          "content_snippet": "Try eating just 2 meals per day | Tim Spector",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -65,9 +84,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -79,14 +96,29 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "AI Learns Through Continuous Data Conversations #DataScience #MachineLearning #AILearning",
+          "url": "https://www.youtube.com/watch?v=Tlw1ogzFGZ8",
+          "published": "2026-07-28T11:00:21+00:00",
+          "content_snippet": "Building effective AI for data analytics isn't a one-and-done implementation. As Chris Merrick explains, the real magic happens when you build a continuous feedback loop between the system and the user. We explored the framework for scaling these capabilities: - Going Deeper: Continuously upgrading AI to handle increasingly complex data models and follow-up analysis questions. - Going Broader: Expanding the AI's reach into adjacent workflows to support broader engineering and business context. -",
+          "source_name": "The Data Engineering Show",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        },
+        {
+          "title": "Introduction to OSS Omnigent",
+          "url": "https://www.youtube.com/watch?v=VUrOD51TEDs",
+          "published": "2026-07-27T16:04:50+00:00",
+          "content_snippet": "Chapters 0:00 - Introduction to OSS Omnigent: a newly open-sourced \"meta-harness\" for AI coding agents. What is a meta-harness? Omnigent sits one layer above existing coding harnesses (Claude Code, Codex, and others) and orchestrates them, addressing three gaps in today's agent tooling: control (policies and guardrails), composition (multi-agent orchestration), and collaboration (shared live sessions). 0:45 - Demo & Agent Composition: UI walkthrough of Omnigent's agent composition model. Users p",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -102,9 +134,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Data Engineering Show": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -120,20 +150,99 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon Neptune now supports tag-based access control for IAM",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+          "published": "2026-07-27T22:00:00+00:00",
+          "content_snippet": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Policies (SCPs) to control access to Neptune data-plane operations. Neptune already provides robust security through VPC isolation, TLS encryption, and IAM authentication, but customers managing multiple clusters at scale needed a dynamic, attribute-based mechanism to enforce organizational access bounda",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
+          "published": "2026-07-27T20:45:00+00:00",
+          "content_snippet": "AWS Glue Data Quality now supports anomaly detection for Catalog-based data quality evaluations and the ability to write evaluation results to AWS Glue Data Catalog (GDC) tables. These capabilities work across both ETL jobs and Catalog evaluations, giving you a consistent data quality experience regardless of workflow type. With anomaly detection support for GDC, you can identify unexpected changes in data statistics such as sudden drops in distinct values or row count spikes in your GDC tables ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
+          "published": "2026-07-27T20:23:00+00:00",
+          "content_snippet": "AWS Glue Data Quality now supports a new Distribution Analyzer that generates frequency distribution profiles for your data. Using this new Distribution Analyzer in the Data Quality Definition Language (DQDL), you can generate histograms for numeric columns and value distributions for categorical, date, and boolean columns. With support for custom bin counts, you can explore the shape and patterns of your data at the granularity that matters most to your use case. Understanding how data is distr",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+          "published": "2026-07-27T18:58:00+00:00",
+          "content_snippet": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions. With Custom Aspect Ratio, you can configure a specific resolution per stream session to match your player's device — including portrait, landscape, ultra-wide, and square aspect ratios. This eliminates letterboxing or pillarboxing, delivering native full-screen experiences on mobile phones, tablets, and non",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+          "published": "2026-07-27T17:00:00+00:00",
+          "content_snippet": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop. This capability can help accelerates your security investigations by reducing context switching and manual triage, letting you explore and act on your exposures without leaving your AI-assisted workflow. With the Security Hub MCP App, you can investigate your security posture in natural language: view your top exposur",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+          "published": "2026-07-27T16:09:00+00:00",
+          "content_snippet": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP ad request timeouts, total ad personalization time budgets for live, VOD, and live ad prefetch, and enable parallel ADS requests. These settings allow you to optimize ad delivery performance for your specific workflows. For example, you can increase the personalization time budget for live events t",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+          "published": "2026-07-27T14:54:41+00:00",
+          "content_snippet": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community that so rarely gets to be in the same room. People traded architecture ideas over coffee, sketched out solutions on whiteboards, and left with a longer lis",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Get Started with Genie One: Top AI Cowork Use Cases for Business Users",
+          "url": "https://www.databricks.com/blog/get-started-genie-one-top-ai-cowork-use-cases-business-users",
+          "published": "2026-07-28T01:00:00+00:00",
+          "content_snippet": "When most people think of AI helping their everyday work, a simple chatbot that answers...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "The EU Digital Product Passport: a traceability deadline",
+          "url": "https://www.databricks.com/blog/eu-digital-product-passport-traceability-deadline",
+          "published": "2026-07-27T23:00:00+00:00",
+          "content_snippet": "Informational only, not legal advice. Confirm all regulatory details against the...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+          "url": "https://www.youtube.com/watch?v=oXu6JGxW_YM",
+          "published": "2026-07-27T12:37:15+00:00",
+          "content_snippet": "We caught up with Jonathan Williams, Head of France at Legora, at RAISE Summit in Paris to discuss how AI is transforming the legal industry. As law firms and in-house legal teams embrace AI, the challenge is no longer just adopting new technology—it’s helping entire organisations adapt to a new way of working. Jonathan shares how Legora uses OpenAI models across its platform, why the pace of AI innovation continues to accelerate, and his advice for enterprise leaders navigating rapid technologi",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -143,9 +252,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -160,19 +267,10 @@
       ],
       "items": [
         {
-          "title": "DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve",
-          "url": "https://www.youtube.com/watch?v=Yk87oUPVaxU",
-          "published": "2026-07-26T18:10:56+00:00",
-          "content_snippet": "DeepSWE is 113 software engineering tasks written from scratch, not scraped from pull requests, so a model cannot have seen them in training. Each one is a long horizon problem drawn from a real open source repository, authored by engineers who actually maintain that code, with isolated environments and program based verifiers that check observable behavior rather than trusting the model's own account. James Shi's point is that once you remove the contamination the leaderboard stops clustering: ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "State of Data — Sean Cai, Independent / State of Data",
-          "url": "https://www.youtube.com/watch?v=ZyIoTOAbRfs",
-          "published": "2026-07-26T17:00:06+00:00",
-          "content_snippet": "Data Quality Research at Prime Intellect and State of Data Author. Prior investor at Hummingbird and Costanoa. Speaker: Sean Cai — CEO, Independent / State of Data X: https://x.com/SeanZCai Website: https://www.seancai.com/",
+          "title": "AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix",
+          "url": "https://www.youtube.com/watch?v=CgsWxRUY5Eo",
+          "published": "2026-07-28T00:59:04+00:00",
+          "content_snippet": "An inefficient quadratic-time pattern was hiding inside a tensor merge method on a live Netflix service, quietly wasting CPU on every request - nothing in a code review caught it, but it stood out clearly in a call stack. That's usually how this kind of waste gets missed - the normal process of catching it (profiling, reading a flamegraph, tracing it through the codebase, writing a fix, validating it) takes long enough that inefficiencies sit in production for months before anyone looks at them.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -182,5 +280,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 7
 }
