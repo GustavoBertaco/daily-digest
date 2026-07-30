@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T11:48:17Z",
+  "fetched_at": "2026-07-30T11:31:56Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,12 @@
       ],
       "items": [
         {
-          "title": "Eval-driven development: Lessons from evaluating GenAI at scale",
-          "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788?source=rss----53c7c27702d5---4",
-          "published": "2026-07-28T17:01:03+00:00",
-          "content_snippet": "How Airbnb teams build trustworthy Generative AI products by treating evaluation as a first-class engineering discipline; not an afterthought. Nestled into the lush hillside, this stunning modern retreat features striking natural wood architecture, terraced balconies, and a serene landscape. By: Rohit Girme , Dan Miller , Mia Zhao , Lifan Yang , Clint Kelly Introduction Generative AI breaks a lot of the assumptions that used to hold true for software testing. Unlike traditional software, LLM out",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
+          "title": "Formal methods with Hillel Wayne",
+          "url": "https://www.youtube.com/watch?v=KSkcgIYQy0U",
+          "published": "2026-07-29T16:19:49+00:00",
+          "content_snippet": "There’s a popular theory that AI will finally make formal verification mainstream because mathematical proof of correctness will be needed when machines write most or all of the code. But will this happen? Today, I’m talking with one of the best people to tackle the prediction. Hillel Wayne is a formal methods consultant, educator, and author, who’s deeply interested in software history. In this episode of Pragmatic Engineer podcast, I sit down with Hillel to compare software engineering with tr",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
           "area_name": "Technology"
         }
       ],
@@ -38,7 +38,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1
+        "Airbnb Tech": 1
       }
     },
     {
@@ -63,7 +63,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Working out shouldn't feel like punishment | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=ZaHwP4DuxIo",
+          "published": "2026-07-29T19:03:02+00:00",
+          "content_snippet": "Working out shouldn't feel like punishment | Giulia Enders",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -74,9 +84,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -88,24 +96,10 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Re-Air: Will AI Permanently Disrupt the Bundling and Unbundling Cycle?",
-          "url": "https://datastackshow.com",
-          "published": "2026-07-29T08:30:00+00:00",
-          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show , Eric Dodds and John Wessel explore how AI is reshaping the data industry, focusing on the ongoing cycles of bundling and unbundling within data infrastructure. They discuss the potential for closed ecosystems like Notion to deliver personalized, integrated experiences and examine recent industry moves such as Fivetran’s acquisitions. The conversation also hig",
-          "source_name": "The Data Stack Show",
-          "source_type": "rss",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "The Analytics Engineering Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -115,7 +109,9 @@
       ],
       "deduped_sources": {
         "The Data Engineering Show": 1,
-        "NextGenLakehouse": 1
+        "NextGenLakehouse": 1,
+        "The Data Stack Show": 1,
+        "The Analytics Engineering Podcast": 1
       }
     },
     {
@@ -134,129 +130,147 @@
       ],
       "items": [
         {
-          "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-          "published": "2026-07-28T17:18:00+00:00",
-          "content_snippet": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes value. This reduces the time it takes for HPA-driven workloads to scale in response to increased load, enabling faster responsiveness to demand. The Kubernetes Horizontal Pod Autoscaler (HPA) continuously monitors workload metrics and adjusts pod counts to match demand. In clusters running hundreds or ",
+          "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+          "published": "2026-07-29T21:00:00+00:00",
+          "content_snippet": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require instance replacement, CloudFormation automatically triggers an Instance Refresh. With this integration, you can now access Instance Refresh capabilities including replace root volume for in-place updates, launch-before-terminate, alarm-based monitoring, and checkpoints with bake time for controlled ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-          "published": "2026-07-28T16:00:00+00:00",
-          "content_snippet": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard. With the Cost and Usage widget, customers can track month-to-date and forecasted costs, identify savings opportunities, and see how their spend breaks down by service over time. To get started, sign in to the AWS Management Console , select Add widgets, and drag the Cost a",
+          "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+          "published": "2026-07-29T20:45:00+00:00",
+          "content_snippet": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions. Long polling: Long polling enables you to retrieve SQL statement metadata or results without polling repeatedly until the SQL statement reaches a terminal state, by delaying returning a synchronous response until the SQL statement finishes. To use this feature, spec",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-          "published": "2026-07-28T16:00:00+00:00",
-          "content_snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations from startups to enterprises and the public sector in and outside of India can now order their Outposts racks connected to this new supported region, optimizing for their latency and data residency needs. Outposts allow",
+          "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+          "published": "2026-07-29T20:18:00+00:00",
+          "content_snippet": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based API, including proprietary systems and emerging platforms without native AWS Glue connectors. With this launch, you can operate your ETL pipelines from data sources with REST API endpoints by securely connecting to private endpoints, transfering only the data they need, and parallelizing reads for fas",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-amazon-efs-fsx-lustre/",
-          "published": "2026-07-28T10:00:00+00:00",
-          "content_snippet": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre as source or destination locations. AWS DataSync is a secure, high-speed data transfer service that simplifies moving data over a network. Enhanced mode processes data in parallel, removes file count limitations, and provides detailed transfer metrics. Previously, customers who wanted to move data to or from EFS or FSx for Lustre were limited to Basic mode. Now customers can use Enhanced mode for these locations, simpli",
+          "title": "AWS WAF adds pre-parse text transformations and new text transformations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+          "published": "2026-07-29T15:00:00+00:00",
+          "content_snippet": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects requests the same way your application interprets them. Pre-parse text transformations normalize a raw query string before AWS WAF parses it into key-value pairs, closing HTTP parameter pollution and parser differential evasion gaps. You can chain up to ten transformations, including URL decode, Com",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
-          "published": "2026-07-28T10:00:00+00:00",
-          "content_snippet": "AWS DataSync Enhanced mode now supports agent-based data transfers with Hadoop Distributed File Systems (HDFS), Microsoft Azure Blob Storage, and self-managed object storage. Additionally, Enhanced mode agents can now be deployed on Microsoft Hyper-V. Using a DataSync agent, customers can transfer data to and from these locations with the parallelism, unlimited file counts, and detailed metrics that Enhanced mode provides. Enhanced mode HDFS support includes multiple NameNode configurations for ",
+          "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+          "published": "2026-07-29T15:00:00+00:00",
+          "content_snippet": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multip",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How NorthStar Anesthesia built a scheduling app for a workforce of 3,000 clinicians in weeks",
-          "url": "https://www.databricks.com/blog/how-northstar-anesthesia-built-scheduling-app-workforce-3000-clinicians-weeks",
-          "published": "2026-07-28T22:09:00+00:00",
-          "content_snippet": "IntroductionNorthStar Anesthesia manages anesthesia staffing services across 25+ U.S...",
+          "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+          "published": "2026-07-29T14:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching feedback in Amazon Connect Customer, they automatically receive examples of recent evaluations where the agent scored high or low on the chosen coaching topic, along with human or AI evaluator notes explaining the agent behaviors that drove the result",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+          "published": "2026-07-29T12:00:00+00:00",
+          "content_snippet": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (US) Region of your choice. With this launch, EFS Replication customers can meet business continuity, multi-account disaster recovery, and compliance requirements by automatically keeping replicas of their file data in separate accounts. Customers ofte",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Convert proprietary code to open ANSI SQL with Genie Code",
+          "url": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
+          "published": "2026-07-30T01:00:00+00:00",
+          "content_snippet": "Migrating from a legacy data warehouse is a complex undertaking, requiring teams...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "From prototype to production: High QPS for Databricks AI Search",
-          "url": "https://www.databricks.com/blog/prototype-production-high-qps-databricks-ai-search",
-          "published": "2026-07-28T16:50:57+00:00",
-          "content_snippet": "Search is everywhere: product discovery on retail sites, voice queries on smart...",
+          "title": "Quality care is the mission. Finance protects the margin.",
+          "url": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
+          "published": "2026-07-29T18:59:31+00:00",
+          "content_snippet": "Ask a health system CFO where this year's margin is landing and you will always get a hard-won answer...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Databricks manages its own coding agent spend with Unity AI Gateway Budgets",
-          "url": "https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets",
-          "published": "2026-07-28T15:40:33+00:00",
-          "content_snippet": "At Databricks, the way we build software is changing quickly as we aggressively adopt...",
+          "title": "Energy runs on volatile markets. Finance protects the margin.",
+          "url": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
+          "published": "2026-07-29T18:30:00+00:00",
+          "content_snippet": "Ask an energy CFO where this year's margin is landing and you will always get a hard-won answer...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing gpt-transcribe and gpt-live-transcribe",
-          "url": "https://www.youtube.com/watch?v=WeP9VUf1OoE",
-          "published": "2026-07-28T21:49:18+00:00",
-          "content_snippet": "Meet gpt-transcribe and gpt-live-transcribe, two new models for batch and live transcription. See how they handle custom vocabulary, background noise, multilingual speech, and common transcription challenges like accents, names, short answers, and numbers. Chapters: 00:00 Introducing gpt-transcribe and gpt-live-transcribe 00:32 Prompting with custom vocabulary 00:52 Handling background noise 01:11 Multilingual transcription 01:36 Batch transcription with gpt-transcribe 02:01 Streaming transcript",
+          "title": "Manufacturing runs on capital. Finance protects the margin.",
+          "url": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
+          "published": "2026-07-29T18:30:00+00:00",
+          "content_snippet": "Ask a manufacturing CFO where this year's margin is landing and you will always get a hard-won answer...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Bringing real-time fraud prevention to government benefits",
+          "url": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
+          "published": "2026-07-29T17:45:00+00:00",
+          "content_snippet": "Asked to do the impossibleFraud and improper payments cost federal benefits programs...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Agents for production lines: Trusted decisions in real time",
+          "url": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
+          "published": "2026-07-29T17:30:00+00:00",
+          "content_snippet": "Executive summary09:14, mid-shift. The filler trips. The line manager has minutes,...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
+          "url": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
+          "published": "2026-07-29T17:26:32+00:00",
+          "content_snippet": "How preventing revenue leakage became finance's front lineIn telecom, revenue is...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Using Voice in ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
+          "published": "2026-07-29T22:37:43+00:00",
+          "content_snippet": "Talk through work with ChatGPT Voice while it sees your screen, works across connected apps, and keeps tasks moving in the background. See how voice helps brainstorm a DevDay activation, coordinate an off-site, prepare travel, and share finished work without breaking the user's flow. Chapters: 00:00 Brainstorming with ChatGPT Voice 00:45 Dictation vs. ChatGPT Voice 01:11 Working across connected apps 02:07 Preparing travel in Navan 02:23 Reviewing and sharing completed work 02:57 Staying in flow",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders",
-          "url": "https://www.youtube.com/watch?v=g-g6E-qtCjA",
-          "published": "2026-07-28T14:25:26+00:00",
-          "content_snippet": "See how sales teams ChatGPT Work to bring customer conversations, sales activity, and market signals into one weekly report. Spot customer objections, competitive risks, and new opportunities sooner so revenue leaders know where to act. Learn how ChatGPT Work can help your sales team: https://openai.com/business/solutions/sales/",
+          "title": "We're giving 100,000 academic researchers free access to our frontier models",
+          "url": "https://www.youtube.com/watch?v=MLehRytu9Zo",
+          "published": "2026-07-29T17:23:02+00:00",
+          "content_snippet": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. ChatGPT for Academic researchers is built to accelerate discovery across disciplines. We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their work. The program will help res",
           "source_name": "OpenAI",
           "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work for Sales: Account Research and Customer Outreach",
-          "url": "https://www.youtube.com/watch?v=5DbZAMGZ5oM",
-          "published": "2026-07-28T14:23:31+00:00",
-          "content_snippet": "See how sales teams ChatGPT Work to turn customer updates into account research, meeting prep, and sales follow-up. Help sellers automate the right next step while staying in control of every customer message. Learn how ChatGPT Work can help your sales team: https://openai.com/business/solutions/sales/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work for Sales: Account Planning and Meeting Prep",
-          "url": "https://www.youtube.com/watch?v=hjXi7b01s2c",
-          "published": "2026-07-28T14:20:18+00:00",
-          "content_snippet": "See how sales teams use ChatGPT Work to help sellers plan their day, prepare for customer meetings, and create the materials they need. Give every seller the context to show up prepared and focus on advising your customers. Learn how ChatGPT Work can help your sales team: https://openai.com/business/solutions/sales/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work for Sales: Pipeline and Forecast Intelligence",
-          "url": "https://www.youtube.com/watch?v=q9TPE7pKkIo",
-          "published": "2026-07-28T14:16:53+00:00",
-          "content_snippet": "See how sales teams use ChatGPT Work to spot sales pipeline risks, identify the deals that need attention, and recommend what to do next. Spend less time sorting through data and more time moving the right deals forward. Learn how ChatGPT Work can help your sales team: https://openai.com/business/solutions/sales/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "LTM Partners with Cognition To Reduce Cyber Risk in Financial Services",
-          "url": "https://cognition.ai/blog/ltm-cognition-partnership",
-          "published": "2026-07-28T17:00:00+00:00",
-          "content_snippet": "LTM Partners with Cognition To Reduce Cyber Risk in Financial Services\nLTM has partnered with Cognition to deploy Devin, the AI software engineer, across its global client base and cybersecurity practice serving over 260 clients, including 26 of the Fortune 500 and the top 5 global banks.\nThe partnership brings Devin into BlueVerse RightLogic, a managed, outcome-based service that clears a customer's vulnerability backlog by pairing Devin's autonomous engineering capacity with LTM's enterprise-g",
-          "source_name": "Devin AI (Cognition)",
-          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
@@ -267,6 +281,10 @@
         },
         {
           "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -285,82 +303,91 @@
       ],
       "items": [
         {
-          "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
-          "url": "https://www.youtube.com/watch?v=wpOA-UXynoM",
-          "published": "2026-07-28T22:00:06+00:00",
-          "content_snippet": "Factory's forward deployed engineers sit at the tip of the product, embedded with the largest customers and piping a constant stream of real world signals back into how the agent, Droid, gets built. Eno Reyes frames the whole thing as a software factory: signals flow in from the outside, become plans, pass through validation stages, and come out as shipped outcomes, a loop most orgs run badly until they actually invest in the system around it. The non negotiable piece is a model independent harn",
+          "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+          "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
+          "published": "2026-07-30T03:00:06+00:00",
+          "content_snippet": "The slowest part of shipping a production finance agent is not the model or the GPUs, it is you, the developer in the loop. Ramana Siddanth Emani's point is that the same agent harnesses you use to build products can automate your own developer loop. Coding agents can multiply how much you ship; run an army of them across separate git worktrees and they clear tasks in parallel, with skills making sure each one uses the right patterns. The tasks come from where they already live, QA reports, Jira",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
-          "url": "https://www.youtube.com/watch?v=l0FLhNqBOic",
-          "published": "2026-07-28T21:00:06+00:00",
-          "content_snippet": "A customer spent five million dollars and five years migrating to SAP, and has zero appetite to rip anything out again. That constraint is the whole design at Varick Agents: instead of asking an enterprise to migrate, you drop forward deployed agents on top of the systems they already run. Vasuman Moza's version of the role maps how a department actually works today, the reconciliations between a purchase order and an invoice, the handoffs nobody documented, and then automates those processes en",
+          "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
+          "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
+          "published": "2026-07-30T02:00:06+00:00",
+          "content_snippet": "When a company is about to spend $100 million, Shawn Chan is the person in the room deciding whether it happens, and after fifteen years and roughly 200 investment committees he can spot the flaw fast. Now some of the decks in front of him are AI generated: cleaner formatting, never defensive, and confidently wrong. His frame is the difference between a demo and a memo. A demo is a beautiful confident slice built to impress; a memo is what survives a room whose entire job is to find what breaks.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
-          "url": "https://www.youtube.com/watch?v=RVxym6mmIns",
-          "published": "2026-07-28T20:00:06+00:00",
-          "content_snippet": "Most of the coding agent market quietly optimizes for token usage; Cognition's deployed engineering team measures the opposite, the outcomes a customer can actually see, and reports something like an 82% reduction on the work they targeted. Jia Wu's argument is that you measure before Devin ever lands, then again once it is fully activated inside the customer, so the value is a real delta and not a vanity number. The way that value shows up is not linear: one team using the agent is a step funct",
+          "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+          "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
+          "published": "2026-07-30T00:00:06+00:00",
+          "content_snippet": "A card gets declined and no one, including the customer, can say exactly why. That gray zone is where Divakar Kumar points his agents. In a payments and fraud system, a rule based engine and an ML model already score most transactions cleanly; the hard cases are the ambiguous ones that neither can resolve. His approach adds an agentic layer on top of an existing event sourced architecture rather than replacing it, so the bounded contexts already in the system, transaction, device, and account, b",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
-          "url": "https://www.youtube.com/watch?v=ITMXwI6QL6A",
-          "published": "2026-07-28T19:00:06+00:00",
-          "content_snippet": "It's Friday night, an enterprise sales rep needs an SAP S4 HANA integration to hit quota, and the reflexive Forward Deployed answer is yes. Leo Mehr's first principle is to pause instead: always be scoping. Saying yes to everything buries the team and often does not even serve the customer, so the job is to weigh what actually matters against the rest of the queue and decide with that context. Ramp's FDE function looks different from its Palantir origins, pointed at enterprise customers, but the",
+          "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
+          "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
+          "published": "2026-07-29T22:58:19+00:00",
+          "content_snippet": "Almost every agent today is built for one user, and Sai Krishna Rallabandi has spent about eight months on what breaks when you drop one into a group chat instead. Running a personal agent across a real group, and eventually onto glasses, forces two hard problems. The first is memory: conversations that last for days across several people, where the agent has to track who said what and surface only what is relevant without bloating its context. The second is security, and it is where the talk di",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
-          "url": "https://www.youtube.com/watch?v=Byv311hdoHE",
-          "published": "2026-07-28T18:00:18+00:00",
-          "content_snippet": "At Palantir, forward deployed started as a literal description: you were deployed, physically, at the customer's site, and the onboarding project was keeping the platform from falling over. Natalie Meurer's dirty secret is that the title never settled after that. It stretched across DevOps, data integration, ontology work in Slate and then Foundry, and solution architecture, until forward deployed engineering meant so many different jobs that the label stopped meaning much. Every company hiring ",
+          "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
+          "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
+          "published": "2026-07-29T22:00:06+00:00",
+          "content_snippet": "An AI skill is a piece of code you hand a model to extend what it can do, and once engineers start sharing skills with each other, each one becomes a supply chain risk, more so inside a regulated bank. Lucas Palma's security team at Nubank built Skill Vector to sit between a skill and the internal marketplace, so nothing reaches developers unvetted. Every skill is scanned first with deterministic checks, for destructive shell commands and the like, then with an LLM for the context those checks m",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
-          "url": "https://www.youtube.com/watch?v=7wu2hsRfvV0",
-          "published": "2026-07-28T17:00:35+00:00",
-          "content_snippet": "Decagon builds the customer support agent that answers when you email a brand, and making that agent good for a specific enterprise is the forward deployed job. It splits in two: one side configures the agent brain, the instructions and the handoff rules for when a human should take over; the other works like product engineering, figuring out what a new enterprise needs and anticipating the requests that have not been made yet. Sunny Rekhi's point is that the line between forward deployed and pr",
+          "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+          "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
+          "published": "2026-07-29T21:00:06+00:00",
+          "content_snippet": "In finance a number is worthless until you can say where it came from. Vinoo Ganesh, CEO of Kepler, starts from the fact that language models are probability machines, brilliant at next token prediction and unreliable at the deterministic work, like arithmetic, that finance actually runs on. So Kepler treats the model as one part of a system rather than the whole answer, wrapping it in a deterministic substrate that makes every figure traceable. It rests on three tenets. Atomic provenance means ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
-          "url": "https://www.youtube.com/watch?v=1OMHGsUZiqA",
-          "published": "2026-07-28T16:00:00+00:00",
-          "content_snippet": "A shipping and dispatch customer wanted alerts, a massive BI tool, and a dev environment. What they actually needed Monday morning was one Slack message, so that is what got shipped first, and the real thing followed. Vinoo Ganesh spent seven years doing this at Palantir, where he later ran the rotation program that turned software engineers into forward deployed engineers, and his throughline is that the work was never a sales motion, it was product strategy in disguise. The engineer sits in th",
+          "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
+          "url": "https://www.youtube.com/watch?v=YnNF55QV0zs",
+          "published": "2026-07-29T20:15:35+00:00",
+          "content_snippet": "A team ran about a thousand people through a market research survey, then had LLM agents replay the same questions, and the agents matched the humans closely while carrying less noise than the humans did themselves. That is exactly the tell: a synthetic respondent smooths over the messiness that makes a real population real. Ishan Anand walks through where it breaks. Nudge one variable in the prompt template and purchase probability swings, because the model infers latent confounders nobody stat",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
-          "url": "https://www.youtube.com/watch?v=KwhgfwOSToQ",
-          "published": "2026-07-28T15:00:06+00:00",
-          "content_snippet": "Look at public software companies and very few ever crack half a million dollars in average contract value, and that gap is where forward deployed engineering lives. Kevin Bai's 101 starts from the shape of the deal: when your buyer is not technical and the thing you sell is not a finished product they can pick up and configure themselves, you cannot just ship software and walk away. You loan them engineers who build a real solution on top of your platform, so the customer is neither buying a pr",
+          "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+          "url": "https://www.youtube.com/watch?v=Owb8g3yDyzo",
+          "published": "2026-07-29T20:00:06+00:00",
+          "content_snippet": "Ask any LLM a financial question about your business. You'll get a fluent, confident, generic answer — one that doesn't truly know your business, or what happened when businesses like yours made that same decision. We build financial AI at Intuit serving 100M+ customers. Our custom LLMs outperform general-purpose models on accuracy while cutting latency in half. But that's the foundation, not the destination. I'll cover where financial intelligence goes when AI stops reporting what happened and ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
-          "url": "https://www.youtube.com/watch?v=lyL5QhgIOxc",
-          "published": "2026-07-28T13:41:11+00:00",
-          "content_snippet": "Type llama into a catalog of 3 million public models and the result still has to feel instant. At 20,000 models any query is fast; at Hugging Face's scale, 14 million users and a million datasets on top, search becomes the hard part. Arek Borucki shows how the Hub keeps it quick: full text search on Apache Lucene, served through MongoDB Atlas, which stores only the metadata while the model artifacts sit in S3 so compute scales on its own. Regex ranking did not hold, so relevance now runs through",
+          "title": "SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
+          "url": "https://www.youtube.com/watch?v=KMR_RBoCa4M",
+          "published": "2026-07-29T19:00:06+00:00",
+          "content_snippet": "Nubank serves 135 million customers, so an AI agent that mishandles a support conversation fails at scale. The talk opens with the result: five agents in production, higher customer satisfaction, and roughly 20 times faster shipping. Shreya Rajpal, CEO of Snowglobe, argues the thing that unlocked that pace was evals, and specifically simulated data standing in for real conversations. Good agent evals are hard because the data is multi turn and stateful, not single turn question and answer, and h",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
+          "url": "https://www.youtube.com/watch?v=7jjudsEhBtM",
+          "published": "2026-07-29T18:00:06+00:00",
+          "content_snippet": "Since skills were open sourced, Yogendra Miraje's team at FactSet stopped thinking about shipping features and started thinking about shipping skills. A skill is a capability you hand the agent, and its heart is a short skill.md whose name and description are really routing signals: get them distinct and the agent triggers the right one, blur them and it fires the wrong skill or none at all. He walks through a minimal skill registry, progressive disclosure so the agent only loads what it needs, ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -370,5 +397,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 6
+  "deduped_count": 13
 }
