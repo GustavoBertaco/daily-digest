@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T11:31:56Z",
+  "fetched_at": "2026-07-31T11:46:28Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,20 +14,25 @@
       ],
       "items": [
         {
-          "title": "Formal methods with Hillel Wayne",
-          "url": "https://www.youtube.com/watch?v=KSkcgIYQy0U",
-          "published": "2026-07-29T16:19:49+00:00",
-          "content_snippet": "There’s a popular theory that AI will finally make formal verification mainstream because mathematical proof of correctness will be needed when machines write most or all of the code. But will this happen? Today, I’m talking with one of the best people to tackle the prediction. Hillel Wayne is a formal methods consultant, educator, and author, who’s deeply interested in software history. In this episode of Pragmatic Engineer podcast, I sit down with Hillel to compare software engineering with tr",
+          "title": "Where to start if you want to harden a distributed system",
+          "url": "https://www.youtube.com/watch?v=L54TFDmPwv8",
+          "published": "2026-07-30T16:00:36+00:00",
+          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+          "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3?source=rss----2615bd06b42e---4",
+          "published": "2026-07-30T20:10:15+00:00",
+          "content_snippet": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse content types (movies, series, games, live, podcasts) and product surfaces, but its complexity makes it ",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
-        {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -65,10 +70,19 @@
       ],
       "items": [
         {
-          "title": "Working out shouldn't feel like punishment | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=ZaHwP4DuxIo",
-          "published": "2026-07-29T19:03:02+00:00",
-          "content_snippet": "Working out shouldn't feel like punishment | Giulia Enders",
+          "title": "4 newsletters that earn their place in my inbox!",
+          "url": "https://www.youtube.com/watch?v=kC2UCB2rSHs",
+          "published": "2026-07-30T12:31:09+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Comedian Margaret Cho meets the person she used to be",
+          "url": "https://www.youtube.com/watch?v=SlKZx1YYNkY",
+          "published": "2026-07-30T13:00:13+00:00",
+          "content_snippet": "Trigger Warning: Graphic mentions of self-harm and suicide. We made this video in partnership with Unlikely Collaborators. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Born in the U.S. and taken to Korea after her father’s deportation, comed",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -77,10 +91,6 @@
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -103,13 +113,16 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
         "The Data Engineering Show": 1,
-        "NextGenLakehouse": 1,
         "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -130,147 +143,111 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
-          "published": "2026-07-29T21:00:00+00:00",
-          "content_snippet": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require instance replacement, CloudFormation automatically triggers an Instance Refresh. With this integration, you can now access Instance Refresh capabilities including replace root volume for in-place updates, launch-before-terminate, alarm-based monitoring, and checkpoints with bake time for controlled ",
+          "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
+          "published": "2026-07-30T22:37:00+00:00",
+          "content_snippet": "Amazon SageMaker Unified Studio gives project members full Git version control directly within the tools you already use - Query Editor, Visual ETL, Workflows, and Notebooks. The enhanced Repositories experience replaces the previous automatic sync approach with flexible, file-level version control. This brings a consistent source control experience across all project tools, including Notebooks, which previously had no Git support. You choose exactly which files to track in Git by adding them to",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
-          "published": "2026-07-29T20:45:00+00:00",
-          "content_snippet": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions. Long polling: Long polling enables you to retrieve SQL statement metadata or results without polling repeatedly until the SQL statement reaches a terminal state, by delaying returning a synchronous response until the SQL statement finishes. To use this feature, spec",
+          "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-bgp-visibility/",
+          "published": "2026-07-30T20:21:00+00:00",
+          "content_snippet": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and public virtual interfaces (VIFs). You can now see which routes AWS accepted from your router and which routes AWS is advertising to your router, along with their AS path and BGP community values. This visibility helps network administrators troubleshoot routing issues, verify route propagation, and mon",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
-          "published": "2026-07-29T20:18:00+00:00",
-          "content_snippet": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based API, including proprietary systems and emerging platforms without native AWS Glue connectors. With this launch, you can operate your ETL pipelines from data sources with REST API endpoints by securely connecting to private endpoints, transfering only the data they need, and parallelizing reads for fas",
+          "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
+          "published": "2026-07-30T20:02:00+00:00",
+          "content_snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track . Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing track on patch P202 and onwards. The trailing track is designed for customers who prioritize stability for production workloads, running on a version already validated through the leading track. With RG instances now available on both tracks, customers can take advantage of AWS Graviton-powered perfo",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS WAF adds pre-parse text transformations and new text transformations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
-          "published": "2026-07-29T15:00:00+00:00",
-          "content_snippet": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects requests the same way your application interprets them. Pre-parse text transformations normalize a raw query string before AWS WAF parses it into key-value pairs, closing HTTP parameter pollution and parser differential evasion gaps. You can chain up to ten transformations, including URL decode, Com",
+          "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+          "published": "2026-07-30T17:43:00+00:00",
+          "content_snippet": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator , the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This update changes the simulator in three ways: it now lives in the IAM console, it can test service control policies (SCPs), and it adds flexibility to model more of the scenarios that security and platform teams simulate in practice. IAM Policy Simulator is now part of the IAM console, replacing the st",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
-          "published": "2026-07-29T15:00:00+00:00",
-          "content_snippet": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multip",
+          "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
+          "published": "2026-07-30T16:18:00+00:00",
+          "content_snippet": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT‑5.6 Terra are reduced by 20%. These reductions are in-line with OpenAI's first-party pricing changes for these models. GPT‑5.6 Luna is optimized for fast, high-volume workloads and can use tools to complete multi-step workflows, making it well suited for content processing, classification, customer",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
-          "published": "2026-07-29T14:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching feedback in Amazon Connect Customer, they automatically receive examples of recent evaluations where the agent scored high or low on the chosen coaching topic, along with human or AI evaluator notes explaining the agent behaviors that drove the result",
+          "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+          "published": "2026-07-30T15:39:00+00:00",
+          "content_snippet": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can be based on a combination of packet attributes including source and destination IP addresses, ports, and protocol rather than destination IP address alone. Previously, customers needing traffic steering or workload isolation had to build multi-VPC architectures with additional routing hops, adding co",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
-          "published": "2026-07-29T12:00:00+00:00",
-          "content_snippet": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (US) Region of your choice. With this launch, EFS Replication customers can meet business continuity, multi-account disaster recovery, and compliance requirements by automatically keeping replicas of their file data in separate accounts. Customers ofte",
+          "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
+          "published": "2026-07-30T14:07:00+00:00",
+          "content_snippet": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the easiest and most reliable way. This capability automatically scales to deliver high-throughput Kafka data to S3 with end-to-end reliability for mission-critical workloads, while reducing ingestion and delivery costs by up to 60% compared to self-managed alternatives. Customers deliver Apache Kafka data t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Convert proprietary code to open ANSI SQL with Genie Code",
-          "url": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
-          "published": "2026-07-30T01:00:00+00:00",
-          "content_snippet": "Migrating from a legacy data warehouse is a complex undertaking, requiring teams...",
+          "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
+          "published": "2026-07-30T14:07:00+00:00",
+          "content_snippet": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Amazon MSK data delivery to streaming tables can reduce the cost of ingesting and delivering Apache Kafka data into Amazon S3 Tables by up to 60% versus self-managed deployments and reduces downstream query costs by up to 30% versus self-managed Apache Kafka deployments. Customers rely on Apache Kafka",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
+          "published": "2026-07-30T13:00:00+00:00",
+          "content_snippet": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise workflows. Grok 4.3 is a reasoning-first model that offers configurable reasoning effort (none, low, medium, high). It also offers strong tool use and instruction-following capabilities for building reliable agents, a",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
+          "published": "2026-07-30T13:00:00+00:00",
+          "content_snippet": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows. The Gemma 4 family on Amazon Bedrock includes three variants - Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B - spanning dense and mixture-of-experts (MoE) architectures with built-in reasoning, native function calling, support for 35+ languages and ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Foundations for an AI-forward healthcare organization",
+          "url": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
+          "published": "2026-07-30T19:30:00+00:00",
+          "content_snippet": "The challenge for healthcare executives adopting AI is the noise when trying to advance an initiative...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Quality care is the mission. Finance protects the margin.",
-          "url": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
-          "published": "2026-07-29T18:59:31+00:00",
-          "content_snippet": "Ask a health system CFO where this year's margin is landing and you will always get a hard-won answer...",
+          "title": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
+          "url": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
+          "published": "2026-07-30T19:10:00+00:00",
+          "content_snippet": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Energy runs on volatile markets. Finance protects the margin.",
-          "url": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
-          "published": "2026-07-29T18:30:00+00:00",
-          "content_snippet": "Ask an energy CFO where this year's margin is landing and you will always get a hard-won answer...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Manufacturing runs on capital. Finance protects the margin.",
-          "url": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
-          "published": "2026-07-29T18:30:00+00:00",
-          "content_snippet": "Ask a manufacturing CFO where this year's margin is landing and you will always get a hard-won answer...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Bringing real-time fraud prevention to government benefits",
-          "url": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
-          "published": "2026-07-29T17:45:00+00:00",
-          "content_snippet": "Asked to do the impossibleFraud and improper payments cost federal benefits programs...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Agents for production lines: Trusted decisions in real time",
-          "url": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
-          "published": "2026-07-29T17:30:00+00:00",
-          "content_snippet": "Executive summary09:14, mid-shift. The filler trips. The line manager has minutes,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
-          "url": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
-          "published": "2026-07-29T17:26:32+00:00",
-          "content_snippet": "How preventing revenue leakage became finance's front lineIn telecom, revenue is...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Using Voice in ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
-          "published": "2026-07-29T22:37:43+00:00",
-          "content_snippet": "Talk through work with ChatGPT Voice while it sees your screen, works across connected apps, and keeps tasks moving in the background. See how voice helps brainstorm a DevDay activation, coordinate an off-site, prepare travel, and share finished work without breaking the user's flow. Chapters: 00:00 Brainstorming with ChatGPT Voice 00:45 Dictation vs. ChatGPT Voice 01:11 Working across connected apps 02:07 Preparing travel in Navan 02:23 Reviewing and sharing completed work 02:57 Staying in flow",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "We're giving 100,000 academic researchers free access to our frontier models",
-          "url": "https://www.youtube.com/watch?v=MLehRytu9Zo",
-          "published": "2026-07-29T17:23:02+00:00",
-          "content_snippet": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. ChatGPT for Academic researchers is built to accelerate discovery across disciplines. We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their work. The program will help res",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
@@ -288,7 +265,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 7
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -303,91 +282,28 @@
       ],
       "items": [
         {
-          "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
-          "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
-          "published": "2026-07-30T03:00:06+00:00",
-          "content_snippet": "The slowest part of shipping a production finance agent is not the model or the GPUs, it is you, the developer in the loop. Ramana Siddanth Emani's point is that the same agent harnesses you use to build products can automate your own developer loop. Coding agents can multiply how much you ship; run an army of them across separate git worktrees and they clear tasks in parallel, with skills making sure each one uses the right patterns. The tasks come from where they already live, QA reports, Jira",
+          "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song",
+          "url": "https://www.youtube.com/watch?v=AVMr9PMINyo",
+          "published": "2026-07-31T03:00:14+00:00",
+          "content_snippet": "In this conversation, Olive Song, who leads reinforcement learning at MiniMax, opens up the stack behind the company's open weight models and the infrastructure that serves them. Her starting point is a belief in open source: put the weights out, let builders optimize on them, and share the capability widely. From there she walks through what it takes for a model to land well, from agentic coding that also understands and builds games, to computer use problems trained with RL against environment",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
-          "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
-          "published": "2026-07-30T02:00:06+00:00",
-          "content_snippet": "When a company is about to spend $100 million, Shawn Chan is the person in the room deciding whether it happens, and after fifteen years and roughly 200 investment committees he can spot the flaw fast. Now some of the decks in front of him are AI generated: cleaner formatting, never defensive, and confidently wrong. His frame is the difference between a demo and a memo. A demo is a beautiful confident slice built to impress; a memo is what survives a room whose entire job is to find what breaks.",
+          "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
+          "url": "https://www.youtube.com/watch?v=AMiyLItEtLA",
+          "published": "2026-07-31T01:11:30+00:00",
+          "content_snippet": "You cannot tell great engineers what to do, and you increasingly cannot tell what an agent did either, so Vaibhav Gupta's answer is to fight slop with slop. At Boundary the team turns the same cheap, sloppy generation loose as a tool: agents that run constantly over the transcripts of other agents, flagging hallucinations, spotting which tool calls produced errors, and comparing which approaches produced fewer. He pairs that with hard invariants, the design docs, rules, and CLI checks that do no",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
-          "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
-          "published": "2026-07-30T00:00:06+00:00",
-          "content_snippet": "A card gets declined and no one, including the customer, can say exactly why. That gray zone is where Divakar Kumar points his agents. In a payments and fraud system, a rule based engine and an ML model already score most transactions cleanly; the hard cases are the ambiguous ones that neither can resolve. His approach adds an agentic layer on top of an existing event sourced architecture rather than replacing it, so the bounded contexts already in the system, transaction, device, and account, b",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
-          "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
-          "published": "2026-07-29T22:58:19+00:00",
-          "content_snippet": "Almost every agent today is built for one user, and Sai Krishna Rallabandi has spent about eight months on what breaks when you drop one into a group chat instead. Running a personal agent across a real group, and eventually onto glasses, forces two hard problems. The first is memory: conversations that last for days across several people, where the agent has to track who said what and surface only what is relevant without bloating its context. The second is security, and it is where the talk di",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
-          "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
-          "published": "2026-07-29T22:00:06+00:00",
-          "content_snippet": "An AI skill is a piece of code you hand a model to extend what it can do, and once engineers start sharing skills with each other, each one becomes a supply chain risk, more so inside a regulated bank. Lucas Palma's security team at Nubank built Skill Vector to sit between a skill and the internal marketplace, so nothing reaches developers unvetted. Every skill is scanned first with deterministic checks, for destructive shell commands and the like, then with an LLM for the context those checks m",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
-          "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
-          "published": "2026-07-29T21:00:06+00:00",
-          "content_snippet": "In finance a number is worthless until you can say where it came from. Vinoo Ganesh, CEO of Kepler, starts from the fact that language models are probability machines, brilliant at next token prediction and unreliable at the deterministic work, like arithmetic, that finance actually runs on. So Kepler treats the model as one part of a system rather than the whole answer, wrapping it in a deterministic substrate that makes every figure traceable. It rests on three tenets. Atomic provenance means ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
-          "url": "https://www.youtube.com/watch?v=YnNF55QV0zs",
-          "published": "2026-07-29T20:15:35+00:00",
-          "content_snippet": "A team ran about a thousand people through a market research survey, then had LLM agents replay the same questions, and the agents matched the humans closely while carrying less noise than the humans did themselves. That is exactly the tell: a synthetic respondent smooths over the messiness that makes a real population real. Ishan Anand walks through where it breaks. Nudge one variable in the prompt template and purchase probability swings, because the model infers latent confounders nobody stat",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
-          "url": "https://www.youtube.com/watch?v=Owb8g3yDyzo",
-          "published": "2026-07-29T20:00:06+00:00",
-          "content_snippet": "Ask any LLM a financial question about your business. You'll get a fluent, confident, generic answer — one that doesn't truly know your business, or what happened when businesses like yours made that same decision. We build financial AI at Intuit serving 100M+ customers. Our custom LLMs outperform general-purpose models on accuracy while cutting latency in half. But that's the foundation, not the destination. I'll cover where financial intelligence goes when AI stops reporting what happened and ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
-          "url": "https://www.youtube.com/watch?v=KMR_RBoCa4M",
-          "published": "2026-07-29T19:00:06+00:00",
-          "content_snippet": "Nubank serves 135 million customers, so an AI agent that mishandles a support conversation fails at scale. The talk opens with the result: five agents in production, higher customer satisfaction, and roughly 20 times faster shipping. Shreya Rajpal, CEO of Snowglobe, argues the thing that unlocked that pace was evals, and specifically simulated data standing in for real conversations. Good agent evals are hard because the data is multi turn and stateful, not single turn question and answer, and h",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
-          "url": "https://www.youtube.com/watch?v=7jjudsEhBtM",
-          "published": "2026-07-29T18:00:06+00:00",
-          "content_snippet": "Since skills were open sourced, Yogendra Miraje's team at FactSet stopped thinking about shipping features and started thinking about shipping skills. A skill is a capability you hand the agent, and its heart is a short skill.md whose name and description are really routing signals: get them distinct and the agent triggers the right one, blur them and it fires the wrong skill or none at all. He walks through a minimal skill registry, progressive disclosure so the agent only loads what it needs, ",
+          "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
+          "url": "https://www.youtube.com/watch?v=pWXUkLP9uWM",
+          "published": "2026-07-30T16:59:37+00:00",
+          "content_snippet": "Humanity compressed the road from the enlightenment to the moon landing into a few hundred years, and Richard Socher's wager is that automating research compresses it again. He frames it through open ended evolution and Popper: science advances by trying things, finding the shortcomings, and fixing them, and an agent swarm can run that loop across medicine, economics, astrophysics, and more without any single person bottlenecking a field. He calls the goal a Eureka machine, and argues that rethi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -397,5 +313,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 13
+  "deduped_count": 20
 }
