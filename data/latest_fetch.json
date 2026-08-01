@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T11:46:28Z",
+  "fetched_at": "2026-08-01T11:04:39Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,19 +14,10 @@
       ],
       "items": [
         {
-          "title": "Where to start if you want to harden a distributed system",
-          "url": "https://www.youtube.com/watch?v=L54TFDmPwv8",
-          "published": "2026-07-30T16:00:36+00:00",
-          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-          "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3?source=rss----2615bd06b42e---4",
-          "published": "2026-07-30T20:10:15+00:00",
-          "content_snippet": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse content types (movies, series, games, live, podcasts) and product surfaces, but its complexity makes it ",
+          "title": "Modeling Device Capabilities for Analytics",
+          "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
+          "published": "2026-07-31T16:01:02+00:00",
+          "content_snippet": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj Netflix supports a vast and evolving set of features and content types, ranging from 4K streaming and immersive audio to live streaming and cloud gaming, across a diverse ecosystem of devices. However, not all devices are created equal. Hardware limitations such as available RAM, CPU cores, display capabilities, or platform support mean that some features cannot be supported on certain device models. To ensure the best pos",
           "source_name": "Netflix Tech Blog",
           "source_type": "rss",
           "area_name": "Technology"
@@ -43,6 +34,7 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1
       }
     },
@@ -70,19 +62,19 @@
       ],
       "items": [
         {
-          "title": "4 newsletters that earn their place in my inbox!",
-          "url": "https://www.youtube.com/watch?v=kC2UCB2rSHs",
-          "published": "2026-07-30T12:31:09+00:00",
-          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
+          "title": "How to be a supercommunicator | Charles Duhigg",
+          "url": "https://www.youtube.com/watch?v=egyVmgGFYXA",
+          "published": "2026-07-31T16:04:46+00:00",
+          "content_snippet": "How to be a supercommunicator | Charles Duhigg",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "Comedian Margaret Cho meets the person she used to be",
-          "url": "https://www.youtube.com/watch?v=SlKZx1YYNkY",
-          "published": "2026-07-30T13:00:13+00:00",
-          "content_snippet": "Trigger Warning: Graphic mentions of self-harm and suicide. We made this video in partnership with Unlikely Collaborators. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Born in the U.S. and taken to Korea after her father’s deportation, comed",
+          "title": "Physician: Listen to your body’s wisdom instead of constantly pushing to optimize it | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=ZAbHQ1qAa0I",
+          "published": "2026-07-31T13:00:09+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-enders-ZAbHQ1qAa0I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, How trauma stays in the body and how to remove it with Bessel van der Kolk | Full Interview ► https://www.youtube.com/watch?v=-MI6Z_NlE",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -94,7 +86,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -109,6 +103,10 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -122,7 +120,6 @@
         }
       ],
       "deduped_sources": {
-        "The Data Engineering Show": 1,
         "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -143,109 +140,55 @@
       ],
       "items": [
         {
-          "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
-          "published": "2026-07-30T22:37:00+00:00",
-          "content_snippet": "Amazon SageMaker Unified Studio gives project members full Git version control directly within the tools you already use - Query Editor, Visual ETL, Workflows, and Notebooks. The enhanced Repositories experience replaces the previous automatic sync approach with flexible, file-level version control. This brings a consistent source control experience across all project tools, including Notebooks, which previously had no Git support. You choose exactly which files to track in Git by adding them to",
+          "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+          "published": "2026-07-31T18:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. Each multi-Region cluster provides a writable endpoint in both peered Regions, presenting a single logical database that remains available even if one Region becomes unavaila",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-bgp-visibility/",
-          "published": "2026-07-30T20:21:00+00:00",
-          "content_snippet": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and public virtual interfaces (VIFs). You can now see which routes AWS accepted from your router and which routes AWS is advertising to your router, along with their AS path and BGP community values. This visibility helps network administrators troubleshoot routing issues, verify route propagation, and mon",
+          "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+          "published": "2026-07-31T15:00:00+00:00",
+          "content_snippet": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. R8i and M8i instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
-          "published": "2026-07-30T20:02:00+00:00",
-          "content_snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track . Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing track on patch P202 and onwards. The trailing track is designed for customers who prioritize stability for production workloads, running on a version already validated through the leading track. With RG instances now available on both tracks, customers can take advantage of AWS Graviton-powered perfo",
+          "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+          "published": "2026-07-31T14:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon Linux 2 (AL2) to AL2023 without requiring a simultaneous Java version upgrade. The existing Lambda runtimes for Java 8, 11 and 17 run on AL2, which reached end of life on June 30, 2026. To maintain support coverage and SLA eligibility, cust",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
-          "published": "2026-07-30T17:43:00+00:00",
-          "content_snippet": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator , the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This update changes the simulator in three ways: it now lives in the IAM console, it can test service control policies (SCPs), and it adds flexibility to model more of the scenarios that security and platform teams simulate in practice. IAM Policy Simulator is now part of the IAM console, replacing the st",
+          "title": "Amazon CloudWatch announces managed Prometheus collectors",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
+          "published": "2026-07-31T13:06:00+00:00",
+          "content_snippet": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and Amazon OpenSearch Service workloads without deploying or managing any agents. Previously, getting Prometheus metrics into CloudWatch required deploying, scaling, and maintaining a self-managed OpenTelemetry Collector. Managed Prometheus collectors eliminate that overhead. You provide a scrape configu",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
-          "published": "2026-07-30T16:18:00+00:00",
-          "content_snippet": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT‑5.6 Terra are reduced by 20%. These reductions are in-line with OpenAI's first-party pricing changes for these models. GPT‑5.6 Luna is optimized for fast, high-volume workloads and can use tools to complete multi-step workflows, making it well suited for content processing, classification, customer",
+          "title": "AWS CodeDeploy now available in five additional AWS regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+          "published": "2026-07-31T10:54:00+00:00",
+          "content_snippet": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that automates application deployments to Amazon EC2 instances, on-premises servers, AWS Lambda functions, and Amazon ECS services. Customers in these newly added regions can now access CodeDeploy locally, enabling lower latency and supporting data residency r",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
-          "published": "2026-07-30T15:39:00+00:00",
-          "content_snippet": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can be based on a combination of packet attributes including source and destination IP addresses, ports, and protocol rather than destination IP address alone. Previously, customers needing traffic steering or workload isolation had to build multi-VPC architectures with additional routing hops, adding co",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
-          "published": "2026-07-30T14:07:00+00:00",
-          "content_snippet": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the easiest and most reliable way. This capability automatically scales to deliver high-throughput Kafka data to S3 with end-to-end reliability for mission-critical workloads, while reducing ingestion and delivery costs by up to 60% compared to self-managed alternatives. Customers deliver Apache Kafka data t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
-          "published": "2026-07-30T14:07:00+00:00",
-          "content_snippet": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Amazon MSK data delivery to streaming tables can reduce the cost of ingesting and delivering Apache Kafka data into Amazon S3 Tables by up to 60% versus self-managed deployments and reduces downstream query costs by up to 30% versus self-managed Apache Kafka deployments. Customers rely on Apache Kafka",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
-          "published": "2026-07-30T13:00:00+00:00",
-          "content_snippet": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise workflows. Grok 4.3 is a reasoning-first model that offers configurable reasoning effort (none, low, medium, high). It also offers strong tool use and instruction-following capabilities for building reliable agents, a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
-          "published": "2026-07-30T13:00:00+00:00",
-          "content_snippet": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows. The Gemma 4 family on Amazon Bedrock includes three variants - Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B - spanning dense and mixture-of-experts (MoE) architectures with built-in reasoning, native function calling, support for 35+ languages and ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Foundations for an AI-forward healthcare organization",
-          "url": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
-          "published": "2026-07-30T19:30:00+00:00",
-          "content_snippet": "The challenge for healthcare executives adopting AI is the noise when trying to advance an initiative...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
-          "url": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
-          "published": "2026-07-30T19:10:00+00:00",
-          "content_snippet": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions...",
+          "title": "Backstage with Lakebase, part 3",
+          "url": "https://www.databricks.com/blog/backstage-lakebase-part-3",
+          "published": "2026-07-31T22:21:47+00:00",
+          "content_snippet": "In the first part of this series, running Backstage on Databricks Lakebase gave us...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
@@ -266,7 +209,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 7
+        "OpenAI": 2
       }
     },
     {
@@ -282,28 +225,91 @@
       ],
       "items": [
         {
-          "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song",
-          "url": "https://www.youtube.com/watch?v=AVMr9PMINyo",
-          "published": "2026-07-31T03:00:14+00:00",
-          "content_snippet": "In this conversation, Olive Song, who leads reinforcement learning at MiniMax, opens up the stack behind the company's open weight models and the infrastructure that serves them. Her starting point is a belief in open source: put the weights out, let builders optimize on them, and share the capability widely. From there she walks through what it takes for a model to land well, from agentic coding that also understands and builds games, to computer use problems trained with RL against environment",
+          "title": "Teaching AI to Find Real Vulnerabilities — David Brumley, Bugcrowd",
+          "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
+          "published": "2026-08-01T00:30:06+00:00",
+          "content_snippet": "David Brumley has spent two decades turning people into hackers, from founding picoCTF to recruiting pwn2own winners at Carnegie Mellon, and his argument is that you teach a model to hack the same way: a ladder of tasks that climbs from triggering a crash to reading and writing arbitrary memory to a full working exploit. The catch is measurement. Hacking has no single answer, so the usual benchmark setup breaks down when a target has multiple vulnerabilities and a language model can always claim",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
-          "url": "https://www.youtube.com/watch?v=AMiyLItEtLA",
-          "published": "2026-07-31T01:11:30+00:00",
-          "content_snippet": "You cannot tell great engineers what to do, and you increasingly cannot tell what an agent did either, so Vaibhav Gupta's answer is to fight slop with slop. At Boundary the team turns the same cheap, sloppy generation loose as a tool: agents that run constantly over the transcripts of other agents, flagging hallucinations, spotting which tool calls produced errors, and comparing which approaches produced fewer. He pairs that with hard invariants, the design docs, rules, and CLI checks that do no",
+          "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
+          "url": "https://www.youtube.com/watch?v=2aS7aKoXn64",
+          "published": "2026-08-01T00:00:06+00:00",
+          "content_snippet": "Everyone wants agents that handle long horizon work, but Rayan Garg starts with the awkward question of what long horizon even means. One popular answer measures the time horizon as the task length at which an agent crosses a success threshold, like the sixteen hour mark, which is a useful endpoint but a noisy one, since human time estimates vary and the same wall clock hides very different amounts of real difficulty. How you choose to measure this has an outsized effect on what you conclude abo",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
-          "url": "https://www.youtube.com/watch?v=pWXUkLP9uWM",
-          "published": "2026-07-30T16:59:37+00:00",
-          "content_snippet": "Humanity compressed the road from the enlightenment to the moon landing into a few hundred years, and Richard Socher's wager is that automating research compresses it again. He frames it through open ended evolution and Popper: science advances by trying things, finding the shortcomings, and fixing them, and an agent swarm can run that loop across medicine, economics, astrophysics, and more without any single person bottlenecking a field. He calls the goal a Eureka machine, and argues that rethi",
+          "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
+          "url": "https://www.youtube.com/watch?v=cJ0EOzey--o",
+          "published": "2026-07-31T23:30:06+00:00",
+          "content_snippet": "RLHF made models that are extraordinary at pleasing the human in the loop, and Diogo Almeida, a GPT-4 co author, argues that is exactly the problem. Optimizing for human preference optimizes for engagement and for overpromising, the same pressure that makes a model confidently agree that a fart audio file is a symphony. That produces two camps: one where models act as assistants with a human catching mistakes, where RLHF shines, and one where they operate autonomously with real stakes, where the",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
+          "url": "https://www.youtube.com/watch?v=_PdK6x7PQNM",
+          "published": "2026-07-31T23:00:06+00:00",
+          "content_snippet": "Swap compute for data on the scaling curve and the same money buys a better model, which is why Ari Morcos calls data quality the compute multiplier and the most underinvested part of training. His frame is an oil refinery for data rather than a firehose: clean, curate, create, and compose, with quality classifiers, deduplication, and synthetic generation each earning their place, and the sequencing across stages mattering as much as any single step. The scarce resource now is not tokens but sig",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
+          "url": "https://www.youtube.com/watch?v=k35LeKZEhiE",
+          "published": "2026-07-31T22:30:06+00:00",
+          "content_snippet": "The next step after a model ships is teaching it to keep learning on the job, and Raymond Feng lays out how Applied Compute trains custom models with reinforcement learning that plug into whatever harness an enterprise already runs. The setup is an orchestrator that fans interactions out to inference engines, collects the graded rollouts, and feeds a training engine that updates the weights, the same GRPO style loop used for RL today, but pointed at real multi turn, long horizon work rather than",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
+          "url": "https://www.youtube.com/watch?v=ewtOo0scUh0",
+          "published": "2026-07-31T22:00:06+00:00",
+          "content_snippet": "Mahesh Sathiamoorthy's pitch is to stand in the researcher's shoes: the hard part of post-training is not the algorithm but the data and the environments that feed it. As agents get pushed to run autonomously for hours, something eventually falls over, and reinforcement learning is the tool for stretching that reliability, but RL environments are really just data in a different shape. Bespoke Labs works on curating both, from supervised fine-tuning sets to the environments models learn in. He gr",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
+          "url": "https://www.youtube.com/watch?v=2bvtay8wGYI",
+          "published": "2026-07-31T21:30:06+00:00",
+          "content_snippet": "Ross Taylor opens with some history: back in 2022 he worked on Galactica, an early large model for science that briefly crossed the Rubicon on curated high quality data and intermediate reasoning tokens before the reaction overshadowed the work. That obsession, optimizing what happens between the question and the answer, is where this talk on long horizon reinforcement learning picks up. He and Chengxi Taylor of General Reasoning treat long horizon less as a benchmark and more as a mindset: if y",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
+          "url": "https://www.youtube.com/watch?v=zkX03APVj0M",
+          "published": "2026-07-31T21:00:03+00:00",
+          "content_snippet": "To train an agent that can run production software, you need training data that looks like production, and that is what Joseph Wang's team at Emulated builds. Coming from network infrastructure backgrounds, they know what happens when something like a database goes down at scale, and they argue that current post training environments do not capture it. A real task is not a tidy code diff; it is fifty to a hundred turns of solving live traffic while distributed nodes fail, configs conflict, and u",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Base Model Is Dead — Varun Singh, Arcee AI",
+          "url": "https://www.youtube.com/watch?v=xbPriQWXtWM",
+          "published": "2026-07-31T20:30:21+00:00",
+          "content_snippet": "The old story is that a base model is a mirror of the internet, a good model of human web text that everything else gets bolted onto. Varun Singh, who leads pre-training at Arcee AI, argues that story is dead: no modern base model reflects the web the way GPT-3 once did. Instruction data and synthetic reasoning traces have moved earlier and earlier into training, and a distinct mid-training stage has emerged for longer datapoints that look much more like the downstream capabilities you actually ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
+          "url": "https://www.youtube.com/watch?v=3ZMUiFaQ3qg",
+          "published": "2026-07-31T20:00:35+00:00",
+          "content_snippet": "A single spatial biology run can yield two to six terabytes of data, far more than a scientist can eyeball, and Kenny Workman argues that this is the raw material for teaching AI to actually do science. LatchBio, five years deep in pharma, treats experimental biology as a verifiable substrate: lay a chunk of a tumor over a sequencing surface and you get a giant matrix of numbers whose analysis has a right answer, which is exactly what you need to benchmark and improve a model. They adapted codin",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -313,5 +319,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 11
 }
