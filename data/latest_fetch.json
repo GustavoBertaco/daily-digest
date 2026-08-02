@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T11:04:39Z",
+  "fetched_at": "2026-08-02T11:05:23Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Modeling Device Capabilities for Analytics",
-          "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
-          "published": "2026-07-31T16:01:02+00:00",
-          "content_snippet": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj Netflix supports a vast and evolving set of features and content types, ranging from 4K streaming and immersive audio to live streaming and cloud gaming, across a diverse ecosystem of devices. However, not all devices are created equal. Hardware limitations such as available RAM, CPU cores, display capabilities, or platform support mean that some features cannot be supported on certain device models. To ensure the best pos",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Meta Engineering",
@@ -34,7 +24,8 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
+        "The Pragmatic Engineer": 1,
+        "Netflix Tech Blog": 2,
         "Airbnb Tech": 1
       }
     },
@@ -60,26 +51,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "How to be a supercommunicator | Charles Duhigg",
-          "url": "https://www.youtube.com/watch?v=egyVmgGFYXA",
-          "published": "2026-07-31T16:04:46+00:00",
-          "content_snippet": "How to be a supercommunicator | Charles Duhigg",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Physician: Listen to your body’s wisdom instead of constantly pushing to optimize it | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=ZAbHQ1qAa0I",
-          "published": "2026-07-31T13:00:09+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-enders-ZAbHQ1qAa0I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, How trauma stays in the body and how to remove it with Bessel van der Kolk | Full Interview ► https://www.youtube.com/watch?v=-MI6Z_NlE",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -87,7 +59,8 @@
         }
       ],
       "deduped_sources": {
-        "Daniel Pink": 1
+        "Daniel Pink": 1,
+        "Big Think": 3
       }
     },
     {
@@ -138,65 +111,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
-          "published": "2026-07-31T18:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. Each multi-Region cluster provides a writable endpoint in both peered Regions, presenting a single logical database that remains available even if one Region becomes unavaila",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
-          "published": "2026-07-31T15:00:00+00:00",
-          "content_snippet": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. R8i and M8i instances offer up to 15% better price-performance and 2.5x more memory bandwidth compared to previous generation Intel-based instances.",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-          "published": "2026-07-31T14:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon Linux 2 (AL2) to AL2023 without requiring a simultaneous Java version upgrade. The existing Lambda runtimes for Java 8, 11 and 17 run on AL2, which reached end of life on June 30, 2026. To maintain support coverage and SLA eligibility, cust",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon CloudWatch announces managed Prometheus collectors",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
-          "published": "2026-07-31T13:06:00+00:00",
-          "content_snippet": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and Amazon OpenSearch Service workloads without deploying or managing any agents. Previously, getting Prometheus metrics into CloudWatch required deploying, scaling, and maintaining a self-managed OpenTelemetry Collector. Managed Prometheus collectors eliminate that overhead. You provide a scrape configu",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS CodeDeploy now available in five additional AWS regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
-          "published": "2026-07-31T10:54:00+00:00",
-          "content_snippet": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that automates application deployments to Amazon EC2 instances, on-premises servers, AWS Lambda functions, and Amazon ECS services. Customers in these newly added regions can now access CodeDeploy locally, enabling lower latency and supporting data residency r",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Backstage with Lakebase, part 3",
-          "url": "https://www.databricks.com/blog/backstage-lakebase-part-3",
-          "published": "2026-07-31T22:21:47+00:00",
-          "content_snippet": "In the first part of this series, running Backstage on Databricks Lakebase gave us...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -204,13 +130,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "OpenAI",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -223,101 +151,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Teaching AI to Find Real Vulnerabilities — David Brumley, Bugcrowd",
-          "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
-          "published": "2026-08-01T00:30:06+00:00",
-          "content_snippet": "David Brumley has spent two decades turning people into hackers, from founding picoCTF to recruiting pwn2own winners at Carnegie Mellon, and his argument is that you teach a model to hack the same way: a ladder of tasks that climbs from triggering a crash to reading and writing arbitrary memory to a full working exploit. The catch is measurement. Hacking has no single answer, so the usual benchmark setup breaks down when a target has multiple vulnerabilities and a language model can always claim",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
-          "url": "https://www.youtube.com/watch?v=2aS7aKoXn64",
-          "published": "2026-08-01T00:00:06+00:00",
-          "content_snippet": "Everyone wants agents that handle long horizon work, but Rayan Garg starts with the awkward question of what long horizon even means. One popular answer measures the time horizon as the task length at which an agent crosses a success threshold, like the sixteen hour mark, which is a useful endpoint but a noisy one, since human time estimates vary and the same wall clock hides very different amounts of real difficulty. How you choose to measure this has an outsized effect on what you conclude abo",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
-          "url": "https://www.youtube.com/watch?v=cJ0EOzey--o",
-          "published": "2026-07-31T23:30:06+00:00",
-          "content_snippet": "RLHF made models that are extraordinary at pleasing the human in the loop, and Diogo Almeida, a GPT-4 co author, argues that is exactly the problem. Optimizing for human preference optimizes for engagement and for overpromising, the same pressure that makes a model confidently agree that a fart audio file is a symphony. That produces two camps: one where models act as assistants with a human catching mistakes, where RLHF shines, and one where they operate autonomously with real stakes, where the",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
-          "url": "https://www.youtube.com/watch?v=_PdK6x7PQNM",
-          "published": "2026-07-31T23:00:06+00:00",
-          "content_snippet": "Swap compute for data on the scaling curve and the same money buys a better model, which is why Ari Morcos calls data quality the compute multiplier and the most underinvested part of training. His frame is an oil refinery for data rather than a firehose: clean, curate, create, and compose, with quality classifiers, deduplication, and synthetic generation each earning their place, and the sequencing across stages mattering as much as any single step. The scarce resource now is not tokens but sig",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
-          "url": "https://www.youtube.com/watch?v=k35LeKZEhiE",
-          "published": "2026-07-31T22:30:06+00:00",
-          "content_snippet": "The next step after a model ships is teaching it to keep learning on the job, and Raymond Feng lays out how Applied Compute trains custom models with reinforcement learning that plug into whatever harness an enterprise already runs. The setup is an orchestrator that fans interactions out to inference engines, collects the graded rollouts, and feeds a training engine that updates the weights, the same GRPO style loop used for RL today, but pointed at real multi turn, long horizon work rather than",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
-          "url": "https://www.youtube.com/watch?v=ewtOo0scUh0",
-          "published": "2026-07-31T22:00:06+00:00",
-          "content_snippet": "Mahesh Sathiamoorthy's pitch is to stand in the researcher's shoes: the hard part of post-training is not the algorithm but the data and the environments that feed it. As agents get pushed to run autonomously for hours, something eventually falls over, and reinforcement learning is the tool for stretching that reliability, but RL environments are really just data in a different shape. Bespoke Labs works on curating both, from supervised fine-tuning sets to the environments models learn in. He gr",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
-          "url": "https://www.youtube.com/watch?v=2bvtay8wGYI",
-          "published": "2026-07-31T21:30:06+00:00",
-          "content_snippet": "Ross Taylor opens with some history: back in 2022 he worked on Galactica, an early large model for science that briefly crossed the Rubicon on curated high quality data and intermediate reasoning tokens before the reaction overshadowed the work. That obsession, optimizing what happens between the question and the answer, is where this talk on long horizon reinforcement learning picks up. He and Chengxi Taylor of General Reasoning treat long horizon less as a benchmark and more as a mindset: if y",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
-          "url": "https://www.youtube.com/watch?v=zkX03APVj0M",
-          "published": "2026-07-31T21:00:03+00:00",
-          "content_snippet": "To train an agent that can run production software, you need training data that looks like production, and that is what Joseph Wang's team at Emulated builds. Coming from network infrastructure backgrounds, they know what happens when something like a database goes down at scale, and they argue that current post training environments do not capture it. A real task is not a tidy code diff; it is fifty to a hundred turns of solving live traffic while distributed nodes fail, configs conflict, and u",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Base Model Is Dead — Varun Singh, Arcee AI",
-          "url": "https://www.youtube.com/watch?v=xbPriQWXtWM",
-          "published": "2026-07-31T20:30:21+00:00",
-          "content_snippet": "The old story is that a base model is a mirror of the internet, a good model of human web text that everything else gets bolted onto. Varun Singh, who leads pre-training at Arcee AI, argues that story is dead: no modern base model reflects the web the way GPT-3 once did. Instruction data and synthetic reasoning traces have moved earlier and earlier into training, and a distinct mid-training stage has emerged for longer datapoints that look much more like the downstream capabilities you actually ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
-          "url": "https://www.youtube.com/watch?v=3ZMUiFaQ3qg",
-          "published": "2026-07-31T20:00:35+00:00",
-          "content_snippet": "A single spatial biology run can yield two to six terabytes of data, far more than a scientist can eyeball, and Kenny Workman argues that this is the raw material for teaching AI to actually do science. LatchBio, five years deep in pharma, treats experimental biology as a verifiable substrate: lay a chunk of a tumor over a sequencing surface and you get a giant matrix of numbers whose analysis has a right answer, which is exactly what you need to benchmark and improve a model. They adapted codin",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 20
 }
