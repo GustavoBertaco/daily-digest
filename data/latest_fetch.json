@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T10:07:08Z",
+  "fetched_at": "2026-08-03T12:44:23Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,20 +12,18 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Are software engineers really engineers?",
+          "url": "https://www.youtube.com/watch?v=YDB_rzVacKY",
+          "published": "2026-08-02T16:00:37+00:00",
+          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -35,7 +33,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Netflix Tech Blog": 2,
+        "Airbnb Tech": 1
+      }
     },
     {
       "name": "Product Management",
@@ -59,22 +60,26 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Here are 5 books anybody should read!",
+          "url": "https://www.youtube.com/watch?v=2Svl8f5FKZs",
+          "published": "2026-08-02T18:57:29+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Big Think",
-          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -101,19 +106,14 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "The Data Stack Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "The Analytics Engineering Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Data Stack Show": 1,
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -169,15 +169,38 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef",
+          "url": "https://www.youtube.com/watch?v=-jY2T2PiJBE",
+          "published": "2026-08-02T23:30:06+00:00",
+          "content_snippet": "Chat and coding assistants still hand you walls of text when a button, a chart, or a small interactive view would say it faster. Liad Yosef, who co created MCP UI, walks through MCP Apps: a way for an MCP server to return a real interactive interface instead of a block of text, built on the MCP UI project he started and now shaped through an open working group in the MCP committee. A tool call links to a registered resource, the host renders it as a web component, and clicks flow back into the a",
           "source_name": "AI Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
+          "url": "https://www.youtube.com/watch?v=s4r6nk5WsZw",
+          "published": "2026-08-02T20:00:06+00:00",
+          "content_snippet": "You invoke a tool and expect an answer, but real work takes time, and over that time connections drop, networks blip, and processes crash. Cornelia Davis, a distributed systems veteran who wrote the book on cloud native patterns, argues that this is exactly the gap the MCP tasks specification exists to close, and walks through why almost no agents support it yet. A task lets a tool run long, report progress, and pause for human input without losing its place, which means the interaction has to b",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI",
+          "url": "https://www.youtube.com/watch?v=-npY6XjM8CQ",
+          "published": "2026-08-02T16:30:06+00:00",
+          "content_snippet": "Every time a model launches there is a gap between the benchmark numbers and what the thing can actually do, and Nick Heiner argues the existence of the word benchmaxxing is the tell. When labs openly brag about scores, teams stop asking whether a benchmark reflects reality, and the whole field drifts into an avalanche of numbers that measure the wrong thing. His talk is a field guide to reading a benchmark fairly, starting from the antipatterns that quietly break them. The failure modes are spe",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
         }
       ],
+      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 0
+  "deduped_count": 14
 }
