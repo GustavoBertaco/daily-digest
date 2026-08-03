@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T11:05:23Z",
+  "fetched_at": "2026-08-03T10:07:08Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -15,6 +15,18 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Airbnb Tech",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -23,11 +35,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 2,
-        "Airbnb Tech": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -56,12 +64,17 @@
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Big Think",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 1,
-        "Big Think": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -88,14 +101,19 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Data Stack Show": 1,
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -152,11 +170,14 @@
         "llm"
       ],
       "items": [],
-      "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 10
-      }
+      "errors": [
+        {
+          "source_name": "AI Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 0
 }
