@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T11:48:13Z",
+  "fetched_at": "2026-08-05T11:44:36Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,18 +12,12 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-          "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-          "published": "2026-08-03T18:00:17+00:00",
-          "content_snippet": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in 12 months, by co-designing kernels, precision, parallelism, networking, and memory together. Training GEM presents unique e",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "Airbnb Tech",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -32,7 +26,7 @@
       "deduped_sources": {
         "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 2,
-        "Airbnb Tech": 1
+        "Meta Engineering": 1
       }
     },
     {
@@ -59,27 +53,19 @@
       ],
       "items": [
         {
-          "title": "The Empire Builder: My Playbook for Building Billion-Dollar Companies",
-          "url": "https://www.youtube.com/watch?v=pduZ-bfcKAQ",
-          "published": "2026-08-04T10:00:26+00:00",
-          "content_snippet": "This summer, I’m revisiting one of my favorite episodes. If you haven’t heard it, now is the time. If you have, it’s a classic and worth listening to again. Brad Jacobs has built eight billion-dollar companies, completed more than 500 acquisitions, and created extraordinary returns for shareholders over four decades. Few people understand how great businesses are built better than he does. This conversation is about the principles behind that success. Brad explains how he spots trends before the",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why relationships fizzle out | John Gottman",
-          "url": "https://www.youtube.com/watch?v=VNVf2dNW4lE",
-          "published": "2026-08-03T16:05:11+00:00",
-          "content_snippet": "Why relationships fizzle out | John Gottman",
-          "source_name": "Big Think",
+          "title": "2 Worst Habits of Overthinkers!",
+          "url": "https://www.youtube.com/watch?v=TipsYnl6rOY",
+          "published": "2026-08-04T14:25:11+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 1
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 1
       }
     },
     {
@@ -92,17 +78,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "The Most exciting Databricks products by Matei Zaharia  #dataaisummit #databricks",
-          "url": "https://www.youtube.com/watch?v=ztkOeYhhdVk",
-          "published": "2026-08-03T18:02:48+00:00",
-          "content_snippet": "The full interview is coming soon on @nextgenlakehouse",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -118,6 +94,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -138,139 +115,139 @@
       ],
       "items": [
         {
-          "title": "AWS Transform continuous modernization is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
-          "published": "2026-08-03T21:15:00+00:00",
-          "content_snippet": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability helps engineering teams analyze and remediate technical debt across source code repositories at scale. Teams can connect GitHub organizations, GitLab groups, and Bitbucket workspaces, run analyses on demand or on a recurring schedule, and prioritize findings across technical debt, security, agentic readiness, modernization readiness, and custom analysis criteria",
+          "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
+          "published": "2026-08-04T22:24:00+00:00",
+          "content_snippet": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy. On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview to help customers exert centralized security controls against data exfiltration and malware injection. At the time, the Network Firewall proxy was introduced as a standalone product, separate from Network Firewall transparent firewall and used its own separate proxy security policy. Customers who tes",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
-          "published": "2026-08-03T21:03:00+00:00",
-          "content_snippet": "GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single request. Models reason over broader context and return more accurate, coherent responses without chunking or information loss. With a context window size of 1 million tokens, you can analyze entire repositories in a single pass for code review and migration, process long-form legal or regulatory documents",
+          "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
+          "published": "2026-08-04T21:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors, legal teams, or business partners. Agents can filter and select cases and choose which case fields to include in the export. Admins can control access using a security profile permission. Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Eur",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
-          "published": "2026-08-03T20:24:00+00:00",
-          "content_snippet": "Amazon GameLift Streams now offers stream URLs, which give end users temporary, unauthenticated access to a playable stream session in a supported web browser. Recipients need no AWS account, no credentials, and no software install. To share a playable stream, create a stream URL for a stream group and one of its applications, set how long the stream URL stays valid and how many sessions it can start, and send the link. Each person who opens the link starts an independent stream session, and Ama",
+          "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+          "published": "2026-08-04T20:37:00+00:00",
+          "content_snippet": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses with current web knowledge while maintaining data residency within your secured AWS environment with zero data egress. Previously, adding web grounding required onboarding a third-party search provider, managing separate API keys and billing, building c",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Resilience Hub now provides recommended resilience tests",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
-          "published": "2026-08-03T19:02:58+00:00",
-          "content_snippet": "AWS Resilience Hub now offers recommended resilience tests that help platform engineering and site reliability teams validate how their services respond to and recover from known failure scenarios. Resilience Hub provides pre-configured tests based on your service's architecture, configuration, and resilience policy. It uses AWS Fault Injection Service (FIS) to inject controlled faults and then evaluates whether your service recovers within your defined recovery objectives. With the AWS-recommen",
+          "title": "Run interactive workloads on Amazon EMR on EC2 with Spark Connect",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
+          "published": "2026-08-04T20:29:00+00:00",
+          "content_snippet": "Amazon EMR on EC2 now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon SageMaker Unified Studio and their own IDEs, such as Jupyter and Visual Studio Code, with each session running on dedicated EMR on EC2 clusters. You can also monitor and debug active and completed sessions in the EMR console. An interactive session provides a persistent Spark context ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-          "published": "2026-08-03T18:54:00+00:00",
-          "content_snippet": "AWS Organizations customers can now view their maximum number of accounts quota and its utilization directly through AWS Service Quotas instead of relying on AWS Support or AWS account teams to determine their current account limit. Customers can now proactively plan account growth with ease by monitoring their current account quota utilization and requesting increases before reaching their limit. They can view this quota by logging into management account and accessing the Service Quotas consol",
+          "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+          "published": "2026-08-04T19:14:00+00:00",
+          "content_snippet": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at scale, security teams need confidence that the packages entering their environments are trustworthy and free from malicious code. With this addition, you can detect and block malicious dependencies before they are built into your applications, with the same streamlined activation and pay-as-you-go pri",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
-          "published": "2026-08-03T18:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports a maximum of 10,000 event pollers for Provisioned Mode for Amazon SQS event source mappings (ESMs), a 5x increase from the previous limit of 2,000. This enables you to reach up to 100,000 concurrent invocations, so you can build highly responsive and scalable event-driven applications with stringent performance requirements. Customers use Amazon SQS as an event source for Lambda to build mission-critical applications such as real-time order processing, financial transacti",
+          "title": "Amazon EC2 C8g instances now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
+          "published": "2026-08-04T18:57:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Europe (Paris), AWS Africa (Cape Town), AWS Israel (Tel Aviv), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 C8g instances are built for compute-intensive workloads, such as high performance computing (HPC), batch processing, gaming, video encoding, scientific mo",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 I7i instances now available in Asia Pacific (Thailand) and Israel (Tel Aviv) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-          "published": "2026-08-03T17:28:00+00:00",
-          "content_snippet": "Amazon Web Services (AWS) announces the availability of high performance Storage Optimized Amazon EC2 I7i instances in the Asia Pacific (Thailand) and Israel (Tel Aviv) Regions. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage",
+          "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
+          "published": "2026-08-04T18:28:00+00:00",
+          "content_snippet": "AWS Application Load Balancer (ALB) and Network Load Balancer (NLB) now support new TLS-based security policies that comply with RFC 9151 TLS server requirements for Commercial National Security Algorithm (CNSA) 1.0 suite requirements. These policies implement the cryptographic requirements defined by the US National Security Agency (NSA) for secure communications using TLS 1.2 and TLS 1.3 protocols. Customers who are required to meet CNSA 1.0 TLS security requirements can now use ALB and NLB wi",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker AI serverless model customization now supports full fine-tuning",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft",
-          "published": "2026-08-03T17:00:00+00:00",
-          "content_snippet": "Amazon SageMaker AI serverless model customization now supports full fine-tuning for over 25 open-source models. These include popular models from gpt-oss, Gemma, Llama, Nemotron, and Qwen model families. In addition to parameter-efficient methods such as LoRA, which update a small subset of model weights, you can now update all parameters in the model for deeper adaptation when your use case requires it. Full fine-tuning allows the model to more thoroughly learn your domain-specific patterns, t",
+          "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+          "published": "2026-08-04T18:15:00+00:00",
+          "content_snippet": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S3 Vectors is designed to provide the same elasticity, durability, and availability as Amazon S3, with a dedicated set of APIs that let you store, access, and query vectors without provisioning any infrastructure. For a full list of AWS Regions where A",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
-          "published": "2026-08-03T15:00:00+00:00",
-          "content_snippet": "Today, AWS Transform for full-stack Windows modernization announced general availability of offline source transformation, enabling customers to modernize Microsoft SQL Server databases to Amazon Aurora PostgreSQL without requiring a live database connection. AWS Transform now converts SQL Server storage objects, powered by AWS DMS, and code objects (stored procedures) using an agentic, interactive experience. Enterprises modernizing legacy .NET applications and their dependent SQL Server databa",
+          "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
+          "published": "2026-08-04T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now lets you generate capacity plans at the interval level (15-minute or 30-minute intervals), giving workforce planners visibility into more granular staffing requirements across Voice, Chat, Task, and Email channels. Interval-level plans capture how demand shifts throughout the day — such as a lunchtime surge in chat contacts or an end-of-day change in call volume — so you can align agent capacity with demand as it changes and staff precisely for each part of the day. Y",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
-          "published": "2026-08-03T15:00:00+00:00",
-          "content_snippet": "AWS WAF now supports two new partner managed rule groups from Miggo Security, available through AWS Marketplace: Miggo Rules for AWS WAF – High Emerging Application Threats , and Miggo Rules for AWS WAF – AI/ML Application Protection . These rule groups give AWS WAF customers continuously updated protection against vulnerabilities that are being actively exploited, have public proof-of-concept code, or appear in the CISA Known Exploited Vulnerabilities (KEV) catalog, without writing or maintaini",
+          "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+          "published": "2026-08-04T16:00:00+00:00",
+          "content_snippet": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions. I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon EC2 for storage-intensive workloads. I8g instances use the third generation AWS Nitro SSDs, local NVMe storage that deliver up to 65% better real-time storage performance per TB while offering up to 50% lower storage I/O latency and up to 60% lower stora",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
-          "published": "2026-08-03T16:12:30+00:00",
-          "content_snippet": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to customers all over the world. Watching his eyes light up as he saw robots navigating a fulfillment center reminded me why so many of us got into technology in the first place. There’s nothing quite like",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
-          "url": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
-          "published": "2026-08-03T14:00:00+00:00",
-          "content_snippet": "A VP of Sales at a major CPG has three decks open before her first coffee. One from...",
+          "title": "Unity AI Gateway is Generally Available",
+          "url": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+          "published": "2026-08-04T16:10:09+00:00",
+          "content_snippet": "The last six months have seen a rapid rise in AI-powered productivity and a proliferation...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
-          "url": "https://www.databricks.com/blog/ingest-semi-structured-data-faster-and-more-efficiently-variant-now-generally-available",
-          "published": "2026-08-03T13:44:24+00:00",
-          "content_snippet": "For years, ingesting semi-structured data like JSON, XML, or CSV meant a difficult...",
+          "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
+          "url": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
+          "published": "2026-08-04T14:00:00+00:00",
+          "content_snippet": "Databricks is a sponsor at Black Hat USA 2026 this week. Find us at Booths #5106...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
-          "url": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
-          "published": "2026-08-03T13:00:00+00:00",
-          "content_snippet": "Today, we are thrilled to announce that Databricks has officially completed the acquisition...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum",
+          "url": "https://www.youtube.com/watch?v=SJJBPwlPpww",
+          "published": "2026-08-04T20:29:24+00:00",
+          "content_snippet": "For many families living with a rare disease, the hardest part is not having a name for what is happening. Even with modern genetic testing, about half of people with rare diseases remain undiagnosed. In this OpenAI Forum conversation, researchers from Boston Children’s Hospital's Manton Center for Orphan Disease Research discuss how they used OpenAI o3 Deep Research to reanalyze difficult pediatric cases and surface new leads for expert review. The conversation explores how AI can help scientis",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Meet Birding Pal",
+          "url": "https://www.youtube.com/watch?v=r64krUavXJU",
+          "published": "2026-08-04T17:43:45+00:00",
+          "content_snippet": "Your new birdwatching buddy is here. Make your own: https://github.com/openai/birdingpal",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "Anthropic News",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "OpenAI",
+          "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -291,20 +268,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Building Turbopuffer: Gergely Orosz (@pragmaticengineer ) × Simon Eskildsen (CEO)",
-          "url": "https://www.youtube.com/watch?v=jQDXzEVHMSE",
-          "published": "2026-08-03T18:26:07+00:00",
-          "content_snippet": "This fireside chat between Gergely Orosz and Simon Eskildsen explores the technical journey and engineering philosophy behind the database company Turbopuffer. Video Timestamps 0:00 Introduction and Simon’s early history with computers 3:02 The International Olympiad in Informatics and early competitive programming 4:13 How Simon was recruited by Shopify while still in high school 8:46 Engineering challenges and scaling infrastructure at Shopify 14:56 Decision to leave Shopify and the creation o",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 4
+      }
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 14
 }
