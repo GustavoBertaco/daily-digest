@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T11:44:36Z",
+  "fetched_at": "2026-08-06T11:50:10Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,26 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The “agile revolution in mining”",
+          "url": "https://www.youtube.com/watch?v=P-eseSa6dy0",
+          "published": "2026-08-05T16:00:23+00:00",
+          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
+          "url": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
+          "published": "2026-08-05T19:20:20+00:00",
+          "content_snippet": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations , we showed how modeling the order and timing of user actions ( rather than relying on static, manually engineered sparse features) produces richer, sequence-aware representations of user interests and ad preferences. This post goes a step fu",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Airbnb Tech",
@@ -24,9 +43,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 2,
-        "Meta Engineering": 1
+        "Netflix Tech Blog": 2
       }
     },
     {
@@ -53,11 +70,11 @@
       ],
       "items": [
         {
-          "title": "2 Worst Habits of Overthinkers!",
-          "url": "https://www.youtube.com/watch?v=TipsYnl6rOY",
-          "published": "2026-08-04T14:25:11+00:00",
-          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
+          "title": "The big mistake we make about strength | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=sOi-RHOUKNc",
+          "published": "2026-08-05T16:04:44+00:00",
+          "content_snippet": "The big mistake we make about strength | Giulia Enders",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -65,7 +82,7 @@
       "errors": [],
       "deduped_sources": {
         "The Knowledge Project Podcast": 1,
-        "Big Think": 1
+        "Daniel Pink": 1
       }
     },
     {
@@ -89,14 +106,17 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
         "NextGenLakehouse": 1,
-        "The Data Stack Show": 1,
-        "The Analytics Engineering Podcast": 1
+        "The Analytics Engineering Podcast": 2
       }
     },
     {
@@ -115,137 +135,88 @@
       ],
       "items": [
         {
-          "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
-          "published": "2026-08-04T22:24:00+00:00",
-          "content_snippet": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy. On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview to help customers exert centralized security controls against data exfiltration and malware injection. At the time, the Network Firewall proxy was introduced as a standalone product, separate from Network Firewall transparent firewall and used its own separate proxy security policy. Customers who tes",
+          "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
+          "published": "2026-08-05T21:35:00+00:00",
+          "content_snippet": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables functions outside a VPC configured with 2 GB of memory or more to access network bandwidth that scales proportionally, from 625 Mbps at 2 GB up to 3,000 Mbps at 10 GB. Customers use Lambda to build latency-sensitive data processing workloads, which need to transfer large volumes of data - up to several ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
-          "published": "2026-08-04T21:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors, legal teams, or business partners. Agents can filter and select cases and choose which case fields to include in the export. Admins can control access using a security profile permission. Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Eur",
+          "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
+          "published": "2026-08-05T20:06:00+00:00",
+          "content_snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency requirements. Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible database service. Amazon Keyspaces is serverless, so you pay for only the resources that you u",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
-          "published": "2026-08-04T20:37:00+00:00",
-          "content_snippet": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses with current web knowledge while maintaining data residency within your secured AWS environment with zero data egress. Previously, adding web grounding required onboarding a third-party search provider, managing separate API keys and billing, building c",
+          "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
+          "published": "2026-08-05T18:25:00+00:00",
+          "content_snippet": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs. Customers using notebook-based or exploratory workflows now benefit from smarter anomaly detection that gracefully handles irregular data arrival intervals. This new capability avoids over-extrapolating trends by using a constant baseline instead of a linear trend, delivering more accurate alerts and reducing nois",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Run interactive workloads on Amazon EMR on EC2 with Spark Connect",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-ec2-spark-connect/",
-          "published": "2026-08-04T20:29:00+00:00",
-          "content_snippet": "Amazon EMR on EC2 now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon SageMaker Unified Studio and their own IDEs, such as Jupyter and Visual Studio Code, with each session running on dedicated EMR on EC2 clusters. You can also monitor and debug active and completed sessions in the EMR console. An interactive session provides a persistent Spark context ",
+          "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+          "published": "2026-08-05T17:00:00+00:00",
+          "content_snippet": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain language: what a pricing unit maps to, how your bill changes as usage scales, how multiple pricing dimensions combine into one cost, and what is and isn't included. Answering these questions used to mean having to visit multiple websites and piecing together pricing details on your own. Now the context sit",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
-          "published": "2026-08-04T19:14:00+00:00",
-          "content_snippet": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at scale, security teams need confidence that the packages entering their environments are trustworthy and free from malicious code. With this addition, you can detect and block malicious dependencies before they are built into your applications, with the same streamlined activation and pay-as-you-go pri",
+          "title": "Amazon DynamoDB now supports real-time vector search",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+          "published": "2026-08-05T16:59:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search speed, scale, and accuracy: latency climbs with vector count unless you accept lower recall or throughput. DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall and is designed for any scale, even trillions ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C8g instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
-          "published": "2026-08-04T18:57:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Europe (Paris), AWS Africa (Cape Town), AWS Israel (Tel Aviv), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 C8g instances are built for compute-intensive workloads, such as high performance computing (HPC), batch processing, gaming, video encoding, scientific mo",
+          "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+          "published": "2026-08-05T15:12:00+00:00",
+          "content_snippet": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access to AWS applications only, without the need to manage access to AWS accounts. This feature is available at the time of initial configuration of an IAM Identity Center instance and does not affect existing IAM Identity Center instances. IAM Identity Center enables you to connect your workforce identit",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
-          "published": "2026-08-04T18:28:00+00:00",
-          "content_snippet": "AWS Application Load Balancer (ALB) and Network Load Balancer (NLB) now support new TLS-based security policies that comply with RFC 9151 TLS server requirements for Commercial National Security Algorithm (CNSA) 1.0 suite requirements. These policies implement the cryptographic requirements defined by the US National Security Agency (NSA) for secure communications using TLS 1.2 and TLS 1.3 protocols. Customers who are required to meet CNSA 1.0 TLS security requirements can now use ALB and NLB wi",
+          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
+          "published": "2026-08-05T15:00:00+00:00",
+          "content_snippet": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the workload finishes, Aurora serverless automatically scales down to zero. This makes it especially well-suited for agentic AI applications, which typically have bursts of activity, long idle windows, and unpredictable traffic patterns. Aurora serverless handles all of it automatically, scaling capacity w",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
-          "published": "2026-08-04T18:15:00+00:00",
-          "content_snippet": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S3 Vectors is designed to provide the same elasticity, durability, and availability as Amazon S3, with a dedicated set of APIs that let you store, access, and query vectors without provisioning any infrastructure. For a full list of AWS Regions where A",
-          "source_name": "AWS What's New",
+          "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+          "published": "2026-08-05T14:45:10+00:00",
+          "content_snippet": "Today, we’re announcing the general availability of vector search in Amazon DynamoDB . You can now store vector embeddings alongside your operational data in DynamoDB and run similarity searches directly against that data, without replicating it to a separate vector store. DynamoDB supports native vector search with single-digit millisecond latency at 99%+ recall, and is designed for any scale, even trillions of vectors. There are no servers to provision, patch, or manage, and no software to ins",
+          "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
-          "published": "2026-08-04T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets you generate capacity plans at the interval level (15-minute or 30-minute intervals), giving workforce planners visibility into more granular staffing requirements across Voice, Chat, Task, and Email channels. Interval-level plans capture how demand shifts throughout the day — such as a lunchtime surge in chat contacts or an end-of-day change in call volume — so you can align agent capacity with demand as it changes and staff precisely for each part of the day. Y",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
-          "published": "2026-08-04T16:00:00+00:00",
-          "content_snippet": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions. I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon EC2 for storage-intensive workloads. I8g instances use the third generation AWS Nitro SSDs, local NVMe storage that deliver up to 65% better real-time storage performance per TB while offering up to 50% lower storage I/O latency and up to 60% lower stora",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Unity AI Gateway is Generally Available",
-          "url": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
-          "published": "2026-08-04T16:10:09+00:00",
-          "content_snippet": "The last six months have seen a rapid rise in AI-powered productivity and a proliferation...",
+          "title": "BigQuery to Databricks: A Strategic Framework for Modern Migration",
+          "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework-modern-migration",
+          "published": "2026-08-06T13:00:00+00:00",
+          "content_snippet": "Migration as a strategic evolutionBigQuery is often the standard for starting fast, but for many enterprises...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
-          "url": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
-          "published": "2026-08-04T14:00:00+00:00",
-          "content_snippet": "Databricks is a sponsor at Black Hat USA 2026 this week. Find us at Booths #5106...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum",
-          "url": "https://www.youtube.com/watch?v=SJJBPwlPpww",
-          "published": "2026-08-04T20:29:24+00:00",
-          "content_snippet": "For many families living with a rare disease, the hardest part is not having a name for what is happening. Even with modern genetic testing, about half of people with rare diseases remain undiagnosed. In this OpenAI Forum conversation, researchers from Boston Children’s Hospital's Manton Center for Orphan Disease Research discuss how they used OpenAI o3 Deep Research to reanalyze difficult pediatric cases and surface new leads for expert review. The conversation explores how AI can help scientis",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meet Birding Pal",
-          "url": "https://www.youtube.com/watch?v=r64krUavXJU",
-          "published": "2026-08-04T17:43:45+00:00",
-          "content_snippet": "Your new birdwatching buddy is here. Make your own: https://github.com/openai/birdingpal",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -255,7 +226,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 2
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -268,12 +241,20 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Gadgets: Personal app vibe coding that is actually safe — Kenton Varda, Cloudflare",
+          "url": "https://www.youtube.com/watch?v=RmS5s6Wbin4",
+          "published": "2026-08-05T22:42:10+00:00",
+          "content_snippet": "*Note: Kenton has just released Cloudflare OS today: https://x.com/KentonVarda/status/2084990137180590572 This talk was recorded a month prior to launch.* Claude needed a strikethrough the slide app did not have, so it added one to the app. Asked to build a deck from a Google doc, it also added text centering and a box that accepts raw SVG, then generated the SVG for a diagram the app could not otherwise draw. That is Kenton Varda's argument in a single move. Software today ships from a develope",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 4
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 14
+  "deduped_count": 12
 }
