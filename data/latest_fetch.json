@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T11:50:10Z",
+  "fetched_at": "2026-08-07T10:31:30Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "The “agile revolution in mining”",
-          "url": "https://www.youtube.com/watch?v=P-eseSa6dy0",
-          "published": "2026-08-05T16:00:23+00:00",
-          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
-          "url": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
-          "published": "2026-08-05T19:20:20+00:00",
-          "content_snippet": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations , we showed how modeling the order and timing of user actions ( rather than relying on static, manually engineered sparse features) produces richer, sequence-aware representations of user interests and ad preferences. This post goes a step fu",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Airbnb Tech",
@@ -43,7 +24,9 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 2
+        "The Pragmatic Engineer": 1,
+        "Netflix Tech Blog": 1,
+        "Meta Engineering": 2
       }
     },
     {
@@ -70,10 +53,19 @@
       ],
       "items": [
         {
-          "title": "The big mistake we make about strength | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=sOi-RHOUKNc",
-          "published": "2026-08-05T16:04:44+00:00",
-          "content_snippet": "The big mistake we make about strength | Giulia Enders",
+          "title": "This book has the real secret to peak performance!",
+          "url": "https://www.youtube.com/watch?v=nVp7uWXw7dY",
+          "published": "2026-08-06T15:05:14+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Jaleel White on the greatest perspective shift of his life",
+          "url": "https://www.youtube.com/watch?v=2EtZHm-gs5o",
+          "published": "2026-08-06T13:00:39+00:00",
+          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 From 50 commercials as a kid to nine seasons as one of the most recognizable characters on television, Jaleel White has always per",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -81,8 +73,7 @@
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Daniel Pink": 1
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -95,14 +86,33 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Transitioning from Bottleneck to Self-Service  #DataEngineering #DataAnalytics #DataOps",
+          "url": "https://www.youtube.com/watch?v=a0kgOu4IcPs",
+          "published": "2026-08-06T13:06:14+00:00",
+          "content_snippet": "Moving away from centralized data operations isn't just about changing workflows. It's about enabling company-wide autonomy. In our latest conversation on The Data Engineering Show, Benjamin sits down with LocalStack’s Andrew Jones to explore how keeping data work tied exclusively to a small team of engineers and analysts creates a scaling bottleneck. Here’s what we uncovered: - The Traditional Stack Trap: Relying on dedicated analysts to own data collection, telemetry, and reporting end-to-end ",
+          "source_name": "The Data Engineering Show",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        },
+        {
+          "title": "Building Modern Data Platforms Without Legacy Bottlenecks ft Andrew Jones",
+          "url": "https://www.youtube.com/watch?v=sFx8IqSuxhU",
+          "published": "2026-08-06T12:57:19+00:00",
+          "content_snippet": "In this episode of The Data Engineering Show, host Benjamin Wagner sits down with Andrew Jones, Staff Data Engineer at LocalStack, to explore how data teams can transition from centralized, bottlenecked operations to scalable, self-serve platforms - while managing real-time reliability demands that now define modern data infrastructure. **Chapters:** [00:00] - Intro [00:40] - Meet Andrew Jones: Building Data Platforms at LocalStack [01:19] - What LocalStack Does: AWS and Snowflake Emulators [02:",
+          "source_name": "The Data Engineering Show",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
-          "source_name": "The Data Engineering Show",
+          "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Data Mesh Learning",
+          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -115,8 +125,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
-        "The Analytics Engineering Podcast": 2
+        "The Analytics Engineering Podcast": 1
       }
     },
     {
@@ -135,84 +144,165 @@
       ],
       "items": [
         {
-          "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
-          "published": "2026-08-05T21:35:00+00:00",
-          "content_snippet": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables functions outside a VPC configured with 2 GB of memory or more to access network bandwidth that scales proportionally, from 625 Mbps at 2 GB up to 3,000 Mbps at 10 GB. Customers use Lambda to build latency-sensitive data processing workloads, which need to transfer large volumes of data - up to several ",
+          "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+          "published": "2026-08-06T22:00:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an NVIDIA L4 Tensor Core GPU with 3 GB of GPU memory. Fractional GPUs give you the flexibility to right-size your containers for small-model AI inference, model experimentation, graphics rendering, and other workloads that do not require a full GPU, helping reduce infrastructure costs compared to provisi",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
-          "published": "2026-08-05T20:06:00+00:00",
-          "content_snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency requirements. Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible database service. Amazon Keyspaces is serverless, so you pay for only the resources that you u",
+          "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+          "published": "2026-08-06T21:53:00+00:00",
+          "content_snippet": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless transition between cloud and local development environments for serverless developers using these popular IDEs. With the expanded console-to-IDE integration, developers can start from the Lambda console and follow a guided setup to begin local development in Kiro or Cursor while preser",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
-          "published": "2026-08-05T18:25:00+00:00",
-          "content_snippet": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs. Customers using notebook-based or exploratory workflows now benefit from smarter anomaly detection that gracefully handles irregular data arrival intervals. This new capability avoids over-extrapolating trends by using a constant baseline instead of a linear trend, delivering more accurate alerts and reducing nois",
+          "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
+          "published": "2026-08-06T20:51:00+00:00",
+          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analysis, and speech recognition. ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
-          "published": "2026-08-05T17:00:00+00:00",
-          "content_snippet": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain language: what a pricing unit maps to, how your bill changes as usage scales, how multiple pricing dimensions combine into one cost, and what is and isn't included. Answering these questions used to mean having to visit multiple websites and piecing together pricing details on your own. Now the context sit",
+          "title": "AgentCore runtime instances are now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
+          "published": "2026-08-06T20:00:00+00:00",
+          "content_snippet": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infrastructure to deploy and operate AI agents securely at scale. Runtime instances complement the existing microVM-based option in AgentCore runtime and give teams running sustained, resource-intensive, or specialized-hardware agents access to the breadth of EC2 instance types, while ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB now supports real-time vector search",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
-          "published": "2026-08-05T16:59:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search speed, scale, and accuracy: latency climbs with vector count unless you accept lower recall or throughput. DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall and is designed for any scale, even trillions ",
+          "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
+          "published": "2026-08-06T19:00:00+00:00",
+          "content_snippet": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and up to 31% better price-performance for on-demand pricing over Graviton3-based nodes of equivalent sizes on Amazon ElastiCache for Valkey, depending on node family, size, and workload configuration. Graviton4-based nodes also offer more memory per node compared to equivalent Graviton3-based nodes. As ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
-          "published": "2026-08-05T15:12:00+00:00",
-          "content_snippet": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access to AWS applications only, without the need to manage access to AWS accounts. This feature is available at the time of initial configuration of an IAM Identity Center instance and does not affect existing IAM Identity Center instances. IAM Identity Center enables you to connect your workforce identit",
+          "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
+          "published": "2026-08-06T18:56:00+00:00",
+          "content_snippet": "You can now use the AWS Glue Schema Registry , a serverless and free feature of AWS Glue , in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Mexico (Central), Israel (Tel Aviv), Asia Pacific (Taipei), Canada West (Calgary) regions to validate and control the evolution of streaming data using registered Apache Avro, JSON, and Protobuf schema formats. The Schema Registry acts as a centraliz",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
-          "published": "2026-08-05T15:00:00+00:00",
-          "content_snippet": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the workload finishes, Aurora serverless automatically scales down to zero. This makes it especially well-suited for agentic AI applications, which typically have bursts of activity, long idle windows, and unpredictable traffic patterns. Aurora serverless handles all of it automatically, scaling capacity w",
+          "title": "AWS Transform for migrations automates post-launch actions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
+          "published": "2026-08-06T17:00:00+00:00",
+          "content_snippet": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source server across your target accounts, including multi-account migrations. Automating these actions removes the slow, error-prone work of configuring them server by server, so your team moves more servers with less hands-on effort. Post-launch actions run through AWS Systems Manager (SSM) immediately after ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB now supports real-time vector search at any scale",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
-          "published": "2026-08-05T14:45:10+00:00",
-          "content_snippet": "Today, we’re announcing the general availability of vector search in Amazon DynamoDB . You can now store vector embeddings alongside your operational data in DynamoDB and run similarity searches directly against that data, without replicating it to a separate vector store. DynamoDB supports native vector search with single-digit millisecond latency at 99%+ recall, and is designed for any scale, even trillions of vectors. There are no servers to provision, patch, or manage, and no software to ins",
+          "title": "AWS Security Agent now supports email-based MFA for penetration testing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
+          "published": "2026-08-06T16:54:00+00:00",
+          "content_snippet": "AWS Security Agent (now part of AWS Continuum ) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applications requiring one-time codes or verification links sent by email were out of scope for automated pentesting because the agent had no mechanism to intercept those messages. This launch expands coverage for penetration testing customers whose target applications rely on email-based authentication. To",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon RDS now provides visibility into storage volume initialization status",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
+          "published": "2026-08-06T16:00:00+00:00",
+          "content_snippet": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is ready to support latency-sensitive database workloads at fully provisioned performance. When you restore a database instance to a point-in-time, or create a read replica creation, or convert from Single-AZ to Multi-AZ conversion, Amazon RDS creates storage volumes from a snapshot. T",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
+          "published": "2026-08-06T15:00:00+00:00",
+          "content_snippet": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span network performance, compute and storage resource utilization, and session lifecycle events — all available at no additional cost. With these metrics, administrators can proactively identify and troubleshoot issues that impact end-user experience. For example, TCP retransmission ra",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+          "published": "2026-08-06T22:58:00+00:00",
+          "content_snippet": "When you move AI agents from prototype to production, the infrastructure challenges multiply. Your agents need to persist state across multi-step workflows that run for hours or days. They need to coordinate with other agents, share context, and sometimes access GPUs for specialized tasks. Amazon Bedrock AgentCore runtime microVMs provide a fully managed environment for invocations that can run for up to 8 hours and support stateful workflows through managed session storage. Some workloads also ",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "BigQuery to Databricks: A Strategic Framework for Modern Migration",
-          "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework-modern-migration",
-          "published": "2026-08-06T13:00:00+00:00",
-          "content_snippet": "Migration as a strategic evolutionBigQuery is often the standard for starting fast, but for many enterprises...",
+          "title": "What are Agentic Workflows?",
+          "url": "https://www.databricks.com/blog/agentic-workflows",
+          "published": "2026-08-06T21:36:15+00:00",
+          "content_snippet": "As organizations move beyond single-prompt AI interactions, agentic workflows are...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What is Tool Calling?",
+          "url": "https://www.databricks.com/blog/what-is-tool-calling",
+          "published": "2026-08-06T21:31:30+00:00",
+          "content_snippet": "Tool calling is the ability of an AI model to interact with external tools, APIs,...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+          "url": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
+          "published": "2026-08-06T16:00:00+00:00",
+          "content_snippet": "Today, we are releasing OfficeQA Pro V2, a new benchmark designed to evaluate whether...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
+          "url": "https://www.databricks.com/blog/kimi-k3-moonshot-ai-now-available-databricks-through-unity-ai-gateway",
+          "published": "2026-08-06T15:50:57+00:00",
+          "content_snippet": "A year ago, the best open-weight models trailed their proprietary counterparts by...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How to Schedule a Weekly Metrics Report With ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=p_slDAvPjv0",
+          "published": "2026-08-06T22:29:28+00:00",
+          "content_snippet": "Stop spending hours pulling together your weekly report. In this step-by-step demo, Eunji from Data Science shows how she sets up a recurring task in ChatGPT Work. Once it’s scheduled, ChatGPT Work pulls the latest metrics, explains what changed, updates the charts, and drafts the Slack message every week—so Eunji starts each Thursday with a complete first draft ready to review. https://chatgpt.com/work/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=TryfaGZwvIE",
+          "published": "2026-08-06T22:29:01+00:00",
+          "content_snippet": "Bring your spreadsheets to life with ChatGPT Work. In this demo, Kyle from Strategic Finance teaches you how to turn your data into an interactive dashboard you can use to compare scenarios and see how numbers change. The best part: you can build it in minutes, without knowing how to code. https://chatgpt.com/work/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing Agent Plugins",
+          "url": "https://www.youtube.com/watch?v=UaeWJK_vv-Y",
+          "published": "2026-08-06T16:13:08+00:00",
+          "content_snippet": "Introducing Agent Plugins, an open standard developed in collaboration with partners across the AI ecosystem. Bundle Agent Skills and supported MCP server configurations into plugins you can use across ChatGPT, Codex, Cursor, GitHub Copilot, Kiro, and VS Code. Get started: https://agent-plugins.org Chapters: 00:00 Why agent packaging needs a standard 00:20 Introducing Agent Plugins 00:39 Package structure, skills, and MCP servers 01:03 Portable across products 01:19 Scope and getting started",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
@@ -226,9 +316,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -243,10 +331,28 @@
       ],
       "items": [
         {
-          "title": "Gadgets: Personal app vibe coding that is actually safe — Kenton Varda, Cloudflare",
-          "url": "https://www.youtube.com/watch?v=RmS5s6Wbin4",
-          "published": "2026-08-05T22:42:10+00:00",
-          "content_snippet": "*Note: Kenton has just released Cloudflare OS today: https://x.com/KentonVarda/status/2084990137180590572 This talk was recorded a month prior to launch.* Claude needed a strikethrough the slide app did not have, so it added one to the app. Asked to build a deck from a Google doc, it also added text centering and a box that accepts raw SVG, then generated the SVG for a diagram the app could not otherwise draw. That is Kenton Varda's argument in a single move. Software today ships from a develope",
+          "title": "Local Models: Trust, Control, Optimization — Carter Abdallah, NVIDIA",
+          "url": "https://www.youtube.com/watch?v=FWMJQDH3iK0",
+          "published": "2026-08-07T02:00:06+00:00",
+          "content_snippet": "When Fable was pulled back and access to frontier systems stopped looking guaranteed, Lucas Atkins watched enterprises move to Chinese open models, not because they scored better but because availability could be counted on. That is his working definition of trust, and he separates it hard from safety: an open model is a directory of files you can inspect, running on code you can read, while the same claim about a closed API is unverifiable by construction. Arcee's response was to reorient the w",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Compression at the Edge — NVIDIA, Unsloth, HuggingFace, Ollama",
+          "url": "https://www.youtube.com/watch?v=J4_jCrTxMkk",
+          "published": "2026-08-07T01:00:06+00:00",
+          "content_snippet": "Quantize a single number in a model and it gets 20% dumber. That finding, from the super weights paper, is why Daniel Han's claim is less absurd than it sounds: GLM 5.2 goes from 1.5 terabytes to 250 GB, 86% smaller, without being 86% dumber. Layers are wildly unequal. The first and last carry enormous weight, the middle ones barely matter, and a model trained on 30 trillion tokens never saturates its parameters, so many sit near zero and can simply be set there. Choosing which layers stay in hi",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The State of Model Routing — NVIDIA, Cognition, OpenRouter",
+          "url": "https://www.youtube.com/watch?v=QHBjufYK8TA",
+          "published": "2026-08-06T17:07:24+00:00",
+          "content_snippet": "Run terminal bench on Opus and on Haiku and Opus scores about three times better at a tenth of the cost, even though Haiku is far cheaper per token. Alex Atallah's point is that a small model pushed outside its training distribution thrashes, calling tools in loops until it costs more than the expensive model ever would. That inverts the obvious version of model routing, where you send each task to whichever model benchmarks best on it. Walden Yan calls that approach fragile for exactly the reas",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
