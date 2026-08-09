@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T10:31:30Z",
+  "fetched_at": "2026-08-09T10:14:15Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,8 +12,22 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
+          "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
+          "published": "2026-08-07T16:01:02+00:00",
+          "content_snippet": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API Authors: Nilesh Mishra and Ajit Koti This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle billions of nodes and edges while maint",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
+        {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
@@ -24,8 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 1,
         "Meta Engineering": 2
       }
     },
@@ -53,28 +65,40 @@
       ],
       "items": [
         {
-          "title": "This book has the real secret to peak performance!",
-          "url": "https://www.youtube.com/watch?v=nVp7uWXw7dY",
-          "published": "2026-08-06T15:05:14+00:00",
-          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "The Art Of Doing Anything Exceptionally Well!",
+          "url": "https://www.youtube.com/watch?v=7GWxTfvPBZY",
+          "published": "2026-08-07T16:59:05+00:00",
+          "content_snippet": "Talent gets you noticed. Repetition gets you remembered. The people we call gifted are usually just people who never stopped doing the boring part. Hokusai signed his work \"old man mad about painting\" in his 70s, still convinced he hadn't peaked. Mastery isn't a finish line. It's a relationship with the basics that never ends. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "Jaleel White on the greatest perspective shift of his life",
-          "url": "https://www.youtube.com/watch?v=2EtZHm-gs5o",
-          "published": "2026-08-06T13:00:39+00:00",
-          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 From 50 commercials as a kid to nine seasons as one of the most recognizable characters on television, Jaleel White has always per",
+          "title": "The key to better conversations | Charles Duhigg",
+          "url": "https://www.youtube.com/watch?v=sfe0mExhnEg",
+          "published": "2026-08-07T16:07:01+00:00",
+          "content_snippet": "The key to better conversations | Charles Duhigg",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Young people say their lives feel fake. Here’s why | Arthur Brooks: Full Interview",
+          "url": "https://www.youtube.com/watch?v=WP3wl1rsXjg",
+          "published": "2026-08-07T13:00:23+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-brooks-WP3wl1rsXjg Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1
-      }
+      "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -88,20 +112,29 @@
       ],
       "items": [
         {
-          "title": "Transitioning from Bottleneck to Self-Service  #DataEngineering #DataAnalytics #DataOps",
-          "url": "https://www.youtube.com/watch?v=a0kgOu4IcPs",
-          "published": "2026-08-06T13:06:14+00:00",
-          "content_snippet": "Moving away from centralized data operations isn't just about changing workflows. It's about enabling company-wide autonomy. In our latest conversation on The Data Engineering Show, Benjamin sits down with LocalStack’s Andrew Jones to explore how keeping data work tied exclusively to a small team of engineers and analysts creates a scaling bottleneck. Here’s what we uncovered: - The Traditional Stack Trap: Relying on dedicated analysts to own data collection, telemetry, and reporting end-to-end ",
-          "source_name": "The Data Engineering Show",
+          "title": "Top 3 Databricks Announcements You CANNOT Ignore (ft. Josue Bogran)",
+          "url": "https://www.youtube.com/watch?v=4dcuF_fT-yw",
+          "published": "2026-08-07T12:47:54+00:00",
+          "content_snippet": "Chapters 00:00 - Top Databricks Picks 01:15 - Lakehouse RT 02:30 - Exploring Customer Lake & CDP 03:45 - Managing Budgets with Unity AI Gateway 05:00 - Testing Omnigent for Everyday Coding 06:15 - Unity Catalog, Iceberg & Outro Resources & Documentation: 📝 Lakehouse RT: https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time 📝Unity Unity AI Gateway: https://docs.databricks.com/aws/en/ai-gateway/ 📝Omnigent: https://omnigent.ai/ Connect with the community: 🚀 Subscribe to the NextGenLake",
+          "source_name": "NextGenLakehouse",
           "source_type": "youtube",
           "area_name": "Data Platform"
         },
         {
-          "title": "Building Modern Data Platforms Without Legacy Bottlenecks ft Andrew Jones",
-          "url": "https://www.youtube.com/watch?v=sFx8IqSuxhU",
-          "published": "2026-08-06T12:57:19+00:00",
-          "content_snippet": "In this episode of The Data Engineering Show, host Benjamin Wagner sits down with Andrew Jones, Staff Data Engineer at LocalStack, to explore how data teams can transition from centralized, bottlenecked operations to scalable, self-serve platforms - while managing real-time reliability demands that now define modern data infrastructure. **Chapters:** [00:00] - Intro [00:40] - Meet Andrew Jones: Building Data Platforms at LocalStack [01:19] - What LocalStack Does: AWS and Snowflake Emulators [02:",
-          "source_name": "The Data Engineering Show",
+          "title": "My New Favorite Databricks Feature! #dataaisummit #databricks",
+          "url": "https://www.youtube.com/watch?v=WRlhI--m9WI",
+          "published": "2026-08-07T12:35:52+00:00",
+          "content_snippet": "Learn more about Lakehouse RT",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        },
+        {
+          "title": "Business Leaders Share AI Horror Stories  #databricks #dataaisummit #interview",
+          "url": "https://www.youtube.com/watch?v=eiSk_KEqZr8",
+          "published": "2026-08-07T12:15:09+00:00",
+          "content_snippet": "Unity AI Gateway https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+          "source_name": "NextGenLakehouse",
           "source_type": "youtube",
           "area_name": "Data Platform"
         }
@@ -109,10 +142,6 @@
       "errors": [
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -125,6 +154,7 @@
         }
       ],
       "deduped_sources": {
+        "The Data Engineering Show": 2,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -142,171 +172,20 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
-          "published": "2026-08-06T22:00:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an NVIDIA L4 Tensor Core GPU with 3 GB of GPU memory. Fractional GPUs give you the flexibility to right-size your containers for small-model AI inference, model experimentation, graphics rendering, and other workloads that do not require a full GPU, helping reduce infrastructure costs compared to provisi",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
-          "published": "2026-08-06T21:53:00+00:00",
-          "content_snippet": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless transition between cloud and local development environments for serverless developers using these popular IDEs. With the expanded console-to-IDE integration, developers can start from the Lambda console and follow a guided setup to begin local development in Kiro or Cursor while preser",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
-          "published": "2026-08-06T20:51:00+00:00",
-          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analysis, and speech recognition. ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AgentCore runtime instances are now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-          "published": "2026-08-06T20:00:00+00:00",
-          "content_snippet": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infrastructure to deploy and operate AI agents securely at scale. Runtime instances complement the existing microVM-based option in AgentCore runtime and give teams running sustained, resource-intensive, or specialized-hardware agents access to the breadth of EC2 instance types, while ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
-          "published": "2026-08-06T19:00:00+00:00",
-          "content_snippet": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and up to 31% better price-performance for on-demand pricing over Graviton3-based nodes of equivalent sizes on Amazon ElastiCache for Valkey, depending on node family, size, and workload configuration. Graviton4-based nodes also offer more memory per node compared to equivalent Graviton3-based nodes. As ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
-          "published": "2026-08-06T18:56:00+00:00",
-          "content_snippet": "You can now use the AWS Glue Schema Registry , a serverless and free feature of AWS Glue , in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Mexico (Central), Israel (Tel Aviv), Asia Pacific (Taipei), Canada West (Calgary) regions to validate and control the evolution of streaming data using registered Apache Avro, JSON, and Protobuf schema formats. The Schema Registry acts as a centraliz",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Transform for migrations automates post-launch actions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
-          "published": "2026-08-06T17:00:00+00:00",
-          "content_snippet": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source server across your target accounts, including multi-account migrations. Automating these actions removes the slow, error-prone work of configuring them server by server, so your team moves more servers with less hands-on effort. Post-launch actions run through AWS Systems Manager (SSM) immediately after ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Security Agent now supports email-based MFA for penetration testing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
-          "published": "2026-08-06T16:54:00+00:00",
-          "content_snippet": "AWS Security Agent (now part of AWS Continuum ) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applications requiring one-time codes or verification links sent by email were out of scope for automated pentesting because the agent had no mechanism to intercept those messages. This launch expands coverage for penetration testing customers whose target applications rely on email-based authentication. To",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS now provides visibility into storage volume initialization status",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
-          "published": "2026-08-06T16:00:00+00:00",
-          "content_snippet": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is ready to support latency-sensitive database workloads at fully provisioned performance. When you restore a database instance to a point-in-time, or create a read replica creation, or convert from Single-AZ to Multi-AZ conversion, Amazon RDS creates storage volumes from a snapshot. T",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
-          "published": "2026-08-06T15:00:00+00:00",
-          "content_snippet": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span network performance, compute and storage resource utilization, and session lifecycle events — all available at no additional cost. With these metrics, administrators can proactively identify and troubleshoot issues that impact end-user experience. For example, TCP retransmission ra",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
-          "published": "2026-08-06T22:58:00+00:00",
-          "content_snippet": "When you move AI agents from prototype to production, the infrastructure challenges multiply. Your agents need to persist state across multi-step workflows that run for hours or days. They need to coordinate with other agents, share context, and sometimes access GPUs for specialized tasks. Amazon Bedrock AgentCore runtime microVMs provide a fully managed environment for invocations that can run for up to 8 hours and support stateful workflows through managed session storage. Some workloads also ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What are Agentic Workflows?",
-          "url": "https://www.databricks.com/blog/agentic-workflows",
-          "published": "2026-08-06T21:36:15+00:00",
-          "content_snippet": "As organizations move beyond single-prompt AI interactions, agentic workflows are...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What is Tool Calling?",
-          "url": "https://www.databricks.com/blog/what-is-tool-calling",
-          "published": "2026-08-06T21:31:30+00:00",
-          "content_snippet": "Tool calling is the ability of an AI model to interact with external tools, APIs,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
-          "url": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
-          "published": "2026-08-06T16:00:00+00:00",
-          "content_snippet": "Today, we are releasing OfficeQA Pro V2, a new benchmark designed to evaluate whether...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
-          "url": "https://www.databricks.com/blog/kimi-k3-moonshot-ai-now-available-databricks-through-unity-ai-gateway",
-          "published": "2026-08-06T15:50:57+00:00",
-          "content_snippet": "A year ago, the best open-weight models trailed their proprietary counterparts by...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to Schedule a Weekly Metrics Report With ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=p_slDAvPjv0",
-          "published": "2026-08-06T22:29:28+00:00",
-          "content_snippet": "Stop spending hours pulling together your weekly report. In this step-by-step demo, Eunji from Data Science shows how she sets up a recurring task in ChatGPT Work. Once it’s scheduled, ChatGPT Work pulls the latest metrics, explains what changed, updates the charts, and drafts the Slack message every week—so Eunji starts each Thursday with a complete first draft ready to review. https://chatgpt.com/work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=TryfaGZwvIE",
-          "published": "2026-08-06T22:29:01+00:00",
-          "content_snippet": "Bring your spreadsheets to life with ChatGPT Work. In this demo, Kyle from Strategic Finance teaches you how to turn your data into an interactive dashboard you can use to compare scenarios and see how numbers change. The best part: you can build it in minutes, without knowing how to code. https://chatgpt.com/work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Agent Plugins",
-          "url": "https://www.youtube.com/watch?v=UaeWJK_vv-Y",
-          "published": "2026-08-06T16:13:08+00:00",
-          "content_snippet": "Introducing Agent Plugins, an open standard developed in collaboration with partners across the AI ecosystem. Bundle Agent Skills and supported MCP server configurations into plugins you can use across ChatGPT, Codex, Cursor, GitHub Copilot, Kiro, and VS Code. Get started: https://agent-plugins.org Chapters: 00:00 Why agent packaging needs a standard 00:20 Introducing Agent Plugins 00:39 Package structure, skills, and MCP servers 01:03 Portable across products 01:19 Scope and getting started",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -316,7 +195,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 3
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -331,28 +212,46 @@
       ],
       "items": [
         {
-          "title": "Local Models: Trust, Control, Optimization — Carter Abdallah, NVIDIA",
-          "url": "https://www.youtube.com/watch?v=FWMJQDH3iK0",
-          "published": "2026-08-07T02:00:06+00:00",
-          "content_snippet": "When Fable was pulled back and access to frontier systems stopped looking guaranteed, Lucas Atkins watched enterprises move to Chinese open models, not because they scored better but because availability could be counted on. That is his working definition of trust, and he separates it hard from safety: an open model is a directory of files you can inspect, running on code you can read, while the same claim about a closed API is unverifiable by construction. Arcee's response was to reorient the w",
+          "title": "Realtime multiplayer, automation, and you! — Idan Gazit, GitHub",
+          "url": "https://www.youtube.com/watch?v=iQ5xldZ9StU",
+          "published": "2026-08-08T21:30:06+00:00",
+          "content_snippet": "Idan Gazit's personal site runs on Astro, which ships often enough to keep him permanently on the upgrade treadmill, so he wrote an agentic workflow in about three lines of plain English, the kind of message you would send a teammate. Copilot expanded it into a full playbook: check for new releases, read the changelog and upgrade guide, apply the changes, open a pull request. It then carried him from Astro 5 to Astro 7, two major versions at once, found and fixed the code that broke, verified th",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Compression at the Edge — NVIDIA, Unsloth, HuggingFace, Ollama",
-          "url": "https://www.youtube.com/watch?v=J4_jCrTxMkk",
-          "published": "2026-08-07T01:00:06+00:00",
-          "content_snippet": "Quantize a single number in a model and it gets 20% dumber. That finding, from the super weights paper, is why Daniel Han's claim is less absurd than it sounds: GLM 5.2 goes from 1.5 terabytes to 250 GB, 86% smaller, without being 86% dumber. Layers are wildly unequal. The first and last carry enormous weight, the middle ones barely matter, and a model trained on 30 trillion tokens never saturates its parameters, so many sit near zero and can simply be set there. Choosing which layers stay in hi",
+          "title": "Benchmarking Coding Agents on New vs Legacy Codebases — Denys Linkov, Wisedocs",
+          "url": "https://www.youtube.com/watch?v=7vn4WpqNpck",
+          "published": "2026-08-08T19:00:06+00:00",
+          "content_snippet": "Wisedocs processes medical claims that arrive as PDFs over 10,000 pages long, some of them larger than video files, through a pipeline of ML models spread across ten repositories nobody enjoyed touching. Denys Linkov's team spent six months collapsing that into a monorepo, and this talk is an honest audit of whether they should have just waited for the models to get good enough to do it for them. The benchmark he keeps coming back to is a single refactor task. With o3 it took three hours of back",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The State of Model Routing — NVIDIA, Cognition, OpenRouter",
-          "url": "https://www.youtube.com/watch?v=QHBjufYK8TA",
-          "published": "2026-08-06T17:07:24+00:00",
-          "content_snippet": "Run terminal bench on Opus and on Haiku and Opus scores about three times better at a tenth of the cost, even though Haiku is far cheaper per token. Alex Atallah's point is that a small model pushed outside its training distribution thrashes, calling tools in loops until it costs more than the expensive model ever would. That inverts the obvious version of model routing, where you send each task to whichever model benchmarks best on it. Walden Yan calls that approach fragile for exactly the reas",
+          "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley",
+          "url": "https://www.youtube.com/watch?v=Z-c11pV_uvU",
+          "published": "2026-08-08T16:00:06+00:00",
+          "content_snippet": "The Claude Certified Architect exam hands you six production scenarios and picks four at random, and Frank Coyle walks through them backwards, leading with the anti pattern in each one. Knowing what not to do is what points you toward what to do, the same way the design patterns movement of the early 1990s came with a catalog of the moves that quietly ruin you. Scenario one is a customer support loop, and the anti pattern is calling the model, taking the response, and using it. What you want ins",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The New Primitives: Building AI Native Software — Kwindla Kramer, Daily",
+          "url": "https://www.youtube.com/watch?v=LZuWZRze3MU",
+          "published": "2026-08-07T23:53:33+00:00",
+          "content_snippet": "In 1945 Vannevar Bush described document scanning, OCR, speech to text, hypertext, search engines, a head mounted camera, and voice interfaces, in a single essay, before any of it existed. Kwindla Hultman Kramer uses As We May Think to set up the uncomfortable part: he was a baby programmer in 1995 writing HTML by hand and web servers in C, as excited about web pages then as he is about agents now. Web pages turned out to be a primitive, not a destination. His argument is that agents are the web",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Open Source Is Dead. Long Live Open Source. — Saoud Rizwan, Cline",
+          "url": "https://www.youtube.com/watch?v=CoEIs6Xm8m8",
+          "published": "2026-08-07T23:26:51+00:00",
+          "content_snippet": "A compromised release of litellm, a Python package pulling three and a half million downloads a day, sat live for three hours installing a credential harvester for API keys, SSH keys and crypto keys along with a backdoor for remote command execution. It was caught by pure luck: the malware had a bug that crashed Cursor, and a researcher went looking. Saoud Rizwan uses it to mark how far the trust model has fallen. Zig's code of conduct now bans AI from pull requests, issues and even comments, be",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -362,5 +261,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 12
+  "deduped_count": 13
 }
