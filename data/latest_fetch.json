@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T10:14:15Z",
+  "fetched_at": "2026-08-10T10:46:06Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
-          "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
-          "published": "2026-08-07T16:01:02+00:00",
-          "content_snippet": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC execution API Authors: Nilesh Mishra and Ajit Koti This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle billions of nodes and edges while maint",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Pragmatic Engineer",
@@ -38,6 +28,7 @@
         }
       ],
       "deduped_sources": {
+        "Netflix Tech Blog": 1,
         "Meta Engineering": 2
       }
     },
@@ -63,42 +54,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "The Art Of Doing Anything Exceptionally Well!",
-          "url": "https://www.youtube.com/watch?v=7GWxTfvPBZY",
-          "published": "2026-08-07T16:59:05+00:00",
-          "content_snippet": "Talent gets you noticed. Repetition gets you remembered. The people we call gifted are usually just people who never stopped doing the boring part. Hokusai signed his work \"old man mad about painting\" in his 70s, still convinced he hadn't peaked. Mastery isn't a finish line. It's a relationship with the basics that never ends. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The key to better conversations | Charles Duhigg",
-          "url": "https://www.youtube.com/watch?v=sfe0mExhnEg",
-          "published": "2026-08-07T16:07:01+00:00",
-          "content_snippet": "The key to better conversations | Charles Duhigg",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Young people say their lives feel fake. Here’s why | Arthur Brooks: Full Interview",
-          "url": "https://www.youtube.com/watch?v=WP3wl1rsXjg",
-          "published": "2026-08-07T13:00:23+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-brooks-WP3wl1rsXjg Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -110,36 +76,12 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Top 3 Databricks Announcements You CANNOT Ignore (ft. Josue Bogran)",
-          "url": "https://www.youtube.com/watch?v=4dcuF_fT-yw",
-          "published": "2026-08-07T12:47:54+00:00",
-          "content_snippet": "Chapters 00:00 - Top Databricks Picks 01:15 - Lakehouse RT 02:30 - Exploring Customer Lake & CDP 03:45 - Managing Budgets with Unity AI Gateway 05:00 - Testing Omnigent for Everyday Coding 06:15 - Unity Catalog, Iceberg & Outro Resources & Documentation: 📝 Lakehouse RT: https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time 📝Unity Unity AI Gateway: https://docs.databricks.com/aws/en/ai-gateway/ 📝Omnigent: https://omnigent.ai/ Connect with the community: 🚀 Subscribe to the NextGenLake",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "My New Favorite Databricks Feature! #dataaisummit #databricks",
-          "url": "https://www.youtube.com/watch?v=WRlhI--m9WI",
-          "published": "2026-08-07T12:35:52+00:00",
-          "content_snippet": "Learn more about Lakehouse RT",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "Business Leaders Share AI Horror Stories  #databricks #dataaisummit #interview",
-          "url": "https://www.youtube.com/watch?v=eiSk_KEqZr8",
-          "published": "2026-08-07T12:15:09+00:00",
-          "content_snippet": "Unity AI Gateway https://www.databricks.com/blog/unity-ai-gateway-generally-available",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
@@ -154,7 +96,7 @@
         }
       ],
       "deduped_sources": {
-        "The Data Engineering Show": 2,
+        "NextGenLakehouse": 3,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -191,13 +133,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "OpenAI",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -212,46 +156,37 @@
       ],
       "items": [
         {
-          "title": "Realtime multiplayer, automation, and you! — Idan Gazit, GitHub",
-          "url": "https://www.youtube.com/watch?v=iQ5xldZ9StU",
-          "published": "2026-08-08T21:30:06+00:00",
-          "content_snippet": "Idan Gazit's personal site runs on Astro, which ships often enough to keep him permanently on the upgrade treadmill, so he wrote an agentic workflow in about three lines of plain English, the kind of message you would send a teammate. Copilot expanded it into a full playbook: check for new releases, read the changelog and upgrade guide, apply the changes, open a pull request. It then carried him from Astro 5 to Astro 7, two major versions at once, found and fixed the code that broke, verified th",
+          "title": "Multiplayer agentic engineering — Arjun Singh, Superconductor",
+          "url": "https://www.youtube.com/watch?v=OL7kfezynJM",
+          "published": "2026-08-09T20:30:34+00:00",
+          "content_snippet": "Superconductor left a meeting bot sitting in a Google Meet at their expo booth for four hours, just listening. Someone passing through said they wanted coding agents to have clear acceptance criteria before declaring work finished. Nobody filed a ticket. The bot picked the idea out of the conversation, opened one itself, started working, and added two acceptance criteria fields to the product's own ticket form, then produced a screenshot when asked. Arjun Singh is not pretending that change ship",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Benchmarking Coding Agents on New vs Legacy Codebases — Denys Linkov, Wisedocs",
-          "url": "https://www.youtube.com/watch?v=7vn4WpqNpck",
-          "published": "2026-08-08T19:00:06+00:00",
-          "content_snippet": "Wisedocs processes medical claims that arrive as PDFs over 10,000 pages long, some of them larger than video files, through a pipeline of ML models spread across ten repositories nobody enjoyed touching. Denys Linkov's team spent six months collapsing that into a monorepo, and this talk is an honest audit of whether they should have just waited for the models to get good enough to do it for them. The benchmark he keeps coming back to is a single refactor task. With o3 it took three hours of back",
+          "title": "Guide, Verify, Solve — Anirban Chatterjee, Sonar",
+          "url": "https://www.youtube.com/watch?v=03l29gJXpCE",
+          "published": "2026-08-09T17:45:13+00:00",
+          "content_snippet": "A Carnegie Mellon study sorted GitHub projects by whether an AI tool wrote the code, and found the productivity gain ran out after about three months while the static analysis warnings and the added complexity stayed. That residue is verification debt, and how much it costs scales with criticality: a short lived internal tool can live with the gap between the quality a model gives you and the quality the application needs, a large codebase with adversarial users cannot. The obvious backstop is h",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley",
-          "url": "https://www.youtube.com/watch?v=Z-c11pV_uvU",
-          "published": "2026-08-08T16:00:06+00:00",
-          "content_snippet": "The Claude Certified Architect exam hands you six production scenarios and picks four at random, and Frank Coyle walks through them backwards, leading with the anti pattern in each one. Knowing what not to do is what points you toward what to do, the same way the design patterns movement of the early 1990s came with a catalog of the moves that quietly ruin you. Scenario one is a customer support loop, and the anti pattern is calling the model, taking the response, and using it. What you want ins",
+          "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster — Matt Dailey, Ref.",
+          "url": "https://www.youtube.com/watch?v=Kz4QJmNrVXU",
+          "published": "2026-08-09T16:30:28+00:00",
+          "content_snippet": "A newsletter writer walked Matt Dailey through an agentic pipeline good enough to amplify their own voice instead of flattening it, then mentioned they were now effectively writing a book every week. Dailey asked whether the audience was reading a book every week. They were not. Those pages go unread, and that gap is what he calls velocity sickness: the stress of a sudden output increase that delivers output without impact. On engineering teams it arrives as too many pull requests to merge, work",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The New Primitives: Building AI Native Software — Kwindla Kramer, Daily",
-          "url": "https://www.youtube.com/watch?v=LZuWZRze3MU",
-          "published": "2026-08-07T23:53:33+00:00",
-          "content_snippet": "In 1945 Vannevar Bush described document scanning, OCR, speech to text, hypertext, search engines, a head mounted camera, and voice interfaces, in a single essay, before any of it existed. Kwindla Hultman Kramer uses As We May Think to set up the uncomfortable part: he was a baby programmer in 1995 writing HTML by hand and web servers in C, as excited about web pages then as he is about agents now. Web pages turned out to be a primitive, not a destination. His argument is that agents are the web",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Open Source Is Dead. Long Live Open Source. — Saoud Rizwan, Cline",
-          "url": "https://www.youtube.com/watch?v=CoEIs6Xm8m8",
-          "published": "2026-08-07T23:26:51+00:00",
-          "content_snippet": "A compromised release of litellm, a Python package pulling three and a half million downloads a day, sat live for three hours installing a credential harvester for API keys, SSH keys and crypto keys along with a backdoor for remote command execution. It was caught by pure luck: the malware had a bug that crashed Cursor, and a researcher went looking. Saoud Rizwan uses it to mark how far the trust model has fallen. Zig's code of conduct now bans AI from pull requests, issues and even comments, be",
+          "title": "Always-on agents run production without the on-call tax — Justin Smith, Resolve AI",
+          "url": "https://www.youtube.com/watch?v=vSx5IULvBns",
+          "published": "2026-08-09T14:45:06+00:00",
+          "content_snippet": "Someone drops a GitHub release tag into Slack and the agent decides on its own that this is a deploy worth watching. It reads what actually changed, works out which telemetry would expose trouble for that particular change, and writes a check plan for this release alone: checkout is replacing the currency service, so watch checkout latency and error rates, then follow the causal chain into the Kafka pipeline. None of the timing is hardcoded. It can decide to look again in an hour because this cl",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -261,5 +196,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 13
+  "deduped_count": 15
 }
