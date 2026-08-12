@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T10:31:10Z",
+  "fetched_at": "2026-08-12T10:40:42Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,12 +12,18 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Even nuclear power plants don't formally verify software",
+          "url": "https://www.youtube.com/watch?v=0IYIbu69NSA",
+          "published": "2026-08-11T16:00:36+00:00",
+          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
@@ -56,20 +62,11 @@
       ],
       "items": [
         {
-          "title": "Here’s 100 years of creativity advice in 30 seconds!",
-          "url": "https://www.youtube.com/watch?v=zZ2_ZtkCCFY",
-          "published": "2026-08-10T15:17:37+00:00",
+          "title": "These 3 TED talks could change your life.",
+          "url": "https://www.youtube.com/watch?v=71kdFvi5JH4",
+          "published": "2026-08-11T15:36:05+00:00",
           "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
           "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "What quietly destroys love | John Gottman",
-          "url": "https://www.youtube.com/watch?v=4RphHwripWg",
-          "published": "2026-08-10T16:04:27+00:00",
-          "content_snippet": "What quietly destroys love | John Gottman",
-          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -80,7 +77,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -135,124 +134,128 @@
       ],
       "items": [
         {
-          "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
-          "published": "2026-08-10T23:08:00+00:00",
-          "content_snippet": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning efficient image generation decoding and unified multimodal understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. FLUX.2-small-decoder is optimized for faster image decoding with lower VRAM usag",
+          "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+          "published": "2026-08-11T22:03:00+00:00",
+          "content_snippet": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to R7a instances. R8a instances deliver 45% more memory bandwidth compared to R7a instances, making these instances ideal for latency sensitive workloads. Compared to Amazon EC2 R7a instances, R8a instances pr",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
-          "published": "2026-08-10T23:05:00+00:00",
-          "content_snippet": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning semantic caching optimization, code-focused reasoning, and end-to-end document OCR, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. langcache-embed-v3-small is optim",
+          "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+          "published": "2026-08-11T20:25:00+00:00",
+          "content_snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock now supports cost allocation by AWS Identity and Access Management (IAM) principal, including IAM users and roles, for model inference requests made through the bedrock-mantle endpoint. This extends the capability previously available for the bedrock-runtime endpoint, help",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-          "published": "2026-08-10T23:02:00+00:00",
-          "content_snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwid",
+          "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
+          "published": "2026-08-11T15:22:00+00:00",
+          "content_snippet": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning visual grounding, agent environment simulation, and large-scale multimodal reasoning, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
-          "published": "2026-08-10T23:02:00+00:00",
-          "content_snippet": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning long-horizon agentic engineering, efficient hybrid reasoning, and advanced document understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. GLM-5.2 FP8 is optimized for long-horizon tasks and",
+          "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
+          "published": "2026-08-11T15:21:00+00:00",
+          "content_snippet": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task execution. Nemotron 3.5 Lightning is engineered for persistent agents and high-throughput enterprise automation across domains including personal assistants, financial document processing, cybersecurity triage, and telecom operations. Built on a hybrid Mixture-of-Experts (MoE) architecture with 30B total p",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
-          "published": "2026-08-10T21:15:00+00:00",
-          "content_snippet": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No application changes are required. Capturing shader caches can help reduce loading times and visual stuttering, during the session. With service-managed shader caching, you designate a stream session for capture and run your application to generate ",
+          "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
+          "published": "2026-08-11T14:57:00+00:00",
+          "content_snippet": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quality checks, and building data pipelines in SageMaker Unified Studio with a single click. This new integration helps customers who already work in the Glue console access data and AI capabilities in SageMaker Unified Studio. With this launch, SageMaker Unified Studio can now be accessed by a single cl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 introduces application status checks",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
-          "published": "2026-08-10T17:47:00+00:00",
-          "content_snippet": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 monitors applications to detect issues such as a web server that has stopped accepting requests, a Docker daemon that is not running, an incorrect networking configuration, or a network interface that is no longer passing traffic. Customers rely on EC2 status checks today to receive alerts when an insta",
+          "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+          "published": "2026-08-11T14:57:00+00:00",
+          "content_snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly from the AWS console without writing any custom rotation code. For Jenkins, Secrets Manager mints a new token and revokes the old one only after the replacement is verified active, so your continuous integration and continuous delivery (CI/CD) jobs transition without interruption. Rotation supports ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
-          "published": "2026-08-10T15:51:00+00:00",
-          "content_snippet": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multiple collections and enable them to share OpenSearch Compute Units (OCUs), even when the collections are encrypted with different AWS KMS keys. With this higher limit, you can consolidate significantly more collections into a single collection group and manage them under a shared set of capacity limi",
+          "title": "Amazon Connect Customer launches performance dashboard for Cases",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
+          "published": "2026-08-11T13:30:00+00:00",
+          "content_snippet": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Managers can compare current and prior-period performance across metrics such as cases created, average resolution time, first-contact resolution percentage, and SLA achievement rate. They can also analyze trends across dimensions such as case template, assigned user, or assigned queue. For example, a man",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
-          "published": "2026-08-10T13:00:00+00:00",
-          "content_snippet": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode, which could require extra configuration after recovery. Now your recovered Linux instances launch with the same UEFI boot mode as your source servers. This means your recovery instances more closely match your source environment, so applications that depend on UEFI boot behavior come back exactly ",
+          "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+          "published": "2026-08-11T12:00:00+00:00",
+          "content_snippet": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses , offering customers greater optimization and troubleshooting capabilities. With this launch, you can export privacy-enhanced analysis logs to an S3 bucket for SQL queries that ran in an AWS Clean Rooms collaboration, providing insight into Spark execution details that can help you optimize and troubleshoot your queries. Collaboration owners grant a member the ability to export analysis logs when they create a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
-          "published": "2026-08-10T15:45:03+00:00",
-          "content_snippet": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions with internal AWS product and service teams. Day 1 started with an inspiring fireside chat from AWS CEO Matt Garman. From",
-          "source_name": "AWS Blog",
+          "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
+          "published": "2026-08-11T08:54:00+00:00",
+          "content_snippet": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version. MariaDB 12.3 includes Oracle TO_DATE() function compatibility, reducing the code changes needed when migrating applications from Oracle to MariaDB. It adds an IS JSON predicate, so you can validate JSON documents natively in the database rather than in application code. The query optimizer now handles reor",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to ground Genie Agents in both structured data and documents without losing governance",
-          "url": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
-          "published": "2026-08-10T23:08:50+00:00",
-          "content_snippet": "Building an agent to automate simple business tasks can be easy. But creating one...",
+          "title": "The Future of Data Analytics: Why AI is rewriting the Analyst’s Job Description",
+          "url": "https://www.databricks.com/blog/future-data-analytics-why-ai-rewriting-analysts-job-description",
+          "published": "2026-08-12T13:00:00+00:00",
+          "content_snippet": "The Data Analyst role has been declared dead more times than we can count. AI will...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Innocent until combined: Blocking the lethal trifecta with Omnigent Contextual Policies",
-          "url": "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies",
-          "published": "2026-08-10T18:30:00+00:00",
-          "content_snippet": "In earlier posts, we introduced contextual policies in Omnigent, showed them blocking...",
+          "title": "Taking AUTO CDC to the next level: Solving the hardest real-world use cases",
+          "url": "https://www.databricks.com/blog/taking-auto-cdc-next-level-solving-hardest-real-world-use-cases",
+          "published": "2026-08-11T23:00:00+00:00",
+          "content_snippet": "Change data capture is one of the most common things data engineers build on Spark...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing FILE type: a native column type for multimodal data",
-          "url": "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data",
-          "published": "2026-08-10T15:00:00+00:00",
-          "content_snippet": "Your data estate holds far more than structured tables, metrics, and transaction...",
+          "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
+          "url": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
+          "published": "2026-08-11T19:00:00+00:00",
+          "content_snippet": "Most code at Databricks is now written by agents. For the moments engineers still...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently",
-          "url": "https://www.youtube.com/watch?v=OEkxKdhtQng",
-          "published": "2026-08-10T13:33:42+00:00",
-          "content_snippet": "Model ML is solving the “last-mile problem” in finance, carrying asks from research to analysis to a finished PowerPoint deck or Excel workbook with traceable sources. When Model ML tested GPT‑5.6 Sol in its Composite, the results “blew every metric out the water,” says Co-founder and CEO Chaz Englander: ⚡ 21% fewer tokens per PowerPoint deck than Fable 5 ✅ A 16.6 percentage-point lead over Opus 5 on decks ready for substantive review 📊 36% fewer tokens per Excel workbook than Opus 5 Watch Engla",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
+          "url": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
+          "published": "2026-08-11T12:30:00+00:00",
+          "content_snippet": "In a volatile macroeconomic environment, enterprise risk management today is constrained...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -262,7 +265,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -277,28 +282,10 @@
       ],
       "items": [
         {
-          "title": "Agents, codebases, and teams — Aditya Khandelwal, Amazon AGI Lab",
-          "url": "https://www.youtube.com/watch?v=aeTb5BdmTTc",
-          "published": "2026-08-11T00:03:17+00:00",
-          "content_snippet": "Leave agent adoption to individuals and the engineer shipping two PRs a day ends up reviewing the ten that the early adopter ships. They fall further behind, the code they are reading is worse, and they conclude the agents are the problem. Aditya Khandelwal's argument, from leading a team of ten through this, is that adoption is therefore a leadership problem and not an IC one, because the changes that actually work, restructuring a codebase for progressive disclosure and converging on a shared ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Taking Reinforcement Learning Cross Datacenter — Nan Jiang, Modal",
-          "url": "https://www.youtube.com/watch?v=maRzp4kImJ4",
-          "published": "2026-08-10T17:30:30+00:00",
-          "content_snippet": "A frontier scale checkpoint is around 500 GB, so shipping one to a rollout fleet in another region takes minutes to hours and kills any hope of weight updates landing in seconds. Nan Jiang's claim is that you can send roughly 500 MB instead and have the rollout engine reconstruct a bitwise identical weights version. Fewer than 1% of rollout visible weights actually change between consecutive versions, and the reason is not that gradients are sparse. Gradients are dense, about 99% of parameters g",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
-          "url": "https://www.youtube.com/watch?v=shRR1e2HXMk",
-          "published": "2026-08-10T16:00:06+00:00",
-          "content_snippet": "Once GPT 5.3 Codex Spark started serving a thousand tokens per second on Cerebras, inference stopped being the bottleneck and the network became it. The answer was websocket mode: a persistent connection replacing server sent events over HTTP, carrying stateful context so a turn ships back only the tool call result instead of resending every item. The same pressure shapes context construction, which fights size, flexibility and cachability at once. Tools can be marked deferred so they never ente",
+          "title": "Evolution of agentic surfaces — Gagan Bhat & Isabella Kai He, Anthropic",
+          "url": "https://www.youtube.com/watch?v=K0X9QDRkIdg",
+          "published": "2026-08-11T16:00:06+00:00",
+          "content_snippet": "Sonnet 4.5 developed what Anthropic's Applied AI team came to call context anxiety: approaching its context window limit, it would wrap work up early and stop with room to spare. They built context resets into the harness to compensate. Then Opus 4.5 shipped without the behavior, and the fix turned into pure overhead, adding latency and discarding cache it should have kept. That is the principle Gagan Bhat and Isabella Kai He build the whole session on: a harness encodes assumptions about what t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -308,5 +295,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 13
 }
