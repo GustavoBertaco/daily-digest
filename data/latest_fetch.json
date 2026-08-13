@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T10:40:42Z",
+  "fetched_at": "2026-08-13T10:41:57Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,28 +14,41 @@
       ],
       "items": [
         {
-          "title": "Even nuclear power plants don't formally verify software",
-          "url": "https://www.youtube.com/watch?v=0IYIbu69NSA",
-          "published": "2026-08-11T16:00:36+00:00",
-          "content_snippet": "with Hillel Wayne, Formal Methods Consultant and Software Historian. See the full episode on The Pragmatic Engineer Podcast",
+          "title": "Stop being skeptical about AI for development with Charity Majors",
+          "url": "https://www.youtube.com/watch?v=HC8T1OlgYi0",
+          "published": "2026-08-12T16:42:30+00:00",
+          "content_snippet": "In 2025, it was rational to be skeptical about AI, but in 2026 it’s clear that AI is changing all of the industry, and there’s less and less place for skepticism. This take is from one of my favorite voices in software reliability and observability: Charity Majors, CTO and cofounder of Honeycomb, co-author of Observability Engineering. (Note: the second edition of Observability Engineering is out, and it’s pretty much a full rewrite of the book, I recommend grabbing it if you’re building reliabl",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
+          "url": "https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137?source=rss----53c7c27702d5---4",
+          "published": "2026-08-12T17:01:04+00:00",
+          "content_snippet": "Rebuilding login and signup surfaced product insights, not just technical challenges. Here’s how we designed Flexible Authentication at the intersection of product intuition and technical architecture. By : Jose Santos , Mike Barry For Airbnb, logins at irregular intervals are normal. A guest books a trip in January and may not open the app again until summer. A host checks back only when a reservation comes in, and may be busy with other activities when it does. For a two-sided marketplace wher",
+          "source_name": "Airbnb Tech",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
+          "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
+          "published": "2026-08-12T13:00:28+00:00",
+          "content_snippet": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecting people’s personal messages with end-to-end encryption. Today, we’re sharing an early look at Scam Alert, a new, optional feature that runs an on-device machine learning model to alert a user about potential scam messa",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
-        {
-          "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1,
-        "Meta Engineering": 1
+        "Netflix Tech Blog": 1
       }
     },
     {
@@ -62,11 +75,11 @@
       ],
       "items": [
         {
-          "title": "These 3 TED talks could change your life.",
-          "url": "https://www.youtube.com/watch?v=71kdFvi5JH4",
-          "published": "2026-08-11T15:36:05+00:00",
-          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
-          "source_name": "Daniel Pink",
+          "title": "The richest thing you will ever own | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=misZqGOStII",
+          "published": "2026-08-12T16:06:47+00:00",
+          "content_snippet": "The richest thing you will ever own | Giulia Enders",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -78,7 +91,7 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 1
+        "Daniel Pink": 2
       }
     },
     {
@@ -91,7 +104,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Real-Time Data Engineering with Apache Spark Structured Streaming",
+          "url": "https://www.youtube.com/watch?v=8Cucqw7k_Qg",
+          "published": "2026-08-12T11:49:13+00:00",
+          "content_snippet": "What happens when your trusty batch pipelines aren't fast enough anymore and the business demands real-time insights? In this episode, we sit down with Subhadip Chanda (Forward Deployed Engineer at Databricks) and Harsha Pasala (Specialist Solutions Architect at Databricks), co-authors of Real-Time Analytics with Apache Spark Structured Streaming. Together, we chart the full journey of a batch data engineer forced into the world of streamingfrom shifting mindsets and tackling out-of-order data t",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -99,10 +122,6 @@
         },
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -115,7 +134,7 @@
         }
       ],
       "deduped_sources": {
-        "The Analytics Engineering Podcast": 1
+        "The Analytics Engineering Podcast": 2
       }
     },
     {
@@ -134,120 +153,102 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
-          "published": "2026-08-11T22:03:00+00:00",
-          "content_snippet": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to R7a instances. R8a instances deliver 45% more memory bandwidth compared to R7a instances, making these instances ideal for latency sensitive workloads. Compared to Amazon EC2 R7a instances, R8a instances pr",
+          "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+          "published": "2026-08-12T22:00:00+00:00",
+          "content_snippet": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had to scan through a list of AWS locations in AWS Global View. With this new capability, customers can toggle between the interactive map view and the existing list view, making it easier to visualize their global AWS infrastructure footprint. When customers select the map view, they will see all AWS Reg",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-          "published": "2026-08-11T20:25:00+00:00",
-          "content_snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock now supports cost allocation by AWS Identity and Access Management (IAM) principal, including IAM users and roles, for model inference requests made through the bedrock-mantle endpoint. This extends the capability previously available for the bedrock-runtime endpoint, help",
+          "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+          "published": "2026-08-12T18:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager creates a default role on your behalf, or reuses one that already exists in your account if it already matches the required permissions. You can enable or disable role manager at any time, as well as inspect the AWS-managed templates that role manage",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
-          "published": "2026-08-11T15:22:00+00:00",
-          "content_snippet": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning visual grounding, agent environment simulation, and large-scale multimodal reasoning, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI ",
+          "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+          "published": "2026-08-12T18:00:00+00:00",
+          "content_snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod placement strategies to improve resource utilization, adjust how quickly horizontal pod autoscaling responds to changes in demand, set resource lifecycle parameters such as event retention duration, and more. Cluster administrators now have more control over Kubernetes control plane parameters beyo",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
-          "published": "2026-08-11T15:21:00+00:00",
-          "content_snippet": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task execution. Nemotron 3.5 Lightning is engineered for persistent agents and high-throughput enterprise automation across domains including personal assistants, financial document processing, cybersecurity triage, and telecom operations. Built on a hybrid Mixture-of-Experts (MoE) architecture with 30B total p",
+          "title": "Amazon Quick adds deny by default for custom permissions",
+          "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+          "published": "2026-08-12T17:15:00+00:00",
+          "content_snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those use",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
-          "published": "2026-08-11T14:57:00+00:00",
-          "content_snippet": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quality checks, and building data pipelines in SageMaker Unified Studio with a single click. This new integration helps customers who already work in the Glue console access data and AI capabilities in SageMaker Unified Studio. With this launch, SageMaker Unified Studio can now be accessed by a single cl",
+          "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+          "published": "2026-08-12T17:15:00+00:00",
+          "content_snippet": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant context. For example, an agent familiar with a customer’s issue can assign the callback to themselves, avoiding another handoff and helping resolve the issue faster. This feature is available in all AWS Regions where Amazon Connect Customer is available. ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
-          "published": "2026-08-11T14:57:00+00:00",
-          "content_snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly from the AWS console without writing any custom rotation code. For Jenkins, Secrets Manager mints a new token and revokes the old one only after the replacement is verified active, so your continuous integration and continuous delivery (CI/CD) jobs transition without interruption. Rotation supports ",
+          "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+          "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
+          "published": "2026-08-12T17:09:00+00:00",
+          "content_snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT administrators and security teams can apply their existing Purview sensitivity labels to automatically control how files are handled in Quick capabilities such as chat, spaces, and knowledge bases. Administrators can configure enforcement actions (block,",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer launches performance dashboard for Cases",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
-          "published": "2026-08-11T13:30:00+00:00",
-          "content_snippet": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Managers can compare current and prior-period performance across metrics such as cases created, average resolution time, first-contact resolution percentage, and SLA achievement rate. They can also analyze trends across dimensions such as case template, assigned user, or assigned queue. For example, a man",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
-          "published": "2026-08-11T12:00:00+00:00",
-          "content_snippet": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses , offering customers greater optimization and troubleshooting capabilities. With this launch, you can export privacy-enhanced analysis logs to an S3 bucket for SQL queries that ran in an AWS Clean Rooms collaboration, providing insight into Spark execution details that can help you optimize and troubleshoot your queries. Collaboration owners grant a member the ability to export analysis logs when they create a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
-          "published": "2026-08-11T08:54:00+00:00",
-          "content_snippet": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version. MariaDB 12.3 includes Oracle TO_DATE() function compatibility, reducing the code changes needed when migrating applications from Oracle to MariaDB. It adds an IS JSON predicate, so you can validate JSON documents natively in the database rather than in application code. The query optimizer now handles reor",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The Future of Data Analytics: Why AI is rewriting the Analyst’s Job Description",
-          "url": "https://www.databricks.com/blog/future-data-analytics-why-ai-rewriting-analysts-job-description",
-          "published": "2026-08-12T13:00:00+00:00",
-          "content_snippet": "The Data Analyst role has been declared dead more times than we can count. AI will...",
+          "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
+          "url": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+          "published": "2026-08-12T20:00:00+00:00",
+          "content_snippet": "SummaryDatabricks' serverless platform launches tens of millions of VMs daily, and...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Taking AUTO CDC to the next level: Solving the hardest real-world use cases",
-          "url": "https://www.databricks.com/blog/taking-auto-cdc-next-level-solving-hardest-real-world-use-cases",
-          "published": "2026-08-11T23:00:00+00:00",
-          "content_snippet": "Change data capture is one of the most common things data engineers build on Spark...",
+          "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
+          "url": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
+          "published": "2026-08-12T19:45:00+00:00",
+          "content_snippet": "\"Every new trainset is a data-generating asset. The intelligence platform that connects...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
-          "url": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
-          "published": "2026-08-11T19:00:00+00:00",
-          "content_snippet": "Most code at Databricks is now written by agents. For the moments engineers still...",
+          "title": "How a major freight railroad scaled pipeline creation with Genie Code",
+          "url": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
+          "published": "2026-08-12T16:35:18+00:00",
+          "content_snippet": "One of Canada’s largest railway networks spans roughly 20,000 route miles across...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
-          "url": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
-          "published": "2026-08-11T12:30:00+00:00",
-          "content_snippet": "In a volatile macroeconomic environment, enterprise risk management today is constrained...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "You can just launch Sites | ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=6VwIXjFj6YQ",
+          "published": "2026-08-13T08:12:53+00:00",
+          "content_snippet": "ChatGPT Work gathers context across your surfaces and helps you go from ambition to action with polished docs, slides, and sites. See how ChatGPT Work builds a structured, shareable launch hub your team can use as a single source of truth—and refine directly before sharing. Learn more about ChatGPT Work: https://openai.com/chatgpt-work/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "You can just finish the work | ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=-vvGAKtV_Ek",
+          "published": "2026-08-13T08:09:08+00:00",
+          "content_snippet": "ChatGPT Work turns your team’s notes, drafts, and ideas into finished work—while you stay in control. See how ChatGPT Work brings together launch results, recap notes, and a Slack thread to build an exec-friendly launch deck you can circulate with leadership. Learn more about ChatGPT Work: https://openai.com/chatgpt-work/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
@@ -265,9 +266,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -282,10 +281,91 @@
       ],
       "items": [
         {
-          "title": "Evolution of agentic surfaces — Gagan Bhat & Isabella Kai He, Anthropic",
-          "url": "https://www.youtube.com/watch?v=K0X9QDRkIdg",
-          "published": "2026-08-11T16:00:06+00:00",
-          "content_snippet": "Sonnet 4.5 developed what Anthropic's Applied AI team came to call context anxiety: approaching its context window limit, it would wrap work up early and stop with room to spare. They built context resets into the harness to compensate. Then Opus 4.5 shipped without the behavior, and the fix turned into pure overhead, adding latency and discarding cache it should have kept. That is the principle Gagan Bhat and Isabella Kai He build the whole session on: a harness encodes assumptions about what t",
+          "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
+          "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
+          "published": "2026-08-12T19:00:01+00:00",
+          "content_snippet": "Does your agent get dumber after the first compaction? After the second? You cannot read that off the code, only off the traces, and there are far too many to read yourself. So LangChain points agents at the traces of other agents and asks exactly that, alongside questions like where users got upset and what a different model would have done at the same step. Vivek Trivedy's argument is that observability and continual learning are the same problem in different clothing, because an agent acting ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
+          "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
+          "published": "2026-08-12T18:30:06+00:00",
+          "content_snippet": "A profile ChatGPT keeps on Shlok Khemani says he travelled to Turkey in 2025. He never has. The memory came from conversations where he was choosing between Turkey and Thailand, he went to Thailand, and the profile kept both with overlapping dates. What bothers him is not the mistake but the incuriosity: nothing notices the conflict, and the evidence to settle it was sitting in his email as flight and hotel bookings. He calls that a product problem, not a technology one. The rest is a year of re",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
+          "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
+          "published": "2026-08-12T18:00:34+00:00",
+          "content_snippet": "Build the thousand example eval suite everyone tells you to build, switch harnesses, and 80% of it stops meaning anything. Ben Hylak's complaint is that eval advice is still written for the chatbot era, back when you knew the answer to nearly every question a user would ask. His reframing is that the useful question is not what issues your agent has, since it will have effectively infinite issues, but which ones matter. That turns on the gap between your ceiling, the most impressive thing your a",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
+          "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
+          "published": "2026-08-12T17:30:06+00:00",
+          "content_snippet": "A Qwen thinking model was taking up to 80 turns to submit on SWE bench. Applied Compute wanted it wrapping up by turn 40 and got the submit tool call rate from 22% to 60% with test pass rate flat. The interesting part is the mechanism: because the rollout was conditioned on an old production trace that never called the tool, the teacher never touched the tool call tokens at all. It moved the reasoning path toward the call instead, and the call followed. Sam Denton's frame is a grid. One axis is ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
+          "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
+          "published": "2026-08-12T17:00:22+00:00",
+          "content_snippet": "Talking runs about 200 words a minute and typing does not, which is why Ben Holmes starts a knowledge base with voice dictation rather than with organization. The pipeline only works if there is enough raw material, so the capture step is deliberately sloppy: ramble into your phone after a podcast or a meeting, skip the formatting, and let agents impose structure afterward. He points at Handy and Voice Ink as local, on device options, so none of it needs a subscription. Structure then arrives in",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
+          "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
+          "published": "2026-08-12T16:30:19+00:00",
+          "content_snippet": "Fewer than five thousand people in the world know how to train a frontier model at scale, by Sara Hooker's estimate, and that knowledge travels like an apprenticeship rather than a literature. Modern computer science is 77 years old, two generations, and in that time the route to contributing at the frontier narrowed into one funnel: the right PhD, the right industry lab, the right problem at the right moment. She calls it the unreasonably narrow path, and notes it got compounded in this field b",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Intelligence + Continual Learning = Expertise — Yu Su, NeoCognition",
+          "url": "https://www.youtube.com/watch?v=I6aiEf3aEFQ",
+          "published": "2026-08-12T16:00:08+00:00",
+          "content_snippet": "Scheduling a meeting is not finding a shared slot on everyone's calendar. It is a constraint optimization over authority, priority, and urgency, and an expert sees that immediately where a very capable model does not. Yu Su uses examples like that one to separate two things the field keeps collapsing together. Intelligence is reasoning through an unfamiliar problem from the context you were handed, which frontier models keep getting better at and where each episode stands alone. Expertise is acc",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Scaling Compute on Context — Jack Morris, Engram",
+          "url": "https://www.youtube.com/watch?v=WiqDvX6isc4",
+          "published": "2026-08-12T15:30:14+00:00",
+          "content_snippet": "Train a model directly on ten thousand financial reports and you can drive the loss to 0.00001. It knows the documents perfectly. Then you generate from it and it collapses. Jack Morris uses that failure to set up the real problem. The three axes that powered the entire deep learning revolution, more data, more compute, bigger models, all run on public data. Models are superb on Wikipedia, arXiv, and GitHub, and know nothing about your emails, your meetings, or your company. Against your own cor",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Memory Harnesses for Long-Running Research Agents — Stefania Druga, Sakana.ai",
+          "url": "https://www.youtube.com/watch?v=R3-anFK1YM8",
+          "published": "2026-08-12T15:00:06+00:00",
+          "content_snippet": "On a literature review task where every paper already fit inside the context window, adding a memory harness changed nothing: the same accuracy, at higher cost. That negative result is the most useful thing in Stefania Druga's experiment, because it marks the boundary. Move to a long horizon task where the answer sits at step 124 and the question arrives at step 500, far outside the window, and the harness becomes the entire game. Her framing is that memory is a write, manage, read control loop ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Scaling up Continual Learning — Ronak Malde, Trajectory",
+          "url": "https://www.youtube.com/watch?v=zL1kLftVTlo",
+          "published": "2026-08-12T14:30:11+00:00",
+          "content_snippet": "Scale on policy self distillation to trajectories with a hundred tool calls and the model collapses into hedging. The tokens it learns to favor fill up with wait, but, and maybe, until, as Ronak Malde puts it, everything just turns into maybe. He calls it the but wait problem, and it happens because the student drifts far enough on a long task that the teacher course corrects at every opportunity, leaving the model parked between two divergent distributions. The algorithm underneath is a good tr",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -295,5 +375,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 13
+  "deduped_count": 9
 }
