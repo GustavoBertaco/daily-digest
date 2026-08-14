@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-13T10:41:57Z",
+  "fetched_at": "2026-08-14T10:37:57Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,30 +14,12 @@
       ],
       "items": [
         {
-          "title": "Stop being skeptical about AI for development with Charity Majors",
-          "url": "https://www.youtube.com/watch?v=HC8T1OlgYi0",
-          "published": "2026-08-12T16:42:30+00:00",
-          "content_snippet": "In 2025, it was rational to be skeptical about AI, but in 2026 it’s clear that AI is changing all of the industry, and there’s less and less place for skepticism. This take is from one of my favorite voices in software reliability and observability: Charity Majors, CTO and cofounder of Honeycomb, co-author of Observability Engineering. (Note: the second edition of Observability Engineering is out, and it’s pretty much a full rewrite of the book, I recommend grabbing it if you’re building reliabl",
+          "title": "Get AI on your resume. Do it now.",
+          "url": "https://www.youtube.com/watch?v=ZPY4o4BhBf0",
+          "published": "2026-08-13T16:53:21+00:00",
+          "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
-          "url": "https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137?source=rss----53c7c27702d5---4",
-          "published": "2026-08-12T17:01:04+00:00",
-          "content_snippet": "Rebuilding login and signup surfaced product insights, not just technical challenges. Here’s how we designed Flexible Authentication at the intersection of product intuition and technical architecture. By : Jose Santos , Mike Barry For Airbnb, logins at irregular intervals are normal. A guest books a trip in January and may not open the app again until summer. A host checks back only when a reservation comes in, and may be busy with other activities when it does. For a two-sided marketplace wher",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-          "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
-          "published": "2026-08-12T13:00:28+00:00",
-          "content_snippet": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we’re always evolving as well, so that our protections stay ahead of scammers while protecting people’s personal messages with end-to-end encryption. Today, we’re sharing an early look at Scam Alert, a new, optional feature that runs an on-device machine learning model to alert a user about potential scam messa",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -48,7 +30,9 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1
+        "Netflix Tech Blog": 1,
+        "Airbnb Tech": 1,
+        "Meta Engineering": 1
       }
     },
     {
@@ -73,17 +57,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "The richest thing you will ever own | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=misZqGOStII",
-          "published": "2026-08-12T16:06:47+00:00",
-          "content_snippet": "The richest thing you will ever own | Giulia Enders",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -91,7 +65,8 @@
         }
       ],
       "deduped_sources": {
-        "Daniel Pink": 2
+        "Daniel Pink": 1,
+        "Big Think": 1
       }
     },
     {
@@ -106,20 +81,16 @@
       ],
       "items": [
         {
-          "title": "Real-Time Data Engineering with Apache Spark Structured Streaming",
-          "url": "https://www.youtube.com/watch?v=8Cucqw7k_Qg",
-          "published": "2026-08-12T11:49:13+00:00",
-          "content_snippet": "What happens when your trusty batch pipelines aren't fast enough anymore and the business demands real-time insights? In this episode, we sit down with Subhadip Chanda (Forward Deployed Engineer at Databricks) and Harsha Pasala (Specialist Solutions Architect at Databricks), co-authors of Real-Time Analytics with Apache Spark Structured Streaming. Together, we chart the full journey of a batch data engineer forced into the world of streamingfrom shifting mindsets and tackling out-of-order data t",
-          "source_name": "NextGenLakehouse",
+          "title": "The Core Challenge: Building While Supporting #DataInfrastructure #PlatformEngineering #DataOps",
+          "url": "https://www.youtube.com/watch?v=KuMGjXDr_8s",
+          "published": "2026-08-13T11:00:29+00:00",
+          "content_snippet": "Data teams face a tough balancing act: building a modern platform while maintaining legacy systems. Andrew Jones from LocalStack joins The Data Engineering Show to dive into the operational reality of transitioning to self-service infrastructure without halting day-to-day business needs. The core approach behind this transition focuses on: The Migration Paradox: You cannot freeze operations for six months to build a new platform; continuous uptime remains non-negotiable. Managing Engineering Cap",
+          "source_name": "The Data Engineering Show",
           "source_type": "youtube",
           "area_name": "Data Platform"
         }
       ],
       "errors": [
-        {
-          "source_name": "The Data Engineering Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
@@ -134,7 +105,8 @@
         }
       ],
       "deduped_sources": {
-        "The Analytics Engineering Podcast": 2
+        "NextGenLakehouse": 1,
+        "The Analytics Engineering Podcast": 1
       }
     },
     {
@@ -153,100 +125,181 @@
       ],
       "items": [
         {
-          "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
-          "published": "2026-08-12T22:00:00+00:00",
-          "content_snippet": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had to scan through a list of AWS locations in AWS Global View. With this new capability, customers can toggle between the interactive map view and the existing list view, making it easier to visualize their global AWS infrastructure footprint. When customers select the map view, they will see all AWS Reg",
+          "title": "AWS Billing and Cost Management introduces Managed Dashboards",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
+          "published": "2026-08-14T02:00:00+00:00",
+          "content_snippet": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionable cost insights with your account data pre-populated without setup. There are five curated dashboards. Cost Overview & Trends tracks your spending patterns across services, accounts, and regions over 12 months with forward-looking forecasts. Compute and Database dashboards show your spend pattern wi",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS IAM now provides role manager to set up IAM roles automatically",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
-          "published": "2026-08-12T18:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager creates a default role on your behalf, or reuses one that already exists in your account if it already matches the required permissions. You can enable or disable role manager at any time, as well as inspect the AWS-managed templates that role manage",
+          "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
+          "published": "2026-08-13T20:49:00+00:00",
+          "content_snippet": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and centralize device management across your organization. The AWS VPN Client CLI provides full feature parity with the GUI. You can now script VPN connections into your automation workflows and infrastructure-as-code deployments. Previously, in",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
-          "published": "2026-08-12T18:00:00+00:00",
-          "content_snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod placement strategies to improve resource utilization, adjust how quickly horizontal pod autoscaling responds to changes in demand, set resource lifecycle parameters such as event retention duration, and more. Cluster administrators now have more control over Kubernetes control plane parameters beyo",
+          "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
+          "published": "2026-08-13T18:23:00+00:00",
+          "content_snippet": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude Opus 5 is available via the bedrock-runtime endpoint in both AWS GovCloud (US) regions, and available via the bedrock-mantle endpoint in AWS GovCloud (US-West) Claude Opus 5 delivers advances in coding, understanding and navigating codebases",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Quick adds deny by default for custom permissions",
-          "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
-          "published": "2026-08-12T17:15:00+00:00",
-          "content_snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those use",
+          "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+          "url": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
+          "published": "2026-08-13T18:00:00+00:00",
+          "content_snippet": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as redlining documents, building financial models, creating presentation-ready decks, and managing Outlook inboxes. The Excel extension helps with complex spreadsheet analysis, creating pivot tables and charts, and importing and cleaning data",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
-          "published": "2026-08-12T17:15:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant context. For example, an agent familiar with a customer’s issue can assign the callback to themselves, avoiding another handoff and helping resolve the issue faster. This feature is available in all AWS Regions where Amazon Connect Customer is available. ",
+          "title": "Spot Placement Score now includes Local Zones",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
+          "published": "2026-08-13T17:13:00+00:00",
+          "content_snippet": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and returns scores for AWS Regions or Availability Zones. Previously, Spot placement scores excluded local zone capacity information when reporting zonal and regional scores. Now, you can optionally request local zones to be included in the zonal and regiona",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-          "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
-          "published": "2026-08-12T17:09:00+00:00",
-          "content_snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT administrators and security teams can apply their existing Purview sensitivity labels to automatically control how files are handled in Quick capabilities such as chat, spaces, and knowledge bases. Administrators can configure enforcement actions (block,",
+          "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+          "published": "2026-08-13T16:12:00+00:00",
+          "content_snippet": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work. Daybreak Blue is the starting point for most security teams across defensive workflows including vulnerability discovery, detection engineering, and incident response. Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
-          "url": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
-          "published": "2026-08-12T20:00:00+00:00",
-          "content_snippet": "SummaryDatabricks' serverless platform launches tens of millions of VMs daily, and...",
+          "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+          "published": "2026-08-13T15:00:00+00:00",
+          "content_snippet": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN). Due to the Certification Authority/Browser (CA/B) Forum's mandated deprecation of email-based domain validation for publicly trusted certificates, effective March 15, 2028, ACM will phase out its support for email validation throughout 2027. ACM will no lo",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon S3 adds additional policy details to access denied error messages",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+          "published": "2026-08-13T13:00:00+00:00",
+          "content_snippet": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the exact policy responsible for a denied request and remediate the issue directly. Previously, S3 access denied error messages included the policy type and reason for denial, but when multiple policies of the same type existed, you still had to",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+          "published": "2026-08-13T12:00:00+00:00",
+          "content_snippet": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type . Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from returning results about individuals or small groups. With this launch, organizations can enforce minimum aggregation on custom SQL queries, ensuring that every row a query outputs represents at least the specified number of distinct values (e.g., user IDs). Data providers in a collaboration can specify",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
+          "url": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
+          "published": "2026-08-13T21:00:00+00:00",
+          "content_snippet": "Across Scottish Water’s Capital Investment (CI) programme, teams need fast answers...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
-          "url": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
-          "published": "2026-08-12T19:45:00+00:00",
-          "content_snippet": "\"Every new trainset is a data-generating asset. The intelligence platform that connects...",
+          "title": "What are AI Hallucinations?",
+          "url": "https://www.databricks.com/blog/ai-hallucinations",
+          "published": "2026-08-13T19:35:16+00:00",
+          "content_snippet": "AI hallucinations are outputs that sound coherent and confident but are factually wrong, fabricated...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How a major freight railroad scaled pipeline creation with Genie Code",
-          "url": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
-          "published": "2026-08-12T16:35:18+00:00",
-          "content_snippet": "One of Canada’s largest railway networks spans roughly 20,000 route miles across...",
+          "title": "Smart Routing in Unity AI Gateway: Match frontier quality with 30%+ lower cost per task",
+          "url": "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task",
+          "published": "2026-08-13T17:52:04+00:00",
+          "content_snippet": "The price and performance frontier for coding tasks features a huge diversity of models and harnesses: in 2026 alone...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "You can just launch Sites | ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=6VwIXjFj6YQ",
-          "published": "2026-08-13T08:12:53+00:00",
-          "content_snippet": "ChatGPT Work gathers context across your surfaces and helps you go from ambition to action with polished docs, slides, and sites. See how ChatGPT Work builds a structured, shareable launch hub your team can use as a single source of truth—and refine directly before sharing. Learn more about ChatGPT Work: https://openai.com/chatgpt-work/",
+          "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+          "url": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
+          "published": "2026-08-14T06:30:28+00:00",
+          "content_snippet": "What gives one of cricket’s smartest teams its edge before the first ball is bowled? Go behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, and creative work across the organization.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "You can just finish the work | ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=-vvGAKtV_Ek",
-          "published": "2026-08-13T08:09:08+00:00",
-          "content_snippet": "ChatGPT Work turns your team’s notes, drafts, and ideas into finished work—while you stay in control. See how ChatGPT Work brings together launch results, recap notes, and a Slack thread to build an exec-friendly launch deck you can circulate with leadership. Learn more about ChatGPT Work: https://openai.com/chatgpt-work/",
+          "title": "Computer History in ChatGPT",
+          "url": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
+          "published": "2026-08-13T20:34:04+00:00",
+          "content_snippet": "Codex & ChatGPT can now understand the context around what you’re working on. When you opt in to Computer History, it can help you pick up where you left off, get back to unfinished projects, and see suggested skills or scheduled tasks based on the work you do regularly. Available in the ChatGPT desktop app on Mac for ChatGPT Pro, Business, and Enterprise. If you’re on a Business or Enterprise team, your admin will need to turn it on first.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+          "url": "https://www.youtube.com/watch?v=WCwT4gWpHmI",
+          "published": "2026-08-13T17:12:37+00:00",
+          "content_snippet": "“There’s an old adage that performance can be a feature because when something becomes fast enough, it changes behavior.” Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second. OpenAI technical staff are already seeing what that speed changes. One security investigation workflow that once took one to two hours now takes 10–15 minute",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Get a daily CFO briefing with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=bl2eGejkbaU",
+          "published": "2026-08-13T13:06:22+00:00",
+          "content_snippet": "Start the day with a clear view of the decisions that matter most. ChatGPT Work brings financial performance, close status, contract risks, and market signals into one CFO briefing. See what changed, identify emerging opportunities, and prioritize decisions across the business. When a potential acquisition surfaces, ChatGPT creates an executive decision memo and an editable Excel workbook covering valuation, financial projections, transaction economics, and risk. See how ChatGPT Work can help yo",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build custom financial forecasting apps with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=94Td-y5z5rk",
+          "published": "2026-08-13T13:05:30+00:00",
+          "content_snippet": "Build an interactive financial forecast using the numbers your business already trusts. ChatGPT Work connects approved financial data from Google Drive and NetSuite, compares actuals with the latest outlook, and creates an interactive forecasting dashboard. Adjust assumptions, test scenarios, and see how different decisions could affect the business. Approved figures, proposed adjustments, and hypothetical scenarios stay clearly separate. See how ChatGPT Work can help your finance team: https://",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Reconcile quarter-end financials with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=Ljm3nHQQiSk",
+          "published": "2026-08-13T13:04:31+00:00",
+          "content_snippet": "Prepare for quarter-end close with a clear view of what changed and why. ChatGPT Work connects board materials in Google Drive with posted financial data in NetSuite. It flags variances, traces discrepancies to their source, shows the impact on the forecast, and prepares a close recommendation for Finance to review. When items need attention, ChatGPT turns them into an action plan in Slack with clear owners and next steps. See how ChatGPT Work can help your finance team: https://openai.com/busin",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to deliver board-ready reporting",
+          "url": "https://www.youtube.com/watch?v=_HCks5jkPLw",
+          "published": "2026-08-13T11:31:36+00:00",
+          "content_snippet": "Catch quarter-end mistakes before they reach your board. This is how we use ChatGPT Work to check our financial model, executive memo, and board deck against data. ChatGPT Work will flag anything that doesn’t match for our teams to check. Watch the full session for more demos here: https://openai.ondemand.goldcast.io/on-demand/cd89f13d-bd97-4b96-9261-818ffdcd2fc0",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to build custom forecasting apps",
+          "url": "https://www.youtube.com/watch?v=mOAHWk24D28",
+          "published": "2026-08-13T11:27:26+00:00",
+          "content_snippet": "Build a forecast your finance team can explore. This is how we use ChatGPT Work to bring actuals, forecast data, and business context into one interactive view—so we can test scenarios and make decisions together. Watch the full session for more demos here: https://openai.ondemand.goldcast.io/on-demand/cd89f13d-bd97-4b96-9261-818ffdcd2fc0",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -279,101 +332,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
-          "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
-          "published": "2026-08-12T19:00:01+00:00",
-          "content_snippet": "Does your agent get dumber after the first compaction? After the second? You cannot read that off the code, only off the traces, and there are far too many to read yourself. So LangChain points agents at the traces of other agents and asks exactly that, alongside questions like where users got upset and what a different model would have done at the same step. Vivek Trivedy's argument is that observability and continual learning are the same problem in different clothing, because an agent acting ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
-          "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
-          "published": "2026-08-12T18:30:06+00:00",
-          "content_snippet": "A profile ChatGPT keeps on Shlok Khemani says he travelled to Turkey in 2025. He never has. The memory came from conversations where he was choosing between Turkey and Thailand, he went to Thailand, and the profile kept both with overlapping dates. What bothers him is not the mistake but the incuriosity: nothing notices the conflict, and the evidence to settle it was sitting in his email as flight and hotel bookings. He calls that a product problem, not a technology one. The rest is a year of re",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
-          "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
-          "published": "2026-08-12T18:00:34+00:00",
-          "content_snippet": "Build the thousand example eval suite everyone tells you to build, switch harnesses, and 80% of it stops meaning anything. Ben Hylak's complaint is that eval advice is still written for the chatbot era, back when you knew the answer to nearly every question a user would ask. His reframing is that the useful question is not what issues your agent has, since it will have effectively infinite issues, but which ones matter. That turns on the gap between your ceiling, the most impressive thing your a",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
-          "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
-          "published": "2026-08-12T17:30:06+00:00",
-          "content_snippet": "A Qwen thinking model was taking up to 80 turns to submit on SWE bench. Applied Compute wanted it wrapping up by turn 40 and got the submit tool call rate from 22% to 60% with test pass rate flat. The interesting part is the mechanism: because the rollout was conditioned on an old production trace that never called the tool, the teacher never touched the tool call tokens at all. It moved the reasoning path toward the call instead, and the call followed. Sam Denton's frame is a grid. One axis is ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
-          "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
-          "published": "2026-08-12T17:00:22+00:00",
-          "content_snippet": "Talking runs about 200 words a minute and typing does not, which is why Ben Holmes starts a knowledge base with voice dictation rather than with organization. The pipeline only works if there is enough raw material, so the capture step is deliberately sloppy: ramble into your phone after a podcast or a meeting, skip the formatting, and let agents impose structure afterward. He points at Handy and Voice Ink as local, on device options, so none of it needs a subscription. Structure then arrives in",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
-          "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
-          "published": "2026-08-12T16:30:19+00:00",
-          "content_snippet": "Fewer than five thousand people in the world know how to train a frontier model at scale, by Sara Hooker's estimate, and that knowledge travels like an apprenticeship rather than a literature. Modern computer science is 77 years old, two generations, and in that time the route to contributing at the frontier narrowed into one funnel: the right PhD, the right industry lab, the right problem at the right moment. She calls it the unreasonably narrow path, and notes it got compounded in this field b",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Intelligence + Continual Learning = Expertise — Yu Su, NeoCognition",
-          "url": "https://www.youtube.com/watch?v=I6aiEf3aEFQ",
-          "published": "2026-08-12T16:00:08+00:00",
-          "content_snippet": "Scheduling a meeting is not finding a shared slot on everyone's calendar. It is a constraint optimization over authority, priority, and urgency, and an expert sees that immediately where a very capable model does not. Yu Su uses examples like that one to separate two things the field keeps collapsing together. Intelligence is reasoning through an unfamiliar problem from the context you were handed, which frontier models keep getting better at and where each episode stands alone. Expertise is acc",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Scaling Compute on Context — Jack Morris, Engram",
-          "url": "https://www.youtube.com/watch?v=WiqDvX6isc4",
-          "published": "2026-08-12T15:30:14+00:00",
-          "content_snippet": "Train a model directly on ten thousand financial reports and you can drive the loss to 0.00001. It knows the documents perfectly. Then you generate from it and it collapses. Jack Morris uses that failure to set up the real problem. The three axes that powered the entire deep learning revolution, more data, more compute, bigger models, all run on public data. Models are superb on Wikipedia, arXiv, and GitHub, and know nothing about your emails, your meetings, or your company. Against your own cor",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Memory Harnesses for Long-Running Research Agents — Stefania Druga, Sakana.ai",
-          "url": "https://www.youtube.com/watch?v=R3-anFK1YM8",
-          "published": "2026-08-12T15:00:06+00:00",
-          "content_snippet": "On a literature review task where every paper already fit inside the context window, adding a memory harness changed nothing: the same accuracy, at higher cost. That negative result is the most useful thing in Stefania Druga's experiment, because it marks the boundary. Move to a long horizon task where the answer sits at step 124 and the question arrives at step 500, far outside the window, and the harness becomes the entire game. Her framing is that memory is a write, manage, read control loop ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Scaling up Continual Learning — Ronak Malde, Trajectory",
-          "url": "https://www.youtube.com/watch?v=zL1kLftVTlo",
-          "published": "2026-08-12T14:30:11+00:00",
-          "content_snippet": "Scale on policy self distillation to trajectories with a hundred tool calls and the model collapses into hedging. The tokens it learns to favor fill up with wait, but, and maybe, until, as Ronak Malde puts it, everything just turns into maybe. He calls it the but wait problem, and it happens because the student drifts far enough on a long task that the teacher course corrects at every opportunity, leaving the model parked between two divergent distributions. The algorithm underneath is a good tr",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 9
+  "deduped_count": 21
 }
