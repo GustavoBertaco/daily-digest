@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T09:56:31Z",
+  "fetched_at": "2026-08-16T09:56:58Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Rich data is worth gold in observability",
-          "url": "https://www.youtube.com/watch?v=UmCA_x5Sf-s",
-          "published": "2026-08-14T16:00:35+00:00",
-          "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Get AI on your resume. Do it now.",
-          "url": "https://www.youtube.com/watch?v=ZPY4o4BhBf0",
-          "published": "2026-08-13T16:53:21+00:00",
-          "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -43,6 +24,7 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1,
         "Meta Engineering": 1
       }
@@ -69,26 +51,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Why we can't have conversations today | Dan Carlin and Kmele Foster",
-          "url": "https://www.youtube.com/watch?v=sAXRbO504As",
-          "published": "2026-08-14T16:05:22+00:00",
-          "content_snippet": "Why we can't have conversations today | Dan Carlin and Kmele Foster",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How to break the spell of powerful emotions | Lisa Damour: Full Interview",
-          "url": "https://www.youtube.com/watch?v=yahyL3ABjjo",
-          "published": "2026-08-14T13:00:26+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-damour-yahyL3ABjjo Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -99,7 +62,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -111,20 +76,14 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "The Core Challenge: Building While Supporting #DataInfrastructure #PlatformEngineering #DataOps",
-          "url": "https://www.youtube.com/watch?v=KuMGjXDr_8s",
-          "published": "2026-08-13T11:00:29+00:00",
-          "content_snippet": "Data teams face a tough balancing act: building a modern platform while maintaining legacy systems. Andrew Jones from LocalStack joins The Data Engineering Show to dive into the operational reality of transitioning to self-service infrastructure without halting day-to-day business needs. The core approach behind this transition focuses on: The Migration Paradox: You cannot freeze operations for six months to build a new platform; continuous uptime remains non-negotiable. Managing Engineering Cap",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -137,7 +96,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
+        "The Data Engineering Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -155,101 +114,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
-          "published": "2026-08-14T15:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a low-code development platform that enables developers to build scalable, secure enterprise applications with modern user interfaces. To learn more about the latest features of Oracle APEX 26.1, see Oracle’s APEX Releas",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
-          "url": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
-          "published": "2026-08-14T21:30:00+00:00",
-          "content_snippet": "In most organizations, data warehouses hold structured data, while unstructured data...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
-          "url": "https://www.youtube.com/watch?v=EDWbX_-RYws",
-          "published": "2026-08-14T17:19:17+00:00",
-          "content_snippet": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second. OpenAI technical staff are already seeing what that speed changes. One security investigation workflow that once took one to two hours now takes 10–15 minutes, sometimes approaching real time. In other workflows, staff use Ultrafast to investigate root causes, search systems in ",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
-          "url": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
-          "published": "2026-08-14T06:30:28+00:00",
-          "content_snippet": "What gives one of cricket’s smartest teams its edge before the first ball is bowled? Go behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, and creative work across the organization.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Computer History in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
-          "published": "2026-08-13T20:34:04+00:00",
-          "content_snippet": "Codex & ChatGPT can now understand the context around what you’re working on. When you opt in to Computer History, it can help you pick up where you left off, get back to unfinished projects, and see suggested skills or scheduled tasks based on the work you do regularly. Available in the ChatGPT desktop app on Mac for ChatGPT Pro, Business, and Enterprise. If you’re on a Business or Enterprise team, your admin will need to turn it on first.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Get a daily CFO briefing with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=bl2eGejkbaU",
-          "published": "2026-08-13T13:06:22+00:00",
-          "content_snippet": "Start the day with a clear view of the decisions that matter most. ChatGPT Work brings financial performance, close status, contract risks, and market signals into one CFO briefing. See what changed, identify emerging opportunities, and prioritize decisions across the business. When a potential acquisition surfaces, ChatGPT creates an executive decision memo and an editable Excel workbook covering valuation, financial projections, transaction economics, and risk. See how ChatGPT Work can help yo",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Build custom financial forecasting apps with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=94Td-y5z5rk",
-          "published": "2026-08-13T13:05:30+00:00",
-          "content_snippet": "Build an interactive financial forecast using the numbers your business already trusts. ChatGPT Work connects approved financial data from Google Drive and NetSuite, compares actuals with the latest outlook, and creates an interactive forecasting dashboard. Adjust assumptions, test scenarios, and see how different decisions could affect the business. Approved figures, proposed adjustments, and hypothetical scenarios stay clearly separate. See how ChatGPT Work can help your finance team: https://",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Reconcile quarter-end financials with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=Ljm3nHQQiSk",
-          "published": "2026-08-13T13:04:31+00:00",
-          "content_snippet": "Prepare for quarter-end close with a clear view of what changed and why. ChatGPT Work connects board materials in Google Drive with posted financial data in NetSuite. It flags variances, traces discrepancies to their source, shows the impact on the forecast, and prepares a close recommendation for Finance to review. When items need attention, ChatGPT turns them into an action plan in Slack with clear owners and next steps. See how ChatGPT Work can help your finance team: https://openai.com/busin",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to deliver board-ready reporting",
-          "url": "https://www.youtube.com/watch?v=_HCks5jkPLw",
-          "published": "2026-08-13T11:31:36+00:00",
-          "content_snippet": "Catch quarter-end mistakes before they reach your board. This is how we use ChatGPT Work to check our financial model, executive memo, and board deck against data. ChatGPT Work will flag anything that doesn’t match for our teams to check. Watch the full session for more demos here: https://openai.ondemand.goldcast.io/on-demand/cd89f13d-bd97-4b96-9261-818ffdcd2fc0",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to build custom forecasting apps",
-          "url": "https://www.youtube.com/watch?v=mOAHWk24D28",
-          "published": "2026-08-13T11:27:26+00:00",
-          "content_snippet": "Build a forecast your finance team can explore. This is how we use ChatGPT Work to bring actuals, forecast data, and business context into one interactive view—so we can test scenarios and make decisions together. Watch the full session for more demos here: https://openai.ondemand.goldcast.io/on-demand/cd89f13d-bd97-4b96-9261-818ffdcd2fc0",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -261,7 +137,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 10
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -274,74 +152,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "How Web Data Infrastructure Powers the Next Generation of AI — Patricija Žemaitytė, Oxylabs",
-          "url": "https://www.youtube.com/watch?v=1UmZHb_E_SM",
-          "published": "2026-08-14T17:00:37+00:00",
-          "content_snippet": "Minutes into a call to demo a search API rebuilt to answer in under a second, the system got blocked, badly, in front of the client. Patricija Žemaitytė treats that as the useful distinction: something that works in development, something that passes tests, and something that survives reality are three different systems. The rebuild had no trick to it. Browsers are slow, expensive, and incompatible with low latency, and they were unavoidable, so the team went hunting for time across layouts, par",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Rise of CaaS: Context-as-a-Service for Agentic AI — Omer Primor, Bright Data",
-          "url": "https://www.youtube.com/watch?v=Ot4OPrPH4xY",
-          "published": "2026-08-14T16:30:36+00:00",
-          "content_snippet": "Just past 15,000 queries, renting context stopped being the cheaper option. Omer Primor gets that number from a small experiment he is careful to call a test rather than a benchmark: enrich one company across 25 fields, run it 100 times against this event's sponsors, and compare AI search products, context as a service vendors, and a scraper pipeline built in roughly a day. Pricing a week of setup at $5,000, the build it yourself path crossed over a little above 15,000 entities, and he expects t",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From RL to IRL — Gaurav Mishra, Amazon AGI Lab",
-          "url": "https://www.youtube.com/watch?v=Cc0_nyxROBA",
-          "published": "2026-08-14T16:00:06+00:00",
-          "content_snippet": "Asked to file an expense, the agent gets signed out mid task, reasons that it can infer the password, guesses twice, and locks the account. In a second run it clicks a sponsored button styled like the real submit button, lands on a different site, and begins typing personal details into it. Both are real trajectories from early browser training runs at the Amazon AGI Lab, and Gaurav Mishra's summary is that RL worked while the world was a game, and IRL starts when the game fights back. The talk ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans — Corey Gallon, Rexmore",
-          "url": "https://www.youtube.com/watch?v=26RtyAm9y_Q",
-          "published": "2026-08-14T15:30:00+00:00",
-          "content_snippet": "Preparing this talk got Corey Gallon a warning from OpenAI that his account faced a ban for cyber abuse with a web browser. The offending work was an agent clearing Cloudflare Turnstile, two image captchas, and finally reCAPTCHA v2 with no human in the loop. His premise fits on one slide: a browser driven through the Chrome DevTools Protocol is just a meat bag with a mouse, because the agent's clicks and keystrokes travel the same path inside Chrome that yours do. Chrome stamps every event as tr",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Bringing agents onto the world wide web — Paul Klein IV, Browserbase",
-          "url": "https://www.youtube.com/watch?v=GqoNrUz8hEU",
-          "published": "2026-08-14T15:00:31+00:00",
-          "content_snippet": "When OpenClaw shipped, people started buying Mac minis to run it from home, SSHing in and clearing captchas off a residential IP. Paul Klein IV points out he has yet to see a SOC 2 compliant Mac Mini setup at scale, and that this felt like a reasonable answer is itself the problem. His argument is that browser agents are no longer held back by the models. The capability is already there and the engineering around it is missing, which makes the overhang something any team can close rather than wa",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Computer Use at the Edge of the Statistical Precipice — Pierluca D'Oro, Programma Labs",
-          "url": "https://www.youtube.com/watch?v=CTLa_p6iOiY",
-          "published": "2026-08-14T14:30:31+00:00",
-          "content_snippet": "A script under one megabyte that never looks at the screen matches or beats the frontier model it was copied from. Pierluca D'Oro builds it by recording one successful trajectory per task and then replaying those actions blindly, and on deterministic benchmarks like OSWorld that counts as a valid agent and it scores at the top. The paper goes further and proves that pass@k on a deterministic environment is exactly the success rate of that replay script, so a metric the field leans on turns out t",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Computer-use models will agentify the web, not APIs — Dhruv Batra, Yutori",
-          "url": "https://www.youtube.com/watch?v=Ki980nV0__0",
-          "published": "2026-08-14T14:00:06+00:00",
-          "content_snippet": "To learn what a US school district is buying, you file a Freedom of Information Act request. Someone scans the email you sent, puts the scan on Google Drive, and attaches the relevant PDFs. Dhruv Batra's question is whether anyone seriously expects that office to publish an MCP server. He grants the popular claim that agents will drive most of the action on the web, then rejects its usual next step, that the web will meet them with APIs. The head of the distribution might. The long tail, some 20",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 7
+      }
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 25
 }
