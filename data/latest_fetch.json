@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T09:56:58Z",
+  "fetched_at": "2026-08-17T10:13:58Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "It’s respectable when managers want to go back to being ICs",
+          "url": "https://www.youtube.com/watch?v=wK2Dderg5s4",
+          "published": "2026-08-16T17:00:19+00:00",
+          "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -24,7 +34,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1,
         "Meta Engineering": 1
       }
@@ -51,14 +60,29 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Psychology Trick That Changes How People See You!",
+          "url": "https://www.youtube.com/watch?v=TmsjMKBTFPI",
+          "published": "2026-08-16T15:58:50+00:00",
+          "content_snippet": "Every adjective you spend on someone else, your listener quietly spends back on you. Gossip is self-portraiture. Skowronski JJ, Carlston DE, Mae L, Crawford MT. Spontaneous trait transference: communicators taken on the qualities they describe in others. J Pers Soc Psychol. 1998 Apr;74(4):837-48. doi: 10.1037//0022-3514.74.4.837. PMID: 9569648. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why your worst pain is the one you cause.The second arrow effect.",
+          "url": "https://www.youtube.com/watch?v=zu8NwYy9nfc",
+          "published": "2026-08-16T15:42:57+00:00",
+          "content_snippet": "-- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -79,6 +103,10 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -96,7 +124,6 @@
         }
       ],
       "deduped_sources": {
-        "The Data Engineering Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -138,7 +165,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 10
+        "OpenAI": 2
       }
     },
     {
@@ -159,5 +186,5 @@
       }
     }
   ],
-  "deduped_count": 25
+  "deduped_count": 15
 }
