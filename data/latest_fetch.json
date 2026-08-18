@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T10:13:58Z",
+  "fetched_at": "2026-08-18T10:02:31Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -62,6 +62,15 @@
       ],
       "items": [
         {
+          "title": "6 Things You Should Never Do in Public",
+          "url": "https://www.youtube.com/watch?v=qdQVf6QvS30",
+          "published": "2026-08-17T14:12:31+00:00",
+          "content_snippet": "We all know that feeling — someone clips their nails on the train or takes a speakerphone call in a quiet car, and you wonder: is there actually a right way to behave in public? Turns out, yes. Sociologists and economists have been studying these exact situations for decades, and I've turned their findings into six rules I'd make law by Friday if anyone put me in charge. Keep score as you watch — because odds are, you're breaking at least one of these without realizing it. -- To find out more ab",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
           "title": "The Psychology Trick That Changes How People See You!",
           "url": "https://www.youtube.com/watch?v=TmsjMKBTFPI",
           "published": "2026-08-16T15:58:50+00:00",
@@ -78,6 +87,15 @@
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
+        },
+        {
+          "title": "What does being vulnerable actually mean? | Julie Gottman",
+          "url": "https://www.youtube.com/watch?v=Ci-TgUAPv38",
+          "published": "2026-08-17T16:04:15+00:00",
+          "content_snippet": "What does being vulnerable actually mean? | Julie Gottman",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
       "errors": [
@@ -86,9 +104,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -100,12 +116,18 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Modern Products Depend on Reliable Data #DataPipelines #DataReliability #DataEngineering",
+          "url": "https://www.youtube.com/watch?v=cOqFbY8qiCA",
+          "published": "2026-08-17T11:00:16+00:00",
+          "content_snippet": "Data pipelines are no longer just feeding internal dashboards - they are actively powering customer-facing features. This week on The Data Engineering Show, we’re joined by Andrew Jones from LocalStack to explore why data reliability must be treated with the same engineering discipline as core product software. We explored the framework for scaling these capabilities: Shift in Data Utility: Moving from non-critical internal analytics to core product dependencies changes operational requirements.",
           "source_name": "The Data Engineering Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
@@ -141,20 +163,153 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
+          "published": "2026-08-17T20:29:00+00:00",
+          "content_snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support for cross-Region inference, allowing customers to use Global and Geo cross-Region inference to access higher throughput and lower inference costs. Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage c",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Amazon ECR now supports 25 replication rules per registry",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
+          "published": "2026-08-17T19:01:00+00:00",
+          "content_snippet": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25. Previously, customers with complex multi-region or multi-account architectures were constrained to 10 replication rules per registry, requiring them to consolidate replication configurations to work within that constraint. With this update, customers can define up to 25 replication rules per registry, enabling more precise replication strategies for use cases like dist",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+          "published": "2026-08-17T18:11:00+00:00",
+          "content_snippet": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batch, reducing the number of API calls needed to scale down your Auto Scaling groups. Batch termination is designed for workloads that need to rapidly scale down, such as AI/ML training jobs, container orchestrators, or event-driven architectures that spin up large fleets temporarily. All instances in ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
+          "published": "2026-08-17T18:01:00+00:00",
+          "content_snippet": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the same connection endpoints, simplifying cluster migrations, disaster recovery failovers, and scaling operations without reconfiguration. Previously, customers configured custom domain names manually on each broker. Additionally, on KRaft-based clusters, customers could not configure custom domain name",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
+          "published": "2026-08-17T17:28:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They de",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
+          "published": "2026-08-17T17:23:00+00:00",
+          "content_snippet": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent proficiencies. Managers can filter agents by their assigned proficiencies, group metrics by routing steps, and track new metrics including number of contacts queued in a routing step. For example, a supervisor notices a spike in queued contacts at a routing step requiring highly skilled agents, then relaxe",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
+          "published": "2026-08-17T16:30:00+00:00",
+          "content_snippet": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches network traffic. AWS Network Firewall is a managed network firewall service that provides inspection and visibility into your VPC traffic. With rule hit counts, you can turn firewall rule activity into actionable intelligence. You can accelerate incident response by detecting the rules that triggered",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
+          "published": "2026-08-17T15:41:00+00:00",
+          "content_snippet": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as redlining documents, building financial models, creating presentation-ready decks, and managing Outlook inboxes. The Excel extension helps with complex spreadsheet analysis, creating pivot tables and charts, and importing and cleaning data. The P",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+          "published": "2026-08-17T15:39:00+00:00",
+          "content_snippet": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposing their domains to the public internet. Automatic semantic enrichment transforms traditional keyword-only search into context-aware retrieval by understanding the meaning behind queries. For example, a search for \"lightweight laptop for travel\" returns results about \"ultrabooks\" and \"portable noteb",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS CloudShell now includes a built-in visual file editor",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
+          "published": "2026-08-17T13:00:00+00:00",
+          "content_snippet": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based shell environment that uses your existing AWS Management Console credentials, making it a popular choice for developers, DevOps engineers, and cloud administrators managing scripts, infrastructure-as-code, agentic workflows, and AWS Lambda workflows. This new capability extends CloudShell's utility by ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+          "published": "2026-08-17T16:02:36+00:00",
+          "content_snippet": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. Leaders of the Korean OpenSearch communities volunteered to participate in the booth, and also had time to network and interact in t",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Evaluating AI Agents Live at the Grounded Reasoning Cup",
+          "url": "https://www.databricks.com/blog/evaluating-ai-agents-live-grounded-reasoning-cup",
+          "published": "2026-08-18T15:00:00+00:00",
+          "content_snippet": "This year, Databricks hosted the inaugural Grounded Reasoning Cup, a first-of-its-kind...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "How Databricks Feature Store serves features with sub-second freshness",
+          "url": "https://www.databricks.com/blog/how-databricks-feature-store-serves-features-sub-second-freshness",
+          "published": "2026-08-17T23:10:00+00:00",
+          "content_snippet": "Machine learning models are only as good as the signals they receive. A fraud detection...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The prototyping tax is killing your AI roadmap",
+          "url": "https://www.databricks.com/blog/prototyping-tax-killing-your-ai-roadmap",
+          "published": "2026-08-17T19:42:33+00:00",
+          "content_snippet": "You know the feeling. Your team has a great idea for an AI-powered pipeline - maybe...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "You can just keep the work moving",
+          "url": "https://www.youtube.com/watch?v=wIf9yMGalPU",
+          "published": "2026-08-17T18:25:48+00:00",
+          "content_snippet": "ChatGPT Work keeps projects moving. Monitoring what matters, surfacing what needs attention, and picking up where your team leaves off.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
+          "url": "https://www.youtube.com/watch?v=Cxp2aZQqkYM",
+          "published": "2026-08-17T15:22:51+00:00",
+          "content_snippet": "Base44 helps people turn natural language into production-ready applications and custom AI agents—no coding required. In this Startup Spotlight, Yoav Farhi, Staff AI Engineer at Base44, shares how the team tested GPT-5.6 across a wide range of app-building scenarios. Compared with GPT-5.5, GPT-5.6 delivered better outcomes while using 20% fewer tokens, completed tasks faster, and produced stronger first-pass designs for complex interfaces. For Base44’s builders, that means less time correcting a",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -164,9 +319,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -179,12 +332,38 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "How to Kill the Code Review — Ankit Jain, Aviator",
+          "url": "https://www.youtube.com/watch?v=YgEv7IQzGdM",
+          "published": "2026-08-17T20:00:08+00:00",
+          "content_snippet": "Over 30% of changes now merge with no review at all, and the wait on the ones that do get reviewed is four times what it used to be. Ankit Jain's read is that the debate about when we stop reading code line by line is already over, because we stopped. His sharper point is what replaced it: an AI writes the code, an AI reviews the code, the two go back and forth in a web UI, and a human skims the thread and merges. When AI reviews and nobody reads, he says, we have configured the wrong thing. He ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Security Firewall for Agents — Ryan Dahl, Deno",
+          "url": "https://www.youtube.com/watch?v=MkRYPFIMCSA",
+          "published": "2026-08-17T18:30:06+00:00",
+          "content_snippet": "Deno gives its incident response agents read and write access to production Postgres, Kubernetes, ClickHouse, AWS, GitHub, and Slack, and it works. Agents now close incidents that used to wake a human up. Ryan Dahl's problem is what happens when one of those agents gets prompt injected through the support system it is wired into. He grants that Opus refuses to drop the users table no matter how hard you push it, then says the part that matters out loud: security cannot be wishful thinking that a",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Context Engineering in 2026 — Louis-François Bouchard, Omar Solano & Samridhi Vaid, Towards AI",
+          "url": "https://www.youtube.com/watch?v=WP3hjUXd918",
+          "published": "2026-08-17T16:26:35+00:00",
+          "content_snippet": "The cheapest configuration they tested was the one sending the most tokens. Across 11 presets run against their open source AI tutor, doing nothing at all to the context beat every compaction technique on recall, cost, and latency at once, and their own production defaults scored worse than leaving the history alone. Prompt caching is why. With 97% of tokens served from cache, and cached tokens up to 50 times cheaper on some APIs, compaction has to shrink a context by more than 50 times before i",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 7
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 3
 }
