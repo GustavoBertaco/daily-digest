@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T10:02:43Z",
+  "fetched_at": "2026-08-20T10:04:22Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,30 @@
       ],
       "items": [
         {
+          "title": "From Chrome DevTools to AI Engineering, with Addy Osmani",
+          "url": "https://www.youtube.com/watch?v=2fyPnxKu8ZM",
+          "published": "2026-08-19T16:45:00+00:00",
+          "content_snippet": "Addy Osmani spent more than 14 years at Google, working on Chrome, DevTools, Core Web Vitals, and most recently, AI developer experience. If you've ever opened Chrome DevTools, or optimized a page for Core Web Vitals, you’ve used software built by Addy Osmani. In this episode, I sit down with Addy and we talk about his path from building a web browser aged just 16 to becoming a director at Google. We discuss what he learned from building tools for millions of developers, Google’s engineering cul",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
           "title": "It’s disrespectful to send AI slop",
           "url": "https://www.youtube.com/watch?v=Jb5VHUkowTk",
           "published": "2026-08-18T16:00:00+00:00",
           "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "How we knew COVID was over (and what our models had to unlearn)",
+          "url": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
+          "published": "2026-08-19T17:01:03+00:00",
+          "content_snippet": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models differ, but they have one thing in common: Other teams build on top of them. This means a forecast tha",
+          "source_name": "Airbnb Tech",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -29,14 +47,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Airbnb Tech": 1,
-        "Meta Engineering": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -69,12 +88,20 @@
           "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
+        },
+        {
+          "title": "Why softness beats stress | Giulia Enders",
+          "url": "https://www.youtube.com/watch?v=KbDf3AysIWc",
+          "published": "2026-08-19T16:05:48+00:00",
+          "content_snippet": "Why softness beats stress | Giulia Enders",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 3,
-        "Big Think": 1
+        "Daniel Pink": 1
       }
     },
     {
@@ -145,118 +172,100 @@
       ],
       "items": [
         {
-          "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
-          "published": "2026-08-19T05:18:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and configurable reasoning efforts (low, medium, high, xhigh). Grok 4.6 builds on previous generations of Grok with a particular focus on staying with complex tasks across many steps, whether researching a topic, analyzing information, working across a codebase, or turning an idea into a polished application",
+          "title": "Launching External Web Access for Web Search on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
+          "published": "2026-08-19T23:00:00+00:00",
+          "content_snippet": "Earlier this month, we announced Web Search on Amazon Bedrock , a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secured AWS environment with zero data egress. Today, we are expanding Web Search to enable the external_web_access parameter allowing Web Search to retrieve content directly from the public web so models can ground responses in the latest information. To enable external_web_access, grant the bedrock-w",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock now supports OpenAI models in India",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
-          "published": "2026-08-18T23:30:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use OpenAI models at scale ensuring that inferencing is processed within India. Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. The new India Geo inference profiles—in.o",
+          "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+          "published": "2026-08-19T22:55:00+00:00",
+          "content_snippet": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect, and optimize AI agents, and Web Search enables those agents to ground responses in current web data. With runtime domain filtering, agents can narrow search results to trusted sources or block unwanted domains on a per-call basis without requ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
-          "published": "2026-08-18T22:30:00+00:00",
-          "content_snippet": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Tokens (JWTs). The AWS European Sovereign Cloud is an independent cloud for Europe entirely located within the European Union (EU), designed to help customers meet their evolving sovereignty requirements. With outbound identity federation, AWS workloads can securely authenticate with third-party cloud pr",
+          "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
+          "published": "2026-08-19T21:06:00+00:00",
+          "content_snippet": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Regions into one destination account. With tag propagation, the cost, ownership, and compliance tags you maintain at the source now apply to the copied log groups. With today's launch, CloudWatch copies the tags of each source log group to its destination log group and keeps them in ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
-          "published": "2026-08-18T21:48:00+00:00",
-          "content_snippet": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0.12.9.1, 17.0.20.10.1, 11.0.32.10.1, and 8u504 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit Corretto home page to download Corretto 26, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also ge",
+          "title": "Amazon SageMaker notebooks now support trusted identity propagation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+          "published": "2026-08-19T20:25:00+00:00",
+          "content_snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project, each notebook user's IAM Identity Center identity flows through to AWS Lake Formation, ensuring they see only the tables, columns, and rows their permissions allow, without sharing a single broad execution role. With TIP, enterprises get per-u",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
-          "published": "2026-08-18T19:15:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore payments provides the security, guardrails, and observability enterprises need to deploy transacting agents in production at scale. AgentCore payments integrates with Coinbase and Stripe Privy wallets for microtransactions, provides payment orches",
+          "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+          "published": "2026-08-19T20:13:00+00:00",
+          "content_snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure. Log sources often produce data that isn't immediately queryable without reprocessing the data. RDS Aurora logs arrive in their native engine format, application logs carry e",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
-          "published": "2026-08-18T18:49:00+00:00",
-          "content_snippet": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their data to understand its shape and completeness, and track how these statistics change over time. Anomaly detection helps identify when data points drift from historical patterns without requiring predefined thresholds or custom rules. These capabilities are available for both data at rest in catalog ta",
+          "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+          "published": "2026-08-19T17:57:00+00:00",
+          "content_snippet": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, and this launch extends that coverage to third-party model usage on Amazon Bedrock. Teams running production generative AI workloads now get automatic anomaly detection on their Amazon Bedrock model spend alongside the rest of their AWS costs. With thi",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
-          "published": "2026-08-18T18:00:00+00:00",
-          "content_snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute the code patterns they rely on daily, including data transformations, format conversions, and data quality checks, without provisioning additional infrastructure. Package your Python modules or shell scripts as code packages, upload them to ",
+          "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
+          "published": "2026-08-19T17:54:00+00:00",
+          "content_snippet": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearch Ingestion is a fully managed data ingestion tier that allows you to ingest and process data before indexing it in Amazon OpenSearch managed clusters or serverless collections. Amazon OpenSearch Ingestion provides a no-code experience to filter, transform, redact, an",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
-          "published": "2026-08-18T17:24:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance t",
+          "title": "AWS Marketplace launches support for Amazon Lightsail",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
+          "published": "2026-08-19T17:04:00+00:00",
+          "content_snippet": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easily deploy eligible AWS Marketplace AMIs on Amazon Lightsail in just a few clicks. Lightsail instance bundles include compute, storage, and a generous data transfer allowance at a fixed monthly price. Lightsail also offers managed databases, containers, load balancers, and more, mak",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "IAM Policy Autopilot now supports Terraform plan files",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
-          "published": "2026-08-18T17:19:00+00:00",
-          "content_snippet": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to deterministically create scoped-down IAM policies you can refine as your application evolves, reducing the time you spend writing IAM policies and troubleshooting access issues. Until now the tool analyzed application source code, but it was not possible to generate policies for deploying AWS infrastru",
+          "title": "AWS announces a new Availability Zone in the Europe (London) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
+          "published": "2026-08-19T17:00:00+00:00",
+          "content_snippet": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, including Amazon EC2, Trn3, and P6 accelerated instances, alongside general-purpose compute. The new Availability Zone gives AWS customers in eu-west-2 greater capacity for AI and ML workloads and additional fault isolation for building highly available, ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
-          "published": "2026-08-18T16:00:00+00:00",
-          "content_snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query performance and autovacuum management. The new pg_stat_autovacuum_scores view helps you monitor and tune autovacuum prioritization. Parallel autovacuum can now use multiple workers to speed up maintenance on large tables. The new pg_plan_advice ",
+          "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
+          "published": "2026-08-19T16:14:00+00:00",
+          "content_snippet": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, you can use Lambda MicroVMs in a total of 10 AWS Regions. Lambda MicroVMs is a serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI generated code. Developers can use Lambda MicroVMs to give each user or",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-          "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-          "published": "2026-08-18T13:58:41+00:00",
-          "content_snippet": "In the early days of cloud computing, AWS supported intensive learning for builders in a physical space called the AWS Pop-up Lofts in cities worldwide. These spaces were accessible to startup entrepreneurs, developers, and others interested in learning more about AWS for events, meetings, and co-working. With the recent emergence of generative AI, AWS Gen AI Lofts provided pop-up style collaborative spaces across the world and immersive experiences for startups and developers. We realized the n",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
-          "url": "https://www.databricks.com/blog/databricks-document-intelligence-pushing-frontier-complex-document-extraction",
-          "published": "2026-08-18T22:00:00+00:00",
-          "content_snippet": "Every enterprise has valuable data trapped in messy, unstructured documents. Today,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "When it comes to Governance, Retailers need a control plane for context",
-          "url": "https://www.databricks.com/blog/when-it-comes-governance-retailers-need-control-plane-context",
-          "published": "2026-08-18T15:18:00+00:00",
-          "content_snippet": "Retailers are entering a new phase of AI adoption.The early conversations around...",
+          "title": "Designing effective Genie Agents from a single prompt",
+          "url": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
+          "published": "2026-08-19T16:00:00+00:00",
+          "content_snippet": "Ask a generic agent about revenue, and it’ll likely grab the first revenue table...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
@@ -291,6 +300,10 @@
       ],
       "errors": [
         {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -314,73 +327,91 @@
       ],
       "items": [
         {
-          "title": "The Next Medium: Why Real-Time Interactive Video Changes Everything — Ahmed Ahres, Reactor",
-          "url": "https://www.youtube.com/watch?v=5dCAmSDOAjI",
-          "published": "2026-08-18T17:30:18+00:00",
-          "content_snippet": "Uber could not exist without GPS. Ahmed Ahres uses that to argue real time is a change of medium rather than a speedup: before GPS you consulted a map somebody else had already made, and afterwards your own position became something you could act on continuously. He runs the same argument through film. Once a viewfinder showed you what you were shooting, you could adjust while shooting, and that is the reason Instagram and TikTok were possible at all. Generated video today sits on the wrong side",
+          "title": "Why Your Enterprise Tech Stack Isn’t Ready for AI Agents — Christopher Lovejoy & Saul Howard",
+          "url": "https://www.youtube.com/watch?v=mav15aW9lLM",
+          "published": "2026-08-19T18:30:15+00:00",
+          "content_snippet": "The proof of concept works. It hits the accuracy targets, it is fast, it is cheap, and the room is happy. Then someone from compliance raises a hand and asks to see the audit trail, and the whole thing stops. Christopher Lovejoy and Saul Howard have watched that meeting happen repeatedly, and their point is that an audit trail is not a developer log. Under the frameworks enterprises actually answer to, it is a complete record of every action an agent took, every place it touched data, and the au",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Infra behind Krea 2: How to train and serve at scale — Gabriel Jorge Menezes, Krea.ai",
-          "url": "https://www.youtube.com/watch?v=byn9PURoBNY",
-          "published": "2026-08-18T17:00:05+00:00",
-          "content_snippet": "GPU utilization is a lie. It read 100% straight through pretraining while the cluster was nowhere near well used, so Gabriel Jorge Menezes tracks tensor core utilization instead, and watched it climb as training resolution stepped from 128 pixels up to 1024. That is one of several numbers he argues you cannot train at this scale without. InfiniBand counters are exported by nothing off the shelf, and most of their failures turned out to be cross node communication, so they built that collection t",
+          "title": "Don’t be data poor — Anuj Iravane, Anterior",
+          "url": "https://www.youtube.com/watch?v=XAsb7MIAzm8",
+          "published": "2026-08-19T18:00:17+00:00",
+          "content_snippet": "Roughly 70% of medical communication still moves by fax. What reaches Anterior is scanned fax bundles that can run past 300 pages, carrying handwriting, checkboxes, tables and images across one patient's entire clinical trajectory. Anuj Iravane calls it an observation through a fuzzy lens over a lifespan. It is exactly the data his evals need, and the data he is least allowed to keep: their contracts rule out retaining it, deriving from it, or holding redacted or anonymized copies. Nothing survi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Generative Video at the Speed of Light — Keegan McCallum, uRun",
-          "url": "https://www.youtube.com/watch?v=Xln-On3syJk",
-          "published": "2026-08-18T16:30:29+00:00",
-          "content_snippet": "Ten dollars now buys roughly three hours of continuously generated video, and fifty buys fifteen. Keegan McCallum sets that against the room's own habits, since plenty of hands went up for burning that much on coding tokens inside a single hour. His argument is that the interesting axis in generative video stopped being quality a while ago. Put a real time generation next to one that took minutes and the slower clip still has better motion, but it cost on the order of a hundred times more to pro",
+          "title": "How to build an AI-Native Health Company — Dan Feng, Maven Clinic",
+          "url": "https://www.youtube.com/watch?v=WJRdLNhrsLQ",
+          "published": "2026-08-19T17:30:19+00:00",
+          "content_snippet": "Implementation used to be the expensive step, so teams spent weeks settling requirements before anyone wrote code. Dan Feng's observation is that the cost moved. Building takes minutes now, and arguing is what is expensive. Planning at Maven Clinic changed to match. A one year view survives only as direction, assuming models will handle whatever you need by then, while real commitment runs two to four weeks. Long requirement documents gave way to a page or two meant to be argued with. The awkwar",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Voice agents with Realtime Video — Sidney Primas, LemonSlice",
-          "url": "https://www.youtube.com/watch?v=z1dqv74SpUs",
-          "published": "2026-08-18T16:00:06+00:00",
-          "content_snippet": "An avatar of Teddy Roosevelt holds court in a replica Oval Office, generating video continuously for eight hours with no reset, and a second deployment is being built to run for sixteen. That duration is the hard part. Sidney Primas explains that a real time avatar can only look backward, because the future frames do not exist yet, so every block it generates inherits the errors of the blocks before it and compounds them. LemonSlice trains with an attention mask that enforces this during trainin",
+          "title": "Trading Desks to Clinical Trials: Parallels in Applied Vertical AI — Ayush Bhardwaj, Allos AI",
+          "url": "https://www.youtube.com/watch?v=Yphdry8ttAQ",
+          "published": "2026-08-19T17:00:31+00:00",
+          "content_snippet": "Ayush Bhardwaj could build the agent. What he could not do was tell whether it was any good. He moved from applied AI at a hedge fund to a pharma tech company expecting a different world, and found the job identical, including the wall. An engineer glances at generated code and knows instantly that it is weak, because years of training built that judgment. Nobody on his team had the equivalent instinct for a trade thesis or a drug candidate. He calls this the point where vertical AI projects qui",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "While my guitar gently speaks — Todd Fisher, Philo Ventures",
-          "url": "https://www.youtube.com/watch?v=E_Txocq-Lrw",
-          "published": "2026-08-18T15:30:23+00:00",
-          "content_snippet": "Someone in the audience asked the guitar what reality is, and the guitar answered. Todd Fisher's build routes a microphone through speech recognition into a local model and pushes the reply back out through the strings, which is the most recent step in a project that began with a much simpler question: how hard could it be to make a guitar speak? The lineage he draws runs from a pickup and an amplifier, through stomp boxes, to Peter Frampton sending guitar sound down a physical hose into his mou",
+          "title": "Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents — Vasant Kearney, Onlay",
+          "url": "https://www.youtube.com/watch?v=UyyOoJmuATU",
+          "published": "2026-08-19T16:30:32+00:00",
+          "content_snippet": "Call the payer, open their web portal, and read their X12 feed, and all three can tell you the patient is covered. You treat the patient anyway, and the claim comes back denied because they were not covered at the time. Vasant Kearney's point is that none of those surfaces is ground truth. A payer's phone system, portal and X12 layer are often built by different teams, sometimes by different contractors entirely, so they can contradict each other and they can just as easily agree on the wrong an",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Next Game Engine Won't Have a Manual — Arturo Nunez, Nereu",
-          "url": "https://www.youtube.com/watch?v=VBCDhRrvlYo",
-          "published": "2026-08-18T15:00:29+00:00",
-          "content_snippet": "Ask a coding agent for a camera that follows your character and it will reinvent that camera from scratch, every time, slightly differently. Arturo Nunez's diagnosis is that the context sits on the game engine's vocabulary rather than the game's. Controlling a character in a conventional engine means a mesh, a renderer, an animator, a rigid body, a collider, an audio source, and only then your actual movement logic, nearly all of which is boilerplate that every character in every game already ca",
+          "title": "200 Million Patient Interactions Later — Vivek Muppalla, Hippocratic AI",
+          "url": "https://www.youtube.com/watch?v=AN65uc645mE",
+          "published": "2026-08-19T16:00:06+00:00",
+          "content_snippet": "Asked how many in the room had ever received a proactive call from their healthcare provider, almost no hands went up. Vivek Muppalla treats that as the signature of scarcity: too few clinicians and too few hours, so the system triages and only the sickest get called. Hippocratic AI is past 200 million clinical conversations across more than 60 health systems, which is what changes the arithmetic. The tradeoff they refused is the familiar one: models accurate enough for this work can take tens o",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Building an Agentic Video Editor for Mass Consumer — Ekaterina Deyneka, Reelful",
-          "url": "https://www.youtube.com/watch?v=pPj_tjlvYjA",
-          "published": "2026-08-18T14:30:38+00:00",
-          "content_snippet": "Nearly every hand in the room went up when she asked who had recorded video at the conference. Almost none stayed up for who had actually posted any of it. Ekaterina Deyneka counts herself in that gap, and Reelful is her answer to it: drop in raw footage with a line of direction, and an agent finds the usable moments, cuts them together, and generates captions, music, voiceover, and b roll around them. Her framing for an AI engineering audience is that an agentic video editor is structurally the",
+          "title": "AI is the World’s largest Relationship Therapist — Clay Cockrell & Tony Fabrikant, CoupleWork AI",
+          "url": "https://www.youtube.com/watch?v=yoONZwV2smc",
+          "published": "2026-08-19T15:30:30+00:00",
+          "content_snippet": "The springs in the middle of the loveseat in Clay Cockrell's counseling office gave out years ago, so gravity now tips a couple toward each other however hard they grip the arms. He kept it. The harder argument arrives with two numbers. BetterHelp spent a decade assembling roughly 35,000 licensed clinicians and reaching 5 million users. ChatGPT sees roughly 900 million weekly active users, and enough open it at 11pm after a fight that Cockrell calls the world's largest relationship therapist a l",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Training Krea 2: What matters in generative model training — Sangwu Lee, Krea.ai",
-          "url": "https://www.youtube.com/watch?v=-tviRdpmHvs",
-          "published": "2026-08-18T14:00:06+00:00",
-          "content_snippet": "The most reliable way to render a person is to render the most boring average person and put them in the center of the frame. Sangwu Lee offers that as the price the big image models pay for consistency: ask a production model for a burning skull and every output comes back clean, competent, and nearly identical. Krea 2, whose medium variant is now open source, trades the other way, optimizing for fast generation and stylistic range so that a studio that does not yet know what it wants can actua",
+          "title": "Shipping AI to a Million Patients Without an A/B Test — Jared Joselowitz, Ufonia",
+          "url": "https://www.youtube.com/watch?v=McknwOzbmyg",
+          "published": "2026-08-19T15:00:31+00:00",
+          "content_snippet": "You cannot A/B test on patients, because randomizing someone into the worse variant is unethical and often illegal. You cannot undo a call once spoken. And a vendor's benchmark number is not a defense at a post incident review. Jared Joselowitz builds the safety and evaluation stack behind Dora, a Ufonia voice agent that phones patients for post op follow ups and pre op checks. It has made roughly 200,000 real clinical calls across 20 UK hospitals and is contracted to reach a million patients wi",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Guardrails First: Engineering Member-Facing Health AI — Rashi Agrawal, Hinge Health",
+          "url": "https://www.youtube.com/watch?v=YXEqC05WEI0",
+          "published": "2026-08-19T14:30:18+00:00",
+          "content_snippet": "A healthy 60 year old man asked a popular AI assistant how to cut salt from his diet. It pointed him at sodium bromide. Three months later he arrived in an emergency room with paranoia and hallucinations, bromide at 200 times the safe level, and stayed three weeks. Rashi Agrawal stacks that against the first independent safety test of a consumer health AI, out of Mount Sinai, which under triaged life threatening emergencies half the time, and against ECRI naming chatbot misuse the top health tec",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "From Ambient Documentation to Clinical Intelligence — Chaitanya Asawa, Abridge",
+          "url": "https://www.youtube.com/watch?v=u6q-byPWUuo",
+          "published": "2026-08-19T14:00:06+00:00",
+          "content_snippet": "Clinicians call it pajama time: the roughly two hours a day spent writing visit notes after work has finished. Abridge started there, and within two to three years the documentation product alone reached 300 of the largest health systems in the United States. Chaitanya Asawa's framing is that everything in healthcare sits downstream of a single conversation between a doctor and a patient, and that the administrative machinery got built around that conversation rather than out of it. The notes ar",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -390,5 +421,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 14
+  "deduped_count": 6
 }
