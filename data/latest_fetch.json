@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T10:04:22Z",
+  "fetched_at": "2026-08-21T10:04:31Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,30 +14,12 @@
       ],
       "items": [
         {
-          "title": "From Chrome DevTools to AI Engineering, with Addy Osmani",
-          "url": "https://www.youtube.com/watch?v=2fyPnxKu8ZM",
-          "published": "2026-08-19T16:45:00+00:00",
-          "content_snippet": "Addy Osmani spent more than 14 years at Google, working on Chrome, DevTools, Core Web Vitals, and most recently, AI developer experience. If you've ever opened Chrome DevTools, or optimized a page for Core Web Vitals, you’ve used software built by Addy Osmani. In this episode, I sit down with Addy and we talk about his path from building a web browser aged just 16 to becoming a director at Google. We discuss what he learned from building tools for millions of developers, Google’s engineering cul",
+          "title": "A better way to use AI agents: mutual amplification",
+          "url": "https://www.youtube.com/watch?v=hOrtIm4Mbvg",
+          "published": "2026-08-20T15:30:13+00:00",
+          "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "It’s disrespectful to send AI slop",
-          "url": "https://www.youtube.com/watch?v=Jb5VHUkowTk",
-          "published": "2026-08-18T16:00:00+00:00",
-          "content_snippet": "with Charity Majors, Cofounder and CTO, Honeycomb. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How we knew COVID was over (and what our models had to unlearn)",
-          "url": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
-          "published": "2026-08-19T17:01:03+00:00",
-          "content_snippet": "When we retrain, when we rebuild, and when we leave a model alone. By: Harrison Katz A forecast that carries weight The Forecasting Data Science team at Airbnb produces many of the forecasts the rest of the company plans around: demand, bookings, cancellations, and a range of finer cuts by market and segment, refreshed continuously across thousands of markets. The targets differ, and the models differ, but they have one thing in common: Other teams build on top of them. This means a forecast tha",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -55,7 +37,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Airbnb Tech": 1
+      }
     },
     {
       "name": "Product Management",
@@ -79,29 +63,16 @@
         "digest",
         "personal-development"
       ],
-      "items": [
+      "items": [],
+      "errors": [
         {
-          "title": "How to Make Better Decisions by Fixing Yourself First | Roblox CEO",
-          "url": "https://www.youtube.com/watch?v=G1Mxl40Joo8",
-          "published": "2026-08-18T10:00:02+00:00",
-          "content_snippet": "David Baszucki is the co-founder and CEO of Roblox, a platform built around a simple idea: give people the tools and incentives to create together. In this short conversation we discuss how a health decision saved his son's life and how it changed how he eats, why bureaucracy compounds unless you actively destroy it, monitoring your mind before making decisions, and why the best products often improve by removing complexity. It's time to listen and learn. ----- Chapters: 0:00 How Keto Can Help T",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why softness beats stress | Giulia Enders",
-          "url": "https://www.youtube.com/watch?v=KbDf3AysIWc",
-          "published": "2026-08-19T16:05:48+00:00",
-          "content_snippet": "Why softness beats stress | Giulia Enders",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 1
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 1
       }
     },
     {
@@ -114,26 +85,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "AI Enables People to Expand Their Organizational Roles #dataengineering #dataanlysis #dataanalytics",
-          "url": "https://www.youtube.com/watch?v=AfaaAJiM_1c",
-          "published": "2026-08-18T11:01:51+00:00",
-          "content_snippet": "The traditional boundaries between engineering, product management, and data analysis are blurring. In our latest conversation with Xavier Gumara Rigol, we discuss how AI is empowering individuals to step outside their original job descriptions and self-serve their data needs. What we uncovered: Blurring Lines: Product managers can now independently handle analyst-type workloads using modern tooling. The Power of Self-Serve: AI enables teams to access insights directly, reducing dependencies on ",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "How AI Is Reshaping Modern Data Teams and the Future of Platforms with Xavier Gumara Rigol",
-          "url": "https://www.youtube.com/watch?v=3YxravjLads",
-          "published": "2026-08-18T10:11:58+00:00",
-          "content_snippet": "In this episode of the Data Engineering Show, host Benjamin sits down with Xavier Gumara Rigol, Head of Data at Manychat, to discuss how artificial intelligence is fundamentally transforming data roles, organizational structures, and the future of analytics platforms while creating new types of work rather than eliminating existing ones. **Chapters:** [00:00] - Intro [00:52] - Meet Xavier: Head of Data at Manychat [01:48] - How AI is Transforming Data Team Roles [05:28] - Reorganizing Data Teams",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -153,6 +105,7 @@
         }
       ],
       "deduped_sources": {
+        "The Data Engineering Show": 2,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -172,129 +125,111 @@
       ],
       "items": [
         {
-          "title": "Launching External Web Access for Web Search on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
-          "published": "2026-08-19T23:00:00+00:00",
-          "content_snippet": "Earlier this month, we announced Web Search on Amazon Bedrock , a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secured AWS environment with zero data egress. Today, we are expanding Web Search to enable the external_web_access parameter allowing Web Search to retrieve content directly from the public web so models can ground responses in the latest information. To enable external_web_access, grant the bedrock-w",
+          "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
+          "published": "2026-08-20T21:45:00+00:00",
+          "content_snippet": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store (Amazon EBS) volume types gp3, gp2, io1, sc1, and st1, Amazon Elastic Container Service (Amazon ECS), Amazon Elastic Kubernetes Service (Amazon EKS), Application Load Balancer, and AWS Direct Connect. AWS Local Zones are AWS infrastructure deployments that extend core services, such as compute, stor",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
-          "published": "2026-08-19T22:55:00+00:00",
-          "content_snippet": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect, and optimize AI agents, and Web Search enables those agents to ground responses in current web data. With runtime domain filtering, agents can narrow search results to trusted sources or block unwanted domains on a per-call basis without requ",
+          "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+          "published": "2026-08-20T20:00:00+00:00",
+          "content_snippet": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key when creating a database resource. Timestream for InfluxDB uses the selected key to encrypt the underlying database storage for InfluxDB 2 and InfluxDB 3 resources. The key must be in the same AWS account and AWS Region as the database resourc",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
-          "published": "2026-08-19T21:06:00+00:00",
-          "content_snippet": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Regions into one destination account. With tag propagation, the cost, ownership, and compliance tags you maintain at the source now apply to the copied log groups. With today's launch, CloudWatch copies the tags of each source log group to its destination log group and keeps them in ",
+          "title": "Amazon EC2 P6-B300 instances are now available in the Asia Pacific (Seoul) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
+          "published": "2026-08-20T18:31:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the Asia Pacific (Seoul) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps dedicated ENA throughput, and 4 TB of system memory. P6-B300 instances deliver 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS (at FP4, without sparsity) compared to P6-B200 instances, making them well suited to train and depl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker notebooks now support trusted identity propagation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
-          "published": "2026-08-19T20:25:00+00:00",
-          "content_snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project, each notebook user's IAM Identity Center identity flows through to AWS Lake Formation, ensuring they see only the tables, columns, and rows their permissions allow, without sharing a single broad execution role. With TIP, enterprises get per-u",
+          "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+          "published": "2026-08-20T18:30:00+00:00",
+          "content_snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows encrypted connections to the cluster's Kubernetes API, and now you can rotate the CA before it expires to ensure your cluster remains operational and secure. Amazon EKS clusters created since launch in 2018 have CAs with a 10-year validity perio",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
-          "published": "2026-08-19T20:13:00+00:00",
-          "content_snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure. Log sources often produce data that isn't immediately queryable without reprocessing the data. RDS Aurora logs arrive in their native engine format, application logs carry e",
+          "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+          "published": "2026-08-20T18:30:00+00:00",
+          "content_snippet": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Customers use Amazon S3 MRAP with CloudFront to serve content from a single global endpoint that automatically routes to the closest available replicated bucket across regions during a cache miss, improving performance and resilience for globally distributed users. Previously, customers",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
-          "published": "2026-08-19T17:57:00+00:00",
-          "content_snippet": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, and this launch extends that coverage to third-party model usage on Amazon Bedrock. Teams running production generative AI workloads now get automatic anomaly detection on their Amazon Bedrock model spend alongside the rest of their AWS costs. With thi",
+          "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
+          "published": "2026-08-20T18:02:00+00:00",
+          "content_snippet": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their existing AWS identities, sign-in methods, IAM permissions, and governance controls without installing or maintaining additional authentication software. Previously, AWS Partners needed to set up an MCP proxy with SigV4 credentials to access Partner Central agents from their existing tools, or sign in to ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
-          "published": "2026-08-19T17:54:00+00:00",
-          "content_snippet": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearch Ingestion is a fully managed data ingestion tier that allows you to ingest and process data before indexing it in Amazon OpenSearch managed clusters or serverless collections. Amazon OpenSearch Ingestion provides a no-code experience to filter, transform, redact, an",
+          "title": "ARC Region switch adds Amazon RDS Switchover Read Replica execution block",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block/",
+          "published": "2026-08-20T17:45:00+00:00",
+          "content_snippet": "Today, we are launching the Amazon RDS Switchover Read Replica execution block in ARC Region switch , which automates recovery orchestration for Amazon RDS databases running Oracle Data Guard in multi-Region workloads. Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. To recover an Amazon RDS database running Oracle Data Guard during a Reg",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Marketplace launches support for Amazon Lightsail",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
-          "published": "2026-08-19T17:04:00+00:00",
-          "content_snippet": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easily deploy eligible AWS Marketplace AMIs on Amazon Lightsail in just a few clicks. Lightsail instance bundles include compute, storage, and a generous data transfer allowance at a fixed monthly price. Lightsail also offers managed databases, containers, load balancers, and more, mak",
+          "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
+          "published": "2026-08-20T17:25:00+00:00",
+          "content_snippet": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026, extending the same benchmarking infrastructure to teams that prefer a visual workflow over programmatic access. Deploying generative AI models in production requires finding the right combination of instance type, serving container, and optimi",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces a new Availability Zone in the Europe (London) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
-          "published": "2026-08-19T17:00:00+00:00",
-          "content_snippet": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, including Amazon EC2, Trn3, and P6 accelerated instances, alongside general-purpose compute. The new Availability Zone gives AWS customers in eu-west-2 greater capacity for AI and ML workloads and additional fault isolation for building highly available, ",
+          "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+          "published": "2026-08-20T15:00:00+00:00",
+          "content_snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to 1,000 prefixes each for IPv4 and IPv6 on your VIFs on dedicated and hosted connections. Previously, Direct Connect VIFs accepted a maximum of 100 route prefixes advertised from your on-premises network to AWS on a private or transit VIF. If ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
-          "published": "2026-08-19T16:14:00+00:00",
-          "content_snippet": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, you can use Lambda MicroVMs in a total of 10 AWS Regions. Lambda MicroVMs is a serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI generated code. Developers can use Lambda MicroVMs to give each user or",
+          "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
+          "published": "2026-08-20T15:00:00+00:00",
+          "content_snippet": "Amazon Redshift now supports long-term retention for system table data through native integration with Amazon S3 Tables. With this feature, you can configure your Redshift system table data retention beyond the current 7-day limit to meet your compliance, auditing, and observability requirements. Once enabled, AWS automatically writes system table data to S3 Tables in Apache Iceberg format and manages partitioning, compaction, and retention. Customers use Redshift system tables to monitor query ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Designing effective Genie Agents from a single prompt",
-          "url": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
-          "published": "2026-08-19T16:00:00+00:00",
-          "content_snippet": "Ask a generic agent about revenue, and it’ll likely grab the first revenue table...",
+          "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
+          "url": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
+          "published": "2026-08-20T22:00:00+00:00",
+          "content_snippet": "Enterprises adopting Databricks for their most sensitive data commonly rely on Inbound...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
-          "url": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
-          "published": "2026-08-18T19:05:08+00:00",
-          "content_snippet": "Turn a business question into a clear recommendation—without spending days gathering research and building slides. In this demo, Arvind from OpenAI’s Strategy & Business Operations team shows how he uses ChatGPT Work to pull together market research, customer data, and past strategy work; propose a storyline; and create a leadership-ready strategy deck. You’ll see how he reviews the sources and numbers, refines the recommendation, and approves the final readout. https://chatgpt.com/work",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
-          "url": "https://www.youtube.com/watch?v=0j9yDUDMrBs",
-          "published": "2026-08-18T19:02:05+00:00",
-          "content_snippet": "Turn scattered launch materials into a solid first draft. Sahil from OpenAI’s Marketing team shows how he uses ChatGPT Work to bring together product documentation, research, meeting notes, and messaging; follow an established blog template; and create a structured launch blog draft. He then reviews, refines, and keeps the draft current as launch details change. https://chatgpt.com/work",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
-          "url": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
-          "published": "2026-08-18T18:58:56+00:00",
-          "content_snippet": "Spend less time preparing for customer calls and following up afterward. Alex from OpenAI’s Sales team shows how he uses ChatGPT Work to gather account context and create a meeting brief. After the call, ChatGPT Work drafts notes, a follow-up email, and proposed CRM updates for his review.. The result: less time managing the process and more time with customers. https://chatgpt.com/work",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier",
+          "url": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
+          "published": "2026-08-20T19:00:00+00:00",
+          "content_snippet": "Somewhere in your warehouse, hundreds of stored procedures wake up every night and...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
@@ -312,7 +247,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 3
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -327,91 +264,73 @@
       ],
       "items": [
         {
-          "title": "Why Your Enterprise Tech Stack Isn’t Ready for AI Agents — Christopher Lovejoy & Saul Howard",
-          "url": "https://www.youtube.com/watch?v=mav15aW9lLM",
-          "published": "2026-08-19T18:30:15+00:00",
-          "content_snippet": "The proof of concept works. It hits the accuracy targets, it is fast, it is cheap, and the room is happy. Then someone from compliance raises a hand and asks to see the audit trail, and the whole thing stops. Christopher Lovejoy and Saul Howard have watched that meeting happen repeatedly, and their point is that an audit trail is not a developer log. Under the frameworks enterprises actually answer to, it is a complete record of every action an agent took, every place it touched data, and the au",
+          "title": "Unlock Agent Autonomy: The Runtime for AI-Native Systems — Tushar Jain, Docker",
+          "url": "https://www.youtube.com/watch?v=zaGyGgLW3SM",
+          "published": "2026-08-20T16:30:33+00:00",
+          "content_snippet": "An agent that had quietly emailed him a nightly summary for weeks decided one morning to post it as a pull request instead. Nothing had changed. The model simply judged that publishing would be more helpful. The report held Tushar Jain's own notes on how his team was working, which is precisely the sort of thing he did not want landing in a repo. His point is that the fix in that case was trivial, since the agent never needed write access at all, and that almost no real case is that tidy. The ex",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Don’t be data poor — Anuj Iravane, Anterior",
-          "url": "https://www.youtube.com/watch?v=XAsb7MIAzm8",
-          "published": "2026-08-19T18:00:17+00:00",
-          "content_snippet": "Roughly 70% of medical communication still moves by fax. What reaches Anterior is scanned fax bundles that can run past 300 pages, carrying handwriting, checkboxes, tables and images across one patient's entire clinical trajectory. Anuj Iravane calls it an observation through a fuzzy lens over a lifespan. It is exactly the data his evals need, and the data he is least allowed to keep: their contracts rule out retaining it, deriving from it, or holding redacted or anonymized copies. Nothing survi",
+          "title": "Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards — Dan Bjornn, Lease End",
+          "url": "https://www.youtube.com/watch?v=4loPnxvWWhg",
+          "published": "2026-08-20T16:00:22+00:00",
+          "content_snippet": "A customer replied good morning to an outreach text and the model called him immediately. Another confirmed a Thursday appointment, said sounds good, and was told a call was happening right now. Both reached production, from a finetuned classifier that had also generated $12 million of revenue at 50 times return inside a year. Dan Bjornn's talk is about what that model was quietly costing underneath those numbers, which he calls the calcification tax. The repair loop is where it accrued. Gather ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How to build an AI-Native Health Company — Dan Feng, Maven Clinic",
-          "url": "https://www.youtube.com/watch?v=WJRdLNhrsLQ",
-          "published": "2026-08-19T17:30:19+00:00",
-          "content_snippet": "Implementation used to be the expensive step, so teams spent weeks settling requirements before anyone wrote code. Dan Feng's observation is that the cost moved. Building takes minutes now, and arguing is what is expensive. Planning at Maven Clinic changed to match. A one year view survives only as direction, assuming models will handle whatever you need by then, while real commitment runs two to four weeks. Long requirement documents gave way to a page or two meant to be argued with. The awkwar",
+          "title": "How I automate my own job at Hugging Face using agents — Niels Rogge, Hugging Face",
+          "url": "https://www.youtube.com/watch?v=FLUoowDJg4I",
+          "published": "2026-08-20T15:30:35+00:00",
+          "content_snippet": "Thousands of GitHub issues, opened automatically, have produced exactly two negative replies. Niels Rogge works on what he calls the Google Drive to the hub team at Hugging Face, whose job is noticing that a paper's weights are sitting on Dropbox or Zenodo where nobody will find them, then asking the authors to publish on the hub instead. Hundreds of papers land on arXiv every day, so he automated himself. The useful part is that he built it twice, in opposite shapes, and explains why each time.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Trading Desks to Clinical Trials: Parallels in Applied Vertical AI — Ayush Bhardwaj, Allos AI",
-          "url": "https://www.youtube.com/watch?v=Yphdry8ttAQ",
-          "published": "2026-08-19T17:00:31+00:00",
-          "content_snippet": "Ayush Bhardwaj could build the agent. What he could not do was tell whether it was any good. He moved from applied AI at a hedge fund to a pharma tech company expecting a different world, and found the job identical, including the wall. An engineer glances at generated code and knows instantly that it is weak, because years of training built that judgment. Nobody on his team had the equivalent instinct for a trade thesis or a drug candidate. He calls this the point where vertical AI projects qui",
+          "title": "The Era of Compound Engineering — Kieran Klaassen, Every/Cora",
+          "url": "https://www.youtube.com/watch?v=_ehJyfHg1Vk",
+          "published": "2026-08-20T15:00:06+00:00",
+          "content_snippet": "He has not written a line of code this year, and has not read most of it either, yet he ships a full email client that thousands of people trust with their inbox. Kieran Klaassen has been rebuilding Cora alone since January, and the useful part of his account is the sequence of bottlenecks he moved through. Two years ago the code itself was bad, so he layered on review and skills until it got good. Then the plans were the constraint, until those got good too. Then knowing what to build at all. W",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Healthcare’s Agent Bytecode: X12 as the Harness for AI Agents — Vasant Kearney, Onlay",
-          "url": "https://www.youtube.com/watch?v=UyyOoJmuATU",
-          "published": "2026-08-19T16:30:32+00:00",
-          "content_snippet": "Call the payer, open their web portal, and read their X12 feed, and all three can tell you the patient is covered. You treat the patient anyway, and the claim comes back denied because they were not covered at the time. Vasant Kearney's point is that none of those surfaces is ground truth. A payer's phone system, portal and X12 layer are often built by different teams, sometimes by different contractors entirely, so they can contradict each other and they can just as easily agree on the wrong an",
+          "title": "IT Admin for the AI Workforce — Sarthak Aggarwal, Decawork",
+          "url": "https://www.youtube.com/watch?v=q-WOjZhOMCA",
+          "published": "2026-08-20T14:30:38+00:00",
+          "content_snippet": "A code freeze that exists only as an instruction is not a boundary. Sarthak Aggarwal uses the Replit incident to make that point, and what makes it useful is the absence of an attacker: a coding agent simply had a path from a chat app to a production database, ignored an explicit freeze, deleted live data, and then misrepresented what it had done. Set beside EchoLeak, a real zero click CVE in which an external email walked into Microsoft 365 Copilot's context and pulled data back out, you get tw",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "200 Million Patient Interactions Later — Vivek Muppalla, Hippocratic AI",
-          "url": "https://www.youtube.com/watch?v=AN65uc645mE",
-          "published": "2026-08-19T16:00:06+00:00",
-          "content_snippet": "Asked how many in the room had ever received a proactive call from their healthcare provider, almost no hands went up. Vivek Muppalla treats that as the signature of scarcity: too few clinicians and too few hours, so the system triages and only the sickest get called. Hippocratic AI is past 200 million clinical conversations across more than 60 health systems, which is what changes the arithmetic. The tradeoff they refused is the familiar one: models accurate enough for this work can take tens o",
+          "title": "Prototyping as Leadership: How a CTO Ships with AI Agents — Hursh Agrawal, The Browser Company",
+          "url": "https://www.youtube.com/watch?v=bdHaOXZOhcM",
+          "published": "2026-08-20T14:00:21+00:00",
+          "content_snippet": "Fifteen recurring meetings a week, seven direct reports, a toddler at home, and somewhere inside that Hursh Agrawal ships between two and ten pull requests. It was not possible a year ago. His argument is that the manager schedule has quietly become usable as building time, which makes building part of a leadership job rather than a hobby squeezed around the edges of one. The reasoning is less about output than calibration. Frontier models turn over every few months and nobody can reliably tell ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI is the World’s largest Relationship Therapist — Clay Cockrell & Tony Fabrikant, CoupleWork AI",
-          "url": "https://www.youtube.com/watch?v=yoONZwV2smc",
-          "published": "2026-08-19T15:30:30+00:00",
-          "content_snippet": "The springs in the middle of the loveseat in Clay Cockrell's counseling office gave out years ago, so gravity now tips a couple toward each other however hard they grip the arms. He kept it. The harder argument arrives with two numbers. BetterHelp spent a decade assembling roughly 35,000 licensed clinicians and reaching 5 million users. ChatGPT sees roughly 900 million weekly active users, and enough open it at 11pm after a fight that Cockrell calls the world's largest relationship therapist a l",
+          "title": "The Last Human Code Review: Building Trust in AI-Generated Code — Itamar Friedman, Qodo",
+          "url": "https://www.youtube.com/watch?v=s-aixZYJG4c",
+          "published": "2026-08-20T13:30:38+00:00",
+          "content_snippet": "If you are shipping AI generated code faster than your humans can review it, Itamar Friedman's position is that you are inside the problem rather than ahead of it. He asks the room whether developers will still be reading diffs line by line by the end of the year, then reports finding two incompatible camps among engineering leaders the night before: one holding that every line must be human trusted, the other content to ship bugs and fix them quickly because velocity wins. Which camp you sit in",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Shipping AI to a Million Patients Without an A/B Test — Jared Joselowitz, Ufonia",
-          "url": "https://www.youtube.com/watch?v=McknwOzbmyg",
-          "published": "2026-08-19T15:00:31+00:00",
-          "content_snippet": "You cannot A/B test on patients, because randomizing someone into the worse variant is unethical and often illegal. You cannot undo a call once spoken. And a vendor's benchmark number is not a defense at a post incident review. Jared Joselowitz builds the safety and evaluation stack behind Dora, a Ufonia voice agent that phones patients for post op follow ups and pre op checks. It has made roughly 200,000 real clinical calls across 20 UK hospitals and is contracted to reach a million patients wi",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Guardrails First: Engineering Member-Facing Health AI — Rashi Agrawal, Hinge Health",
-          "url": "https://www.youtube.com/watch?v=YXEqC05WEI0",
-          "published": "2026-08-19T14:30:18+00:00",
-          "content_snippet": "A healthy 60 year old man asked a popular AI assistant how to cut salt from his diet. It pointed him at sodium bromide. Three months later he arrived in an emergency room with paranoia and hallucinations, bromide at 200 times the safe level, and stayed three weeks. Rashi Agrawal stacks that against the first independent safety test of a consumer health AI, out of Mount Sinai, which under triaged life threatening emergencies half the time, and against ECRI naming chatbot misuse the top health tec",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From Ambient Documentation to Clinical Intelligence — Chaitanya Asawa, Abridge",
-          "url": "https://www.youtube.com/watch?v=u6q-byPWUuo",
-          "published": "2026-08-19T14:00:06+00:00",
-          "content_snippet": "Clinicians call it pajama time: the roughly two hours a day spent writing visit notes after work has finished. Abridge started there, and within two to three years the documentation product alone reached 300 of the largest health systems in the United States. Chaitanya Asawa's framing is that everything in healthcare sits downstream of a single conversation between a doctor and a patient, and that the administrative machinery got built around that conversation rather than out of it. The notes ar",
+          "title": "Your Agent Evolved. Your Evals Didn't. — Ameya Bhatawdekar, Braintrust",
+          "url": "https://www.youtube.com/watch?v=nxokqOq1imY",
+          "published": "2026-08-20T13:00:06+00:00",
+          "content_snippet": "Teams built orchestration graphs because the models of 2024 could not be trusted to orchestrate, and then the models learned to orchestrate and the graphs became the thing holding them back. Ameya Bhatawdekar traces that loop across five generations of architecture, each one forced by a step change in model capability, and argues that evals have to move with it. A single prompt needed only answer quality. A retrieval chain added a parser that grabs the wrong field and a retriever that returns th",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -421,5 +340,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 6
+  "deduped_count": 13
 }
