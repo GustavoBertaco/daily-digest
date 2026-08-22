@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-21T10:04:31Z",
+  "fetched_at": "2026-08-22T09:56:39Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,6 +14,15 @@
       ],
       "items": [
         {
+          "title": "Google execs are coding again",
+          "url": "https://www.youtube.com/watch?v=_joc-VGAkOA",
+          "published": "2026-08-21T15:00:21+00:00",
+          "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
           "title": "A better way to use AI agents: mutual amplification",
           "url": "https://www.youtube.com/watch?v=hOrtIm4Mbvg",
           "published": "2026-08-20T15:30:13+00:00",
@@ -21,13 +30,18 @@
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
+        },
+        {
+          "title": "A Tale of Two Flink Autoscalers",
+          "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4",
+          "published": "2026-08-21T16:01:01+00:00",
+          "content_snippet": "Samuel Yeboah , Francesco Di Chiara and Mingliang Liu Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both in production and are steadily converging on the open-source one. Along the way we learned some hard lessons about metrics, cost",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
         }
       ],
       "errors": [
-        {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -63,17 +77,42 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Why Taste Matters More Than Skill",
+          "url": "https://www.youtube.com/watch?v=qYfTS1kDkAc",
+          "published": "2026-08-21T22:37:56+00:00",
+          "content_snippet": "Subscribe to my newsletter: https://danielpink.substack.com/ AI can now make almost anything — 100 logos from one sentence, a song in seconds, three times as many books published as before ChatGPT. But when making gets cheap, judgment gets priceless, and the only thing separating the good from the forgettable is someone with the taste to tell them apart. Dan Pink breaks down why taste is the one skill AI can't replicate, and the three rules for building it. -- To find out more about Daniel Pink,",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "How to recognize political hypocrisy | Dan Carlin and Kmele Foster",
+          "url": "https://www.youtube.com/watch?v=bUpse56EYBA",
+          "published": "2026-08-21T16:07:12+00:00",
+          "content_snippet": "How to recognize political hypocrisy | Dan Carlin and Kmele Foster",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The 5:1 ratio that separates happy couples from divorced ones | John & Julie Gottman: Full Interview",
+          "url": "https://www.youtube.com/watch?v=hqa06hmCayo",
+          "published": "2026-08-21T13:00:16+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-gottman-hqa06hmCayo Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Love is a skill, not a feeling | Alain de Botton: Full Interview ► https://www.youtube.com/watch?v=kRMcimuuk0Q&vl=en Every marriage’s ",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
-          "source_name": "Daniel Pink",
+          "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -85,8 +124,22 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Roundup: Why your sales team shouldn't query Gong directly",
+          "url": "https://roundup.getdbt.com",
+          "published": "2026-08-21T07:01:00+00:00",
+          "content_snippet": "Tristan Handy and Jason Ganz are back for Roundup. This time: Stripe's $7 billion acquisition of OpenRouter, two new benchmarks showing data engineering agents are reliably good now, Exponential View's latest \"are we in a bubble\" gauges (verdict: no, not yet), and why your sales team shouldn't query Gong directly. The Analytics Engineering Podcast is sponsored by dbt Labs. Reach us at podcast@dbtlabs.com with comments and guest suggestions.",
+          "source_name": "The Analytics Engineering Podcast",
+          "source_type": "podcast",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
+        {
+          "source_name": "The Data Engineering Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
@@ -104,10 +157,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Data Engineering Show": 2,
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -125,109 +175,64 @@
       ],
       "items": [
         {
-          "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
-          "published": "2026-08-20T21:45:00+00:00",
-          "content_snippet": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store (Amazon EBS) volume types gp3, gp2, io1, sc1, and st1, Amazon Elastic Container Service (Amazon ECS), Amazon Elastic Kubernetes Service (Amazon EKS), Application Load Balancer, and AWS Direct Connect. AWS Local Zones are AWS infrastructure deployments that extend core services, such as compute, stor",
+          "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+          "published": "2026-08-21T20:11:00+00:00",
+          "content_snippet": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output pricing. This promotional pricing is available at least through November 21, 2026. Whether you're building autonomous coding agents, running complex multi-step analyses, or performing advanced research workflows, the reduced pricing gives you more ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
-          "published": "2026-08-20T20:00:00+00:00",
-          "content_snippet": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key when creating a database resource. Timestream for InfluxDB uses the selected key to encrypt the underlying database storage for InfluxDB 2 and InfluxDB 3 resources. The key must be in the same AWS account and AWS Region as the database resourc",
+          "title": "Amazon Connect Customer now lets managers chat with their data",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+          "published": "2026-08-21T20:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find what’s driving performance, and decide what to do next. Now Amazon Connect Customer does that work for them. It searches across more than 150 metrics spanning self-service, agent performance, and queue performance to find what matters, explain ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 P6-B300 instances are now available in the Asia Pacific (Seoul) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
-          "published": "2026-08-20T18:31:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the Asia Pacific (Seoul) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps dedicated ENA throughput, and 4 TB of system memory. P6-B300 instances deliver 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS (at FP4, without sparsity) compared to P6-B200 instances, making them well suited to train and depl",
+          "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+          "published": "2026-08-21T18:00:00+00:00",
+          "content_snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to con",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
-          "published": "2026-08-20T18:30:00+00:00",
-          "content_snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows encrypted connections to the cluster's Kubernetes API, and now you can rotate the CA before it expires to ensure your cluster remains operational and secure. Amazon EKS clusters created since launch in 2018 have CAs with a 10-year validity perio",
+          "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+          "published": "2026-08-21T17:00:00+00:00",
+          "content_snippet": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
-          "published": "2026-08-20T18:30:00+00:00",
-          "content_snippet": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Customers use Amazon S3 MRAP with CloudFront to serve content from a single global endpoint that automatically routes to the closest available replicated bucket across regions during a cache miss, improving performance and resilience for globally distributed users. Previously, customers",
+          "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+          "published": "2026-08-21T16:42:00+00:00",
+          "content_snippet": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13. With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates,",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
-          "published": "2026-08-20T18:02:00+00:00",
-          "content_snippet": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their existing AWS identities, sign-in methods, IAM permissions, and governance controls without installing or maintaining additional authentication software. Previously, AWS Partners needed to set up an MCP proxy with SigV4 credentials to access Partner Central agents from their existing tools, or sign in to ",
-          "source_name": "AWS What's New",
+          "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+          "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+          "published": "2026-08-21T18:53:26+00:00",
+          "content_snippet": "Today, we are announcing the general availability of AWS Glue 6.0 , delivering 30% lower pricing than previous AWS Glue versions and introducing full support for Apache Iceberg v3 features. AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering faster performance. With this release, AWS Glue provides the most complete Iceberg v3 implementation on any fully serverless managed Spark service, along with new capabilities that simplify ETL autho",
+          "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ARC Region switch adds Amazon RDS Switchover Read Replica execution block",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block/",
-          "published": "2026-08-20T17:45:00+00:00",
-          "content_snippet": "Today, we are launching the Amazon RDS Switchover Read Replica execution block in ARC Region switch , which automates recovery orchestration for Amazon RDS databases running Oracle Data Guard in multi-Region workloads. Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. To recover an Amazon RDS database running Oracle Data Guard during a Reg",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
-          "published": "2026-08-20T17:25:00+00:00",
-          "content_snippet": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026, extending the same benchmarking infrastructure to teams that prefer a visual workflow over programmatic access. Deploying generative AI models in production requires finding the right combination of instance type, serving container, and optimi",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
-          "published": "2026-08-20T15:00:00+00:00",
-          "content_snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to 1,000 prefixes each for IPv4 and IPv6 on your VIFs on dedicated and hosted connections. Previously, Direct Connect VIFs accepted a maximum of 100 route prefixes advertised from your on-premises network to AWS on a private or transit VIF. If ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
-          "published": "2026-08-20T15:00:00+00:00",
-          "content_snippet": "Amazon Redshift now supports long-term retention for system table data through native integration with Amazon S3 Tables. With this feature, you can configure your Redshift system table data retention beyond the current 7-day limit to meet your compliance, auditing, and observability requirements. Once enabled, AWS automatically writes system table data to S3 Tables in Apache Iceberg format and manages partitioning, compaction, and retention. Customers use Redshift system tables to monitor query ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Inbound Private Link now supports account-level Genie One, the account console, and custom URLs",
-          "url": "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls",
-          "published": "2026-08-20T22:00:00+00:00",
-          "content_snippet": "Enterprises adopting Databricks for their most sensitive data commonly rely on Inbound...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Busting SQL Migration Myths: How New SQL Features Make Lift-and-Shift to Lakehouse Easier",
-          "url": "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier",
-          "published": "2026-08-20T19:00:00+00:00",
-          "content_snippet": "Somewhere in your warehouse, hundreds of stored procedures wake up every night and...",
+          "title": "Connecting retail demand planning to campaign and store execution",
+          "url": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
+          "published": "2026-08-21T17:20:00+00:00",
+          "content_snippet": "Retail and consumer goods teams make decisions across a connected but complex operating cycle...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
@@ -235,11 +240,11 @@
       ],
       "errors": [
         {
-          "source_name": "AWS Blog",
+          "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Anthropic News",
+          "source_name": "OpenAI",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -247,9 +252,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -263,6 +266,33 @@
         "llm"
       ],
       "items": [
+        {
+          "title": "Building Agents Is Trivial Now, Context Is the Next Frontier — Jeff Ng, Unblocked",
+          "url": "https://www.youtube.com/watch?v=HvMyYLTfvhg",
+          "published": "2026-08-21T17:00:30+00:00",
+          "content_snippet": "An agent built to enrich Linear tickets read a report that time to first character in Unblocked's own QA pipeline had gone from hundreds of milliseconds to three or four seconds, and recommended turning async dispatch back on. The recommendation was wrong. A support engineer had explicitly disabled that setting days earlier because it caused an outage. The agent had the ticket and the repository and reasoned soundly from both, but never saw the Slack thread where the engineers worked through the",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Missing Layer: Design Taste in AI Agents — Hassan El Mghari, Together AI",
+          "url": "https://www.youtube.com/watch?v=7GMKdpLsxwU",
+          "published": "2026-08-21T15:00:06+00:00",
+          "content_snippet": "Most people can spot a vibe coded app in two seconds and cannot say why. Hassan El Mghari names it: the purple gradient background, italics in the header, a scroll to explore prompt nobody asked for, all caps pills with wide letter spacing, too many emoji. He reckons you could list thirty such tells, and naming them is what lets you tell an agent to avoid them. That is most of what Hallmark does, the design skill he shipped six weeks ago to more than 10,000 users. It codifies the patterns as gat",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agentic SDLC at Uber — Uday Kiran Medisetty & Adam Huda, Uber",
+          "url": "https://www.youtube.com/watch?v=17-YSUHo6Lk",
+          "published": "2026-08-21T13:00:06+00:00",
+          "content_snippet": "More than 70% of pull requests at Uber now come from local or cloud agents, and lines of code per engineer has doubled year over year. Uday Kiran Medisetty walks through the six pieces of infrastructure underneath that, and the constraint shaping all of them shows up in the first one: every model call in the company goes through a single gateway doing Spire identity, redaction of 20 plus PII types, and five specialized safety models, with that entire guardrail budget held under 100 milliseconds.",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
         {
           "title": "Unlock Agent Autonomy: The Runtime for AI-Native Systems — Tushar Jain, Docker",
           "url": "https://www.youtube.com/watch?v=zaGyGgLW3SM",
@@ -325,20 +355,11 @@
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your Agent Evolved. Your Evals Didn't. — Ameya Bhatawdekar, Braintrust",
-          "url": "https://www.youtube.com/watch?v=nxokqOq1imY",
-          "published": "2026-08-20T13:00:06+00:00",
-          "content_snippet": "Teams built orchestration graphs because the models of 2024 could not be trusted to orchestrate, and then the models learned to orchestrate and the graphs became the thing holding them back. Ameya Bhatawdekar traces that loop across five generations of architecture, each one forced by a step change in model capability, and argues that evals have to move with it. A single prompt needed only answer quality. A retrieval chain added a parser that grabs the wrong field and a retriever that returns th",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
         }
       ],
       "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 13
+  "deduped_count": 3
 }
