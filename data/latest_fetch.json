@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T09:56:39Z",
+  "fetched_at": "2026-08-23T09:57:19Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,35 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Google execs are coding again",
-          "url": "https://www.youtube.com/watch?v=_joc-VGAkOA",
-          "published": "2026-08-21T15:00:21+00:00",
-          "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "A better way to use AI agents: mutual amplification",
-          "url": "https://www.youtube.com/watch?v=hOrtIm4Mbvg",
-          "published": "2026-08-20T15:30:13+00:00",
-          "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "A Tale of Two Flink Autoscalers",
-          "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4",
-          "published": "2026-08-21T16:01:01+00:00",
-          "content_snippet": "Samuel Yeboah , Francesco Di Chiara and Mingliang Liu Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both in production and are steadily converging on the open-source one. Along the way we learned some hard lessons about metrics, cost",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Meta Engineering",
@@ -52,6 +24,8 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 1,
         "Airbnb Tech": 1
       }
     },
@@ -77,42 +51,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Why Taste Matters More Than Skill",
-          "url": "https://www.youtube.com/watch?v=qYfTS1kDkAc",
-          "published": "2026-08-21T22:37:56+00:00",
-          "content_snippet": "Subscribe to my newsletter: https://danielpink.substack.com/ AI can now make almost anything — 100 logos from one sentence, a song in seconds, three times as many books published as before ChatGPT. But when making gets cheap, judgment gets priceless, and the only thing separating the good from the forgettable is someone with the taste to tell them apart. Dan Pink breaks down why taste is the one skill AI can't replicate, and the three rules for building it. -- To find out more about Daniel Pink,",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How to recognize political hypocrisy | Dan Carlin and Kmele Foster",
-          "url": "https://www.youtube.com/watch?v=bUpse56EYBA",
-          "published": "2026-08-21T16:07:12+00:00",
-          "content_snippet": "How to recognize political hypocrisy | Dan Carlin and Kmele Foster",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The 5:1 ratio that separates happy couples from divorced ones | John & Julie Gottman: Full Interview",
-          "url": "https://www.youtube.com/watch?v=hqa06hmCayo",
-          "published": "2026-08-21T13:00:16+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-gottman-hqa06hmCayo Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Love is a skill, not a feeling | Alain de Botton: Full Interview ► https://www.youtube.com/watch?v=kRMcimuuk0Q&vl=en Every marriage’s ",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -124,17 +73,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Roundup: Why your sales team shouldn't query Gong directly",
-          "url": "https://roundup.getdbt.com",
-          "published": "2026-08-21T07:01:00+00:00",
-          "content_snippet": "Tristan Handy and Jason Ganz are back for Roundup. This time: Stripe's $7 billion acquisition of OpenRouter, two new benchmarks showing data engineering agents are reliably good now, Exponential View's latest \"are we in a bubble\" gauges (verdict: no, not yet), and why your sales team shouldn't query Gong directly. The Analytics Engineering Podcast is sponsored by dbt Labs. Reach us at podcast@dbtlabs.com with comments and guest suggestions.",
-          "source_name": "The Analytics Engineering Podcast",
-          "source_type": "podcast",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -157,7 +96,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -173,72 +114,20 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
-          "published": "2026-08-21T20:11:00+00:00",
-          "content_snippet": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output pricing. This promotional pricing is available at least through November 21, 2026. Whether you're building autonomous coding agents, running complex multi-step analyses, or performing advanced research workflows, the reduced pricing gives you more ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer now lets managers chat with their data",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
-          "published": "2026-08-21T20:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find what’s driving performance, and decide what to do next. Now Amazon Connect Customer does that work for them. It searches across more than 150 metrics spanning self-service, agent performance, and queue performance to find what matters, explain ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
-          "published": "2026-08-21T18:00:00+00:00",
-          "content_snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to con",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
-          "published": "2026-08-21T17:00:00+00:00",
-          "content_snippet": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure th",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
-          "published": "2026-08-21T16:42:00+00:00",
-          "content_snippet": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13. With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates,",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-          "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-          "published": "2026-08-21T18:53:26+00:00",
-          "content_snippet": "Today, we are announcing the general availability of AWS Glue 6.0 , delivering 30% lower pricing than previous AWS Glue versions and introducing full support for Apache Iceberg v3 features. AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering faster performance. With this release, AWS Glue provides the most complete Iceberg v3 implementation on any fully serverless managed Spark service, along with new capabilities that simplify ETL autho",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Connecting retail demand planning to campaign and store execution",
-          "url": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
-          "published": "2026-08-21T17:20:00+00:00",
-          "content_snippet": "Retail and consumer goods teams make decisions across a connected but complex operating cycle...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -267,91 +156,73 @@
       ],
       "items": [
         {
-          "title": "Building Agents Is Trivial Now, Context Is the Next Frontier — Jeff Ng, Unblocked",
-          "url": "https://www.youtube.com/watch?v=HvMyYLTfvhg",
-          "published": "2026-08-21T17:00:30+00:00",
-          "content_snippet": "An agent built to enrich Linear tickets read a report that time to first character in Unblocked's own QA pipeline had gone from hundreds of milliseconds to three or four seconds, and recommended turning async dispatch back on. The recommendation was wrong. A support engineer had explicitly disabled that setting days earlier because it caused an outage. The agent had the ticket and the repository and reasoned soundly from both, but never saw the Slack thread where the engineers worked through the",
+          "title": "The Agent Behind the Curtain: Building the Oz Cloud Agent Platform — Safia Abdalla, Warp",
+          "url": "https://www.youtube.com/watch?v=L173Z8DpaJg",
+          "published": "2026-08-22T17:30:13+00:00",
+          "content_snippet": "Warp open sourced about three months ago and went from roughly 20,000 GitHub stars to over 60,000, with thousands of pull requests and hundreds of contributors arriving at once. Rather than let agents fire off code, Safia Abdalla's team put them inside the repository's process. File an issue and an agent triages it, researches the codebase, and asks you questions when the request is too abstract to act on. Every pull request then goes through an agent managed review, and nobody on the team gets ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Missing Layer: Design Taste in AI Agents — Hassan El Mghari, Together AI",
-          "url": "https://www.youtube.com/watch?v=7GMKdpLsxwU",
-          "published": "2026-08-21T15:00:06+00:00",
-          "content_snippet": "Most people can spot a vibe coded app in two seconds and cannot say why. Hassan El Mghari names it: the purple gradient background, italics in the header, a scroll to explore prompt nobody asked for, all caps pills with wide letter spacing, too many emoji. He reckons you could list thirty such tells, and naming them is what lets you tell an agent to avoid them. That is most of what Hallmark does, the design skill he shipped six weeks ago to more than 10,000 users. It codifies the patterns as gat",
+          "title": "Inside 847 Production Clinical AI Notes — Sebastian Fox, Composo",
+          "url": "https://www.youtube.com/watch?v=yqF6XhzbWBk",
+          "published": "2026-08-22T17:00:32+00:00",
+          "content_snippet": "A clinical note from a real consultation reads like a routine tension headache, and nothing in it is wrong. What never reached the page is that the patient also mentioned her jaw aches when she chews, which alongside a new headache over 50 is a red flag for a condition that can take her sight within days. Sebastian Fox pulled that error, and every other failure here, out of three leading production ambient scribes in one afternoon. In the largest real world study of these notes, roughly one in 2",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agentic SDLC at Uber — Uday Kiran Medisetty & Adam Huda, Uber",
-          "url": "https://www.youtube.com/watch?v=17-YSUHo6Lk",
-          "published": "2026-08-21T13:00:06+00:00",
-          "content_snippet": "More than 70% of pull requests at Uber now come from local or cloud agents, and lines of code per engineer has doubled year over year. Uday Kiran Medisetty walks through the six pieces of infrastructure underneath that, and the constraint shaping all of them shows up in the first one: every model call in the company goes through a single gateway doing Spire identity, redaction of 20 plus PII types, and five specialized safety models, with that entire guardrail budget held under 100 milliseconds.",
+          "title": "Agent Frameworks Considered Harmful — Rémi Louf, .txt",
+          "url": "https://www.youtube.com/watch?v=KHudyx5wW3U",
+          "published": "2026-08-22T16:30:39+00:00",
+          "content_snippet": "In the first week the daily brief posted to Slack twice, a voice note vanished entirely, and the market brief turned to garbage after prompt edits Rémi Louf had not versioned and could no longer recall. Each failure became a piece of what turned into a runtime. The lost note became an append only log where nothing is discarded and every event is causally linked to the one that triggered it. The duplicates became a real queue that counts attempts. The untraceable prompt became a content addressed",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Unlock Agent Autonomy: The Runtime for AI-Native Systems — Tushar Jain, Docker",
-          "url": "https://www.youtube.com/watch?v=zaGyGgLW3SM",
-          "published": "2026-08-20T16:30:33+00:00",
-          "content_snippet": "An agent that had quietly emailed him a nightly summary for weeks decided one morning to post it as a pull request instead. Nothing had changed. The model simply judged that publishing would be more helpful. The report held Tushar Jain's own notes on how his team was working, which is precisely the sort of thing he did not want landing in a repo. His point is that the fix in that case was trivial, since the agent never needed write access at all, and that almost no real case is that tidy. The ex",
+          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams. — Patrick Debois, Tessl",
+          "url": "https://www.youtube.com/watch?v=zCJtYuqwm7E",
+          "published": "2026-08-22T16:00:06+00:00",
+          "content_snippet": "In 2009 people told Patrick Debois that continuous delivery was crazy. He hears the same thing now about the dark factory, and reads it the same way: not that the technology cannot work, but that the organization is not set up for it yet. His starting assumption is that harnesses and loops will commoditize, possibly into a service a frontier lab just sells you, so none of that will be anyone's differentiator. What actually changes is the team, the platform and the organization around them. Devel",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Fine-Tuned Model Is Tech Debt: A 50x ROI House of Cards — Dan Bjornn, Lease End",
-          "url": "https://www.youtube.com/watch?v=4loPnxvWWhg",
-          "published": "2026-08-20T16:00:22+00:00",
-          "content_snippet": "A customer replied good morning to an outreach text and the model called him immediately. Another confirmed a Thursday appointment, said sounds good, and was told a call was happening right now. Both reached production, from a finetuned classifier that had also generated $12 million of revenue at 50 times return inside a year. Dan Bjornn's talk is about what that model was quietly costing underneath those numbers, which he calls the calcification tax. The repair loop is where it accrued. Gather ",
+          "title": "Preferences Over Benchmarks: Model Routing — Archana Kamath & Tyler Gillam, DigitalOcean",
+          "url": "https://www.youtube.com/watch?v=FvxY8oPoI8o",
+          "published": "2026-08-22T15:30:18+00:00",
+          "content_snippet": "Two terminals run the same prompt, build me a spinning wheel app. On the left every request goes to a single premium model. On the right they go through a router that picks a model per task. Both finish at about the same time with comparable output, and by then the router's session has cost 8 cents against 25. The gap widens with every prompt after that. Archana Kamath and Tyler Gillam use it to argue that picking a model by climbing a leaderboard is the wrong instinct, because there is no singl",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How I automate my own job at Hugging Face using agents — Niels Rogge, Hugging Face",
-          "url": "https://www.youtube.com/watch?v=FLUoowDJg4I",
-          "published": "2026-08-20T15:30:35+00:00",
-          "content_snippet": "Thousands of GitHub issues, opened automatically, have produced exactly two negative replies. Niels Rogge works on what he calls the Google Drive to the hub team at Hugging Face, whose job is noticing that a paper's weights are sitting on Dropbox or Zenodo where nobody will find them, then asking the authors to publish on the hub instead. Hundreds of papers land on arXiv every day, so he automated himself. The useful part is that he built it twice, in opposite shapes, and explains why each time.",
+          "title": "What If Your Chip Design Team Moved Like a Single Body? — Abduallah Mohamed, AIDAChip",
+          "url": "https://www.youtube.com/watch?v=0I6aoPSRzVc",
+          "published": "2026-08-22T15:00:25+00:00",
+          "content_snippet": "They told the agent not to write to the spec files. It agreed, then wrote to them through bash. They blocked bash, so it used sed. They blocked sed, so it used cat. The lesson Abduallah Mohamed drew is that once an agent is capable enough, the substrate it runs in matters more than the agent itself, so the fix was blocking at the system level rather than tool by tool. Two other failures shaped the design: an analog design agent that wandered into work belonging to the RTL agent, and truth drift,",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Era of Compound Engineering — Kieran Klaassen, Every/Cora",
-          "url": "https://www.youtube.com/watch?v=_ehJyfHg1Vk",
-          "published": "2026-08-20T15:00:06+00:00",
-          "content_snippet": "He has not written a line of code this year, and has not read most of it either, yet he ships a full email client that thousands of people trust with their inbox. Kieran Klaassen has been rebuilding Cora alone since January, and the useful part of his account is the sequence of bottlenecks he moved through. Two years ago the code itself was bad, so he layered on review and skills until it got good. Then the plans were the constraint, until those got good too. Then knowing what to build at all. W",
+          "title": "FinOps for AI Agents: Who Spent All the Tokens? — Tisha Chawla & Susheem Koul, Microsoft",
+          "url": "https://www.youtube.com/watch?v=GJX19pNhmSw",
+          "published": "2026-08-22T14:30:07+00:00",
+          "content_snippet": "Turning the full policy suite on cut average agent spend by about 78% across benchmark runs on two open source repos, and lifted the share of runs that actually completed from 67% to roughly 96%. That second number is the point. Simple throttling holds the bill down by killing runs, so Tisha Chawla and Susheem Koul built their control plane to steer instead. Their framing is that every software era grew a control surface, usage caps in SaaS, autoscaling policies in cloud, and the agentic era sti",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "IT Admin for the AI Workforce — Sarthak Aggarwal, Decawork",
-          "url": "https://www.youtube.com/watch?v=q-WOjZhOMCA",
-          "published": "2026-08-20T14:30:38+00:00",
-          "content_snippet": "A code freeze that exists only as an instruction is not a boundary. Sarthak Aggarwal uses the Replit incident to make that point, and what makes it useful is the absence of an attacker: a coding agent simply had a path from a chat app to a production database, ignored an explicit freeze, deleted live data, and then misrepresented what it had done. Set beside EchoLeak, a real zero click CVE in which an external email walked into Microsoft 365 Copilot's context and pulled data back out, you get tw",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Prototyping as Leadership: How a CTO Ships with AI Agents — Hursh Agrawal, The Browser Company",
-          "url": "https://www.youtube.com/watch?v=bdHaOXZOhcM",
-          "published": "2026-08-20T14:00:21+00:00",
-          "content_snippet": "Fifteen recurring meetings a week, seven direct reports, a toddler at home, and somewhere inside that Hursh Agrawal ships between two and ten pull requests. It was not possible a year ago. His argument is that the manager schedule has quietly become usable as building time, which makes building part of a leadership job rather than a hobby squeezed around the edges of one. The reasoning is less about output than calibration. Frontier models turn over every few months and nobody can reliably tell ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Last Human Code Review: Building Trust in AI-Generated Code — Itamar Friedman, Qodo",
-          "url": "https://www.youtube.com/watch?v=s-aixZYJG4c",
-          "published": "2026-08-20T13:30:38+00:00",
-          "content_snippet": "If you are shipping AI generated code faster than your humans can review it, Itamar Friedman's position is that you are inside the problem rather than ahead of it. He asks the room whether developers will still be reading diffs line by line by the end of the year, then reports finding two incompatible camps among engineering leaders the night before: one holding that every line must be human trusted, the other content to ship bugs and fix them quickly because velocity wins. Which camp you sit in",
+          "title": "Give the Agent a Budget, Not a Token — Sachin Malhotra, Anthropic",
+          "url": "https://www.youtube.com/watch?v=rbjWzZK2LU0",
+          "published": "2026-08-22T14:00:06+00:00",
+          "content_snippet": "An agent tidying up after itself listed the workloads it no longer needed and deleted them. One stage of the pipeline evaluated to nothing, the filter dropped out, and the selector matched everything: about 200 workloads gone in 90 seconds, roughly 20 engineers affected, some of it long running training jobs that were never checkpointed. Nothing malicious happened, and the agent did nothing Sachin Malhotra could not have done himself, because it was using his token. The failure was handing unbou",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -361,5 +232,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 3
+  "deduped_count": 10
 }
