@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T09:57:19Z",
+  "fetched_at": "2026-08-24T10:20:48Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "“Treat computing as an onion\"",
+          "url": "https://www.youtube.com/watch?v=FZUJDt-vJ8o",
+          "published": "2026-08-23T16:30:18+00:00",
+          "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Meta Engineering",
@@ -24,7 +34,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1
       }
@@ -114,7 +123,17 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "What Codex Unlocks for NTT Data",
+          "url": "https://www.youtube.com/watch?v=VDI4MiD6eh4",
+          "published": "2026-08-24T01:27:29+00:00",
+          "content_snippet": "After introducing Codex, adoption grew to more than 10,000 active users and became one of the largest internal community in just a few months. The NTT Data sales teams uses Codex to automate tasks like customer list maintenance, which has created net new workflows and report creation that used to take 2 days now takes 30 min 💥",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
       "errors": [
         {
           "source_name": "AWS What's New",
@@ -130,10 +149,6 @@
         },
         {
           "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "OpenAI",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -154,83 +169,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "The Agent Behind the Curtain: Building the Oz Cloud Agent Platform — Safia Abdalla, Warp",
-          "url": "https://www.youtube.com/watch?v=L173Z8DpaJg",
-          "published": "2026-08-22T17:30:13+00:00",
-          "content_snippet": "Warp open sourced about three months ago and went from roughly 20,000 GitHub stars to over 60,000, with thousands of pull requests and hundreds of contributors arriving at once. Rather than let agents fire off code, Safia Abdalla's team put them inside the repository's process. File an issue and an agent triages it, researches the codebase, and asks you questions when the request is too abstract to act on. Every pull request then goes through an agent managed review, and nobody on the team gets ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Inside 847 Production Clinical AI Notes — Sebastian Fox, Composo",
-          "url": "https://www.youtube.com/watch?v=yqF6XhzbWBk",
-          "published": "2026-08-22T17:00:32+00:00",
-          "content_snippet": "A clinical note from a real consultation reads like a routine tension headache, and nothing in it is wrong. What never reached the page is that the patient also mentioned her jaw aches when she chews, which alongside a new headache over 50 is a red flag for a condition that can take her sight within days. Sebastian Fox pulled that error, and every other failure here, out of three leading production ambient scribes in one afternoon. In the largest real world study of these notes, roughly one in 2",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Agent Frameworks Considered Harmful — Rémi Louf, .txt",
-          "url": "https://www.youtube.com/watch?v=KHudyx5wW3U",
-          "published": "2026-08-22T16:30:39+00:00",
-          "content_snippet": "In the first week the daily brief posted to Slack twice, a voice note vanished entirely, and the market brief turned to garbage after prompt edits Rémi Louf had not versioned and could no longer recall. Each failure became a piece of what turned into a runtime. The lost note became an append only log where nothing is discarded and every event is causally linked to the one that triggered it. The duplicates became a real queue that counts attempts. The untraceable prompt became a content addressed",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams. — Patrick Debois, Tessl",
-          "url": "https://www.youtube.com/watch?v=zCJtYuqwm7E",
-          "published": "2026-08-22T16:00:06+00:00",
-          "content_snippet": "In 2009 people told Patrick Debois that continuous delivery was crazy. He hears the same thing now about the dark factory, and reads it the same way: not that the technology cannot work, but that the organization is not set up for it yet. His starting assumption is that harnesses and loops will commoditize, possibly into a service a frontier lab just sells you, so none of that will be anyone's differentiator. What actually changes is the team, the platform and the organization around them. Devel",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Preferences Over Benchmarks: Model Routing — Archana Kamath & Tyler Gillam, DigitalOcean",
-          "url": "https://www.youtube.com/watch?v=FvxY8oPoI8o",
-          "published": "2026-08-22T15:30:18+00:00",
-          "content_snippet": "Two terminals run the same prompt, build me a spinning wheel app. On the left every request goes to a single premium model. On the right they go through a router that picks a model per task. Both finish at about the same time with comparable output, and by then the router's session has cost 8 cents against 25. The gap widens with every prompt after that. Archana Kamath and Tyler Gillam use it to argue that picking a model by climbing a leaderboard is the wrong instinct, because there is no singl",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "What If Your Chip Design Team Moved Like a Single Body? — Abduallah Mohamed, AIDAChip",
-          "url": "https://www.youtube.com/watch?v=0I6aoPSRzVc",
-          "published": "2026-08-22T15:00:25+00:00",
-          "content_snippet": "They told the agent not to write to the spec files. It agreed, then wrote to them through bash. They blocked bash, so it used sed. They blocked sed, so it used cat. The lesson Abduallah Mohamed drew is that once an agent is capable enough, the substrate it runs in matters more than the agent itself, so the fix was blocking at the system level rather than tool by tool. Two other failures shaped the design: an analog design agent that wandered into work belonging to the RTL agent, and truth drift,",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "FinOps for AI Agents: Who Spent All the Tokens? — Tisha Chawla & Susheem Koul, Microsoft",
-          "url": "https://www.youtube.com/watch?v=GJX19pNhmSw",
-          "published": "2026-08-22T14:30:07+00:00",
-          "content_snippet": "Turning the full policy suite on cut average agent spend by about 78% across benchmark runs on two open source repos, and lifted the share of runs that actually completed from 67% to roughly 96%. That second number is the point. Simple throttling holds the bill down by killing runs, so Tisha Chawla and Susheem Koul built their control plane to steer instead. Their framing is that every software era grew a control surface, usage caps in SaaS, autoscaling policies in cloud, and the agentic era sti",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Give the Agent a Budget, Not a Token — Sachin Malhotra, Anthropic",
-          "url": "https://www.youtube.com/watch?v=rbjWzZK2LU0",
-          "published": "2026-08-22T14:00:06+00:00",
-          "content_snippet": "An agent tidying up after itself listed the workloads it no longer needed and deleted them. One stage of the pipeline evaluated to nothing, the filter dropped out, and the selector matched everything: about 200 workloads gone in 90 seconds, roughly 20 engineers affected, some of it long running training jobs that were never checkpointed. Nothing malicious happened, and the agent did nothing Sachin Malhotra could not have done himself, because it was using his token. The failure was handing unbou",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 17
 }
