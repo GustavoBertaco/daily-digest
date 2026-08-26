@@ -1,10 +1,10 @@
 ---
-date: 2026-08-25
+date: 2026-08-26
 type: run-log
 ---
 
-# Digest Run Log — August 25, 2026
-Fetched at: 2026-08-25T10:02:12Z | default window: 26h (per-source/per-type overrides may differ)
+# Digest Run Log — August 26, 2026
+Fetched at: 2026-08-26T10:02:26Z | default window: 26h (per-source/per-type overrides may differ)
 
 ## Results by source
 
