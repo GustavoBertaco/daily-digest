@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T10:04:11Z",
+  "fetched_at": "2026-08-26T10:16:44Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,29 +14,20 @@
       ],
       "items": [
         {
-          "title": "“Treat computing as an onion\"",
-          "url": "https://www.youtube.com/watch?v=FZUJDt-vJ8o",
-          "published": "2026-08-23T16:30:18+00:00",
+          "title": "What does a Google director do?",
+          "url": "https://www.youtube.com/watch?v=XNAeptioFKU",
+          "published": "2026-08-25T15:30:16+00:00",
           "content_snippet": "with Addy Osmani, Author and Director of Engineering. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-          "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-          "published": "2026-08-24T18:02:29+00:00",
-          "content_snippet": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet. We’re releasing the MetaRoCE specification, a reference software implementation and a compliance test suite through the Open Compute Project (OCP) to enable the broader industry to adopt, implement, and build on it.",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-          "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-          "published": "2026-08-24T17:45:52+00:00",
-          "content_snippet": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior performance over general-purpose GPUs. By co-designing MTIA’s communication library, HCCL, alongside the chip we’ve taken a fundamentally different approach to chip design and made communication a first",
-          "source_name": "Meta Engineering",
+          "title": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize",
+          "url": "https://medium.com/airbnb-engineering/project-lighthouse-part-3-introducing-project-lighthouse-anonymize-74f8b26653fb?source=rss----53c7c27702d5---4",
+          "published": "2026-08-25T17:01:02+00:00",
+          "content_snippet": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize The data in Project Lighthouse is powered by privacy-preserving anonymization code. We’ve put this code into open source, and published two new technical papers detailing the scalable algorithms and data quality frameworks behind it. By: Adam Bloomston Introduction In 2020, we launched Project Lighthouse, which we developed in partnership with leading civil rights and privacy organizations. As our 2020 announcement details, Pr",
+          "source_name": "Airbnb Tech",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -49,7 +40,7 @@
       ],
       "deduped_sources": {
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1
+        "Meta Engineering": 2
       }
     },
     {
@@ -74,17 +65,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "The ultimate relationship saver | John Gottman",
-          "url": "https://www.youtube.com/watch?v=LlsyihdHMQE",
-          "published": "2026-08-24T16:04:57+00:00",
-          "content_snippet": "The ultimate relationship saver | John Gottman",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -95,7 +76,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -107,7 +90,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Coding and Custom AI Agents: Adoption, Governance and Design with Matei Zaharia #databricks #agentic",
+          "url": "https://www.youtube.com/watch?v=sdUifFykb-I",
+          "published": "2026-08-26T03:56:27+00:00",
+          "content_snippet": "AI agent adoption is accelerating across two major tracks: 🛑 Coding Agents 🛑 Custom Agents Whether securing coding tools today or designing custom AI solutions for tomorrow, success lies in balancing governance with continuous evaluation.Full talk is coming soon on https://lnkd.in/e3hsNJMp",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -118,19 +111,12 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "NextGenLakehouse",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "The Data Stack Show",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
+        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -150,136 +136,190 @@
       ],
       "items": [
         {
-          "title": "AWS Lambda functions now support full IAM resource-based policies",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
-          "published": "2026-08-25T02:00:00+00:00",
-          "content_snippet": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies , enabling platform admins and security teams to define granular access permissions using the full capabilities of AWS IAM. With full IAM resource-based policies, you can define permissions for multiple principals and actions in a single policy document and leverage the full range of IAM condition keys . Previously, Lambda functions required customers to add permissions individually per principal. ",
+          "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
+          "published": "2026-08-25T19:42:00+00:00",
+          "content_snippet": "AWS IoT Core now supports InfluxDB rule action that routes time-series data from your Internet of Things (IoT) devices directly to InfluxDB databases, without writing custom device-side code or using intermediate cloud services. AWS IoT Core is a fully managed service that securely connects billions of IoT devices to the AWS cloud, and routes IoT device data to AWS and third-party services. The new InfluxDB rule action automatically converts time-series data from your device to InfluxDB’s line p",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
-          "published": "2026-08-24T22:42:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual intervention. With this launch, Amazon ECS continuously monitors agent connectivity across container instances. Infrastructure events such as EBS volume degradation, host thermal events, or network connectivity failures can sever the ECS agent's connection to the ECS control plane. Am",
+          "title": "AWS Batch now supports Amazon ECS Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/",
+          "published": "2026-08-25T19:36:00+00:00",
+          "content_snippet": "AWS Batch now supports Amazon ECS Managed Instances (ECS MI) as a new compute option, enabling you to run GPU-accelerated and compute-intensive batch workloads on AWS-managed infrastructure. With AWS Batch on ECS MI you can now access GPU-accelerated instances while AWS handles AMI updates, security patching, and instance lifecycle automatically, eliminating the operational overhead of customer-managed Amazon EC2 infrastructure. To get started, create an AWS Batch on ECS MI compute environment u",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "SageMaker MLflow now supports customer managed keys",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
-          "published": "2026-08-24T19:26:00+00:00",
-          "content_snippet": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption keys. With customer-managed keys, you gain enhanced security control and comprehensive audit capabilities through AWS CloudTrail integration. You can encrypt your data with your own KMS keys, trace all data access for security auditing. Customer",
+          "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/capacity-reservation-resource-groups-ec2",
+          "published": "2026-08-25T18:00:00+00:00",
+          "content_snippet": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups. Amazon EC2 offers different reservation offerings such as On-Demand Capacity Reservations (ODCRs), interruptible Capacity Reservations, and Capacity Blocks for ML. Previously, a Capacity Reservation Resource Group could only include ODCRs. Now you can add any type of Capacity Reservation to a Capacity Reservation Resource Group, making it easier to launch",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-          "published": "2026-08-24T18:29:00+00:00",
-          "content_snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authenticate users and workloads to your Kubernetes clusters. Many organizations use different identity providers for different user populations, such as employees, contractors, and CI/CD systems. You can now associate each of these providers directly wit",
+          "title": "AWS Lambda MicroVMs now supports AWS PrivateLink",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-supports-privatelink",
+          "published": "2026-08-25T16:34:00+00:00",
+          "content_snippet": "AWS Lambda MicroVMs now supports AWS PrivateLink, enabling private connectivity to Lambda MicroVMs directly from Amazon Virtual Private Cloud (VPC) resources without exposing traffic to the public internet. This launch helps regulated workloads in financial services, healthcare, and government meet strict network isolation requirements when building with Lambda MicroVMs. PrivateLink VPC Endpoints deliver private connectivity to AWS services from your VPC, ensuring that your traffic does not trav",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
-          "published": "2026-08-24T16:00:00+00:00",
-          "content_snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address known Common Vulnerabilities and Exposures (CVEs) and benefit from these improvements, as detailed in the release notes . You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To si",
+          "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+          "published": "2026-08-25T16:00:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior versions of PostgreSQL, and to benefit from the bug fixes and improvements added by the PostgreSQL community. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker HyperPod enhances support for Ray",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
-          "published": "2026-08-24T15:00:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute layer, from data processing and distributed training to reinforcement learning and model serving. Running Ray on Kubernetes at production scale can be an operational burden: job hangs, low GPU utilization from static team allocations, and multi-step o",
+          "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+          "published": "2026-08-25T16:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later when the customer is not identified at case creation, such as for calls from a shared phone number or issues that require identity verification. Amazon Connect Cases is available in the following AWS regions: US East (N. Virginia), US West (Or",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
-          "published": "2026-08-24T14:46:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor productivity. Information extraction captures verbatim values like account numbers, reservation IDs, and product names, as well as derived insights inferred from the conversation such as reason for contact, resolution provided, and next steps promised. You define conversational analytics rules for what",
+          "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/",
+          "published": "2026-08-25T13:18:00+00:00",
+          "content_snippet": "AWS Identity and Access Management (IAM) Roles Anywhere now provides a plugin for the AWS SDK for Java v2 that enables workloads running outside of AWS to obtain temporary AWS credentials directly within the Java application process. The plugin runs in the same Java Virtual Machine (JVM) as your application, removing the need to run the IAM Roles Anywhere credential helper as a separate process or configure credential_process in your AWS profile. You configure the plugin on your AWS SDK for Java",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
-          "published": "2026-08-24T14:00:00+00:00",
-          "content_snippet": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack. pcluster-diag is a diagnostics tool built into the ParallelCluster AMIs that lets you run diagnostic checks on any cluster node with a single command, and get a structured report that makes it easier to identify issues. This release also hardens the cluster lifecycle with more resilient cluster creation, updates, and image builds. T",
+          "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+          "published": "2026-08-25T13:00:00+00:00",
+          "content_snippet": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtimes before their general availability (GA) release and to share their feedback with the Lambda team. Previously, Lambda managed runtimes were launched directly as GA releases. Since the runtimes could immediately be used by production workloads, the Lambda team couldn’t make changes",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
-          "published": "2026-08-24T13:00:00+00:00",
-          "content_snippet": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard for intelligence and efficiency, allowing you to solve harder problems in less time and with more intelligence per token. The two models span capability tiers from balanced performance (Terra) t",
+          "title": "Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-m8i-m8i-flex-canada-west/",
+          "published": "2026-08-25T13:00:00+00:00",
+          "content_snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performa",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for MySQL now supports new minor version 8.4.11",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
-          "published": "2026-08-24T08:41:00+00:00",
-          "content_snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, MySQL 8.4.11 introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for CVEs in prior versions of MySQL and to benefit from bug fixes, pe",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
-          "published": "2026-08-24T16:20:15+00:00",
-          "content_snippet": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may well become our customers and collaborators tomorrow. That is why I am happy to open this week with Student Rewards on AWS Builder Center. Rick Suttles published Introducing Student Rewards on AWS Builder",
+          "title": "Happy 20th Birthday, Amazon EC2",
+          "url": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
+          "published": "2026-08-25T16:11:02+00:00",
+          "content_snippet": "Twenty years ago today, Jeff Barr wrote a blog post that launched the Amazon EC2 Beta . That single post introduced resizable Linux virtual servers in the cloud, billed by the hour, with one instance type ( m1.small ) in one Region (US East). It was minimal yet useful, and it changed how the world thinks about computing infrastructure. In 2021, Jeff covered the fifteen years of EC2 with the backstory and memorable EC2 launches. Over the last five years, AWS has continued to push the boundaries o",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Run, debug, and scale Databricks workloads from your local IDE",
-          "url": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
-          "published": "2026-08-24T17:01:08+00:00",
-          "content_snippet": "The Databricks workspace is purposefully built for data analysis and data engineering. However...",
+          "title": "Introducing Governance Hub: Intelligent, account-level governance over your Databricks estate",
+          "url": "https://www.databricks.com/blog/introducing-governance-hub-intelligent-account-level-governance-over-your-databricks-estate",
+          "published": "2026-08-26T03:00:00+00:00",
+          "content_snippet": "Your FinOps lead needs to easily drill-down into Databricks spend and identify what’s driving costs, ...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Databricks Uses AI to Accelerate Incident Investigation",
-          "url": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
-          "published": "2026-08-24T17:00:00+00:00",
-          "content_snippet": "In our previous blog post, we shared how Databricks uses AI to debug thousands of...",
+          "title": "Leveraging Databricks to Support FISC Security Guidelines",
+          "url": "https://www.databricks.com/blog/leveraging-databricks-support-fisc-security-guidelines",
+          "published": "2026-08-26T00:00:00+00:00",
+          "content_snippet": "The FISC Security Guidelines on Computer Systems for Banking and Related Financial...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Make information visual with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=jzmNh8lbSp8",
-          "published": "2026-08-24T23:09:56+00:00",
-          "content_snippet": "Turn dense information into interactive visualizations with the Visualize skill in ChatGPT and Codex. Katia Gil Guzman shows how to transform meeting notes into an interface, iterate with calendar views and actions, and export the result as an image or publish it as a site.",
+          "title": "How Capital Markets Finance Protects Balance Sheet Returns",
+          "url": "https://www.databricks.com/blog/how-capital-markets-finance-protects-balance-sheet-returns",
+          "published": "2026-08-25T20:00:01+00:00",
+          "content_snippet": "An insurer settles a claim months after the loss. An asset manager marks someone...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Choosing Data Governance Tools for Enterprise Data Governance",
+          "url": "https://www.databricks.com/blog/data-governance-tools",
+          "published": "2026-08-25T16:17:44+00:00",
+          "content_snippet": "Data governance tools are software platforms that help organizations catalog, secure,...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Data Mesh vs. Data Fabric: Key Differences and How the Lakehouse Resolves the Debate",
+          "url": "https://www.databricks.com/blog/data-mesh-vs-data-fabric",
+          "published": "2026-08-25T16:05:34+00:00",
+          "content_snippet": "Executive Verdict: Organization vs. TechnologyData mesh vs. data fabric hinges on...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Modernizing SQL ETL in Lakehouse with Declarative Patterns",
+          "url": "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns",
+          "published": "2026-08-25T15:00:00+00:00",
+          "content_snippet": "Databricks is bringing declarative ETL to data warehousing workflows in Lakehouse...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What Codex Unlocks for loveholidays",
+          "url": "https://www.youtube.com/watch?v=o38xYi2mtgc",
+          "published": "2026-08-26T09:06:31+00:00",
+          "content_snippet": "At loveholidays, AI-assisted code changes grew from 7% to 79% in a year, while deployments increased 73% without growing the engineering team. 🚀 With Codex, product managers, designers and commercial teams can now build alongside engineers—with 10+ new search experiences already developed through Search Playground, most by non-engineers.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "You can just use your voice | ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=ceBruD6v5Bk",
-          "published": "2026-08-24T13:55:45+00:00",
-          "content_snippet": "ChatGPT Work turns what you say into work you can use, capturing your thinking and helping you move it forward.",
+          "title": "How to Manage Your Workspace With ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=29SyCndnMZs",
+          "published": "2026-08-25T20:17:22+00:00",
+          "content_snippet": "See how the ChatGPT admin plugin brings workspace administration into ChatGPT Work. Aarti Bagul, Member of GTM Staff at OpenAI, demonstrates how admins can analyze adoption and credit usage, update and share an AI rollout deck, and review and approve usage limit requests without switching between tools.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build agent-ready sites with WebMCP",
+          "url": "https://www.youtube.com/watch?v=Is2NHa7awWY",
+          "published": "2026-08-25T20:15:30+00:00",
+          "content_snippet": "Eric Provencher from OpenAI Developer Experience demonstrates WebMCP support in Codex with Codex Modeling Studio, a 3D modeling site designed for people and agents to use together. See how adding tools directly to a website lets Codex discover capabilities, iterate on visuals, capture feedback, and collaborate through the same interface.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Codex, but make it weird. Hahahacks.",
+          "url": "https://www.youtube.com/watch?v=2f9bBlGOuX4",
+          "published": "2026-08-25T18:26:41+00:00",
+          "content_snippet": "Thanks for having us, @tiatplace",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "No Limits on Text Chats with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=9MIkJHcMtVA",
+          "published": "2026-08-25T17:21:58+00:00",
+          "content_snippet": "All users now have unlimited access to text chats in ChatGPT with our latest model GPT-5.6 Luna. 🎥: @2UnlimitedOfficial",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -308,12 +348,29 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Missing Layer in Agentic AI — Giedrius Šteimantas, Oxylabs",
+          "url": "https://www.youtube.com/watch?v=XsvUhpnHepE",
+          "published": "2026-08-26T07:00:06+00:00",
+          "content_snippet": "Point an agent at ten product pages, get real content back from three, and send all ten to the model anyway: seventy percent of those tokens go to reading CAPTCHAs. Giedrius Šteimantas says most teams never notice, because the status code and the response size both look fine. A 200 does not mean the page is real. He got here through a friend who vibe coded a personal shopping agent, a chatbot that talks through your style then hands a second agent prompts to go buy things. It ran a browser autom",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Einstein Arena: Harnessing Collective Agent Intelligence for Open Science — James Zou, Together AI",
+          "url": "https://www.youtube.com/watch?v=mMNkdYnIVC4",
+          "published": "2026-08-25T20:46:01+00:00",
+          "content_snippet": "To get into the Einstein Arena you have to solve a puzzle proving you are an AI agent. Locking humans out is the point. James Zou and collaborators at Together AI and Stanford built it as an environment rather than a workflow, on the thesis that telling an agent how to work caps what it can do, while setting where it works and what it is rewarded for does not. Agents who log in find curated open problems, each with a deterministic verifier, a forum where they ask each other what has already fail",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 8
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 10
 }
