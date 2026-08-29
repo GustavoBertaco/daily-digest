@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-28T20:58:51Z",
+  "fetched_at": "2026-08-29T14:41:03Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-          "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
-          "published": "2026-08-28T16:01:02+00:00",
-          "content_snippet": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang Introduction The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these visual cues assets , and choosing the right one for each member is a personalization problem of its own. But which image or video preview of Squid",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -30,7 +20,8 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 3,
+        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
       }
@@ -57,26 +48,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "The most important election of our lives | Dan Carlin and Kmele Foster",
-          "url": "https://www.youtube.com/watch?v=1QxP2mbnuEM",
-          "published": "2026-08-28T16:07:17+00:00",
-          "content_snippet": "The most important election of our lives | Dan Carlin and Kmele Foster",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The world's greatest mathematician explains 6 essential concepts of math | Terence Tao",
-          "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
-          "published": "2026-08-28T13:00:34+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-tao-OOMx2BHHWtE Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Sean Carroll explains the biggest ideas in the universe | Full Interview ► https://www.youtube.com/watch?v=_TBNJyztai0 Terence Tao has spe",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -87,7 +59,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -99,20 +73,14 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "AI Still Needs Humans to Maintain Data Platforms #dataengineering #dataanalytics  #datascience",
-          "url": "https://www.youtube.com/watch?v=TzqdFITwwHk",
-          "published": "2026-08-28T11:00:12+00:00",
-          "content_snippet": "While autonomous agents are highly capable, integrating them into existing, complex data environments comes with distinct challenges. Xavier Gumara Rigol highlights the practical realities of applying AI to current data systems and why human oversight remains critical. What stood out: The Reality of Current Systems: Most existing data platforms are simply not ready to be fully maintained or improved by AI agents. Greenfield vs. Brownfield: Implementing AI is highly feasible when building from sc",
-          "source_name": "The Data Engineering Show",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -121,7 +89,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
+        "The Data Engineering Show": 1,
         "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -142,127 +110,118 @@
       ],
       "items": [
         {
-          "title": "AWS Transform now in scope for FedRAMP Class C",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
-          "published": "2026-08-28T19:45:00+00:00",
-          "content_snippet": "AWS Transform is now in scope for FedRAMP Class C (formerly Moderate baseline) in the US East (Ohio) Region. You can now use AWS Transform to build applications and run workloads that are subject to FedRAMP Class C compliance requirements. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring for cloud products and services. AWS Transform is an agentic ",
+          "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
+          "published": "2026-08-28T22:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances provide up to 30% better compute performance than Graviton3-based Amazon EC2 C7gn instances. Amazon EC2 C8gn instances feature the latest 6th generation AWS Nitro Cards, and offer up to 600 Gbps network bandwidth, the highest network bandwidth among network optimized EC2 instances. Take advantage of",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 P6-B300 instances are now available in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
-          "published": "2026-08-28T17:34:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps dedicated ENA throughput, and 4 TB of system memory. P6-B300 instances deliver 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS (at FP4, without sparsity) compared to P6-B200 instances, making the",
+          "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+          "published": "2026-08-28T20:00:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-          "published": "2026-08-28T16:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.45 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade Roll",
+          "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
+          "published": "2026-08-28T20:00:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or overloading built-in variables. This gives multi-tenant and complex-hierarchy applications fine-grained control over how memories are organized, isolated, and accessed. Define keys on the memory resource, reference them in a strategy's namespace t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch agent adds support for journald logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
-          "published": "2026-08-28T16:00:00+00:00",
-          "content_snippet": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs, without first writing those logs to files on disk. Many modern Linux distributions, including Amazon Linux 2023, use systemd journal as the primary logging system and no longer write traditional text log files such as /var/log/messages by d",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Magic Manga Girl (:30)",
+          "url": "https://www.youtube.com/watch?v=S6TIVzqTmu8",
+          "published": "2026-08-29T05:22:53+00:00",
+          "content_snippet": "Turn any idea into a finished design with layouts and text using ChatGPT Images.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/",
-          "published": "2026-08-28T13:17:00+00:00",
-          "content_snippet": "Amazon Bedrock in AWS GovCloud (US) now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work. Grok 4.6 is SpaceXAI’s latest flagship model, built for long-running agents and ambitious interactive and visual work. It offers 500k context window and configurable reasoning efforts (low, medium, high, xhigh). The model runs on the bedrock-runtime endpoint with support for the Responses, Chat Completions, and Converse APIs, and customers can access Grok 4.6 ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Tennis (:30)",
+          "url": "https://www.youtube.com/watch?v=IEpTT48oW5Y",
+          "published": "2026-08-29T05:22:32+00:00",
+          "content_snippet": "Turn your image into any art style you can imagine with ChatGPT Images.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
-          "published": "2026-08-27T22:41:00+00:00",
-          "content_snippet": "NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models form the Cosmos 3 family of open, frontier omnimodal world models for physical AI, enabling customers to build robots, autonomous vehicles, and vision AI that perceive, reason, plan, and act in the physical world. These models address different physical AI challenges with specialized capabilities",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Use Your Computer and Browser",
+          "url": "https://www.youtube.com/watch?v=981SivztzOc",
+          "published": "2026-08-28T20:51:46+00:00",
+          "content_snippet": "See how ChatGPT Work can help with tasks in your desktop apps and browser. Use Computer to start music in Spotify, then combine Chrome and Google Calendar to prepare a time-off request and an out-of-office event. Learn how to share screen context with Appshots, grant access, and review the drafts before submitting or saving anything. This walkthrough uses the ChatGPT desktop app. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/using-your-computer-and-browse",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/",
-          "published": "2026-08-27T22:39:00+00:00",
-          "content_snippet": "Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning autonomous local agentic workflows and multimodal long-horizon reasoning, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Muse-Glimm",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Talk to ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=DLcQSp_CIIc",
+          "published": "2026-08-28T20:51:46+00:00",
+          "content_snippet": "Brainstorm out loud and turn your ideas into a presentation with Voice in ChatGPT Work. In the desktop app, talk through ideas for a team event, ask ChatGPT to build a visual pitch deck, and review the result. You’ll also see how to continue the same task from your phone by connecting to your computer through Remote. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/using-voice",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
-          "published": "2026-08-27T21:41:00+00:00",
-          "content_snippet": "Amazon Redshift now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads directly into Amazon Redshift without splitting records, simplifying your ingestion pipelines and unlocking new use cases for high-volume, large-record workloads. Amazon Redshift support for 10MiB record size in Amazon KDS streams is now available",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Create Slides, Docs, and Templates",
+          "url": "https://www.youtube.com/watch?v=syML5KT-HzI",
+          "published": "2026-08-28T20:51:46+00:00",
+          "content_snippet": "Turn a meeting transcript into a structured Google Doc and a leadership deck with ChatGPT Work. Connect Google Drive, ask for the sections you need, and check the document against the original transcript. Then create a Google Slides presentation from the document and save both formats with Template Creator so you can use them again. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/creating-slides-and-docs",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
-          "published": "2026-08-27T20:07:00+00:00",
-          "content_snippet": "Amazon Redshift now integrates with the Agent Toolkit for AWS , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and data lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the AWS MCP (Model Context Protocol) server , which provides authenticated AWS API execution on your behalf — with Redshift skills : curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more ef",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "Use ChatGPT Work on Your Phone",
+          "url": "https://www.youtube.com/watch?v=yfnh8SuMbNw",
+          "published": "2026-08-28T20:51:46+00:00",
+          "content_snippet": "Use ChatGPT Work on your phone to catch up on work and handle personal tasks before you reach your desk. Follow a Slack and Gmail catch-up, then review recent spending with the read-only Finances plugin. You’ll also see how to pair your phone with Remote to check progress and guide tasks running on your computer. For Remote, your computer needs to stay awake and online. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/working-on-your-phone",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Beyond answers: New Genie One features to turn insights into action",
-          "url": "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action",
-          "published": "2026-08-28T21:00:00+00:00",
-          "content_snippet": "We all know the pattern: you ask an AI tool a question and get an answer in seconds,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Build a Shareable Site",
+          "url": "https://www.youtube.com/watch?v=0qK3KqvtRrg",
+          "published": "2026-08-28T20:51:45+00:00",
+          "content_snippet": "Turn a conversation into a website people can use with ChatGPT Work. Build a group-trip site with an itinerary, activity voting, and shared expenses, then refine it by asking for changes. See how to choose who can visit, manage your projects in Sites, and bring launch metrics and team updates together in a dashboard. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/building-a-shareable-site",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Indra unified EV charging data on Databricks",
-          "url": "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks",
-          "published": "2026-08-28T17:30:00+00:00",
-          "content_snippet": "When data grows faster than the systems around it, complexity becomes the default....",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Plugins & Skills",
+          "url": "https://www.youtube.com/watch?v=5QPBVrAAdBk",
+          "published": "2026-08-28T20:51:45+00:00",
+          "content_snippet": "Learn how plugins and skills work together in ChatGPT Work. Use Gmail and Google Calendar to find a client’s email, schedule a kickoff, and prepare a meeting brief with links to the original sources. Then save the process as a Meeting Prep skill so you can reuse the same instructions and format for your next meeting. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Trackunit turns construction data into decisions with AI",
-          "url": "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai",
-          "published": "2026-08-28T17:30:00+00:00",
-          "content_snippet": "Construction generates abundant data, from equipment telemetry and maintenance records...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Scheduled Tasks",
+          "url": "https://www.youtube.com/watch?v=urXc4xxixVU",
+          "published": "2026-08-28T20:51:45+00:00",
+          "content_snippet": "Put a repeatable task on a schedule with ChatGPT Work. See how to use Gmail and Google Calendar to prepare meeting briefs, check the results, and schedule the task to run every weekday. Learn how to review results, change or pause tasks in the Scheduled tab, and use a saved skill to keep the format consistent. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/scheduled-tasks",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Fast, fault-tolerant PyTorch training on AI Runtime",
-          "url": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
-          "published": "2026-08-28T01:15:00+00:00",
-          "content_snippet": "At scale, your training efficiency is determined by a single metric: \"goodput\", the...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Delivering more meals to more moms with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=Lj03DNImB3s",
-          "published": "2026-08-27T21:30:15+00:00",
-          "content_snippet": "Mandela started Welcome Home to deliver meals to new moms, not to spend 90 minutes every week updating labels. So we helped her get the best out of ChatGPT, by turning her weekly menu spreadsheet into ready-to-print labels in just 6 minutes. Your turn: what do you wish existed? Drop your idea below or send us a DM. Maybe we’ll come build it with you next. More at getwelcomehome.co",
+          "title": "Getting Started with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=Rk4VyQxDq5s",
+          "published": "2026-08-28T20:51:11+00:00",
+          "content_snippet": "See how ChatGPT Work brings together information from your apps to help you finish a task. Set up the desktop app, choose Work, and connect Gmail and Slack. Then follow a team-dinner example: find the restaurant’s email, check the latest headcount and dietary needs, and review a reply before sending it. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/getting-started?utm_source=youtube&utm_medium=video&utm_campaign=chatgptwork_training",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -282,7 +241,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Databricks Blog": 3
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -297,91 +258,19 @@
       ],
       "items": [
         {
-          "title": "AI-Native Organisations Run on Skills: How to Structure and Scale Them — Imad Touil, QuantumBlack",
-          "url": "https://www.youtube.com/watch?v=M05vON8i0aI",
-          "published": "2026-08-28T18:30:04+00:00",
-          "content_snippet": "Imad Touil opens with a show of hands. Who has built a skill? Most of the room. Who shares them with their team? Fewer. Who governs and maintains them across the organization? A handful. That collapsing sequence is the talk, because he argues skills are where an organization's actual know how ends up living. Of the four things inside a workflow, hooks only fire on events, sub agents mostly exist to protect the context window, and almost nobody writes their own MCP servers. What is left is skills",
+          "title": "The Half Life of Agent Infrastructure — Ben Kus, Box",
+          "url": "https://www.youtube.com/watch?v=sM1iYgz93HI",
+          "published": "2026-08-29T14:30:22+00:00",
+          "content_snippet": "Ben Kus stood on this same stage last year and recommended a graph based approach to building agents. Someone found him afterward to say it was exactly the answer he needed. Kus opens this talk by retracting it, and admits he has since wondered what became of that person. Nothing about the advice was wrong when he gave it. A better way simply arrived, as it did for most of what was presented at that conference. He runs the same exercise across models, agent design and retrieval, and each chain l",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Code Has Bugs. Lean4 Has Proofs: Formal Verification for Engineers — Varun Pant, AWS",
-          "url": "https://www.youtube.com/watch?v=lRa9sPaMyy4",
-          "published": "2026-08-28T18:00:17+00:00",
-          "content_snippet": "An AI spent about a week rewriting zlib in Lean and emitted 32,000 lines of proof. Not tests, proof. It decomposed the job into lemmas, closed each one with tactics, assembled them into a single theorem, and a small independent kernel checked the result. Varun Pant opens on the gap that makes this worth caring about now. Coding agents are producing hundreds or thousands of pull requests a week, and none of the usual checks actually clear them. A model grading code is probabilistic, tests cover t",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How do you diffuse AI into the real world? — Varun Shenoy, Long Lake",
-          "url": "https://www.youtube.com/watch?v=B0fjR3yaZFU",
-          "published": "2026-08-28T17:30:33+00:00",
-          "content_snippet": "Long Lake does not sell software. It buys the company. Thirty five services businesses so far across property management, architecture and HR, plus a 6.3 billion dollar take private of the world's largest corporate travel platform. Varun Shenoy is blunt about why that matters: when the AI does not work, there is no customer to blame, because they are the operator and the owner. His framing for the whole problem is diffusion. Electricity was demoed in the 1880s and Ford's electrified assembly lin",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) — Eyal Blum, Figma",
-          "url": "https://www.youtube.com/watch?v=5Bn0xro2ol8",
-          "published": "2026-08-28T17:00:33+00:00",
-          "content_snippet": "The engineers slowest to adopt agents at Figma are the best ones. Eyal Blum's explanation is that they are the people holding the codebase together with mental duct tape, carrying the institutional context nobody ever wrote down, and so they see every failure mode first and trust it least. His answer is not to talk them into using AI. It is to hand them the roadmap for making agents safe in the codebase, because their complaints are an ordered list of where verification is missing, and they come",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From AI-Assisted to AI-Native: Building a Frontier Development Team — Clare Liguori, AWS",
-          "url": "https://www.youtube.com/watch?v=pqlWNihgdjI",
-          "published": "2026-08-28T16:30:19+00:00",
-          "content_snippet": "Amazon watched 50 ordinary teams for the better part of a year, teams with normal seniority mixes working in existing codebases. Ninety percent of them used the same coding assistant. Half saw under 3x improvement in deployment velocity to production. The other half saw a median of 4.5x and sometimes past 10x. The tool was not the variable. The teams that pulled ahead had deliberately changed how they worked, and the rest had sprinkled agents on top of the way they already worked. Clare Liguori ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to avoid disaster when vibe-coding a billing engine — Andrew Garvin, Stripe",
-          "url": "https://www.youtube.com/watch?v=mJqwmmOx4WA",
-          "published": "2026-08-28T16:00:06+00:00",
-          "content_snippet": "Andrew Garvin types one sentence asking for a billing engine that copies Lovable's pricing, and gets back a working sandbox: a customer, metered usage flowing in, and a draft invoice broken into separately scoped credit pools for builds, plan mode, cloud and gateway calls. Reproducing that by hand means understanding auto recharge, credit expiry and overage, which is exactly where people hurt themselves. He cofounded Metronome, the usage billing platform Stripe acquired this year in its largest ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Productionizing LLM Gateways: Architecture, Tradeoffs and Hard Lessons — Kanish Manuja, Twilio",
-          "url": "https://www.youtube.com/watch?v=zrZ1amZBSPw",
-          "published": "2026-08-28T15:30:03+00:00",
-          "content_snippet": "Something went wrong, please try again. Kanish Manuja opens on that message and then explains why it exists, which is more interesting than laziness. Once a response starts streaming you have committed to that provider. Tokens already sent cannot be recalled, so the fallback you carefully built is unavailable exactly when you need it. Streaming buys perceived speed by trading away your levers, and that error string is what the trade costs. His frame for an LLM gateway is a permanent fight betwee",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "AI Evals for Cross-Functional Teams — Nachiket Paranjape & Swaroop Chitlur Haridas, DoorDash",
-          "url": "https://www.youtube.com/watch?v=bMjlRrWjdT0",
-          "published": "2026-08-28T15:00:03+00:00",
-          "content_snippet": "The people annotating DoorDash's eval data are not engineers, and they build their own annotation tools. Because the GenAI platform team went API first, strategy and operations staff can point a coding agent at those endpoints and vibe code whatever interface their use case needs, whether that is grading restaurant menus or reviewing images. The platform team stopped trying to anticipate every UI, and shipped stable APIs instead. Nachiket Paranjape and Swaroop Chitlur Haridas make the broader ca",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Building uReview, Uber’s Multi-Agent Code Review Engine — Will Bond & Ameya Ketkar, Uber",
-          "url": "https://www.youtube.com/watch?v=EL123UNokkI",
-          "published": "2026-08-28T14:30:12+00:00",
-          "content_snippet": "In 2024 an Uber engineer waited about three hours for a first review on a pull request. In 2026 that wait is nine hours. Volume and size both grew, and code review became the bottleneck for thousands of engineers spread across hundreds of teams, twelve sites and six language specific monorepos. Will Bond and Ameya Ketkar walk through uReview, the system Uber built rather than bought, partly because most vendors do not support Phabricator and partly because they wanted agents in the inner loop re",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Building the Engine While Flying the Plane: Launching the Figma MCP Server — Jesse Lumarie, Figma",
-          "url": "https://www.youtube.com/watch?v=ZIYYsAzaLlA",
-          "published": "2026-08-28T14:00:06+00:00",
-          "content_snippet": "Figma did not have 20% projects. Jesse Lumarie gave one to the MCP server anyway, one day a week, because he had seen an internal demo and wanted non designers to be able to pull from Figma. That side project became the company's first MCP server in about three months, and then one of the fastest growing products Figma has ever shipped. The build happened while the ground moved. Weeks in, a new version of the spec deprecated the transport they had chosen, and client support was so uneven that a ",
+          "title": "Which AI startups actually land enterprise contracts? — Brian Lewis, Millennium",
+          "url": "https://www.youtube.com/watch?v=7A65O-0lvKE",
+          "published": "2026-08-29T14:00:06+00:00",
+          "content_snippet": "For a given internal pain point, Brian Lewis might find 10 to 15 startups worth a look, book two or three demos, run zero or one pilot, and sign roughly one contract for every four pilots. That works out to about 5% of demo calls ending in a signature, which turns out to match published benchmarks. He is on the buying side at a hedge fund, speaking personally rather than for his employer, and the talk is a catalogue of exactly where the other 95% dies. The examples are specific enough to sting. ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -391,5 +280,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 28
 }
