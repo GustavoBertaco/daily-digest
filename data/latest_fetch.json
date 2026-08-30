@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T14:41:03Z",
+  "fetched_at": "2026-08-30T14:30:32Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -20,7 +20,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
+        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
@@ -60,7 +60,7 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 3
+        "Big Think": 2
       }
     },
     {
@@ -73,7 +73,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Re-Air: Why Traditional Data Pipelines Are Broken (And How to Fix Them) with Ruben Burdin of Stacksync",
+          "url": "https://datastackshow.com",
+          "published": "2026-08-26T08:30:00+00:00",
+          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show , Eric and welcomes back Ruben Burdin, Founder and CEO of Stacksync as they together dismantle the myths surrounding zero-copy ETL and traditional data integration methods. Ruben reveals the complex challenges of two-way syncing between enterprise systems like Salesforce, HubSpot, and NetSuite, highlighting how existing tools often create more problems than sol",
+          "source_name": "The Data Stack Show",
+          "source_type": "rss",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -90,7 +100,6 @@
       ],
       "deduped_sources": {
         "The Data Engineering Show": 1,
-        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -108,128 +117,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
-          "published": "2026-08-28T22:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances provide up to 30% better compute performance than Graviton3-based Amazon EC2 C7gn instances. Amazon EC2 C8gn instances feature the latest 6th generation AWS Nitro Cards, and offer up to 600 Gbps network bandwidth, the highest network bandwidth among network optimized EC2 instances. Take advantage of",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
-          "published": "2026-08-28T20:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
-          "published": "2026-08-28T20:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or overloading built-in variables. This gives multi-tenant and complex-hierarchy applications fine-grained control over how memories are organized, isolated, and accessed. Define keys on the memory resource, reference them in a strategy's namespace t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Magic Manga Girl (:30)",
-          "url": "https://www.youtube.com/watch?v=S6TIVzqTmu8",
-          "published": "2026-08-29T05:22:53+00:00",
-          "content_snippet": "Turn any idea into a finished design with layouts and text using ChatGPT Images.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Tennis (:30)",
-          "url": "https://www.youtube.com/watch?v=IEpTT48oW5Y",
-          "published": "2026-08-29T05:22:32+00:00",
-          "content_snippet": "Turn your image into any art style you can imagine with ChatGPT Images.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use Your Computer and Browser",
-          "url": "https://www.youtube.com/watch?v=981SivztzOc",
-          "published": "2026-08-28T20:51:46+00:00",
-          "content_snippet": "See how ChatGPT Work can help with tasks in your desktop apps and browser. Use Computer to start music in Spotify, then combine Chrome and Google Calendar to prepare a time-off request and an out-of-office event. Learn how to share screen context with Appshots, grant access, and review the drafts before submitting or saving anything. This walkthrough uses the ChatGPT desktop app. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/using-your-computer-and-browse",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Talk to ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=DLcQSp_CIIc",
-          "published": "2026-08-28T20:51:46+00:00",
-          "content_snippet": "Brainstorm out loud and turn your ideas into a presentation with Voice in ChatGPT Work. In the desktop app, talk through ideas for a team event, ask ChatGPT to build a visual pitch deck, and review the result. You’ll also see how to continue the same task from your phone by connecting to your computer through Remote. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/using-voice",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Create Slides, Docs, and Templates",
-          "url": "https://www.youtube.com/watch?v=syML5KT-HzI",
-          "published": "2026-08-28T20:51:46+00:00",
-          "content_snippet": "Turn a meeting transcript into a structured Google Doc and a leadership deck with ChatGPT Work. Connect Google Drive, ask for the sections you need, and check the document against the original transcript. Then create a Google Slides presentation from the document and save both formats with Template Creator so you can use them again. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/creating-slides-and-docs",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work on Your Phone",
-          "url": "https://www.youtube.com/watch?v=yfnh8SuMbNw",
-          "published": "2026-08-28T20:51:46+00:00",
-          "content_snippet": "Use ChatGPT Work on your phone to catch up on work and handle personal tasks before you reach your desk. Follow a Slack and Gmail catch-up, then review recent spending with the read-only Finances plugin. You’ll also see how to pair your phone with Remote to check progress and guide tasks running on your computer. For Remote, your computer needs to stay awake and online. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/working-on-your-phone",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Build a Shareable Site",
-          "url": "https://www.youtube.com/watch?v=0qK3KqvtRrg",
-          "published": "2026-08-28T20:51:45+00:00",
-          "content_snippet": "Turn a conversation into a website people can use with ChatGPT Work. Build a group-trip site with an itinerary, activity voting, and shared expenses, then refine it by asking for changes. See how to choose who can visit, manage your projects in Sites, and bring launch metrics and team updates together in a dashboard. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/building-a-shareable-site",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Plugins & Skills",
-          "url": "https://www.youtube.com/watch?v=5QPBVrAAdBk",
-          "published": "2026-08-28T20:51:45+00:00",
-          "content_snippet": "Learn how plugins and skills work together in ChatGPT Work. Use Gmail and Google Calendar to find a client’s email, schedule a kickoff, and prepare a meeting brief with links to the original sources. Then save the process as a Meeting Prep skill so you can reuse the same instructions and format for your next meeting. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Scheduled Tasks",
-          "url": "https://www.youtube.com/watch?v=urXc4xxixVU",
-          "published": "2026-08-28T20:51:45+00:00",
-          "content_snippet": "Put a repeatable task on a schedule with ChatGPT Work. See how to use Gmail and Google Calendar to prepare meeting briefs, check the results, and schedule the task to run every weekday. Learn how to review results, change or pause tasks in the Scheduled tab, and use a saved skill to keep the format consistent. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/scheduled-tasks",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Getting Started with ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=Rk4VyQxDq5s",
-          "published": "2026-08-28T20:51:11+00:00",
-          "content_snippet": "See how ChatGPT Work brings together information from your apps to help you finish a task. Set up the desktop app, choose Work, and connect Gmail and Slack. Then follow a team-dinner example: find the restaurant’s email, check the latest headcount and dietary needs, and review a reply before sending it. Follow the lesson and try it yourself: https://learn.chatgpt.com/training/walkthroughs/getting-started?utm_source=youtube&utm_medium=video&utm_campaign=chatgptwork_training",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -242,7 +141,7 @@
         }
       ],
       "deduped_sources": {
-        "Databricks Blog": 3
+        "OpenAI": 10
       }
     },
     {
@@ -258,19 +157,82 @@
       ],
       "items": [
         {
-          "title": "The Half Life of Agent Infrastructure — Ben Kus, Box",
-          "url": "https://www.youtube.com/watch?v=sM1iYgz93HI",
-          "published": "2026-08-29T14:30:22+00:00",
-          "content_snippet": "Ben Kus stood on this same stage last year and recommended a graph based approach to building agents. Someone found him afterward to say it was exactly the answer he needed. Kus opens this talk by retracting it, and admits he has since wondered what became of that person. Nothing about the advice was wrong when he gave it. A better way simply arrived, as it did for most of what was presented at that conference. He runs the same exercise across models, agent design and retrieval, and each chain l",
+          "title": "SOTA Generative Media Panel — Dumitru Erhan, Shane Gu & Nicole Brichtova, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=KLDdXOw6jIc",
+          "published": "2026-08-30T14:00:06+00:00",
+          "content_snippet": "The team took captions from real videos, regenerated the same scenes with their own model, and ran a human eval. People largely preferred the generated version. Dumitru Erhan is quick to deflate that result. The output is not more realistic, it is sharper and more saturated with nicer skin tone, and human preference turns out to be an unreliable thing to optimize against. Nicole Brichtova has a name for the effect, the Instagram filter. The same blind spot surfaces in smaller ways. Their image m",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Which AI startups actually land enterprise contracts? — Brian Lewis, Millennium",
-          "url": "https://www.youtube.com/watch?v=7A65O-0lvKE",
-          "published": "2026-08-29T14:00:06+00:00",
-          "content_snippet": "For a given internal pain point, Brian Lewis might find 10 to 15 startups worth a look, book two or three demos, run zero or one pilot, and sign roughly one contract for every four pilots. That works out to about 5% of demo calls ending in a signature, which turns out to match published benchmarks. He is on the buying side at a hedge fund, speaking personally rather than for his employer, and the talk is a catalogue of exactly where the other 95% dies. The examples are specific enough to sting. ",
+          "title": "Tell the Robot What You Want — Sandhya Subramani, AWS",
+          "url": "https://www.youtube.com/watch?v=S6aSoQ6_u5A",
+          "published": "2026-08-29T18:30:17+00:00",
+          "content_snippet": "Sandhya Subramani asks her rover how many people it can see, a question nobody ever trained it to answer. It thinks for a second, checks its front camera, and reports two, one near the speaker monitor and one further right. Scout is a small four legged robot running a Raspberry Pi, reaching the internet over a SIM card and a 4G connection, and its whole personality comes from an agent layer sitting above the movement policies it already had. The demo goes exactly as live robot demos go. It falls",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Signal Layer: What to Build When Anything Can Be Built — Lena Hall, Akamai",
+          "url": "https://www.youtube.com/watch?v=1KOdiGgMtpY",
+          "published": "2026-08-29T18:00:34+00:00",
+          "content_snippet": "Lena Hall resolved a production incident from a hiking trail near a waterfall. A friend of hers ran 18 agents while riding his bike. That abundance is the setup for her actual argument, which is that the same leverage reached your competitors on the same morning, so the cost of average work fell to zero and took its value with it. Ask a model what users want or what to build next and it answers from common knowledge, competently and confidently and identically to whoever asked it before you. She",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Tribal Dungeons of Global Shipping: AI Agents at Global Scale — Dmitry Buykin, Maersk",
+          "url": "https://www.youtube.com/watch?v=dQ-_i1tZiws",
+          "published": "2026-08-29T17:30:21+00:00",
+          "content_snippet": "Maersk's standard operating procedures were screenshots. A sequence of images showing what a person sees and where they click, which is a perfectly good record for a human and useless to an agent. Dmitry Buykin calls the gap tribal dungeons: the knowledge exists, just not in a form anything can execute safely. An agent version of the same procedure needs preconditions, decisions, identifiers, backend calls, validation, recovery and evidence that it actually worked. Most of the project was that t",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agentic Sites: Building Hyper Personalized Websites — Carlos Sanchez, Adobe",
+          "url": "https://www.youtube.com/watch?v=jebp4V0vh30",
+          "published": "2026-08-29T17:00:17+00:00",
+          "content_snippet": "Carlos Sanchez types a request for a coffee machine he can use while camping, and the page assembles itself in under two seconds. Not a search result. A page, with camping appropriate machines, rewritten copy and a set of tips, generated for that one query. Adobe calls the goal an audience of one, which is the thing marketers have wanted for decades and could never afford. The site he demonstrates is a fully generated example, and the same tool will build one for any URL you hand it in about an ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
+          "url": "https://www.youtube.com/watch?v=32nrHU6zHU8",
+          "published": "2026-08-29T16:30:28+00:00",
+          "content_snippet": "Tell a travel agent to book a flight whenever the fare drops below 200 dollars and something awkward follows. When it fires two weeks later, who made that purchase? Roberto Milev and Uday Kanagala keep returning to that blurring, because Navan sells travel and expense management and the answer decides what authorization even means. An agent may act on behalf of a user or under its own service account, and the old model of a user or a service principal does not survive contact with either. Their ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "AI Agents Are Just Distributed Systems Now — Salman Munaf, TikTok",
+          "url": "https://www.youtube.com/watch?v=hD9-V56FNRI",
+          "published": "2026-08-29T16:00:06+00:00",
+          "content_snippet": "An agent calls a refund tool and the request times out. Did the customer get their money? Salman Munaf uses that to make his central point, which is that a timeout has never meant failure, it means unknown, and an agent's first instinct on any failure is to try again. Without request identifiers, idempotency keys and a status lookup, that instinct refunds someone twice. He works in site reliability at TikTok, and his argument is that the moment a model started calling external services it stoppe",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "From Tokenmaxxing to Trusted Throughput — Mingsheng Hong, Ironclad",
+          "url": "https://www.youtube.com/watch?v=dSg0pu8d6qg",
+          "published": "2026-08-29T15:30:28+00:00",
+          "content_snippet": "An engineer at a large tech company built a voluntary dashboard showing everyone's AI token usage, and colleagues promptly started competing to top it. Mingsheng Hong uses that as the thing not to do. His team runs the same dashboards, but treats them as a smoke detector rather than a leaderboard: a team using surprisingly few tokens is worth a conversation, and nobody should ever be rewarded for burning more. He draws the parallel to lines of code, a number worth tracking and a terrible thing t",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Guardians of the State: An Air-Gapped AI Fortress for Consumer Data — Rachna Srivastava, DFPI",
+          "url": "https://www.youtube.com/watch?v=2WZsT-znFTQ",
+          "published": "2026-08-29T15:00:25+00:00",
+          "content_snippet": "The fiber optic cable carrying data into California's financial fraud system has been cut in half. One end sits on the internet with a laser transmitter. The other end, inside the building, has only a receiver. There is no transmitter pointing outward, so data physically cannot leave. Rachna Srivastava's team chose that over a software firewall for a blunt reason: any configuration can be misconfigured, and a misconfigured secure system is an exploited one. Everything her group builds has to sur",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -280,5 +242,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 28
+  "deduped_count": 20
 }
