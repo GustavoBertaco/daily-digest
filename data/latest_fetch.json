@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T14:30:32Z",
+  "fetched_at": "2026-08-31T17:13:26Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Not everyone is adopting AI",
+          "url": "https://www.youtube.com/watch?v=LJFTH2VnUOk",
+          "published": "2026-08-30T15:00:18+00:00",
+          "content_snippet": "with Casey Muratori, programmer & performance nerd. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -20,7 +30,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
@@ -73,17 +82,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Re-Air: Why Traditional Data Pipelines Are Broken (And How to Fix Them) with Ruben Burdin of Stacksync",
-          "url": "https://datastackshow.com",
-          "published": "2026-08-26T08:30:00+00:00",
-          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show , Eric and welcomes back Ruben Burdin, Founder and CEO of Stacksync as they together dismantle the myths surrounding zero-copy ETL and traditional data integration methods. Ruben reveals the complex challenges of two-way syncing between enterprise systems like Salesforce, HubSpot, and NetSuite, highlighting how existing tools often create more problems than sol",
-          "source_name": "The Data Stack Show",
-          "source_type": "rss",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Data Mesh Learning",
@@ -100,6 +99,7 @@
       ],
       "deduped_sources": {
         "The Data Engineering Show": 1,
+        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -117,20 +117,36 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
+          "published": "2026-08-31T15:41:00+00:00",
+          "content_snippet": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios including JVM out-of-memory, sustained CPU saturation, as well as configuration issues such as zone imbalance, and misconfigured replica counts. Previously, when a cluster entered Red or Yellow status due to unassigned shards, diagnosing the underly",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+          "published": "2026-08-31T14:45:25+00:00",
+          "content_snippet": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs , the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation and the MIT license, and over time AWS plans to combine its speed at everyday queries with the enterprise scale of services like",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Autoscaling Lakebase Postgres",
+          "url": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+          "published": "2026-08-31T17:00:00+00:00",
+          "content_snippet": "Choosing a database instance size before you know the workload is an old building pattern...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -155,92 +171,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "SOTA Generative Media Panel — Dumitru Erhan, Shane Gu & Nicole Brichtova, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=KLDdXOw6jIc",
-          "published": "2026-08-30T14:00:06+00:00",
-          "content_snippet": "The team took captions from real videos, regenerated the same scenes with their own model, and ran a human eval. People largely preferred the generated version. Dumitru Erhan is quick to deflate that result. The output is not more realistic, it is sharper and more saturated with nicer skin tone, and human preference turns out to be an unreliable thing to optimize against. Nicole Brichtova has a name for the effect, the Instagram filter. The same blind spot surfaces in smaller ways. Their image m",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Tell the Robot What You Want — Sandhya Subramani, AWS",
-          "url": "https://www.youtube.com/watch?v=S6aSoQ6_u5A",
-          "published": "2026-08-29T18:30:17+00:00",
-          "content_snippet": "Sandhya Subramani asks her rover how many people it can see, a question nobody ever trained it to answer. It thinks for a second, checks its front camera, and reports two, one near the speaker monitor and one further right. Scout is a small four legged robot running a Raspberry Pi, reaching the internet over a SIM card and a 4G connection, and its whole personality comes from an agent layer sitting above the movement policies it already had. The demo goes exactly as live robot demos go. It falls",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Signal Layer: What to Build When Anything Can Be Built — Lena Hall, Akamai",
-          "url": "https://www.youtube.com/watch?v=1KOdiGgMtpY",
-          "published": "2026-08-29T18:00:34+00:00",
-          "content_snippet": "Lena Hall resolved a production incident from a hiking trail near a waterfall. A friend of hers ran 18 agents while riding his bike. That abundance is the setup for her actual argument, which is that the same leverage reached your competitors on the same morning, so the cost of average work fell to zero and took its value with it. Ask a model what users want or what to build next and it answers from common knowledge, competently and confidently and identically to whoever asked it before you. She",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Tribal Dungeons of Global Shipping: AI Agents at Global Scale — Dmitry Buykin, Maersk",
-          "url": "https://www.youtube.com/watch?v=dQ-_i1tZiws",
-          "published": "2026-08-29T17:30:21+00:00",
-          "content_snippet": "Maersk's standard operating procedures were screenshots. A sequence of images showing what a person sees and where they click, which is a perfectly good record for a human and useless to an agent. Dmitry Buykin calls the gap tribal dungeons: the knowledge exists, just not in a form anything can execute safely. An agent version of the same procedure needs preconditions, decisions, identifiers, backend calls, validation, recovery and evidence that it actually worked. Most of the project was that t",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Agentic Sites: Building Hyper Personalized Websites — Carlos Sanchez, Adobe",
-          "url": "https://www.youtube.com/watch?v=jebp4V0vh30",
-          "published": "2026-08-29T17:00:17+00:00",
-          "content_snippet": "Carlos Sanchez types a request for a coffee machine he can use while camping, and the page assembles itself in under two seconds. Not a search result. A page, with camping appropriate machines, rewritten copy and a set of tips, generated for that one query. Adobe calls the goal an audience of one, which is the thing marketers have wanted for decades and could never afford. The site he demonstrates is a fully generated example, and the same tool will build one for any URL you hand it in about an ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
-          "url": "https://www.youtube.com/watch?v=32nrHU6zHU8",
-          "published": "2026-08-29T16:30:28+00:00",
-          "content_snippet": "Tell a travel agent to book a flight whenever the fare drops below 200 dollars and something awkward follows. When it fires two weeks later, who made that purchase? Roberto Milev and Uday Kanagala keep returning to that blurring, because Navan sells travel and expense management and the answer decides what authorization even means. An agent may act on behalf of a user or under its own service account, and the old model of a user or a service principal does not survive contact with either. Their ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "AI Agents Are Just Distributed Systems Now — Salman Munaf, TikTok",
-          "url": "https://www.youtube.com/watch?v=hD9-V56FNRI",
-          "published": "2026-08-29T16:00:06+00:00",
-          "content_snippet": "An agent calls a refund tool and the request times out. Did the customer get their money? Salman Munaf uses that to make his central point, which is that a timeout has never meant failure, it means unknown, and an agent's first instinct on any failure is to try again. Without request identifiers, idempotency keys and a status lookup, that instinct refunds someone twice. He works in site reliability at TikTok, and his argument is that the moment a model started calling external services it stoppe",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From Tokenmaxxing to Trusted Throughput — Mingsheng Hong, Ironclad",
-          "url": "https://www.youtube.com/watch?v=dSg0pu8d6qg",
-          "published": "2026-08-29T15:30:28+00:00",
-          "content_snippet": "An engineer at a large tech company built a voluntary dashboard showing everyone's AI token usage, and colleagues promptly started competing to top it. Mingsheng Hong uses that as the thing not to do. His team runs the same dashboards, but treats them as a smoke detector rather than a leaderboard: a team using surprisingly few tokens is worth a conversation, and nobody should ever be rewarded for burning more. He draws the parallel to lines of code, a number worth tracking and a terrible thing t",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Guardians of the State: An Air-Gapped AI Fortress for Consumer Data — Rachna Srivastava, DFPI",
-          "url": "https://www.youtube.com/watch?v=2WZsT-znFTQ",
-          "published": "2026-08-29T15:00:25+00:00",
-          "content_snippet": "The fiber optic cable carrying data into California's financial fraud system has been cut in half. One end sits on the internet with a laser transmitter. The other end, inside the building, has only a receiver. There is no transmitter pointing outward, so data physically cannot leave. Rachna Srivastava's team chose that over a software firewall for a blunt reason: any configuration can be misconfigured, and a misconfigured secure system is an exploited one. Everything her group builds has to sur",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 29
 }
