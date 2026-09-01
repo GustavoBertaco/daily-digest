@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T17:13:26Z",
+  "fetched_at": "2026-09-01T14:17:18Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,27 +12,21 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Not everyone is adopting AI",
-          "url": "https://www.youtube.com/watch?v=LJFTH2VnUOk",
-          "published": "2026-08-30T15:00:18+00:00",
-          "content_snippet": "with Casey Muratori, programmer & performance nerd. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1,
-        "Meta Engineering": 2
+        "Airbnb Tech": 1
       }
     },
     {
@@ -57,20 +51,33 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "How Failure Created the Steve Jobs We All Know | Geoffrey Cain",
+          "url": "https://www.youtube.com/watch?v=eU4WlADVgM8",
+          "published": "2026-09-01T10:00:27+00:00",
+          "content_snippet": "We all know the Steve Jobs who came back in the late 1990s and saved Apple from becoming a footnote. And we've all heard the story of how, in 1985, he was pushed out of the company he'd created. What we don't know is what happened in between. Geoffrey Cain spent years reconstructing the decade Jobs spent outside Apple. NeXT spent years losing money. His co-founders left. His investors lost faith. His fortune nearly disappeared. At one point, he was a weekend away from shutting the company down. ",
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         },
+        {
+          "title": "Why you should question everything (according to philosophy) @philosophyminis",
+          "url": "https://www.youtube.com/watch?v=xBNqQNMOhyw",
+          "published": "2026-08-31T19:31:09+00:00",
+          "content_snippet": "Why you should question everything (according to philosophy) @philosophyminis",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -82,14 +89,24 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "What Is LTAP? Lakebase + Genie Explained by Databricks CTO",
+          "url": "https://www.youtube.com/watch?v=8x6MvzAfvtw",
+          "published": "2026-09-01T09:06:49+00:00",
+          "content_snippet": "Databricks CTO Matei Zaharia on the two launches he's most excited about: Genie for AI-driven analytics, and LTAP for one copy of transactional + analytic data. He also breaks down coding agents, agent trust, and how Unity AI Gateway governs enterprise AI. Chapters 00:00 The two biggest launches: Genie and LTAP 01:07 Genie with unstructured data: SharePoint, Google Drive & charts 02:10 LTAP: Lake Transactional/Analytical Processing (LTAP) 03:11 Why real-time data 03:42 Zerobus: It allows develop",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
-          "source_name": "Data Mesh Learning",
+          "source_name": "The Data Engineering Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "NextGenLakehouse",
+          "source_name": "Data Mesh Learning",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -98,7 +115,6 @@
         }
       ],
       "deduped_sources": {
-        "The Data Engineering Show": 1,
         "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
@@ -119,28 +135,118 @@
       ],
       "items": [
         {
-          "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
-          "published": "2026-08-31T15:41:00+00:00",
-          "content_snippet": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios including JVM out-of-memory, sustained CPU saturation, as well as configuration issues such as zone imbalance, and misconfigured replica counts. Previously, when a cluster entered Red or Yellow status due to unassigned shards, diagnosing the underly",
+          "title": "Amazon CloudWatch now supports warm-up periods for alarms",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+          "published": "2026-09-01T08:00:00+00:00",
+          "content_snippet": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data while a new resource or service starts up and begins publishing metrics. For example, a team that provisions a new microservice and its alarms together through a CI/CD pipeline can attach a warm-up period so alarms do not page the on-call engineer while the service is still starting up and has not yet",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
-          "published": "2026-08-31T14:45:25+00:00",
-          "content_snippet": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs , the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation and the MIT license, and over time AWS plans to combine its speed at everyday queries with the enterprise scale of services like",
+          "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
+          "published": "2026-08-31T22:30:00+00:00",
+          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need for intermediate version upgrades and allows you to upgrade your version 3.6 or 4.0 clusters while preserving existing data, configurations, and cluster settings. Upgrading to version 8.0 provides access to the latest security patches, performance improvements, and new developer capabilities. Major ver",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
+          "published": "2026-08-31T22:00:00+00:00",
+          "content_snippet": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability measured AWS service consumption across select services. With this expansion, Partners can now measure attributed revenue across additional applicable AWS services that log control plane activity in AWS CloudTrail, significantly increasing the vis",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Agent Registry agents and MCP servers now available in Amazon Quick",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/",
+          "published": "2026-08-31T21:05:00+00:00",
+          "content_snippet": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent Registry supports MCP servers and agents, which users can now search and browse directly within Amazon Quick. After finding the agent or MCP server they need, users can enable it with a few clicks. Connection details are already populated from the registry. Once enabled, these resources can be shared w",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
+          "published": "2026-08-31T21:02:00+00:00",
+          "content_snippet": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with single sign-on with your corporate credentials, and the traffic traverses Amazon Virtual Private Cloud (Amazon VPC) and stays on the AWS network. This is valuable for customers with data residency, regulatory, or network-isolation requirements that mandate no public internet egress for analytics. Wit",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Timestream for InfluxDB is now available in 8 additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
+          "published": "2026-08-31T19:48:00+00:00",
+          "content_snippet": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul), Europe (Zurich), and Israel (Tel Aviv) AWS Regions. Timestream for InfluxDB makes it easy for application developers and DevOps teams to run fully managed InfluxDB databases on AWS for real-time time-series applications using open-source APIs. Timestream for InfluxDB offers Multi-AZ high availability,",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
+          "published": "2026-08-31T19:25:00+00:00",
+          "content_snippet": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US East (N. Virginia) or US West (Oregon), while managers view analytics and search contacts across both regions as a unified contact center. Because both regions now carry live traffic at all times, neither sits idle as an untested standby. Your ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+          "published": "2026-08-31T18:10:00+00:00",
+          "content_snippet": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this launch, Amazon Redshift introduces support for default column values, row lineage, and deletion vectors. With default column values, you can define an initial value that Amazon Redshift applies when no value is provided, simplifying schema evolution as you add columns to existing tables. Row lineage ex",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
+          "published": "2026-08-31T18:08:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance for memory-intensive workloads running on Amazon EC2. R9g instances are ideal for memory-intensive workloads including databases, in-memory caches, real-time big data analytics, Linux-based workloads including containerized and micro-service-b",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+          "published": "2026-08-31T18:00:00+00:00",
+          "content_snippet": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — without configuring a user pool domain. This gives you an additional path to authorize service-to-service communication for applications, microservices, and automated workloads. The new GetClientToken API operation lets your app client authenticate with its client ID and secret to receive an access token ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+          "published": "2026-08-31T19:53:34+00:00",
+          "content_snippet": "Today, Amazon EC2 R9g and R9gd instances are generally available, powered by AWS Graviton5 processors. R9g instances are memory-optimized and deliver up to 25% better compute performance compared to Graviton4-based R8g instances, powered by the most energy efficient processor AWS has ever built. R9g instances are ideal for memory-intensive workloads including databases, in-memory caches (Valkey, Redis, MemCached), real-time big data analytics, Linux-based workloads including containerized and mi",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Autoscaling Lakebase Postgres",
-          "url": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
-          "published": "2026-08-31T17:00:00+00:00",
-          "content_snippet": "Choosing a database instance size before you know the workload is an old building pattern...",
+          "title": "The new Brickbuilder Partner Network tiers for ISVs and Data Providers are here",
+          "url": "https://www.databricks.com/blog/new-brickbuilder-partner-network-tiers-isvs-and-data-providers-are-here",
+          "published": "2026-09-01T14:00:00+00:00",
+          "content_snippet": "Earlier this year, we redesigned the Brickbuilder Partner Network Program for ISVs...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Discovery Bank delivers hyper-personalized banking at scale: behavioral AI, governed data, and real-time decisioning",
+          "url": "https://www.databricks.com/blog/how-discovery-bank-delivers-hyper-personalized-banking-scale-behavioral-ai-governed-data-and",
+          "published": "2026-09-01T13:30:00+00:00",
+          "content_snippet": "How can a bank make every client interaction feel personal while meeting the scale, speed, security...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
@@ -152,13 +258,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "OpenAI",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 10
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -178,5 +286,5 @@
       }
     }
   ],
-  "deduped_count": 29
+  "deduped_count": 17
 }
