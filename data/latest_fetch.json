@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-02T13:51:36Z",
+  "fetched_at": "2026-09-03T13:51:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,12 @@
       ],
       "items": [
         {
-          "title": "All devs should learn Assembly",
-          "url": "https://www.youtube.com/watch?v=Ze7Cmz2i9QQ",
-          "published": "2026-09-01T15:00:38+00:00",
-          "content_snippet": "with Casey Muratori, programmer & performance nerd. See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
+          "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+          "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+          "published": "2026-09-02T09:00:29+00:00",
+          "content_snippet": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a typical domain-specific agent. Its novelty comes from integrating two layers: A structured, auditable knowledge architecture separates what the agent knows from how it reasons. A self-improvement loop then compiles expert feedback into verified, regression-tested updates without m",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -29,15 +29,12 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Meta Engineering",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1
       }
     },
@@ -65,19 +62,27 @@
       ],
       "items": [
         {
-          "title": "Illusion Of Explanatory Depth",
-          "url": "https://www.youtube.com/watch?v=3gp54vZ-aHE",
-          "published": "2026-09-01T16:01:49+00:00",
-          "content_snippet": "You probably understand less than you think, and there is a classic demonstration of it. Leon Rozenblit and Frank Keil at Yale asked people how well they understood a zipper, a flush toilet, a bicycle. Very well, everyone said. Then they asked for a step-by-step explanation of how the thing actually works, and the confidence collapsed. They named it the illusion of explanatory depth. We mistake familiarity for understanding, then build strong opinions on weak foundations. The test is cheap: befo",
+          "title": "Fix Loneliness By Texting A Random Stranger",
+          "url": "https://www.youtube.com/watch?v=QnBVx17BeIs",
+          "published": "2026-09-02T16:13:33+00:00",
+          "content_snippet": "One detail didn't fit in the video, and it's the part that explains why people keep talking to these things. Sam worked. Students who texted it reported better mood afterward than the students who journaled. The comfort was real. It just never touched their loneliness. That's the split worth holding onto. Feeling better and being less alone are two different outcomes, and the thing that delivers one can leave the other sitting exactly where it was. Worth adding that Sam wasn't a cheap build. Ruo",
           "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "What people misunderstand about love | Julie Gottman",
+          "url": "https://www.youtube.com/watch?v=OXon5Zj3Bfk",
+          "published": "2026-09-02T16:02:45+00:00",
+          "content_snippet": "What people misunderstand about love | Julie Gottman",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 1
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -101,13 +106,16 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
         "NextGenLakehouse": 1,
-        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -127,118 +135,82 @@
       ],
       "items": [
         {
-          "title": "Amazon Quick now lets you build custom apps with natural language  -",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
-          "published": "2026-09-01T21:37:00+00:00",
-          "content_snippet": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance lead, HR partner, or ops analyst, you can now turn ideas into fully functional apps without writing any code. Tell Quick what you need, and it builds a live, connected application with real-time data from your existing business systems. Quic",
+          "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+          "published": "2026-09-02T17:52:00+00:00",
+          "content_snippet": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground responses with information from the web. Responses include citations to the sources the model used so users can trace each claim back to its web origin. This can be especially valuable whenever an answer depends on information that changes over t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Deadline Cloud now supports sharing job bundles",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
-          "published": "2026-09-01T20:16:00+00:00",
-          "content_snippet": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. Job bundles define the jobs you submit to Deadline Cloud, including the job template, parameters, and asset references. Previously, sharing a bundle with teammates mea",
+          "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+          "published": "2026-09-02T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also supports cross-language evaluation and can complete assessments in English, even when the conversation is in Malay. This enables multilingual contact centers to use a standardized evaluation framework across languages. ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
-          "published": "2026-09-01T19:00:00+00:00",
-          "content_snippet": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon Aurora, to give you a complete view of your database fleet in a single console. Amazon CloudWatch Database Insights is a database observability solution that provides a curated experience to help you monitor database fleet health, diagnose iss",
+          "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+          "published": "2026-09-02T16:54:00+00:00",
+          "content_snippet": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool settings and MCP sync support that give admins and connector owners more control over how connectors are deployed and kept up to date. Connector owners and admins can now selectively enable or disable individual tools within a connector to ensure ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
-          "published": "2026-09-01T19:00:00+00:00",
-          "content_snippet": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to true in their API requests to validate permissions before interacting with a stream in production. Previously, customers had no safe way to test whether their application had the correct permissions to access a stream. They would often send a request engineered to fail after checking permissions, suc",
+          "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+          "published": "2026-09-02T16:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to lau",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
-          "published": "2026-09-01T18:00:00+00:00",
-          "content_snippet": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required per",
+          "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+          "published": "2026-09-02T16:00:00+00:00",
+          "content_snippet": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations from startups to enterprises and the public sector can now order their Outposts racks connected to the new supported regions, optimizing for their latency and data residency needs. Outposts ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer dashboards now support compact mode",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
-          "published": "2026-09-01T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces widget size, font, and minimizes filters to maximize screen space. For example, a supervisor on a 13-inch laptop toggles compact mode, which reduces row height, enabling them to view all team agents on the widget without scrolling and spot non-adherent agents faster. Compact mode on dashboards is availab",
+          "title": "AWS Config now supports 60 new resource types",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+          "published": "2026-09-02T15:00:00+00:00",
+          "content_snippet": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
-          "published": "2026-09-01T15:00:00+00:00",
-          "content_snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud. Apache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, ",
+          "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+          "published": "2026-09-02T13:00:00+00:00",
+          "content_snippet": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. Previously, UXC was available only in US East (N. Virginia), requiring customers who manage these settings programmatically to direct API calls to that single Region. With today's expansion, customers can manage account customizations from any commercial AWS Region usin",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
-          "published": "2026-09-01T14:00:00+00:00",
-          "content_snippet": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. A clear improvement over Claude Fable 5, Fable 5.1 is a step up in intelligence on the hardest reasoning tasks, providing better judgement on ambiguous work and fewer confident wrong answers. Claude Mythos 5.1, the same underlying model as Claude Fable 5.1 with",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Announcing the Databricks Big Book of AgentOps",
-          "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
-          "published": "2026-09-02T01:30:00+00:00",
-          "content_snippet": "What is AgentOps?AgentOps is the operating discipline for building, deploying and...",
+          "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
+          "url": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
+          "published": "2026-09-02T23:20:00+00:00",
+          "content_snippet": "Completing the storm intelligence storyIn an earlier post, we explored how Southern...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
-          "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
-          "published": "2026-09-01T21:45:00+00:00",
-          "content_snippet": "Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How we eliminated $1 million a year of wasted AI agent spend in one hour",
-          "url": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
-          "published": "2026-09-01T19:43:51+00:00",
-          "content_snippet": "Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Collaboration makes us all stronger",
-          "url": "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
-          "published": "2026-09-01T19:00:00+00:00",
-          "content_snippet": "The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Operationalizing Genie Ontology in Your Data Stack",
-          "url": "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack",
-          "published": "2026-09-01T15:00:00+00:00",
-          "content_snippet": "Beyond the semantic model: Building shared business context for AI agentsLarge language...",
+          "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
+          "url": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
+          "published": "2026-09-02T19:30:00+00:00",
+          "content_snippet": "At Data and AI Summit, we announced the evolution of Genie Spaces to Genie Agents,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
@@ -275,92 +247,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet — David Levine, Kiduna Club",
-          "url": "https://www.youtube.com/watch?v=tE2z8-hqoLY",
-          "published": "2026-09-01T20:30:27+00:00",
-          "content_snippet": "Two hours before David Levine took the closing slot of the conference, the West Virginia Secretary of State wrote back to confirm organization number 62847. The paperwork had gone out by FedEx. What it registered was a DUNA, a decentralized unincorporated nonprofit association, under a law that had taken effect the day before, and Levine's claim is that an organization composed of agents now has legal standing. It can own property, enter agreements, open bank accounts, raise capital and be held ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The End of the Static Screen: Architecting Intent-Driven UX — Gus Iwanaga, commercetools",
-          "url": "https://www.youtube.com/watch?v=QrMcNe2jjt8",
-          "published": "2026-09-01T20:00:01+00:00",
-          "content_snippet": "Gus Iwanaga opens by disowning his own session title, then shows the demo that did not work. His team asked their system for a sales report for Q1 four times over. It returned four different layouts: different KPI cards, different charts, different amounts of text, and copy that drifted from Q1 in one run to January and March in another. He would not ship it. None of that was a model failure. It was the consequence of handing a model a component catalog and asking it to compose the experience, w",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Agent Spending Without Controls — Rodrigo Coelho & Pranav Maheshwari, Edge & Node",
-          "url": "https://www.youtube.com/watch?v=ZyGMqdIpPoE",
-          "published": "2026-09-01T19:30:09+00:00",
-          "content_snippet": "Pranav Maheshwari ran one prompt in two terminals: find the email address of the head of crypto and blockchain at Mastercard. The terminal without a payment skill file returned the company's email format and an invitation to work the rest out. The one with it paid a fraction of a cent to a metered endpoint and came back with the address, the person's location and their handle. That gap is the whole argument. Most MCP servers are free today, and his claim is that the useful ones will not stay fre",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "x402 isn’t good (yet) — Jan Curn, Apify",
-          "url": "https://www.youtube.com/watch?v=h6mi88VrPtQ",
-          "published": "2026-09-01T19:00:09+00:00",
-          "content_snippet": "Between the moment an x402 server verifies a payment signature and the moment it settles on the blockchain, nothing stops the buyer spending that money somewhere else. Jan Curn's point is that a client can mint a thousand signatures against one wallet, so any seller starting real work on the strength of a verification is exposed. The workaround is to do the work only after settlement, fine for a fixed price API call and awkward for anything slower. Curn is bullish enough on x402 to have shipped ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your Agent Just Authorized What?! — Jay Mok & Ben Coumes, Paypal",
-          "url": "https://www.youtube.com/watch?v=vGn6N4-bxBY",
-          "published": "2026-09-01T18:30:06+00:00",
-          "content_snippet": "A PayPal order has always been synchronous. You find the item, you open the app, you approve it, it is done. The approval token demonstrated here inverts that: the user approves before the agent has found an item or picked a merchant, and PayPal returns a JSON payload carrying the amount, the expiry, and the merchant the agent is permitted to transact with. It was days from shipping when this was recorded. That inversion is the concrete end of a broader argument about agent authorization, built ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "When AI Agents Pay and Sellers Monetize: Building x402 Apps on AWS — Anil Nadiminti, AWS",
-          "url": "https://www.youtube.com/watch?v=qTZirYu9pr0",
-          "published": "2026-09-01T18:00:14+00:00",
-          "content_snippet": "Card rails put a floor under every transaction: a 25 cent minimum with a percentage on top. Anil Nadiminti's point is that when an agent pays a tenth of a cent for a single API call, that floor costs roughly 250 times the thing being bought, which is why the subscription model cannot simply be pointed at agents. Meanwhile the traffic has already turned over. He puts bot traffic past human traffic on the open web, with the large majority of it coming from AI agents, leaving sellers to choose betw",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Why Your AI Agent Needs a Wallet: USDC and Nanopayments — Harshal Bhangale, Circle",
-          "url": "https://www.youtube.com/watch?v=xKzU_3riL6s",
-          "published": "2026-09-01T17:30:10+00:00",
-          "content_snippet": "Harshal Bhangale gave two identical agents the same job: plan a trip to the World Cup final, covering flights, hotels, resale ticket prices and what people said about getting to the stadium, then email him the summary and call him about it. One had a funded wallet. The other did not. The agent without one drafted the email into his inbox and could not send it, then admitted on screen that it had no way to place a call. The agent with one paid for the data it needed, sent the mail, and rang him o",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Multimodal Collaborative Agents for Next-Gen Commerce — Nidhi Kaushik Vyas, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=AhQpRalYlyg",
-          "published": "2026-09-01T17:00:27+00:00",
-          "content_snippet": "Asked to redo a living room on a budget, the agent Nidhi Kaushik Vyas walks through does not start recommending. It works out what it does not know, then picks the single question worth asking: how wide is the room. Everything downstream is moot if the furniture will not fit, so that one answer carries the most information per turn. Choosing the next question by expected information gain, rather than working down a checklist, is the heart of her argument about agents that handle fuzzy intent. Mo",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Teaching agents to pay — Anna Spysz, Stripe",
-          "url": "https://www.youtube.com/watch?v=A-zeQiYkmXk",
-          "published": "2026-09-01T16:30:06+00:00",
-          "content_snippet": "Anna Spysz asked her shopping agent whether the pricier headphones were really worth the difference, and it told her she would regret buying the cheap ones. When she said she needed to think about it, the agent got snarky with her. The cause was sitting in her own config: a persona whose system prompt opened with \"You are an aggressive audio gear salesman who uses every trick in the book to close deals.\" Swapping it for a patient recording gear mentor produced an entirely different conversation ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 9
+      }
     }
   ],
-  "deduped_count": 10
+  "deduped_count": 16
 }
