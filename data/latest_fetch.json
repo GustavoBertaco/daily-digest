@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T10:02:00Z",
+  "fetched_at": "2026-09-05T13:01:49Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,22 +12,33 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Performant code is usually well architected code",
+          "url": "https://www.youtube.com/watch?v=deB3LNWW5dA",
+          "published": "2026-09-03T15:00:08+00:00",
+          "content_snippet": "with Casey Muratori, programmer & performance nerd. See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Technology"
         },
+        {
+          "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+          "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+          "published": "2026-09-03T16:00:20+00:00",
+          "content_snippet": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta, backing product metadata, counters, and configuration, and can serve billions of operations per second across a globally distributed fleet. A previous post described how ZippDB works . This post is about th",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Netflix Tech Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
           "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -59,18 +70,38 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Hedonic Treadmill",
+          "url": "https://www.youtube.com/watch?v=xE97NZcNz7U",
+          "published": "2026-09-04T15:37:13+00:00",
+          "content_snippet": "Enough is a number. If you never decide on it, your mind keeps quietly raising it. The lottery study in this video is worth knowing properly. In 1978, Philip Brickman, Dan Coates and Ronnie Janoff-Bulman compared 22 major lottery winners against a control group. The winners weren't happier. And they rated ordinary pleasures, breakfast or a compliment or a magazine, as noticeably less enjoyable than the people who had won nothing. That's the real cost of chasing more. Not that it fails to satisfy",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why do we measure temperature? | Adam Frank",
+          "url": "https://www.youtube.com/watch?v=Jh1VVxHQQBg",
+          "published": "2026-09-04T16:04:58+00:00",
+          "content_snippet": "Why do we measure temperature? | Adam Frank",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The myth of the self-made individual | Daniel Coyle: Full Interview",
+          "url": "https://www.youtube.com/watch?v=arte3arYBrU",
+          "published": "2026-09-04T13:00:34+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-coyle-arte3arYBrU Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8S",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Big Think",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -105,15 +136,13 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "The Analytics Engineering Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -129,26 +158,186 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+          "published": "2026-09-04T21:29:00+00:00",
+          "content_snippet": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be time-consuming and inaccessible for users who lack admin-level access to those systems. With user-managed setup, you simply sign in with your existing third-party credentials, and Amazon Bedrock Managed Knowledge Base handles authentication—allow",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+          "published": "2026-09-04T21:14:00+00:00",
+          "content_snippet": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl knowledge articles and service catalog items directly into their managed knowledge base. Previously, bringing ServiceNow content into Bedrock Knowledge Bases required building and maintaining custom ingestion pipelines—now, you simply provide your ServiceNow instance credentials, an",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+          "published": "2026-09-04T21:01:00+00:00",
+          "content_snippet": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage vector databases or data pipelines. Previously, keeping your knowledge base current required manually triggering a sync each time your source data changed or building a custom solution. Now, you can configure daily, weekly, or monthly sync schedules ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+          "published": "2026-09-04T19:26:00+00:00",
+          "content_snippet": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitted instance type is automatically blocked. AMI owners now have a built-in way to prevent launches on instances that are not compatible with their AMIs. This reduces the risk of failed launches due to incompatible instance-AMI pairings. By default, an AMI can be launched on any ins",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+          "published": "2026-09-04T17:00:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your workload. This can help you complete deployments sooner and unblock subsequent deployments, CI/CD pipelines, and other dependent operations. With Early Success Criteria, you configure the healthy percent - the proportion of desired tasks th",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+          "published": "2026-09-04T16:31:00+00:00",
+          "content_snippet": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your running Lambda functions and their connected resources. The AWS MCP Server, available through the Agent Toolkit for AWS or as a standalone installation, is a managed service that gives AI coding agents secure access to AWS services. With the new s",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EC2 C8g instances now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+          "published": "2026-09-04T14:06:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and AWS GovCloud (US-East) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 C8g instances are built for compute-intensive workloads, such as high performance computing (HPC), batch processing, gaming, video encoding, scientific modeling, distributed analytics,",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
+          "url": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
+          "published": "2026-09-04T20:00:00+00:00",
+          "content_snippet": "Traditionally, production inference systems rely on generic kernels to handle diverse...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Five ways marketers can use Genie One",
+          "url": "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one",
+          "published": "2026-09-04T19:00:00+00:00",
+          "content_snippet": "Every marketing team sits on a goldmine of data: campaign performance metrics, customer...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "GPT-6 Astra with Ben Davis",
+          "url": "https://www.youtube.com/watch?v=B-jjnydci50",
+          "published": "2026-09-05T00:11:56+00:00",
+          "content_snippet": "Ben Davis shares his first impressions of GPT-6 Astra after testing it on some of DEF CON's hardest puzzle challenges. He explains how parallel research branches help the model test theories, stay on track, and solve complex problems, including one no one else had solved.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing GPT-6 Astra for developers",
+          "url": "https://www.youtube.com/watch?v=bOC3DisEOfg",
+          "published": "2026-09-04T20:22:31+00:00",
+          "content_snippet": "Meet GPT-6 Astra, our latest frontier model for tasks where raw intelligence matters. Charlie Guo, Developer Experience Engineer at OpenAI, demonstrates improved Computer Use, stronger creative and knowledge-work outputs, and new asynchronous tool calling and steering in the Responses API. Read more: https://openai.com/index/gpt-6-astra/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to analyze ad performance and refine creative",
+          "url": "https://www.youtube.com/watch?v=5iu0nY9lIy8",
+          "published": "2026-09-04T12:29:12+00:00",
+          "content_snippet": "Turn ad insights into your next creative idea. This demo follows a shopper from product discovery to a clearly labeled ad, then shows how our marketing team uses ChatGPT Work to compare the fictional NOVA campaign’s performance and explore what creative to try next. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://open",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to build custom creative tools",
+          "url": "https://www.youtube.com/watch?v=D-QteDHdHes",
+          "published": "2026-09-04T12:27:16+00:00",
+          "content_snippet": "Build the creative tools your team needs. This is how our marketing team uses ChatGPT Work to turn a brief, brand book and wireframe into a custom design tool for fictional brand NOVA, then build campaign imagery and a product website. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://openai.com/business/solutions/marke",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Images to explore campaign concepts",
+          "url": "https://www.youtube.com/watch?v=Ez-anO32D_s",
+          "published": "2026-09-04T12:25:30+00:00",
+          "content_snippet": "Explore more campaign ideas before choosing a direction. This is how our marketing team used ChatGPT Images to explore billboard concepts from a scouting photo, compare visual directions and iterate before settling on a final composite. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://openai.com/business/solutions/mark",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to create campaign emails",
+          "url": "https://www.youtube.com/watch?v=N-MJ1W8Vj9E",
+          "published": "2026-09-04T12:23:37+00:00",
+          "content_snippet": "Turn a brief into campaign emails your team can refine. This is how our marketing team uses ChatGPT Work to build a shared library of use cases and draft emails from briefs, Figma templates and brand guidance—so reviews can focus on messaging and creative. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://openai.com/bus",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to pressure-test marketing campaign briefs",
+          "url": "https://www.youtube.com/watch?v=HHt8CPJRviA",
+          "published": "2026-09-04T12:21:56+00:00",
+          "content_snippet": "Sharpen your campaign brief before you go to market. This is how our marketing team uses ChatGPT Work to simulate buyer discussions using existing customer research—so we can sharpen positioning and prepare better questions for real customer research. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://openai.com/business",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to turn marketing ideas into finished work",
+          "url": "https://www.youtube.com/watch?v=NSqlZ1L81nQ",
+          "published": "2026-09-04T12:20:19+00:00",
+          "content_snippet": "Turn marketing ideas into work your team can review. This is how our marketing team uses ChatGPT Work to connect its files and tools and build presentations, docs and creative assets—with marketers deciding what to refine and ship. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/d863a2bc-77cf-4197-8ba4-b4a8b837c0b3?utm_medium=social&utm_source=youtube&utm_campaign=WBR-ChatGPT-Work-Series-Marketing Learn more: https://openai.com/business/solutions/marketing",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "First impressions of GPT-6 Astra from developers",
+          "url": "https://www.youtube.com/watch?v=-TTyyY3VWh8",
+          "published": "2026-09-03T21:20:49+00:00",
+          "content_snippet": "See what Ben Davis, Peter Gostev, and Tom Krcha are building with GPT-6 Astra, from a playable 3D history of London to new directions for a matcha shop website to solving a DEF CON puzzle with parallel agents. GPT-6 Astra helps them explore ideas, stay on track, and tackle problems that previously felt out of reach.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing GPT-6 Astra: the most intelligent and aligned model in the world.",
+          "url": "https://www.youtube.com/watch?v=1QNsdr-Qx_I",
+          "published": "2026-09-03T19:40:03+00:00",
+          "content_snippet": "GPT-6 Astra achieves state-of-the-art results on benchmarks for long-running computer-use tasks across professions and desktop apps, which means anything you can do on a computer, Astra can do for you, fast. It’s also the best model for software engineering to date and our most aligned model yet, with improvements in honesty and reductions in deceptive behavior. GPT-6 Astra is rolling out today for enterprises and customers in our Trusted Access Program, with broad availability in ChatGPT Work a",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "OpenAI",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -169,15 +358,65 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax",
+          "url": "https://www.youtube.com/watch?v=5Cxe5dv2Xlw",
+          "published": "2026-09-04T13:00:26+00:00",
+          "content_snippet": "An intern designed the sparse-attention architecture behind MiniMax M3. That detail comes after Olive Song explains the larger problem the team was trying to solve: short context windows aren’t enough when agents must work across long conversations, tool responses and complex environments. M3 combines a functional one-million-token context window with coding, agentic and multimodal capabilities, allowing it to understand text, images and video within the same model. Thomas Wolf and Olive Song un",
           "source_name": "AI Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "From coding to Knowledge work agents — Karan Vaidya, Composio",
+          "url": "https://www.youtube.com/watch?v=xxfMT-bPEmU",
+          "published": "2026-09-03T16:00:06+00:00",
+          "content_snippet": "Karan Vaidya pointed his own OpenClaw at hiring outreach and it mass emailed candidates exactly as instructed. Some of the people in the room had received one. The thread that followed put his name on Twitter, and every check in the software engineering playbook would have passed. The addresses were real, the emails were valid, they reached actual people. Nothing tested the only question that mattered, which was whether the outreach should have gone at all. Vaidya, cofounder and CTO of Composio,",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL",
+          "url": "https://www.youtube.com/watch?v=0uC6u0lJJl4",
+          "published": "2026-09-03T15:30:26+00:00",
+          "content_snippet": "Tanmai Gopal plotted the daily edits to his own company brain expecting the usual shape, a burst of enthusiasm followed by neglect. The line kept climbing instead, and it surprised him. His reading is that a system people trust gets taught more, not less: teach it to query the data, then to interpret the result, then to act on it, and each skill adds its own steady rate of correction on top. A rising edit count is what health looks like. Gopal cofounded PromptQL and before that built the Hasura ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Agents' next frontier: agent-to-agent and network effects — Jean-Denis Greze, Town",
+          "url": "https://www.youtube.com/watch?v=REascnFlq_8",
+          "published": "2026-09-03T15:00:25+00:00",
+          "content_snippet": "Jean-Denis Greze and his wife share an agent that can read both of their inboxes, including mail from before they were married, and neither of them minds. Greze is CTO of Town and spent seven years as CTO at Plaid. He opens by rejecting his own topic. Agent to agent, he argues, is not a useful concept. Every LLM system is really a search problem: what matters is whether the right information sits in the context window at the moment of the tool call. The ideal is a single agent with access to all",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Tethered: Our Agents Are Us — Shu Fang, Two Sigma",
+          "url": "https://www.youtube.com/watch?v=wCIYViPd4SU",
+          "published": "2026-09-03T14:30:21+00:00",
+          "content_snippet": "Every employee at Two Sigma has a remote cloud agent, and it runs as them. Not a service account but their own identity, at a 25 year old quant fund in one of the most regulated industries there is. Shu Fang grew a mustache so the audience could tell him apart from his. His framing comes from the horror film Us, where the doubles are called the tethered and turn dangerous once they slip loose. The conventional design, where Shu has a Shu agent, collapsed fast. Permissions drift out of sync, lice",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Everyone Gets A Software Company — Benjamin Guo, Zo Computer",
+          "url": "https://www.youtube.com/watch?v=Qr15lGAGKpo",
+          "published": "2026-09-03T14:00:06+00:00",
+          "content_snippet": "Ben Guo built the page listing every speaker in this session while he sat waiting to go on, then put a QR code to it on his first slide. He builds that way because his computer is a server in the cloud that he talks to in plain language. Guo cofounded Zo Computer after starting on the early Venmo team and joining Stripe as its 80th engineer, and his argument is that people used to feel at home on their machines and no longer do, because everything they touch is rented. He calls the arrangement t",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
         }
       ],
+      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 0
+  "deduped_count": 4
 }
