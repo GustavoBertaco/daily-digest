@@ -2,9 +2,10 @@
 
 > What actually counts as a breaking schema change and how that differs across Hive, Iceberg,
 > Delta, Hudi and the serialization formats underneath them; what backward, forward and full
-> compatibility commit you to; how the market versions tables once a change has broken something;
-> and which technologies are required to manage those versions when half your estate is one format
-> and half is the other.
+> compatibility commit you to; the freeze-fork-append pattern for versioning a table once a change
+> has broken it; and what it takes to manage those versions when half your estate is one format
+> and half is the other — including how to reconcile a version boundary into one continuous table,
+> and what it takes to run versions across a whole platform.
 
 - **Topic:** Data Platform
 - **Date:** 2026-09-04
@@ -19,9 +20,9 @@
 1. [Context](#context)
 2. [What is considered a breaking schema change](#1-what-is-considered-a-breaking-schema-change)
 3. [Full, backward, and forward compatibility](#2-full-backward-and-forward-compatibility)
-4. [Versioning a table after the change: four layers](#3-versioning-a-table-after-the-change-four-layers)
-5. [What versioning costs](#4-what-versioning-costs)
-6. [Choosing, for a hybrid estate](#5-choosing-for-a-hybrid-estate)
+4. [Versioning after a breaking change: freeze, fork, append](#3-versioning-after-a-breaking-change-freeze-fork-append)
+5. [Reconciling versions into one materialized table](#4-reconciling-versions-into-one-materialized-table)
+6. [Managing versions across the data platform](#5-managing-versions-across-the-data-platform)
 7. [Counterpoints: where this study could be wrong](#6-counterpoints-where-this-study-could-be-wrong)
 8. [Takeaways](#takeaways)
 9. [References](#references)
@@ -39,8 +40,8 @@ Four questions, in order:
 1. What actually counts as a breaking schema change, and how does the answer differ by format?
 2. What do backward, forward and full compatibility mean, and how does the choice between them
    become a strategy for allowing or refusing a change?
-3. Once a change has broken something, how does the market version tables?
-4. What technologies are required to manage those versions?
+3. Once a change has broken something, how do you version the table?
+4. How do you reconcile those versions, and how do you manage them across a platform?
 
 The short version of the answer, stated up front so the rest can argue for it: **Hive breaks
 physically, Iceberg cannot — and that is why Iceberg breaks silently instead.** Stable field
@@ -243,207 +244,200 @@ For a hybrid estate the point sharpens once more. The Hive half has neither enfo
 field identity, so it is exposed on *both* pairs — and whatever policy you set there is carried
 entirely by process.
 
-## 3. Versioning a table after the change: four layers
+## 3. Versioning after a breaking change: freeze, fork, append
 
-Once you accept that some changes will break consumers, the question becomes what you can offer
-them: a way to keep reading the old shape while they migrate. The market answers this at **four
-distinct layers**, and they are not competitors — they operate on different objects and solve
-different problems.
+There is a default pattern, and it is simple enough to apply without deliberation:
 
-### Layer 1 — Snapshots (Iceberg, native)
+> **When a change breaks the schema, stop writing to the current table. Freeze it as an immutable
+> version, create the next version with the new shape, and append only to that one. Consumers that
+> want the new data migrate to the new version.**
 
-Every write produces an immutable snapshot: a consistent set of data and metadata files. Queries
-can read the table as of a snapshot ID or a timestamp, and `rollback` resets the current pointer
-to a previous snapshot without rewriting anything.
+The reason this works is worth stating explicitly, because it is the whole argument:
 
-**What it is good for:** recovering from a bad write, auditing what a table looked like, debugging
-"the number changed yesterday," reproducing a training set.
+**A frozen table stops being wrong and starts being stale.** Once v1 receives no more writes, it
+can no longer serve a number that quietly changed meaning. It can only serve old data — which a
+freshness check detects, which a consumer can reason about, and which never silently corrupts a
+report. Mutating the table in place is what produces the silent-null failure from §1. Freezing
+converts an undetectable failure into a detectable one, and that trade is almost always worth
+making.
 
-**What it is not:** a way to publish a stable old interface. A snapshot is a point in time, not a
-named version, and it expires (§4). You cannot tell a consumer "read v1 for the next two quarters"
-with snapshots alone.
+The three moves:
 
-### Layer 2 — Branches and tags (Iceberg, native)
+| Move | What happens | Why |
+|---|---|---|
+| **Freeze** | v1 stops accepting writes and becomes read-only | It can no longer produce wrong data |
+| **Fork** | v2 is created with the new shape | The change lands somewhere clean |
+| **Append** | All new data goes to v2 only | One writer, one shape, nothing to reconcile on write |
 
-Instead of a single timeline, a table can carry named branches and tags. A tag is a labeled fixed
-snapshot; a branch is an independent line of commits. This is the primitive underneath
-**write-audit-publish**: write to a staging branch, run validations against it, then fast-forward
-`main` only if the audit passes.
+This is **expand-and-contract** — the same parallel-change pattern used for application databases
+and APIs — applied to tables. Expand by standing up v2, run both while consumers migrate, contract
+by retiring v1 on a declared date.
 
-**What it is good for:** making the *change itself* safe to perform — the new shape exists and is
-queryable before anyone in production sees it. A tag also gives you a named, retained point ("the
-schema as of the Q3 close") that survives ordinary snapshot expiry policy.
+### What "a version" can be, mechanically
 
-**What it is not:** multi-table. A branch belongs to one table, so a change spanning several tables
-cannot be staged atomically at this layer.
+The pattern above says nothing about *how* a version is represented. There are several mechanisms,
+and they are not competitors — they operate on different objects:
 
-### Layer 3 — Catalog commits (Nessie)
+| Mechanism | A version is… | Covers Hive too? | Best for |
+|---|---|---|---|
+| **Separate table** (`orders_v1`, `orders_v2`) | A table | **Yes** | The default. Explicit, obvious, works everywhere |
+| **View** over any of the below | A stable name | **Yes** | The consumer-facing interface |
+| **Iceberg branch / tag** | A named pointer inside one table | No | Staging a change; pinning a point that must survive retention |
+| **Iceberg snapshot** | A point in time | No | Rollback and audit — but it expires (§5) |
+| **Catalog branch** (Nessie) | A commit across many tables | No | A change that must land atomically across several tables |
+| **Object versioning** (lakeFS) | A commit across files | **Yes** | A hybrid estate, because it sits below the format |
 
-Nessie versions **the catalog** — the registry of which tables exist and which metadata pointer is
-current — rather than the data. That shift buys the thing layer 2 cannot do: **atomic commits
-across multiple tables**, plus Git semantics (branch, tag, merge, cherry-pick) over the whole
-catalog, with zero-copy branching because branches share metadata pointers.
+**For most breaking changes, the separate table plus a view is the right answer**, and the more
+sophisticated mechanisms are for narrower problems. Branches and snapshots are Iceberg-internal:
+excellent for making a change safely and for undoing a bad write, but a snapshot is a point in
+time rather than a published interface, so you cannot tell a consumer "read v1 for the next two
+quarters" with snapshots alone. Nessie earns its place only when a single change must land across
+multiple tables at once. lakeFS earns its place when the Hive half of the estate is large enough
+that its total lack of native versioning is a standing risk.
 
-**What it is good for:** a breaking change that must land across several tables at once; isolated
-ETL development against a full copy of the catalog; experiments that need a coherent multi-table
-world.
+That last row matters more than it looks. **Hive has no native notion of a versioned table** — no
+snapshots, no branches, no time travel. Teams simulate it by copying data into timestamped
+partitions or keeping backups. So on a hybrid estate, only the mechanisms in bold — separate
+tables, views, and object-level versioning — work on both halves.
 
-**What it is not:** format-agnostic. Nessie is built for Iceberg (and Delta). **It does nothing for
-the Hive half of a hybrid estate** — the single most important constraint in this section.
+### The two problems this creates
 
-### Layer 4 — Files and objects (lakeFS)
+Freeze-fork-append is clean at the write side and pushes two problems downstream, which are the
+subjects of the next two sections:
 
-lakeFS applies Git-like branching, commits and merges at the **object storage** level, beneath any
-table format. Because it versions bytes rather than table metadata, it is **format-agnostic** and
-works with Hive tables, Iceberg tables, raw Parquet, and unstructured files alike, versioning data
-independently of the metastore.
+1. **History is now split across two tables.** A consumer that needs one continuous series across
+   the boundary has to reconcile them (§4).
+2. **Versions accumulate.** Somebody has to name them, point consumers at them, know who still
+   reads the old ones, and eventually delete them (§5).
 
-**What it is good for:** exactly the hybrid problem. It is the only one of the four layers that
-covers a Hive table and an Iceberg table with the same mechanism, letting you branch before a
-schema or layout change and validate in isolation regardless of which half of the estate the table
-lives in.
+## 4. Reconciling versions into one materialized table
 
-**What it is not:** free, or invisible. It sits in the data path and is a real piece of
-infrastructure to operate, with its own semantics that engines must be pointed at.
+A consumer that wants an unbroken history spanning v1 and v2 needs the two reconciled. Before
+choosing how, answer one question, because it determines whether reconciliation is possible at all:
 
-### The layer nobody counts: views as indirection
+> **Can v2's shape be derived from the data already in v1?**
 
-There is a fifth answer that is not versioning at all, and it is frequently the cheapest one.
+| The change | Derivable from v1? | How you reconcile |
+|---|---|---|
+| Rename a column | **Yes** | Alias it in the mapping |
+| Widen a type | **Yes** | Cast |
+| Reorder columns | **Yes** | Project in the new order |
+| Drop a column | **Yes** | Project it away from v1 as well |
+| **Add a column** | **No** — no historical value exists | Fill with null or a default, and label it |
+| **Change a column's meaning** | **No** | **Do not union.** Keep them separate |
 
-The **Iceberg View specification** defines an open, cross-engine metadata format for SQL views,
-with its own version history — and crucially, *a view version's representation is immutable; a
-changed definition creates a new version*. Because a view is a stored SQL definition, it can
-present the old column name over the renamed physical column:
+The last row is the one that causes real damage. If `revenue` meant net in v1 and gross in v2,
+unioning the two produces a single column that is wrong across the boundary in a way no schema
+check can detect — the types match, the names match, and the number is nonsense. **A semantic
+change is not a reconciliation problem; it is a new metric.** Give it a new name and let both
+exist.
+
+### Three ways to materialize it
+
+| Approach | What it is | Cost | Use when |
+|---|---|---|---|
+| **Union view** | A view mapping v1 into v2's shape, `UNION ALL` v2 | No copy; cost paid per query | The default — start here |
+| **Backfill** | Rewrite v1's data into v2 once, then drop v1 | One full rewrite | The change is derivable and you want a single object |
+| **Reconciled table** | A job materializes v1 ∪ v2 into a third table | Storage plus a scheduled job | The union view is too slow for the consumers on it |
+
+The union view is the right default because it costs nothing to create and nothing to undo. Move
+to a backfill when you are confident the mapping is correct and want to stop paying the union cost
+forever; move to a materialized reconciled table only when query performance forces it.
 
 ```sql
--- physical table renamed customer_id -> account_id
+-- v1 renamed customer_id -> account_id and gained a channel column in v2
 CREATE OR REPLACE VIEW analytics.orders AS
-SELECT account_id AS customer_id, order_ts, amount
-FROM warehouse.orders;
+SELECT account_id, order_ts, amount, channel        FROM warehouse.orders_v2
+UNION ALL
+SELECT customer_id, order_ts, amount, CAST(NULL AS STRING) FROM warehouse.orders_v1;
 ```
 
-This is the **expand-and-contract** pattern from application databases, applied to tables: expand
-(add the new shape), run both in parallel behind a stable interface, migrate consumers, contract
-(drop the old). Views make the consumer interface a separate versioned artifact from the physical
-table — which is precisely the separation the whole problem calls for. The same pattern shows up
-in warehouses as side-by-side tables (`orders_v1`, `orders_v2`) with a view or synonym doing the
-routing, and it is the closest thing the Hive half of an estate has to native versioning.
+**Make the boundary explicit.** Whatever approach you choose, a consumer must be able to tell which
+rows came from which shape — a `schema_version` column, or a documented cutover timestamp. Rows
+where a column is null because it did not exist yet are different from rows where it is null
+because the value was missing, and only an explicit boundary lets anyone tell those apart.
 
-### The hybrid constraint, stated plainly
+## 5. Managing versions across the data platform
 
-For an estate that is part Hive and part Iceberg, the four layers cover very different ground:
+One versioned table is a pattern. A hundred of them is an operating problem. Four things have to be
+in place.
 
-| Layer | Iceberg tables | Hive tables |
+### A stable name in front of the versions
+
+Physical tables carry the version (`orders_v1`, `orders_v2`); a **view carries the stable name**
+(`orders`) and points at the current one. That gives consumers a deliberate choice:
+
+- Point at `orders` → you always get the current shape, and you accept that it changes.
+- Point at `orders_v1` → you pin yourself to a shape and accept that it stops receiving data.
+
+Making that choice explicit is most of the value. The failure mode this prevents is the consumer
+who thought they were pinned and was not, which is how a breaking change reaches a dashboard
+nobody knew existed.
+
+### Knowing who still reads the old version
+
+**You cannot retire what you cannot see.** Before deleting v1, you need the list of everything
+still reading it, and the sources are the ones you already have: query history and access logs
+from the engine, plus lineage from the catalog. In practice the log is the reliable one and
+lineage is the convenient one — lineage captures the jobs it can parse, the logs capture everyone,
+including the analyst with a saved query.
+
+### A deprecation clock that starts on day one
+
+**v1 gets an end date the day v2 is created**, not the day someone remembers to ask. Without a
+date, "we'll retire it once everyone migrates" resolves to never, and you accumulate frozen tables
+that cost storage and confuse newcomers. The window is a business decision — a quarter is common —
+but it needs to exist, be published with the version, and be enforced by whoever owns the table.
+
+### Retention, because versioning is not free
+
+Two costs, and the second surprises people:
+
+- **Frozen tables cost storage** for as long as they exist. That cost is visible and easy to reason
+  about.
+- **Snapshot history costs query planning time.** Every write produces a snapshot, and Iceberg
+  retains them all by default. Metadata grows with *commit rate*, not data volume, so streaming
+  and frequently-compacted tables suffer most — and bloated metadata slows every read, including
+  reads that never touch history. Practitioner guidance converges on **7–30 days of retention plus
+  a minimum snapshot count**, maintained with `expire_snapshots` and manifest rewriting on a
+  schedule. *(Directional; these figures come from vendor and practitioner blogs, not independent
+  measurement.)*
+
+The consequence for versioning strategy is direct: **time travel is not a compatibility promise.**
+With a 30-day window you cannot offer a consumer six months to migrate by pointing at a snapshot.
+That job belongs to a frozen table, a tag, or a view — all of which are deliberate, named, and
+retained on purpose.
+
+### On a hybrid estate
+
+| | Iceberg half | Hive half |
 |---|---|---|
-| Snapshots | Native | **None** |
-| Branches / tags | Native | **None** |
-| Catalog commits (Nessie) | Yes | **No** |
-| Files / objects (lakeFS) | Yes | **Yes** |
-| Views as indirection | Yes (Iceberg View spec) | Yes (engine views) |
+| Versioned tables + view | Works | Works |
+| Snapshots, branches, tags | Native | **None** |
+| Catalog branching (Nessie) | Works | **No** |
+| Object versioning (lakeFS) | Works | Works |
 
-**Hive has no native notion of a versioned table.** In practice teams simulate it by copying data
-into timestamped partitions or keeping backup copies on HDFS — manual, expensive, and unable to
-support rollback without reprocessing. Hive ACID transactional tables add transactional writes
-through base and delta files with compaction, but they were designed for moderate concurrency and
-do not provide the snapshot history, time travel or rollback that Iceberg gives natively.
+The practical reading: **standardize the platform-wide policy on what works everywhere** —
+versioned tables behind views — and treat the Iceberg-native mechanisms as extra capability on the
+half that has them, not as the policy. A policy that only half your estate can follow is not a
+policy.
 
-So there are exactly **two mechanisms that span both halves of a hybrid estate**: object-level
-versioning, and view indirection. Everything else is Iceberg-only. That is the finding that should
-drive the technology decision in §5.
+Two adjacent decisions follow from that:
 
-## 4. What versioning costs
+**Catalogs.** A hybrid estate usually means two — a Hive Metastore and an Iceberg REST catalog.
+The reported pattern that works is **federate first, migrate second, decommission third**: run the
+REST catalog (Polaris, Unity, Nessie) alongside the existing metastore, point new tables at it, and
+federate so governance and lineage are unified immediately rather than at the end. Engines accept
+multiple catalogs simultaneously, so coexistence is supported configuration, not a hack.
 
-Versioning is often discussed as though retaining history were free. It is not, and the cost has a
-counter-intuitive shape.
-
-Every write — insert, update, delete, and every compaction run — produces a new snapshot entry in
-the table's metadata. Iceberg retains all past snapshots by default. The consequence is metadata
-growth proportional to commit rate rather than to data volume, which is why streaming and
-frequently-compacted tables suffer worst.
-
-**And the dominant cost is not storage, it is query planning time.** Every query must plan against
-current metadata; bloated manifest and metadata files slow down every read, including reads that
-never touch history. Storage waste is real too — expired-but-unreclaimed files remain physically
-billable — but the operational pain shows up first as queries getting slower for no visible reason.
-
-Practitioner figures circulating in 2026 put a table with twelve months of unexpired snapshots at
-roughly **3–5× the metadata size** of the same table on a seven-day retention window, and recommend
-retention of **7–30 days combined with a minimum snapshot count of 5–10** for typical production
-workloads. *(Directional; these come from vendor and practitioner blogs, not independent
-measurement.)*
-
-Two consequences follow, and both matter for §5:
-
-1. **Time travel is not a long-term versioning strategy.** If your retention window is thirty days,
-   you cannot offer a consumer a year to migrate off an old shape by pointing them at a snapshot.
-   Tags survive expiry policy where plain snapshots do not, which is exactly why they exist — but
-   a tag pins its files, so a retained tag is a retained storage cost you chose deliberately.
-2. **Maintenance is not optional.** `expire_snapshots` and manifest rewriting are part of running
-   the format, not a tuning exercise. A versioning strategy without a retention policy is a cost
-   curve with no ceiling.
-
-## 5. Choosing, for a hybrid estate
-
-Bringing §3 and §4 together into decisions.
-
-### Which layer, for which problem
-
-| If the problem is… | Reach for | Why not the others |
-|---|---|---|
-| A bad write to undo | Snapshot rollback (Iceberg) | Cheapest; already there; no infrastructure |
-| Validating a change before anyone sees it | Branch + WAP (Iceberg) | Snapshots are after-the-fact; catalog/file layers are heavier |
-| A named point that must survive retention | Tag (Iceberg) | A snapshot expires; a tag is a deliberate pin |
-| A change spanning several tables atomically | Nessie | Branches are per-table; nothing below the catalog is transactional across tables |
-| The same guarantee on Hive **and** Iceberg | lakeFS | Every native mechanism is Iceberg-only |
-| Letting consumers keep the old shape | Views (expand-and-contract) | Not versioning at all — and usually the right answer anyway |
-
-### The minimum that is actually required
-
-Strip away what is optional and the required set is small:
-
-- **Iceberg snapshots plus a retention policy.** You get them whether you plan for them or not;
-  the policy is the part you must supply. Not adopting this is not an option, it is a default you
-  are accepting silently.
-- **A view layer as the consumer interface.** This is the highest-leverage item in the list and the
-  cheapest, because it is the only one that decouples "what the table is called" from "what
-  consumers depend on" — and it works on both halves of the estate.
-- **Snapshot expiration and manifest maintenance, scheduled.** Per §4, versioning without
-  maintenance is an unbounded cost.
-
-Everything else is conditional. **Branches and WAP** earn their place when changes are frequent
-enough that validating in production is unacceptable. **Nessie** earns its place only when you
-genuinely have multi-table atomic changes — it is a real operational commitment, and a single-table
-branch is usually enough. **lakeFS** earns its place when the Hive half is large enough and
-long-lived enough that its lack of native versioning is a live risk; if the Hive half is shrinking
-on a credible timeline, migrating it is the better spend.
-
-### The catalog question
-
-A hybrid estate usually implies two catalogs — Hive Metastore for one half, an Iceberg REST
-catalog for the other. The pattern reported as working is **federate first, migrate second,
-decommission third**: run the REST catalog (Polaris, Nessie, Unity) alongside the existing HMS,
-point new tables at the REST catalog, and federate so that governance, lineage and access control
-are unified immediately rather than at the end of the migration. Engines can be configured with
-multiple catalogs simultaneously, so coexistence is a supported configuration rather than a
-transitional hack.
-
-### Migration as the strategic answer
-
-For a hybrid estate, most of this study's complexity is a tax on the Hive half. Iceberg provides
-three in-place migration procedures, and the useful distinction between them is *how reversible
-they are*:
-
-- **`snapshot`** — creates a new Iceberg table pointing at the existing Hive data files, leaving
-  the original table untouched. This is the rehearsal: run it, test reads, throw it away.
-- **`migrate`** — replaces the Hive table with an Iceberg table in place, preserving schema,
-  partitioning and location, and retaining a backup of the original definition by default.
-- **`add_files`** — adds existing Hive data files into an already-existing Iceberg table as a new
-  snapshot.
-
-All three are metadata-only: the data files are not rewritten, which is why this is dramatically
-cheaper than a full rewrite. The caveat from §1 applies and should be planned for — migrated files
-carry no field IDs and depend on name mapping until they are rewritten by compaction, so a
-migrated table is not fully at Iceberg's safety guarantees on day one.
+**Migration.** Most of the complexity above is a tax on the Hive half, and Iceberg offers three
+in-place migration procedures, usefully distinguished by how reversible they are: **`snapshot`**
+creates an Iceberg table over the existing Hive files and leaves the original untouched — the
+rehearsal; **`migrate`** replaces the Hive table in place, keeping a backup of the original
+definition; **`add_files`** adds existing files into an already-existing Iceberg table. All three
+are metadata-only, which is why this is far cheaper than a rewrite. One caveat from §1 applies:
+migrated files carry no field IDs and rely on name mapping until rewritten, so a freshly migrated
+table is not yet at Iceberg's full safety guarantees.
 
 ## 6. Counterpoints: where this study could be wrong
 
@@ -461,11 +455,13 @@ downstream data quality checks — and that an estate with good observability in
 have no incident data either way; the claim rests on the reasoning that undetected wrong numbers
 propagate into decisions, which loud failures do not.
 
-**The four-layer model is Iceberg-centric in a way §1 is not.** §1 compares four table formats
-even-handedly, but §3's layer model is built around Iceberg's primitives — Delta has its own time
-travel and its own maintenance semantics, and a Delta-heavy estate would redraw several of these
-boundaries rather than inherit them. Catalogs are also converging on versioning features, which may
-collapse layers 2 and 3 over time and make a separate Nessie deployment unnecessary.
+**Freeze-fork-append is not free, and I have presented it as the default.** It doubles the number
+of objects, splits history at every break, and pushes reconciliation onto consumers — §4 exists
+only because §3 creates that problem. On a table that breaks often, or one with many small
+consumers, an in-place evolution with strong governance and a deprecation process may genuinely
+cost less than a proliferation of frozen versions. The pattern earns its place because it converts
+an undetectable failure into a detectable one, not because it is cheap, and a team with excellent
+observability could reasonably weigh that trade differently.
 
 **Iceberg v3 may change the versioning calculus and is not accounted for here.** v3 adds row
 lineage with per-row identifiers and update sequence numbers, enabling native CDC without external
@@ -506,15 +502,26 @@ have not weighed how often that trade goes badly.
   consumer meeting data written after a change — is the pair actually at risk, and it is the one no
   table format enforces. That is a policy you carry in review and CI.
 
-- **Only two mechanisms span a hybrid estate: object-level versioning and view indirection.**
-  Snapshots, branches, tags and Nessie are all Iceberg-only, and Hive has no native versioned-table
-  concept at all. Any versioning policy that must apply uniformly across both halves is therefore
-  built on lakeFS, on views, or on finishing the migration.
+- **When a schema breaks, freeze the table and fork it.** Stop writing to v1, create v2 with the
+  new shape, append only to v2, and let consumers migrate on a published clock. A frozen table
+  stops being *wrong* and becomes merely *stale* — and stale is detectable in a way that a silently
+  changed number never is. That single trade is the argument for the whole pattern.
 
-- **The required set is smaller than the available set.** Snapshots with a retention policy, a
-  governed view layer as the consumer interface, and scheduled maintenance. Branches, Nessie and
-  lakeFS are conditional on specific problems — multi-table atomicity, or a Hive half large enough
-  that its lack of versioning is a standing risk.
+- **A semantic change is not a reconciliation problem, it is a new metric.** Renames, casts and
+  reorders can be mapped across a version boundary. A column that kept its name and changed its
+  meaning cannot: unioning it produces a number that passes every schema check and is wrong across
+  the boundary. Give it a new name instead.
+
+- **Only three mechanisms span a hybrid estate: versioned tables, views, and object-level
+  versioning.** Snapshots, branches, tags and Nessie are Iceberg-only, and Hive has no native
+  versioned-table concept at all. Standardize the platform policy on what works everywhere and
+  treat the Iceberg-native mechanisms as extra capability, not as the policy — a policy half your
+  estate cannot follow is not a policy.
+
+- **You cannot retire what you cannot see, and nothing retires itself.** Deprecation needs an end
+  date set the day the new version is created, and a real list of who still reads the old one —
+  from query history and access logs, with catalog lineage as the convenient supplement. Without
+  both, "we'll retire it once everyone migrates" resolves to never.
 
 - **Versioning's real cost is query planning, not storage.** Metadata grows with commit rate rather
   than data volume, and bloated metadata slows every read including those that never touch history.
@@ -583,18 +590,18 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
   all of §2. *Caveat:* vendor documentation, and written for streaming — the point of §2 is that
   table formats supply no equivalent enforcement.
 
-### Versioning layers
+### Versioning mechanisms
 
 - **Apache Iceberg View Specification** ([iceberg.apache.org](https://iceberg.apache.org/view-spec/),
   [github.com](https://github.com/apache/iceberg/blob/main/format/view-spec.md))
   — cross-engine view metadata with immutable per-version representations. *Supports:* the view
-  indirection layer in §3 and its role in the §5 minimum set.
+  view row in §3's mechanism table and the stable-name layer in §5.
 - **Data Lakehouse Versioning Comparison: Nessie, Apache Iceberg, lakeFS — Dremio** ([dremio.com](https://www.dremio.com/blog/data-lakehouse-versioning-comparison-nessie-apache-iceberg-lakefs/))
-  — the file / table / catalog versioning distinction that §3's layer model is built on.
+  — the file / table / catalog versioning distinction that §3's mechanism table is built on.
   *Supports:* §3. *Caveat:* vendor; Dremio sponsors Nessie.
 - **lakeFS documentation and Iceberg integration** ([docs.lakefs.io](https://docs.lakefs.io/iceberg/),
   [lakefs.io](https://lakefs.io/blog/open-table-formats/))
-  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §3's layer 4
+  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §3's object-versioning row
   and the hybrid-coverage table. *Caveat:* vendor.
 - **Iceberg Time Travel and Versioning — lakeFS** ([lakefs.io](https://lakefs.io/blog/iceberg-time-travel/),
   [lakefs.io](https://lakefs.io/blog/iceberg-versioning/))
@@ -605,10 +612,10 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
 
 - **Iceberg Snapshot Expiration and GC Best Practices — RisingWave** ([risingwave.com](https://risingwave.com/blog/iceberg-snapshot-expiration-gc/))
   and **Avoiding Metadata Bloat with Snapshot Expiration — Data Lakehouse Hub** ([datalakehousehub.com](https://datalakehousehub.com/blog/iceberg-metadata-bloat-cleanup/))
-  — metadata growth with commit rate; planning-time as the dominant cost. *Supports:* §4.
+  — metadata growth with commit rate; planning-time as the dominant cost. *Supports:* §5.
   *Caveat:* vendor/practitioner blogs; **all figures directional**.
 - **Apache Iceberg Retention Policy — LakeOps** ([lakeops.dev](https://lakeops.dev/blog/iceberg-retention-policy))
-  — the 7–30 day window plus minimum snapshot count. *Supports:* §4, and the §5 conclusion that
+  — the 7–30 day window plus minimum snapshot count. *Supports:* §5, and its conclusion that
   time travel cannot serve as a long-term compatibility promise. *Caveat:* directional.
 
 ### Migration and catalogs
@@ -638,4 +645,4 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
 - [[producer-layer-and-contract-gated-democratization]] — Movement 2 there covers the shift of
   governance to the catalog layer, which is the backdrop for §5's catalog federation discussion.
 - [[data-platforms-in-2029]] — the forward-looking piece; its immutable/versioned-substrate thread
-  is the long-horizon version of §3's layer model.
+  is the long-horizon version of §3's mechanism table.
