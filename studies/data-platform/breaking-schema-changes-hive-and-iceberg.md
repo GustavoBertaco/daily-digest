@@ -185,6 +185,38 @@ The "consumer must" column is a *derived consequence*, not a separate definition
 the pair: if only the new reader is guaranteed to cope, readers have to move before writers do;
 if only the old reader is guaranteed to cope, writers can move and readers can lag.
 
+### Why the names feel backwards
+
+Almost everyone reads these terms the wrong way round on first contact, and the reason is that
+**the direction does not describe the consumer's obligation. It describes how far through time a
+given schema can reach for data.** A backward-compatible schema reaches *backward* — it reads data
+that has already been written. A forward-compatible schema reaches *forward* — it reads data that
+will be written under a version it has never seen.
+
+Two examples make it concrete, and they are chosen because the same kind of change lands on
+opposite sides:
+
+**Remove the `email` field in v2.**
+
+- A v2 reader over v1 data: an extra field arrives and is ignored → **works**. Backward ✓
+- A v1 reader over v2 data: `email` is gone and the reader requires it → **fails**. Forward ✗
+
+**Add a required `country` field in v2, with no default.**
+
+- A v2 reader over v1 data: `country` is absent and there is no default → **fails**. Backward ✗
+- A v1 reader over v2 data: an unknown field arrives and is ignored → **works**. Forward ✓
+
+So **deleting** a field is backward-compatible while **adding** one is forward-compatible — the
+opposite of what intuition suggests, and the reason the allowed-changes table below reads the way
+it does.
+
+One more source of confusion is worth naming, because it is the most common one. In APIs and
+software generally, "a backward-compatible change" colloquially means *it does not break existing
+clients*. **That everyday sense is what a schema registry calls forward compatibility.** Anyone
+arriving from application engineering carries the API meaning with them, and it is inverted here.
+If you find yourself thinking "backward means everyone keeps working without doing anything," you
+are holding the API definition, not this one.
+
 Full compatibility sounds like the responsible default and is frequently the wrong one, because it
 is the intersection of the other two: the only changes it allows are additions and removals of
 optional fields. Teams that set full compatibility across the board often discover they have banned
@@ -493,7 +525,10 @@ have not weighed how often that trade goes badly.
 - **Compatibility is always one pair — a reader on one schema version against data written under
   another.** Backward is a new reader over old data; forward is an old reader over new data; full
   is both. Producer and consumer are in the frame for all three, and "who upgrades first" is a
-  consequence of the pair, not a separate definition.
+  consequence of the pair, not a separate definition. **The names invert the API convention**: the
+  everyday sense of "backward-compatible change" — it does not break existing clients — is what a
+  schema registry calls *forward* compatibility, which is why deleting a field is backward-safe and
+  adding one is forward-safe.
 
 - **On tables, the format guarantees the pair you did not need help with.** Every scan reads files
   written under many schema versions through the current schema, so backward compatibility is
