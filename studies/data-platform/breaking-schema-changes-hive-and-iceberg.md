@@ -161,55 +161,87 @@ These three terms are borrowed from streaming, where a schema registry enforces 
 the vocabulary worth adopting for tables too — because they turn "should we allow this change?"
 into a question with a defensible answer.
 
-| Mode | Guarantee | Who upgrades first |
-|---|---|---|
-| **Backward** | The **new** schema can read **old** data | **Consumers** |
-| **Forward** | The **old** schema can read **new** data | **Producers** |
-| **Full** | Both directions hold | Either order |
+The terms are easy to garble, because they are often taught from one side at a time: backward
+explained as a consumer concern, forward as a producer concern. That framing is misleading. **Every
+compatibility mode constrains one and the same thing: a reader running one schema version against
+data written under another.** Producer and consumer are always both in the frame. The only variable
+is *which of the two is the newer one*.
 
-The "who upgrades first" column is the part that makes this operational rather than academic.
-Compatibility mode is not a quality setting — it is **a statement about deployment order**.
+- **Backward** — the reader is new, the data is old. It protects an *already-upgraded consumer*
+  from *history it did not write*.
+- **Forward** — the reader is old, the data is new. It protects a *consumer that has not upgraded*
+  from *the producer's change*.
+- **Full** — both pairs hold at once, so neither side needs to know what the other did.
 
-What each mode permits:
+Stated so that both sides stay visible:
 
-| Mode | Allowed changes |
-|---|---|
-| **Backward** | Add optional fields (with defaults); delete fields |
-| **Forward** | Add fields; delete optional fields |
-| **Full** | Add optional fields with defaults; delete optional fields — **and little else** |
+| Mode | The pair it constrains | The producer may | The consumer must |
+|---|---|---|---|
+| **Backward** | New reader ← **old** data | Add optional fields with defaults; delete fields | Upgrade **first** |
+| **Forward** | Old reader ← **new** data | Add fields; delete optional fields | Nothing — it can stay put |
+| **Full** | Both pairs at once | Add or delete **optional** fields with defaults | Nothing |
+
+The "consumer must" column is a *derived consequence*, not a separate definition. It falls out of
+the pair: if only the new reader is guaranteed to cope, readers have to move before writers do;
+if only the old reader is guaranteed to cope, writers can move and readers can lag.
 
 Full compatibility sounds like the responsible default and is frequently the wrong one, because it
 is the intersection of the other two: the only changes it allows are additions and removals of
-optional fields. Teams that set full compatibility across the board often discover they have
-banned most of the changes they actually need, and then route around the policy entirely.
+optional fields. Teams that set full compatibility across the board often discover they have banned
+most of the changes they actually need, and then route around the policy entirely.
 
 **The transitive variants are the detail teams find out about late.** `BACKWARD`, `FORWARD` and
-`FULL` check the new schema only against the **most recent** version. The `*_TRANSITIVE` variants
+`FULL` check a new schema only against the **most recent** version. The `*_TRANSITIVE` variants
 check it against **every** previous version. Without transitivity, a chain of individually valid
 changes can leave version 3 unreadable by a consumer still sitting on version 1 — each step legal,
 the sum of them broken.
 
+### Why tables tilt the question toward forward compatibility
+
+Streaming reads one message, written under one schema, at a time. **A table scan does not.** A
+single query over an Iceberg table may touch files written years apart under half a dozen schema
+versions, and it reads all of them through the *current* schema — resolving by field ID and
+supplying defaults or nulls where a column did not yet exist.
+
+That has a consequence worth stating plainly: **for a modern table format, backward compatibility is
+structural.** A new reader reading old data is not a policy you adopt; it is what every scan does,
+every time, and the format guarantees it. §1's whole point about stable field identity is really a
+statement that Iceberg, Delta with column mapping, and Hudi give you backward compatibility for
+free — and that Hive does not, which is why Hive breaks on the *backward* pair while the others
+cannot.
+
+So on a table estate, **forward compatibility is the pair actually at risk**: an unchanged
+consumer — a pinned view, a dbt model, a dashboard with an explicit column list — meeting data
+written after a producer's change. Adding a column is forward-compatible and passes unnoticed.
+Dropping or renaming one is not, and that is exactly the silent-null failure from §1, arriving
+through the one door the format does not guard.
+
 ### How this becomes a strategy
 
-The choice of mode is, in practice, a decision about **who you control**:
+The choice of mode is, in practice, a decision about **which side of the pair you can actually
+move**:
 
-- **You control the consumers, not the producers** → *backward*. You can upgrade readers on your
+- **You can move the consumers, not the producers** → *backward*. You can upgrade readers on your
   schedule; producers will ship what they ship.
-- **You control the producers, not the consumers** → *forward*. This is the common shape for a
-  published dataset with an unknown audience: you can change the write side, but you cannot make
-  every reader move.
-- **You control neither, or the consumer set is unknown** → *full*, and accept that it permits very
+- **You can move the producers, not the consumers** → *forward*. This is the common shape for a
+  published dataset with an unknown audience: you control the write side, but you cannot make every
+  reader migrate.
+- **You can move neither, or the consumer set is unknown** → *full*, and accept that it permits very
   little. The narrowness is the price of not knowing who is downstream.
-- **You control both, and can coordinate a release** → you can afford a breaking change, provided
-  you version it. That is the subject of the next section.
+- **You can move both, and coordinate a release** → you can afford a breaking change, provided you
+  version it. That is the subject of the next section.
 
 **One caveat that matters more in tables than in streaming: no table format enforces any of this.**
-A schema registry sits in the write path and rejects an incompatible schema outright. Iceberg,
-Delta and Hudi will happily let you drop a column that half your consumers depend on — the format
-protects the data, not the contract. On tables, compatibility mode is **a policy you choose and
-must enforce yourself**, in code review and CI, rather than a guarantee the format supplies. For a
-hybrid estate the point sharpens further: the Hive half has neither enforcement nor a stable field
-identity, so whatever policy you set is enforced entirely by process.
+A schema registry sits in the write path and rejects an incompatible schema outright. Iceberg, Delta
+and Hudi will happily let you drop a column that half your consumers depend on — the format protects
+the data, not the contract. Combined with the previous subsection, that is the sharp edge of the
+whole problem: **the pair these formats guarantee is the one you did not need help with, and the
+pair they leave unguarded is the one that breaks.** On tables, forward compatibility is a policy you
+choose and must enforce yourself, in code review and CI.
+
+For a hybrid estate the point sharpens once more. The Hive half has neither enforcement nor stable
+field identity, so it is exposed on *both* pairs — and whatever policy you set there is carried
+entirely by process.
 
 ## 3. Versioning a table after the change: four layers
 
@@ -463,11 +495,16 @@ have not weighed how often that trade goes badly.
   per config flag, and the defaults have changed historically. That uncertainty — not any single
   default — is the thing that makes Hive schema changes expensive to reason about.
 
-- **Compatibility mode is a statement about deployment order, not a quality setting.** Backward
-  means consumers upgrade first, forward means producers do, and full means either — which is why
-  full is the intersection of the other two and permits far less than teams expect. And no table
-  format enforces any of it: on tables, compatibility is a policy you impose in review and CI, not
-  a guarantee the format supplies.
+- **Compatibility is always one pair — a reader on one schema version against data written under
+  another.** Backward is a new reader over old data; forward is an old reader over new data; full
+  is both. Producer and consumer are in the frame for all three, and "who upgrades first" is a
+  consequence of the pair, not a separate definition.
+
+- **On tables, the format guarantees the pair you did not need help with.** Every scan reads files
+  written under many schema versions through the current schema, so backward compatibility is
+  structural in Iceberg, Delta with column mapping, and Hudi. Forward compatibility — an unchanged
+  consumer meeting data written after a change — is the pair actually at risk, and it is the one no
+  table format enforces. That is a policy you carry in review and CI.
 
 - **Only two mechanisms span a hybrid estate: object-level versioning and view indirection.**
   Snapshots, branches, tags and Nessie are all Iceberg-only, and Hive has no native versioned-table
