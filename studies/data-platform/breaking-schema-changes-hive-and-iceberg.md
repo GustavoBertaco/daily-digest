@@ -3,9 +3,8 @@
 > What actually counts as a breaking schema change and how that differs across Hive, Iceberg,
 > Delta, Hudi and the serialization formats underneath them; what backward, forward and full
 > compatibility commit you to; the freeze-fork-append pattern for versioning a table once a change
-> has broken it; and what it takes to manage those versions when half your estate is one format
-> and half is the other — including how to reconcile a version boundary into one continuous table,
-> and what it takes to run versions across a whole platform.
+> has broken it; how to reconcile a version boundary back into one continuous table; and what it
+> takes to run versions across a platform where half the estate is one format and half the other.
 
 - **Topic:** Data Platform
 - **Date:** 2026-09-04
