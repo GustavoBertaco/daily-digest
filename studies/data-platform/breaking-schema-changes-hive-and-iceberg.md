@@ -1,9 +1,10 @@
 # Breaking Schema Changes in a Hybrid Hive and Iceberg Estate
 
-> How a breaking schema change behaves differently on Hive tables and on Iceberg tables, why the
-> break does not disappear under Iceberg but relocates to the consumer, how the market versions
-> tables once a change has broken something, and which technologies are actually required to
-> manage those versions when half your estate is one format and half is the other.
+> What actually counts as a breaking schema change and how that differs across Hive, Iceberg,
+> Delta, Hudi and the serialization formats underneath them; what backward, forward and full
+> compatibility commit you to; how the market versions tables once a change has broken something;
+> and which technologies are required to manage those versions when half your estate is one format
+> and half is the other.
 
 - **Topic:** Data Platform
 - **Date:** 2026-09-04
@@ -16,15 +17,14 @@
 ## Contents
 
 1. [Context](#context)
-2. [Two formats, two kinds of breakage](#1-two-formats-two-kinds-of-breakage)
-3. [The operation-by-operation comparison](#2-the-operation-by-operation-comparison)
-4. [What is still breaking under Iceberg](#3-what-is-still-breaking-under-iceberg)
-5. [Versioning a table after the change: four layers](#4-versioning-a-table-after-the-change-four-layers)
-6. [What versioning costs](#5-what-versioning-costs)
-7. [Choosing, for a hybrid estate](#6-choosing-for-a-hybrid-estate)
-8. [Counterpoints: where this study could be wrong](#7-counterpoints-where-this-study-could-be-wrong)
-9. [Takeaways](#takeaways)
-10. [References](#references)
+2. [What is considered a breaking schema change](#1-what-is-considered-a-breaking-schema-change)
+3. [Full, backward, and forward compatibility](#2-full-backward-and-forward-compatibility)
+4. [Versioning a table after the change: four layers](#3-versioning-a-table-after-the-change-four-layers)
+5. [What versioning costs](#4-what-versioning-costs)
+6. [Choosing, for a hybrid estate](#5-choosing-for-a-hybrid-estate)
+7. [Counterpoints: where this study could be wrong](#6-counterpoints-where-this-study-could-be-wrong)
+8. [Takeaways](#takeaways)
+9. [References](#references)
 
 ## Context
 
@@ -34,177 +34,184 @@ detail — it is what makes the problem interesting, because the two formats fai
 enough that **a single breaking-change policy cannot cover both**, and most published guidance
 quietly assumes you are on one or the other.
 
-Three questions, in order:
+Four questions, in order:
 
-1. What patterns exist for handling a breaking schema change on a Hive table versus an Iceberg
-   table, and how do the failure modes differ?
-2. Once a breaking change has happened, how does the market version tables?
-3. What technologies are actually required to manage those versions?
+1. What actually counts as a breaking schema change, and how does the answer differ by format?
+2. What do backward, forward and full compatibility mean, and how does the choice between them
+   become a strategy for allowing or refusing a change?
+3. Once a change has broken something, how does the market version tables?
+4. What technologies are required to manage those versions?
 
 The short version of the answer, stated up front so the rest can argue for it: **Hive breaks
-physically, Iceberg cannot — and that is why Iceberg breaks silently instead.** Field IDs remove
-the class of corruption that makes Hive dangerous, and in doing so they move the failure from a
-layer that shouts to a layer that whispers. Versioning exists to catch what the format no longer
-catches for you.
+physically, Iceberg cannot — and that is why Iceberg breaks silently instead.** Stable field
+identity removes the class of corruption that makes Hive dangerous, and in doing so it moves the
+failure from a layer that shouts to a layer that whispers. Versioning exists to catch what the
+format no longer catches for you.
+
+The comparison reaches beyond the two formats in the estate — Delta, Hudi, Avro and Protobuf are
+included because they answer the same design question differently, and seeing the full range is
+what makes the Hive and Iceberg behaviors legible rather than arbitrary.
 
 *A note on sources.* The Iceberg specification and evolution docs were read directly from the
 Apache repository, along with the relevant Hive JIRA issues, and those carry the load-bearing
 claims. Quantitative material on snapshot retention cost comes from vendor and practitioner blogs
 and is **directional, not audited** — useful for order of magnitude, not for citation as fact.
 
-## 1. Two formats, two kinds of breakage
+## 1. What is considered a breaking schema change
 
-### 1.1 On Hive, the break is physical
+A working definition, short enough to actually use:
 
-A Hive table is a directory layout plus a schema in the metastore. The data files — Parquet, ORC,
-Avro — carry their own schema, and *nothing structurally binds the two together*. Reading a Hive
-table therefore requires reconciling the metastore's column list with each file's column list, and
-the mechanism for that reconciliation is where the damage lives.
+> **A schema change is breaking if a reader or writer that worked before either stops working, or
+> keeps working and silently means something different.**
 
-**The reconciliation can be by position.** In the positional model, the third column in the file is
-the third column in the schema, regardless of what either is called. Add a column in the middle of
-a table and every file written before that change is now misaligned: what the metastore believes is
-column 1 is physically column 2 in the old files. The concrete symptom reported in practice is a
-type error — an `int` at index 1 in one partition meeting a `boolean` at index 1 in another —
-surfacing only when a query touches the older partitions
-([prestodb#12212](https://github.com/prestodb/presto/issues/12212)).
+The second half is the one most definitions omit, and it is where the real risk lives. A query that
+fails is an incident someone opens a ticket for within the hour. A column that quietly starts
+returning null, or a number that shifts because a type was reinterpreted, is an incident nobody
+opens a ticket for at all — the dashboard still renders, and the wrong figure travels into
+decisions until somebody happens to notice.
 
-**Whether it is positional depends on the format, the engine, and a config flag** — and this is the
-real problem, more than any single default. `parquet.column.index.access` and
-`orc.force.positional.evolution` toggle the behavior in Hive 3; Presto and Trino have their own
-`hive.parquet.use-column-names`-style settings; and the ecosystem has changed its mind about
-defaults before, with ORC-54 moving ORC to name-based resolution and
-[HIVE-20129](https://issues.apache.org/jira/browse/HIVE-20129) reverting Hive to positional for ORC
-tables. The practical consequence for an operator is blunt: **on Hive, "is a rename safe?" has no
-format-level answer — it has a per-engine, per-format, per-config answer**, and the same table can
-be read correctly by one engine and incorrectly by another.
+### It comes down to how the format identifies a field
 
-**Partition metadata is a second, independent break.** Each partition carries its own serde
-metadata. `ALTER TABLE ... REPLACE COLUMNS` without `CASCADE` updates the table definition and
-leaves the partitions behind; when the table serde and partition serde no longer line up, reads of
-those partitions fail outright
-([HIVE-16559](https://issues.apache.org/jira/browse/HIVE-16559)). This is a good failure in one
-narrow sense — it is loud — but it is a failure discovered by consumers at query time, not by the
-producer at change time.
+Nearly everything else follows from one design decision: **how does the format know that a column
+in a data file is the same column the schema is talking about?** Formats that answer with a stable
+identity survive renames; formats that answer with a name or a position do not.
 
-**And partitioning itself cannot evolve.** Hive partition values are encoded in directory paths.
-Changing the partitioning scheme means rewriting the table. There is no metadata-only path.
-
-### 1.2 On Iceberg, the break is impossible — physically
-
-Iceberg assigns every field a **stable integer ID**, and the schema is a mapping from those IDs to
-names and types. Data files are associated with schema fields by ID, never by name or position.
-Rename a column and the ID does not move; the files are untouched and still resolve correctly.
-Drop a column and its ID is retired permanently — **IDs are never reused**, which is what prevents
-a later `add` from silently inheriting a dropped column's data.
-
-The specification states its correctness guarantees explicitly, and they are worth quoting because
-their precise scope matters more than their reassuring tone
-([Iceberg evolution docs](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md)):
-
-> 1. Added columns never read existing values from another column.
-> 2. Dropping a column or field does not change the values in any other column.
-> 3. Updating a column or field does not change values in any other column.
-> 4. Changing the order of columns or fields in a struct does not change the values associated
->    with a column or field name.
-
-Read that list carefully. **Every guarantee is about data correctness. None is about query
-compatibility.** Iceberg promises that your remaining columns still contain what they contained. It
-does not promise that anything downstream still runs. Conflating those two readings is, in my
-view, the single largest source of schema-change incidents on Iceberg estates — teams read
-"schema evolution is safe" as "schema changes are safe to ship."
-
-Partition evolution is genuinely different in kind from Hive. Because the partition spec is
-metadata and partition values are derived through transforms rather than encoded in paths, **the
-spec can change without rewriting a single file**. Old data keeps the old spec, new data adopts the
-new one, and split planning handles a query that spans both. Sort order evolves the same way.
-
-### 1.3 The reframing
-
-So the comparison is not "Hive is unsafe, Iceberg is safe." It is:
-
-| | Hive | Iceberg |
+| Format | How a field is identified | Rename survives? |
 |---|---|---|
-| Where the break lands | Storage/read layer | Consumer/query layer |
-| How it announces itself | Type errors, failed partition reads, wrong values | Failed queries — **or silent nulls** |
-| Who discovers it | Whoever queries an old partition | Whoever depended on the column name |
-| Is it configurable away? | Partly, per engine and format | Not applicable — the format is not the problem |
-| Can partitioning change? | No, requires full rewrite | Yes, metadata-only |
+| **Hive** | By position or by name — depends on file format, engine and config flag | **No** |
+| **Iceberg** | Stable integer field ID, never reused | Yes |
+| **Delta Lake** | Physical column order by default; stable ID once **column mapping** is enabled | Only with column mapping |
+| **Hudi** | By name, with change tracking under full schema evolution | Yes, with full schema evolution |
+| **Avro** | By name, with `aliases` as the escape hatch | Only with an alias |
+| **Protobuf** | Numbered field tag, never reused after removal | Yes |
 
-Iceberg removes an entire class of physical failure. What it does not do — and does not claim to
-do — is tell you whether the change is safe to make.
+Hive is the outlier, and not merely because it lacks stable IDs. Its resolution is *configurable*:
+`parquet.column.index.access` and `orc.force.positional.evolution` change the behavior, engines
+carry their own equivalents, and the ecosystem has reversed its defaults before — ORC-54 moved ORC
+to name-based resolution and [HIVE-20129](https://issues.apache.org/jira/browse/HIVE-20129)
+reverted Hive to positional. The practical consequence is that **on Hive, "is this rename safe?"
+has no format-level answer** — it has a per-engine, per-format, per-flag answer, and the same table
+can be read correctly by one engine and incorrectly by another.
 
-## 2. The operation-by-operation comparison
+### Which operations break, by format
 
-For an estate running both, this is the table worth internalizing. "Safe" here means *the format
-resolves the change without data damage*; it says nothing about consumers, which §3 handles.
+"Safe" below means *the format resolves the change without damaging data*. It says nothing about
+whether your consumers survive, which is a separate question this section returns to at the end.
 
-| Operation | Hive | Iceberg |
+| Operation | Hive | Iceberg | Delta Lake | Hudi |
+|---|---|---|---|---|
+| Add optional column at end | Generally safe | Safe | Safe (`mergeSchema`) | Safe |
+| Add column in the middle | **Breaks** under positional resolution | Safe | Safe | Safe |
+| Rename column | **Breaks** | Safe | Safe with column mapping | Safe with full schema evolution |
+| Drop column | **Risky** — positional readers shift | Safe, ID retired | Safe with column mapping | Safe with full schema evolution |
+| Reorder columns | **Breaks** under positional resolution | Safe | Safe | Safe |
+| Widen type | Engine-dependent | Safe, closed list | Limited upcasts | Safe promotions |
+| Narrow type | Unsafe | Rejected | Rejected | Rejected |
+| Change partitioning | Full table rewrite | **Metadata-only** | Rewrite | Rewrite |
+
+Two rows deserve a note. **Type widening is narrower than people assume**: Iceberg permits
+`int`→`long`, `float`→`double`, and `decimal(P,S)`→`decimal(P',S)` with `P' > P` — precision only,
+scale fixed — with v3 adding `date`→`timestamp`. Narrowing is never allowed anywhere. And there is
+a trap worth knowing: **promotion is rejected if the column feeds a partition transform whose
+output would change**, so a column that is merely data can be widened while the same column used as
+a partition source cannot.
+
+**Changing partitioning** is the row with the largest operational gap. On Iceberg the partition
+spec is metadata and partition values are derived through transforms rather than encoded in
+directory paths, so the spec changes without rewriting a file and old and new specs coexist. On
+Hive the partition values *are* the directory layout, so the same change is a full rewrite. That is
+the difference between an `ALTER TABLE` and a maintenance window.
+
+### Underneath: Avro and Protobuf
+
+The serialization formats are worth understanding because they are where these ideas were settled
+first, and because they are what the ingestion side of most platforms speaks.
+
+**Avro** resolves a reader schema against a writer schema field by field, **by name**. If the
+writer has a field the reader does not declare, the value is ignored — which is what makes adding a
+field safe for old consumers. If the reader declares a field the writer lacks, the reader supplies
+its `default`; **if there is no default, resolution fails**. That single rule is why "add fields
+with defaults" is the universal advice. Renames survive only via `aliases`.
+
+**Protobuf** takes the other approach: every field carries a numbered tag, and the tag — not the
+name, not the position — is what goes on the wire. Names can change freely; tags must never be
+reused after a field is removed. It is the same idea as Iceberg field IDs, arrived at
+independently.
+
+### The insight that unifies the table
+
+**Every format that survives a rename does so by having a stable field identity** — a field ID in
+Iceberg, a column-mapping ID in Delta, a numbered tag in Protobuf, an alias in Avro. Hive has none,
+which is the whole explanation for why it breaks.
+
+But stable identity solves a narrower problem than it appears to. Read what Iceberg actually
+guarantees ([Iceberg evolution docs](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md)):
+added columns never read another column's values; dropping or updating a column does not change
+values in any other column; reordering does not change what a name maps to. **Every one of those is
+a statement about data correctness. None is about whether your queries still run.**
+
+So the modern formats do not eliminate breaking changes. They relocate them — out of the storage
+layer, where they corrupt data loudly, and into the consumer layer, where a dropped column may fail
+a query, break a semantic-layer mapping, or return null with no error at all. Which brings us to
+the question of what compatibility you are actually promising.
+
+## 2. Full, backward, and forward compatibility
+
+These three terms are borrowed from streaming, where a schema registry enforces them, and they are
+the vocabulary worth adopting for tables too — because they turn "should we allow this change?"
+into a question with a defensible answer.
+
+| Mode | Guarantee | Who upgrades first |
 |---|---|---|
-| **Add column at end** | Generally safe | Safe, metadata-only |
-| **Add column in middle** | **Dangerous** under positional resolution — misaligns all prior files | Safe; Iceberg allows adding at any position |
-| **Rename column** | **Dangerous** — name-based readers lose the column, positional readers keep it by luck | Safe — ID is stable, data untouched |
-| **Drop column** | Risky; positional readers shift | Safe; ID retired and never reused |
-| **Reorder columns** | **Dangerous** under positional resolution | Safe, metadata-only |
-| **Widen type** | Engine-dependent | Safe, within the allowed promotion set (§3) |
-| **Narrow type** | Unsafe | **Not permitted** |
-| **Change partitioning** | Requires full table rewrite | Metadata-only; specs coexist |
-| **Change a partition's serde** | Requires `CASCADE`, else partition reads fail | Not applicable |
+| **Backward** | The **new** schema can read **old** data | **Consumers** |
+| **Forward** | The **old** schema can read **new** data | **Producers** |
+| **Full** | Both directions hold | Either order |
 
-The asymmetry in the "change partitioning" row is the one with the largest operational consequence
-in a hybrid estate, because it is the difference between a maintenance window and a `ALTER TABLE`
-statement.
+The "who upgrades first" column is the part that makes this operational rather than academic.
+Compatibility mode is not a quality setting — it is **a statement about deployment order**.
 
-**Allowed type promotions in Iceberg are a short, closed list**, and worth memorizing rather than
-guessing at ([Iceberg spec](https://github.com/apache/iceberg/blob/main/format/spec.md)):
+What each mode permits:
 
-- v1 and v2: `int` → `long`, `float` → `double`, and `decimal(P,S)` → `decimal(P',S)` where
-  `P' > P` — **precision widening only, scale fixed**.
-- v3 adds: `date` → `timestamp` or `timestamp_ns`, and `unknown` → any type.
+| Mode | Allowed changes |
+|---|---|
+| **Backward** | Add optional fields (with defaults); delete fields |
+| **Forward** | Add fields; delete optional fields |
+| **Full** | Add optional fields with defaults; delete optional fields — **and little else** |
 
-Narrowing is never allowed, in any version. And there is a trap the docs state but few people
-internalize: **type promotion is rejected if the field feeds a partition transform whose output
-would change after promotion.** A column that is merely data can be widened; the same column used
-as a partition source may not be.
+Full compatibility sounds like the responsible default and is frequently the wrong one, because it
+is the intersection of the other two: the only changes it allows are additions and removals of
+optional fields. Teams that set full compatibility across the board often discover they have
+banned most of the changes they actually need, and then route around the policy entirely.
 
-For files that predate Iceberg and carry no field IDs — precisely the files you inherit when you
-migrate a Hive table in place — Iceberg falls back to a `schema.name-mapping.default` property, a
-JSON structure mapping names to field IDs. This is the seam where a migrated table is at its most
-fragile, because for those files the resolution really is by name again.
+**The transitive variants are the detail teams find out about late.** `BACKWARD`, `FORWARD` and
+`FULL` check the new schema only against the **most recent** version. The `*_TRANSITIVE` variants
+check it against **every** previous version. Without transitivity, a chain of individually valid
+changes can leave version 3 unreadable by a consumer still sitting on version 1 — each step legal,
+the sum of them broken.
 
-## 3. What is still breaking under Iceberg
+### How this becomes a strategy
 
-If the format cannot corrupt your data, what actually goes wrong? Four things.
+The choice of mode is, in practice, a decision about **who you control**:
 
-**Consumers referencing the old name.** A rename is metadata-only for the data and total for the
-SQL. Every dashboard, dbt model, semantic-layer mapping, notebook and downstream job that names the
-old column is now wrong. Iceberg's safety guarantee is silent on all of it.
+- **You control the consumers, not the producers** → *backward*. You can upgrade readers on your
+  schedule; producers will ship what they ship.
+- **You control the producers, not the consumers** → *forward*. This is the common shape for a
+  published dataset with an unknown audience: you can change the write side, but you cannot make
+  every reader move.
+- **You control neither, or the consumer set is unknown** → *full*, and accept that it permits very
+  little. The narrowness is the price of not knowing who is downstream.
+- **You control both, and can coordinate a release** → you can afford a breaking change, provided
+  you version it. That is the subject of the next section.
 
-**Silent degradation to null — the dangerous case.** When a column disappears, the failure is not
-uniform. Depending on the reader, a consumer fails outright on the next query, errors on the next
-refresh, breaks in the semantic layer where the field is still mapped, **or quietly returns null
-because the reader tolerates a missing column**. The last one produces no error and no alert: a
-metric reads empty until somebody notices the number is wrong, which may be weeks. A Hive
-positional break is more dangerous per incident but far easier to detect; an Iceberg drop is
-harmless to the data and can be invisible for a long time.
+**One caveat that matters more in tables than in streaming: no table format enforces any of this.**
+A schema registry sits in the write path and rejects an incompatible schema outright. Iceberg,
+Delta and Hudi will happily let you drop a column that half your consumers depend on — the format
+protects the data, not the contract. On tables, compatibility mode is **a policy you choose and
+must enforce yourself**, in code review and CI, rather than a guarantee the format supplies. For a
+hybrid estate the point sharpens further: the Hive half has neither enforcement nor a stable field
+identity, so whatever policy you set is enforced entirely by process.
 
-**Changes the format refuses.** Narrowing a type (`long` → `int`, `double` → `float`), tightening
-nullability from optional to required, and any promotion that would alter a partition transform's
-output. These are rejected rather than accepted-and-broken, which is correct behavior, but they
-still constitute "the change I wanted to make and cannot" — and the fallback for them is a rewrite
-or a new table, which is where §4 begins.
-
-**Migrated tables carrying legacy files.** Until files are rewritten, tables migrated in place from
-Hive depend on name mapping rather than embedded field IDs. A rename on such a table is safe for
-files that have IDs and resolved by name for those that do not — the two halves of one table
-behaving under two different rules.
-
-The useful summary: **on Iceberg the change is always *valid*; validity is not the same as being
-safe to ship.** What the format has done is convert a data-integrity problem into a
-change-management problem. That is a large improvement and a real transfer of responsibility, not
-an elimination of work.
-
-## 4. Versioning a table after the change: four layers
+## 3. Versioning a table after the change: four layers
 
 Once you accept that some changes will break consumers, the question becomes what you can offer
 them: a way to keep reading the old shape while they migrate. The market answers this at **four
@@ -221,7 +228,7 @@ to a previous snapshot without rewriting anything.
 "the number changed yesterday," reproducing a training set.
 
 **What it is not:** a way to publish a stable old interface. A snapshot is a point in time, not a
-named version, and it expires (§5). You cannot tell a consumer "read v1 for the next two quarters"
+named version, and it expires (§4). You cannot tell a consumer "read v1 for the next two quarters"
 with snapshots alone.
 
 ### Layer 2 — Branches and tags (Iceberg, native)
@@ -310,9 +317,9 @@ do not provide the snapshot history, time travel or rollback that Iceberg gives 
 
 So there are exactly **two mechanisms that span both halves of a hybrid estate**: object-level
 versioning, and view indirection. Everything else is Iceberg-only. That is the finding that should
-drive the technology decision in §6.
+drive the technology decision in §5.
 
-## 5. What versioning costs
+## 4. What versioning costs
 
 Versioning is often discussed as though retaining history were free. It is not, and the cost has a
 counter-intuitive shape.
@@ -333,7 +340,7 @@ retention of **7–30 days combined with a minimum snapshot count of 5–10** fo
 workloads. *(Directional; these come from vendor and practitioner blogs, not independent
 measurement.)*
 
-Two consequences follow, and both matter for §6:
+Two consequences follow, and both matter for §5:
 
 1. **Time travel is not a long-term versioning strategy.** If your retention window is thirty days,
    you cannot offer a consumer a year to migrate off an old shape by pointing them at a snapshot.
@@ -343,9 +350,9 @@ Two consequences follow, and both matter for §6:
    the format, not a tuning exercise. A versioning strategy without a retention policy is a cost
    curve with no ceiling.
 
-## 6. Choosing, for a hybrid estate
+## 5. Choosing, for a hybrid estate
 
-Bringing §4 and §5 together into decisions.
+Bringing §3 and §4 together into decisions.
 
 ### Which layer, for which problem
 
@@ -368,7 +375,7 @@ Strip away what is optional and the required set is small:
 - **A view layer as the consumer interface.** This is the highest-leverage item in the list and the
   cheapest, because it is the only one that decouples "what the table is called" from "what
   consumers depend on" — and it works on both halves of the estate.
-- **Snapshot expiration and manifest maintenance, scheduled.** Per §5, versioning without
+- **Snapshot expiration and manifest maintenance, scheduled.** Per §4, versioning without
   maintenance is an unbounded cost.
 
 Everything else is conditional. **Branches and WAP** earn their place when changes are frequent
@@ -402,11 +409,11 @@ they are*:
   snapshot.
 
 All three are metadata-only: the data files are not rewritten, which is why this is dramatically
-cheaper than a full rewrite. The caveat from §2 applies and should be planned for — migrated files
+cheaper than a full rewrite. The caveat from §1 applies and should be planned for — migrated files
 carry no field IDs and depend on name mapping until they are rewritten by compaction, so a
 migrated table is not fully at Iceberg's safety guarantees on day one.
 
-## 7. Counterpoints: where this study could be wrong
+## 6. Counterpoints: where this study could be wrong
 
 **The Hive picture is a configuration matrix, and I have flattened it.** Positional versus
 name-based resolution varies by format, by engine, by Hive version, and by flag, and the ecosystem
@@ -422,11 +429,11 @@ downstream data quality checks — and that an estate with good observability in
 have no incident data either way; the claim rests on the reasoning that undetected wrong numbers
 propagate into decisions, which loud failures do not.
 
-**The four-layer model is tidier than the market.** Delta Lake sits awkwardly in it: its column
-mapping achieves metadata-only rename and drop much as Iceberg field IDs do, and it has time
-travel, so a Delta-based estate would redraw several of these boundaries. Catalogs are also
-converging on versioning features, which may collapse layers 2 and 3 over time and make a separate
-Nessie deployment unnecessary.
+**The four-layer model is Iceberg-centric in a way §1 is not.** §1 compares four table formats
+even-handedly, but §3's layer model is built around Iceberg's primitives — Delta has its own time
+travel and its own maintenance semantics, and a Delta-heavy estate would redraw several of these
+boundaries rather than inherit them. Catalogs are also converging on versioning features, which may
+collapse layers 2 and 3 over time and make a separate Nessie deployment unnecessary.
 
 **Iceberg v3 may change the versioning calculus and is not accounted for here.** v3 adds row
 lineage with per-row identifiers and update sequence numbers, enabling native CDC without external
@@ -455,6 +462,12 @@ have not weighed how often that trade goes badly.
 - **On Hive, "is this safe?" has no format-level answer.** It resolves per engine, per file format,
   per config flag, and the defaults have changed historically. That uncertainty — not any single
   default — is the thing that makes Hive schema changes expensive to reason about.
+
+- **Compatibility mode is a statement about deployment order, not a quality setting.** Backward
+  means consumers upgrade first, forward means producers do, and full means either — which is why
+  full is the intersection of the other two and permits far less than teams expect. And no table
+  format enforces any of it: on tables, compatibility is a policy you impose in review and CI, not
+  a guarantee the format supplies.
 
 - **Only two mechanisms span a hybrid estate: object-level versioning and view indirection.**
   Snapshots, branches, tags and Nessie are all Iceberg-only, and Hive has no native versioned-table
@@ -486,57 +499,79 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
 ### Format behavior (primary)
 
 - **Iceberg evolution documentation — Apache** ([github.com](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md))
-  — the five supported operations, the four correctness guarantees quoted verbatim in §1.2, and
-  partition/sort-order evolution semantics. *Supports:* §1.2, §2. *Caveat:* the guarantee list is
+  — the five supported operations, the four correctness guarantees quoted verbatim in §1, and
+  partition/sort-order evolution semantics. *Supports:* §1. *Caveat:* the guarantee list is
   about data correctness only — the central reading of this study.
 - **Iceberg table specification — Apache** ([github.com](https://github.com/apache/iceberg/blob/main/format/spec.md))
   — the exact type promotion set per spec version, the partition-transform restriction on
-  promotion, and `schema.name-mapping.default` for files without field IDs. *Supports:* §2, §3.
+  promotion, and `schema.name-mapping.default` for files without field IDs. *Supports:* §1.
 - **HIVE-16559: Parquet schema evolution for partitioned tables may break if table and partition
   serdes differ** ([issues.apache.org](https://issues.apache.org/jira/browse/HIVE-16559))
-  — the `REPLACE COLUMNS` without `CASCADE` failure. *Supports:* §1.1.
+  — the `REPLACE COLUMNS` without `CASCADE` failure. *Supports:* §1.
 - **HIVE-20129: Revert to position based schema evolution for orc tables** ([issues.apache.org](https://issues.apache.org/jira/browse/HIVE-20129))
-  — evidence that resolution semantics have changed direction historically. *Supports:* §1.1's
+  — evidence that resolution semantics have changed direction historically. *Supports:* §1's
   claim that the behavior is configuration-dependent rather than guaranteed.
 - **prestodb#12212: Parquet Hive schema evolution checks based on column names** ([github.com](https://github.com/prestodb/presto/issues/12212))
-  — the concrete positional-misalignment symptom across partitions. *Supports:* §1.1.
+  — the concrete positional-misalignment symptom across partitions. *Supports:* §1.
+- **Rename and drop columns with Delta Lake column mapping — Databricks** ([docs.databricks.com](https://docs.databricks.com/aws/en/tables/features/column-mapping))
+  and **Diving Into Delta Lake: Schema Enforcement & Evolution — Databricks** ([databricks.com](https://www.databricks.com/blog/2019/09/24/diving-into-delta-lake-schema-enforcement-evolution.html))
+  — schema enforcement on write by default, `mergeSchema` for additive change, and column mapping
+  as what makes metadata-only rename and drop possible. *Supports:* the Delta rows in §1's tables.
+  *Caveat:* vendor documentation for a format the vendor originated.
+- **Schema Evolution — Apache Hudi** ([hudi.apache.org](https://hudi.apache.org/docs/schema_evolution/))
+  — natively supported backwards-compatible evolution, full schema evolution for rename and drop,
+  and `hoodie.schema.on.read.enable` for backward-incompatible cases resolved at read time.
+  *Supports:* the Hudi rows in §1. *Caveat:* the read-time resolution path is documented as
+  experimental — verify against your Hudi version.
+- **Apache Avro specification — schema resolution** ([avro.apache.org](https://avro.apache.org/docs/1.10.2/spec.html))
+  — reader/writer resolution by name, the `default` rule that makes added fields safe (and its
+  failure when no default exists), `aliases` for renames, and the permitted type promotions.
+  *Supports:* §1's serialization subsection and much of §2's underlying logic.
 
 ### Consumer-level breakage
 
 - **Schema Evolution in Apache Iceberg: Valid Isn't Safe to Ship — Kastor Data** ([kastordata.io](https://kastordata.io/resources/schema-evolution-apache-iceberg-safe-to-ship))
   — the valid-versus-safe distinction and the enumeration of downstream failure modes including
-  silent null degradation. *Supports:* §3, and the framing of §1.3. *Caveat:* vendor blog; the
+  silent null degradation. *Supports:* §1. *Caveat:* vendor blog; the
   reasoning is checkable against the spec, the incident frequency claim is not.
 - **Apache Iceberg Schema Evolution in Production: Best Practices and Pitfalls — LakeOps** ([lakeops.dev](https://lakeops.dev/blog/iceberg-schema-evolution-production))
   — which operations remain breaking for consumers, and validating renames against known consumers.
-  *Supports:* §3. *Caveat:* vendor.
+  *Supports:* §1. *Caveat:* vendor.
+
+### Compatibility modes
+
+- **Schema Evolution and Compatibility Types — Confluent** ([docs.confluent.io](https://docs.confluent.io/platform/current/schema-registry/fundamentals/schema-evolution.html))
+  — the definitions of BACKWARD, FORWARD and FULL, the changes each permits, the transitive
+  variants that check against all prior versions, and the upgrade-order consequence. *Supports:*
+  all of §2. *Caveat:* vendor documentation, and written for streaming — the point of §2 is that
+  table formats supply no equivalent enforcement.
 
 ### Versioning layers
 
 - **Apache Iceberg View Specification** ([iceberg.apache.org](https://iceberg.apache.org/view-spec/),
   [github.com](https://github.com/apache/iceberg/blob/main/format/view-spec.md))
   — cross-engine view metadata with immutable per-version representations. *Supports:* the view
-  indirection layer in §4 and its role in the §6 minimum set.
+  indirection layer in §3 and its role in the §5 minimum set.
 - **Data Lakehouse Versioning Comparison: Nessie, Apache Iceberg, lakeFS — Dremio** ([dremio.com](https://www.dremio.com/blog/data-lakehouse-versioning-comparison-nessie-apache-iceberg-lakefs/))
-  — the file / table / catalog versioning distinction that §4's layer model is built on.
-  *Supports:* §4. *Caveat:* vendor; Dremio sponsors Nessie.
+  — the file / table / catalog versioning distinction that §3's layer model is built on.
+  *Supports:* §3. *Caveat:* vendor; Dremio sponsors Nessie.
 - **lakeFS documentation and Iceberg integration** ([docs.lakefs.io](https://docs.lakefs.io/iceberg/),
   [lakefs.io](https://lakefs.io/blog/open-table-formats/))
-  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §4's layer 4
+  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §3's layer 4
   and the hybrid-coverage table. *Caveat:* vendor.
 - **Iceberg Time Travel and Versioning — lakeFS** ([lakefs.io](https://lakefs.io/blog/iceberg-time-travel/),
   [lakefs.io](https://lakefs.io/blog/iceberg-versioning/))
-  — snapshots, rollback, branches and tags, and WAP as the pattern built on them. *Supports:* §4
+  — snapshots, rollback, branches and tags, and WAP as the pattern built on them. *Supports:* §3
   layers 1–2. *Caveat:* vendor with a competing product.
 
 ### Cost and maintenance
 
 - **Iceberg Snapshot Expiration and GC Best Practices — RisingWave** ([risingwave.com](https://risingwave.com/blog/iceberg-snapshot-expiration-gc/))
   and **Avoiding Metadata Bloat with Snapshot Expiration — Data Lakehouse Hub** ([datalakehousehub.com](https://datalakehousehub.com/blog/iceberg-metadata-bloat-cleanup/))
-  — metadata growth with commit rate; planning-time as the dominant cost. *Supports:* §5.
+  — metadata growth with commit rate; planning-time as the dominant cost. *Supports:* §4.
   *Caveat:* vendor/practitioner blogs; **all figures directional**.
 - **Apache Iceberg Retention Policy — LakeOps** ([lakeops.dev](https://lakeops.dev/blog/iceberg-retention-policy))
-  — the 7–30 day window plus minimum snapshot count. *Supports:* §5, and the §6 conclusion that
+  — the 7–30 day window plus minimum snapshot count. *Supports:* §4, and the §5 conclusion that
   time travel cannot serve as a long-term compatibility promise. *Caveat:* directional.
 
 ### Migration and catalogs
@@ -544,10 +579,10 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
 - **Hive Migration — Apache Iceberg** ([iceberg.apache.org](https://iceberg.apache.org/docs/1.4.1/hive-migration/))
   and **Migrating a Hive Table to an Iceberg Table — Dremio** ([dremio.com](https://www.dremio.com/blog/migrating-a-hive-table-to-an-iceberg-table-hands-on-tutorial/))
   — `snapshot`, `migrate` and `add_files`, and the recommendation to rehearse with `snapshot`
-  first. *Supports:* §6.
+  first. *Supports:* §5.
 - **Hive metastore federation — Databricks** ([docs.databricks.com](https://docs.databricks.com/aws/en/query-federation/hms-federation-concepts))
   — governing HMS-registered tables from a modern catalog without migrating first. *Supports:*
-  §6's federate-then-migrate sequencing. *Caveat:* vendor-specific implementation of a general
+  §5's federate-then-migrate sequencing. *Caveat:* vendor-specific implementation of a general
   pattern.
 
 ### Iceberg v3 (context for the counterpoints)
@@ -555,7 +590,7 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
 - **What's new in Apache Iceberg v3 — Google Open Source Blog** ([opensource.googleblog.com](https://opensource.googleblog.com/2025/08/whats-new-in-iceberg-v3.html))
   and **Apache Iceberg V2 vs V3 — Dremio** ([dremio.com](https://www.dremio.com/blog/apache-iceberg-v2-vs-v3-what-changed-and-what-it-means-for-your-tables/))
   — deletion vectors, row lineage, VARIANT, default values, geometry types, nanosecond timestamps.
-  *Supports:* §7. *Caveat:* engine adoption is uneven; verify against your engine before relying on
+  *Supports:* §6. *Caveat:* engine adoption is uneven; verify against your engine before relying on
   any v3 feature.
 
 ### Companion studies
@@ -564,6 +599,6 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
   what consolidated in the market and how an enterprise adopts a format broadly. This study is the
   narrower operational counterpart, about what happens to a single table when its schema changes.
 - [[producer-layer-and-contract-gated-democratization]] — Movement 2 there covers the shift of
-  governance to the catalog layer, which is the backdrop for §6's catalog federation discussion.
+  governance to the catalog layer, which is the backdrop for §5's catalog federation discussion.
 - [[data-platforms-in-2029]] — the forward-looking piece; its immutable/versioned-substrate thread
-  is the long-horizon version of §4's layer model.
+  is the long-horizon version of §3's layer model.
