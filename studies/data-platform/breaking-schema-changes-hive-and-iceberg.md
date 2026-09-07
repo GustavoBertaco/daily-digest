@@ -16,46 +16,14 @@
 
 ## Contents
 
-1. [Context](#context)
-2. [What is considered a breaking schema change](#1-what-is-considered-a-breaking-schema-change)
-3. [Full, backward, and forward compatibility](#2-full-backward-and-forward-compatibility)
-4. [Versioning after a breaking change: freeze, fork, append](#3-versioning-after-a-breaking-change-freeze-fork-append)
-5. [Reconciling versions into one materialized table](#4-reconciling-versions-into-one-materialized-table)
-6. [Managing versions across the data platform](#5-managing-versions-across-the-data-platform)
-7. [Counterpoints: where this study could be wrong](#6-counterpoints-where-this-study-could-be-wrong)
-8. [Takeaways](#takeaways)
-9. [References](#references)
-
-## Context
-
-This study is written for a specific situation: **a platform where part of the estate is Hive
-tables and part is Iceberg tables**, and both will coexist for a while. That constraint is not a
-detail — it is what makes the problem interesting, because the two formats fail in ways different
-enough that **a single breaking-change policy cannot cover both**, and most published guidance
-quietly assumes you are on one or the other.
-
-Four questions, in order:
-
-1. What actually counts as a breaking schema change, and how does the answer differ by format?
-2. What do backward, forward and full compatibility mean, and how does the choice between them
-   become a strategy for allowing or refusing a change?
-3. Once a change has broken something, how do you version the table?
-4. How do you reconcile those versions, and how do you manage them across a platform?
-
-The short version of the answer, stated up front so the rest can argue for it: **Hive breaks
-physically, Iceberg cannot — and that is why Iceberg breaks silently instead.** Stable field
-identity removes the class of corruption that makes Hive dangerous, and in doing so it moves the
-failure from a layer that shouts to a layer that whispers. Versioning exists to catch what the
-format no longer catches for you.
-
-The comparison reaches beyond the two formats in the estate — Delta, Hudi, Avro and Protobuf are
-included because they answer the same design question differently, and seeing the full range is
-what makes the Hive and Iceberg behaviors legible rather than arbitrary.
-
-*A note on sources.* The Iceberg specification and evolution docs were read directly from the
-Apache repository, along with the relevant Hive JIRA issues, and those carry the load-bearing
-claims. Quantitative material on snapshot retention cost comes from vendor and practitioner blogs
-and is **directional, not audited** — useful for order of magnitude, not for citation as fact.
+1. [What is considered a breaking schema change](#1-what-is-considered-a-breaking-schema-change)
+2. [Full, backward, and forward compatibility](#2-full-backward-and-forward-compatibility)
+3. [Versioning after a breaking change: freeze, fork, append](#3-versioning-after-a-breaking-change-freeze-fork-append)
+4. [Reconciling versions into one materialized table](#4-reconciling-versions-into-one-materialized-table)
+5. [Managing versions across the data platform](#5-managing-versions-across-the-data-platform)
+6. [Counterpoints: where this study could be wrong](#6-counterpoints-where-this-study-could-be-wrong)
+7. [Takeaways](#takeaways)
+8. [References](#references)
 
 ## 1. What is considered a breaking schema change
 
