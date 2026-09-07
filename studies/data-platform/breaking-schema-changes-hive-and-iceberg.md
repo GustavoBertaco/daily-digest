@@ -654,7 +654,8 @@ mechanism, not endorsement.*
   *Supports:* §3. *Caveat:* vendor; Dremio sponsors Nessie.
 - **lakeFS documentation and Iceberg integration** ([docs.lakefs.io](https://docs.lakefs.io/iceberg/),
   [lakefs.io](https://lakefs.io/blog/open-table-formats/))
-  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §3's object-versioning row
+  — format-agnostic object-level versioning, independent of the metastore. *Supports:* §3's
+  object-versioning row
   and the hybrid-coverage table. *Caveat:* vendor.
 - **Iceberg Time Travel and Versioning — lakeFS** ([lakefs.io](https://lakefs.io/blog/iceberg-time-travel/),
   [lakefs.io](https://lakefs.io/blog/iceberg-versioning/))
