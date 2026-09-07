@@ -64,22 +64,36 @@ can be read correctly by one engine and incorrectly by another.
 ### Which operations break — for the data, and for your consumers
 
 These are two different questions and the answers routinely disagree, so the table below answers
-both. The four format columns say only whether **the format resolves the change without damaging
-data**. The last column says whether **anything downstream stops working**, and it is
-format-independent: a name that disappears is gone in Iceberg exactly as it is gone in Hive.
+both. The four format columns are about **the bytes already on disk**. The last column is about
+**everything that reads them**, and it is format-independent: a name that disappears is gone in
+Iceberg exactly as it is gone in Hive.
 
-**Read the two halves together. "Safe" in a format column never means "safe to ship."**
+The format cells take five values, and they are not all making the same kind of claim — some are
+about correctness, some about cost:
+
+| Cell value | What it means |
+|---|---|
+| **Safe** | Every existing file still returns exactly the values it held before, and the change is metadata-only — no file is rewritten |
+| **Engine-dependent** | There is no format-level answer; the outcome depends on engine, file format and config flags |
+| **Breaks** / **Risky** / **Unsafe** | A reader can get wrong values, or an error, out of data that was written correctly |
+| **Rewrite** | The end state is correct, but every data file has to be rewritten to reach it |
+| **Rejected** | The format refuses the operation outright; there is no in-place path |
+
+So **"Safe" is a claim about the data surviving, not about the change being harmless.** It says the
+values already written come back unchanged and cost you nothing to preserve. It says nothing at all
+about whether a query, a model or a dashboard still works afterwards — that is the last column, and
+the two disagree constantly.
 
 | Operation | Hive | Iceberg | Delta Lake | Hudi | Consumers |
 |---|---|---|---|---|---|
-| Add optional column at end | Generally safe | Safe | Safe (`mergeSchema`) | Safe | Fine |
+| Add optional column at end | Safe | Safe | Safe (`mergeSchema`) | Safe | Fine |
 | Add column in the middle | **Breaks** under positional resolution | Safe | Safe | Safe | Fine, unless a load maps by position |
 | Rename column | **Breaks** | Safe | Safe with column mapping | Safe with full schema evolution | **Breaks everything naming the column** |
 | Drop column | **Risky** — positional readers shift | Safe, ID retired | Safe with column mapping | Safe with full schema evolution | **Breaks — or returns null silently** |
 | Reorder columns | **Breaks** under positional resolution | Safe | Safe | Safe | Fine, unless a load maps by position |
-| Widen type | Engine-dependent | Safe, closed list | Limited upcasts | Safe promotions | Usually fine; check downstream casts |
+| Widen type | Engine-dependent | Safe, closed list | Safe, limited upcasts | Safe, limited set | Usually fine; check downstream casts |
 | Narrow type | Unsafe | Rejected | Rejected | Rejected | — the change is refused |
-| Change partitioning | Full table rewrite | **Metadata-only** | Rewrite | Rewrite | Fine; performance only |
+| Change partitioning | Rewrite (full table) | **Safe** — metadata-only | Rewrite | Rewrite | Fine; performance only |
 
 **The rename row is the one to sit with, because it is the most misread.** Iceberg renames a column
 by changing the name attached to a stable field ID — say ID 3 — while every data file ever written
