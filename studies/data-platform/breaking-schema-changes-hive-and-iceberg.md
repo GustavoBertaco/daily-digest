@@ -575,10 +575,11 @@ have not weighed how often that trade goes badly.
 
 *Links checked September 2026. The backward/forward/full definitions in §2 were verified against
 two independent implementations — Confluent Schema Registry and Apache Pulsar — plus the Avro
-resolution rules they both derive from; all three agree. The Apache Iceberg specification, evolution documentation and the
-cited Hive JIRA issues were fetched directly and carry every load-bearing claim about format
-behavior. Retention and cost figures come from vendor and practitioner blogs and are directional
-rather than audited. Vendor material is cited for mechanism, not endorsement.*
+resolution rules they both derive from; all three agree. The Apache Iceberg specification, its
+evolution documentation and the cited Hive JIRA issues were fetched directly and carry every
+load-bearing claim about format behavior. Retention and cost figures come from vendor and
+practitioner blogs and are directional rather than audited. Vendor material is cited for
+mechanism, not endorsement.*
 
 ### Format behavior (primary)
 
