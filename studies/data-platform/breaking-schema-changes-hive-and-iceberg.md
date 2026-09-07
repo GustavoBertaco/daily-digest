@@ -107,8 +107,11 @@ the quiet version of the same break.
 What Iceberg actually removed is the *other* half of the problem. On Hive a rename can corrupt
 reads of existing data; on Iceberg it never can. **Hive breaks the data path and the consumer;
 Iceberg breaks only the consumer.** That is a real improvement and a narrower one than "safe"
-suggests — and §2 gives it its proper name: a rename is backward-compatible by construction and
-forward-incompatible by definition.
+suggests — and §2 gives it its proper name: **in Iceberg a rename is backward-compatible by
+construction and forward-incompatible by definition.** The "by construction" is the field ID doing
+the work, and it is worth not generalising: in Avro, where resolution is by name, a rename without
+an `alias` breaks in *both* directions at once — the new reader finds no `account_id` in old data,
+and the old reader finds no `customer_id` in new data.
 
 Two rows deserve a note. **Type widening is narrower than people assume**: Iceberg permits
 `int`→`long`, `float`→`double`, and `decimal(P,S)`→`decimal(P',S)` with `P' > P` — precision only,
@@ -570,7 +573,9 @@ have not weighed how often that trade goes badly.
 
 ## References
 
-*Links checked September 2026. The Apache Iceberg specification, evolution documentation and the
+*Links checked September 2026. The backward/forward/full definitions in §2 were verified against
+two independent implementations — Confluent Schema Registry and Apache Pulsar — plus the Avro
+resolution rules they both derive from; all three agree. The Apache Iceberg specification, evolution documentation and the
 cited Hive JIRA issues were fetched directly and carry every load-bearing claim about format
 behavior. Retention and cost figures come from vendor and practitioner blogs and are directional
 rather than audited. Vendor material is cited for mechanism, not endorsement.*
@@ -603,9 +608,14 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
   *Supports:* the Hudi rows in §1. *Caveat:* the read-time resolution path is documented as
   experimental — verify against your Hudi version.
 - **Apache Avro specification — schema resolution** ([avro.apache.org](https://avro.apache.org/docs/1.10.2/spec.html))
-  — reader/writer resolution by name, the `default` rule that makes added fields safe (and its
-  failure when no default exists), `aliases` for renames, and the permitted type promotions.
-  *Supports:* §1's serialization subsection and much of §2's underlying logic.
+  — the two resolution rules that generate the entire compatibility model: "if the writer's record
+  contains a field with a name not present in the reader's record, the writer's value for that
+  field is ignored" (why adding a field is forward-safe), and "if the reader's record schema has a
+  field with no default value, and writer's schema does not have a field with the same name, an
+  error is signalled" (why adding a field is backward-safe *only* with a default). Also `aliases`
+  for renames and the permitted promotions (`int`→`long`/`float`/`double`, `long`→`float`/`double`,
+  `float`→`double`, `string`↔`bytes`). *Supports:* §1's serialization subsection and the mechanics
+  underneath all of §2.
 
 ### Consumer-level breakage
 
@@ -624,6 +634,13 @@ rather than audited. Vendor material is cited for mechanism, not endorsement.*
   variants that check against all prior versions, and the upgrade-order consequence. *Supports:*
   all of §2. *Caveat:* vendor documentation, and written for streaming — the point of §2 is that
   table formats supply no equivalent enforcement.
+- **Schema evolution and compatibility — Apache Pulsar** ([pulsar.apache.org](https://pulsar.apache.org/docs/schema-understand/))
+  — an independent implementation of the same semantics, used here to confirm §2 against a
+  non-Confluent source: BACKWARD is "consumers using schema V3 can process data written by
+  producers using the last schema version V2" (add optional fields, delete fields, consumers
+  upgraded first), FORWARD is "consumers using the last schema version V2 can process data written
+  by producers using a new schema V3" (add fields, remove optional fields, producers upgraded
+  first). *Supports:* §2's definitions, allowed-changes table and upgrade order.
 
 ### Versioning mechanisms
 
