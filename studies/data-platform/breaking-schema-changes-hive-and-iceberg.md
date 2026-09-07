@@ -44,7 +44,7 @@ Nearly everything else follows from one design decision: **how does the format k
 in a data file is the same column the schema is talking about?** Formats that answer with a stable
 identity survive renames; formats that answer with a name or a position do not.
 
-| Format | How a field is identified | Rename survives? |
+| Format | How a field is identified | Does the data survive a rename? |
 |---|---|---|
 | **Hive** | By position or by name — depends on file format, engine and config flag | **No** |
 | **Iceberg** | Stable integer field ID, never reused | Yes |
@@ -61,21 +61,40 @@ reverted Hive to positional. The practical consequence is that **on Hive, "is th
 has no format-level answer** — it has a per-engine, per-format, per-flag answer, and the same table
 can be read correctly by one engine and incorrectly by another.
 
-### Which operations break, by format
+### Which operations break — for the data, and for your consumers
 
-"Safe" below means *the format resolves the change without damaging data*. It says nothing about
-whether your consumers survive, which is a separate question this section returns to at the end.
+These are two different questions and the answers routinely disagree, so the table below answers
+both. The four format columns say only whether **the format resolves the change without damaging
+data**. The last column says whether **anything downstream stops working**, and it is
+format-independent: a name that disappears is gone in Iceberg exactly as it is gone in Hive.
 
-| Operation | Hive | Iceberg | Delta Lake | Hudi |
-|---|---|---|---|---|
-| Add optional column at end | Generally safe | Safe | Safe (`mergeSchema`) | Safe |
-| Add column in the middle | **Breaks** under positional resolution | Safe | Safe | Safe |
-| Rename column | **Breaks** | Safe | Safe with column mapping | Safe with full schema evolution |
-| Drop column | **Risky** — positional readers shift | Safe, ID retired | Safe with column mapping | Safe with full schema evolution |
-| Reorder columns | **Breaks** under positional resolution | Safe | Safe | Safe |
-| Widen type | Engine-dependent | Safe, closed list | Limited upcasts | Safe promotions |
-| Narrow type | Unsafe | Rejected | Rejected | Rejected |
-| Change partitioning | Full table rewrite | **Metadata-only** | Rewrite | Rewrite |
+**Read the two halves together. "Safe" in a format column never means "safe to ship."**
+
+| Operation | Hive | Iceberg | Delta Lake | Hudi | Consumers |
+|---|---|---|---|---|---|
+| Add optional column at end | Generally safe | Safe | Safe (`mergeSchema`) | Safe | Fine |
+| Add column in the middle | **Breaks** under positional resolution | Safe | Safe | Safe | Fine, unless a load maps by position |
+| Rename column | **Breaks** | Safe | Safe with column mapping | Safe with full schema evolution | **Breaks everything naming the column** |
+| Drop column | **Risky** — positional readers shift | Safe, ID retired | Safe with column mapping | Safe with full schema evolution | **Breaks — or returns null silently** |
+| Reorder columns | **Breaks** under positional resolution | Safe | Safe | Safe | Fine, unless a load maps by position |
+| Widen type | Engine-dependent | Safe, closed list | Limited upcasts | Safe promotions | Usually fine; check downstream casts |
+| Narrow type | Unsafe | Rejected | Rejected | Rejected | — the change is refused |
+| Change partitioning | Full table rewrite | **Metadata-only** | Rewrite | Rewrite | Fine; performance only |
+
+**The rename row is the one to sit with, because it is the most misread.** Iceberg renames a column
+by changing the name attached to a stable field ID — say ID 3 — while every data file ever written
+still stores its values against ID 3. Nothing is rewritten and nothing is lost, so the *data* is
+untouched. But **the field ID is internal and the column name is the public interface.** Every
+query, dbt model, BI mapping and downstream load that names `customer_id` stops resolving the
+moment it becomes `account_id`, and Iceberg has no idea any of them exist. Consumers reading
+`SELECT *` do not fail at all — they simply start receiving a differently-named column, which is
+the quiet version of the same break.
+
+What Iceberg actually removed is the *other* half of the problem. On Hive a rename can corrupt
+reads of existing data; on Iceberg it never can. **Hive breaks the data path and the consumer;
+Iceberg breaks only the consumer.** That is a real improvement and a narrower one than "safe"
+suggests — and §2 gives it its proper name: a rename is backward-compatible by construction and
+forward-incompatible by definition.
 
 Two rows deserve a note. **Type widening is narrower than people assume**: Iceberg permits
 `int`→`long`, `float`→`double`, and `decimal(P,S)`→`decimal(P',S)` with `P' > P` — precision only,
@@ -108,9 +127,9 @@ independently.
 
 ### The insight that unifies the table
 
-**Every format that survives a rename does so by having a stable field identity** — a field ID in
-Iceberg, a column-mapping ID in Delta, a numbered tag in Protobuf, an alias in Avro. Hive has none,
-which is the whole explanation for why it breaks.
+**Every format whose *data* survives a rename does so by having a stable field identity** — a field
+ID in Iceberg, a column-mapping ID in Delta, a numbered tag in Protobuf, an alias in Avro. Hive has
+none, which is the whole explanation for why its data does not survive.
 
 But stable identity solves a narrower problem than it appears to. Read what Iceberg actually
 guarantees ([Iceberg evolution docs](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md)):
