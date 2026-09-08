@@ -266,6 +266,21 @@ The three moves:
 | **Fork** | v2 is created with the new shape | The change lands somewhere clean |
 | **Append** | All new data goes to v2 only | One writer, one shape, nothing to reconcile on write |
 
+```mermaid
+graph LR
+    P["PRODUCER"]
+    V1[("orders_v1<br/><b>FROZEN</b> · read-only<br/><i>stale, but never wrong</i>")]
+    V2[("orders_v2<br/>new shape · append-only<br/><i>all new data lands here</i>")]
+    C1["Consumers not yet migrated"]
+    C2["Consumers on the new shape"]
+
+    P -.->|"writes STOP"| V1
+    P ==>|"writes CONTINUE"| V2
+    C1 --> V1
+    C2 --> V2
+    C1 -.->|"migrate before the<br/>deprecation date"| C2
+```
+
 This is **expand-and-contract** — the same parallel-change pattern used for application databases
 and APIs — applied to tables. Expand by standing up v2, run both while consumers migrate, contract
 by retiring v1 on a declared date.
@@ -341,6 +356,20 @@ The union view is the right default because it costs nothing to create and nothi
 to a backfill when you are confident the mapping is correct and want to stop paying the union cost
 forever; move to a materialized reconciled table only when query performance forces it.
 
+```mermaid
+graph LR
+    V1[("orders_v1<br/>old shape")]
+    V2[("orders_v2<br/>new shape")]
+    M["map v1 into v2's shape<br/><i>rename · cast · project<br/>null where a column<br/>did not exist yet</i>"]
+    U{{"UNION ALL"}}
+    VW[["view: orders<br/>one continuous history"]]
+    C["Consumers"]
+
+    V1 --> M --> U
+    V2 --> U
+    U --> VW --> C
+```
+
 ```sql
 -- v1 renamed customer_id -> account_id and gained a channel column in v2
 CREATE OR REPLACE VIEW analytics.orders AS
@@ -366,6 +395,20 @@ Physical tables carry the version (`orders_v1`, `orders_v2`); a **view carries t
 
 - Point at `orders` → you always get the current shape, and you accept that it changes.
 - Point at `orders_v1` → you pin yourself to a shape and accept that it stops receiving data.
+
+```mermaid
+graph LR
+    C1["Consumer that wants<br/>the current shape"]
+    C2["Consumer that pinned<br/>itself to a shape"]
+    VW[["orders<br/><i>stable name</i>"]]
+    V2[("orders_v2<br/>current · receiving writes")]
+    V1[("orders_v1<br/>frozen · retired on the<br/>deprecation date")]
+
+    C1 --> VW
+    VW --> V2
+    C2 --> V1
+    V1 -.->|"must migrate"| VW
+```
 
 Making that choice explicit is most of the value. The failure mode this prevents is the consumer
 who thought they were pinned and was not, which is how a breaking change reaches a dashboard
