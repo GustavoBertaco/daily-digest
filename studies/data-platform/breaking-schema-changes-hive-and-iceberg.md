@@ -40,18 +40,12 @@ decisions until somebody happens to notice.
 
 ### It comes down to how the format identifies a field
 
-Nearly everything else follows from one design decision: **how does the format know that a column
-in a data file is the same column the schema is talking about?** Formats that answer with a stable
-identity survive renames; formats that answer with a name or a position do not.
-
-| Format | How a field is identified | Does the data survive a rename? |
-|---|---|---|
-| **Hive** | By position or by name — depends on file format, engine and config flag | **No** |
-| **Iceberg** | Stable integer field ID, never reused | Yes |
-| **Delta Lake** | Physical column order by default; stable ID once **column mapping** is enabled | Only with column mapping |
-| **Hudi** | By name, with change tracking under full schema evolution | Yes, with full schema evolution |
-| **Avro** | By name, with `aliases` as the escape hatch | Only with an alias |
-| **Protobuf** | Numbered field tag, never reused after removal | Yes |
+Almost everything below follows from one design decision: **how does the format know that a column
+in a data file is the same column the schema is talking about?** Iceberg answers with a stable
+integer field ID, never reused. Delta with a column-mapping ID, once column mapping is enabled.
+Protobuf with a numbered tag. Avro by name, with `aliases` as the escape hatch. Hudi by name, with
+change tracking under full schema evolution. **Formats with a stable identity survive a rename;
+those that resolve by name or position do not.**
 
 Hive is the outlier, and not merely because it lacks stable IDs. Its resolution is *configurable*:
 `parquet.column.index.access` and `orc.force.positional.evolution` change the behavior, engines
@@ -63,26 +57,17 @@ can be read correctly by one engine and incorrectly by another.
 
 ### Which operations break — for the data, and for your consumers
 
-These are two different questions and the answers routinely disagree, so the table below answers
-both. The four format columns are about **the bytes already on disk**. The last column is about
-**everything that reads them**, and it is format-independent: a name that disappears is gone in
-Iceberg exactly as it is gone in Hive.
+These are two different questions and the answers routinely disagree, so the table answers both.
+The format columns are about **the bytes already on disk**; the last column is about **everything
+that reads them**, and it is format-independent — a name that disappears is gone in Iceberg exactly
+as it is gone in Hive.
 
-The format cells take five values, and they are not all making the same kind of claim — some are
-about correctness, some about cost:
-
-| Cell value | What it means |
-|---|---|
-| **Safe** | Every existing file still returns exactly the values it held before, and the change is metadata-only — no file is rewritten |
-| **Engine-dependent** | There is no format-level answer; the outcome depends on engine, file format and config flags |
-| **Breaks** / **Risky** / **Unsafe** | A reader can get wrong values, or an error, out of data that was written correctly |
-| **Rewrite** | The end state is correct, but every data file has to be rewritten to reach it |
-| **Rejected** | The format refuses the operation outright; there is no in-place path |
-
-So **"Safe" is a claim about the data surviving, not about the change being harmless.** It says the
-values already written come back unchanged and cost you nothing to preserve. It says nothing at all
-about whether a query, a model or a dashboard still works afterwards — that is the last column, and
-the two disagree constantly.
+**Safe** means every existing file still returns exactly the values it held before, and the change
+is metadata-only: no file is rewritten. It is a claim about the data surviving, not about the
+change being harmless. The other verdicts: **Engine-dependent** — no format-level answer, it turns
+on engine and config; **Breaks / Risky / Unsafe** — a reader can get wrong values or an error out
+of data that was written correctly; **Rewrite** — the end state is correct but every file must be
+rewritten to reach it; **Rejected** — the format refuses outright.
 
 | Operation | Hive | Iceberg | Delta Lake | Hudi | Consumers |
 |---|---|---|---|---|---|
@@ -95,23 +80,26 @@ the two disagree constantly.
 | Narrow type | Unsafe | Rejected | Rejected | Rejected | — the change is refused |
 | Change partitioning | Rewrite (full table) | **Safe** — metadata-only | Rewrite | Rewrite | Fine; performance only |
 
-**The rename row is the one to sit with, because it is the most misread.** Iceberg renames a column
-by changing the name attached to a stable field ID — say ID 3 — while every data file ever written
-still stores its values against ID 3. Nothing is rewritten and nothing is lost, so the *data* is
-untouched. But **the field ID is internal and the column name is the public interface.** Every
-query, dbt model, BI mapping and downstream load that names `customer_id` stops resolving the
-moment it becomes `account_id`, and Iceberg has no idea any of them exist. Consumers reading
+**The rename row is the one to sit with, because it is the most misread.** Iceberg renames by
+changing the name attached to a stable field ID while every data file still stores its values
+against that ID, so nothing is rewritten and nothing is lost. But **the field ID is internal and
+the column name is the public interface.** Every query, dbt model, BI mapping and downstream load
+naming `customer_id` stops resolving the moment it becomes `account_id`. Consumers reading
 `SELECT *` do not fail at all — they simply start receiving a differently-named column, which is
 the quiet version of the same break.
 
-What Iceberg actually removed is the *other* half of the problem. On Hive a rename can corrupt
+Which is the general lesson, and the reason this table matters at all. Read what Iceberg actually
+guarantees ([evolution docs](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md)):
+that added columns never read another column's values, that dropping or updating a column does not
+change values in any other column. **Every one of those is a statement about data correctness. None
+is about whether your queries still run.** So stable field identity does not eliminate breaking
+changes — **it relocates them**, out of the storage layer where they corrupt data loudly, and into
+the consumer layer where they may not announce themselves at all. On Hive a rename can corrupt
 reads of existing data; on Iceberg it never can. **Hive breaks the data path and the consumer;
-Iceberg breaks only the consumer.** That is a real improvement and a narrower one than "safe"
-suggests — and §2 gives it its proper name: **in Iceberg a rename is backward-compatible by
-construction and forward-incompatible by definition.** The "by construction" is the field ID doing
-the work, and it is worth not generalising: in Avro, where resolution is by name, a rename without
-an `alias` breaks in *both* directions at once — the new reader finds no `account_id` in old data,
-and the old reader finds no `customer_id` in new data.
+Iceberg breaks only the consumer.** §2 gives that its proper name: in Iceberg a rename is
+backward-compatible by construction — the field ID does that work — and forward-incompatible by
+definition. It does not generalise: in Avro, where resolution is by name, a rename without an
+`alias` breaks in both directions at once.
 
 Two rows deserve a note. **Type widening is narrower than people assume**: Iceberg permits
 `int`→`long`, `float`→`double`, and `decimal(P,S)`→`decimal(P',S)` with `P' > P` — precision only,
@@ -123,41 +111,15 @@ a partition source cannot.
 **Changing partitioning** is the row with the largest operational gap. On Iceberg the partition
 spec is metadata and partition values are derived through transforms rather than encoded in
 directory paths, so the spec changes without rewriting a file and old and new specs coexist. On
-Hive the partition values *are* the directory layout, so the same change is a full rewrite. That is
-the difference between an `ALTER TABLE` and a maintenance window.
+Hive the partition values *are* the directory layout, so the same change is a full rewrite — the
+difference between an `ALTER TABLE` and a maintenance window.
 
-### Underneath: Avro and Protobuf
-
-The serialization formats are worth understanding because they are where these ideas were settled
-first, and because they are what the ingestion side of most platforms speaks.
-
-**Avro** resolves a reader schema against a writer schema field by field, **by name**. If the
-writer has a field the reader does not declare, the value is ignored — which is what makes adding a
-field safe for old consumers. If the reader declares a field the writer lacks, the reader supplies
-its `default`; **if there is no default, resolution fails**. That single rule is why "add fields
-with defaults" is the universal advice. Renames survive only via `aliases`.
-
-**Protobuf** takes the other approach: every field carries a numbered tag, and the tag — not the
-name, not the position — is what goes on the wire. Names can change freely; tags must never be
-reused after a field is removed. It is the same idea as Iceberg field IDs, arrived at
-independently.
-
-### The insight that unifies the table
-
-**Every format whose *data* survives a rename does so by having a stable field identity** — a field
-ID in Iceberg, a column-mapping ID in Delta, a numbered tag in Protobuf, an alias in Avro. Hive has
-none, which is the whole explanation for why its data does not survive.
-
-But stable identity solves a narrower problem than it appears to. Read what Iceberg actually
-guarantees ([Iceberg evolution docs](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md)):
-added columns never read another column's values; dropping or updating a column does not change
-values in any other column; reordering does not change what a name maps to. **Every one of those is
-a statement about data correctness. None is about whether your queries still run.**
-
-So the modern formats do not eliminate breaking changes. They relocate them — out of the storage
-layer, where they corrupt data loudly, and into the consumer layer, where a dropped column may fail
-a query, break a semantic-layer mapping, or return null with no error at all. Which brings us to
-the question of what compatibility you are actually promising.
+Underneath the table formats sit the serialization formats, worth one paragraph because §2's whole
+vocabulary comes from them. **Avro** resolves a reader schema against a writer schema by name: a
+field the reader does not declare is ignored, and a field the reader declares but the writer lacks
+is filled from its `default` — **or fails, if there is no default.** That single rule is why "add
+fields with defaults" is universal advice. **Protobuf** arrives at Iceberg's answer independently:
+a numbered tag on the wire, never reused once a field is removed.
 
 ## 2. Full, backward, and forward compatibility
 
@@ -584,9 +546,9 @@ mechanism, not endorsement.*
 ### Format behavior (primary)
 
 - **Iceberg evolution documentation — Apache** ([github.com](https://github.com/apache/iceberg/blob/main/docs/docs/evolution.md))
-  — the five supported operations, the four correctness guarantees quoted verbatim in §1, and
-  partition/sort-order evolution semantics. *Supports:* §1. *Caveat:* the guarantee list is
-  about data correctness only — the central reading of this study.
+  — the five supported operations, the correctness guarantees §1 draws on, and partition and
+  sort-order evolution semantics. *Supports:* §1. *Caveat:* every guarantee in that list is about
+  data correctness only — which is the central reading of this study.
 - **Iceberg table specification — Apache** ([github.com](https://github.com/apache/iceberg/blob/main/format/spec.md))
   — the exact type promotion set per spec version, the partition-transform restriction on
   promotion, and `schema.name-mapping.default` for files without field IDs. *Supports:* §1.
