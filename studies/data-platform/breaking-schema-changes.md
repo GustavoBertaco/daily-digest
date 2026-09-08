@@ -1,4 +1,4 @@
-# Breaking Schema Changes in a Hybrid Hive and Iceberg Estate
+# Breaking Schema Changes
 
 > What actually counts as a breaking schema change and how that differs across Hive, Iceberg,
 > Delta, Hudi and the serialization formats underneath them; what backward, forward and full
