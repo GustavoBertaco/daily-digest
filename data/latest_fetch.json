@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T15:13:40Z",
+  "fetched_at": "2026-09-08T13:51:29Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -57,25 +57,19 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "3 Types of Hobbies",
-          "url": "https://www.youtube.com/watch?v=EVcVtss82MI",
-          "published": "2026-09-07T13:21:31+00:00",
-          "content_snippet": "Most people have one hobby and wonder why they still feel flat. Sabine Sonnentag at the University of Mannheim studies what actually restores people after work, and she found four separate mechanisms: detaching mentally, relaxing, mastering something new, and having control over your own time. They don't substitute for each other. The hobby that relaxes you gives you no mastery. The one that gives you mastery often won't let you detach. That's the case for a mix rather than a favorite. Focus, mo",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Big Think",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Big Think": 2
+        "Daniel Pink": 1
       }
     },
     {
@@ -88,7 +82,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Secrets in Unity Catalog",
+          "url": "https://www.youtube.com/watch?v=GYIem6iXUxg",
+          "published": "2026-09-08T08:51:29+00:00",
+          "content_snippet": "Secrets in Unity Catalog store credentials like API keys as governed objects named catalog.schema.secret: created, granted, rotated, and audited with standard Unity Catalog privileges, and redacted from notebook and job logs. This is a full end-to-end demo: create a secret with the REST API and in the Catalog UI, read it in a notebook with dbutils.secrets.get, use it to call the OpenAI API, grant read/reference/write access to a user or group, rotate it programmatically, and audit every access f",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -96,10 +100,6 @@
         },
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -131,28 +131,10 @@
       ],
       "items": [
         {
-          "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
-          "published": "2026-09-07T14:24:08+00:00",
-          "content_snippet": "Last week, Claude Fable 5.1 became available on AWS . According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its own, handling features across an entire codebase, code review, and performance work over extended sessions. Anthropic has designated Fabl",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-6 Astra cracked a DEF CON puzzle",
-          "url": "https://www.youtube.com/watch?v=J2nV3d_A1f0",
-          "published": "2026-09-06T20:44:02+00:00",
-          "content_snippet": "Ben Davis put GPT-6 Astra to the test with puzzles he and his friends spent days working on at DEF CON. Given the same official hint his team received, it solved a Rubik’s cube puzzle three out of three times.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-6 Astra with Peter Gostev",
-          "url": "https://www.youtube.com/watch?v=A4BUbpKdenc",
-          "published": "2026-09-06T17:53:59+00:00",
-          "content_snippet": "Peter Gostev shares his first impressions of GPT-6 Astra, from building a 3D London that moves through different historical eras to improving an app with around 150,000 lines of code. He discusses more natural feedback, greater reliability, and taking on complex tasks with less supervision.",
+          "title": "GPT-6 Astra with Tom Krcha",
+          "url": "https://www.youtube.com/watch?v=QDLlQ5IL2Bk",
+          "published": "2026-09-07T17:15:32+00:00",
+          "content_snippet": "Tom Krcha shares his first impressions of GPT-6 Astra through a customizable logo tool, website designs with coordinated visual details, and adjustable photo shaders. He explores how the model helps designers develop ideas, build interactive prototypes, and bring a clearer creative direction to their engineering teams.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -176,7 +158,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AWS Blog": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -190,11 +174,14 @@
         "llm"
       ],
       "items": [],
-      "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 1
-      }
+      "errors": [
+        {
+          "source_name": "AI Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 7
 }
