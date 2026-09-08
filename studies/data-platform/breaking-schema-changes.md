@@ -139,6 +139,16 @@ is *which of the two is the newer one*.
   from *the producer's change*.
 - **Full** — both pairs hold at once, so neither side needs to know what the other did.
 
+```mermaid
+graph LR
+    D1[("v1 data<br/><i>already written</i>")] -->|"time →"| D2[("v2 data<br/><i>written after the change</i>")]
+    RN["reader on <b>v2</b><br/>the consumer that upgraded"]
+    RO["reader on <b>v1</b><br/>the consumer that stayed put"]
+
+    RN -.->|"<b>BACKWARD</b> · reaches back<br/>⇒ consumers upgrade first"| D1
+    RO -.->|"<b>FORWARD</b> · reaches forward<br/>⇒ producers upgrade first"| D2
+```
+
 Stated so that both sides stay visible:
 
 | Mode | The pair it constrains | The producer may | The consumer must |
@@ -162,15 +172,19 @@ will be written under a version it has never seen.
 Two examples make it concrete, and they are chosen because the same kind of change lands on
 opposite sides:
 
-**Remove the `email` field in v2.**
-
-- A v2 reader over v1 data: an extra field arrives and is ignored → **works**. Backward ✓
-- A v1 reader over v2 data: `email` is gone and the reader requires it → **fails**. Forward ✗
-
-**Add a required `country` field in v2, with no default.**
-
-- A v2 reader over v1 data: `country` is absent and there is no default → **fails**. Backward ✗
-- A v1 reader over v2 data: an unknown field arrives and is ignored → **works**. Forward ✓
+```mermaid
+graph TB
+    subgraph E1["CHANGE ①  ·  remove the email field in v2"]
+        direction LR
+        A1["v2 reader<br/>reads v1 data"] -->|"an extra field arrives,<br/>the reader ignores it"| A1R["✓ <b>BACKWARD holds</b>"]
+        A2["v1 reader<br/>reads v2 data"] -->|"email is gone and<br/>the reader requires it"| A2R["✗ <b>FORWARD breaks</b>"]
+    end
+    subgraph E2["CHANGE ②  ·  add a required country field in v2"]
+        direction LR
+        B1["v2 reader<br/>reads v1 data"] -->|"country is absent and<br/>there is no default"| B1R["✗ <b>BACKWARD breaks</b>"]
+        B2["v1 reader<br/>reads v2 data"] -->|"an unknown field arrives,<br/>the reader ignores it"| B2R["✓ <b>FORWARD holds</b>"]
+    end
+```
 
 So **deleting** a field is backward-compatible while **adding** one is forward-compatible — the
 opposite of what intuition suggests, and the reason the allowed-changes table below reads the way
