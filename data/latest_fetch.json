@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T13:51:29Z",
+  "fetched_at": "2026-09-09T13:53:53Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -57,7 +57,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Four ways to act before you feel ready",
+          "url": "https://www.youtube.com/watch?v=G4BKPG3-8Q8",
+          "published": "2026-09-08T19:55:48+00:00",
+          "content_snippet": "Number two is the one I'd defend hardest, and there's a reason it works that has nothing to do with willpower. Teresa Amabile at Harvard collected nearly 12,000 daily diary entries from 238 professionals across 26 project teams, then went looking for what separated the good workdays from the bad ones. It wasn't recognition, or pressure, or incentives. The single biggest driver of a good day was progress — often small, sometimes almost trivial. One useful paragraph. One problem cleared. She calle",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -68,9 +78,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -82,17 +90,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Secrets in Unity Catalog",
-          "url": "https://www.youtube.com/watch?v=GYIem6iXUxg",
-          "published": "2026-09-08T08:51:29+00:00",
-          "content_snippet": "Secrets in Unity Catalog store credentials like API keys as governed objects named catalog.schema.secret: created, granted, rotated, and audited with standard Unity Catalog privileges, and redacted from notebook and job logs. This is a full end-to-end demo: create a secret with the REST API and in the Catalog UI, read it in a notebook with dbutils.secrets.get, use it to call the OpenAI API, grant read/reference/write access to a user or group, rotate it programmatically, and audit every access f",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -112,6 +110,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -131,10 +130,154 @@
       ],
       "items": [
         {
-          "title": "GPT-6 Astra with Tom Krcha",
-          "url": "https://www.youtube.com/watch?v=QDLlQ5IL2Bk",
-          "published": "2026-09-07T17:15:32+00:00",
-          "content_snippet": "Tom Krcha shares his first impressions of GPT-6 Astra through a customizable logo tool, website designs with coordinated visual details, and adjustable photo shaders. He explores how the model helps designers develop ideas, build interactive prototypes, and bring a clearer creative direction to their engineering teams.",
+          "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
+          "published": "2026-09-08T22:49:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, professional-quality writing and design, and advanced computer and browser use to demanding business workflows. It supports a context window of up to 1 million input tokens and can produce output aligned with organizational voice, templates, and standards. The Amazon Bedrock inference engine delivers t",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+          "published": "2026-09-08T21:58:00+00:00",
+          "content_snippet": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private repositories you control and the engine fetches and runs it in response to triggers, letting you implement logic specific to your workload without standing up separate external infrastructure. Plugins run on the trigger types the processing engine already supports and with them, you can build custom data ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+          "published": "2026-09-08T21:19:00+00:00",
+          "content_snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating individual features in a record. Data scientists can now update one or more feature values in a single request, without rewriting the entire record. Data scientists can use a single update call to replace the read-modify-write pattern their pipelines r",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Transform is now available in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+          "published": "2026-09-08T21:00:00+00:00",
+          "content_snippet": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the migration capabilities of AWS Transform to automate server migrations within an isolated environment designed to host sensitive data and regulated workloads. AWS Transform in this Region supports migrating servers to both AWS GovCloud (US-East) and AWS",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+          "published": "2026-09-08T19:16:00+00:00",
+          "content_snippet": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway could present only a self-signed certificate that it generated; now you can use a certificate signed by a certificate authority you trust. Your integration endpoint validates this certificate during the handshake to confirm the connection comes from your API. You can import a certificate into ACM f",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+          "published": "2026-09-08T16:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+          "published": "2026-09-08T16:00:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory strategies, and makes the resulting memory records available through the same retrieval operations used for any other long-term memory records, all without creating a short-term event. Until now, all content had to be stored as a short-term mem",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
+          "published": "2026-09-08T16:00:00+00:00",
+          "content_snippet": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+          "published": "2026-09-08T14:32:00+00:00",
+          "content_snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom objects within cropped images. In addition, customers benefit from enhanced automatic image optimization that delivers appropriately sized images across every browser and device type, from phones and tablets to smart TVs, using CloudFront's mu",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
+          "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
+          "published": "2026-09-09T13:30:00+00:00",
+          "content_snippet": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
+          "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+          "published": "2026-09-09T03:00:00+00:00",
+          "content_snippet": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "SQL Data Types: Reference and Best Practices",
+          "url": "https://www.databricks.com/blog/sql-data-types",
+          "published": "2026-09-08T17:16:06+00:00",
+          "content_snippet": "A SQL data type is a fundamental specification that defines what values a column...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build durable agents with Temporal and Lakebase",
+          "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
+          "published": "2026-09-08T15:46:40+00:00",
+          "content_snippet": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing GPT-Image-2.5 in the API",
+          "url": "https://www.youtube.com/watch?v=A7MSwdXj86k",
+          "published": "2026-09-08T19:11:55+00:00",
+          "content_snippet": "Meet Sunburst and Flare, our two new GPT-Image-2.5 models. Sunburst brings sharper details, more natural lighting, and greater control across edits. Flare delivers high quality images over 50% faster. Both support transparent backgrounds for assets ranging from infographics to games. Available now in the API.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Templates with ChatGPT Images 2.5",
+          "url": "https://www.youtube.com/watch?v=-VukmrOT1eE",
+          "published": "2026-09-08T18:48:03+00:00",
+          "content_snippet": "Have an idea but need help getting started? Use templates for popular image formats like posters or merch, then add your message, design elements, or style to make it your own. ChatGPT Images 2.5 is rolling out today to all ChatGPT, ChatGPT Work, and Codex users across desktop, mobile, and web.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Sketch with ChatGPT Images 2.5",
+          "url": "https://www.youtube.com/watch?v=imPtIEAEHSU",
+          "published": "2026-09-08T18:46:42+00:00",
+          "content_snippet": "Some ideas are easier to draw than describe. Use Sketch to draw right in ChatGPT and show it exactly what you have in mind. Just type “@ Sketch” in ChatGPT.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing ChatGPT Images 2.5",
+          "url": "https://www.youtube.com/watch?v=6l7ble9P74o",
+          "published": "2026-09-08T18:44:08+00:00",
+          "content_snippet": "Say hello to ChatGPT Images 2.5—faster, sharper, smarter, with better tools for creating whatever you can dream of. - Faster image generation to keep your ideas flowing - Improved fidelity for more natural, recognizable images - Consistent details across multiple edits - Comment-based edits to change only what you want",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -142,11 +285,7 @@
       ],
       "errors": [
         {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -158,9 +297,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "AWS Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -173,15 +310,38 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners",
+          "url": "https://www.youtube.com/watch?v=xo68uCibfm8",
+          "published": "2026-09-09T13:30:27+00:00",
+          "content_snippet": "Ask a model to sum twelve numbers scattered across thirty thousand tokens and it will often get it wrong. Give it a Python REPL and it writes a few lines of regex instead. That is the shift Kevin Madura, director of advanced technology at AlixPartners, describes in recursive language models. An RLM treats its context as an object living in a REPL rather than as tokens it must attend to, so it can slice, compute over, and iterate on the input as a variable. The second property matters as much: it",
           "source_name": "AI Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google",
+          "url": "https://www.youtube.com/watch?v=9R--1tg45Jg",
+          "published": "2026-09-09T13:00:04+00:00",
+          "content_snippet": "In one of the demos an agent hits an error, decides the fix is to delete the table and start fresh, and does exactly that. Nothing stops it. Averi Kitsch, technical lead for MCP Toolbox on Google Cloud databases, and Prerna Kakkar, who leads Eval Bench at Google, use that failure to draw the line their talk is named for. Build time tools serve developer assistance: control plane tools that manage instances, and natural language to SQL that writes whatever query a question needs. They are flexibl",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher",
+          "url": "https://www.youtube.com/watch?v=y2W4FNAuPEA",
+          "published": "2026-09-08T15:00:06+00:00",
+          "content_snippet": "A single token of KV cache on Mistral 7B costs 131 KB. Multiply that by 16,000 tokens of context and 80 concurrent users and the cache alone wants 42 GB of GPU memory, which is why requests start failing on a 24 GB card. Harshul Jain, a senior software engineer at Audible, and Tanmay Sah, an independent AI researcher, spend this workshop building that number up from first principles. They open on three symptoms every team hits: memory that climbs with context length, time to first token that deg",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
         }
       ],
+      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 7
+  "deduped_count": 8
 }
