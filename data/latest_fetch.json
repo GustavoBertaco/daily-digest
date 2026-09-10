@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T13:53:53Z",
+  "fetched_at": "2026-09-10T13:48:18Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,12 +12,27 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Why Codex was built in Rust",
+          "url": "https://www.youtube.com/watch?v=MMHNmfQvw8Q",
+          "published": "2026-09-10T00:00:03+00:00",
+          "content_snippet": "with Tibo Sottiaux, Head of Core Products & Platform at OpenAI See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Technology"
         },
+        {
+          "title": "Building Codex with Tibo Sottiaux",
+          "url": "https://www.youtube.com/watch?v=sLSTM9znQNs",
+          "published": "2026-09-09T15:56:04+00:00",
+          "content_snippet": "Tibo Sottiaux is one of the engineers who created Codex, and today, he heads up the Core Products & Platform org at OpenAI which also includes Codex. He’s also one of the most public faces of Codex due to his frequent – and generous – usage reset announcements, like this one yesterday. In this episode of the Pragmatic Engineer Podcast, Tibo and I discuss how Codex was built and continues to be iterated upon. We explore why the Codex CLI is written in Rust and was released as open source, how the",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Netflix Tech Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -32,7 +47,7 @@
         }
       ],
       "deduped_sources": {
-        "Meta Engineering": 2
+        "Meta Engineering": 1
       }
     },
     {
@@ -59,11 +74,20 @@
       ],
       "items": [
         {
-          "title": "Four ways to act before you feel ready",
-          "url": "https://www.youtube.com/watch?v=G4BKPG3-8Q8",
-          "published": "2026-09-08T19:55:48+00:00",
-          "content_snippet": "Number two is the one I'd defend hardest, and there's a reason it works that has nothing to do with willpower. Teresa Amabile at Harvard collected nearly 12,000 daily diary entries from 238 professionals across 26 project teams, then went looking for what separated the good workdays from the bad ones. It wasn't recognition, or pressure, or incentives. The single biggest driver of a good day was progress — often small, sometimes almost trivial. One useful paragraph. One problem cleared. She calle",
+          "title": "Trapped Ant Experiment",
+          "url": "https://www.youtube.com/watch?v=8O7Cl4xvO7E",
+          "published": "2026-09-09T14:23:58+00:00",
+          "content_snippet": "--The ant has a laboratory version. Sports scientists at Northumbria University had trained cyclists race a time trial against an on-screen avatar they were told was pacing their own personal best. It wasn't. It had been set slightly faster than anything they had ever managed. They kept up with it anyway, producing power they had never produced before, and only found out afterward. Their bodies were not at the limit. Their belief about the limit was. Worth remembering the next time you feel a ce",
           "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "How to express your needs (without conflict) | John Gottman",
+          "url": "https://www.youtube.com/watch?v=nZfe9U_j4vc",
+          "published": "2026-09-09T16:04:16+00:00",
+          "content_snippet": "How to express your needs (without conflict) | John Gottman",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -71,10 +95,6 @@
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Big Think",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -111,7 +131,7 @@
       ],
       "deduped_sources": {
         "NextGenLakehouse": 1,
-        "The Analytics Engineering Podcast": 1
+        "The Analytics Engineering Podcast": 2
       }
     },
     {
@@ -130,156 +150,129 @@
       ],
       "items": [
         {
-          "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
-          "published": "2026-09-08T22:49:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, professional-quality writing and design, and advanced computer and browser use to demanding business workflows. It supports a context window of up to 1 million input tokens and can produce output aligned with organizational voice, templates, and standards. The Amazon Bedrock inference engine delivers t",
+          "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+          "published": "2026-09-09T21:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same regardless of complexity or effort required. With this launch, managers can classify Task and Email contacts into workload types based on complexity, priority, or business function, each with its own concurrency and interruption rules. For example",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
-          "published": "2026-09-08T21:58:00+00:00",
-          "content_snippet": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private repositories you control and the engine fetches and runs it in response to triggers, letting you implement logic specific to your workload without standing up separate external infrastructure. Plugins run on the trigger types the processing engine already supports and with them, you can build custom data ",
+          "title": "AWS Transform for .NET modernization is now generally available via CLI",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+          "published": "2026-09-09T20:00:00+00:00",
+          "content_snippet": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation interactively, or script it into any existing pipeline or workflow to run autonomously. The CLI experience complements the existing AWS Transform for .NET experiences: the web application, Visual Studio IDE, Kiro Power, and MCP agents. AWS Transform custom enables organizations to mod",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
-          "published": "2026-09-08T21:19:00+00:00",
-          "content_snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating individual features in a record. Data scientists can now update one or more feature values in a single request, without rewriting the entire record. Data scientists can use a single update call to replace the read-modify-write pattern their pipelines r",
+          "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+          "published": "2026-09-09T18:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications. Customers use Lambda to build serverless applications like event-driven processors, API ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform is now available in AWS GovCloud (US-West)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
-          "published": "2026-09-08T21:00:00+00:00",
-          "content_snippet": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the migration capabilities of AWS Transform to automate server migrations within an isolated environment designed to host sensitive data and regulated workloads. AWS Transform in this Region supports migrating servers to both AWS GovCloud (US-East) and AWS",
+          "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+          "published": "2026-09-09T18:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances . You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to Graviton4-powered instances. AWS Lambda Managed Instances lets you run Lambda functions on your AWS EC2 instances while maintaining Lambda's operational simplicity. With Lambda Managed Instances, you can access specialized compute configurati",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
-          "published": "2026-09-08T19:16:00+00:00",
-          "content_snippet": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway could present only a self-signed certificate that it generated; now you can use a certificate signed by a certificate authority you trust. Your integration endpoint validates this certificate during the handshake to confirm the connection comes from your API. You can import a certificate into ACM f",
+          "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+          "published": "2026-09-09T16:03:00+00:00",
+          "content_snippet": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected document in retrieval results for ACL-enabled data sources, it can be difficult to determine whether the cause is an access control misconfiguration or something else entirely. These new APIs and the accompanying console experience close th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
-          "published": "2026-09-08T16:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common",
+          "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+          "published": "2026-09-09T14:19:00+00:00",
+          "content_snippet": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and pages from their Confluence spaces directly into their managed knowledge base. Previously, bringing Confluence Data Center content into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentia",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
-          "published": "2026-09-08T16:00:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory strategies, and makes the resulting memory records available through the same retrieval operations used for any other long-term memory records, all without creating a short-term event. Until now, all content had to be stored as a short-term mem",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
-          "published": "2026-09-08T16:00:00+00:00",
-          "content_snippet": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
-          "published": "2026-09-08T14:32:00+00:00",
-          "content_snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom objects within cropped images. In addition, customers benefit from enhanced automatic image optimization that delivers appropriately sized images across every browser and device type, from phones and tablets to smart TVs, using CloudFront's mu",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-          "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-          "published": "2026-09-09T13:30:00+00:00",
-          "content_snippet": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
+          "title": "Five AI Questions We're Hearing from Financial Services Leaders",
+          "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
+          "published": "2026-09-09T18:09:29+00:00",
+          "content_snippet": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
-          "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-          "published": "2026-09-09T03:00:00+00:00",
-          "content_snippet": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing...",
+          "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
+          "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+          "published": "2026-09-09T16:20:00+00:00",
+          "content_snippet": "Solvency II reporting is not only a regulatory submission. It is a business process...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "SQL Data Types: Reference and Best Practices",
-          "url": "https://www.databricks.com/blog/sql-data-types",
-          "published": "2026-09-08T17:16:06+00:00",
-          "content_snippet": "A SQL data type is a fundamental specification that defines what values a column...",
+          "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+          "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
+          "published": "2026-09-09T14:04:44+00:00",
+          "content_snippet": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Build durable agents with Temporal and Lakebase",
-          "url": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
-          "published": "2026-09-08T15:46:40+00:00",
-          "content_snippet": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait...",
+          "title": "Introducing Consort: Test-driven development on a branching database",
+          "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
+          "published": "2026-09-09T13:41:25+00:00",
+          "content_snippet": "For 25 years I built software on the practices I grew up with: Kent Beck’s TDD, Martin...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing GPT-Image-2.5 in the API",
-          "url": "https://www.youtube.com/watch?v=A7MSwdXj86k",
-          "published": "2026-09-08T19:11:55+00:00",
-          "content_snippet": "Meet Sunburst and Flare, our two new GPT-Image-2.5 models. Sunburst brings sharper details, more natural lighting, and greater control across edits. Flare delivers high quality images over 50% faster. Both support transparent backgrounds for assets ranging from infographics to games. Available now in the API.",
+          "title": "ChatGPT Work, now powered by GPT-6 Astra",
+          "url": "https://www.youtube.com/watch?v=kuGjypoJKwk",
+          "published": "2026-09-09T21:54:53+00:00",
+          "content_snippet": "ChatGPT Work is now powered by GPT-6 Astra—our best model for professional work. Bring it your next big project. With Astra, ChatGPT Work better understands what you’re trying to do and pulls together the information you need from your connected apps and computer. It helps you create polished reports, presentations, and analyses faster—with more natural writing, a closer fit to your templates and style, and less cleanup. Then hand over the busywork. With your permission, ChatGPT Work can use you",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Templates with ChatGPT Images 2.5",
-          "url": "https://www.youtube.com/watch?v=-VukmrOT1eE",
-          "published": "2026-09-08T18:48:03+00:00",
-          "content_snippet": "Have an idea but need help getting started? Use templates for popular image formats like posters or merch, then add your message, design elements, or style to make it your own. ChatGPT Images 2.5 is rolling out today to all ChatGPT, ChatGPT Work, and Codex users across desktop, mobile, and web.",
+          "title": "GPT-6 Astra turned London into a game",
+          "url": "https://www.youtube.com/watch?v=cmN6XVuLEd4",
+          "published": "2026-09-09T21:39:53+00:00",
+          "content_snippet": "",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Sketch with ChatGPT Images 2.5",
-          "url": "https://www.youtube.com/watch?v=imPtIEAEHSU",
-          "published": "2026-09-08T18:46:42+00:00",
-          "content_snippet": "Some ideas are easier to draw than describe. Use Sketch to draw right in ChatGPT and show it exactly what you have in mind. Just type “@ Sketch” in ChatGPT.",
+          "title": "GPT-6 Astra First Impressions From Businesses",
+          "url": "https://www.youtube.com/watch?v=n-dqdVMwoas",
+          "published": "2026-09-09T19:00:16+00:00",
+          "content_snippet": "See how Box, Ramp, Figma, Cognition, Balsyny Asset Management, and CXO.dev are already using GPT-6 Astra in core business and coding workflows.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing ChatGPT Images 2.5",
-          "url": "https://www.youtube.com/watch?v=6l7ble9P74o",
-          "published": "2026-09-08T18:44:08+00:00",
-          "content_snippet": "Say hello to ChatGPT Images 2.5—faster, sharper, smarter, with better tools for creating whatever you can dream of. - Faster image generation to keep your ideas flowing - Improved fidelity for more natural, recognizable images - Consistent details across multiple edits - Comment-based edits to change only what you want",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Factoring RSA-260",
+          "url": "https://cognition.ai/blog/factoring-rsa-260",
+          "published": "2026-09-09T17:00:00+00:00",
+          "content_snippet": "Factoring RSA-260\nOver the past few weeks, the Cognition research team and I have been optimizing our job scheduler to better use disaggregated compute. As a proof of concept, and because I’ve enjoyed factoring numbers as a hobby for the past ten years or so, I drove a bevy of Devins to obtain a factorization of RSA-260. In order to do this, my Devins built the world's highest-performance GPU lattice siever, which enables factoring numbers at 10x lower cost than the previous public state of the ",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
@@ -290,10 +283,6 @@
         },
         {
           "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -312,28 +301,55 @@
       ],
       "items": [
         {
-          "title": "It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners",
-          "url": "https://www.youtube.com/watch?v=xo68uCibfm8",
-          "published": "2026-09-09T13:30:27+00:00",
-          "content_snippet": "Ask a model to sum twelve numbers scattered across thirty thousand tokens and it will often get it wrong. Give it a Python REPL and it writes a few lines of regex instead. That is the shift Kevin Madura, director of advanced technology at AlixPartners, describes in recursive language models. An RLM treats its context as an object living in a REPL rather than as tokens it must attend to, so it can slice, compute over, and iterate on the input as a variable. The second property matters as much: it",
+          "title": "The exact tools used to port a massive codebase in days #programming #typescript #dev",
+          "url": "https://www.youtube.com/watch?v=AJhjm4_UJIk",
+          "published": "2026-09-09T20:07:49+00:00",
+          "content_snippet": "Why porting a massive codebase from Python to TypeScript was the right move. Mike Krieger, co-lead of Anthropic and founder of Instagram, breaks down the unconventional engineering decision behind this switch. He details how integrating Bun and a new deployment strategy justified the migration despite the scale of the project. Subscribe for more deep dives into complex engineering choices.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google",
-          "url": "https://www.youtube.com/watch?v=9R--1tg45Jg",
-          "published": "2026-09-09T13:00:04+00:00",
-          "content_snippet": "In one of the demos an agent hits an error, decides the fix is to delete the table and start fresh, and does exactly that. Nothing stops it. Averi Kitsch, technical lead for MCP Toolbox on Google Cloud databases, and Prerna Kakkar, who leads Eval Bench at Google, use that failure to draw the line their talk is named for. Build time tools serve developer assistance: control plane tools that manage instances, and natural language to SQL that writes whatever query a question needs. They are flexibl",
+          "title": "ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block",
+          "url": "https://www.youtube.com/watch?v=YkNulwcc5jk",
+          "published": "2026-09-09T16:00:03+00:00",
+          "content_snippet": "Alex Hancock built one of the clients in this talk the night before he gave it, which is roughly the point. Hancock is a software engineer at Block, works on the open source agent harness Goose, now donated to the Linux Foundation, and maintains the Rust SDK for MCP. His argument is that the agentic stack already has a good standard for agents reaching outward to do things, which is MCP, and that the strongest thing about MCP is not its design but the fact that everyone uses it. What is missing ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher",
-          "url": "https://www.youtube.com/watch?v=y2W4FNAuPEA",
-          "published": "2026-09-08T15:00:06+00:00",
-          "content_snippet": "A single token of KV cache on Mistral 7B costs 131 KB. Multiply that by 16,000 tokens of context and 80 concurrent users and the cache alone wants 42 GB of GPU memory, which is why requests start failing on a 24 GB card. Harshul Jain, a senior software engineer at Audible, and Tanmay Sah, an independent AI researcher, spend this workshop building that number up from first principles. They open on three symptoms every team hits: memory that climbs with context length, time to first token that deg",
+          "title": "MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed",
+          "url": "https://www.youtube.com/watch?v=lbaXnx0KLA8",
+          "published": "2026-09-09T15:30:08+00:00",
+          "content_snippet": "Adding a nice interface made the product worse. With plain text results the model would run ten or fifteen job searches, filter them, and assemble a table. Once a rendering widget was attached, it called the tool once, saw results already on screen, and stopped exploring. Dustin Mihalik is a technical fellow at Indeed working on AI platform and guardrails, and this is a lessons from the trenches account of building MCP apps for Claude, ChatGPT, and Indeed's own job seeker agent. He starts with w",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI",
+          "url": "https://www.youtube.com/watch?v=XzJD1bvXKjs",
+          "published": "2026-09-09T15:00:06+00:00",
+          "content_snippet": "Laurie Voss reran a year old benchmark and the models walked straight through its ceiling without noticing it was there. IFScale asks a model to write a business report containing a list of exact words, then counts how many actually appear. A year ago frontier models started dropping instructions somewhere around 200 to 300, which is a hard limit on how much you can put in a skills file. Voss, head of developer relations at Arize AI and a cofounder of npm, first replicated that result on the thr",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked",
+          "url": "https://www.youtube.com/watch?v=KcVkq5L-0f0",
+          "published": "2026-09-09T14:30:12+00:00",
+          "content_snippet": "Unblocked ran the same prompt against the same model twice, once with a context engine behind it and once without. The run without it burned twenty one million tokens. The run with it burned ten point eight million and finished about two hours sooner. Brandon Waselnuk works in developer relations at Unblocked, and he opens with the standard his talk is named for: AI generated code should feel like it was written by someone who has been on your team for years. You became that person by asking que",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn",
+          "url": "https://www.youtube.com/watch?v=9wZpvF3QleU",
+          "published": "2026-09-09T14:00:06+00:00",
+          "content_snippet": "LinkedIn exposes roughly 1,300 tools and 600 playbooks to its coding agents, and all of them sit behind exactly three. MCP degrades somewhere past thirty or forty tools, so Ajay Prakash's team replaced the whole surface with search, get schema, and execute, letting an agent find what it needs instead of carrying everything in context. Prakash is a senior staff software engineer at LinkedIn, and he opens with an on call incident. An alert goes to a coding agent, which pulls the debugging instruct",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -343,5 +359,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 8
+  "deduped_count": 15
 }
