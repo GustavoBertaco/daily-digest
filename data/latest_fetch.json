@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T13:48:18Z",
+  "fetched_at": "2026-09-11T13:48:42Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,19 +14,10 @@
       ],
       "items": [
         {
-          "title": "Why Codex was built in Rust",
-          "url": "https://www.youtube.com/watch?v=MMHNmfQvw8Q",
-          "published": "2026-09-10T00:00:03+00:00",
+          "title": "Is local dev disappearing with agents",
+          "url": "https://www.youtube.com/watch?v=r4Mn_HJkN6A",
+          "published": "2026-09-10T15:43:51+00:00",
           "content_snippet": "with Tibo Sottiaux, Head of Core Products & Platform at OpenAI See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Building Codex with Tibo Sottiaux",
-          "url": "https://www.youtube.com/watch?v=sLSTM9znQNs",
-          "published": "2026-09-09T15:56:04+00:00",
-          "content_snippet": "Tibo Sottiaux is one of the engineers who created Codex, and today, he heads up the Core Products & Platform org at OpenAI which also includes Codex. He’s also one of the most public faces of Codex due to his frequent – and generous – usage reset announcements, like this one yesterday. In this episode of the Pragmatic Engineer Podcast, Tibo and I discuss how Codex was built and continues to be iterated upon. We explore why the Codex CLI is written in Rust and was released as open source, how the",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -42,13 +33,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Meta Engineering": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -74,19 +67,10 @@
       ],
       "items": [
         {
-          "title": "Trapped Ant Experiment",
-          "url": "https://www.youtube.com/watch?v=8O7Cl4xvO7E",
-          "published": "2026-09-09T14:23:58+00:00",
-          "content_snippet": "--The ant has a laboratory version. Sports scientists at Northumbria University had trained cyclists race a time trial against an on-screen avatar they were told was pacing their own personal best. It wasn't. It had been set slightly faster than anything they had ever managed. They kept up with it anyway, producing power they had never produced before, and only found out afterward. Their bodies were not at the limit. Their belief about the limit was. Worth remembering the next time you feel a ce",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How to express your needs (without conflict) | John Gottman",
-          "url": "https://www.youtube.com/watch?v=nZfe9U_j4vc",
-          "published": "2026-09-09T16:04:16+00:00",
-          "content_snippet": "How to express your needs (without conflict) | John Gottman",
+          "title": "The 28-day cycle, and other myths of menstruation | Jen Gunter: Full Interview",
+          "url": "https://www.youtube.com/watch?v=gVars5PNOMg",
+          "published": "2026-09-11T13:00:04+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-gunter-gVars5PNOMg Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The evolution of laziness: Why humans resist the gym | Daniel Lieberman: Full Interview ► https://www.youtube.com/watch?v=TLY0TNm67hY O",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -98,7 +82,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -150,127 +136,172 @@
       ],
       "items": [
         {
-          "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
-          "published": "2026-09-09T21:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same regardless of complexity or effort required. With this launch, managers can classify Task and Email contacts into workload types based on complexity, priority, or business function, each with its own concurrency and interruption rules. For example",
+          "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
+          "published": "2026-09-10T20:00:00+00:00",
+          "content_snippet": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected billing caused by unintended recursive loops. Customers use event sources such as Amazon S3, Amazon SQS, and Amazon SNS to build event driven applications that trigger Lambda functions. Misconfiguration or code defect can cause events to be s",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform for .NET modernization is now generally available via CLI",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
-          "published": "2026-09-09T20:00:00+00:00",
-          "content_snippet": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation interactively, or script it into any existing pipeline or workflow to run autonomously. The CLI experience complements the existing AWS Transform for .NET experiences: the web application, Visual Studio IDE, Kiro Power, and MCP agents. AWS Transform custom enables organizations to mod",
+          "title": "AWS Transform for .NET now generates unit tests for modernized code",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
+          "published": "2026-09-10T20:00:00+00:00",
+          "content_snippet": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic and controllers, giving you an automated test safety net on the modernized code as part of the same job that performs the migration. Modernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
-          "published": "2026-09-09T18:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications. Customers use Lambda to build serverless applications like event-driven processors, API ",
+          "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
+          "published": "2026-09-10T20:00:00+00:00",
+          "content_snippet": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB, limiting visibility into request and response data. You can now route execution logs up to 1 MB to your own Amazon CloudWatch Logs log groups, Amazon S3 buckets, or Amazon Data Firehose streams, and deliver to multiple destinations simultaneously.",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
-          "published": "2026-09-09T18:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances . You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to Graviton4-powered instances. AWS Lambda Managed Instances lets you run Lambda functions on your AWS EC2 instances while maintaining Lambda's operational simplicity. With Lambda Managed Instances, you can access specialized compute configurati",
+          "title": "AWS Lambda durable functions integrates with Pydantic AI",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+          "published": "2026-09-10T18:45:00+00:00",
+          "content_snippet": "Today, AWS Lambda durable functions announces an integration with Pydantic AI , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself. With this integration, each model and tool call your agent make",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
-          "published": "2026-09-09T16:03:00+00:00",
-          "content_snippet": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected document in retrieval results for ACL-enabled data sources, it can be difficult to determine whether the cause is an access control misconfiguration or something else entirely. These new APIs and the accompanying console experience close th",
+          "title": "Amazon MQ now supports RabbitMQ 4.3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
+          "published": "2026-09-10T18:08:00+00:00",
+          "content_snippet": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance improvements for memory management. Quorum queues on RabbitMQ 4.3 performs compaction to reduce disk usage for queues and native support for 32 strict priority levels, compared to the relative 2 levels supported in previous RabbitMQ versions. Quor",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
-          "published": "2026-09-09T14:19:00+00:00",
-          "content_snippet": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and pages from their Confluence spaces directly into their managed knowledge base. Previously, bringing Confluence Data Center content into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentia",
+          "title": "Announcing second-generation single-rack AWS Outposts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+          "published": "2026-09-10T17:58:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data processing, and data residency in space and power constrained locations. A single-rack Outposts delivers up to 2,688 vCPU and 100 TB of Amazon Elastic Block Store (Amazon EBS) storage. Moreover, like multi-rack Outposts, single-rack Outposts su",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Five AI Questions We're Hearing from Financial Services Leaders",
-          "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
-          "published": "2026-09-09T18:09:29+00:00",
-          "content_snippet": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...",
+          "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+          "published": "2026-09-10T17:00:00+00:00",
+          "content_snippet": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure management and automatically scales capacity up and down based on demand, so you can focus on building and not managing clusters. With this launch, you can use natural language prompts to build applications powered by OpenSearch Serverless for",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+          "published": "2026-09-10T16:52:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS tasks. This helps organizations prevent unexpected cost overruns and keep workloads aligned with their resource policies. Previously, the ecs:task-cpu and ecs:task-memory condition keys were available only on the RegisterTaskDefinition, Cre",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
+          "published": "2026-09-10T16:00:00+00:00",
+          "content_snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehou",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
+          "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
+          "published": "2026-09-10T15:05:10+00:00",
+          "content_snippet": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
-          "url": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
-          "published": "2026-09-09T16:20:00+00:00",
-          "content_snippet": "Solvency II reporting is not only a regulatory submission. It is a business process...",
+          "title": "Improving Lakebase Postgres compute cache",
+          "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
+          "published": "2026-09-10T13:47:03+00:00",
+          "content_snippet": "The disaggregated storage model of Lakebase Postgres provides a feature rich, flexible...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
-          "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
-          "published": "2026-09-09T14:04:44+00:00",
-          "content_snippet": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Consort: Test-driven development on a branching database",
-          "url": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
-          "published": "2026-09-09T13:41:25+00:00",
-          "content_snippet": "For 25 years I built software on the practices I grew up with: Kent Beck’s TDD, Martin...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Work, now powered by GPT-6 Astra",
-          "url": "https://www.youtube.com/watch?v=kuGjypoJKwk",
-          "published": "2026-09-09T21:54:53+00:00",
-          "content_snippet": "ChatGPT Work is now powered by GPT-6 Astra—our best model for professional work. Bring it your next big project. With Astra, ChatGPT Work better understands what you’re trying to do and pulls together the information you need from your connected apps and computer. It helps you create polished reports, presentations, and analyses faster—with more natural writing, a closer fit to your templates and style, and less cleanup. Then hand over the busywork. With your permission, ChatGPT Work can use you",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-6 Astra turned London into a game",
-          "url": "https://www.youtube.com/watch?v=cmN6XVuLEd4",
-          "published": "2026-09-09T21:39:53+00:00",
+          "title": "GPT-6 Astra built a font playground",
+          "url": "https://www.youtube.com/watch?v=0NUm552iB3U",
+          "published": "2026-09-11T04:08:16+00:00",
           "content_snippet": "",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "GPT-6 Astra First Impressions From Businesses",
-          "url": "https://www.youtube.com/watch?v=n-dqdVMwoas",
-          "published": "2026-09-09T19:00:16+00:00",
-          "content_snippet": "See how Box, Ramp, Figma, Cognition, Balsyny Asset Management, and CXO.dev are already using GPT-6 Astra in core business and coding workflows.",
+          "title": "Introducing the Agents API",
+          "url": "https://www.youtube.com/watch?v=2YHa1vhnmK0",
+          "published": "2026-09-10T19:26:05+00:00",
+          "content_snippet": "The Agents API brings a hosted version of the Codex harness to your applications. See how to build an agent that investigates production incidents, connects to tools through MCP, follows a runbook, and delivers a shareable report with evidence and suggested next steps. Learn more: https://developers.openai.com/api/docs/guides/agents-api/overview",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Factoring RSA-260",
-          "url": "https://cognition.ai/blog/factoring-rsa-260",
-          "published": "2026-09-09T17:00:00+00:00",
-          "content_snippet": "Factoring RSA-260\nOver the past few weeks, the Cognition research team and I have been optimizing our job scheduler to better use disaggregated compute. As a proof of concept, and because I’ve enjoyed factoring numbers as a hobby for the past ten years or so, I drove a bevy of Devins to obtain a factorization of RSA-260. In order to do this, my Devins built the world's highest-performance GPU lattice siever, which enables factoring numbers at 10x lower cost than the previous public state of the ",
+          "title": "In Harmony",
+          "url": "https://www.youtube.com/watch?v=PbfXbDbCthA",
+          "published": "2026-09-10T17:29:32+00:00",
+          "content_snippet": "Work directed by you. Move projects forward and turn ideas into action with ChatGPT Work.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Two blind brothers using ChatGPT to navigate life and run their nonprofit",
+          "url": "https://www.youtube.com/watch?v=qg_54P-oPgI",
+          "published": "2026-09-10T16:00:27+00:00",
+          "content_snippet": "Bradford and Bryan Manning have spent their lives adapting to a world built for sight. Both brothers live with Stargardt disease, which has taken much of their central vision and made everyday tasks like navigating a crowded street far more difficult. Today, they use ChatGPT to turn visual information into something they can hear, understand, and act on. It helps them navigate unfamiliar places, analyze data, keep up with email, and run Two Blind Brothers, the nonprofit they founded to support t",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Helping a small business go big with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=mPAmXQnhv2E",
+          "published": "2026-09-10T16:00:09+00:00",
+          "content_snippet": "Derek and Larissa Guetter own ATV Big Air Tour – a small business that brings high-octane ATV and motocross shows to events across the country. They’ve been growing their business for 11 years, and now they’re competing with some of the biggest entertainment companies in the US. As a team of two, they use ChatGPT to help them with every aspect of their business. ChatGPT creates marketing plans, evaluates partnerships, and runs inventory, as well as helping them with setup on show days. It acts a",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Discovering new antibiotics with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=0XLGisanEAs",
+          "published": "2026-09-10T15:59:55+00:00",
+          "content_snippet": "The de la Fuente Lab is using ChatGPT and Codex in the search for new molecules that could help fight antibiotic-resistant bacteria. Modern medicine relies on effective antibiotics, which help us recover from routine illnesses, surgeries, childbirth, and more. However, antimicrobial resistance (AMR) is a growing problem. Approximately 5 million people die every year from bacterial AMR, and that number is expected to double by 2050. Dr. César de la Fuente and his team use ChatGPT and Codex to exp",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Data agent in ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=MSiAd36bGeQ",
+          "published": "2026-09-10T15:07:22+00:00",
+          "content_snippet": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in the ChatGPT Work, connect to the data sources and context you already use, and start the conversation. More here: https://openai.com/index/put-data-to-work/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Welcoming Dioxus to Cognition",
+          "url": "https://cognition.ai/blog/welcoming-dioxus",
+          "published": "2026-09-10T17:00:00+00:00",
+          "content_snippet": "Welcoming Dioxus to Cognition\nWe’re thrilled to welcome Jonathan Kelley and the entire Dioxus team to Cognition.\nDioxus was founded to simplify app development and make it easier for small teams to ship ambitious apps across platforms. At Cognition, we used Dioxus extensively to build and improve the performance of Devin. When the two teams met, we knew there was a natural fit.\nCognition is proud to continue to support Dioxus’ open source work. As one team, we plan on continuing support for Diox",
           "source_name": "Devin AI (Cognition)",
           "source_type": "website",
           "area_name": "Providers Updates"
@@ -301,55 +332,64 @@
       ],
       "items": [
         {
-          "title": "The exact tools used to port a massive codebase in days #programming #typescript #dev",
-          "url": "https://www.youtube.com/watch?v=AJhjm4_UJIk",
-          "published": "2026-09-09T20:07:49+00:00",
-          "content_snippet": "Why porting a massive codebase from Python to TypeScript was the right move. Mike Krieger, co-lead of Anthropic and founder of Instagram, breaks down the unconventional engineering decision behind this switch. He details how integrating Bun and a new deployment strategy justified the migration despite the scale of the project. Subscribe for more deep dives into complex engineering choices.",
+          "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
+          "url": "https://www.youtube.com/watch?v=O1FN4awNEtM",
+          "published": "2026-09-10T17:00:06+00:00",
+          "content_snippet": "Vincent Wendy pointed an agent at the sponsor banner in the lobby, a wall carrying more than 140 logos, and asked it which ones were missing. It caught every omission in the checks he ran, and he used the same trick on the conference shirt. Wendy is the senior creative designer at AI Engineer, a company of roughly twelve to fifteen people, and he is its only designer. The conference he designs for grew to 7,000 attendees, more than 140 sponsors, more than 300 speakers, and more than 600 sessions",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block",
-          "url": "https://www.youtube.com/watch?v=YkNulwcc5jk",
-          "published": "2026-09-09T16:00:03+00:00",
-          "content_snippet": "Alex Hancock built one of the clients in this talk the night before he gave it, which is roughly the point. Hancock is a software engineer at Block, works on the open source agent harness Goose, now donated to the Linux Foundation, and maintains the Rust SDK for MCP. His argument is that the agentic stack already has a good standard for agents reaching outward to do things, which is MCP, and that the strongest thing about MCP is not its design but the fact that everyone uses it. What is missing ",
+          "title": "Generative UI... in Python? — Jeremiah Lowin, Prefect",
+          "url": "https://www.youtube.com/watch?v=Krzs8GeiWTc",
+          "published": "2026-09-10T16:30:07+00:00",
+          "content_snippet": "Because only the agent can reach an MCP server, a naive file upload tool makes the agent retype the file into the server character by character. Jeremiah Lowin calls it the world's most expensive copy paste operation, and it is the problem MCP apps exist to remove. Lowin is founder and CEO of Prefect and the author of FastMCP. MCP apps, a protocol extension added this year, let a tool result skip the agent and arrive at the user as HTML, CSS, and JavaScript: a real interface a person can click. ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed",
-          "url": "https://www.youtube.com/watch?v=lbaXnx0KLA8",
-          "published": "2026-09-09T15:30:08+00:00",
-          "content_snippet": "Adding a nice interface made the product worse. With plain text results the model would run ten or fifteen job searches, filter them, and assemble a table. Once a rendering widget was attached, it called the tool once, saw results already on screen, and stopped exploring. Dustin Mihalik is a technical fellow at Indeed working on AI platform and guardrails, and this is a lessons from the trenches account of building MCP apps for Claude, ChatGPT, and Indeed's own job seeker agent. He starts with w",
+          "title": "Training Taste — Thais Castello Branco, Taste Labs",
+          "url": "https://www.youtube.com/watch?v=sDMGWK4wZ_w",
+          "published": "2026-09-10T16:00:20+00:00",
+          "content_snippet": "Taste Labs analyzed more than two million websites going back a decade, and the finding that complicates the usual story is that the internet was homogenizing before AI arrived: palettes converging, layouts converging, trends spreading faster than they once did. AI did not start the collapse. It accelerated it and made it context blind, so a pet shop and a finance firm end up with the same page. Thais Castello Branco founded Taste Labs, out of stealth weeks before this talk, to attack that. She ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=XzJD1bvXKjs",
-          "published": "2026-09-09T15:00:06+00:00",
-          "content_snippet": "Laurie Voss reran a year old benchmark and the models walked straight through its ceiling without noticing it was there. IFScale asks a model to write a business report containing a list of exact words, then counts how many actually appear. A year ago frontier models started dropping instructions somewhere around 200 to 300, which is a hard limit on how much you can put in a skills file. Voss, head of developer relations at Arize AI and a cofounder of npm, first replicated that result on the thr",
+          "title": "Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc.",
+          "url": "https://www.youtube.com/watch?v=v42opQpCy60",
+          "published": "2026-09-10T15:30:14+00:00",
+          "content_snippet": "The instruction Impeccable loads when you type \"bolder\" ends with a challenge: show someone your work, say AI made this bolder, and if they believe you, you failed. Bakaus has built tools for more than twenty years. Impeccable is a design skill that rides on top of a coding harness rather than replacing it, working across Claude Code, Copilot, Cursor, and Codex. He opens by running the same prompt on the same bland page twice, with the skill and without, and lets the room judge. His observation ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked",
-          "url": "https://www.youtube.com/watch?v=KcVkq5L-0f0",
-          "published": "2026-09-09T14:30:12+00:00",
-          "content_snippet": "Unblocked ran the same prompt against the same model twice, once with a context engine behind it and once without. The run without it burned twenty one million tokens. The run with it burned ten point eight million and finished about two hours sooner. Brandon Waselnuk works in developer relations at Unblocked, and he opens with the standard his talk is named for: AI generated code should feel like it was written by someone who has been on your team for years. You became that person by asking que",
+          "title": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
+          "url": "https://www.youtube.com/watch?v=8KkibGU_DDY",
+          "published": "2026-09-10T15:00:39+00:00",
+          "content_snippet": "Selling steam engines to people who thought in horses, James Watt studied the horse gins that powered mills, worked out what one animal produced, and called it horsepower. The number was not scientific and arguably not accurate. It did not have to be. It made the improvement legible enough that someone who liked horses would try a machine. Maximillian Piras is the founding designer at Yutori, which builds computer use models: agents that drive a computer as a person would, where no API or MCP ex",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn",
-          "url": "https://www.youtube.com/watch?v=9wZpvF3QleU",
-          "published": "2026-09-09T14:00:06+00:00",
-          "content_snippet": "LinkedIn exposes roughly 1,300 tools and 600 playbooks to its coding agents, and all of them sit behind exactly three. MCP degrades somewhere past thirty or forty tools, so Ajay Prakash's team replaced the whole surface with search, get schema, and execute, letting an agent find what it needs instead of carrying everything in context. Prakash is a senior staff software engineer at LinkedIn, and he opens with an on call incident. An alert goes to a coding agent, which pulls the debugging instruct",
+          "title": "The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI",
+          "url": "https://www.youtube.com/watch?v=NW-jwOVr32w",
+          "published": "2026-09-10T14:30:11+00:00",
+          "content_snippet": "Jonathan Gordon was deep in a vibe coding session, ignoring the wall of text scrolling past, when the phrase innerHTML caught his eye. He knew it as an injection risk, stopped the agent, and made it revert. That was the moment he started reading the code again. Gordon has spent more than thirty years building developer tools and IDEs, and he defines his title precisely: a design code roundtrip is a full loop both ways with no loss of fidelity and persistent provenance, so you always know which l",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw",
+          "url": "https://www.youtube.com/watch?v=XWcXwnysmpY",
+          "published": "2026-09-10T14:00:06+00:00",
+          "content_snippet": "One of Max Drake's colleagues turned a whiteboard app into a window manager, then used it to play Pong with real desktop windows. Drake is a product engineer at tldraw, the London company behind the free infinite canvas app and, more importantly to him, the SDK powering other people's canvases, including Replit's. tldraw exists because people building canvas apps got stuck on the canvas itself, on selection and resizing and matrix math, and never reached their actual product. His talk is about t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -359,5 +399,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 14
 }
