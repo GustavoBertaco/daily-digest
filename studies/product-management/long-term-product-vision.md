@@ -130,7 +130,7 @@ flowchart LR
     subgraph DS["Downstream — outside this study's scope"]
         direction TB
         V["Validate & evangelize<br/>endorse the vision<br/>with squad leads"]
-        O["Annual OKRs<br/>per investment area"]
+        O["Annual OKRs<br/>per investment area<br/>(separate study)"]
         SQ["Squad cascade<br/>squad initiatives<br/>(separate study)"]
         V -.-> O -.-> SQ
     end
@@ -342,12 +342,14 @@ produced by this dynamic (see *Downstream*).
 
 ### Downstream
 
-Steps beyond this study's current scope, to be fleshed out in a later iteration:
+Steps beyond this study's current scope:
 
 1. **Define next-year OKRs from the investment areas.** Based on the main areas of
-   investment, define the OKRs for the following year.
+   investment, define the OKRs for the following year — now written up as its own study:
+   [From a Long-Term Vision to Annual OKRs](./annual-okrs-from-the-long-term-vision.md),
+   a one-day dynamic for a large leadership group.
 2. **Squads define their initiatives.** Based on those OKRs, each squad defines the
-   initiatives that pursue them.
+   initiatives that pursue them. *(Still to be fleshed out in a later iteration.)*
 
 ## References
 
