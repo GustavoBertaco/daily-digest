@@ -1,8 +1,9 @@
 # From a Long-Term Vision to Annual OKRs
 
-> A one-day dynamic for a large leadership group (25+) that turns a long-term product
-> vision — its investment fronts, North Stars and Three-Horizons initiatives — into a
-> committed set of annual OKRs, *negotiated* rather than cascaded.
+> Turning a long-term product vision — its investment fronts, North Stars and
+> Three-Horizons initiatives — into a committed set of annual OKRs, through a dynamic
+> built for a **single large room** of 25+ leaders: the homework does the producing, the
+> room does the deciding.
 
 - **Topic:** Product Management
 - **Date:** 2026-09-11
@@ -14,67 +15,20 @@
 
 ## Contents
 
-1. [Context](#context)
-2. [What an OKR actually is](#what-an-okr-actually-is)
-3. [The bridge from North Star to Key Results](#the-bridge-from-north-star-to-key-results)
+1. [What an OKR actually is](#what-an-okr-actually-is)
+2. [The bridge from North Star to Key Results](#the-bridge-from-north-star-to-key-results)
+3. [Designing this for one room](#designing-this-for-one-room)
 4. [The process at a glance](#the-process-at-a-glance)
-5. [Before the day](#before-the-day)
-6. [Morning: the Measure Room](#morning-the-measure-room)
-7. [The synthesis lunch](#the-synthesis-lunch)
-8. [Afternoon: the Commitment Room](#afternoon-the-commitment-room)
-9. [After the day](#after-the-day)
-10. [Open questions and next steps](#open-questions-and-next-steps)
-11. [References](#references)
-12. [Appendix A. Annual OKR artifact template](#appendix-a-annual-okr-artifact-template)
-13. [Appendix B. The Key Result quality gate](#appendix-b-the-key-result-quality-gate)
-14. [Appendix C. Facilitator run-sheet](#appendix-c-facilitator-run-sheet)
-15. [Appendix D. Kick-off presentation storyline](#appendix-d-kick-off-presentation-storyline)
-
-## Context
-
-The [long-term product vision](./long-term-product-vision.md) study deliberately stops at
-**"the vision + a North Star per investment area"**, and lists what comes next as out of
-scope:
-
-> 1. **Define next-year OKRs from the investment areas.**
-> 2. **Squads define their initiatives.**
-
-This study writes step 1. It assumes the vision dynamic has already been run and that the
-organization now holds three things: a set of **investment fronts** (here: five), a
-**North Star per front**, and a body of **initiatives classified by McKinsey's Three
-Horizons**. The question it answers is narrow and practical:
-
-> *How does a GPM get 25+ leaders of a superintendency, in a single day, to co-create the
-> annual OKRs that turn that vision into a commitment — without the day collapsing into
-> either a top-down cascade or a re-reading of the initiative backlog?*
-
-**What makes this hard is not the OKR format — it is what the room walks in holding.**
-They arrive with a list of initiatives. The gravitational pull of that list is to become
-the Key Results ("deliver the catalog", "migrate 12 pipelines"), which is exactly the
-output/outcome trap. So the whole dynamic is organized around one rule, stated at the
-start and enforced all day — the structural twin of the vision workshop's *"no solution
-before the problem is on the wall"*:
-
-> ### An initiative is never a Key Result.
-> An initiative is a **bet** on a Key Result. If deleting the initiative forces you to
-> rewrite the Key Result, the Key Result was an initiative wearing a disguise.
-
-Six failure modes shape the design, each answered by a specific movement rather than by
-exhortation:
-
-| Failure mode | Where the design answers it |
-| --- | --- |
-| Initiative-as-Key-Result (the output trap) | The KR forge's quality gate ([Appendix B](#appendix-b-the-key-result-quality-gate)) and the **bet board** |
-| A wish list — 5 fronts × N initiatives | One Objective per front, ≤3 KRs; the **capacity chips** |
-| A cascade instead of a negotiation | The **catchball** shape: direction → toss → toss-back |
-| Everything lands in Horizon 1, because only H1 is measurable | The **horizon sort** and **learning KRs** for H3 |
-| Cross-front dependencies stay informal favours | The **dependency market**: shared KRs with a named owner |
-| Sandbagging, or fantasy targets | **Confidence calibration** and the committed/aspirational split |
-
-**Scope.** The dynamic ends at a ratified, superintendency-level annual OKR set plus the
-cadence that keeps it alive. The **squad-level cascade** — each squad turning these into
-its own quarterly OKRs and initiatives — stays out of scope, consistent with the vision
-study, and is the natural subject of a third study.
+5. [The homework that carries the day](#the-homework-that-carries-the-day)
+6. [The room: one group, one day](#the-room-one-group-one-day)
+7. [After the day](#after-the-day)
+8. [Open questions and next steps](#open-questions-and-next-steps)
+9. [References](#references)
+10. [Appendix A. Annual OKR artifact template](#appendix-a-annual-okr-artifact-template)
+11. [Appendix B. The Key Result quality gate](#appendix-b-the-key-result-quality-gate)
+12. [Appendix C. The homework pack](#appendix-c-the-homework-pack)
+13. [Appendix D. Facilitator run-sheet](#appendix-d-facilitator-run-sheet)
+14. [Appendix E. Kick-off presentation storyline](#appendix-e-kick-off-presentation-storyline)
 
 ## What an OKR actually is
 
@@ -206,7 +160,7 @@ in advance and is not negotiable in the room:
 > **One Objective per investment front, at most three Key Results.**
 > Five fronts gives five Objectives — already at the top of the recommended range.
 
-**How ambitious.** Three calibration devices, used together in [M9](#afternoon-the-commitment-room):
+**How ambitious.** Three calibration devices, used together in [R5](#the-room-one-group-one-day):
 
 - **Grading.** Google scores each KR 0–1.0, with the sweet spot at **0.6–0.7**. Hitting
   1.0 across the board is evidence the targets were too easy, not that the year went well.
@@ -273,7 +227,7 @@ day, plus one written round afterwards.
 | Fifteen Objectives | Every leader wants their area represented | The fixed constraint: one Objective per front |
 | Every KR at 90% in October | Sandbagging — targets set to be hit | Confidence calibration; grade the *set*, never the person |
 | All KRs are Horizon 1 | H1 is the only horizon with clean metrics | Horizon sort + learning KRs for H3 |
-| We hit everything and nothing improved | Surrogation: the metric replaced the goal | The OKR pre-mortem in [M10](#afternoon-the-commitment-room) |
+| We hit everything and nothing improved | Surrogation: the metric replaced the goal | The OKR pre-mortem in [R6](#the-room-one-group-one-day) |
 
 ## The bridge from North Star to Key Results
 
@@ -315,7 +269,7 @@ order:
    artifact, not in a Key Result slot.
 3. **Does this front actually control it?** If the number moves only when another front
    delivers, it is a **shared Key Result** — which is a legitimate answer, provided it
-   gets one named owner in [M7](#afternoon-the-commitment-room) rather than two hopeful
+   gets one named owner in [R3](#the-room-one-group-one-day) rather than two hopeful
    ones.
 
 **Candidate input-metric families for a data platform.** Useful as a prompt when a table
@@ -329,24 +283,112 @@ stalls, not as a menu to pick from:
 | **Cost / efficiency** | Cost per query, per pipeline, per TB served | Can be improved by degrading service — pair it with a quality KPI |
 | **Experience** | Internal NPS, onboarding time, cognitive-load survey | Slow-moving and noisy; strong as a leading indicator, weak as a sole KR |
 
+
+## Designing this for one room
+
+*What you need in hand before starting: the [long-term vision](./long-term-product-vision.md)
+dynamic already run, a set of **investment fronts** (here: five), a **North Star** for each,
+and a body of **initiatives classified by the Three Horizons**.*
+
+**The constraint that shapes every other decision is that the room cannot be split.**
+25+ leaders, one group, no parallel tables. That rules out the standard workshop answer —
+five tables each drafting their own front — and it is worth being precise about why,
+because the obvious substitute is worse than either option.
+
+**A big room is bad at producing and good at deciding.** Production in plenary is
+*serial*: one person talks and twenty-four wait, so throughput collapses and the three
+loudest people write the year. Deciding in plenary is *parallel*: everyone can read, mark,
+vote and signal at the same time, and the decision **binds** precisely because all 25 were
+in the room when it was made. A decision taken in a breakout has to be re-sold afterwards
+to everyone who was not there.
+
+So the design moves **all production out of the room** and into homework, and spends the
+room only on what a large group does better than a small one: **challenge, trade-off and
+commitment.**
+
+> **The consequence, stated plainly: the homework is not preparation — it *is* the
+> dynamic.** If it does not get done, this day has no fallback. A room of 25 cannot
+> regenerate the content live. A breakout design could absorb a weak homework round; this
+> one cannot. That is why
+> [the homework section](#the-homework-that-carries-the-day) is the longest in this study,
+> and why most of it is about making completion inevitable rather than about the prompts.
+
+### The four-beat pattern
+
+Every movement in the room has the same shape. It is the only pattern that scales past
+roughly a dozen people without subdividing them:
+
+```text
+   ①  WRITE       everyone marks or writes at once, in silence
+                  → parallel, so it costs the same at 12 people or 40
+
+   ②  AGGREGATE   the marks go up on one wall, visibly
+                  → the room watches itself think; nobody reports second-hand
+
+   ③  SELECT      only the concentrated items earn airtime
+                  → the heat map allocates voice by weight of concern, not by volume
+
+   ④  SIGNAL      the whole room converges with a single gesture
+                  → fist-to-five, or a simultaneous reveal — instant at any size
+```
+
+| Movement | Write | Aggregate | Select | Signal |
+| --- | --- | --- | --- | --- |
+| R1 · Silent read | three fixed marks | — | — | — |
+| R2 · Heat map | — | the wall | the hot items | — |
+| R3 · The gauntlet | — | — | 2–3 challenges per front | fist-to-five |
+| R4 · Capacity | chip placement | the capacity wall | the overflow | fist-to-five |
+| R5 · Confidence | a number on a card | — | the outliers only | simultaneous reveal |
+| R6 · Pre-mortem | silent writing | live clustering | top three clusters | — |
+
+### The single rule
+
+The room walks in holding a **list of initiatives**, and the gravity of that list is to
+become the Key Results ("deliver the catalog", "migrate 12 pipelines"). So one rule is
+stated at the kick-off, printed in the homework pack, and enforced all day:
+
+> ### An initiative is never a Key Result.
+> An initiative is a **bet** on a Key Result. If deleting the initiative forces you to
+> rewrite the Key Result, the Key Result was an initiative wearing a disguise.
+
+### The failure modes this design has to defuse
+
+| Failure mode | Where the design answers it |
+| --- | --- |
+| Initiative-as-Key-Result | The quality gate, applied twice in the homework and 1:1s — before the room ever sees the card |
+| A wish list — five fronts × N initiatives | The fixed constraint (one Objective per front, ≤3 KRs) plus the capacity confrontation in R4 |
+| A cascade instead of a negotiation | Catchball: the draft is assembled *from the leaders' own homework*, and the room is handed the open decisions rather than the answers |
+| Everything lands in Horizon 1 | The horizon field in the homework pack and the balance read aloud in R3 |
+| Cross-front dependencies stay informal favours | Declared in writing in the homework, resolved in the gauntlet with **both owners in the room** |
+| Sandbagging, or fantasy targets | The simultaneous confidence reveal in R5 |
+| The loudest voice writes the year | Write → aggregate → select → signal: airtime is allocated by the heat map |
+| The homework does not get done | The forcing functions in [Making completion inevitable](#the-homework-that-carries-the-day) |
+
+**Scope.** The dynamic ends at a ratified annual OKR set plus the cadence that keeps it
+alive. The **squad-level cascade** — each squad turning these into its own quarterly OKRs
+and initiatives — stays out of scope, consistent with the vision study, and is the subject
+of a third study.
+
 ## The process at a glance
 
-**One day, three catchball tosses, plus a written round afterwards.** The day is not a
-workshop that happens to produce OKRs — it is a *negotiation* with a synthesis step
-deliberately placed in the middle, because the toss-back is where an over-sized set dies.
+**Eight steps, six of them before the day.** That distribution *is* the design, not an
+accident of scheduling: the room is the short, expensive step, so everything that does not
+require all 25 people present has been moved off it.
 
 ```mermaid
 flowchart LR
-    K["① Kick-off · T-2w<br/>direction + concepts<br/>(toss 1)"]
-    F["② Co-facilitator<br/>pre-brief · T-1w<br/>train the 5 tables"]
-    P["③ Pre-work · T-3d<br/>solo, private:<br/>baselines + candidate KRs"]
-    M["④ Morning<br/>Measure Room<br/>O + KRs per front (toss 2)"]
-    L["⑤ Synthesis lunch<br/>consolidate +<br/>the conflict list"]
-    A["⑥ Afternoon<br/>Commitment Room<br/>resolve + commit (toss 3)"]
-    R["⑦ Ratify · T+5d<br/>publish + written<br/>confirmation round"]
+    K["① Kick-off · T-3w<br/>concepts, direction<br/>and the homework"]
+    H["② Homework · T-2w<br/>solo and structured<br/>— the production step"]
+    B["③ Baseline pack · T-2w<br/>GPM measures what can<br/>be measured centrally"]
+    O["④ Owner 1:1s · T-1w<br/>5 × 45 min<br/>one draft page per front"]
+    D["⑤ Draft Zero · T-4d<br/>one document +<br/>the open decisions"]
+    P["⑥ Pre-read · T-3d<br/>everyone reads,<br/>everyone marks"]
+    R["⑦ The room · the day<br/>challenge → trade off<br/>→ commit"]
+    T["⑧ Ratify · T+5d<br/>publish + written<br/>confirmation round"]
 
-    K --> F --> P --> M --> L --> A --> R
-    R -.-> DS
+    K --> H --> O --> D --> P --> R --> T
+    B --> O
+    T -.-> DS
 
     subgraph DS["Downstream — outside this study's scope"]
         direction TB
@@ -359,261 +401,328 @@ flowchart LR
 The same path read as **input → step → output**, the version to put on a slide:
 
 ```text
- #  STEP                  WHO                    WHAT COMES OUT
- ── ───────────────────── ────────────────────── ──────────────────────────────────────
- ①  Kick-off (T-2w)      all leaders            shared concepts + the direction
- ②  Pre-brief (T-1w)     GPM + 5 co-facilitators trained tables, prepared walls
- ③  Pre-work (T-3d)      each leader, solo       baselines + candidate KRs (private)
- ④  Morning              5 front tables          1 Objective + ≤3 candidate KRs per front
- ⑤  Synthesis lunch      GPM + co-facilitators   consolidated draft + the conflict list
- ⑥  Afternoon            mixed groups            committed OKR set, owners, Not Doing board
- ⑦  Ratify (T+5d)        GPM                     published artifact (Appendix A)   ← ends here
+ #  STEP                 WHO              WHAT COMES OUT
+ ── ──────────────────── ──────────────── ────────────────────────────────────────────
+ ①  Kick-off (T-3w)     all leaders      shared concepts, direction, constraints
+ ②  Homework (T-2w)     each leader      six fields: numbers, bets, dependency,
+                                          challenge, the no  (private)
+ ③  Baseline pack       GPM + data       the numbers nobody should argue about
+ ④  Owner 1:1s (T-1w)   GPM + 5 owners   one draft page per front, gated
+ ⑤  Draft Zero (T-4d)   GPM              the draft + open decisions + contested list
+ ⑥  Pre-read (T-3d)     everyone         challenges written in the margin
+ ⑦  The room (~4h)      all leaders      committed OKR set, owners, Not Doing board
+ ⑧  Ratify (T+5d)       GPM              published artifact (Appendix A)      ← ends here
  ┄┄ outside this study's scope ┄┄
-    └→ quarterly OKRs     squads                 squad-level OKRs and initiatives
-    └→ weekly check-in    everyone               confidence tracking, CFRs
+    └→ quarterly OKRs    squads           squad-level OKRs and initiatives
+    └→ weekly check-in   everyone         confidence tracking, CFRs
 ```
 
-## Before the day
+**Why the day is only ~4 hours.** Because the production already happened. If you have a
+full day available, do not spend the surplus generating more material — spend it on a
+second pass through the gauntlet *after* the capacity confrontation, when the room knows
+what it can actually afford.
 
-Three quarters of whether the day works is decided before anyone enters the room. With
-25+ leaders there is no slack to recover from a cold start.
+## The homework that carries the day
 
-### Kick-off (T-2 weeks, ~45 min, all leaders)
+In a breakout design the homework is a warm-up: useful, but a room that arrives empty can
+still generate material at its tables. **Here it is load-bearing.** Everything the room
+decides on the day was produced in this phase, by the same people, working alone. So this
+section is mostly about a problem that sounds administrative and is not: *how do you make
+45 minutes of solo work actually happen, for 25+ busy leaders, on a deadline?*
 
-Its job is *direction and concepts*, not content. The room already lived the vision
-workshop, so **do not re-sell the vision** — re-anchor on it and move on.
+### What the homework must produce
 
-- **Re-anchor (10 min).** The vision narrative, the five fronts, the North Star for each.
-- **Teach the concepts (20 min).** The compressed version of
-  [What an OKR actually is](#what-an-okr-actually-is): the three layers, the outcome test,
-  committed vs. aspirational, and the "what an OKR is *not*" list. This is the single
-  highest-leverage 20 minutes of the whole process — every minute skipped here is
-  reclaimed at triple cost during the KR forge.
-- **State the single rule.** *An initiative is never a Key Result.* Say it, put it on the
-  wall, and promise the bet board so nobody fears their initiative will be lost.
-- **Give the two constraints (10 min).** The **company's 2027 objectives** (the top-down
-  half of the catchball) and the **real capacity** — squads, headcount, and committed
-  run-rate work per front. Sharing capacity *before* the room writes ambitions is what
-  makes the afternoon's betting table a negotiation rather than a disappointment.
-- **Assign the pre-work**, with the deadline and a named nudge per person.
+Not opinions — **material that can be assembled into a draft without further
+interpretation.** That distinction drives the format: it is a **form, not an essay**. Six
+fields, about 45 minutes. The pack itself is in
+[Appendix C](#appendix-c-the-homework-pack).
 
-> The full slide storyline is in
-> [Appendix D](#appendix-d-kick-off-presentation-storyline).
+| # | Prompt | Why it exists |
+| --- | --- | --- |
+| **1 · The number** | For your front's North Star, one candidate Key Result written as `metric: today → Dec/2027` | Produces the raw Key Result material the draft is assembled from |
+| **2 · The source** | Where does that baseline come from? *"We don't measure this"* is a complete answer | Kills the fantasy Key Result before the room ever sees it |
+| **3 · The bets** | Which 2–3 existing initiatives are the strongest bets on that change — and which one would you **drop**? | Keeps initiatives separate from Key Results, and extracts a first *no* while it is still cheap |
+| **4 · The dependency** | One thing you need from another front, named | Pre-loads cross-front friction that a plenary would never surface on its own |
+| **5 · The challenge** | One thing **another front** does that you think should change | The written substitute for breakout debate |
+| **6 · The no** | One thing **your own front** should stop doing in 2027 | Makes the capacity conversation possible at all |
 
-### Co-facilitator pre-brief (T-1 week, ~60 min, GPM + 5 co-facilitators + 5 scribes)
+**Prompts 4, 5 and 6 are what make a single room viable.** In a breakout design, cross-front
+friction surfaces naturally when a table argues and a neighbour overhears. With one room and
+no subdivision there is no such moment — so the friction has to be **harvested in writing,
+beforehand**, or it never appears and the day produces a polite, unowned set.
 
-**This step exists because the room is 25+.** One facilitator cannot hold five tables;
-past roughly twelve people, plenary discussion stops converging and the day is decided at
-the tables. Recruit one co-facilitator per front — a leader with standing in that front,
-who is *not* the person with the strongest opinion about its OKRs — plus a scribe each.
+Prompt 5 is uncomfortable to assign and is the highest-value field in the pack: it is the
+only mechanism that gets a leader to say, on the record and in advance, what they believe a
+peer should stop doing. Assign it plainly, explain why it exists, and say how it will be
+used — attributed or not — *before* anyone fills it in.
 
-The pre-brief covers: the run-sheet and its timeboxes; how to run the KR forge and read
-the quality gate aloud ([Appendix B](#appendix-b-the-key-result-quality-gate)); how to
-work the bet board without making people feel censored; and the one instruction that most
-needs rehearsing — **how to say "that's an output" without deflating the person who said
-it.** Have each co-facilitator practise it once, out loud.
+### Making completion inevitable
 
-### Pre-work (due T-3 days, solo, ~40 min each)
+The vision study's own warning applies with more force here: group homework rarely gets
+done. Six countermeasures, each doing real work rather than serving as a reminder:
 
-Individual, and **private until the day** — the same anchoring antidote the vision study
-uses. For the front each leader belongs to, four prompts:
+1. **Send the baseline pack first.** The GPM, with data/BI, measures centrally everything
+   that *can* be measured centrally, and ships it **before** the homework opens. Half the
+   assignment arrives already done. A leader who first has to go hunting for their own
+   numbers will not start at all.
+2. **It is a form, not a document.** Six fields, bounded at ~45 minutes, with a **worked
+   example already filled in** for a fictional sixth front. Bounded work gets done;
+   open-ended work gets postponed.
+3. **The 1:1 is the forcing function.** Each front owner holds a 45-minute slot with the
+   GPM, scheduled *after* the homework deadline, whose entire agenda is *"we go through
+   your submissions."* The meeting cannot happen without the input. This is far stronger
+   than any reminder, and it is the main reason the 1:1s exist.
+4. **Front owners are accountable for their front's completion rate,** and the rate is
+   visible to all five of them.
+5. **Submissions stay private until Draft Zero.** This preserves independent thinking, and
+   it lowers the bar — nobody is performing for their peers while writing.
+6. **Say up front what happens if it does not arrive.** A front that does not submit gets a
+   Draft Zero page written by the GPM alone, and its owner defends it in the room without
+   having authored it. State this once, without drama, at the kick-off.
 
-- **(a)** Given this front's North Star, what would have to be **measurably different** by
-  December 2027 for us to say the front moved? Write it as `metric: today → target`.
-- **(b)** What is the **baseline today**? Bring the number. *"We don't measure this"* is a
-  complete and welcome answer — flag it as such.
-- **(c)** Which of our existing initiatives are the **strongest bets** on that change, and
-  which would you **drop**? Naming a drop is part of the assignment, not an optional extra.
-- **(d)** One **dependency** you have on another front.
+### The GPM's assembly work — where the breakouts went
 
-### Wall prep (T-1 day, GPM + co-facilitators)
+Three steps replace the in-room group work. All three are done by the GPM, alone or in a
+1:1 — never in a group, which is the point.
 
-Each front gets a wall, pre-loaded before anyone arrives: the front's **North Star**, the
-**baseline data pack** the GPM could assemble centrally, and the front's pre-work cards
-**merged, de-duplicated and lightly clustered**. Contradictory submissions are posted side
-by side on purpose — a visible disagreement about a baseline is the fastest possible start
-to the morning.
+**Baseline pack (T-2 weeks).** Every number the room could plausibly argue about, measured
+and sourced in advance. The rule this protects is simple and worth stating to the room:
+**the day is never spent arguing about a number.** Anything contestable gets contested
+beforehand, in writing, where it costs one person an hour instead of costing 25 people
+fifteen minutes.
 
-## Morning: the Measure Room
+**Front-owner 1:1s (T-1 week, 5 × 45 min).** Catchball's second toss, run in series rather
+than as parallel breakouts. With that front's homework cards on the table, the GPM and the
+front owner produce the front's draft page: one Objective, at most three Key Results — each
+one run through the gate in [Appendix B](#appendix-b-the-key-result-quality-gate) — the bets
+listed underneath, the KPI strip, and the horizon tags. Two rules make or break this
+meeting:
 
-*~3h. Five front tables of 5–6 people, each with a co-facilitator and a scribe. Every
-table is seeded with 1–2 leaders from an **adjacent front** — this is how silos break
-without spending plenary time on it.*
+- **The GPM runs the gate; the owner writes the words.** If the GPM writes the Objective,
+  the owner will not defend it in the room — and defending it is their job on the day.
+- **Unresolved disagreements are not settled here.** They go on the open-decisions list. A
+  1:1 that resolves everything has quietly converted the day into a rubber stamp.
 
-**The morning's job is to produce candidate material, not decisions.** Say so at the
-start: nothing agreed before lunch is final, which is what lets people write an ambitious
-number without feeling they have signed for it.
+**Draft Zero (T-4 days).** One document: the five front pages, the capacity picture, and two
+lists that matter more than the draft itself.
 
-> **The bet board.** Beside each front's wall, a second board. The moment someone names an
-> initiative — and they will, constantly — the co-facilitator says *"good, that's a bet"*
-> and posts it on the bet board **under the Key Result it is a bet on**. Nothing is lost
-> and nobody is corrected. Unlike the vision workshop's parking lot, this board is not a
-> holding pen: its contents become the **Initiatives** section of the final artifact.
+- **Open decisions** — what the GPM deliberately did *not* decide, each framed as a question
+  with its options laid out.
+- **Contested** — where two fronts' homework disagreed, quoted side by side. Decide
+  deliberately whether to attribute the quotes; attribution raises the stakes and the
+  honesty in equal measure, and it depends on how safe your room actually is.
 
-- **M0 · Orient (15 min, plenary).** Re-anchor on the vision and the five North Stars.
-  State the single rule. Read the quality gate aloud once, so the room hears the exact
-  words its co-facilitators will use all morning. Show the day's shape, including the
-  toss-back after lunch — people cooperate with a convergence step they can see coming.
-- **M1 · Baseline wall (20 min, tables).** Before any ambition: *what do we measure today
-  for this North Star, what is the number, and what would we have to start measuring?*
-  Three columns — **measured / measurable but not measured / not measurable yet**.
-  Surfacing the third column at 09:30 is what prevents fantasy Key Results at 11:00.
-- **M2 · Objective drafting, 1-2-4-All (30 min, tables).** Solo → pairs → the table, to
-  one Objective for the front: qualitative, inspiring, dated to the end of 2027,
-  traceable to the North Star. The escalating format keeps the most senior voice at the
-  table from setting the anchor.
-- **M3 · KR forge (50 min, tables).** The core of the morning.
-  1. **Silent writing (10 min).** Each person writes 2–3 candidate KRs, using the pre-work
-     and the baseline wall. Silence matters: this is the last moment of genuinely
-     independent thought in the day.
-  2. **Gate each one (25 min).** Cards go up one at a time; the co-facilitator reads the
-     quality gate aloud against each. Failures are not discarded — an output goes to the
-     bet board, a missing baseline gets a *"baseline first"* tag, a health metric moves to
-     the KPI strip.
-  3. **Converge to ≤3 (15 min).** Dot-vote, then write the survivors properly: metric,
-     baseline, target, deadline, owner. **A KR without a named owner does not survive the
-     morning.**
-- *Break (15 min).*
-- **M4 · Horizon sort (25 min, tables).** Tag each surviving KR **H1 / H2 / H3**, reusing
-  the classification the initiatives already carry from the vision exercise. Two rules
-  make this more than labelling:
-  - **H3 gets a learning KR**, never a revenue or adoption metric. If the front's H3 work
-    cannot be expressed as validated knowledge by December, it does not belong in the
-    annual set at all.
-  - **Read the balance aloud.** The commonly cited portfolio split is roughly **70 / 20 /
-    10** across H1 / H2 / H3. Use it as a conversation anchor, not a rule — but a front
-    that emerges 100% H1 has quietly decided not to fund its own future, and should have
-    to say so out loud.
-- **M5 · Rotation gallery (35 min).** Two rotations of ~15 min: each table moves to the
-  next front's wall and leaves **two sticker types only** —
-  **red = "that's an output"**, **blue = "we depend on this"**. No talking, no defending;
-  the owners read their stickers when they return. This replaces the plenary read-out that
-  a 25+ room cannot afford, and it generates the raw material for both the afternoon's
-  dependency market and the lunch conflict list.
+> **The temptation to resolve everything in Draft Zero is the biggest single risk to this
+> design.** A draft with no open decisions turns the day into a presentation, and a room
+> that is presented to does not commit — it nods. Aim for **five to eight open decisions**:
+> roughly one per front, plus two or three cross-front trade-offs.
+
+**Pre-read (T-3 days).** Draft Zero goes to everyone with one instruction: *come having read
+it, with your challenges written in the margin.* Amazon's narrative-memo practice is worth
+borrowing here — including its realism about people. The reason Amazon reads the memo
+**inside** the meeting is that executives do not reliably read beforehand. So this design
+does the same: the day opens with a silent read regardless (R1), and the pre-read is a
+bonus, never a dependency.
+
+> Borrow one more thing from that practice: **the six-page limit.** Draft Zero has to be
+> readable in 25 minutes by someone who has not seen it. If it is longer than about six
+> pages, the silent read fails and the whole day degrades — which makes the limit a design
+> constraint on the GPM, not a formatting preference.
+
+## The room: one group, one day
+
+*~4 hours. One room, 25+ people, no subdivision. **Everyone works on the same thing at the
+same time** — that single constraint is what the whole choreography protects.*
+
+### The rules of the room
+
+State these at the start and hold them all day. They are what make a 25-person room
+decide rather than discuss.
+
+- **Written first, always.** Nothing gets discussed until the room has marked it.
+- **One front at a time.** The whole room stays together on the same front; there are no
+  parallel tracks, ever.
+- **The front owner speaks for their front.** Challenges come from the floor, by name,
+  read off the card that raised them.
+- **One artifact, projected, edited live.** There is a single version of the truth and
+  everyone watches it change.
+- **What is not open today:** the vision, the fronts, and the capacity. A room that can
+  reopen anything decides nothing — say this out loud in R0.
+
+### R0 · Frame (10 min)
+
+Re-anchor on the vision and the five North Stars in ninety seconds — the room lived that
+workshop and lingering reads as distrust of their memory. Then: the single rule, the shape
+of Draft Zero, the open-decisions list, and the four rules above. Say explicitly that the
+morning's job is to *break* the draft, and that a page nobody marks is a page nobody read.
+
+### R1 · Silent read (25 min)
+
+The study hall. Everyone reads Draft Zero in silence, pen in hand, marking with **three
+symbols and nothing else**:
 
 ```text
-   FRONT WALL (end of morning)
-   ─────────────────────────────────────────────────────────────────
-   OBJECTIVE   "An analyst finds and trusts the data they need
-                without asking a human."                    [2027]
-   ─────────────────────────────────────────────────────────────────
-   KR1  pipelines on the platform   38% → 75%   @ana     H1   ●●●●
-   KR2  time-to-trusted-dataset     9d  → 2d    @bruno   H1   ●●●
-   KR3  chargeback model validated with 10 teams @carla  H3   ●●
-        (learning KR — evidence, not delivery)
-   ─────────────────────────────────────────────────────────────────
-   KPI strip (monitor, do not commit):  availability 99.9% · cost/TB
-   ─────────────────────────────────────────────────────────────────
-   BET BOARD   under KR1: self-service templates · migration guild
-               under KR2: contract tests · freshness SLOs
-   ─────────────────────────────────────────────────────────────────
-   🔴 "that's an output" × 2      🔵 "we depend on this" × 3
+   🔴  OUTPUT          this Key Result is an initiative in disguise
+   🔵  DEPENDENCY      this needs another front and doesn't say so
+   ❓  DON'T BELIEVE IT the baseline or the target is wrong
 ```
 
-## The synthesis lunch
+**Why only three marks.** A room of 25 producing free-form comments generates an
+unprocessable pile, and the facilitator ends up triaging it live while everyone watches.
+Three fixed categories make the aggregation mechanical, make the wall readable at a
+glance, and — most usefully — make every mark **actionable**, because each type maps to a
+specific fix: an output goes to the bet board, a dependency goes to its other owner, a
+disputed number goes to the baseline pack.
 
-*~60 min. GPM + the five co-facilitators. The leaders eat and talk; this crew works.*
+Say plainly that marking is the assignment, not criticism. The quiet half of the room
+contributes here on exactly equal terms with the loud half, which is the entire reason
+this movement exists.
 
-This is the catchball's return throw, and it is the reason the dynamic fits in one day.
-With 25+ participants the morning generates more raw material than one person can
-consolidate — which is why the co-facilitators, who watched their own walls being built,
-do it together.
+### R2 · Heat map (15 min)
 
-Three outputs, and only three:
+Everyone posts their marks on one wall: a five-column grid, one column per front, one row
+per Key Result. No talking while posting. Then the GPM reads **only the pattern** aloud —
+which Key Results are hot, which are clean, which mark type dominates each one.
 
-1. **The consolidated draft.** Five Objectives, up to fifteen KRs, de-duplicated. Merge
-   the cases where two fronts wrote *the same number* from different sides; that merge is
-   usually the day's first real strategic decision.
-2. **The conflict list.** Explicitly *not* resolved — named:
-   - **over-capacity**: fronts whose KRs plainly exceed their squads;
-   - **duplicates**: one outcome claimed by two fronts;
-   - **unmeasurable**: KRs that arrived without a baseline and without a "baseline first" plan;
-   - **orphan dependencies**: blue stickers with no owner on the other side;
-   - **horizon imbalance**: a front that came out entirely H1.
-3. **The capacity chips.** A physical allocation device for the afternoon: a fixed number
-   of chips per front, representing the squad capacity genuinely available for *change*
-   work in 2027 — run-rate already deducted. The GPM prepares the totals before the day;
-   lunch only distributes them.
+```text
+   THE HEAT-MAP WALL
+   ──────────────────────────────────────────────────────────────────────
+             FRONT 1        FRONT 2        FRONT 3      FRONT 4   FRONT 5
+   KR1       🔴🔴🔴🔴🔴      ❓❓            ·            🔵🔵🔵🔵   ❓
+   KR2       ❓             🔴🔴🔴🔴🔴🔴      🔵           ·         🔴🔴
+   KR3       🔵🔵           ·              ❓❓❓❓❓      🔴        ·
+   ──────────────────────────────────────────────────────────────────────
+   HOT  → F1·KR1 (output)  F2·KR2 (output)  F3·KR3 (numbers)  F4·KR1 (dep)
+   CLEAN, approved by silence → F2·KR3, F4·KR2, F5·KR3
+```
 
-> **Resist the temptation to arrive with the conflicts solved.** A crew that returns with
-> answers has converted the day back into a cascade. Return with the *questions*, sharply
-> framed — that is what the afternoon is for.
+**This is the movement that replaces breakout discussion.** Out of ~15 Key Results it
+typically leaves five or six that genuinely need the room's voice, and it allocates that
+voice **by weight of concern rather than by who speaks first**. A Key Result nobody marked
+is approved by silence — a legitimate outcome, and the thing that buys back the time the
+hot ones need.
 
-## Afternoon: the Commitment Room
+### R3 · The gauntlet (75 min — about 15 min per front)
 
-*~2h45. **Mixed groups, not front tables** — the morning's job was depth per front; the
-afternoon's is everything that only exists between fronts.*
+Serialization is the whole trick: instead of five tables working five fronts in parallel,
+the room works all five in sequence, together. For each front, in order:
 
-- **M6 · Toss-back (15 min, plenary).** The GPM presents the consolidated draft **and the
-  conflict list**. This is the moment that earns the room's trust: they see their own
-  material returned intact, with the problems named rather than quietly fixed over
-  sandwiches.
-- **M7 · Dependency market (30 min).** Every blue sticker gets resolved into exactly one
-  of three states, and the third is a legitimate outcome:
-  - a **shared Key Result** — one outcome, jointly owned, **one named DRI**;
-  - a **joint commitment** — front A commits a specific deliverable to front B's KR;
-  - **at risk** — nobody will own it, said out loud, and recorded against the KR that
-    depends on it. An unclaimed dependency is a finding, not an omission.
-- **M8 · The betting table (40 min).** The capacity chips come out. Each front allocates
-  its chips across its KRs and the initiatives on its bet board; the constraint is that
-  chips are finite and visible to the whole room.
-  **Every yes names its no.** Whatever loses its funding goes on the **Not Doing board**,
-  written as a sentence a leader can repeat to their team without apologising. That board
-  is a deliverable: it feeds the *critical trade-offs* section of the vision artifact, and
-  it is the single most useful page of the year for a manager fielding requests.
-- *Break (10 min).*
-- **M9 · Confidence calibration (25 min).** Each KR owner states a confidence from 1 to 10,
-  in front of the room. Then the calibration rules bite:
-  - **9–10** → sandbagging. Raise the target, or admit it is run-rate and cut it.
-  - **5** → the sweet spot. Leave it.
-  - **1–2** → fantasy. Lower it, split it, or convert it into an H3 learning KR.
-  Then classify each OKR **committed** or **aspirational**, and say aloud what the
-  classification obliges: a committed OKR means resources move to protect it; an
-  aspirational one is expected to be missed.
-- **M10 · OKR pre-mortem (20 min).** The room already knows this mechanic from the vision
-  workshop, which is why it needs no set-up:
-  > *"It is December 2027. We hit every single Key Result — and the platform is no better."
-  > What did we measure wrong?"*
-  This is the surrogation check, and it is the last chance to catch a vanity metric before
-  it becomes a year of work. Anything it surfaces goes straight back into the KR wording.
-- **M11 · Commitment round (15 min).** Only the five front owners speak: one sentence each
-  on what their front owns and what it will not do. Everyone else signs the wall.
-  At 25+, restraint about who speaks in plenary is what leaves time for the work.
+1. **The owner states it (90 sec).** The Objective and its Key Results, read from the
+   page. No slides, no context-setting, no preamble.
+2. **The GPM reads that front's hot marks** — the concentrated ones only.
+3. **Challenge, timeboxed (~3 min each, two or three per front).** The person who *wrote*
+   the mark speaks first, named from the card. Naming has two effects worth the awkwardness:
+   the challenge cannot be quietly dropped, and someone who would never grab the floor gets
+   it by virtue of having written something. The owner answers.
+   **When the mark is a 🔵, the other front's owner is in the room and answers on the
+   spot** — the single clearest advantage this format has over breakouts, where that
+   conversation would have happened later, or not at all.
+4. **Converge with a fist-to-five.** Three or above carries. Below three, the item goes to
+   the open-decisions list for R4, or it is cut.
+5. **Rewrite the Key Result live** on the projected artifact, or tag it explicitly
+   *unresolved*. Nothing gets remembered as "we sort of agreed".
+
+Before moving to the next front, **read that front's horizon balance aloud**. A front that
+came out entirely Horizon 1 has decided not to fund its own future, and should have to say
+so in front of everyone.
+
+*Break (15 min).*
+
+### R4 · Capacity confrontation (35 min)
+
+**The one conversation that is genuinely better in a big room than in breakouts**, because
+the trade-off is cross-front by nature — a breakout is structurally incapable of having it.
+
+Capacity goes on one wall, in units the room recognizes (squad-quarters, not story points).
+Each front owner places their chips against their Key Results, in front of everyone. The
+chips run out. Then the room resolves the overflow together, and **every yes names its no**:
+whatever loses its funding goes onto the **Not Doing board**, written live in sentences a
+leader can repeat to their own team without apologising. Prompt 6 of the homework is the
+seed — everyone already named one thing their own front should stop.
+
+> **Going in short is deliberate.** If the capacity exactly fits the draft, the GPM has
+> pre-resolved the trade-off and stolen the room's only real decision. Size the chips so
+> the draft does not fit.
+
+### R5 · Confidence reveal (20 min)
+
+Planning-poker mechanics, for the same reason planning poker uses them. Every Key Result
+owner writes a confidence from 1 to 10 on a card. On a count of three, **everyone reveals
+at once.** The simultaneous reveal is the whole point: a sequential round lets the first
+number spoken set the range for everyone after it, and the calibration is lost before it
+starts.
+
+Then discuss **only the outliers**:
+
+- **9–10** → sandbagging. Raise the target, or admit it is run-rate work and cut it.
+- **1–2** → fantasy. Lower it, split it, or convert it into an H3 learning KR.
+- **around 5** → leave it alone. That is the target.
+
+Close by classifying each OKR **committed** or **aspirational** by show of hands, and say
+aloud what each classification obliges: a committed OKR means resources move to protect
+it; an aspirational one is expected to be missed.
+
+### R6 · Pre-mortem, written (20 min)
+
+> *"It is December 2027. We hit every single Key Result — and the platform is no better.
+> What did we measure wrong?"*
+
+Silent writing (5 min) → everyone posts → **the GPM clusters live, in front of the room**
+(3 min) → the top three clusters are addressed (12 min). Clustering in the open is
+deliberate: a room that watches its own concerns being grouped trusts the grouping, and
+nobody leaves believing their card was quietly binned.
+
+This is the surrogation check — the last chance to catch a vanity metric before it becomes
+a year of work. Anything it surfaces goes straight back into the wording of the Key Result.
+
+### R7 · Commitment round (15 min)
+
+Only the five front owners speak: one sentence each — what the front owns, and the one
+thing it will not do. Everyone else signs the wall. At 25+, restraint about who speaks in
+plenary is exactly what left enough room for the work.
 
 ## After the day
 
 - **Ratify and publish (within 5 working days).** The GPM writes the artifact
   ([Appendix A](#appendix-a-annual-okr-artifact-template)). Anything the room left
-  ambiguous is written as the GPM's best reading, clearly marked as such.
-- **The written confirmation round.** The fourth and final catchball toss, async: each
-  front owner confirms their Objective, KRs, owners, and their line on the Not Doing
-  board. Silence is **not** consent — chase the non-responders. This round routinely
-  catches one or two KRs that sounded agreed in the room and were not.
-- **Set the cadence before anyone disperses.** Weekly check-in slot, quarterly re-cut
-  dates, and the rule for changing a KR mid-year (re-baseline / retire / replace, always
-  in the changelog). A cadence agreed in January is a cadence; one improvised in April is
-  a meeting.
-- **Hand off to the squads.** The quarterly cascade — each squad turning the annual set
-  into its own OKRs and initiatives — is where this study stops, and is the subject of the
-  next one.
+  ambiguous is written as the GPM's best reading and marked as such.
+- **The written confirmation round.** Catchball's final toss, async: each front owner
+  confirms their Objective, Key Results, owners, and their line on the Not Doing board.
+  **Silence is not consent** — chase the non-responders. This round routinely catches one
+  or two Key Results that sounded agreed in the room and were not.
+- **Set the cadence before anyone disperses.** The weekly check-in slot, the quarterly
+  re-cut dates, and the rule for changing a Key Result mid-year (re-baseline / retire /
+  replace, always logged in the changelog). A cadence agreed in January is a cadence; one
+  improvised in April is a meeting.
+- **Publish the completion data.** How many homework packs arrived on time, and how many
+  Key Results survived the room unchanged. Both numbers tell you whether to run it the
+  same way next year — and the first one tells you whether this format is viable at all in
+  your organization.
+- **Hand off to the squads.** The quarterly cascade is where this study stops.
 
 ## Open questions and next steps
 
-- **Does one Objective per front hold when the fronts are unequal?** Five equal Objectives
-  imply five equal fronts, which is rarely true. A front in pure H3 exploration may
-  deserve a single learning KR rather than a full Objective — worth testing in the first
-  run and adjusting for the next cycle.
-- **Annual KRs versus quarterly reality.** An annual Key Result can drift for three
-  quarters and still look plausible. The weekly confidence rating is the intended defence,
-  but whether it is *enough* at superintendency altitude is unproven — a mid-year re-cut
-  checkpoint may need to be formalized rather than left to the "obviously wrong in June"
-  rule.
-- **Who owns a shared Key Result when the DRI's front misses its own?** The dependency
-  market names an owner but does not settle the priority conflict that follows. Worth
-  making explicit in the artifact.
+- **The homework completion rate is the whole bet.** This design has no in-room fallback,
+  so a weak homework round degrades the day badly rather than gracefully. Measure
+  completion explicitly in the first run, and decide *with data* whether the next cycle
+  needs a safety valve — most likely a short, single-front drafting slot inside the day,
+  which is the one place a partial subdivision would earn its cost.
+- **Does the 1:1 round scale past five fronts?** Five 45-minute sessions is a manageable
+  week for a GPM; eight fronts is not. Beyond roughly six, the 1:1s would have to be
+  delegated — and then the person running the gate is no longer the person assembling
+  Draft Zero, which is where the consistency comes from.
+- **Draft Zero's length is a hard constraint, and an unproven one.** Six pages of five
+  fronts plus capacity plus two lists is tight. If it cannot be done, the honest options
+  are to shorten the front pages or to lengthen the silent read — not to hope people read
+  beforehand.
+- **Naming the challenger in R3 assumes a safe room.** It is what gives quiet people the
+  floor, and in a low-trust organization it is what stops prompt 5 from being answered
+  honestly at all. Decide attribution deliberately, and if in doubt run the first cycle
+  unattributed and see what the marks look like.
+- **Who owns a shared Key Result when the DRI's own front is missing its targets?** The
+  gauntlet names an owner but does not settle the priority conflict that follows.
 - **The squad cascade** — the third study in this sequence, completing the path from
-  vision to the work a squad actually picks up on a Monday.
-
+  vision to the work a squad picks up on a Monday.
 ## References
 
 Grouped by the role each source plays. Each entry has a link, what it says, how it shaped
@@ -680,16 +789,20 @@ this dynamic, and — where it applies — a caveat on fit.
   and the decision to return from lunch with *conflicts* rather than answers.
 
 - **1-2-4-All — Liberating Structures** ([liberatingstructures.com](https://www.liberatingstructures.com/1-2-4-all/))
-  — solo → pair → foursome → whole; everyone active, power imbalances shrink.
-  *Inspires:* M2's Objective drafting, and the silent-writing opening of the KR forge.
+  — solo → pair → foursome → whole; everyone active, sharing compressed, power imbalances
+  shrink.
+  *Inspires:* the principle underneath the whole room design — **everyone writes before
+  anyone speaks** — which is what the silent read and the written pre-mortem implement.
+  *Caveat:* its pair and foursome steps are a form of subdivision this design deliberately
+  avoids. What carries over is the write-first principle, not the structure itself.
 
 - **25/10 Crowd Sourcing — Liberating Structures** ([liberatingstructures.com](https://www.liberatingstructures.com/25-10-crowdsourcing))
   — generate bold ideas and sift a large group's top ten in under thirty minutes, through
   circulation and repeated scoring rather than discussion.
-  *Inspires:* the convergence mechanics for a 25+ room; a ready substitute if the M5
-  rotation gallery proves too slow at the top of the size range.
-  *Caveat:* designed for generating and ranking *ideas* — for KR selection it ranks
-  popularity, not measurability, so the quality gate must still run afterwards.
+  *Inspires:* evidence that a large group can converge fast **without splitting up**, using
+  circulation and scoring instead of discussion — the same logic the heat map in R2 runs on.
+  *Caveat:* designed for generating and ranking *ideas*. For Key Result selection it ranks
+  popularity rather than measurability, so the quality gate must still run afterwards.
 
 - **OKR Alignment — OKR Institute** ([okrinstitute.org](https://okrinstitute.org/okr-alignment/), [alignment examples](https://okrinstitute.org/okr-alignment-examples/))
   — vertical vs. horizontal alignment; **shared OKRs** and joint commitments as the tools
@@ -714,11 +827,55 @@ this dynamic, and — where it applies — a caveat on fit.
   pre-work rather than be generated cold, that **planning and alignment are two distinct
   workshops**, and that most OKR workshops fail on facilitation rather than on goal
   quality.
-  *Inspires:* the pre-work step, the morning/afternoon split (planning then alignment),
-  and the decision to invest a whole session in training co-facilitators.
-  *Caveat:* these are written for single teams of 6–12; the 25+ adaptations here —
-  distributed tables, rotation instead of read-outs, a synthesis crew — are extrapolation,
-  not established practice.
+  *Inspires:* the insistence that drafts arrive as homework rather than being generated
+  cold, and the separation of planning (the 1:1s) from alignment (the room).
+  *Caveat:* these are written for single teams of 6–12, and they all assume breakouts. The
+  single-room adaptations here — a silent read of Draft Zero, the heat map as an airtime
+  allocator, serialized fronts — are extrapolation from large-group facilitation practice,
+  not established OKR practice.
+
+### Facilitating one large room
+
+*The sources behind the choice to keep 25+ people together rather than split them.*
+
+- **The Amazon six-page narrative and its silent read** ([CNBC](https://www.cnbc.com/2018/04/23/what-jeff-bezos-learned-from-requiring-6-page-memos-at-amazon.html))
+  — meetings open with 20–30 minutes of silent reading of a written narrative, so everyone
+  engages with the full argument before anyone speaks. Bezos's stated reason is bluntly
+  practical: otherwise executives "will try to bluff their way through a meeting."
+  *Inspires:* R1, the six-page ceiling on Draft Zero, and the decision to read **inside**
+  the room rather than trust the pre-read.
+  *Caveat:* Amazon's memos are prose narratives; Draft Zero is closer to a structured
+  draft. The read-in-the-room mechanic transfers; the six-pager writing discipline is a
+  separate skill you should not assume the GPM has on the first cycle.
+
+- **Brainwriting and silent meetings** ([SI Labs](https://www.si-labs.com/en/articles/brainwriting/), [Slido](https://blog.slido.com/silentmeetings/))
+  — everyone writes simultaneously, so contribution **scales with group size** instead of
+  competing for airtime, and quieter people contribute on equal terms. The recommended
+  shape is hybrid: silent generation, then structured discussion of what surfaced.
+  *Inspires:* the write → aggregate → select → signal pattern, and specifically the written
+  pre-mortem in R6.
+  *Caveat:* the best-known variant (6-3-5) is built for 4–8 people passing sheets; at 25+
+  the workable form is a card pool posted to a shared wall, which is what R2 does.
+
+- **Dot voting and heat-map voting** ([NN/g](https://www.nngroup.com/articles/dot-voting/), [Learning Loop](https://learningloop.io/plays/workshop-exercise/heatmap-voting))
+  — after voting, the wall reads as a heat map showing where attention concentrates;
+  clarifying the voting criteria beforehand is what separates a useful heat map from a
+  popularity contest.
+  *Inspires:* R2 — and the decision to fix **three mark types** rather than let people
+  write free-form comments, so the wall stays readable and every mark maps to a fix.
+
+- **Fist-to-five voting** ([Civic Canopy](https://www.civiccanopy.org/fist-to-five/), [Lucid Meetings](https://www.lucidmeetings.com/glossary/fist-five), [Mountain Goat](https://www.mountaingoatsoftware.com/blog/four-quick-ways-to-gain-or-assess-team-consensus))
+  — a graded consensus signal: everyone raises 0–5 fingers at once; three or above means
+  "I can live with this". More nuanced than a thumbs up/down, and instant at any group size.
+  *Inspires:* the convergence step of the gauntlet in R3 and of the capacity confrontation
+  in R4.
+
+- **Planning poker and the simultaneous reveal** ([Mountain Goat](https://www.mountaingoatsoftware.com/agile/story-points/planning-poker), [Wikipedia](https://en.wikipedia.org/wiki/Planning_poker), [Parabol](https://www.parabol.co/resources/planning-poker-guide/))
+  — estimates are chosen privately and revealed **simultaneously**, specifically to defeat
+  anchoring: the first number spoken aloud otherwise sets the range for everyone after it.
+  Only the outliers are then discussed.
+  *Inspires:* R5 wholesale — the private write, the count-of-three reveal, and discussing
+  only the 9–10s and the 1–2s.
 
 ### Portfolio and horizons
 
@@ -781,6 +938,10 @@ there.
 >   of listing them separately.
 > - The **Not Doing** and **Dependencies** sections are not optional. They are the two
 >   pages people actually re-read in month seven.
+> - **Draft Zero uses this same template**, filled in by the GPM from the front-owner 1:1s,
+>   plus two extra lists that exist only in the draft and are deleted once the room has
+>   worked them: **open decisions** and **contested**. Keep the whole thing inside six
+>   pages so it can be read in 25 minutes.
 
 ```markdown
 # [Superintendency] — Annual OKRs [year]
@@ -862,24 +1023,30 @@ Each line is written to be repeated to a team without apology.
 | [YYYY-MM-DD] | [author] | [initial commitment] | [ratified on the OKR day] |
 ```
 
+
 ## Appendix B. The Key Result quality gate
 
-*The card each co-facilitator holds during the KR forge. Read aloud, against every
-candidate, in this order. It takes about forty seconds per card once the table finds its
-rhythm.*
+*The gate runs at three separate moments, and that repetition is deliberate — each pass
+catches what the previous one let through.*
+
+| When | Who runs it | What it catches |
+| --- | --- | --- |
+| **In the homework** | Each leader, on their own card | The obvious outputs, before anyone else's time is spent |
+| **In the 1:1** | The GPM, out loud, on every candidate | Everything else. This is the real gate |
+| **In the silent read** | All 25+ readers at once | What the GPM and the owner talked themselves into |
 
 ```text
    ┌──────────────────────────────────────────────────────────────────┐
    │  THE FIVE PARTS — does the card have all of them?                │
    │   1. metric   2. baseline   3. target   4. deadline   5. owner   │
    │   Missing the baseline? → tag "baseline first", keep it.         │
-   │   Missing an owner?     → it does not survive the morning.       │
+   │   Missing an owner?     → it does not reach Draft Zero.          │
    ├──────────────────────────────────────────────────────────────────┤
    │  THE OUTCOME TEST — ask it out loud:                             │
    │   "Could we hit this number in full, and the North Star still    │
    │    not have moved?"                                              │
-   │        YES → it is an OUTPUT. → bet board, under the KR it       │
-   │              is a bet on. Nothing is lost.                       │
+   │        YES → it is an OUTPUT. → the bet list, under the Key      │
+   │              Result it is a bet on. Nothing is lost.             │
    │        NO  → it stays.                                           │
    ├──────────────────────────────────────────────────────────────────┤
    │  THE KPI TEST                                                    │
@@ -888,131 +1055,215 @@ rhythm.*
    ├──────────────────────────────────────────────────────────────────┤
    │  THE OWNERSHIP TEST                                              │
    │   "Does this number move only when another front delivers?"      │
-   │        → YES: flag it blue. It is a shared KR — resolved in M7.  │
+   │        → YES: it is a shared KR. Flag it 🔵 in Draft Zero so     │
+   │          the gauntlet resolves it with both owners present.      │
    └──────────────────────────────────────────────────────────────────┘
 ```
 
-**Saying "that's an output" without deflating anyone.** The phrase to rehearse at the
-pre-brief, because the instinctive wording sounds like a rejection:
+**Saying "that's an output" without deflating anyone.** Worth rehearsing before the first
+1:1, because the instinctive wording lands as a rejection:
 
 > ✗ *"That's not a Key Result."*
-> ✓ *"Good — that's one of our strongest bets. Let's put it on the bet board under the
-> result it's meant to move. Now: **what changes** if we ship it?"*
+> ✓ *"Good — that's one of our strongest bets. Let's list it under the result it's meant
+> to move. Now: **what changes** if we ship it?"*
 
 The second version keeps the contribution, keeps the person, and extracts the actual Key
-Result from the same breath.
+Result in the same breath.
 
-**The anti-pattern cheat sheet**, for the reverse of the card:
+**The anti-pattern cheat sheet:**
 
 | What you see on the card | What it really is | Where it goes |
 | --- | --- | --- |
-| A verb of delivery: *launch, migrate, implement, deliver* | An initiative | Bet board |
+| A verb of delivery: *launch, migrate, implement, deliver* | An initiative | The bet list |
 | A number that must merely stay where it is | A KPI | KPI strip |
 | A target with no baseline | A research task | Keep, tag *baseline first* |
 | *"Improve X"* with no number | An Objective fragment | Fold into the Objective |
 | A percentage nobody can source | A guess | Tag *baseline first* |
 | Owned by "the platform team" | Unowned | Name a person or cut it |
-| Confidence 9–10 from the author | Sandbagging | Raise it in M9 |
+| Confidence 9–10 from the author | Sandbagging | Raise it in R5 |
 
-## Appendix C. Facilitator run-sheet
+## Appendix C. The homework pack
 
-*Everything the GPM needs to run the day, on one page.*
+*The artifact that carries the whole dynamic. Send it as a form — a shared doc per person,
+or a survey with six fields — never as an open document. Budget ~45 minutes and say so.*
+
+> **How to send it.** Attach the **baseline pack** in the same message, so the numbers
+> arrive before the questions do. Include the worked example below, already filled in.
+> State the deadline, and state that each front owner's 1:1 with the GPM happens *after*
+> it and works directly from these answers.
+
+```markdown
+# 2027 OKRs — your preparation
+**Front:** [your investment front]   ·   **You:** [name]   ·   **Due:** [date] (~45 min)
+
+Your answers stay private until the draft is assembled. There are no wrong answers here —
+"we don't measure this" and "I'd drop that initiative" are the two most useful things you
+can write.
+
+**The one rule:** an initiative is never a Key Result. An initiative is a *bet* on a Key
+Result. If deleting the initiative would force you to rewrite the Key Result, it was an
+initiative in disguise.
+
+---
+## 1. The number
+Our North Star for this front is: [pre-filled by the GPM]
+What would have to be measurably different by December 2027 for us to say this front moved?
+
+    metric: ______________   today: ______   →   Dec/2027: ______
+
+## 2. The source
+Where does that "today" number come from?
+  [ ] a dashboard/report — which: ____________
+  [ ] someone would have to pull it manually
+  [ ] we don't measure this at all      ← a complete and useful answer
+
+## 3. The bets
+Which 2–3 initiatives we already have are the strongest bets on that change?
+  1. ______________   2. ______________   3. ______________
+And which ONE of our current initiatives would you drop? ______________
+Why: ______________
+
+## 4. The dependency
+One thing your front needs from ANOTHER front to hit the number above.
+  We need: ______________   from front: ______________
+  If we don't get it: ______________
+
+## 5. The challenge
+One thing ANOTHER front does today that you think should change in 2027.
+  Front: ______________
+  What should change: ______________
+  Why it matters to the whole superintendency (not just to you): ______________
+
+## 6. The no
+One thing YOUR OWN front should stop doing in 2027, to fund the above.
+  We should stop: ______________
+  What that frees up: ______________
+```
+
+**The worked example to ship with it** — a fictional sixth front, so nobody has to guess at
+the expected level of detail, and so the example never collides with a real front's answer:
+
+```markdown
+FRONT: Developer Experience (example — not a real front)
+1. time from a new squad's first request to a production-ready dataset:
+   9 days today → 2 days by Dec/2027
+2. source: manual pull from the ticket system; reliable since March
+3. bets: self-service ingestion templates · contract tests · onboarding guild
+   would drop: the bespoke-pipeline request queue
+   why: it's the thing that makes the 9 days look acceptable
+4. need: certified domain ownership from Governance, or nothing is self-service
+   if we don't get it: the 2-day target is not reachable and I'd cut it to 5
+5. challenge: Governance runs certification as a quarterly batch. A quarterly batch
+   caps how fast any other front can move. It should become continuous.
+6. we should stop: staffing the bespoke-pipeline queue
+   frees up: roughly one squad-quarter, which is what the templates need
+```
+
+### Notes on the six prompts
+
+- **Prompt 2 is the one people skip**, and it is the one that prevents the most damage. A
+  Key Result whose baseline nobody can source is a guess with a decimal point. Make
+  *"we don't measure this"* an explicitly correct answer, in writing, or people will invent
+  a number rather than look unprepared.
+- **Prompt 3's "drop" field is the first no of the cycle**, and it is far cheaper to write
+  alone than to say in front of 25 peers in R4. Everyone arriving at the capacity
+  confrontation having already conceded one thing changes the tone of that conversation
+  entirely.
+- **Prompt 5 needs framing when you assign it.** Say why it exists — that the room has no
+  breakouts, so cross-front disagreement has to be collected in writing or it never
+  surfaces — and say in advance whether answers will be attributed. Deciding that *after*
+  reading the answers is the fastest way to lose the room's trust.
+- **Prompt 6 is what makes R4 possible.** Without it, the capacity confrontation opens with
+  25 people defending everything they have.
+
+## Appendix D. Facilitator run-sheet
+
+*Everything the GPM needs, on one page.*
 
 ### Timeline
 
 | When | What | Who | Output |
 | --- | --- | --- | --- |
-| **T-3 weeks** | Pick the five co-facilitators and scribes; assemble the baseline data pack | GPM | Named roles, capacity numbers per front |
-| **T-2 weeks** | Kick-off (~45 min) | All leaders | Shared concepts, the two constraints, pre-work assigned |
-| **T-1 week** | Co-facilitator pre-brief (~60 min) | GPM + 10 | Trained tables, rehearsed quality gate |
-| **T-3 days** | Pre-work due | Each leader | Private cards: baselines, candidate KRs, drops, dependencies |
-| **T-1 day** | Wall prep | GPM + co-facilitators | Five pre-loaded walls, capacity chips counted |
-| **The day** | Measure Room → synthesis lunch → Commitment Room | Everyone | Committed OKR set |
+| **T-4 weeks** | Assemble the baseline pack with data/BI; confirm the capacity numbers per front | GPM + data | Every number the room might argue about, sourced |
+| **T-3 weeks** | Kick-off (~45 min) | All leaders | Shared concepts, direction, constraints, homework assigned |
+| **T-2 weeks** | Homework window opens (baseline pack attached) | Each leader | Six fields, private |
+| **T-2 weeks + 4d** | Homework due | — | Completion rate visible to the five front owners |
+| **T-1 week** | Front-owner 1:1s, 5 × 45 min | GPM + each owner | One gated draft page per front |
+| **T-4 days** | Draft Zero assembled | GPM | ≤6 pages: draft + open decisions + contested |
+| **T-3 days** | Pre-read distributed | Everyone | Challenges written in the margin |
+| **The day** | The room (~4h) | All leaders | Committed OKR set, owners, Not Doing board |
 | **T+5 days** | Publish + written confirmation round | GPM | Ratified artifact (Appendix A) |
 
 ### The day
 
 ```text
- 09:00  M0   Orient — vision, the single rule, the gate, the shape of the day   15'  plenary
- 09:15  M1   Baseline wall — measured / measurable / not yet                    20'  tables
- 09:35  M2   Objective drafting — 1-2-4-All                                     30'  tables
- 10:05  M3   KR forge — silent write → gate → converge to ≤3                    50'  tables
- 10:55       ── break ──                                                        15'
- 11:10  M4   Horizon sort — H1/H2/H3, learning KR for H3, read the balance      25'  tables
- 11:35  M5   Rotation gallery — 🔴 output / 🔵 dependency, two rotations        35'  rotating
- 12:10       ── LUNCH + synthesis (GPM + co-facilitators work) ──               60'
- 13:10  M6   Toss-back — consolidated draft + the conflict list                 15'  plenary
- 13:25  M7   Dependency market — shared KR / joint commitment / at risk         30'  mixed
- 13:55  M8   Betting table — capacity chips, the Not Doing board                40'  mixed
- 14:35       ── break ──                                                        10'
- 14:45  M9   Confidence calibration + committed vs aspirational                 25'  plenary
- 15:10  M10  OKR pre-mortem — "we hit everything and nothing improved"          20'  mixed
- 15:30  M11  Commitment round — five owners speak, everyone signs               15'  plenary
- 15:45       close
+ 09:00  R0   Frame — the rules, the single rule, what is NOT open today      10'
+ 09:10  R1   Silent read of Draft Zero — three marks only                    25'
+ 09:35  R2   Heat map — post, then read the pattern aloud                    15'
+ 09:50  R3   The gauntlet — five fronts in sequence, ~15' each               75'
+ 11:05       ── break ──                                                     15'
+ 11:20  R4   Capacity confrontation — chips, overflow, Not Doing board       35'
+ 11:55  R5   Confidence reveal — simultaneous, outliers only                 20'
+ 12:15  R6   Pre-mortem, written — cluster live, top three                   20'
+ 12:35  R7   Commitment round — five owners speak, everyone signs            15'
+ 12:50       close
 ```
 
-### Room and materials for 25+
+### Room and materials
 
-- **Five wall stations**, far enough apart that two tables cannot overhear each other —
-  at this size, ambient noise is the main cause of tables drifting into plenary mode.
-- Per station: the pre-loaded wall, a **bet board**, a **KPI strip**, cards in two
-  colours, markers, red and blue sticker sheets, dots for voting.
-- **Central:** the conflict-list flipchart, the **Not Doing board**, the capacity chips,
-  and a visible countdown clock. At 25+ the clock does more facilitation than the
-  facilitator.
-- **Roles:** GPM facilitates the room and never a table; one co-facilitator and one scribe
-  per front; the scribe's only job is to keep the wall legible and photograph it before
-  lunch.
+- **One room, one wall, everyone facing it.** No table groupings that imply breakouts —
+  people should be seated so that standing up to post on the wall is trivial.
+- **The heat-map wall:** a five-column grid, one column per front, one row per Key Result,
+  built before anyone arrives.
+- **Per person:** a printed Draft Zero, a pen, and three sticker types (🔴 🔵 ❓) — roughly
+  six of each. Rationing the stickers is what forces people to mark what actually matters.
+- **Central:** the projected artifact (edited live by a scribe, not by the GPM — the GPM
+  cannot facilitate and type), the capacity wall, the chips, the **Not Doing board**, and a
+  visible countdown clock. At 25+ the clock does more facilitation than the facilitator.
+- **Roles:** GPM facilitates; one scribe edits the artifact live; the five front owners
+  each defend their page. That is the entire role list — no co-facilitators, because there
+  are no groups to facilitate.
 
-### Co-facilitator pre-brief agenda (60 min)
-
-| Min | Topic |
-| --- | --- |
-| 0–10 | Why the day is a negotiation, not a cascade — the catchball shape |
-| 10–25 | The concepts your table will get wrong: the three layers, output vs. outcome, KPI vs. KR |
-| 25–40 | **Rehearse the quality gate** on real cards from last year's goals — each co-facilitator runs one out loud |
-| 40–50 | Rehearse *"that's an output"* without deflating the person. Everyone says it once |
-| 50–60 | Timeboxes, the bet board, what to escalate to the GPM rather than resolve at the table |
-
-### Failure signals to watch for during the day
+### Failure signals to watch for
 
 | Signal | What it means | Intervention |
 | --- | --- | --- |
-| A table finishes M3 early | They wrote initiatives, not Key Results | Re-run the outcome test on every card |
-| A table is still arguing about the baseline at M3 | The data pack was insufficient | Tag them all *baseline first* and move on — do not let it eat the forge |
-| The same person has spoken for ten minutes | The table reverted to a meeting | Switch to silent writing immediately |
-| Nobody flags a blue dependency in M5 | Fronts are being polite, not independent | Ask each table to name one out loud before lunch |
-| All confidences land at 7–8 in M9 | The room is avoiding the calibration | Ask for the *one* KR they would bet their quarter on, and work outward |
+| Very few marks go up in R2 | People didn't read, or didn't believe marking was safe | Extend R1 by 10 minutes and say again that an unmarked page means an unread page |
+| Marks are spread evenly across everything | The stickers weren't rationed, or the criteria weren't clear | Re-state the three mark meanings and ask for the *top* concern only |
+| A challenge in R3 turns into a debate | The timebox slipped | Cut to fist-to-five; below three, it goes to the open-decisions list |
+| One person is answering for several fronts | The front owners aren't owning their pages | Hand the page back, literally, to its owner |
+| The chips fit in R4 | The capacity was sized too generously | You have lost the day's main trade-off; force it by removing a chip per front |
+| All confidences cluster at 7–8 in R5 | The room is avoiding calibration | Ask which single Key Result they'd bet their own quarter on, and work outward |
+| R6 produces nothing | The room is tired, or too agreeable | Ask the question in the first person: *"which of these numbers would* ***you*** *game?"* |
 
-## Appendix D. Kick-off presentation storyline
+## Appendix E. Kick-off presentation storyline
 
-*For slide generation.* A narrative arc for the T-2 week kick-off, written as a story
-rather than bullet points — paste into an AI slide generator or build it by hand. Each
-beat ≈ one slide: a *headline*, the *story beat*, and a *speaker note*. Replace every
-`[ … ]`. ~9 slides, ~20 min, leaving 25 minutes for concepts and questions.
+*For slide generation.* A narrative arc for the T-3 week kick-off, written as a story
+rather than bullet points — paste into an AI slide generator or build it by hand. Each beat
+≈ one slide: a *headline*, the *story beat*, and a *speaker note*. Replace every `[ … ]`.
+~9 slides, ~20 min, leaving 25 minutes for the concepts and questions.
 
-> Conventions: this room already built the vision — **do not re-sell it, re-anchor on it
-> and move**. The energy of this meeting should go into the concepts, because every
-> concept skipped here costs triple during the KR forge. Be concrete about the
-> constraints: people commit more honestly when they know the capacity before they write
-> the ambition.
+> Conventions: this room already built the vision — **do not re-sell it, re-anchor and
+> move**. The energy belongs in the concepts and in the homework, because in this design
+> the homework *is* the dynamic. Be concrete about the constraints: people commit more
+> honestly when they know the capacity before they write the ambition.
 
 **Slides 1–2 — Where we are**
 
 1. **Headline: "We built the vision. Now we price it."**
    *Beat:* one slide recalling the vision, the five fronts and their North Stars — as a
    reminder, not a re-pitch. Then the turn: a vision names the destination, an OKR names
-   what changes *this year*. Today we start converting one into the other.
-   *Note:* ninety seconds on this slide, maximum. The room lived it; lingering reads as
-   distrust of their memory.
+   what changes *this year*.
+   *Note:* ninety seconds maximum. The room lived it; lingering reads as distrust of their
+   memory.
 2. **Headline: "A North Star doesn't move in twelve months."**
-   *Beat:* the honest problem. Our North Stars are multi-year by construction, so we
-   cannot simply "measure the North Star" next year. Show the chain — North Star → input
-   metrics → the ones we commit to in 2027 — using the diagram from
+   *Beat:* the honest problem. Our North Stars are multi-year by construction, so we cannot
+   simply "measure the North Star" next year. Show the chain — North Star → input metrics →
+   the ones we commit to in 2027 — using the diagram from
    [the bridge](#the-bridge-from-north-star-to-key-results).
-   *Note:* this is the intellectual hook of the meeting. It reframes the task from
-   *"set goals"* to *"choose which levers we pull this year"*, which is a far better
-   question to take into the pre-work.
+   *Note:* the intellectual hook of the meeting. It reframes the task from *"set goals"* to
+   *"choose which levers we pull this year"*, which is a much better question to carry into
+   the homework.
 
 **Slides 3–5 — The concepts**
 
@@ -1020,47 +1271,51 @@ beat ≈ one slide: a *headline*, the *story beat*, and a *speaker note*. Replac
    *Beat:* the three-layer table with a worked example from *our* platform. Land the
    asymmetry: initiatives are bets we can change in June; Key Results are the commitment.
    *Note:* the most important slide in the deck. If the room leaves with only this, the
-   workshop still works.
+   homework still comes back usable.
 4. **Headline: "An initiative is never a Key Result."**
-   *Beat:* the single rule, stated plainly, with two examples from our own initiative
-   list rewritten live from output into outcome. Promise the **bet board** in the same
-   breath — every initiative gets a home, nothing is thrown away.
-   *Note:* name the reason honestly: we walk in holding a list of initiatives, and the
-   path of least resistance is to relabel it. We are choosing not to.
+   *Beat:* the single rule, stated plainly, with two examples from our own initiative list
+   rewritten live from output into outcome. Promise in the same breath that every
+   initiative gets listed as a **bet** — nothing is thrown away.
+   *Note:* name the reason honestly: we walk in holding a list of initiatives, and the path
+   of least resistance is to relabel it. We are choosing not to.
 5. **Headline: "What an OKR is not."**
    *Beat:* not a task list · not the roadmap · not the KPI dashboard · not a performance
    review · not everything we will do next year. On-screen, one line worth quoting:
    > OKRs "should not be considered as an individual or team performance evaluation tool."
    > — Google re:Work ([Set goals with OKRs](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs))
    *Note:* say the performance-review line out loud and mean it. Until people believe it,
-   every target they write will be sandbagged, and you will never find out.
+   every target they write will be sandbagged and you will never find out.
 
 **Slides 6–7 — The constraints**
 
 6. **Headline: "Where the company is going in 2027"**
    *Beat:* the [2–3] company objectives, unedited. This is the top-down half of the
    negotiation — the direction, not the answer.
-   *Note:* frame explicitly as *one half of a catchball*: here is the direction; you bring
-   back what is actually movable. That framing is what earns honest numbers.
+   *Note:* frame it explicitly as one half of a catchball: here is the direction, you bring
+   back what is actually movable.
 7. **Headline: "And here is the capacity we actually have"**
-   *Beat:* squads, headcount and committed run-rate per front — the real number for
-   *change* work in 2027. Say the uncomfortable part: it is smaller than the ambition, and
-   that is the point of meeting.
-   *Note:* sharing capacity *before* people write ambitions is what turns the betting
-   table into a negotiation instead of a disappointment. Do not soften it.
+   *Beat:* squads, headcount and committed run-rate per front — the real number available
+   for *change* work in 2027. Say the uncomfortable part: it is smaller than the ambition,
+   and that is precisely what we are meeting about.
+   *Note:* sharing capacity *before* people write ambitions turns the capacity
+   confrontation into a negotiation instead of a disappointment. Do not soften it.
 
-**Slides 8–9 — How the day works, and the ask**
+**Slides 8–9 — How this works, and the ask**
 
-8. **Headline: "One day, three tosses"**
+8. **Headline: "The work happens before the room, not in it."**
    *Beat:* the process diagram from
-   [the process at a glance](#the-process-at-a-glance). Emphasize the two things people
-   need to hear: the morning produces *candidates*, nothing is final before lunch; and the
-   conflicts come back to the room after lunch rather than being settled privately.
-   *Note:* naming the convergence step in advance is what buys cooperation with it. People
-   fight a surprise consolidation; they work with one they were promised.
-9. **Headline: "Your part: bring the numbers, including the ones we don't have"**
-   *Beat:* the four pre-work prompts, the deadline, and explicit permission for the answer
-   *"we don't measure this"* — which is a finding we need, not a gap to hide. Remind them
-   that naming what they would **drop** is part of the assignment.
-   *Note:* submissions stay private until the day. Close on the date, the room, and the
-   promise that they will leave with a set they authored.
+   [the process at a glance](#the-process-at-a-glance). Make the shape explicit: six of the
+   eight steps happen before the day, we will all be in one room with no breakouts, and the
+   day is spent challenging and committing — not drafting.
+   *Note:* this is the slide that sells the homework, so do not rush it. Say the dependency
+   out loud: *if the homework doesn't arrive, the day has nothing to work on.* People
+   respond to being told the plan genuinely depends on them — far better than to a
+   reminder email in three weeks.
+9. **Headline: "Your part: 45 minutes, six questions, by [date]"**
+   *Beat:* walk the six prompts from [Appendix C](#appendix-c-the-homework-pack). Flag the
+   three that feel unusual and explain each: *"we don't measure this"* is a correct answer;
+   you will be asked what your own front should **stop**; and you will be asked what
+   **another** front should change — say now whether that will be attributed.
+   *Note:* close on the mechanics — the baseline pack is attached so half the work is done,
+   answers stay private until the draft, and each front owner's 1:1 happens after the
+   deadline and works straight from these answers.
