@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T13:48:42Z",
+  "fetched_at": "2026-09-12T13:08:29Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,9 +14,9 @@
       ],
       "items": [
         {
-          "title": "Is local dev disappearing with agents",
-          "url": "https://www.youtube.com/watch?v=r4Mn_HJkN6A",
-          "published": "2026-09-10T15:43:51+00:00",
+          "title": "How is code review changing",
+          "url": "https://www.youtube.com/watch?v=_w1pmgvdDXI",
+          "published": "2026-09-11T20:00:28+00:00",
           "content_snippet": "with Tibo Sottiaux, Head of Core Products & Platform at OpenAI See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
@@ -67,10 +67,19 @@
       ],
       "items": [
         {
-          "title": "The 28-day cycle, and other myths of menstruation | Jen Gunter: Full Interview",
-          "url": "https://www.youtube.com/watch?v=gVars5PNOMg",
-          "published": "2026-09-11T13:00:04+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-gunter-gVars5PNOMg Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The evolution of laziness: Why humans resist the gym | Daniel Lieberman: Full Interview ► https://www.youtube.com/watch?v=TLY0TNm67hY O",
+          "title": "What Car Salesmen Will Never Tell You",
+          "url": "https://www.youtube.com/watch?v=qtldgTar11o",
+          "published": "2026-09-11T17:16:12+00:00",
+          "content_snippet": "If you optimize your life long enough, you forget to live it. The cleanest evidence comes from Leaf Van Boven and Tom Gilovich, who asked people to recall a purchase over a hundred dollars, made either for an experience or for a material thing, and then asked which had made them happier. Experiences won. They won again when people were asked which purchase counted as money well spent. The reason sits in the adaptation. A jacket becomes furniture in your closet within a month. A trip becomes a st",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why we are finding more potential alien planets | Adam Frank",
+          "url": "https://www.youtube.com/watch?v=NWmWoxXicmQ",
+          "published": "2026-09-11T16:05:11+00:00",
+          "content_snippet": "Why we are finding more potential alien planets | Adam Frank",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -82,9 +91,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -107,6 +114,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -116,8 +127,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
-        "The Analytics Engineering Podcast": 2
+        "The Analytics Engineering Podcast": 1
       }
     },
     {
@@ -136,174 +146,102 @@
       ],
       "items": [
         {
-          "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
-          "published": "2026-09-10T20:00:00+00:00",
-          "content_snippet": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected billing caused by unintended recursive loops. Customers use event sources such as Amazon S3, Amazon SQS, and Amazon SNS to build event driven applications that trigger Lambda functions. Misconfiguration or code defect can cause events to be s",
+          "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+          "published": "2026-09-11T18:35:00+00:00",
+          "content_snippet": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform for .NET now generates unit tests for modernized code",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
-          "published": "2026-09-10T20:00:00+00:00",
-          "content_snippet": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic and controllers, giving you an automated test safety net on the modernized code as part of the same job that performs the migration. Modernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams",
+          "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+          "published": "2026-09-11T18:25:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with l",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
-          "published": "2026-09-10T20:00:00+00:00",
-          "content_snippet": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB, limiting visibility into request and response data. You can now route execution logs up to 1 MB to your own Amazon CloudWatch Logs log groups, Amazon S3 buckets, or Amazon Data Firehose streams, and deliver to multiple destinations simultaneously.",
+          "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+          "published": "2026-09-11T17:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file reads for your Lambda functions based on your application requirements. Customers use S3 Files with Lambda functions to build scalable data processing pipelines and stateful agentic workloads with the performance and simplicity of a file system",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda durable functions integrates with Pydantic AI",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
-          "published": "2026-09-10T18:45:00+00:00",
-          "content_snippet": "Today, AWS Lambda durable functions announces an integration with Pydantic AI , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself. With this integration, each model and tool call your agent make",
+          "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+          "published": "2026-09-11T15:13:00+00:00",
+          "content_snippet": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already supports media search by transcribing audio and video to text and generating text-based embeddings—Marengo 3.0 goes further by encoding visual scenes, speech, and video cues directly into multimodal embeddings, capturing meaning that transcripti",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon MQ now supports RabbitMQ 4.3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
-          "published": "2026-09-10T18:08:00+00:00",
-          "content_snippet": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance improvements for memory management. Quorum queues on RabbitMQ 4.3 performs compaction to reduce disk usage for queues and native support for 32 strict priority levels, compared to the relative 2 levels supported in previous RabbitMQ versions. Quor",
+          "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+          "published": "2026-09-11T15:00:00+00:00",
+          "content_snippet": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time run metrics c",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing second-generation single-rack AWS Outposts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
-          "published": "2026-09-10T17:58:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data processing, and data residency in space and power constrained locations. A single-rack Outposts delivers up to 2,688 vCPU and 100 TB of Amazon Elastic Block Store (Amazon EBS) storage. Moreover, like multi-rack Outposts, single-rack Outposts su",
+          "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+          "published": "2026-09-11T15:00:00+00:00",
+          "content_snippet": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented workflows during high-severity incidents, having to context-switch between communication and investigation platforms. This update consolidates both surfaces into a single, unified location where incident response already happens. Engineering teams",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
-          "published": "2026-09-10T17:00:00+00:00",
-          "content_snippet": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure management and automatically scales capacity up and down based on demand, so you can focus on building and not managing clusters. With this launch, you can use natural language prompts to build applications powered by OpenSearch Serverless for",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
-          "published": "2026-09-10T16:52:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS tasks. This helps organizations prevent unexpected cost overruns and keep workloads aligned with their resource policies. Previously, the ecs:task-cpu and ecs:task-memory condition keys were available only on the RegisterTaskDefinition, Cre",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-          "published": "2026-09-10T16:00:00+00:00",
-          "content_snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehou",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
-          "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
-          "published": "2026-09-10T15:05:10+00:00",
-          "content_snippet": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
+          "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
+          "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
+          "published": "2026-09-11T18:26:59+00:00",
+          "content_snippet": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Improving Lakebase Postgres compute cache",
-          "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
-          "published": "2026-09-10T13:47:03+00:00",
-          "content_snippet": "The disaggregated storage model of Lakebase Postgres provides a feature rich, flexible...",
+          "title": "Unify your marketing data with Lakeflow Connect",
+          "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
+          "published": "2026-09-11T18:00:00+00:00",
+          "content_snippet": "This is the first post in a new series exploring how Lakeflow Connect brings fully...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "GPT-6 Astra built a font playground",
-          "url": "https://www.youtube.com/watch?v=0NUm552iB3U",
-          "published": "2026-09-11T04:08:16+00:00",
+          "title": "GPT-6 Astra added unexpected details",
+          "url": "https://www.youtube.com/watch?v=ZlvkQYZo3ZE",
+          "published": "2026-09-11T21:00:04+00:00",
           "content_snippet": "",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing the Agents API",
-          "url": "https://www.youtube.com/watch?v=2YHa1vhnmK0",
-          "published": "2026-09-10T19:26:05+00:00",
-          "content_snippet": "The Agents API brings a hosted version of the Codex harness to your applications. See how to build an agent that investigates production incidents, connects to tools through MCP, follows a runbook, and delivers a shareable report with evidence and suggested next steps. Learn more: https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "title": "GPT-Live-1 is now in the API",
+          "url": "https://www.youtube.com/watch?v=OSaP6bJoU44",
+          "published": "2026-09-11T17:06:25+00:00",
+          "content_snippet": "GPT-Live-1 is now available in the API. Bring ChatGPT’s natural back-and-forth to your app, with voice agents that listen while they speak and work with the models and harness you choose. Learn more here: https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "In Harmony",
-          "url": "https://www.youtube.com/watch?v=PbfXbDbCthA",
-          "published": "2026-09-10T17:29:32+00:00",
-          "content_snippet": "Work directed by you. Move projects forward and turn ideas into action with ChatGPT Work.",
+          "title": "GPT-6 Astra handles the editing busywork",
+          "url": "https://www.youtube.com/watch?v=4bGb2OjU5tA",
+          "published": "2026-09-11T15:00:24+00:00",
+          "content_snippet": "",
           "source_name": "OpenAI",
           "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Two blind brothers using ChatGPT to navigate life and run their nonprofit",
-          "url": "https://www.youtube.com/watch?v=qg_54P-oPgI",
-          "published": "2026-09-10T16:00:27+00:00",
-          "content_snippet": "Bradford and Bryan Manning have spent their lives adapting to a world built for sight. Both brothers live with Stargardt disease, which has taken much of their central vision and made everyday tasks like navigating a crowded street far more difficult. Today, they use ChatGPT to turn visual information into something they can hear, understand, and act on. It helps them navigate unfamiliar places, analyze data, keep up with email, and run Two Blind Brothers, the nonprofit they founded to support t",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Helping a small business go big with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=mPAmXQnhv2E",
-          "published": "2026-09-10T16:00:09+00:00",
-          "content_snippet": "Derek and Larissa Guetter own ATV Big Air Tour – a small business that brings high-octane ATV and motocross shows to events across the country. They’ve been growing their business for 11 years, and now they’re competing with some of the biggest entertainment companies in the US. As a team of two, they use ChatGPT to help them with every aspect of their business. ChatGPT creates marketing plans, evaluates partnerships, and runs inventory, as well as helping them with setup on show days. It acts a",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Discovering new antibiotics with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=0XLGisanEAs",
-          "published": "2026-09-10T15:59:55+00:00",
-          "content_snippet": "The de la Fuente Lab is using ChatGPT and Codex in the search for new molecules that could help fight antibiotic-resistant bacteria. Modern medicine relies on effective antibiotics, which help us recover from routine illnesses, surgeries, childbirth, and more. However, antimicrobial resistance (AMR) is a growing problem. Approximately 5 million people die every year from bacterial AMR, and that number is expected to double by 2050. Dr. César de la Fuente and his team use ChatGPT and Codex to exp",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Data agent in ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=MSiAd36bGeQ",
-          "published": "2026-09-10T15:07:22+00:00",
-          "content_snippet": "Now everyone can put data to work. We’re introducing a new Data agent in ChatGPT Work so you can turn your company’s data into answers, interactive dashboards, and action—just by asking. Just add the Data Plugin in the ChatGPT Work, connect to the data sources and context you already use, and start the conversation. More here: https://openai.com/index/put-data-to-work/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Welcoming Dioxus to Cognition",
-          "url": "https://cognition.ai/blog/welcoming-dioxus",
-          "published": "2026-09-10T17:00:00+00:00",
-          "content_snippet": "Welcoming Dioxus to Cognition\nWe’re thrilled to welcome Jonathan Kelley and the entire Dioxus team to Cognition.\nDioxus was founded to simplify app development and make it easier for small teams to ship ambitious apps across platforms. At Cognition, we used Dioxus extensively to build and improve the performance of Devin. When the two teams met, we knew there was a natural fit.\nCognition is proud to continue to support Dioxus’ open source work. As one team, we plan on continuing support for Diox",
-          "source_name": "Devin AI (Cognition)",
-          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
@@ -314,6 +252,10 @@
         },
         {
           "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -332,64 +274,10 @@
       ],
       "items": [
         {
-          "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
-          "url": "https://www.youtube.com/watch?v=O1FN4awNEtM",
-          "published": "2026-09-10T17:00:06+00:00",
-          "content_snippet": "Vincent Wendy pointed an agent at the sponsor banner in the lobby, a wall carrying more than 140 logos, and asked it which ones were missing. It caught every omission in the checks he ran, and he used the same trick on the conference shirt. Wendy is the senior creative designer at AI Engineer, a company of roughly twelve to fifteen people, and he is its only designer. The conference he designs for grew to 7,000 attendees, more than 140 sponsors, more than 300 speakers, and more than 600 sessions",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Generative UI... in Python? — Jeremiah Lowin, Prefect",
-          "url": "https://www.youtube.com/watch?v=Krzs8GeiWTc",
-          "published": "2026-09-10T16:30:07+00:00",
-          "content_snippet": "Because only the agent can reach an MCP server, a naive file upload tool makes the agent retype the file into the server character by character. Jeremiah Lowin calls it the world's most expensive copy paste operation, and it is the problem MCP apps exist to remove. Lowin is founder and CEO of Prefect and the author of FastMCP. MCP apps, a protocol extension added this year, let a tool result skip the agent and arrive at the user as HTML, CSS, and JavaScript: a real interface a person can click. ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Training Taste — Thais Castello Branco, Taste Labs",
-          "url": "https://www.youtube.com/watch?v=sDMGWK4wZ_w",
-          "published": "2026-09-10T16:00:20+00:00",
-          "content_snippet": "Taste Labs analyzed more than two million websites going back a decade, and the finding that complicates the usual story is that the internet was homogenizing before AI arrived: palettes converging, layouts converging, trends spreading faster than they once did. AI did not start the collapse. It accelerated it and made it context blind, so a pet shop and a finance firm end up with the same page. Thais Castello Branco founded Taste Labs, out of stealth weeks before this talk, to attack that. She ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc.",
-          "url": "https://www.youtube.com/watch?v=v42opQpCy60",
-          "published": "2026-09-10T15:30:14+00:00",
-          "content_snippet": "The instruction Impeccable loads when you type \"bolder\" ends with a challenge: show someone your work, say AI made this bolder, and if they believe you, you failed. Bakaus has built tools for more than twenty years. Impeccable is a design skill that rides on top of a coding harness rather than replacing it, working across Claude Code, Copilot, Cursor, and Codex. He opens by running the same prompt on the same bland page twice, with the skill and without, and lets the room judge. His observation ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
-          "url": "https://www.youtube.com/watch?v=8KkibGU_DDY",
-          "published": "2026-09-10T15:00:39+00:00",
-          "content_snippet": "Selling steam engines to people who thought in horses, James Watt studied the horse gins that powered mills, worked out what one animal produced, and called it horsepower. The number was not scientific and arguably not accurate. It did not have to be. It made the improvement legible enough that someone who liked horses would try a machine. Maximillian Piras is the founding designer at Yutori, which builds computer use models: agents that drive a computer as a person would, where no API or MCP ex",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI",
-          "url": "https://www.youtube.com/watch?v=NW-jwOVr32w",
-          "published": "2026-09-10T14:30:11+00:00",
-          "content_snippet": "Jonathan Gordon was deep in a vibe coding session, ignoring the wall of text scrolling past, when the phrase innerHTML caught his eye. He knew it as an injection risk, stopped the agent, and made it revert. That was the moment he started reading the code again. Gordon has spent more than thirty years building developer tools and IDEs, and he defines his title precisely: a design code roundtrip is a full loop both ways with no loss of fidelity and persistent provenance, so you always know which l",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw",
-          "url": "https://www.youtube.com/watch?v=XWcXwnysmpY",
-          "published": "2026-09-10T14:00:06+00:00",
-          "content_snippet": "One of Max Drake's colleagues turned a whiteboard app into a window manager, then used it to play Pong with real desktop windows. Drake is a product engineer at tldraw, the London company behind the free infinite canvas app and, more importantly to him, the SDK powering other people's canvases, including Replit's. tldraw exists because people building canvas apps got stuck on the canvas itself, on selection and resizing and matrix math, and never reached their actual product. His talk is about t",
+          "title": "Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition",
+          "url": "https://www.youtube.com/watch?v=H7vFrcNWXzs",
+          "published": "2026-09-11T20:00:06+00:00",
+          "content_snippet": "The Dioxus team got excited, maxed out their coding agent subscriptions, and turned out tens of thousands of lines of Rust covering features they had wanted for years. Almost none of it cleared the bar for merging. Those lines sat in draft, and Jonathan Kelley says they are sitting there still. He calls the failure mode becoming a slop cannon. Kelley founded Dioxus Labs five years ago, spending his last undergraduate summer on a cross platform Rust app framework instead of taking an internship, ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -399,5 +287,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 14
+  "deduped_count": 23
 }
