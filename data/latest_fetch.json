@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T13:08:29Z",
+  "fetched_at": "2026-09-13T13:53:05Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "How is code review changing",
-          "url": "https://www.youtube.com/watch?v=_w1pmgvdDXI",
-          "published": "2026-09-11T20:00:28+00:00",
-          "content_snippet": "with Tibo Sottiaux, Head of Core Products & Platform at OpenAI See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -41,7 +31,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Pragmatic Engineer": 2
+      }
     },
     {
       "name": "Product Management",
@@ -65,33 +57,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "What Car Salesmen Will Never Tell You",
-          "url": "https://www.youtube.com/watch?v=qtldgTar11o",
-          "published": "2026-09-11T17:16:12+00:00",
-          "content_snippet": "If you optimize your life long enough, you forget to live it. The cleanest evidence comes from Leaf Van Boven and Tom Gilovich, who asked people to recall a purchase over a hundred dollars, made either for an experience or for a material thing, and then asked which had made them happier. Experiences won. They won again when people were asked which purchase counted as money well spent. The reason sits in the adaptation. A jacket becomes furniture in your closet within a month. A trip becomes a st",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why we are finding more potential alien planets | Adam Frank",
-          "url": "https://www.youtube.com/watch?v=NWmWoxXicmQ",
-          "published": "2026-09-11T16:05:11+00:00",
-          "content_snippet": "Why we are finding more potential alien planets | Adam Frank",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 1,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -146,99 +122,9 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-          "published": "2026-09-11T18:35:00+00:00",
-          "content_snippet": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
-          "published": "2026-09-11T18:25:00+00:00",
-          "content_snippet": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with l",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
-          "published": "2026-09-11T17:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file reads for your Lambda functions based on your application requirements. Customers use S3 Files with Lambda functions to build scalable data processing pipelines and stateful agentic workloads with the performance and simplicity of a file system",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
-          "published": "2026-09-11T15:13:00+00:00",
-          "content_snippet": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already supports media search by transcribing audio and video to text and generating text-based embeddings—Marengo 3.0 goes further by encoding visual scenes, speech, and video cues directly into multimodal embeddings, capturing meaning that transcripti",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
-          "published": "2026-09-11T15:00:00+00:00",
-          "content_snippet": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time run metrics c",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
-          "published": "2026-09-11T15:00:00+00:00",
-          "content_snippet": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented workflows during high-severity incidents, having to context-switch between communication and investigation platforms. This update consolidates both surfaces into a single, unified location where incident response already happens. Engineering teams",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
-          "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
-          "published": "2026-09-11T18:26:59+00:00",
-          "content_snippet": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Unify your marketing data with Lakeflow Connect",
-          "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
-          "published": "2026-09-11T18:00:00+00:00",
-          "content_snippet": "This is the first post in a new series exploring how Lakeflow Connect brings fully...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-6 Astra added unexpected details",
-          "url": "https://www.youtube.com/watch?v=ZlvkQYZo3ZE",
-          "published": "2026-09-11T21:00:04+00:00",
-          "content_snippet": "",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-Live-1 is now in the API",
-          "url": "https://www.youtube.com/watch?v=OSaP6bJoU44",
-          "published": "2026-09-11T17:06:25+00:00",
-          "content_snippet": "GPT-Live-1 is now available in the API. Bring ChatGPT’s natural back-and-forth to your app, with voice agents that listen while they speak and work with the models and harness you choose. Learn more here: https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-6 Astra handles the editing busywork",
-          "url": "https://www.youtube.com/watch?v=4bGb2OjU5tA",
-          "published": "2026-09-11T15:00:24+00:00",
+          "title": "GPT-6 Astra needs less babysitting",
+          "url": "https://www.youtube.com/watch?v=SiJGdlmdUms",
+          "published": "2026-09-12T15:00:30+00:00",
           "content_snippet": "",
           "source_name": "OpenAI",
           "source_type": "youtube",
@@ -247,7 +133,15 @@
       ],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -272,19 +166,11 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition",
-          "url": "https://www.youtube.com/watch?v=H7vFrcNWXzs",
-          "published": "2026-09-11T20:00:06+00:00",
-          "content_snippet": "The Dioxus team got excited, maxed out their coding agent subscriptions, and turned out tens of thousands of lines of Rust covering features they had wanted for years. Almost none of it cleared the bar for merging. Those lines sat in draft, and Jonathan Kelley says they are sitting there still. He calls the failure mode becoming a slop cannon. Kelley founded Dioxus Labs five years ago, spending his last undergraduate summer on a cross platform Rust app framework instead of taking an internship, ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 8
+      }
     }
   ],
   "deduped_count": 23
