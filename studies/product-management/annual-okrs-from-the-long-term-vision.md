@@ -2,8 +2,8 @@
 
 > Turning a long-term product vision — its investment fronts, North Stars and
 > Three-Horizons initiatives — into a committed set of annual OKRs, through a dynamic
-> built for a **single large room** of 25+ leaders: the homework does the producing, the
-> room does the deciding.
+> built for a **single large room** of leaders: the product team prepares the options, the
+> room chooses between them.
 
 - **Topic:** Product Management
 - **Date:** 2026-09-11
@@ -20,14 +20,14 @@
 3. [Feeding the dynamic with evidence](#feeding-the-dynamic-with-evidence)
 4. [Designing this for one room](#designing-this-for-one-room)
 5. [The process at a glance](#the-process-at-a-glance)
-6. [The homework that carries the day](#the-homework-that-carries-the-day)
+6. [The preparation sprint](#the-preparation-sprint)
 7. [The room: one group, one day](#the-room-one-group-one-day)
 8. [After the day](#after-the-day)
 9. [Open questions and next steps](#open-questions-and-next-steps)
 10. [References](#references)
 11. [Appendix A. Annual OKR artifact template](#appendix-a-annual-okr-artifact-template)
 12. [Appendix B. The Key Result quality gate](#appendix-b-the-key-result-quality-gate)
-13. [Appendix C. The homework pack](#appendix-c-the-homework-pack)
+13. [Appendix C. The leader round and the option card](#appendix-c-the-leader-round-and-the-option-card)
 14. [Appendix D. Facilitator run-sheet](#appendix-d-facilitator-run-sheet)
 15. [Appendix E. Kick-off presentation storyline](#appendix-e-kick-off-presentation-storyline)
 
@@ -288,7 +288,7 @@ stalls, not as a menu to pick from:
 ## Feeding the dynamic with evidence
 
 The design so far admits exactly **one** evidence input: the
-[baseline pack](#the-homework-that-carries-the-day), whose job is narrow — settle the
+[baseline pack](#the-preparation-sprint), whose job is narrow — settle the
 `today →` half of a Key Result so the room never burns time arguing about a number.
 
 Most organizations have more than that: **satisfaction surveys, journey maps with pain
@@ -304,19 +304,20 @@ it contradicts.
 | Role | Question it answers | Enters at | What it is allowed to decide |
 | --- | --- | --- | --- |
 | **Baseline evidence** | What is the number today? | The baseline pack, T-2w | The `today →` half of a Key Result. Never re-debated in the room |
-| **Problem evidence** | Which pains are real, whose, and how big? | **The evidence pack, before the homework opens** | Whether an Objective deserves to exist at all |
-| **Outcome evidence** | What would tell us a pain was resolved? | The front-owner 1:1s | Candidate Key Results — especially where a front's North Star has no good input metric yet |
+| **Problem evidence** | Which pains are real, whose, and how big? | **The evidence synthesis, at the start of the preparation sprint** | Whether an Objective deserves to exist at all |
+| **Outcome evidence** | What would tell us a pain was resolved? | The metric trees and the option forge | Candidate Key Results — especially where a front's North Star has no good input metric yet |
 
-**Evidence enters before the homework, never on the day.** The research on why insights
-get ignored is blunt about the timing: evidence that arrives *after* a direction has been
-informally decided reads as disruptive rather than helpful, and gets reinterpreted or
-deprioritized. The same literature names two other reliable killers — a long report does
+**Evidence enters at the start of the preparation sprint, never on the day.** The research
+on why insights get ignored is blunt about the timing: evidence that arrives *after* a
+direction has been informally decided reads as disruptive rather than helpful, and gets
+reinterpreted or deprioritized. The same literature names two other reliable killers — a long report does
 not get read, and research findings routinely carry less weight in a room than a senior
 leader's opinion.
 
 All three are design problems, not communication problems, and they have design answers:
-ship the evidence **with the baseline pack**, before anyone forms a view; make every unit
-of it short enough to read; and give each one a **named owner** who can defend it.
+synthesize the evidence **before any option is drafted**, so nobody has a position to
+defend yet; make every unit of it short enough to read; and give each one a **named owner**
+who can defend it.
 
 ### The evidence card
 
@@ -367,8 +368,8 @@ from [the bridge](#the-bridge-from-north-star-to-key-results):
 
 Worth lifting one more finding: the pains sitting **in the seams between fronts** are
 usually the highest-impact and lowest-politics opportunities, precisely because no single
-front owns them. Those are the ones that should surface as homework prompt 4 and as 🔵
-marks on the day.
+front owns them. Those are the ones that should surface in question 4 of the
+[leader rounds](#the-preparation-sprint) and as 🔵 marks on the day.
 
 ### Satisfaction: use the gap, not the score
 
@@ -414,7 +415,7 @@ Two costs, stated plainly because neither is a footnote:
   announcing the dates.
 - **The room gets slower before it gets better.** Evidence exists to contradict what
   people already believe, and it will. The design channels that collision rather than
-  avoiding it — see the *contested* list in Draft Zero and the first-claim rule in R3 —
+  avoiding it — see the *contested* list in the Options Pack and the first-claim rule in R3 —
   but the first cycle will feel more contentious than one run on intuition alone. That is
   the mechanism working, not failing.
 
@@ -424,28 +425,47 @@ Two costs, stated plainly because neither is a footnote:
 dynamic already run, a set of **investment fronts** (here: five), a **North Star** for each,
 and a body of **initiatives classified by the Three Horizons**.*
 
-**The constraint that shapes every other decision is that the room cannot be split.**
-25+ leaders, one group, no parallel tables. That rules out the standard workshop answer —
-five tables each drafting their own front — and it is worth being precise about why,
-because the obvious substitute is worse than either option.
+**The constraint that shapes every other decision is that the room cannot be split.** All
+the leaders of the superintendency, one group, no parallel tables. That rules out the
+standard workshop answer — one table per front, each drafting its own — and it is worth
+being precise about why, because the obvious substitute is worse than either option.
 
 **A big room is bad at producing and good at deciding.** Production in plenary is
-*serial*: one person talks and twenty-four wait, so throughput collapses and the three
-loudest people write the year. Deciding in plenary is *parallel*: everyone can read, mark,
-vote and signal at the same time, and the decision **binds** precisely because all 25 were
-in the room when it was made. A decision taken in a breakout has to be re-sold afterwards
-to everyone who was not there.
+*serial*: one person talks and everyone else waits, so throughput collapses and the three
+loudest voices write the year. Deciding in plenary is *parallel*: everyone can read, mark,
+vote and signal at the same time, and the decision **binds** precisely because the whole
+group was there when it was made. A decision taken in a breakout has to be re-sold
+afterwards to everyone who was not in it.
 
-So the design moves **all production out of the room** and into homework, and spends the
-room only on what a large group does better than a small one: **challenge, trade-off and
-commitment.**
+So the design moves **all production out of the room** and spends the room only on what a
+large group does better than a small one: **challenge, trade-off and commitment.**
 
-> **The consequence, stated plainly: the homework is not preparation — it *is* the
-> dynamic.** If it does not get done, this day has no fallback. A room of 25 cannot
-> regenerate the content live. A breakout design could absorb a weak homework round; this
-> one cannot. That is why
-> [the homework section](#the-homework-that-carries-the-day) is the longest in this study,
-> and why most of it is about making completion inevitable rather than about the prompts.
+### Who does the producing, then?
+
+The tempting answer is *homework for every leader* — a form each one fills in. It is also
+the wrong answer, and worth saying why plainly, because it is the design most OKR guides
+reach for:
+
+- **It is slow where it should be fast.** Twenty leaders each spending 45 minutes is
+  fifteen hours of senior time spent producing fragments that still have to be merged by
+  somebody.
+- **It arrives uneven.** Some fill it in thoughtfully, some at 23:40 the night before, some
+  not at all — and the merged result silently over-weights whoever wrote the most.
+- **Writing alone is the wrong instrument** for what you actually want from a leader. Their
+  value is judgement about trade-offs, which comes out in conversation and dies in a form
+  field.
+
+**So the production is done by the product team, and the leaders' contribution is
+collected by talking to them.** The product team spends a preparation sprint turning the
+evidence into **options**; each leader gives thirty minutes of conversation instead of
+forty-five of typing; and the room spends its time choosing. See
+[The preparation sprint](#the-preparation-sprint).
+
+> **This is what the whole design rests on, so the risk deserves naming: a product team
+> that prepares *answers* has turned the day into a cascade with extra steps.** The
+> protection is structural rather than cultural — the pack the room receives is built to
+> be **deliberately incomplete**, carrying rival options rather than a draft, with the
+> choices left open for exactly the people who have to live with them.
 
 ### The four-beat pattern
 
@@ -479,7 +499,7 @@ roughly a dozen people without subdividing them:
 
 The room walks in holding a **list of initiatives**, and the gravity of that list is to
 become the Key Results ("deliver the catalog", "migrate 12 pipelines"). So one rule is
-stated at the kick-off, printed in the homework pack, and enforced all day:
+stated at the kick-off, printed on every option card, and enforced all day:
 
 > ### An initiative is never a Key Result.
 > An initiative is a **bet** on a Key Result. If deleting the initiative forces you to
@@ -489,19 +509,20 @@ stated at the kick-off, printed in the homework pack, and enforced all day:
 
 | Failure mode | Where the design answers it |
 | --- | --- |
-| Initiative-as-Key-Result | The quality gate, applied twice in the homework and 1:1s — before the room ever sees the card |
+| Initiative-as-Key-Result | The quality gate, applied in the option forge — before the room ever sees a card |
 | A wish list — five fronts × N initiatives | The fixed constraint (one Objective per front, ≤3 KRs) plus the capacity confrontation in R4 |
-| A cascade instead of a negotiation | Catchball: the draft is assembled *from the leaders' own homework*, and the room is handed the open decisions rather than the answers |
-| Everything lands in Horizon 1 | The horizon field in the homework pack and the balance read aloud in R3 |
-| Cross-front dependencies stay informal favours | Declared in writing in the homework, resolved in the gauntlet with **both owners in the room** |
+| A cascade instead of a negotiation | Catchball: the pack is built from the **leader rounds**, and the room is handed **rival options** and the open decisions rather than an answer |
+| Everything lands in Horizon 1 | The horizon tags on every option card and the balance read aloud in R3 |
+| Cross-front dependencies stay informal favours | Surfaced in the leader rounds, resolved in the gauntlet with **both owners in the room** |
 | Sandbagging, or fantasy targets | The simultaneous confidence reveal in R5 |
 | The loudest voice writes the year | Write → aggregate → select → signal: airtime is allocated by the heat map |
-| The homework does not get done | The forcing functions in [Making completion inevitable](#the-homework-that-carries-the-day) |
-| Evidence theater — a readout that changes nothing | The evidence pack ships *before* the homework, and two prompts ask which card supports the answer |
-| Cherry-picking — evidence used as ammunition for a plan already made | The 📄 mark in R1, the *unsupported* list in Draft Zero, and evidence owners present in R3 |
+| Preparation does not get done | It belongs to the product team, whose job it is — not to leaders with no accountability for it |
+| The product team hands down a plan | The pack carries **rival options**, not a draft; if the room has nothing to choose, the sprint failed |
+| Evidence theater — a readout that changes nothing | Evidence is synthesized *before* any option exists, and every option card must cite it or be marked as judgement |
+| Cherry-picking — evidence used as ammunition for a plan already made | The 📄 mark in R1, the *unsupported* list in the pack, and evidence owners present in R3 |
 | Every front writes "raise NPS" | The satisfaction rules: lagging → KPI strip, segment it, use the gap to size the ambition |
 | One anecdote outweighing a 400-response survey | The **STRENGTH** tier declared on every evidence card |
-| Evidence arrives too late to change anything | It ships with the baseline pack, before anyone has formed a view |
+| Evidence arrives too late to change anything | It is the sprint's first step, before anyone has a position to defend |
 
 **Scope.** The dynamic ends at a ratified annual OKR set plus the cadence that keeps it
 alive. The **squad-level cascade** — each squad turning these into its own quarterly OKRs
@@ -510,27 +531,31 @@ of a third study.
 
 ## The process at a glance
 
-**Nine steps, seven of them before the day.** That distribution *is* the design, not an
+**Most of the work happens before the day.** That distribution *is* the design, not an
 accident of scheduling: the room is the short, expensive step, so everything that does not
-require all 25 people present has been moved off it.
+need every leader present has been moved off it — into a **preparation sprint run by the
+product team**, not into homework spread across the leadership group.
 
 ```mermaid
 flowchart LR
-    K["① Kick-off · T-3w<br/>concepts, direction<br/>and the homework"]
-    H["② Homework · T-2w<br/>solo and structured<br/>— the production step"]
-    B["③ Baseline pack · T-2w<br/>GPM measures what can<br/>be measured centrally"]
-    E["③b Evidence pack · T-2w<br/>research/CX/data:<br/>15–20 evidence cards"]
-    O["④ Owner 1:1s · T-1w<br/>5 × 45 min<br/>one draft page per front"]
-    D["⑤ Draft Zero · T-4d<br/>one document +<br/>the open decisions"]
-    P["⑥ Pre-read · T-3d<br/>everyone reads,<br/>everyone marks"]
-    R["⑦ The room · the day<br/>challenge → trade off<br/>→ commit"]
-    T["⑧ Ratify · T+5d<br/>publish + written<br/>confirmation round"]
+    K["① Kick-off · T-3w<br/>concepts, direction,<br/>constraints"]
 
-    K --> H --> O --> D --> P --> R --> T
-    B --> H
-    E --> H
-    B --> O
-    E --> O
+    subgraph SP["② The preparation sprint · T-3w → T-4d · product team"]
+        direction TB
+        S1["Evidence synthesis<br/>→ problem walls"]
+        S2["Leader rounds<br/>30 min each<br/>→ judgement, written up"]
+        S3["Metric trees<br/>→ what is measurable"]
+        S4["Option forge<br/>→ 2–3 rival options<br/>per front"]
+        S5["Capacity math<br/>→ the chips"]
+        S1 --> S2 --> S3 --> S4 --> S5
+    end
+
+    D["③ Options Pack · T-4d<br/>≤6 pages + three lists"]
+    P["④ Pre-read · T-3d<br/>everyone reads<br/>and marks"]
+    R["⑤ The room · the day<br/>choose → trade off<br/>→ commit"]
+    T["⑥ Ratify · T+5d<br/>publish + written<br/>confirmation round"]
+
+    K --> SP --> D --> P --> R --> T
     T -.-> DS
 
     subgraph DS["Downstream — outside this study's scope"]
@@ -544,175 +569,335 @@ flowchart LR
 The same path read as **input → step → output**, the version to put on a slide:
 
 ```text
- #  STEP                 WHO              WHAT COMES OUT
- ── ──────────────────── ──────────────── ────────────────────────────────────────────
- ①  Kick-off (T-3w)     all leaders      shared concepts, direction, constraints
- ②  Homework (T-2w)     each leader      six fields: numbers, bets, dependency,
-                                          challenge, the no  (private)
- ③  Baseline pack       GPM + data       the numbers nobody should argue about
- ③b Evidence pack       research/CX/data 15–20 evidence cards: claim, strength,
-                                          so-what, owner
- ④  Owner 1:1s (T-1w)   GPM + 5 owners   one draft page per front, gated
-                                          + an evidence check on every KR
- ⑤  Draft Zero (T-4d)   GPM              the draft + open decisions + contested
-                                          + unsupported
- ⑥  Pre-read (T-3d)     everyone         challenges written in the margin
- ⑦  The room (~4h)      all leaders      committed OKR set, owners, Not Doing board
- ⑧  Ratify (T+5d)       GPM              published artifact (Appendix A)      ← ends here
+ #  STEP                  WHO                WHAT COMES OUT
+ ── ───────────────────── ────────────────── ──────────────────────────────────────────
+ ①  Kick-off (T-3w)      all leaders        shared concepts, direction, constraints
+ ②  PREPARATION SPRINT   the product team   ↓ (two weeks, part-time)
+     · evidence synth.   + research/CX/data problem walls, sized and sourced
+     · leader rounds     PM × each leader   judgement and friction, written up
+     · metric trees      product team       what is measurable, what links
+     · option forge      product team       2–3 RIVAL options per front
+     · capacity math     GPM                the chips, sized so it does not fit
+ ③  Options Pack (T-4d)  GPM                ≤6 pages + open / contested / unsupported
+ ④  Pre-read (T-3d)      everyone           challenges written in the margin
+ ⑤  The room (~4h)       all leaders        chosen OKR set, owners, Not Doing board
+ ⑥  Ratify (T+5d)        GPM                published artifact (Appendix A)  ← ends here
  ┄┄ outside this study's scope ┄┄
-    └→ quarterly OKRs    squads           squad-level OKRs and initiatives
-    └→ weekly check-in   everyone         confidence tracking, CFRs
+    └→ quarterly OKRs     squads             squad-level OKRs and initiatives
+    └→ weekly check-in    everyone           confidence tracking, CFRs
 ```
+
+### The artifact chain
+
+Every step hands the next one a specific, physical thing. Following the artifacts is the
+fastest way to understand the dynamic — and the fastest way to tell, mid-flight, whether
+it is on track:
+
+```mermaid
+flowchart TD
+    EV["🗂 Evidence cards<br/><i>claim · strength · owner</i>"]
+    PW["🧱 Problem walls<br/><i>one per front, pains sized</i>"]
+    LR["🗣 Leader round notes<br/><i>verbatim, per leader</i>"]
+    MT["🌳 Metric trees<br/><i>measurable? links?</i>"]
+    OC["🃏 Option cards<br/><i>2–3 rivals per front</i>"]
+    CB["🎲 Capacity board<br/><i>chips — and the gap</i>"]
+    OP["📕 The Options Pack<br/><i>≤6 pages + three lists</i>"]
+    HM["🔥 Heat-map wall<br/><i>where the room disagrees</i>"]
+    ND["🚫 Not Doing board<br/><i>every yes named its no</i>"]
+    OK["📗 The annual OKR artifact<br/><i>Appendix A</i>"]
+
+    EV --> PW --> OC
+    LR --> OC
+    LR --> PW
+    MT --> OC
+    OC --> OP
+    CB --> OP
+    OP --> HM
+    HM --> OK
+    ND --> OK
+    CB --> ND
+
+    classDef prep fill:#eef4ff,stroke:#5b7fc7,color:#12233f
+    classDef room fill:#fff4e6,stroke:#c78b3b,color:#3f2c12
+    classDef out fill:#eaf7ee,stroke:#4c9a63,color:#123f22
+    class EV,PW,LR,MT,OC,CB prep
+    class OP,HM,ND room
+    class OK out
+```
+
+| Colour | Who makes it | When |
+| --- | --- | --- |
+| **Blue** | The product team | During the preparation sprint |
+| **Amber** | The room, together | On the day |
+| **Green** | The GPM, from what the room decided | Within five days after |
 
 **Why the day is only ~4 hours.** Because the production already happened. If you have a
 full day available, do not spend the surplus generating more material — spend it on a
 second pass through the gauntlet *after* the capacity confrontation, when the room knows
 what it can actually afford.
 
-## The homework that carries the day
+## The preparation sprint
 
-In a breakout design the homework is a warm-up: useful, but a room that arrives empty can
-still generate material at its tables. **Here it is load-bearing.** Everything the room
-decides on the day was produced in this phase, by the same people, working alone. So this
-section is mostly about a problem that sounds administrative and is not: *how do you make
-45 minutes of solo work actually happen, for 25+ busy leaders, on a deadline?*
+*Who: the **product team** — the GPM, the product manager for each front, plus
+research/CX/data. When: roughly two weeks of part-time work before the day, with two
+working sessions. This is the step that replaces both the breakouts and the per-leader
+homework.*
 
-### What the homework must produce
+> **The sprint's output is an Options Pack, not a draft.** Everything *analytical* is
+> finished; every *choice* is left open. The test is blunt: if a leader reads the pack and
+> finds nothing left to decide, the sprint failed and the day will be a presentation.
 
-Not opinions — **material that can be assembled into a draft without further
-interpretation.** That distinction drives the format: it is a **form, not an essay**. Six
-fields, about 45 minutes. The pack itself is in
-[Appendix C](#appendix-c-the-homework-pack).
+### What the sprint finishes, and what it must leave open
 
-| # | Prompt | Why it exists |
-| --- | --- | --- |
-| **1 · The number** | For your front's North Star, one candidate Key Result written as `metric: today → Dec/2027` — **and which evidence card supports it** | Produces the raw Key Result material, and forces every leader to touch the evidence while forming their own view |
-| **2 · The source** | Where does that baseline come from? *"We don't measure this"* is a complete answer | Kills the fantasy Key Result before the room ever sees it |
-| **3 · The bets** | Which 2–3 existing initiatives are the strongest bets on that change — and which one would you **drop**? | Keeps initiatives separate from Key Results, and extracts a first *no* while it is still cheap |
-| **4 · The dependency** | One thing you need from another front, named | Pre-loads cross-front friction that a plenary would never surface on its own |
-| **5 · The challenge** | One thing **another front** does that you think should change — **and the evidence behind it** | The written substitute for breakout debate, with the bar raised above pure preference |
-| **6 · The no** | One thing **your own front** should stop doing in 2027 | Makes the capacity conversation possible at all |
+| The product team finishes | The room decides |
+| --- | --- |
+| The evidence synthesis — pains clustered, sized and sourced | Which pains matter most next year |
+| The metric tree per front — which input metrics exist, which are measurable today | Which metric we commit to |
+| 2–3 **rival** candidate Objectives with their Key Results, gated and traced to evidence | Which option, and why |
+| The target **ranges** the data supports | The target |
+| Horizon tags and the capacity arithmetic | What we stop doing to fund it |
+| The dependencies each option implies | Who owns each shared outcome |
 
-**Prompts 4, 5 and 6 are what make a single room viable.** In a breakout design, cross-front
-friction surfaces naturally when a table argues and a neighbour overhears. With one room and
-no subdivision there is no such moment — so the friction has to be **harvested in writing,
-beforehand**, or it never appears and the day produces a polite, unowned set.
+The left column is analysis: the product team does it faster, and far more consistently,
+than a room of leaders ever could. The right column is judgement with consequences
+attached, and it belongs to the people who will carry them.
 
-Prompt 5 is uncomfortable to assign and is the highest-value field in the pack: it is the
-only mechanism that gets a leader to say, on the record and in advance, what they believe a
-peer should stop doing. Assign it plainly, explain why it exists, and say how it will be
-used — attributed or not — *before* anyone fills it in.
+### Step 1 · Evidence synthesis
 
-**The evidence line on prompts 1 and 5 is one line, not a seventh prompt.** The homework
-stays at ~45 minutes; what changes is that nobody can answer it without opening the
-evidence pack. *"None — I'm going on intuition"* is an allowed answer and should be said
-so explicitly, because an honest "none" is what lets the
-[unsupported list](#the-gpms-assembly-work--where-the-breakouts-went) do its job. A forced
-citation produces a fake one.
+*Product team + research/CX/data, ~half a day.*
 
-### Making completion inevitable
+Cluster everything available — satisfaction data, journey pains, ticket and telemetry
+data, interviews — into a **small number of problem statements per front**, each backed by
+[evidence cards](#feeding-the-dynamic-with-evidence). The artifact is one wall per front:
 
-The vision study's own warning applies with more force here: group homework rarely gets
-done. Six countermeasures, each doing real work rather than serving as a reminder:
+```text
+   FRONT: Self-service ingestion            ── PROBLEM WALL ──────────────
+   ┌──────────────────────────────────────────────────────────────────────┐
+   │ P1  Squads rebuild the same pipeline because they can't find or      │
+   │     trust what exists.                                               │
+   │     ■ E-03 catalog lookups abandoned 61%   (telemetry · strong)      │
+   │     ■ E-07 "I assume it's stale"  9/12 interviews (qual · strong)    │
+   │     ■ E-11 journey map: step 2 of 6 is where they give up            │
+   │     → TRIANGULATED · affects: all squads · getting worse             │
+   ├──────────────────────────────────────────────────────────────────────┤
+   │ P2  Onboarding a new source takes 9 days, most of it waiting.        │
+   │     ■ E-04 median 9d, p90 21d  (ticket data · strong)                │
+   │     → SINGLE-SOURCE · affects: new squads · flat                     │
+   ├──────────────────────────────────────────────────────────────────────┤
+   │ P3  Risk analysts say the platform "isn't for them".                 │
+   │     ■ E-09 one steering-committee comment                            │
+   │     → ANECDOTAL · we have no research with risk analysts at all      │
+   │     → this absence is itself the finding                             │
+   └──────────────────────────────────────────────────────────────────────┘
+```
 
-1. **Send the baseline pack first.** The GPM, with data/BI, measures centrally everything
-   that *can* be measured centrally, and ships it **before** the homework opens. Half the
-   assignment arrives already done. A leader who first has to go hunting for their own
-   numbers will not start at all.
-2. **It is a form, not a document.** Six fields, bounded at ~45 minutes, with a **worked
-   example already filled in** for a fictional sixth front. Bounded work gets done;
-   open-ended work gets postponed.
-3. **The 1:1 is the forcing function.** Each front owner holds a 45-minute slot with the
-   GPM, scheduled *after* the homework deadline, whose entire agenda is *"we go through
-   your submissions."* The meeting cannot happen without the input. This is far stronger
-   than any reminder, and it is the main reason the 1:1s exist.
-4. **Front owners are accountable for their front's completion rate,** and the rate is
-   visible to all five of them.
-5. **Submissions stay private until Draft Zero.** This preserves independent thinking, and
-   it lowers the bar — nobody is performing for their peers while writing.
-6. **Say up front what happens if it does not arrive.** A front that does not submit gets a
-   Draft Zero page written by the GPM alone, and its owner defends it in the room without
-   having authored it. State this once, without drama, at the kick-off.
+Sizing and strength go on the wall, not in a footnote. A problem nobody can size is not
+disqualified — it is *labelled*, so the room knows which of its choices rest on evidence
+and which rest on instinct.
 
-### The GPM's assembly work — where the breakouts went
+### Step 2 · Leader rounds — the replacement for homework
 
-Four steps replace the in-room group work. All of them are done by the GPM, alone or in a
-1:1 — never in a group, which is the point.
+*Each front's product manager, 30 minutes per leader, booked as a meeting.*
 
-**Baseline pack (T-2 weeks).** Every number the room could plausibly argue about, measured
-and sourced in advance. The rule this protects is simple and worth stating to the room:
-**the day is never spent arguing about a number.** Anything contestable gets contested
-beforehand, in writing, where it costs one person an hour instead of costing 25 people
-fifteen minutes.
+This is where the leaders' judgement enters, and it enters **as conversation, written up by
+the product team**. Five questions, asked out loud, always in this order:
 
-**Evidence pack (T-2 weeks, with research/CX/data).** The 15–20 evidence cards described
-in [Feeding the dynamic with evidence](#feeding-the-dynamic-with-evidence), shipped in the
-*same message* as the baseline pack so that both arrive before anyone has formed a view.
-It is a **separate document from Draft Zero** — which is what keeps Draft Zero inside its
-six-page limit. Only the cards that bear on a contested or unsupported item get pulled
-into the draft itself; the rest stay one click away, each with its owner's name on it.
+```text
+   1.  Of these pains, which will hurt most by [year]?   … and which is overrated?
+   2.  If we could move exactly one number for this front next year, which one?
+   3.  Which of our current initiatives would you drop?
+   4.  What do you need from another front — and what happens if you don't get it?
+   5.  What would you defend hardest if I tried to cut it?
+```
 
-**Front-owner 1:1s (T-1 week, 5 × 45 min).** Catchball's second toss, run in series rather
-than as parallel breakouts. With that front's homework cards on the table, the GPM and the
-front owner produce the front's draft page: one Objective, at most three Key Results — each
-one run through the gate in [Appendix B](#appendix-b-the-key-result-quality-gate) — the bets
-listed underneath, the KPI strip, and the horizon tags. Two rules make or break this
-meeting:
+**Why this beats a form**, which is the design most OKR guides reach for:
 
-- **The GPM runs the gate; the owner writes the words.** If the GPM writes the Objective,
-  the owner will not defend it in the room — and defending it is their job on the day.
-- **Unresolved disagreements are not settled here.** They go on the open-decisions list. A
-  1:1 that resolves everything has quietly converted the day into a rubber stamp.
-- **Run the evidence check on every candidate.** *Which card supports this?* An Objective
-  or Key Result with no support does not get cut — it goes to Draft Zero **flagged**, so
-  the room can decide whether to back it on judgement. Cutting it here would hide the
-  decision; flagging it makes the room own it.
+- **It costs the leader less and yields more.** Thirty minutes of talking produces more
+  than forty-five minutes of typing, because people explain themselves out loud and
+  compress themselves in writing.
+- **The product team does the writing**, so the material arrives already normalized
+  instead of in twenty different shapes that somebody still has to merge.
+- **You can ask "why".** That follow-up is where the trade-off reasoning lives, and it is
+  exactly what a form field loses.
+- **Completion is enforced by a calendar invite**, which is a far stronger mechanism than
+  a deadline and a reminder.
 
-**Draft Zero (T-4 days).** One document: the five front pages, the capacity picture, and
-three lists that matter more than the draft itself.
+Two halves of this round do work that nothing else in the design does. **Question 1's
+"which is overrated"** and **question 4** harvest the cross-front friction — and with no
+breakouts, a conversation is the only place that friction can surface before the day.
 
-- **Open decisions** — what the GPM deliberately did *not* decide, each framed as a question
-  with its options laid out.
-- **Contested** — disagreements, quoted side by side, in **two kinds**. The first is where
-  two fronts' homework disagreed. The second exists only once you have an evidence pack:
-  **where the evidence disagrees with the draft**. Name that kind explicitly and give it
-  its own heading, because it is the one that will otherwise be resolved quietly in favour
-  of the draft — evidence exists to contradict what people already believe, and cognitive
-  resistance does its work in the gaps a process leaves unnamed.
-- **Unsupported** — Objectives and Key Results no evidence card backs. Being on this list
-  is not a verdict. Some of the best bets in a platform's history were made on judgement
-  ahead of the data; the list exists so the room *knows* which ones those are.
+> **The cost of the interview format is interpretation drift:** the product manager is now
+> a narrator, and narrators shade. Two protections, both cheap. Keep the **question list
+> fixed** so every leader is asked the same thing. And **record verbatim quotes** for
+> anything that will appear in the pack as somebody's position — a paraphrased position is
+> the one thing a leader will spend the room's time disputing.
 
-Decide deliberately whether to attribute quotes on the contested list; attribution raises
-the stakes and the honesty in equal measure, and it depends on how safe your room actually
-is.
+### Step 3 · Metric trees
 
-> **The temptation to resolve everything in Draft Zero is the biggest single risk to this
-> design.** A draft with no open decisions turns the day into a presentation, and a room
-> that is presented to does not commit — it nods. Aim for **five to eight open decisions**:
-> roughly one per front, plus two or three cross-front trade-offs.
+*Product team, ~half a day.* For each front, derive the North Star's input metrics and mark
+what is actually measurable today. This is the artifact that makes the whole bridge visible
+in one glance:
 
-**Pre-read (T-3 days).** Draft Zero goes to everyone with one instruction: *come having read
-it, with your challenges written in the margin.* Amazon's narrative-memo practice is worth
-borrowing here — including its realism about people. The reason Amazon reads the memo
-**inside** the meeting is that executives do not reliably read beforehand. So this design
-does the same: the day opens with a silent read regardless (R1), and the pre-read is a
-bonus, never a dependency.
+```text
+   NORTH STAR  Squads build on the platform instead of around it
+               ("share of data workloads served by the platform")
+                        │
+        ┌───────────────┼────────────────┬─────────────────────┐
+        │               │                │                     │
+   reach            speed            trust                 cost
+   % new pipelines  time-to-first-   incidents per        cost per
+   on-platform      trusted-dataset  1k pipeline-runs     TB served
+   ✅ 38% measured  ✅ 9d measured   ⚠️ partial            ✅ measured
+                                     (only P1 domains)
+        │               │                │                     │
+      strong          strong          weak link            no link to
+      link            link            to North Star        North Star
+                                                            → KPI, not KR
+```
 
-> Borrow one more thing from that practice: **the six-page limit.** Draft Zero has to be
-> readable in 25 minutes by someone who has not seen it. If it is longer than about six
-> pages, the silent read fails and the whole day degrades — which makes the limit a design
-> constraint on the GPM, not a formatting preference.
+The two annotations are the point. **Measurability** (✅ / ⚠️ / ❌) tells you which
+candidates can carry a baseline in time. **Link strength** tells you which ones actually
+move the North Star — and a metric with no link is a **KPI**, which is how "cost per TB"
+gets onto the monitoring strip instead of eating a Key Result slot.
+
+### Step 4 · The option forge
+
+*Product team working session, ~3 hours. The heart of the sprint.*
+
+For each front, build **two or three rival options** — not one draft with variations. Four
+rules make an option set worth a room's time:
+
+- **The options must be genuinely rival**: different theories of what matters, not the same
+  plan at three ambition levels. *Fast / medium / slow* is one option wearing three hats,
+  and a room presented with it will pick the middle every time.
+- **Include the status quo as a competing option** wherever it is plausible — *keep funding
+  the run-rate, change nothing structural*. Forcing it to compete is what stops it winning
+  by default.
+- **Every option names what it gives up.** An option with no cost is a wish, and it will
+  beat the honest options for exactly that reason.
+- **Every option traces to evidence, or is marked as judgement.** Both are legitimate;
+  being unable to tell them apart is not.
+
+```text
+   FRONT: Self-service ingestion                    ── OPTION CARD A ─────
+   ┌──────────────────────────────────────────────────────────────────────┐
+   │ THEORY   The bottleneck is trust, not speed. Squads rebuild because  │
+   │          they don't believe what's there.                            │
+   │ ATTACKS  P1 (triangulated)                                           │
+   │                                                                      │
+   │ OBJECTIVE  "A squad finds an existing dataset and trusts it enough   │
+   │             to build on it the same day."                            │
+   │                                                                      │
+   │ KR1  catalog lookups ending in adoption   18% → 50–60%    H1   ✅    │
+   │ KR2  certified domains                     4  → 12–15     H1   ✅    │
+   │ KR3  "I trust platform data" (squad survey) 31% → 55%     H2   ⚠️    │
+   │                                                                      │
+   │ BETS   contract tests · certification pipeline · catalog UX pass     │
+   │ COSTS  ~2.5 squad-quarters                                           │
+   │ GIVES UP  the 9-day onboarding problem stays at 9 days this year     │
+   └──────────────────────────────────────────────────────────────────────┘
+
+   ┌─ OPTION B ── theory: the bottleneck is speed → attacks P2 ───────────┐
+   ┌─ OPTION C ── theory: run-rate only, no structural change (status quo)┐
+```
+
+Targets arrive as **ranges**, not points. The range is what the data supports; picking the
+point inside it is the room's job in [R3](#the-room-one-group-one-day) and, for ambition,
+in R5.
+
+### Step 5 · Capacity arithmetic and the chips
+
+*GPM, ~2 hours.* Convert the real capacity available for **change** work — run-rate already
+deducted — into chips the room can physically move:
+
+```text
+   ── CAPACITY BOARD ────────────────────────────────────────────────────
+   Total change capacity [year]:  14 squad-quarters   ●●●●●●●●●●●●●●
+   Already committed (regulatory, contractual):        −3   ●●●
+   ─────────────────────────────────────────────────────────────────────
+   AVAILABLE TO ALLOCATE:                              11   ●●●●●●●●●●●
+
+   If every front took its most ambitious option:      19   ← does not fit
+   ─────────────────────────────────────────────────────────────────────
+   Front 1  ●●●          Front 2  ●●            Front 3  ●●●●
+   Front 4  ●●           Front 5  ●
+```
+
+> **Size the chips so the pack does not fit.** If the capacity happens to accommodate every
+> front's preferred option, the GPM has quietly pre-resolved the trade-off and removed the
+> room's only real decision. The mismatch on the board is the agenda.
+
+### Step 6 · Assemble the Options Pack
+
+*GPM, ~half a day.* One document, **six pages maximum** — it has to be readable in half an
+hour by someone seeing it for the first time, because that is exactly what happens in R1.
+
+```text
+   ── THE OPTIONS PACK ──────────────────────────────────────────────────
+   p1   How to read this + the rules of the day
+   p2   The problem walls, one strip per front (P1…Pn, with strength)
+   p3   Metric trees, one per front
+   p4   Option cards A/B/C per front, with costs and what each gives up
+   p5   The capacity board — and the gap
+   p6   THE THREE LISTS
+        ├ OPEN DECISIONS   what we deliberately did not decide (5–8)
+        ├ CONTESTED        (a) front vs front   (b) evidence vs the draft
+        └ UNSUPPORTED      options resting on judgement, not evidence
+   ─────────────────────────────────────────────────────────────────────
+   separate document → THE EVIDENCE PACK (15–20 cards, each with an owner)
+```
+
+The three lists matter more than the options. **Open decisions** is the room's agenda in
+list form; aim for five to eight, roughly one per front plus a few cross-front trade-offs.
+**Contested** carries two kinds: where two fronts disagree, and — the one that needs its own
+heading — **where the evidence disagrees with the pack**, because that is the collision
+that otherwise gets resolved quietly in the pack's favour. **Unsupported** marks what rests
+on judgement; being on that list is not a verdict, since some of the best bets in a
+platform's history were made ahead of the data. The list exists so the room *knows* which
+ones those are.
+
+The **evidence pack stays a separate document**. That is what keeps the Options Pack inside
+six pages: only cards bearing on a contested or unsupported item get pulled in, and the rest
+stay one click away with their owners' names on them.
+
+### Sending it out
+
+The pack goes to everyone three days ahead with one instruction: *come having read it, with
+your challenges written in the margin.* Borrow Amazon's realism along with its practice —
+the reason they read the memo **inside** the meeting is that executives do not reliably read
+beforehand. So R1 opens with a silent read regardless, and the pre-read is a bonus rather
+than a dependency.
+
+### What this costs, and what it buys
+
+**The cost is concentrated on the product team:** roughly two weeks of part-time work for
+the PMs, plus a dependency on research/CX/data that has to be booked in advance. The leader
+rounds add up too — one 30-minute conversation per leader, which for a large group is
+several days of a product manager's calendar.
+
+**What it buys is that the load-bearing dependency sits on people whose job this is.** In a
+homework design, the whole day rests on many busy leaders each returning a form on time,
+with no real accountability if they do not. Here it rests on a small team that owns the
+process and can be held to it. That is a far safer bet, and it is the main reason to prefer
+this shape.
+
+**The risk it introduces** is that the room reads the pack as a decision already taken. Four
+things push back, and all four are structural rather than exhortation: the pack carries
+**rival options** instead of a draft; the **open-decisions list** is the agenda; the **📄
+mark** lets anyone say an option rests on nothing; and the GPM says out loud at R0 that the
+pack was **built to be broken**. If the room still treats it as settled, the options were
+not genuinely rival — go back to Step 4.
 
 ## The room: one group, one day
 
-*~4 hours. One room, 25+ people, no subdivision. **Everyone works on the same thing at the
-same time** — that single constraint is what the whole choreography protects.*
+*~4 hours. One room, the whole leadership group, no subdivision. **Everyone works on the
+same thing at the same time** — that single constraint is what the whole choreography
+protects.*
 
 ### The rules of the room
 
-State these at the start and hold them all day. They are what make a 25-person room
-decide rather than discuss.
+State these at the start and hold them all day. They are what make a large room decide
+rather than discuss.
 
 - **Written first, always.** Nothing gets discussed until the room has marked it.
 - **One front at a time.** The whole room stays together on the same front; there are no
@@ -731,12 +916,12 @@ decide rather than discuss.
 
 Re-anchor on the vision and the five North Stars in ninety seconds — the room lived that
 workshop and lingering reads as distrust of their memory. Then: the single rule, the shape
-of Draft Zero, the open-decisions list, and the four rules above. Say explicitly that the
+of the Options Pack, the open-decisions list, and the four rules above. Say explicitly that the
 morning's job is to *break* the draft, and that a page nobody marks is a page nobody read.
 
 ### R1 · Silent read (30 min)
 
-The study hall. Everyone reads Draft Zero in silence, pen in hand, marking with **four
+The study hall. Everyone reads the Options Pack in silence, pen in hand, marking with **four
 symbols and nothing else**:
 
 ```text
@@ -746,7 +931,7 @@ symbols and nothing else**:
    📄  UNSUPPORTED      I see no evidence behind this
 ```
 
-**Why a fixed, short list.** A room of 25 producing free-form comments generates an
+**Why a fixed, short list.** A large room producing free-form comments generates an
 unprocessable pile, and the facilitator ends up triaging it live while everyone watches.
 Fixed categories make the aggregation mechanical, make the wall readable at a glance, and
 — most usefully — make every mark **actionable**, because each type maps to a specific
@@ -759,8 +944,8 @@ a metric.** That makes it the most politically loaded mark in the room: 🔴 say
 measured the wrong thing*, 📄 says *I don't think this belongs in the year at all*. It is
 also the only defence against cherry-picking, which is what evidence gets used for when
 nobody is allowed to say a plan has none. Decide attribution deliberately — the same
-decision as homework prompt 5 — and if the room is new to this, run the first cycle
-unattributed.
+decision as the "which is overrated" half of the leader rounds — and if the room is new to
+this, run the first cycle unattributed.
 
 Say plainly that marking is the assignment, not criticism. The quiet half of the room
 contributes here on exactly equal terms with the loud half, which is the entire reason
@@ -798,16 +983,23 @@ hot ones need.
 
 ### R3 · The gauntlet (75 min — about 15 min per front)
 
-Serialization is the whole trick: instead of five tables working five fronts in parallel,
-the room works all five in sequence, together. For each front, in order:
+Serialization is the whole trick: instead of one table per front working in parallel, the
+room works every front in sequence, together. **And the question per front is a choice, not
+a review** — the pack arrived with rival options, so the room is picking one rather than
+approving a draft. For each front, in order:
 
-1. **The owner states it (90 sec).** The Objective and its Key Results, read from the
-   page — **and the evidence behind them, cited by card.** No slides, no context-setting,
-   no preamble. Citing evidence costs nothing extra: it is a constraint on airtime already
-   allocated, and it is a quietly effective forcing function, because an owner who cannot
-   name a card in front of everyone has just answered the room's question for it.
-2. **The GPM reads that front's hot marks** — the concentrated ones only.
-3. **Challenge, timeboxed (~3 min each, two or three per front).** The person who *wrote*
+1. **The front's product manager lays out the options (90 sec).** Option A's theory,
+   option B's theory, what each gives up, and the evidence each rests on — cited by card.
+   No slides, no context-setting, no preamble. Citing evidence costs nothing extra: it is a
+   constraint on airtime already allocated, and it is a quietly effective forcing function,
+   because an option whose card cannot be named in front of everyone has just answered the
+   room's question for it.
+2. **The front's leader states their lean, and why (30 sec).** A lean, not a decision —
+   the room has not spoken yet. Making the leader go *before* the challenge round is
+   deliberate: a lean stated early can be changed without losing face, while a position
+   defended for ten minutes cannot.
+3. **The GPM reads that front's hot marks** — the concentrated ones only.
+4. **Challenge, timeboxed (~3 min each, two or three per front).** The person who *wrote*
    the mark speaks first, named from the card. Naming has two effects worth the awkwardness:
    the challenge cannot be quietly dropped, and someone who would never grab the floor gets
    it by virtue of having written something. The owner answers.
@@ -822,9 +1014,13 @@ the room works all five in sequence, together. For each front, in order:
    disagreements. A front has only two or three challenge slots, so this ordering is the
    difference between the evidence being confronted and the evidence being crowded out by
    whoever felt most strongly.
-4. **Converge with a fist-to-five.** Three or above carries. Below three, the item goes to
-   the open-decisions list for R4, or it is cut.
-5. **Rewrite the Key Result live** on the projected artifact, or tag it explicitly
+5. **Choose, with a fist-to-five on the leading option.** Three or above carries. Below
+   three, the choice goes to the open-decisions list for R4, or the front runs a
+   **vanishing-options test**: *suppose none of these options were available — what would
+   we do instead?* That question reliably produces the option the pack missed, and it takes
+   about ninety seconds.
+6. **Write the choice live** on the projected artifact — the chosen Objective, its Key
+   Results, and a target picked from the range the pack proposed. Or tag it explicitly
    *unresolved*. Nothing gets remembered as "we sort of agreed".
 
 Before moving to the next front, **read that front's horizon balance aloud**. A front that
@@ -842,12 +1038,32 @@ Capacity goes on one wall, in units the room recognizes (squad-quarters, not sto
 Each front owner places their chips against their Key Results, in front of everyone. The
 chips run out. Then the room resolves the overflow together, and **every yes names its no**:
 whatever loses its funding goes onto the **Not Doing board**, written live in sentences a
-leader can repeat to their own team without apologising. Prompt 6 of the homework is the
-seed — everyone already named one thing their own front should stop.
+leader can repeat to their own team without apologising. The leader rounds are the seed:
+every leader has already named, in private, an initiative they would drop.
 
-> **Going in short is deliberate.** If the capacity exactly fits the draft, the GPM has
+```text
+   ── THE NOT DOING BOARD ───────────────────────────────────────────────
+   Written live, in sentences a leader can repeat without apologising.
+
+   ✗ We are not rebuilding the ingestion UI in [year].
+     Because → the trust problem (P1) outranks the speed problem (P2).
+     Cost we accept → onboarding stays at ~9 days for another year.
+     Who will ask about this → the three squads onboarding in Q2.
+
+   ✗ We are not extending the platform to risk analysts yet.
+     Because → we have no research with them at all (E-09 is one comment).
+     Cost we accept → another year of "the platform isn't for us".
+     Who will ask about this → the risk director, in the Q1 forum.
+   ─────────────────────────────────────────────────────────────────────
+```
+
+The fourth line is the one that makes this board useful in month seven. A *no* without a
+named asker is a decision nobody has to deliver; writing down who will come knocking turns
+it into something the leader has actually agreed to say out loud.
+
+> **Going in short is deliberate.** If the capacity exactly fits the pack, the GPM has
 > pre-resolved the trade-off and stolen the room's only real decision. Size the chips so
-> the draft does not fit.
+> the options do not all fit.
 
 ### R5 · Confidence reveal (20 min)
 
@@ -856,6 +1072,21 @@ owner writes a confidence from 1 to 10 on a card. On a count of three, **everyon
 at once.** The simultaneous reveal is the whole point: a sequential round lets the first
 number spoken set the range for everyone after it, and the calibration is lost before it
 starts.
+
+```text
+   ── CONFIDENCE REVEAL ─────────────────────────────────────────────────
+   KR                                    owner    conf   verdict
+   ────────────────────────────────────────────── ───── ─────────────────
+   catalog lookups → adoption 18%→55%    @ana       5    ✓ leave it
+   certified domains 4→14                @bruno     9    ⚠ sandbagging
+                                                         → raise to 18
+   time-to-trusted-dataset 9d→2d         @carla     2    ⚠ fantasy
+                                                         → 9d→4d, or split
+   chargeback model validated            @dani      5    ✓ leave it
+   squad trust survey 31%→55%            @ana       7    ~ acceptable
+   ─────────────────────────────────────────────────────────────────────
+   committed ●  aspirational ○   → ●●○●○
+```
 
 Then discuss **only the outliers**:
 
@@ -889,8 +1120,8 @@ a year of work. Anything it surfaces goes straight back into the wording of the 
 ### R7 · Commitment round (15 min)
 
 Only the five front owners speak: one sentence each — what the front owns, and the one
-thing it will not do. Everyone else signs the wall. At 25+, restraint about who speaks in
-plenary is exactly what left enough room for the work.
+thing it will not do. Everyone else signs the wall. In a room this size, restraint about
+who speaks in plenary is exactly what left enough time for the work.
 
 ## After the day
 
@@ -905,27 +1136,32 @@ plenary is exactly what left enough room for the work.
   re-cut dates, and the rule for changing a Key Result mid-year (re-baseline / retire /
   replace, always logged in the changelog). A cadence agreed in January is a cadence; one
   improvised in April is a meeting.
-- **Publish the completion data.** How many homework packs arrived on time, and how many
-  Key Results survived the room unchanged. Both numbers tell you whether to run it the
-  same way next year — and the first one tells you whether this format is viable at all in
-  your organization.
+- **Publish two numbers.** How many options the room changed or rejected, and how many
+  Key Results left the room different from how they entered it. A room that accepted
+  everything did not deliberate — it was presented to, and next cycle's options need to be
+  genuinely more rival.
 - **Hand off to the squads.** The quarterly cascade is where this study stops.
 
 ## Open questions and next steps
 
-- **The homework completion rate is the whole bet.** This design has no in-room fallback,
-  so a weak homework round degrades the day badly rather than gracefully. Measure
-  completion explicitly in the first run, and decide *with data* whether the next cycle
-  needs a safety valve — most likely a short, single-front drafting slot inside the day,
-  which is the one place a partial subdivision would earn its cost.
+- **Whether the options stay genuinely rival is the whole bet.** A product team knows
+  which option it prefers, and that preference leaks into how the alternatives are written.
+  The failure is quiet — the room agrees with everything and nobody notices it never
+  really chose. Track how many options the room rejects; a cycle where it rejects none is
+  evidence the set was decorative, not evidence of good preparation.
+- **The leader rounds scale linearly, and that is a real limit.** One 30-minute
+  conversation per leader is manageable for a group of a dozen or two; past that it
+  consumes weeks of product-manager calendar. Beyond some size the rounds have to be
+  sampled rather than exhaustive — and sampling changes who feels authorship of the
+  result, which is the thing the rounds exist to create.
 - **Does the 1:1 round scale past five fronts?** Five 45-minute sessions is a manageable
   week for a GPM; eight fronts is not. Beyond roughly six, the 1:1s would have to be
   delegated — and then the person running the gate is no longer the person assembling
-  Draft Zero, which is where the consistency comes from.
-- **Draft Zero's length is a hard constraint, and an unproven one.** Six pages of five
-  fronts plus capacity plus two lists is tight. If it cannot be done, the honest options
-  are to shorten the front pages or to lengthen the silent read — not to hope people read
-  beforehand.
+  the pack, which is where the consistency comes from.
+- **The pack's six-page limit is a hard constraint, and an unproven one.** Problem walls,
+  metric trees, two or three option cards per front, the capacity board and three lists is
+  a lot for six pages. If it cannot be done, the honest options are to cut option cards or
+  to lengthen the silent read — not to hope people read beforehand.
 - **Naming the challenger in R3 assumes a safe room.** It is what gives quiet people the
   floor, and in a low-trust organization it is what stops prompt 5 from being answered
   honestly at all. Decide attribution deliberately, and if in doubt run the first cycle
@@ -1038,25 +1274,25 @@ this dynamic, and — where it applies — a caveat on fit.
   pre-work rather than be generated cold, that **planning and alignment are two distinct
   workshops**, and that most OKR workshops fail on facilitation rather than on goal
   quality.
-  *Inspires:* the insistence that drafts arrive as homework rather than being generated
-  cold, and the separation of planning (the 1:1s) from alignment (the room).
+  *Inspires:* the insistence that drafts arrive prepared rather than being generated cold,
+  and the separation of planning (the preparation sprint) from alignment (the room).
   *Caveat:* these are written for single teams of 6–12, and they all assume breakouts. The
-  single-room adaptations here — a silent read of Draft Zero, the heat map as an airtime
+  single-room adaptations here — a silent read of the Options Pack, the heat map as an airtime
   allocator, serialized fronts — are extrapolation from large-group facilitation practice,
   not established OKR practice.
 
 ### Facilitating one large room
 
-*The sources behind the choice to keep 25+ people together rather than split them.*
+*The sources behind the choice to keep a large group together rather than split it.*
 
 - **The Amazon six-page narrative and its silent read** ([CNBC](https://www.cnbc.com/2018/04/23/what-jeff-bezos-learned-from-requiring-6-page-memos-at-amazon.html))
   — meetings open with 20–30 minutes of silent reading of a written narrative, so everyone
   engages with the full argument before anyone speaks. Bezos's stated reason is bluntly
   practical: otherwise executives "will try to bluff their way through a meeting."
-  *Inspires:* R1, the six-page ceiling on Draft Zero, and the decision to read **inside**
+  *Inspires:* R1, the six-page ceiling on the Options Pack, and the decision to read **inside**
   the room rather than trust the pre-read.
-  *Caveat:* Amazon's memos are prose narratives; Draft Zero is closer to a structured
-  draft. The read-in-the-room mechanic transfers; the six-pager writing discipline is a
+  *Caveat:* Amazon's memos are prose narratives; the Options Pack is closer to a structured
+  set of choices. The read-in-the-room mechanic transfers; the six-pager writing discipline is a
   separate skill you should not assume the GPM has on the first cycle.
 
 - **Brainwriting and silent meetings** ([SI Labs](https://www.si-labs.com/en/articles/brainwriting/), [Slido](https://blog.slido.com/silentmeetings/))
@@ -1065,8 +1301,9 @@ this dynamic, and — where it applies — a caveat on fit.
   shape is hybrid: silent generation, then structured discussion of what surfaced.
   *Inspires:* the write → aggregate → select → signal pattern, and specifically the written
   pre-mortem in R6.
-  *Caveat:* the best-known variant (6-3-5) is built for 4–8 people passing sheets; at 25+
-  the workable form is a card pool posted to a shared wall, which is what R2 does.
+  *Caveat:* the best-known variant (6-3-5) is built for 4–8 people passing sheets; in a
+  large room the workable form is a card pool posted to a shared wall, which is what R2
+  does.
 
 - **Dot voting and heat-map voting** ([NN/g](https://www.nngroup.com/articles/dot-voting/), [Learning Loop](https://learningloop.io/plays/workshop-exercise/heatmap-voting))
   — after voting, the wall reads as a heat map showing where attention concentrates;
@@ -1112,15 +1349,15 @@ this dynamic, and — where it applies — a caveat on fit.
   contradict existing beliefs meet cognitive resistance, and evidence arriving *after* a
   direction is informally set reads as disruptive rather than useful.
   *Inspires:* the three structural choices that follow — evidence ships **before** the
-  homework, every unit is a card rather than a report, and the collision with the draft
-  gets its own named place on the contested list.
+  any option is drafted, every unit is a card rather than a report, and the collision with
+  the pack gets its own named place on the contested list.
 
 - **Journey Mapping 101 and 7 Ways to Analyze a Journey Map — NN/g** ([101](https://www.nngroup.com/articles/journey-mapping-101/), [analysis](https://www.nngroup.com/articles/analyze-customer-journey-map/), [pain points & opportunities](https://www.smaply.com/blog/pain-point-and-opportunity-management-with-journey-maps))
   — each pain should connect to an opportunity, **a metric that tells you whether it was
   addressed**, and someone who owns the fix; the pains in the seams between departments are
   often the highest-impact and lowest-politics opportunities.
   *Inspires:* the **pain-to-measure ladder**, and the reading of seam pains as the natural
-  content of homework prompt 4 and the 🔵 marks.
+  content of question 4 in the leader rounds, and of the 🔵 marks on the day.
 
 - **Opportunity Solution Tree — Teresa Torres** ([producttalk.org](https://www.producttalk.org/opportunity-solution-trees/))
   — outcome → opportunities → solutions → experiments, each level informed by evidence;
@@ -1152,6 +1389,28 @@ this dynamic, and — where it applies — a caveat on fit.
   where the metric quietly replaces the goal in people's minds.
   *Inspires:* the sharpened pre-mortem in R6 — *we hit every Key Result and satisfaction
   did not move* — and the refusal to let a satisfaction score become the commitment.
+
+### Choosing between options
+
+- **Decisive / the WRAP process — Chip & Dan Heath** ([Goodreads](https://www.goodreads.com/book/show/15798078-decisive), [WRAP summary](https://modelthinkers.com/mental-model/wrap-decision-process))
+  — **W**iden your options, **R**eality-test your assumptions, **A**ttain distance, **P**repare
+  to be wrong. *Narrow framing* — considering a decision out of context, as a
+  whether-or-not — is the first villain; **multitracking**, considering several options at
+  once, is the antidote.
+  *Inspires:* the decision to hand the room **rival options** rather than a draft. A draft
+  asks *"do we approve this?"*, which is the narrowest possible frame; an option set asks
+  *"which of these?"*, which is a decision.
+
+- **Decision architecture — The Uncertainty Project** ([theuncertaintyproject.org](https://www.theuncertaintyproject.org/threads/using-a-decision-architecture))
+  — for strategic decisions, lay out **different paths** rather than over-specified
+  alternative plans, and include the **status quo as a competing option** to counter
+  status-quo bias; techniques for widening the set include a devil's advocate role and the
+  **vanishing-options test**.
+  *Inspires:* three rules of the option forge — options carry different *theories*, the
+  status quo competes explicitly, and the vanishing-options test is the fallback in R3 when
+  a front cannot choose.
+  *Caveat:* more options is not strictly better — past three or four per front the room
+  spends its time comparing rather than deciding.
 
 ### Portfolio and horizons
 
@@ -1214,10 +1473,11 @@ there.
 >   of listing them separately.
 > - The **Not Doing** and **Dependencies** sections are not optional. They are the two
 >   pages people actually re-read in month seven.
-> - **Draft Zero uses this same template**, filled in by the GPM from the front-owner 1:1s,
->   plus two extra lists that exist only in the draft and are deleted once the room has
->   worked them: **open decisions** and **contested**. Keep the whole thing inside six
->   pages so it can be read in 25 minutes.
+> - **This template is what the day produces, not what it starts from.** The
+>   [Options Pack](#the-preparation-sprint) carries rival options and three working lists
+>   — open decisions, contested, unsupported — which are resolved on the day and do not
+>   survive into this artifact. What lands here is the option the room chose, with the
+>   target it set and the owner it named.
 
 ```markdown
 # [Superintendency] — Annual OKRs [year]
@@ -1300,6 +1560,46 @@ Each line is written to be repeated to a team without apology.
 ```
 
 
+### A.1 · One front, filled in
+
+What the template looks like once the room has chosen — the end of the artifact chain, and
+the thing to show people who ask what all this produces.
+
+```markdown
+### Front 2: Self-service ingestion
+- **North Star (from the vision):** share of data workloads served by the platform
+  — baseline 38%, ambition 80% by 2029.
+- **Objective 2027:** "A squad finds an existing dataset and trusts it enough to
+  build on it the same day."
+- **Chosen from:** option A (trust) · rejected B (speed) and C (status quo)
+- **Why this one:** P1 is triangulated and worsening; P2 is real but single-source
+  and flat. Recorded dissent: @bruno held out for B — see changelog.
+- **Classification:** committed
+
+| # | Key Result | Baseline | Target | Horizon | Owner | Confidence |
+|---|------------|----------|--------|---------|-------|------------|
+| KR1 | catalog lookups ending in adoption | 18% | 55% | H1 | @ana | 5 |
+| KR2 | certified data domains | 4 | 18 | H1 | @bruno | 6 |
+| KR3 | "I trust platform data" (squad survey) | 31% | 55% | H2 | @ana | 5 |
+
+**Initiatives (bets), by Key Result**
+- *KR1:* catalog UX pass · relevance ranking · deprecation sweep
+- *KR2:* certification pipeline · contract tests · domain-owner onboarding
+- *KR3:* quality SLOs published per domain
+
+**KPIs we monitor for this front (not committed):**
+availability 99.9% · cost per TB served · time-to-onboard a source (~9d)
+
+**Evidence:** E-03, E-07, E-11 (problem) · E-04 (the rejected option B)
+```
+
+Three things in that page are worth copying even if nothing else is. **"Chosen from"**
+records that a decision happened and what lost, so next year's cycle starts from a real
+history instead of from folklore. **Recorded dissent** names who disagreed — a leader whose
+objection is written down argues once, while one whose objection vanishes argues all year.
+And **time-to-onboard sitting in the KPI strip** is the rejected option still being watched:
+the room decided not to attack it, not to stop looking at it.
+
 ## Appendix B. The Key Result quality gate
 
 *The gate runs at three separate moments, and that repetition is deliberate — each pass
@@ -1307,16 +1607,16 @@ catches what the previous one let through.*
 
 | When | Who runs it | What it catches |
 | --- | --- | --- |
-| **In the homework** | Each leader, on their own card | The obvious outputs, before anyone else's time is spent |
-| **In the 1:1** | The GPM, out loud, on every candidate | Everything else. This is the real gate |
-| **In the silent read** | All 25+ readers at once | What the GPM and the owner talked themselves into — including Objectives no evidence backs (📄) |
+| **In the option forge** | The product team, on every candidate | The obvious outputs, before a card is ever written |
+| **In the pack review** | The GPM, out loud, before the pack ships | Everything else. This is the real gate |
+| **In the silent read** | The whole room at once | What the product team talked itself into — including Objectives no evidence backs (📄) |
 
 ```text
    ┌──────────────────────────────────────────────────────────────────┐
    │  THE FIVE PARTS — does the card have all of them?                │
    │   1. metric   2. baseline   3. target   4. deadline   5. owner   │
    │   Missing the baseline? → tag "baseline first", keep it.         │
-   │   Missing an owner?     → it does not reach Draft Zero.          │
+   │   Missing an owner?     → it does not reach the Options Pack.    │
    ├──────────────────────────────────────────────────────────────────┤
    │  THE OUTCOME TEST — ask it out loud:                             │
    │   "Could we hit this number in full, and the North Star still    │
@@ -1331,13 +1631,13 @@ catches what the previous one let through.*
    ├──────────────────────────────────────────────────────────────────┤
    │  THE OWNERSHIP TEST                                              │
    │   "Does this number move only when another front delivers?"      │
-   │        → YES: it is a shared KR. Flag it 🔵 in Draft Zero so     │
+   │        → YES: it is a shared KR. Flag it 🔵 in the pack so       │
    │          the gauntlet resolves it with both owners present.      │
    ├──────────────────────────────────────────────────────────────────┤
    │  THE EVIDENCE TEST     (only once an evidence pack exists)       │
    │   "Which card supports this?"                                    │
    │        → a card → note its id next to the KR.                    │
-   │        → none   → it is NOT cut. Flag it 📄 so Draft Zero's      │
+   │        → none   → it is NOT cut. Flag it 📄 so the pack's        │
    │          unsupported list carries it and the room decides        │
    │          whether to back it on judgement.                        │
    └──────────────────────────────────────────────────────────────────┘
@@ -1367,110 +1667,103 @@ Result in the same breath.
 | A satisfaction score as the only Key Result | A lagging KPI standing in for a decision | KPI strip; the KRs are its drivers |
 | A card cited that says something narrower than claimed | Cherry-picking | Ask the evidence owner, in R3 |
 
-## Appendix C. The homework pack
+## Appendix C. The leader round and the option card
 
-*The artifact that carries the whole dynamic. Send it as a form — a shared doc per person,
-or a survey with six fields — never as an open document. Budget ~45 minutes and say so.*
+*The two templates the preparation sprint runs on: the script the product manager uses in
+each 30-minute conversation, and the card the option forge produces from them.*
 
-> **How to send it.** Attach the **baseline pack** in the same message, so the numbers
-> arrive before the questions do. Include the worked example below, already filled in.
-> State the deadline, and state that each front owner's 1:1 with the GPM happens *after*
-> it and works directly from these answers.
+### C.1 · The leader round script
 
-```markdown
-# 2027 OKRs — your preparation
-**Front:** [your investment front]   ·   **You:** [name]   ·   **Due:** [date] (~45 min)
-
-Your answers stay private until the draft is assembled. There are no wrong answers here —
-"we don't measure this" and "I'd drop that initiative" are the two most useful things you
-can write.
-
-**The one rule:** an initiative is never a Key Result. An initiative is a *bet* on a Key
-Result. If deleting the initiative would force you to rewrite the Key Result, it was an
-initiative in disguise.
-
----
-## 1. The number
-Our North Star for this front is: [pre-filled by the GPM]
-What would have to be measurably different by December 2027 for us to say this front moved?
-
-    metric: ______________   today: ______   →   Dec/2027: ______
-
-Which evidence card supports this?  card id: ______
-  [ ] none — I'm going on judgement      ← an allowed and useful answer
-
-## 2. The source
-Where does that "today" number come from?
-  [ ] a dashboard/report — which: ____________
-  [ ] someone would have to pull it manually
-  [ ] we don't measure this at all      ← a complete and useful answer
-
-## 3. The bets
-Which 2–3 initiatives we already have are the strongest bets on that change?
-  1. ______________   2. ______________   3. ______________
-And which ONE of our current initiatives would you drop? ______________
-Why: ______________
-
-## 4. The dependency
-One thing your front needs from ANOTHER front to hit the number above.
-  We need: ______________   from front: ______________
-  If we don't get it: ______________
-
-## 5. The challenge
-One thing ANOTHER front does today that you think should change in 2027.
-  Front: ______________
-  What should change: ______________
-  Why it matters to the whole superintendency (not just to you): ______________
-  Evidence: card id ______  or  [ ] this is my read, not evidence
-
-## 6. The no
-One thing YOUR OWN front should stop doing in 2027, to fund the above.
-  We should stop: ______________
-  What that frees up: ______________
-```
-
-**The worked example to ship with it** — a fictional sixth front, so nobody has to guess at
-the expected level of detail, and so the example never collides with a real front's answer:
+Booked as a meeting, not sent as a form. The product manager writes; the leader talks.
 
 ```markdown
-FRONT: Developer Experience (example — not a real front)
-1. time from a new squad's first request to a production-ready dataset:
-   9 days today → 2 days by Dec/2027
-   evidence: card E-07 (journey map, onboarding, triangulated)
-2. source: manual pull from the ticket system; reliable since March
-3. bets: self-service ingestion templates · contract tests · onboarding guild
-   would drop: the bespoke-pipeline request queue
-   why: it's the thing that makes the 9 days look acceptable
-4. need: certified domain ownership from Governance, or nothing is self-service
-   if we don't get it: the 2-day target is not reachable and I'd cut it to 5
-5. challenge: Governance runs certification as a quarterly batch. A quarterly batch
-   caps how fast any other front can move. It should become continuous.
-   evidence: card E-12 (ticket ageing + 6 interviews, triangulated)
-6. we should stop: staffing the bespoke-pipeline queue
-   frees up: roughly one squad-quarter, which is what the templates need
+LEADER ROUND — [front] · [leader] · [date] · [PM taking notes]
+
+Before you start, 2 min: show them the front's PROBLEM WALL and its North Star.
+Everything below is asked against that wall. Do not send it in advance — you want
+their reaction to the evidence, not a prepared statement about it.
+
+1. Looking at this wall: which of these pains will hurt us most by [year]?
+   → ______________
+   And which one do you think is OVERRATED?
+   → ______________                          ← the question nobody volunteers
+
+2. If we could move exactly ONE number for this front next year, which?
+   → ______________
+   (probe) What would have to be true for that to move?
+   (probe) How would you know it moved — what would you look at?
+
+3. Which of our current initiatives would you DROP?
+   → ______________
+   (probe) Why that one and not the next one down?
+
+4. What do you need from ANOTHER front?
+   → need: ______________  from: ______________
+   (probe) What happens if you don't get it?
+
+5. What would you defend hardest if I tried to cut it?
+   → ______________
+   (probe) Defend it to me now — in outcomes, not in work.
+
+CLOSING: "Anything I should have asked and didn't?"
+
+PM writes up within 24h. Mark every entry:
+  [E] traceable to an evidence card (which one)   [J] judgement   [Q] verbatim quote
+Verbatim is mandatory for anything that will appear in the pack as this person's
+position — a paraphrased position is what a leader will spend the room's time disputing.
 ```
 
-### Notes on the six prompts
+**Notes on running it.**
 
-- **Prompt 2 is the one people skip**, and it is the one that prevents the most damage. A
-  Key Result whose baseline nobody can source is a guess with a decimal point. Make
-  *"we don't measure this"* an explicitly correct answer, in writing, or people will invent
-  a number rather than look unprepared.
-- **Prompt 3's "drop" field is the first no of the cycle**, and it is far cheaper to write
-  alone than to say in front of 25 peers in R4. Everyone arriving at the capacity
-  confrontation having already conceded one thing changes the tone of that conversation
-  entirely.
-- **Prompt 5 needs framing when you assign it.** Say why it exists — that the room has no
-  breakouts, so cross-front disagreement has to be collected in writing or it never
-  surfaces — and say in advance whether answers will be attributed. Deciding that *after*
-  reading the answers is the fastest way to lose the room's trust.
-- **Prompt 6 is what makes R4 possible.** Without it, the capacity confrontation opens with
-  25 people defending everything they have.
-- **The evidence lines are one line each, not a seventh prompt.** Their purpose is not to
-  collect citations — it is to make it impossible to complete the homework without opening
-  the evidence pack. Keep *"none — I'm going on judgement"* as a visible checkbox: an
-  honest none is what feeds Draft Zero's unsupported list, and a forced citation is worse
-  than no citation at all, because it looks like support and is not.
+- **The probes are the point.** The first answer to question 2 is usually a metric they
+  have heard in a meeting; the second and third answers are the real ones. A form gets only
+  the first.
+- **Question 1's second half is the highest-value thing in the script.** *"Which is
+  overrated?"* is how cross-front friction surfaces in a design with no breakouts, and
+  almost nobody volunteers it unasked.
+- **Question 5 doubles as a rehearsal.** A leader who cannot defend something in outcome
+  terms in a private conversation will not manage it in front of the whole room — and
+  finding that out during the sprint is the entire reason to hold these rounds early.
+- **Round completion is the sprint's real deadline.** Book every conversation before the
+  sprint starts. Unlike a homework deadline, a calendar invite defends itself.
+
+### C.2 · The option card
+
+What the option forge produces — two or three of these per front, genuinely rival.
+
+```markdown
+FRONT: [name]                                           OPTION [A/B/C]
+
+THEORY      [One sentence: what we believe the real bottleneck is.
+             Two options with the same theory are not two options.]
+ATTACKS     [Which problem(s) from the wall] · [strength of that evidence]
+
+OBJECTIVE   [Qualitative, inspiring, dated. No numbers.]
+
+| # | Key Result | Baseline | Target RANGE | Horizon | Measurable? |
+|---|-----------|----------|--------------|---------|-------------|
+| KR1 | [metric] | [today]  | [x – y]      | H1/H2/H3| ✅ / ⚠️ / ❌ |
+| KR2 | …        |          |              |         |             |
+
+BETS        [the initiatives that sit under these KRs — changeable all year]
+COSTS       [squad-quarters]
+GIVES UP    [what this option consciously does not address]
+EVIDENCE    [card ids]   or   [ ] judgement — no card supports this
+```
+
+**What makes an option set worth the room's time:**
+
+| Rule | Why | The failure it prevents |
+| --- | --- | --- |
+| Options carry **different theories** | A room can only choose between genuinely different bets | *Fast / medium / slow* — one option wearing three hats, and the room picks the middle |
+| Include the **status quo** where plausible | It has to compete rather than win by default | Status-quo bias, which is invisible precisely because nobody proposes it |
+| Every option names **what it gives up** | An option with no cost beats honest options for that reason alone | A pack where one option is obviously "right" |
+| Targets are **ranges** | The data supports a range; picking the point is a judgement with consequences | The product team quietly setting the year's ambition |
+| Evidence cited **or marked as judgement** | Both are legitimate | Being unable to tell which is which |
+
+> **The test for the whole set:** hand it to someone outside the front and ask which option
+> they would pick. If the answer is obvious, you have written a draft with decoration, not
+> an option set — go back and make the rejected options genuinely defensible.
 
 ## Appendix D. Facilitator run-sheet
 
@@ -1482,12 +1775,14 @@ FRONT: Developer Experience (example — not a real front)
 | --- | --- | --- | --- |
 | **T-5 weeks** | Brief research/CX/data and book their capacity for the evidence pack | GPM + research/CX/data | An agreed set of questions the pack must answer |
 | **T-4 weeks** | Assemble the baseline pack with data/BI; confirm the capacity numbers per front | GPM + data | Every number the room might argue about, sourced |
-| **T-3 weeks** | Kick-off (~45 min) | All leaders | Shared concepts, direction, constraints, homework assigned |
+| **T-3 weeks** | Kick-off (~45 min) | All leaders | Shared concepts, direction, constraints, leader rounds booked |
 | **T-2 weeks** | Evidence pack finalized — 15–20 cards, each with strength and a named owner | research/CX/data + GPM | The problem evidence, curated |
-| **T-2 weeks** | Homework window opens (**baseline pack and evidence pack attached**) | Each leader | Six fields, private |
-| **T-2 weeks + 4d** | Homework due | — | Completion rate visible to the five front owners |
-| **T-1 week** | Front-owner 1:1s, 5 × 45 min | GPM + each owner | One gated draft page per front, evidence checked |
-| **T-4 days** | Draft Zero assembled | GPM | ≤6 pages: draft + open decisions + contested + unsupported |
+| **T-2 weeks** | Evidence synthesis session | Product team + research/CX/data | One **problem wall** per front |
+| **T-2 weeks → T-1 week** | **Leader rounds** — 30 min per leader, booked as meetings | Each front's PM | Judgement and cross-front friction, written up |
+| **T-1 week** | Metric trees | Product team | What is measurable, and what actually links to the North Star |
+| **T-1 week** | **Option forge** (~3h working session) | Product team | 2–3 **rival** options per front, gated |
+| **T-5 days** | Capacity arithmetic | GPM | The chips — sized so the options do not all fit |
+| **T-4 days** | Options Pack assembled | GPM | ≤6 pages: rival options + open decisions + contested + unsupported |
 | **T-3 days** | Pre-read distributed | Everyone | Challenges written in the margin |
 | **The day** | The room (~4h) | All leaders | Committed OKR set, owners, Not Doing board |
 | **T+5 days** | Publish + written confirmation round | GPM | Ratified artifact (Appendix A) |
@@ -1496,7 +1791,7 @@ FRONT: Developer Experience (example — not a real front)
 
 ```text
  09:00  R0   Frame — the rules, the single rule, what is NOT open today      10'
- 09:10  R1   Silent read of Draft Zero — four marks only                     30'
+ 09:10  R1   Silent read of the Options Pack — four marks only             30'
  09:40  R2   Heat map — post, then read the pattern aloud                    15'
  09:55  R3   The gauntlet — five fronts in sequence, ~15' each               75'
  11:10       ── break ──                                                     15'
@@ -1507,20 +1802,26 @@ FRONT: Developer Experience (example — not a real front)
  12:55       close                            3h55 door to door, break included
 ```
 
+> **The sprint's two hard deadlines are the leader rounds and the option forge.** Everything
+> else can slip a day. If the rounds are not finished, the forge has nothing but the product
+> team's own opinions to work with — which is exactly the failure this design exists to
+> avoid.
+
 ### Room and materials
 
 - **One room, one wall, everyone facing it.** No table groupings that imply breakouts —
   people should be seated so that standing up to post on the wall is trivial.
 - **The heat-map wall:** a five-column grid, one column per front, one row per Key Result,
   built before anyone arrives.
-- **Per person:** a printed Draft Zero, a pen, and four sticker types (🔴 🔵 ❓ 📄) —
+- **Per person:** a printed Options Pack, a pen, and four sticker types (🔴 🔵 ❓ 📄) —
   roughly six of each. Rationing the stickers is what forces people to mark what actually
   matters.
 - **The evidence pack**, printed and on the wall as a card gallery people can walk, plus a
-  digital copy. It is a separate document from Draft Zero and stays readable on its own.
+  digital copy. It is a separate document from the Options Pack and stays readable on its own.
 - **Central:** the projected artifact (edited live by a scribe, not by the GPM — the GPM
   cannot facilitate and type), the capacity wall, the chips, the **Not Doing board**, and a
-  visible countdown clock. At 25+ the clock does more facilitation than the facilitator.
+  visible countdown clock. In a room this size the clock does more facilitation than the
+  facilitator.
 - **Roles:** GPM facilitates; one scribe edits the artifact live; the five front owners
   each defend their page; the **evidence owners** answer for their cards and nothing else.
   That is the entire role list — no co-facilitators, because there are no groups to
@@ -1537,7 +1838,8 @@ FRONT: Developer Experience (example — not a real front)
 | The chips fit in R4 | The capacity was sized too generously | You have lost the day's main trade-off; force it by removing a chip per front |
 | All confidences cluster at 7–8 in R5 | The room is avoiding calibration | Ask which single Key Result they'd bet their own quarter on, and work outward |
 | R6 produces nothing | The room is tired, or too agreeable | Ask the question in the first person: *"which of these numbers would* ***you*** *game?"* |
-| No 📄 marks anywhere | Either the pack is genuinely comprehensive, or nobody dares mark an Objective | Ask how many people cited a card in their homework; if few did, the pack was not read |
+| No 📄 marks anywhere | Either the pack is genuinely comprehensive, or nobody dares mark an Objective | Ask directly whether anyone sees an option resting on nothing; if the silence holds, move on |
+| The room accepts every leading option | The options were not genuinely rival | Run the vanishing-options test on the next front and watch what surfaces |
 | Every 📄 lands on the same front | That front's Objective was written on intuition | Handle it first in R3; it is a bigger question than any of its Key Results |
 | An evidence owner is being argued with rather than asked | The room is treating evidence as an opinion | Restate the rule: they answer *what the card says*, they do not defend a position |
 
@@ -1549,9 +1851,10 @@ rather than bullet points — paste into an AI slide generator or build it by ha
 ~9 slides, ~20 min, leaving 25 minutes for the concepts and questions.
 
 > Conventions: this room already built the vision — **do not re-sell it, re-anchor and
-> move**. The energy belongs in the concepts and in the homework, because in this design
-> the homework *is* the dynamic. Be concrete about the constraints: people commit more
-> honestly when they know the capacity before they write the ambition.
+> move**. The energy belongs in the concepts and in explaining how the day will work,
+> because what you are really asking for here is thirty minutes of each leader's time for a
+> conversation. Be concrete about the constraints: people commit more honestly when they
+> know the capacity before they hear the ambition.
 
 **Slides 1–2 — Where we are**
 
@@ -1568,7 +1871,7 @@ rather than bullet points — paste into an AI slide generator or build it by ha
    [the bridge](#the-bridge-from-north-star-to-key-results).
    *Note:* the intellectual hook of the meeting. It reframes the task from *"set goals"* to
    *"choose which levers we pull this year"*, which is a much better question to carry into
-   the homework. If you have satisfaction data, land the ambition here as a **gap** — the
+   the leader rounds. If you have satisfaction data, land the ambition here as a **gap** — the
    distance between what our internal customers say they need and what they get today —
    rather than as a score to raise. The gap sizes the year; the score does not.
 
@@ -1578,7 +1881,7 @@ rather than bullet points — paste into an AI slide generator or build it by ha
    *Beat:* the three-layer table with a worked example from *our* platform. Land the
    asymmetry: initiatives are bets we can change in June; Key Results are the commitment.
    *Note:* the most important slide in the deck. If the room leaves with only this, the
-   homework still comes back usable.
+   leader rounds still come back usable.
 4. **Headline: "An initiative is never a Key Result."**
    *Beat:* the single rule, stated plainly, with two examples from our own initiative list
    rewritten live from output into outcome. Promise in the same breath that every
@@ -1609,25 +1912,23 @@ rather than bullet points — paste into an AI slide generator or build it by ha
 
 **Slides 8–9 — How this works, and the ask**
 
-8. **Headline: "The work happens before the room, not in it."**
-   *Beat:* the process diagram from
-   [the process at a glance](#the-process-at-a-glance). Make the shape explicit: six of the
-   eight steps happen before the day, we will all be in one room with no breakouts, and the
-   day is spent challenging and committing — not drafting.
-   *Note:* this is the slide that sells the homework, so do not rush it. Say the dependency
-   out loud: *if the homework doesn't arrive, the day has nothing to work on.* People
-   respond to being told the plan genuinely depends on them — far better than to a
-   reminder email in three weeks.
-9. **Headline: "Your part: 45 minutes, six questions, by [date]"**
-   *Beat:* walk the six prompts from [Appendix C](#appendix-c-the-homework-pack). Flag the
-   three that feel unusual and explain each: *"we don't measure this"* is a correct answer;
-   you will be asked what your own front should **stop**; and you will be asked what
-   **another** front should change — say now whether that will be attributed. Then
-   introduce the **evidence pack**: what is in it, who produced each card, what the
-   strength tiers mean, and that two prompts ask which card supports your answer — with
-   *"none, this is my judgement"* as an honest and expected answer.
-   *Note:* close on the mechanics — the baseline pack **and the evidence pack** are
-   attached so a good deal of the work is done, answers stay private until the draft, and
-   each front owner's 1:1 happens after the deadline and works straight from these answers.
-   Be explicit that the evidence is there to be *argued with*, not to be agreed with: a
-   pack nobody contradicts was a pack nobody read.
+8. **Headline: "You will not be asked to fill in a form."**
+   *Beat:* how the day gets prepared. The **product team** does the analysis — synthesizing
+   the evidence, building the metric trees, drafting **two or three rival options per
+   front**. Each leader gives **one 30-minute conversation**, and the product team writes it
+   up. Then everyone spends the day in one room choosing.
+   *Note:* say plainly why it is built this way, because the room has sat through the other
+   version: twenty people each filling in a form produces fragments somebody still has to
+   merge, and a leader's real value is judgement about trade-offs, which comes out in
+   conversation and dies in a form field. This slide buys you the calendar slots — do not
+   rush it.
+9. **Headline: "What you'll get, and what we'll need from you"**
+   *Beat:* show a real **option card** (Appendix C.2) so the shape is concrete — two rival
+   theories, what each gives up, the evidence under each, targets as ranges. Then the ask:
+   thirty minutes in the next two weeks, and a promise that **the options arrive unchosen**.
+   Introduce the **evidence pack** briefly: who produced each card and what the strength
+   tiers mean.
+   *Note:* land the commitment that makes the day work — *we are bringing you choices, not
+   a plan, and the choosing is yours.* Then land the other half: the evidence is there to be
+   **argued with**, not agreed with. A pack nobody contradicts was a pack nobody read.
+   Close on the date, the room, and the promise that they leave with a set they chose.
