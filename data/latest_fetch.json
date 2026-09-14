@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T13:53:05Z",
+  "fetched_at": "2026-09-14T15:59:30Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Clean Code, Horrible Performance",
+          "url": "https://www.youtube.com/watch?v=sGOqovf0OTc",
+          "published": "2026-09-13T21:00:19+00:00",
+          "content_snippet": "with Casey Muratori, programmer & performance nerd. See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -31,9 +41,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Pragmatic Engineer": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -57,7 +65,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Remote Work",
+          "url": "https://www.youtube.com/watch?v=HFiHlOcwuRM",
+          "published": "2026-09-14T13:45:24+00:00",
+          "content_snippet": "Remote work cut fraud. Turns out it’s harder to cook the books when you can’t grab lunch with your co-conspirator! The finding comes from economists John Barrios, Jessie Guo and Yanping Zhu, who sorted firms by how easily their work could move remote. At the firms best suited to it, financial misconduct fell by roughly half after 2020. The effect was strongest where the work was most collaborative, which is the tell. Fraud of this kind is a team sport, and distance raised the cost of keeping a t",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -65,7 +83,6 @@
         }
       ],
       "deduped_sources": {
-        "Daniel Pink": 1,
         "Big Think": 2
       }
     },
@@ -122,10 +139,19 @@
       ],
       "items": [
         {
-          "title": "GPT-6 Astra needs less babysitting",
-          "url": "https://www.youtube.com/watch?v=SiJGdlmdUms",
-          "published": "2026-09-12T15:00:30+00:00",
-          "content_snippet": "",
+          "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+          "published": "2026-09-14T15:56:33+00:00",
+          "content_snippet": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon Quick, and a reminder that the developers seeing the biggest gains from AI agents aren’t just using better tools — they’re working differently. Let’s dive in. Headlines OpenAI GPT-6",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Fyxer built an AI executive assistant people trust",
+          "url": "https://www.youtube.com/watch?v=uA5PiAXKGis",
+          "published": "2026-09-14T09:00:55+00:00",
+          "content_snippet": "See how Fyxer built an AI executive assistant that follows the thread across emails, meetings and everyday work. By combining OpenAI models with insights from more than 500,000 hours of executive assistant workflows, Fyxer breaks complex tasks into dozens of specialised models that learn each user’s context, intent and tone. Today, 53% of its AI-generated email drafts are accepted without edits, more than 90% of customers are still paying and using Fyxer after 90 days, and the company grew from ",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -134,10 +160,6 @@
       "errors": [
         {
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -166,12 +188,47 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Every step you take, every call you make: the reliable agent stack — Giselle van Dongen, Restate",
+          "url": "https://www.youtube.com/watch?v=cI7zfqusmFU",
+          "published": "2026-09-14T15:30:30+00:00",
+          "content_snippet": "A research agent asks a human to approve its plan, then waits. The wait might last a month, spanning restarts and redeploys, and while it waits the function consumes no serverless execution time at all. Giselle van Dongen builds Restate, and that suspended promise is the clearest illustration of what durable execution buys you. Her talk skips the agent loop itself and goes after the infrastructure underneath it, the part she argues teams keep rebuilding badly: retry logic, recovery logic, sessio",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Loophole: Adversarial Agents To Stress Test Your Morality — Brendan Rappazzo, Morgan Stanley",
+          "url": "https://www.youtube.com/watch?v=hOWU0KPUp1k",
+          "published": "2026-09-14T15:00:19+00:00",
+          "content_snippet": "An insurance company does not train its risk model on your DNA. It trains on artifacts derived from your DNA. Under the moral code the user wrote, that is immoral and perfectly legal, and it is the kind of gap Loophole exists to surface. Brendan Rappazzo is a machine learning researcher at Morgan Stanley, though he opens by saying the project is his own open source work, unrelated to his employer. It began with a personal question. He had sent his DNA to a consumer ancestry service, then started",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents — Mike Chambers, AWS",
+          "url": "https://www.youtube.com/watch?v=gxVZ_1tuuq4",
+          "published": "2026-09-14T14:30:38+00:00",
+          "content_snippet": "Mike Chambers puts a dictionary entry on screen: a harness is a set of straps and fastenings used to control an animal. Swap animal for model and the definition holds. His working version is subtraction. Take an agent, remove the model, and everything left over is the harness. Chambers is a senior AI specialist developer advocate at AWS, and he splits the field in two. There are agents we use, coding assistants and productivity tools, where the harness is memory, skills, tools, MCP servers, and ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Tokens Should Have Jobs — Katelyn Lesse & Angela Jiang, Anthropic",
+          "url": "https://www.youtube.com/watch?v=PXj0p_mW9nI",
+          "published": "2026-09-14T14:00:06+00:00",
+          "content_snippet": "Given the same fixed budget of roughly 600,000 tokens, an agent that did nothing but execute scored 76 on a bench of financial analysis tasks. An agent that spent part of that identical budget asking a second agent for advice scored 89. Same tokens, different jobs, better answer. Katelyn Lesse leads platform engineering at Anthropic and Angela Jiang leads platform product, and their talk goes after an assumption buried in how most teams tune agents: that every token is fungible, so the only leve",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 8
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 23
+  "deduped_count": 10
 }
