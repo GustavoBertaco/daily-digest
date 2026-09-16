@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T14:27:25Z",
+  "fetched_at": "2026-09-16T14:21:10Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,22 +14,18 @@
       ],
       "items": [
         {
-          "title": "How do you deal with AI getting so good at coding?",
-          "url": "https://www.youtube.com/watch?v=jYZ3XGJ8GUA",
-          "published": "2026-09-14T21:00:34+00:00",
-          "content_snippet": "with Tibo Sottiaux, Head of Core Products & Platform at OpenAI See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
+          "title": "Beyond the model: Engineering AI infra with scientific judgement",
+          "url": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
+          "published": "2026-09-15T17:06:18+00:00",
+          "content_snippet": "How Airbnb’s agent harness transforms unstructured data exploration by encoding scientific methodology into scalable, reproducible, and audit-ready infrastructure. By : Wren Dougherty Ask a coding agent to analyze 100,000 customer support conversations and within minutes you’ll have a polished taxonomy, precise prevalence numbers, and an executive-ready summary. What you can’t see is the investigation that produced them: the methods it chose, the evidence it weighed, how much to trust it, or whe",
+          "source_name": "Airbnb Tech",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -41,7 +37,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Pragmatic Engineer": 2
+      }
     },
     {
       "name": "Product Management",
@@ -67,27 +65,19 @@
       ],
       "items": [
         {
-          "title": "Tobi Lütke: The Future of Work, AI Agents, and Human Judgment",
-          "url": "https://www.youtube.com/watch?v=G9P9D9hptq8",
-          "published": "2026-09-15T10:00:17+00:00",
-          "content_snippet": "Shopify founder and CEO Tobi Lütke joins Shane Parrish to discuss AI agents, better decision-making, and the future of work. He explains how he uses an AI council to examine his hardest decisions and why taste, judgment, and responsibility become more valuable as AI becomes more capable. They go inside Shopify’s work with River, an AI colleague with memory, personality, and permission to challenge the CEO. They explore how to choose between several good options, why the best long-term decisions ",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why stress is actually good for you | Lisa Damour",
-          "url": "https://www.youtube.com/watch?v=CBI8eWEXlMI",
-          "published": "2026-09-14T16:06:16+00:00",
-          "content_snippet": "Why stress is actually good for you | Lisa Damour",
-          "source_name": "Big Think",
+          "title": "Flow In 7 Steps",
+          "url": "https://www.youtube.com/watch?v=FAvUfwz-9y0",
+          "published": "2026-09-15T16:10:00+00:00",
+          "content_snippet": "Step six is the one people underestimate. Motivation rarely shows up before the work. It shows up about fifteen minutes in. Mihaly Csikszentmihalyi, the University of Chicago psychologist who named flow, found something strange when he paged people at random through their days. They hit flow about three times as often at work as they did in their free time, and still said they would rather be somewhere else. Leisure feels like the good part. The absorbed part mostly happens on the job. So the co",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 1
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 1
       }
     },
     {
@@ -100,17 +90,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "SuperSkills Ep 2: Inside Unity Catalog Managed Tables",
-          "url": "https://www.youtube.com/watch?v=Q7y8_bSfVjQ",
-          "published": "2026-09-14T19:39:50+00:00",
-          "content_snippet": "Unity Catalog managed tables run OPTIMIZE, VACUUM & ANALYZE for you automatically — no scheduled maintenance jobs, no manual tuning, and no vendor lock-in on your data. In this episode of SuperSkills, Databricks Developer Advocates Youssef Mrini and Oleksandra Bovkun break down what you actually get from Unity Catalog managed tables — and the one case where you shouldn't use them. What we cover: • Predictive Optimization — a serverless service reads your table metadata and decides when to run OP",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -130,6 +110,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -149,70 +130,83 @@
       ],
       "items": [
         {
-          "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
-          "published": "2026-09-14T17:39:00+00:00",
-          "content_snippet": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with speci",
+          "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
+          "published": "2026-09-15T22:00:00+00:00",
+          "content_snippet": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency, and reports for Savings Plans and Reserved Instance coverage and utilization. This provides a unified view of your spending, commitments, and cost anomalies in a single, tailored dashboard. The Detected Anomalies widget displays the number of anomalies detected and their total cost impact relative",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
-          "published": "2026-09-14T17:35:00+00:00",
-          "content_snippet": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterpris",
+          "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+          "published": "2026-09-15T19:00:00+00:00",
+          "content_snippet": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go pricing, paying only for the port hours and data transfer out (DTO) they use, with no upfront commitment or long-term contracts. For workloads with large, sustained DTO, the per-gigabyte charges vary from month to month, making monthly costs chall",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
-          "published": "2026-09-14T17:32:00+00:00",
-          "content_snippet": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense architecture to enterprise workloads in both full-precision and optimized quantized variants, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenge",
+          "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
+          "published": "2026-09-15T18:58:00+00:00",
+          "content_snippet": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. Customers and Partners using AWS Billing Conductor to model commercial agreements with subsidiaries, affiliates, or end customers can now more easily reflect their negotiated pricing on pro forma billing data. Using SKU-scoped pricing rules, you can enter a custom rate and configure usage tier thresholds — instead of marking up or d",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
-          "published": "2026-09-14T17:30:00+00:00",
-          "content_snippet": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning multilingual speech recognition, bilingual agentic AI, and biomolecular structure prediction, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address di",
+          "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
+          "published": "2026-09-15T18:30:00+00:00",
+          "content_snippet": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning, and data processing workloads run comparably well on any of several instance types or sizes. However, before now, you had to name only one instance type at the time of job submission and wait for SageMaker to find that specific instance for your job. For high-demand GPUs during peak periods, where ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
-          "url": "https://www.databricks.com/blog/managed-postgres",
-          "published": "2026-09-14T23:36:59+00:00",
-          "content_snippet": "Every Postgres vendor calls itself \"managed.\" Few of them agree on what that word...",
+          "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
+          "published": "2026-09-15T16:54:00+00:00",
+          "content_snippet": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you investigate your AWS account activity using natural language. You can ask Amazon Q Console questions about your CloudTrail configuration, query your logged events for security investigations, and troubleshoot operational issues without writing queries or manually parsing log files. With this integration, y",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+          "published": "2026-09-15T16:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses forecasted demand and shift profiles to generate available shifts and presents them to agents to rank. For example, in a Monday–Friday 6AM–10PM shift profile with 9-hour shifts, required shifts are 6AM–3PM (500 agents), 9AM–6PM (800 agents), ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
+          "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
+          "published": "2026-09-15T16:50:00+00:00",
+          "content_snippet": "Energy theft is the deliberate use of gas or electricity without paying for it, typically...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
-          "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
-          "published": "2026-09-14T21:04:30+00:00",
-          "content_snippet": "Anyone running stateful Apache Spark™ Structured Streaming queries in production...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Detecting wildfires with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=PSnJBfa183Y",
-          "published": "2026-09-14T15:57:33+00:00",
-          "content_snippet": "Most fifth-grade science projects end up in a closet. Ryan Honary’s became SensoRy AI—a wildfire detection system that identifies fires at ignition and alerts firefighters before a spark becomes catastrophic. Ryan’s sensors monitor remote terrain for heat, smoke, flame, and plume activity. When a potential fire is detected, ChatGPT turns complex sensor data into clear alerts firefighters and residents can act on. Follow Ryan from his garage workshop, where he tested his first prototype with a ha",
+          "title": "Stay on top of the pack with ChatGPT Work.",
+          "url": "https://www.youtube.com/watch?v=DhAsqpjliYw",
+          "published": "2026-09-15T23:31:15+00:00",
+          "content_snippet": "Included in ChatGPT Plus and Pro.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -222,9 +216,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "AWS Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -239,64 +231,82 @@
       ],
       "items": [
         {
-          "title": "Your Voice Agent is Just a Walkie Talkie — Neil Zeghidour, Gradium",
-          "url": "https://www.youtube.com/watch?v=a8EcVumh71E",
-          "published": "2026-09-15T14:00:39+00:00",
-          "content_snippet": "On a phone call with someone close to you, as much as 20 percent of the time you are both talking at once. Every real time voice model shipping today is half duplex: it is either listening or speaking, never both. That gap is the whole argument of this talk. Neil Zeghidour is co founder and CEO of Gradium, a Paris company that trains audio foundation models, and he traces the arc from a 2011 phone assistant that mapped transcripts to app actions, through the first open ended voice chat that coul",
+          "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+          "url": "https://www.youtube.com/watch?v=59AA5kIoqjA",
+          "published": "2026-09-16T14:00:23+00:00",
+          "content_snippet": "Exa never meant to sell an API. Somebody sent them a message on Twitter asking for programmatic access to their search engine, and the answer was no, because there was no API to give. Then more people asked, including the roommate who lived downstairs, and the company realized it had been building the wrong product for the right reason. Will Bryk started the company in 2021 under a different name, launched a consumer search engine in 2022, and watched the world reorganize itself around chatbots ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Voice Agents Can Just Do Things — Charlie Guo, OpenAI",
-          "url": "https://www.youtube.com/watch?v=OpY6MmZFeHo",
-          "published": "2026-09-15T13:30:00+00:00",
-          "content_snippet": "The Moviefone hotline was a speech to speech system. The GPS unit in your parents' car was an event to speech system. Charlie Guo works on developer experience at OpenAI, and he opens by pointing out that the three modes of voice interaction are all decades old, which makes the question not what is newly possible but what we stopped noticing. His actual argument is aimed at an assumption almost every builder makes unexamined: that a voice agent has to answer in speech. It does not. Software spen",
+          "title": "The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev",
+          "url": "https://www.youtube.com/watch?v=fZH97QHHYjY",
+          "published": "2026-09-16T13:30:32+00:00",
+          "content_snippet": "BM25 stands for Best Match 25, and the number is not a version. A group of researchers ran a long series of scoring experiments decades ago, the twenty fifth one worked best, and the name simply stuck. Jo Kristian Bergum has spent more than twenty years on search and retrieval, and his claim is that this thirty year old lexical function is making a comeback without having changed at all. What changed is the user. A model already knows entities, companies, dates, postal codes and product identifi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Speech-to-Speech Model Research at Google DeepMind — Valeria Wu Fon & Tom Ouyang, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=18Um2VjMM_g",
-          "published": "2026-09-15T13:00:06+00:00",
-          "content_snippet": "Asked in Spanish about a mid century sofa, the model answers in Spanish but leaves the phrase mid century in English, because that is how the term is actually used by Spanish speakers. Nobody wrote a rule for that. It falls out of a model trained on audio, video, and text together rather than stitched from separate parts. Valeria Wu Fon leads product for speech to speech in Gemini and Tom Ouyang engineers it, and they open with how far the field moved to get here. Before roughly 2018, turning sp",
+          "title": "Pinecone 2.0 — Edo Liberty, Pinecone",
+          "url": "https://www.youtube.com/watch?v=IN-rb-9WmiY",
+          "published": "2026-09-16T13:00:06+00:00",
+          "content_snippet": "People used to type \"am I fat?\" into Yahoo Answers. Edo Liberty worked there at the time, and the question stuck with him, because a Q and A forum has no possible way to know. It is a failure of theory of mind, our capacity to model what someone else actually knows, and he argues we are making a subtler version of the same mistake with agents right now. He splits knowledge three ways. General knowledge is what a model absorbed in training and can be relied on for. Specific knowledge is the contr",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agents Without Code: Skills, YAML, and Filesystems Replaced Python — Philipp Schmid, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=fjF8EKnxKCU",
-          "published": "2026-09-14T17:30:25+00:00",
-          "content_snippet": "By the third version of the same agent, the source directory is gone. What remains is an AGENTS.md holding the system instruction and a small bash script that installs the GitHub CLI on first run. No tool definitions, no JSON schemas, no Python. Philipp Schmid builds the same GitHub pull request review agent three times on stage, deleting code with each pass, and the test he applies at the end of each one is the same throwaway question: what is the weather in San Francisco? Version one, a hand w",
+          "title": "Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots — Amit Desai, Roku",
+          "url": "https://www.youtube.com/watch?v=Zd5b40Jbp_k",
+          "published": "2026-09-15T17:00:32+00:00",
+          "content_snippet": "Amit Desai never makes the model better. Accuracy stays pinned at 79 percent for the whole talk, and user pain still drops by nearly half. Desai has worked on voice interfaces for years, at Roku and before that on a widely used smart speaker, and his argument is that teams pour effort into one knob while ignoring a second one that is entirely independent of it. Knob one is accuracy, chased a percentage point at a time through the wake word, recognition, and understanding layers. Knob two is what",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How We Solved Agent Building — Andrew Qu, Vercel",
-          "url": "https://www.youtube.com/watch?v=9dYcwOkpCE8",
-          "published": "2026-09-14T17:00:06+00:00",
-          "content_snippet": "When Andrew Qu handed Vercel's internal data science agent to its first trusted users, the verdict came back that it was awful. It had been clearing thirty percent of his evals and he thought the team was cooking. Qu is Chief of Software at Vercel, and he began a year earlier by asking marketing, sales, finance, and legal what they hated most about their jobs. The best answer came from the data team, lean and growing slower than the company around it. Whenever anyone had a question about a custo",
+          "title": "\"My name is... my name is...\": A Linguistic Map for Voice Agents — Midam Kim, ServiceNow",
+          "url": "https://www.youtube.com/watch?v=IDNfAZVKvPE",
+          "published": "2026-09-15T16:30:08+00:00",
+          "content_snippet": "Midam Kim spells her first name for a voice agent, letter by letter. The bot reads it back with an N on the end. She corrects it. The bot replies thank you for your correction, then says her name wrong anyway, because its pronunciation rules are English and her name is not. Moments later it asks for an account number she has to go looking for, cuts her off while she reads the unfamiliar string aloud, announces it cannot find her record, and asks her to repeat the whole thing without trying anyth",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "No Memory, No Harness: Why the Database Is the Last Line of Defense — Kay Malcolm, Oracle",
-          "url": "https://www.youtube.com/watch?v=jA_x7F8caHI",
-          "published": "2026-09-14T16:30:33+00:00",
-          "content_snippet": "Half of Kay Malcolm's team sits in Europe and half in the United States, so when the Netherlands side commits code at four in the morning her time, the Americans wake up to the code and none of the reasoning behind it. Git records what changed, not why anyone decided it. AI had made every individual on the team faster without making the team any more productive, and she went looking for the missing layer. Malcolm runs outbound database product management at Oracle, where she has spent twenty yea",
+          "title": "Realtime Voice Agents with Frontier Intelligence — Bohan Li, EliseAI",
+          "url": "https://www.youtube.com/watch?v=MBHOH1NmDqc",
+          "published": "2026-09-15T16:00:02+00:00",
+          "content_snippet": "A background agent quietly makes the tool call, then drops the result into the main model's context so the model believes it made the call itself. That sleight of hand is one of three tricks Bohan Li uses to run a voice agent on a slow, genuinely intelligent model without the caller noticing the wait. Li works on the voice harness at EliseAI and came from self driving, and he maps the cascaded voice stack onto that world: transcription is perception, the language model is planning, and speech sy",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "We let an AI agent execute Bash and lived to talk about it — Sarah Sanders, PostHog",
-          "url": "https://www.youtube.com/watch?v=4lXks428C9o",
-          "published": "2026-09-14T16:00:00+00:00",
-          "content_snippet": "Someone opens a pull request on one of your open source repos and drops a line into a markdown file. An automated code review reads it and says looks good. That file is part of the content pipeline feeding an agent that runs commands on thousands of developer machines, so you have now shipped a prompt injection payload signed by you. Sarah Sanders is a context engineer at PostHog, where the Wizard is an agentic CLI that reads a codebase, installs the right SDK, instruments events, and builds das",
+          "title": "5 Voice Agent Failure Modes You'll Hit in Week One — Venky B, Plivo",
+          "url": "https://www.youtube.com/watch?v=vblnYHzBgS4",
+          "published": "2026-09-15T15:30:09+00:00",
+          "content_snippet": "Nearly every intelligence gain in language models over the past year has come from letting them think longer. Voice agents have to turn thinking off, because the budget between a user finishing a sentence and the agent starting to speak is measured in hundreds of milliseconds. Venky B is founder and CEO of Plivo, which carries over a billion voice calls a month and has been building telephony infrastructure since 2011, and this talk is a tour of what breaks when a voice agent leaves the demo and",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "I Monitored Crime Audio. Voice Agents Scare Me More. — Sumanyu Sharma, Hamming AI",
+          "url": "https://www.youtube.com/watch?v=qStB9GbppMU",
+          "published": "2026-09-15T15:00:06+00:00",
+          "content_snippet": "Sumanyu Sharma showed up for a doctor's appointment a voice agent had told him was booked. He was not on the schedule, the front desk turned him away, and he lost two hours. His point is not the inconvenience but the substitution: make that his grandparent, and make it a procedure rather than a checkup, and the same failure costs something else entirely. Sharma founded Hamming after years at a public safety app, where he and his team listened to thousands of hours of police radio and pushed mill",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Tolan: Voice-First AI Companion — Paula Dozsa, Tolan",
+          "url": "https://www.youtube.com/watch?v=xLUQOqjudtA",
+          "published": "2026-09-15T14:30:14+00:00",
+          "content_snippet": "Tolan's response latency once drifted from two seconds to about two and a half. That half second tanked essentially every metric in the product, and users wrote in to say their companion had become slow. Paula Dozsa is an engineer on the iOS app for Tolan, a voice first companion shaped as a small alien, and the team has logged more than four million hours of spoken conversation. Her argument is that voice does not just add a modality to an LLM app, it invalidates the assumptions underneath one.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -306,5 +316,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 9
+  "deduped_count": 10
 }
