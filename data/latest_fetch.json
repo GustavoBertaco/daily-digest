@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T14:26:13Z",
+  "fetched_at": "2026-09-18T13:48:50Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,12 @@
       ],
       "items": [
         {
-          "title": "AI Skills with Matt Pocock",
-          "url": "https://www.youtube.com/watch?v=4DhcSPkEbwI",
-          "published": "2026-09-17T11:24:57+00:00",
-          "content_snippet": "Why is the “grill-me” skill so popular, and why does its creator swear by the importance of software fundamentals? Matt Pocock created this widely-used skill – and many others – alongside being an educator, content creator, and engineer. His latest course is AI Hero, and he previously created the Total TypeScript course that generated more than $2.5 million in sales. In this episode, Matt and I discuss his unconventional path from working as a voice teacher to becoming a developer and going all-",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
+          "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
+          "url": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
+          "published": "2026-09-17T17:01:02+00:00",
+          "content_snippet": "How two new Chronon capabilities, Push Mode and NRT Model Transform, allows us to provide more relevant search results instantly as a guest explores, rather than waiting for the next batch run. By : Pengyu Hou , Yuli Han , Daochen Zha , Haozhen Ding , Xin Liu , Sophie Wang , Pallavi Adusumilli , Sherry Li , Henry Saputra , Chun How Tan , Huiji Gao , Yan Zhang , Stephanie Moyerman , Yi Li , and Sanjeev Katariya A guest’s interaction with Airbnb doesn’t pause to wait for a nightly batch job. Someo",
+          "source_name": "Airbnb Tech",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -38,7 +38,7 @@
         }
       ],
       "deduped_sources": {
-        "Airbnb Tech": 1
+        "The Pragmatic Engineer": 1
       }
     },
     {
@@ -65,19 +65,10 @@
       ],
       "items": [
         {
-          "title": "Why AI needs creatives more than creatives need AI",
-          "url": "https://www.youtube.com/watch?v=Bt0lCsDcUrg",
-          "published": "2026-09-16T18:25:48+00:00",
-          "content_snippet": "When making things becomes free, telling good from garbage becomes the scarce asset. Don't out-produce AI. Out-judge it. AI turned everyone into a producer. It turned no one into an editor. The publishing data makes the case. Imke Reimers at Cornell and Joel Waldfogel at Minnesota found that new e-book releases on Amazon went from roughly 100,000 a month before late 2022 to about 300,000 by the end of last year. Average quality fell, exactly as you would expect. But quality among the top thousan",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The #1 requirement for loving a woman | John Gottman",
-          "url": "https://www.youtube.com/watch?v=pg3QL4y2_0c",
-          "published": "2026-09-16T16:05:20+00:00",
-          "content_snippet": "The #1 requirement for loving a woman | John Gottman",
+          "title": "How to debate, from a 2x world champion | Bo Seo: Full Interview",
+          "url": "https://www.youtube.com/watch?v=8vYZ5oQb4M8",
+          "published": "2026-09-18T13:00:09+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-seo-yzNzjg1c0V4 Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8vYZ",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -85,7 +76,8 @@
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1
+        "The Knowledge Project Podcast": 1,
+        "Daniel Pink": 2
       }
     },
     {
@@ -98,7 +90,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Databricks Governance Hub #agenticai #databricks",
+          "url": "https://www.youtube.com/watch?v=pc7NVAIW0YA",
+          "published": "2026-09-18T09:15:08+00:00",
+          "content_snippet": "Governance Hub is an account-level single pane of glass for administration and governance teams in Databricks. Youssef Mrini (Developer Advocate) sits down with Kristen Wilder (Product Manager) and Sadhana Bala (Product Manager) to walk through the core features, who it is for, how permissions work, and what is on the roadmap. 🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • ",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -113,14 +115,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "NextGenLakehouse": 1,
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -138,181 +141,181 @@
       ],
       "items": [
         {
-          "title": "Amazon Corretto 27 is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
-          "published": "2026-09-17T00:00:31+00:00",
-          "content_snippet": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK . You can download Corretto 27 for Linux, Windows, and macOS from our downloads page . Corretto 27 will be supported through April 2027. Noticeable features: G1 as the Default Garbage Collector in All Environments - Makes G1 the default garbage collector across all environments, delivering more consistent performance and predict",
+          "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+          "published": "2026-09-17T19:00:00+00:00",
+          "content_snippet": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP for IP-based auditing, access controls, and compliance when you use your own NLB. Previously, an NLB replaced the client's source IP with its own private IP address, so your Transfer Family logs and events recorded the NLB's address instead ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
-          "published": "2026-09-16T22:29:00+00:00",
-          "content_snippet": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement fine-tuning (RFT). This is one of the latest open-weight models from NVIDIA and employs a hybrid Mixture-of-Experts architecture with 3B active parameters and 30B parameters in total. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Mo",
+          "title": "AWS HealthOmics now supports IAM session policies",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
+          "published": "2026-09-17T18:32:00+00:00",
+          "content_snippet": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically scope down permissions for a single run, requiring you to create a separate IAM role for each tenant or run. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs with fully managed bioinformatics workflows. An IAM session ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
-          "published": "2026-09-16T17:56:00+00:00",
-          "content_snippet": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here . AWS Client VPN is a managed service that securely connects your remote workforce to AWS or on-premises networks. It supports desktop clients for MacOS, Windows x64, Windows Arm64 and Ubuntu-Linux. With client version 6.0 onwards, Client VPN now supports the lat",
+          "title": "AWS Batch now supports bulk job cancellation and termination",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+          "published": "2026-09-17T17:23:00+00:00",
+          "content_snippet": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale batch workloads, letting you act on groups of jobs at once and receive per-job results in a single response. Additionally, ListJobs now returns isCancelled and isTerminated fields, and ListServiceJobs returns isTerminated, making it easier t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "New AWS experience helps builders get started and ship faster",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
-          "published": "2026-09-16T17:45:00+00:00",
-          "content_snippet": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterprises can customize settings for their distinct needs. Until now, builders with a new project idea had to decide among these options and configure their AWS environment before beginning to build. The new experience reduces setup effort by simplifying sign-up and automatically configuring an initial p",
+          "title": "Introducing Amazon EC2 T8i instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
+          "published": "2026-09-17T15:00:00+00:00",
+          "content_snippet": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro cards. T8i instances deliver up to 30% better price performance compared to previous generation T3 instances, and offer four sizes: nano, micro, small, and medium. These instances are designed for workloads requiring low to moderate CPU utiliza",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
-          "published": "2026-09-16T17:00:00+00:00",
-          "content_snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive workloads compared to previous generation Graphics G6 bundles. Four bundle sizes are available, ranging from 8 vCPUs, 32 GB of memory, and one GPU up to 48 vCPUs, 192 GB of memory, and two GPUs. With Graphics G7, you can run demanding professional app",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
-          "published": "2026-09-16T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your organization adopt custom metrics, they end up editing the same shared library. Without controls, one person can change a metric that other teams count on. The usual fix is to give only a handful of people permissions to custom metrics, but that shuts out every other team that wants to start using them.",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
-          "published": "2026-09-16T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. Instead of rebuilding an existing form question by question, you upload the PDF and choose the preferred scoring method, either percentage or points-based, and Connect Customer automatically extracts the sections, questions, answer options, and scori",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
-          "published": "2026-09-16T16:30:00+00:00",
-          "content_snippet": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service that personalizes and inserts ads into live and on-demand streams. Monetization functions run customer-defined logic at defined points in an ad-personalized playback session, removing the need for a middleware tier between MediaTailor and the ADS. The post ADS response hook runs after MediaTailor parse",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
-          "published": "2026-09-16T16:25:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to data in Amazon S3 as a shared file system. With this launch, customers running ECS workloads on EC2 instances can work with their S3 data using standard file system semantics, so file-based applications, AI agents, and data processing workloads run on S3 data with no code changes and without duplicat",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
-          "published": "2026-09-16T16:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers no longer align. A metric you can't trust is worse than no metric at all, because people still make decisions on it. Now you define a metric once and manage it programmatically through seven new API operations (CreateMetric, DeleteMetric, DescribeMe",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS reimagines the getting started experience",
-          "url": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
-          "published": "2026-09-16T17:50:14+00:00",
-          "content_snippet": "Amazon Web Services (AWS) started with a handful of foundational infrastructure services such as Amazon Simple Storage Service (Amazon S3) , Amazon Elastic Compute Cloud (Amazon EC2) , and Amazon Simple Queue Service (Amazon SQS) , so that anyone with an idea could start building. As the world’s largest companies and governments adopted AWS, they asked for features to optimize their configuration for a range of global business contexts, security requirements, and operational needs. To meet these",
+          "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+          "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+          "published": "2026-09-17T21:11:48+00:00",
+          "content_snippet": "Today, we’re announcing the general availability of new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances . These instances are designed to run a variety of low-to-moderate CPU utilization workloads such as freemium services, training and demo environments, st",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
-          "url": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
-          "published": "2026-09-16T17:14:05+00:00",
-          "content_snippet": "Imagine you work in cybersecurity and you have a table that tracks login attempts...",
+          "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+          "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+          "published": "2026-09-17T19:20:21+00:00",
+          "content_snippet": "Since the first launch of AWS Elastic Beanstalk in 2011, customers have deployed full-stack applications in Java, .NET, Python, Node.js, PHP, Ruby, and Go, trusting Elastic Beanstalk to manage deployment and infrastructure operations so they could focus on business logic. Fifteen years later, that trust has only deepened, and the service has been rebuilt to match it. Now, AWS Elastic Beanstalk is the application management service on AWS that takes full operational responsibility for your produc",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Database for AI Agents: 5 Evaluation Criteria",
+          "url": "https://www.databricks.com/blog/database-for-ai-agents",
+          "published": "2026-09-17T17:27:40+00:00",
+          "content_snippet": "The five criteria for evaluating a database for AI agents are branch isolation, serverless...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Reimagining IT with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=Q_MEaNdMpZw",
-          "published": "2026-09-17T02:11:53+00:00",
-          "content_snippet": "Go behind the scenes to see how Open AI's IT team uses ChatGPT to deliver business outcomes.",
+          "title": "The Web Search Your Agent Inherited Isn't Good Enough",
+          "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
+          "published": "2026-09-17T17:00:00+00:00",
+          "content_snippet": "An agent that needs the outside worldAn engineer at a software company is building...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What is AIOps?",
+          "url": "https://www.databricks.com/blog/what-is-aiops",
+          "published": "2026-09-17T16:49:43+00:00",
+          "content_snippet": "Artificial Intelligence for IT Operations (AIOps) applies AI and machine learning to IT operations to detect anomalies...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
+          "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
+          "published": "2026-09-17T14:00:00+00:00",
+          "content_snippet": "Capital-markets firms are modernizing the trade lifecycle under pressure from every direction: growing data volumes...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Use ChatGPT Work to ground analysis in your semantic layer",
+          "url": "https://www.youtube.com/watch?v=bbNTY8O0GTY",
+          "published": "2026-09-18T13:28:31+00:00",
+          "content_snippet": "Your data agent needs to understand how your business defines its metrics. In this clip, OpenAI’s data team explains how a semantic layer brings together key entities, metric definitions, filters, and known pitfalls. See why expert review matters, how existing semantic work can be reused, and why this foundation needs ongoing investment. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/busi",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Meet ChatGPT: Ask Your First Question | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=4UTn7oWvSJc",
-          "published": "2026-09-16T22:29:47+00:00",
-          "content_snippet": "New to ChatGPT? Start here. In this quick tutorial, you’ll learn how to type or speak a question, review the answer, and ask a follow-up to make it simpler or more useful. There’s no need to find the perfect words—just start with one question and continue the conversation. ChatGPT can make mistakes or use outdated information. Always double-check important guidance about health, money, deadlines, government forms, or safety with a trusted professional or official source. #ChatGPT #ChatGPTForBegi",
+          "title": "Use ChatGPT Work to build dashboards from a business question",
+          "url": "https://www.youtube.com/watch?v=GzCsKuDgr6Q",
+          "published": "2026-09-18T13:27:46+00:00",
+          "content_snippet": "Start with the question your team needs to answer: how is product adoption changing? This ChatGPT Work demo shows a prompt for an adoption dashboard and the prepared result: an interactive funnel, customer segment views, and controls for recurring data refreshes. It uses synthetic data and is edited to show the workflow, not elapsed generation time. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://ope",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to Ask ChatGPT Better Questions | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=P-8sCH6syag",
-          "published": "2026-09-16T22:29:43+00:00",
-          "content_snippet": "A few helpful details can make a big difference. In this quick tutorial, you’ll learn how to tell ChatGPT what you need, who it’s for, and what kind of answer would be most useful. See how a general dinner question becomes a practical meal plan with simple recipes and an organized shopping list—and how easy it is to adjust the answer without starting over. You don’t need to share private information to get a useful response. Leave out details such as your full name, address, and account numbers.",
+          "title": "Use ChatGPT Work to tailor dashboards for every stakeholder",
+          "url": "https://www.youtube.com/watch?v=Wb8MhkpQpX8",
+          "published": "2026-09-18T13:27:02+00:00",
+          "content_snippet": "Give stakeholders a view of the business that fits the decisions they need to make. Watch this ChatGPT Work demo adapt dashboard labels and chart types, explore KPIs, and drill into compute demand. Using synthetic data, it shows ways to tailor dashboards and explore the details behind business performance. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solutions/data/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Use ChatGPT to Organize Everyday Tasks | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=gKyEzP_jhZc",
-          "published": "2026-09-16T22:29:39+00:00",
-          "content_snippet": "Turn a busy idea into a simple, manageable plan. In this quick tutorial, you’ll learn how ChatGPT can help organize household tasks, errands, trips, events, and other everyday projects. Watch how a plan for preparing for visiting family becomes a short checklist organized by day. You can use the same approach to request a list, schedule, or step-by-step plan that works for you. Remember to verify important costs, dates, instructions, and anything involving health or safety. #ChatGPT #ChatGPTForB",
+          "title": "Use ChatGPT Work to help teams answer their own data questions",
+          "url": "https://www.youtube.com/watch?v=euED8JRunBA",
+          "published": "2026-09-18T13:25:54+00:00",
+          "content_snippet": "Help more people investigate business questions without routing every question through the data team. In this clip, OpenAI’s data team explains how building a trustworthy foundation for the data agent helped colleagues explore their own questions. Hear the approach behind making self-service analysis useful across the business. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solut",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to Spot Scam Messages with ChatGPT | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=WY_PHjGilVs",
-          "published": "2026-09-16T22:29:36+00:00",
-          "content_snippet": "Suspicious email or text? ChatGPT can serve as a second set of eyes. In this quick tutorial, you’ll learn how to identify common warning signs such as urgent language, unfamiliar links, unusual requests, and demands for money. Never click a suspicious link or call a number included in the message. Verify the claim independently through an official app, website, phone number, or someone you trust. ChatGPT can help you notice warning signs, but it cannot guarantee that a message is safe. #ScamAwar",
+          "title": "Use ChatGPT Work to turn product insights into a team action plan",
+          "url": "https://www.youtube.com/watch?v=wK0zWeVyLM4",
+          "published": "2026-09-18T13:25:37+00:00",
+          "content_snippet": "A drop-off in your adoption funnel tells you where to look. Customer feedback helps you investigate why. See how usage data and feedback from Slack and Google Drive inform recommendations, then watch ChatGPT Work draft a Slack update for review before posting. This demo uses synthetic data to show the path from a leadership question to proposed team actions. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: ht",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=dfAZbuAQxi8",
-          "published": "2026-09-16T22:29:31+00:00",
-          "content_snippet": "Share only what ChatGPT needs to answer your question. In this quick tutorial, you’ll learn how to protect personal information and recognize when an AI-generated answer needs to be checked. See how to ask about a utility bill without sharing a name, address, phone number, account number, barcode, or other private details. ChatGPT can help you understand information, get organized, and prepare better questions—but it is not a doctor, banker, lawyer, or official source. You remain in charge. #AIP",
+          "title": "Use ChatGPT Work to build your data agent",
+          "url": "https://www.youtube.com/watch?v=cXUmFec2PNY",
+          "published": "2026-09-18T13:25:00+00:00",
+          "content_snippet": "Give your data agent the context it needs to work with your business. In this clip, see how to connect tools in ChatGPT Work and bring together data tables, team discussions, and metric definitions. Then see how a data expert can review and refine that context before sharing it across the company. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solutions/data/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Create a Coloring Page with ChatGPT | OpenAI Academy",
-          "url": "https://www.youtube.com/watch?v=4gYJxduFN3c",
-          "published": "2026-09-16T22:29:27+00:00",
-          "content_snippet": "Let’s use ChatGPT to make something fun. In this quick tutorial, you’ll learn how to create an original black-and-white coloring page using a simple description. See how details such as thick outlines, no shading, and plenty of open space can produce a coloring-friendly image—and how a follow-up request can change one part without starting over. For a simple creative project, request original ideas rather than famous characters or copies of someone else’s artwork. #ChatGPTImages #ColoringPage #C",
+          "title": "Meet the Data Agent in ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=VMgEQ7ym9WU",
+          "published": "2026-09-18T13:24:22+00:00",
+          "content_snippet": "Turn business questions into clear next steps with the Data agent in ChatGPT Work. See how to analyze company data, build interactive dashboards, monitor changes, and create shared context for consistent answers. Explore data solutions: https://openai.com/business/solutions/data/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Assess Usage and Value of ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=iZE2r-Vx5b8",
-          "published": "2026-09-16T19:03:38+00:00",
-          "content_snippet": "See how insights in the ChatGPT Admin Console help you understand AI adoption, usage, and spend across your organization. Explore team use cases, review Codex contributions, and identify where to focus training and expand access. Then use the ChatGPT Admin plugin to turn those analytics into a leadership deck and share it in Slack.",
+          "title": "Astra for Law: Frontier intelligence built for your practice.",
+          "url": "https://www.youtube.com/watch?v=YeeGHCixr7o",
+          "published": "2026-09-17T20:41:08+00:00",
+          "content_snippet": "Astra for Law: A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs—with sources added daily. That helps lawyers move from the fact",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "ChatGPT for Word is now available",
+          "url": "https://www.youtube.com/watch?v=lxVMdEpe0RQ",
+          "published": "2026-09-17T19:12:10+00:00",
+          "content_snippet": "Procrastination has met its match. ChatGPT is now in Word. You can add ChatGPT to Microsoft Word to turn rough notes into first drafts, fix formatting issues, proofread, and get suggested edits—all without leaving your document. ChatGPT for Word (and Powerpoint + Excel) are available across all plans, including Free, with usage limits. For Business and Enterprise plans, we’re also offering a two-week free preview of GPT-5.6 Sol in Word, September 17–30, with no impact on usage limits. https://ch",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks",
+          "url": "https://www.youtube.com/watch?v=s495saGYWFg",
+          "published": "2026-09-17T18:03:17+00:00",
+          "content_snippet": "At Jump Trading, Lucas Baker, Head of LLM R&D, is seeing agents take on broader, less defined work—from building entire services to analyses that run for days across multiple data sources. The shift he describes: AI becoming part of the team’s everyday work.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -341,74 +344,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "The End of TCP for AI Clusters — John Ousterhout, Stanford",
-          "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-          "published": "2026-09-17T13:00:08+00:00",
-          "content_snippet": "Split a job across several nodes, let their GPUs compute, then have them exchange a little metadata before the next round. While that exchange happens every GPU sits idle, and the whole cluster waits on the slowest one. Back when a compute phase ran five seconds and the exchange took a few milliseconds, nobody cared. Agentic inference has pushed those compute phases down to milliseconds, so the synchronization now costs about what the work costs. John Ousterhout asked the room who had reason to ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs",
-          "url": "https://www.youtube.com/watch?v=r9OwPx_HoV0",
-          "published": "2026-09-16T17:00:06+00:00",
-          "content_snippet": "Ask a corpus of Seinfeld transcripts for the name of Jerry's favorite church and a 100 token chunk returns it at rank one, while every larger window buries it below rank fifty. Ask the same corpus who Jerry calls his nemesis and pure evil and the small chunks fail completely, because the answer is spread across a scene rather than sitting in a sentence. Same data, same index, opposite requirements. Yuval Belfer uses that pair to make a claim most retrieval teams have quietly assumed away: there ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Where RL Will Take Search — Maximilian-David Rumpf, SID.ai",
-          "url": "https://www.youtube.com/watch?v=iJVxxxHM_Oc",
-          "published": "2026-09-16T16:30:16+00:00",
-          "content_snippet": "Somewhere between 30 and 50 percent of an agent's tokens get spent on searching, almost all of it up front, before any of the work you asked for. Maximilian David Rumpf treats that number as the whole opportunity. Handing a task to an agent rather than a query to a search engine roughly doubles the odds of finding the right documents, but it costs a hundred to a thousand times more and takes minutes instead of milliseconds. His diagnosis of why the classical alternative cannot close that gap is ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Connect AI to Billions of Legal Documents — Simon Eskildsen, turbopuffer & Jacob Lauritzen, Legora",
-          "url": "https://www.youtube.com/watch?v=V-isu4eTHgw",
-          "published": "2026-09-16T16:00:19+00:00",
-          "content_snippet": "Legora's search latency once went from a 100 millisecond P99 to twenty seconds, and the cause was a packing problem invisible in the schema. Legal work arrives as projects, a project gets worked hard for a while and then is never opened again, and when the team sharded document chunks across four thousand partitions the dead projects landed in the same partitions as the live ones. Every query pulled an enormous partition into memory, evicted the last, and thrashed the cache. Jacob Lauritzen walk",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your Agreements Are a Database You Can't Query — Hiral Shah, Docusign & Sean Sodha, NVIDIA",
-          "url": "https://www.youtube.com/watch?v=_gvamfT8H-w",
-          "published": "2026-09-16T15:30:28+00:00",
-          "content_snippet": "Ask your own company what it actually contracted for with a given vendor and nobody can tell you. The number exists, negotiated carefully, sitting in a pricing table inside a signed PDF no system ever read back. Hiral Shah puts a figure on the aggregate: roughly two trillion dollars of negotiated value locked in agreements that organizations never return to, because recovering it means human reading, human review, and manual work across disconnected systems. The scale on Docusign's side is its o",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "If we want them to do Knowledge Work, design them as Knowledge Agents — Benjamin Clavié, Mixedbread",
-          "url": "https://www.youtube.com/watch?v=O84lhGc1OOI",
-          "published": "2026-09-16T15:00:39+00:00",
-          "content_snippet": "An agent searching a contract for \"30 days\" has no way to know whether it has found a deadline, a grace period, or a retention rule, or wandered into a medication schedule entirely. Benjamin Clavié uses that to explain why coding agents turned out to be the easy case. Code carries durable cues: identifiers, file paths, method definitions, things you can literally grep for. It also comes with narrow instructions, because nobody asks a coding agent to invent a paradigm, they ask it to close a tick",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Rebuilding the web for agents — Liad Yosef, MCP Apps",
-          "url": "https://www.youtube.com/watch?v=waI44NP1abk",
-          "published": "2026-09-16T14:30:03+00:00",
-          "content_snippet": "Roughly half the websites Liad Yosef's team tested publish an llms.txt file, the de facto standard for telling an agent how to work with you. Almost none of the agents they ran against those sites ever read it. The agents went straight to the docs page and then the homepage, and the minority that did open llms.txt only found it because the docs mentioned it. That result reframes the whole problem. We have been writing specifications at agents describing what we think they need, when the only rel",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 13
+  "deduped_count": 16
 }
