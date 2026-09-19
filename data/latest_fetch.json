@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-18T13:48:50Z",
+  "fetched_at": "2026-09-19T13:23:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,20 +14,25 @@
       ],
       "items": [
         {
-          "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
-          "url": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
-          "published": "2026-09-17T17:01:02+00:00",
-          "content_snippet": "How two new Chronon capabilities, Push Mode and NRT Model Transform, allows us to provide more relevant search results instantly as a guest explores, rather than waiting for the next batch run. By : Pengyu Hou , Yuli Han , Daochen Zha , Haozhen Ding , Xin Liu , Sophie Wang , Pallavi Adusumilli , Sherry Li , Henry Saputra , Chun How Tan , Huiji Gao , Yan Zhang , Stephanie Moyerman , Yi Li , and Sanjeev Katariya A guest’s interaction with Airbnb doesn’t pause to wait for a nightly batch job. Someo",
-          "source_name": "Airbnb Tech",
+          "title": "Plan by day, let agents code by night",
+          "url": "https://www.youtube.com/watch?v=OIulx_R3TLY",
+          "published": "2026-09-18T15:00:23+00:00",
+          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Leave the Class Path in the Rearview Mirror",
+          "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+          "published": "2026-09-18T16:01:02+00:00",
+          "content_snippet": "Introducing composable, module system native and agent friendly command line tools for modern Java development By Danny Thomas, JVM Ecosystem Team Recent work on the Java language to pave the on-ramp has made it easier than ever to start a Java program and evolve it using the full language and platform. At the end of that on-ramp lies Java’s mature build and dependency management ecosystem, capable of carrying software to enormous scale and complexity. That ecosystem reached its maturity by deve",
+          "source_name": "Netflix Tech Blog",
           "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
-        {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -38,7 +43,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1
+        "Airbnb Tech": 2
       }
     },
     {
@@ -65,20 +70,40 @@
       ],
       "items": [
         {
-          "title": "How to debate, from a 2x world champion | Bo Seo: Full Interview",
-          "url": "https://www.youtube.com/watch?v=8vYZ5oQb4M8",
-          "published": "2026-09-18T13:00:09+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-seo-yzNzjg1c0V4 Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?v=8vYZ",
+          "title": "30 Cheat Codes to Beat Every Level of Life",
+          "url": "https://www.youtube.com/watch?v=c7jGXPEY54k",
+          "published": "2026-09-18T14:33:35+00:00",
+          "content_snippet": "Get the list of all 30 Cheat Codes: https://www.danpink.com/life-cheat-codes/ It’s free and you can reference back to this without having to watch the video again. Video games have cheat codes. So does life. The difference is that nobody hands you the list. These are 30 of the ones I've collected over the years, on decisions, people, productivity, work, and life itself. Some I learned the hard way. A few I'm still learning. All of them I wish someone had told me at 25. I put all 30 on a single p",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The Score by C Thi Nguyen",
+          "url": "https://www.youtube.com/watch?v=7x05A5MUKE0",
+          "published": "2026-09-18T13:55:11+00:00",
+          "content_snippet": "C. Thi Nguyen is a philosopher at the University of Utah, and before this he wrote a book called *Games: Agency as Art*, which argues that games are an art form whose medium is you. A game hands you a temporary self: crisp goals, clean scoring, a clear sense of whether you're doing well. That's the pleasure of it. He has also written about what he calls the seductions of clarity: our tendency to trust an idea because it feels lucid and settled, not because it's true. Scores are the purest versio",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The problem with UFO videos | Adam Frank",
+          "url": "https://www.youtube.com/watch?v=-p9YBmFniTI",
+          "published": "2026-09-18T16:05:24+00:00",
+          "content_snippet": "The problem with UFO videos | Adam Frank",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Daniel Pink": 2
-      }
+      "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -90,17 +115,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Databricks Governance Hub #agenticai #databricks",
-          "url": "https://www.youtube.com/watch?v=pc7NVAIW0YA",
-          "published": "2026-09-18T09:15:08+00:00",
-          "content_snippet": "Governance Hub is an account-level single pane of glass for administration and governance teams in Databricks. Youssef Mrini (Developer Advocate) sits down with Kristen Wilder (Product Manager) and Sadhana Bala (Product Manager) to walk through the core features, who it is for, how permissions work, and what is on the roadmap. 🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • ",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -123,7 +138,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "NextGenLakehouse": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -141,187 +158,92 @@
       ],
       "items": [
         {
-          "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
-          "published": "2026-09-17T19:00:00+00:00",
-          "content_snippet": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP for IP-based auditing, access controls, and compliance when you use your own NLB. Previously, an NLB replaced the client's source IP with its own private IP address, so your Transfer Family logs and events recorded the NLB's address instead ",
+          "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+          "published": "2026-09-18T18:34:00+00:00",
+          "content_snippet": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now test login credentials and receive suggested domains before a penetration test runs. This makes it easier to configure an accurate network scope from the start, reducing misconfiguration and wasted test cycles. Previously, identifying all th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS HealthOmics now supports IAM session policies",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
-          "published": "2026-09-17T18:32:00+00:00",
-          "content_snippet": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically scope down permissions for a single run, requiring you to create a separate IAM role for each tenant or run. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs with fully managed bioinformatics workflows. An IAM session ",
+          "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+          "published": "2026-09-18T17:27:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performance compared to x86-based instances. Amazon ECS Express Mode makes it easy to rapidly launch containerized applications, including web applications and APIs, by orchestrating and managing the cloud architecture for your application. You provide your ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Batch now supports bulk job cancellation and termination",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
-          "published": "2026-09-17T17:23:00+00:00",
-          "content_snippet": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale batch workloads, letting you act on groups of jobs at once and receive per-job results in a single response. Additionally, ListJobs now returns isCancelled and isTerminated fields, and ListServiceJobs returns isTerminated, making it easier t",
+          "title": "AWS Resilience Hub adds three new capabilities",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+          "published": "2026-09-18T16:49:00+00:00",
+          "content_snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery, generative AI-powered failure mode analysis, modular resilience policies, resilience testing, and organization-wide resilience posture reporting. Today, AWS Resilience Hub adds three new capabilities: EKS labels support for service input sources, dep",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing Amazon EC2 T8i instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
-          "published": "2026-09-17T15:00:00+00:00",
-          "content_snippet": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro cards. T8i instances deliver up to 30% better price performance compared to previous generation T3 instances, and offer four sizes: nano, micro, small, and medium. These instances are designed for workloads requiring low to moderate CPU utiliza",
+          "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+          "published": "2026-09-18T15:30:00+00:00",
+          "content_snippet": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in their own Availability Zone or to any Availability Zone that the gateway spans. This launch helps advertising technology (AdTech) companies use their infrastructure more efficiently—with no extra charges on RTB Fabric. Demand-side platforms (DSPs) and supply-side platforms (SSPs) run their bidding s",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
-          "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
-          "published": "2026-09-17T21:11:48+00:00",
-          "content_snippet": "Today, we’re announcing the general availability of new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances . These instances are designed to run a variety of low-to-moderate CPU utilization workloads such as freemium services, training and demo environments, st",
-          "source_name": "AWS Blog",
+          "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+          "published": "2026-09-18T15:15:00+00:00",
+          "content_snippet": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedrock, giving you a powerful new option for coding and knowledge work. According to Moonshot AI, Kimi K3 is its most capable model and the first open model to reach 2.8 trillion parameters. It combines native vision capabilities with a 1-million-token context window, making it well suited to long-runnin",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-          "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-          "published": "2026-09-17T19:20:21+00:00",
-          "content_snippet": "Since the first launch of AWS Elastic Beanstalk in 2011, customers have deployed full-stack applications in Java, .NET, Python, Node.js, PHP, Ruby, and Go, trusting Elastic Beanstalk to manage deployment and infrastructure operations so they could focus on business logic. Fifteen years later, that trust has only deepened, and the service has been rebuilt to match it. Now, AWS Elastic Beanstalk is the application management service on AWS that takes full operational responsibility for your produc",
-          "source_name": "AWS Blog",
+          "title": "Amazon SNS now supports message payloads up to 1 MiB",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+          "published": "2026-09-18T15:00:00+00:00",
+          "content_snippet": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics. Amazon SNS is a fully managed pub/sub messaging service that enables you to decouple and scale microservices, distributed systems, and serverless applications. As workloads such as application integration, IoT, and generative AI increasingly exchange larger volumes of data in a single message, the previous",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Database for AI Agents: 5 Evaluation Criteria",
-          "url": "https://www.databricks.com/blog/database-for-ai-agents",
-          "published": "2026-09-17T17:27:40+00:00",
-          "content_snippet": "The five criteria for evaluating a database for AI agents are branch isolation, serverless...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The Web Search Your Agent Inherited Isn't Good Enough",
-          "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
-          "published": "2026-09-17T17:00:00+00:00",
-          "content_snippet": "An agent that needs the outside worldAn engineer at a software company is building...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What is AIOps?",
-          "url": "https://www.databricks.com/blog/what-is-aiops",
-          "published": "2026-09-17T16:49:43+00:00",
-          "content_snippet": "Artificial Intelligence for IT Operations (AIOps) applies AI and machine learning to IT operations to detect anomalies...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
-          "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
-          "published": "2026-09-17T14:00:00+00:00",
-          "content_snippet": "Capital-markets firms are modernizing the trade lifecycle under pressure from every direction: growing data volumes...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to ground analysis in your semantic layer",
-          "url": "https://www.youtube.com/watch?v=bbNTY8O0GTY",
-          "published": "2026-09-18T13:28:31+00:00",
-          "content_snippet": "Your data agent needs to understand how your business defines its metrics. In this clip, OpenAI’s data team explains how a semantic layer brings together key entities, metric definitions, filters, and known pitfalls. See why expert review matters, how existing semantic work can be reused, and why this foundation needs ongoing investment. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/busi",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to build dashboards from a business question",
-          "url": "https://www.youtube.com/watch?v=GzCsKuDgr6Q",
-          "published": "2026-09-18T13:27:46+00:00",
-          "content_snippet": "Start with the question your team needs to answer: how is product adoption changing? This ChatGPT Work demo shows a prompt for an adoption dashboard and the prepared result: an interactive funnel, customer segment views, and controls for recurring data refreshes. It uses synthetic data and is edited to show the workflow, not elapsed generation time. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://ope",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to tailor dashboards for every stakeholder",
-          "url": "https://www.youtube.com/watch?v=Wb8MhkpQpX8",
-          "published": "2026-09-18T13:27:02+00:00",
-          "content_snippet": "Give stakeholders a view of the business that fits the decisions they need to make. Watch this ChatGPT Work demo adapt dashboard labels and chart types, explore KPIs, and drill into compute demand. Using synthetic data, it shows ways to tailor dashboards and explore the details behind business performance. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solutions/data/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to help teams answer their own data questions",
-          "url": "https://www.youtube.com/watch?v=euED8JRunBA",
-          "published": "2026-09-18T13:25:54+00:00",
-          "content_snippet": "Help more people investigate business questions without routing every question through the data team. In this clip, OpenAI’s data team explains how building a trustworthy foundation for the data agent helped colleagues explore their own questions. Hear the approach behind making self-service analysis useful across the business. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solut",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to turn product insights into a team action plan",
-          "url": "https://www.youtube.com/watch?v=wK0zWeVyLM4",
-          "published": "2026-09-18T13:25:37+00:00",
-          "content_snippet": "A drop-off in your adoption funnel tells you where to look. Customer feedback helps you investigate why. See how usage data and feedback from Slack and Google Drive inform recommendations, then watch ChatGPT Work draft a Slack update for review before posting. This demo uses synthetic data to show the path from a leadership question to proposed team actions. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: ht",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Use ChatGPT Work to build your data agent",
-          "url": "https://www.youtube.com/watch?v=cXUmFec2PNY",
+          "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
           "published": "2026-09-18T13:25:00+00:00",
-          "content_snippet": "Give your data agent the context it needs to work with your business. In this clip, see how to connect tools in ChatGPT Work and bring together data tables, team discussions, and metric definitions. Then see how a data expert can review and refine that context before sharing it across the company. Watch the full webinar: https://goldcast.registration.public-pr50.goldcast.io/on-demand/b6b0dd09-425d-42a0-ae02-a9ea4f6ebbcd Learn more: https://openai.com/business/solutions/data/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "content_snippet": "Today, AWS announces the availability of the next generation of AgentCore Runtime , the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management that reclaims unused memory throughout the session so you pay for actual usage rather than the peak, and consistent cold start times regardless of container image size or concurrency. You get the serverless model you already rely on: no pre-provisioning, scale to zero, hardware-enforced session isola",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Meet the Data Agent in ChatGPT Work",
-          "url": "https://www.youtube.com/watch?v=VMgEQ7ym9WU",
-          "published": "2026-09-18T13:24:22+00:00",
-          "content_snippet": "Turn business questions into clear next steps with the Data agent in ChatGPT Work. See how to analyze company data, build interactive dashboards, monitor changes, and create shared context for consistent answers. Explore data solutions: https://openai.com/business/solutions/data/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "RADAR: Catch gray failures with anomaly detection",
+          "url": "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
+          "published": "2026-09-19T00:00:00+00:00",
+          "content_snippet": "Some of the most damaging outages are the ones your monitoring never flags: a slice...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Astra for Law: Frontier intelligence built for your practice.",
-          "url": "https://www.youtube.com/watch?v=YeeGHCixr7o",
-          "published": "2026-09-17T20:41:08+00:00",
-          "content_snippet": "Astra for Law: A new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. Astra for Law pairs GPT-6 Astra with instructions for legal analysis and writing, settings for thorough work, and a new Legal Search Index. The index searches U.S. case law, statutes, regulations, court rules, and administrative decisions across more than 230 million URLs—with sources added daily. That helps lawyers move from the fact",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT for Word is now available",
-          "url": "https://www.youtube.com/watch?v=lxVMdEpe0RQ",
-          "published": "2026-09-17T19:12:10+00:00",
-          "content_snippet": "Procrastination has met its match. ChatGPT is now in Word. You can add ChatGPT to Microsoft Word to turn rough notes into first drafts, fix formatting issues, proofread, and get suggested edits—all without leaving your document. ChatGPT for Word (and Powerpoint + Excel) are available across all plans, including Free, with usage limits. For Business and Enterprise plans, we’re also offering a two-week free preview of GPT-5.6 Sol in Word, September 17–30, with no impact on usage limits. https://ch",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks",
-          "url": "https://www.youtube.com/watch?v=s495saGYWFg",
-          "published": "2026-09-17T18:03:17+00:00",
-          "content_snippet": "At Jump Trading, Lucas Baker, Head of LLM R&D, is seeing agents take on broader, less defined work—from building entire services to analyses that run for days across multiple data sources. The shift he describes: AI becoming part of the team’s everyday work.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Enabling secure, productive work on personal devices",
+          "url": "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices",
+          "published": "2026-09-18T17:45:00+00:00",
+          "content_snippet": "At Databricks IT, our vision is to empower people to work from anywhere without putting...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -331,7 +253,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 10
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -344,12 +268,20 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
+          "url": "https://www.youtube.com/watch?v=xs-ob87TTzg",
+          "published": "2026-09-18T16:00:11+00:00",
+          "content_snippet": "Ignacio Martinez registered the domain for this workshop on the Saturday before he gave it, and then asked the room not to request the biggest machines on offer, because he was paying for everyone's GitHub Codespace out of his own pocket. That improvisation sits oddly beside the argument underneath it, which is one of the more carefully built cases for harness engineering here. A language model, he says, is the frozen part of the reasoning. The weights do not change, you rent them, and you have ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 10
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 16
+  "deduped_count": 26
 }
