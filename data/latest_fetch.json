@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T13:23:17Z",
+  "fetched_at": "2026-09-20T13:41:02Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Plan by day, let agents code by night",
-          "url": "https://www.youtube.com/watch?v=OIulx_R3TLY",
-          "published": "2026-09-18T15:00:23+00:00",
-          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Leave the Class Path in the Rearview Mirror",
-          "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
-          "published": "2026-09-18T16:01:02+00:00",
-          "content_snippet": "Introducing composable, module system native and agent friendly command line tools for modern Java development By Danny Thomas, JVM Ecosystem Team Recent work on the Java language to pave the on-ramp has made it easier than ever to start a Java program and evolve it using the full language and platform. At the end of that on-ramp lies Java’s mature build and dependency management ecosystem, capable of carrying software to enormous scale and complexity. That ecosystem reached its maturity by deve",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Meta Engineering",
@@ -43,6 +24,8 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 1,
         "Airbnb Tech": 2
       }
     },
@@ -68,42 +51,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "30 Cheat Codes to Beat Every Level of Life",
-          "url": "https://www.youtube.com/watch?v=c7jGXPEY54k",
-          "published": "2026-09-18T14:33:35+00:00",
-          "content_snippet": "Get the list of all 30 Cheat Codes: https://www.danpink.com/life-cheat-codes/ It’s free and you can reference back to this without having to watch the video again. Video games have cheat codes. So does life. The difference is that nobody hands you the list. These are 30 of the ones I've collected over the years, on decisions, people, productivity, work, and life itself. Some I learned the hard way. A few I'm still learning. All of them I wish someone had told me at 25. I put all 30 on a single p",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The Score by C Thi Nguyen",
-          "url": "https://www.youtube.com/watch?v=7x05A5MUKE0",
-          "published": "2026-09-18T13:55:11+00:00",
-          "content_snippet": "C. Thi Nguyen is a philosopher at the University of Utah, and before this he wrote a book called *Games: Agency as Art*, which argues that games are an art form whose medium is you. A game hands you a temporary self: crisp goals, clean scoring, a clear sense of whether you're doing well. That's the pleasure of it. He has also written about what he calls the seductions of clarity: our tendency to trust an idea because it feels lucid and settled, not because it's true. Scores are the purest versio",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The problem with UFO videos | Adam Frank",
-          "url": "https://www.youtube.com/watch?v=-p9YBmFniTI",
-          "published": "2026-09-18T16:05:24+00:00",
-          "content_snippet": "The problem with UFO videos | Adam Frank",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 2,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -156,92 +114,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
-          "published": "2026-09-18T18:34:00+00:00",
-          "content_snippet": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now test login credentials and receive suggested domains before a penetration test runs. This makes it easier to configure an accurate network scope from the start, reducing misconfiguration and wasted test cycles. Previously, identifying all th",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
-          "published": "2026-09-18T17:27:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performance compared to x86-based instances. Amazon ECS Express Mode makes it easy to rapidly launch containerized applications, including web applications and APIs, by orchestrating and managing the cloud architecture for your application. You provide your ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Resilience Hub adds three new capabilities",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
-          "published": "2026-09-18T16:49:00+00:00",
-          "content_snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery, generative AI-powered failure mode analysis, modular resilience policies, resilience testing, and organization-wide resilience posture reporting. Today, AWS Resilience Hub adds three new capabilities: EKS labels support for service input sources, dep",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
-          "published": "2026-09-18T15:30:00+00:00",
-          "content_snippet": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in their own Availability Zone or to any Availability Zone that the gateway spans. This launch helps advertising technology (AdTech) companies use their infrastructure more efficiently—with no extra charges on RTB Fabric. Demand-side platforms (DSPs) and supply-side platforms (SSPs) run their bidding s",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
-          "published": "2026-09-18T15:15:00+00:00",
-          "content_snippet": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedrock, giving you a powerful new option for coding and knowledge work. According to Moonshot AI, Kimi K3 is its most capable model and the first open model to reach 2.8 trillion parameters. It combines native vision capabilities with a 1-million-token context window, making it well suited to long-runnin",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SNS now supports message payloads up to 1 MiB",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
-          "published": "2026-09-18T15:00:00+00:00",
-          "content_snippet": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics. Amazon SNS is a fully managed pub/sub messaging service that enables you to decouple and scale microservices, distributed systems, and serverless applications. As workloads such as application integration, IoT, and generative AI increasingly exchange larger volumes of data in a single message, the previous",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
-          "published": "2026-09-18T13:25:00+00:00",
-          "content_snippet": "Today, AWS announces the availability of the next generation of AgentCore Runtime , the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management that reclaims unused memory throughout the session so you pay for actual usage rather than the peak, and consistent cold start times regardless of container image size or concurrency. You get the serverless model you already rely on: no pre-provisioning, scale to zero, hardware-enforced session isola",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "RADAR: Catch gray failures with anomaly detection",
-          "url": "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
-          "published": "2026-09-19T00:00:00+00:00",
-          "content_snippet": "Some of the most damaging outages are the ones your monitoring never flags: a slice...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Enabling secure, productive work on personal devices",
-          "url": "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices",
-          "published": "2026-09-18T17:45:00+00:00",
-          "content_snippet": "At Databricks IT, our vision is to empower people to work from anywhere without putting...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -270,10 +154,82 @@
       ],
       "items": [
         {
-          "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
-          "url": "https://www.youtube.com/watch?v=xs-ob87TTzg",
-          "published": "2026-09-18T16:00:11+00:00",
-          "content_snippet": "Ignacio Martinez registered the domain for this workshop on the Saturday before he gave it, and then asked the room not to request the biggest machines on offer, because he was paying for everyone's GitHub Codespace out of his own pocket. That improvisation sits oddly beside the argument underneath it, which is one of the more carefully built cases for harness engineering here. A language model, he says, is the frozen part of the reasoning. The weights do not change, you rent them, and you have ",
+          "title": "Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards — Filip Makraduli",
+          "url": "https://www.youtube.com/watch?v=c1hGBoWw20A",
+          "published": "2026-09-19T19:00:02+00:00",
+          "content_snippet": "An RMS norm layer does almost none of the arithmetic in a transformer, yet a single decode step can launch it around 33 times, and a GPU is fast at math and slow at everything else: starting work, moving data, waiting. That gap is what FlashNorm attacks. Filip Makraduli wrote the paper with Nils Graef, and the idea fits in two lines of algebra. Fold the norm's gain into the projection weights offline so one matrix absorbs both. Defer the scalar divide so the matrix unit and the vector unit run a",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story — Asaf Gardin & Yuval Belfer",
+          "url": "https://www.youtube.com/watch?v=btxG75rNJC4",
+          "published": "2026-09-19T18:30:06+00:00",
+          "content_snippet": "Once in roughly a thousand prompts, the model returned gibberish. No crash, no warning, and high confidence, which made it an engineering problem, not a quality one. It happened only in vLLM, only under load, and only with Jamba, AI21's hybrid of attention and Mamba layers. Asaf Gardin and Yuval Belfer could not reproduce it with prompts, so they starved it: dropping vLLM's GPU memory utilization from ninety percent to twenty, at temperature zero, made request 8,854 return nonsense every time. F",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Frontier AI Inference Cloud for Agents — Byung-Gon (Gon) Chun, FriendliAI",
+          "url": "https://www.youtube.com/watch?v=Hvb2LfMH58c",
+          "published": "2026-09-19T18:00:03+00:00",
+          "content_snippet": "Byung-Gon Chun's team invented continuous batching, now standard across the industry, and the work that followed inspired one of the most widely used open source serving frameworks. So when he says agents have changed the economics of inference, he knows the tooling from the inside. His demonstration: the same coding agent, the same task of building a tower defense game, run once on a closed frontier model and once on an open weight model. Both finished at a usable level. The open weight run cam",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Large clusters for small models — Daniel Svonava, Superlinked",
+          "url": "https://www.youtube.com/watch?v=g4SsanB0gMc",
+          "published": "2026-09-19T17:30:33+00:00",
+          "content_snippet": "A single mid range GPU can turn half a million tokens per second into embeddings in the low tens of milliseconds, where a managed endpoint costs orders of magnitude more and takes hundreds. Daniel Svonava calls embeddings the no brainer entry point. His real subject is what comes after. A small model fits on one GPU two or three generations old, and for a specific task it is now at or beyond the frontier, which is flattening while small open models climb. You do not prompt one 27 billion paramet",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
+          "url": "https://www.youtube.com/watch?v=75ckHC2LU_0",
+          "published": "2026-09-19T17:00:27+00:00",
+          "content_snippet": "TurboQuant reached twenty million people in March, and the memory stock index dipped because everyone assumed the KV cache had just halved. Philip Kiely had published Inference Engineering weeks earlier and watched a technique he had not covered go viral. So his team did the math. Four bit cache instead of eight does double effective bandwidth, but the extra decode computation cuts tokens per second by more than half: unacceptable in a data center, close to ideal on a memory starved machine in y",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Vertical Mobility: Inference from MVP to Trillion-Parameter Workloads — Sitanshu Gupta, CoreWeave",
+          "url": "https://www.youtube.com/watch?v=cQQbJqvZkpo",
+          "published": "2026-09-19T16:30:34+00:00",
+          "content_snippet": "On an agentic request, somewhere between 80 and 90 percent of the input is identical to the request before it, and prefill is the most expensive thing an inference stack does. That fact, Sitanshu Gupta argues, is why a cached input token is priced so far below a fresh one, and it shapes nearly every choice in the platform he now runs at CoreWeave, four months in. It has to serve two consumption models without forking. Serverless, where you pay per token and never see hardware, with a provisioned",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Are LLM Performance Benchmarks Reliable? — Ashok Chandrasekar & Jason Kramberger, Google",
+          "url": "https://www.youtube.com/watch?v=l1-D89bAuOA",
+          "published": "2026-09-19T16:00:07+00:00",
+          "content_snippet": "Ask a benchmark harness for 200 queries a second and it may quietly deliver 38, then print results as though it ran 200. Ashok Chandrasekar opens with that experiment, which is why he and Jason Kramberger, both at Google, kept failing to reproduce published numbers. Python's global interpreter lock makes a single process harness CPU bound; the ones they tested capped near 170 and never said so. A thrashing client also inflates the latency it measures, once by 58 seconds, which reads as a bottlen",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Routing LLM Inference in Production: From Engine Signals to Policy — Qianru Lao & Lu Zhang, OpenAI",
+          "url": "https://www.youtube.com/watch?v=sOB3HSiG8vo",
+          "published": "2026-09-19T15:30:04+00:00",
+          "content_snippet": "The routing weights inside OpenAI's inference load balancer used to come out of a feedback loop. Engines reported signals, a controller smoothed them into a score, compared it to the fleet average, and nudged each weight up or down. A proportional controller, Lu Zhang notes, with real virtues: many signals folded into one decision, and constrained engines balanced themselves. It also produced behavior nobody could explain well. Ask why one engine got a higher weight and there was no clean answer",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+          "url": "https://www.youtube.com/watch?v=7c9FSUVcXR0",
+          "published": "2026-09-19T15:00:10+00:00",
+          "content_snippet": "Inference traffic at Meta already outpaces the largest microservices in the world, the fastest growing workload it has ever run. Nishant Gupta's frame for what comes next is 2008. The cloud began as virtual machines, then value climbed to schedulers, service meshes and autoscalers, until orchestration held the complexity and the value. AI is on the same path, compressed into a few years, with orchestration emerging around routing, KV cache management and prefill decode disaggregation. His sharpe",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -283,5 +239,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 26
+  "deduped_count": 21
 }
