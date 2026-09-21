@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-20T13:41:02Z",
+  "fetched_at": "2026-09-21T16:00:50Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,19 +12,42 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
-          "source_name": "Meta Engineering",
-          "error": "No items returned (feed empty or all outside time window)"
+          "title": "Pivoting from voice coach to software engineer",
+          "url": "https://www.youtube.com/watch?v=28TM-L9MTXM",
+          "published": "2026-09-20T16:00:35+00:00",
+          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
         },
+        {
+          "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+          "url": "https://engineering.fb.com/2026/09/21/open-source/open-sourcing-rebalancer-a-generic-high-performance-library-for-solving-assignment-problems/",
+          "published": "2026-09-21T16:00:37+00:00",
+          "content_snippet": "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, and extensibility. For a more detailed technical exposition, see the accompanying paper , “ Optimizing",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+          "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+          "published": "2026-09-21T12:00:00+00:00",
+          "content_snippet": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling the capacity per fiber without a proportional increase in power or physical infrastructure. Petal will be built in partnership with NEC and Sumitomo El",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 2
       }
@@ -138,7 +161,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 10
+        "OpenAI": 7
       }
     },
     {
@@ -152,92 +175,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards — Filip Makraduli",
-          "url": "https://www.youtube.com/watch?v=c1hGBoWw20A",
-          "published": "2026-09-19T19:00:02+00:00",
-          "content_snippet": "An RMS norm layer does almost none of the arithmetic in a transformer, yet a single decode step can launch it around 33 times, and a GPU is fast at math and slow at everything else: starting work, moving data, waiting. That gap is what FlashNorm attacks. Filip Makraduli wrote the paper with Nils Graef, and the idea fits in two lines of algebra. Fold the norm's gain into the projection weights offline so one matrix absorbs both. Defer the scalar divide so the matrix unit and the vector unit run a",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story — Asaf Gardin & Yuval Belfer",
-          "url": "https://www.youtube.com/watch?v=btxG75rNJC4",
-          "published": "2026-09-19T18:30:06+00:00",
-          "content_snippet": "Once in roughly a thousand prompts, the model returned gibberish. No crash, no warning, and high confidence, which made it an engineering problem, not a quality one. It happened only in vLLM, only under load, and only with Jamba, AI21's hybrid of attention and Mamba layers. Asaf Gardin and Yuval Belfer could not reproduce it with prompts, so they starved it: dropping vLLM's GPU memory utilization from ninety percent to twenty, at temperature zero, made request 8,854 return nonsense every time. F",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Frontier AI Inference Cloud for Agents — Byung-Gon (Gon) Chun, FriendliAI",
-          "url": "https://www.youtube.com/watch?v=Hvb2LfMH58c",
-          "published": "2026-09-19T18:00:03+00:00",
-          "content_snippet": "Byung-Gon Chun's team invented continuous batching, now standard across the industry, and the work that followed inspired one of the most widely used open source serving frameworks. So when he says agents have changed the economics of inference, he knows the tooling from the inside. His demonstration: the same coding agent, the same task of building a tower defense game, run once on a closed frontier model and once on an open weight model. Both finished at a usable level. The open weight run cam",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Large clusters for small models — Daniel Svonava, Superlinked",
-          "url": "https://www.youtube.com/watch?v=g4SsanB0gMc",
-          "published": "2026-09-19T17:30:33+00:00",
-          "content_snippet": "A single mid range GPU can turn half a million tokens per second into embeddings in the low tens of milliseconds, where a managed endpoint costs orders of magnitude more and takes hundreds. Daniel Svonava calls embeddings the no brainer entry point. His real subject is what comes after. A small model fits on one GPU two or three generations old, and for a specific task it is now at or beyond the frontier, which is flattening while small open models climb. You do not prompt one 27 billion paramet",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
-          "url": "https://www.youtube.com/watch?v=75ckHC2LU_0",
-          "published": "2026-09-19T17:00:27+00:00",
-          "content_snippet": "TurboQuant reached twenty million people in March, and the memory stock index dipped because everyone assumed the KV cache had just halved. Philip Kiely had published Inference Engineering weeks earlier and watched a technique he had not covered go viral. So his team did the math. Four bit cache instead of eight does double effective bandwidth, but the extra decode computation cuts tokens per second by more than half: unacceptable in a data center, close to ideal on a memory starved machine in y",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Vertical Mobility: Inference from MVP to Trillion-Parameter Workloads — Sitanshu Gupta, CoreWeave",
-          "url": "https://www.youtube.com/watch?v=cQQbJqvZkpo",
-          "published": "2026-09-19T16:30:34+00:00",
-          "content_snippet": "On an agentic request, somewhere between 80 and 90 percent of the input is identical to the request before it, and prefill is the most expensive thing an inference stack does. That fact, Sitanshu Gupta argues, is why a cached input token is priced so far below a fresh one, and it shapes nearly every choice in the platform he now runs at CoreWeave, four months in. It has to serve two consumption models without forking. Serverless, where you pay per token and never see hardware, with a provisioned",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Are LLM Performance Benchmarks Reliable? — Ashok Chandrasekar & Jason Kramberger, Google",
-          "url": "https://www.youtube.com/watch?v=l1-D89bAuOA",
-          "published": "2026-09-19T16:00:07+00:00",
-          "content_snippet": "Ask a benchmark harness for 200 queries a second and it may quietly deliver 38, then print results as though it ran 200. Ashok Chandrasekar opens with that experiment, which is why he and Jason Kramberger, both at Google, kept failing to reproduce published numbers. Python's global interpreter lock makes a single process harness CPU bound; the ones they tested capped near 170 and never said so. A thrashing client also inflates the latency it measures, once by 58 seconds, which reads as a bottlen",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Routing LLM Inference in Production: From Engine Signals to Policy — Qianru Lao & Lu Zhang, OpenAI",
-          "url": "https://www.youtube.com/watch?v=sOB3HSiG8vo",
-          "published": "2026-09-19T15:30:04+00:00",
-          "content_snippet": "The routing weights inside OpenAI's inference load balancer used to come out of a feedback loop. Engines reported signals, a controller smoothed them into a score, compared it to the fleet average, and nudged each weight up or down. A proportional controller, Lu Zhang notes, with real virtues: many signals folded into one decision, and constrained engines balanced themselves. It also produced behavior nobody could explain well. Ask why one engine got a higher weight and there was no clean answer",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
-          "url": "https://www.youtube.com/watch?v=7c9FSUVcXR0",
-          "published": "2026-09-19T15:00:10+00:00",
-          "content_snippet": "Inference traffic at Meta already outpaces the largest microservices in the world, the fastest growing workload it has ever run. Nishant Gupta's frame for what comes next is 2008. The cloud began as virtual machines, then value climbed to schedulers, service meshes and autoscalers, until orchestration held the complexity and the value. AI is on the same path, compressed into a few years, with orchestration emerging around routing, KV cache management and prefill decode disaggregation. His sharpe",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 26
 }
