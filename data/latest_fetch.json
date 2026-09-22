@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-21T16:00:50Z",
+  "fetched_at": "2026-09-22T14:10:32Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,28 +14,10 @@
       ],
       "items": [
         {
-          "title": "Pivoting from voice coach to software engineer",
-          "url": "https://www.youtube.com/watch?v=28TM-L9MTXM",
-          "published": "2026-09-20T16:00:35+00:00",
-          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
           "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-          "url": "https://engineering.fb.com/2026/09/21/open-source/open-sourcing-rebalancer-a-generic-high-performance-library-for-solving-assignment-problems/",
+          "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
           "published": "2026-09-21T16:00:37+00:00",
           "content_snippet": "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, and extensibility. For a more detailed technical exposition, see the accompanying paper , “ Optimizing",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
-          "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
-          "published": "2026-09-21T12:00:00+00:00",
-          "content_snippet": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling the capacity per fiber without a proportional increase in power or physical infrastructure. Petal will be built in partnership with NEC and Sumitomo El",
           "source_name": "Meta Engineering",
           "source_type": "rss",
           "area_name": "Technology"
@@ -48,6 +30,7 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 2
       }
@@ -74,17 +57,28 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "How to analyze your beliefs | Jonny Thomson",
+          "url": "https://www.youtube.com/watch?v=cKJm_LTBVxw",
+          "published": "2026-09-21T16:05:09+00:00",
+          "content_snippet": "How to analyze your beliefs | Jonny Thomson",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 2,
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -107,6 +101,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -119,9 +117,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "NextGenLakehouse": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -137,16 +133,81 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+          "published": "2026-09-21T20:05:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooting come together in one place in the console, so you can track deployment progress, monitor health, and diagnose failures without switching between tools. Real-time service deployment observability includes a live deployment timeline that narrates ea",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "title": "Amazon EVS now in scope for FedRAMP Class C",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
+          "published": "2026-09-21T19:08:00+00:00",
+          "content_snippet": "The Amazon Elastic VMware Service (EVS) service is now in scope for FedRAMP Class C (formerly Moderate baseline) in all United States Regions. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring for cloud products and services. Amazon EVS lets you run the latest VMware Cloud Foundation (VCF) software directly within your Amazon Virtual Private Cloud (",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+          "published": "2026-09-21T16:11:24+00:00",
+          "content_snippet": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking a workshop from the AWS Builder Center mobile app while waiting for a delayed train, and it made those spare twenty minutes very useful. That is why I am glad to open this week with the Builder Cen",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Figma Gave GPT-6 Astra a Moonshot. Here's what happened.",
+          "url": "https://www.youtube.com/watch?v=rRm3Vnb7UPY",
+          "published": "2026-09-21T19:25:46+00:00",
+          "content_snippet": "John gave GPT-6 Astra a moonshot: design the flight-control experience for a new personal aircraft. The gap between generating an interface and designing a system is massive, and AI models have always fallen short. Until now. Astra reasoned through the audience, jobs to be done, pilot-versus-passenger tradeoffs, and critical interface states. Then it connected that thinking to a real design system via the Figma MCP Server to create a polished, on-brand prototype of the concept.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "One Prompt. A Feature Built and Tested. | Ramp × GPT-6 Astra",
+          "url": "https://www.youtube.com/watch?v=p7TjXroM4ak",
+          "published": "2026-09-21T19:22:03+00:00",
+          "content_snippet": "Veeral gave GPT-6 Astra a one-line feature request: add routing controls for individual API keys. Astra found the right settings, made the changes, and used computer use to check its own work. It verified the mobile experience without being asked. About 12 minutes of implementing. Another 15 for validating. Veeral told Romain Huet that was the shift: give Astra a high-level goal, let it make progress, and come back to changes you can review. We're making moves. This is why Astra is the next gene",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "“A Staff Engineer Collaborator” | Notion’s First Look at GPT-6 Astra",
+          "url": "https://www.youtube.com/watch?v=dtNlpZI86Dk",
+          "published": "2026-09-21T19:17:35+00:00",
+          "content_snippet": "Don’t sleep on Astra. Quinn Johnson started working with GPT-6 Astra differently in Codex: he shared the goal, added context, and let it tackle the problem his team had been working on. On a cache-reuse audit, Astra connected patterns the Notion team had overlooked, then explained the issue clearly. The Notion issue was sneaky: older messages were being regenerated using what the agent knew, subtly changing the prompt history and breaking cache reuse. Everything could still appear to work while ",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "“A Jaw Drop. Literally.” How Cooley Is Reimagining IPOs with OpenAI",
+          "url": "https://www.youtube.com/watch?v=4swQ0YknTLs",
+          "published": "2026-09-21T19:02:38+00:00",
+          "content_snippet": "“How do we save time and effort and energy for our clients?” For David Wang, Cooley’s Chief Innovation Officer, that question is central to IPO preparation, when information requests, drafting sessions, and reviews place heavy demands on senior executives. With GO Public, built on OpenAI technology, Cooley can get substantive work in front of clients sooner and spot issues earlier. People remain responsible for reviewing the output and standing behind the answers.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "“It Blew Me Away” | Box’s First Look at GPT-6 Astra",
+          "url": "https://www.youtube.com/watch?v=QFxDF30qf_4",
+          "published": "2026-09-21T16:13:36+00:00",
+          "content_snippet": "A 20% incentive, counted twice, could throw off an entire cost analysis. Astra caught it. Yashodha Bhavnani (Box) gave GPT-6 Astra profit, cost, and tax-incentive files to work through. It recognized that one incentive was already included, and knew to leave it alone. Her first impression? “It blew me away.” Watch Yash in convo with Romain Huet, as they talk about what makes Astra different and what it means for customers working with their most complex content. Spoiler alert: Astra excels.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -160,9 +221,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 7
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -175,12 +234,20 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The Dark Arts of Skill Engineering — Paul Bakaus, Renaissance Geek (Impeccable)",
+          "url": "https://www.youtube.com/watch?v=SQMCtZX3trg",
+          "published": "2026-09-21T19:00:10+00:00",
+          "content_snippet": "Paul Bakaus once turned the entire web orange. He wrote jQuery UI, shipped an orange default theme, assumed people would change it, and watched them not. So when he points out that the purple gradients everyone learned to mock came from a CSS framework's default sample page, and that AI generated design now has its own house shade of beige, he speaks as the cause rather than the critic. That history is what makes his central claim land. A ban does not produce originality, it relocates the model ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 10
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 26
+  "deduped_count": 14
 }
