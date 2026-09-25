@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T14:25:51Z",
+  "fetched_at": "2026-09-25T14:43:56Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,25 +14,20 @@
       ],
       "items": [
         {
-          "title": "Design Engineering with Maggie Appleton",
-          "url": "https://www.youtube.com/watch?v=KZSzF0KEFRg",
-          "published": "2026-09-23T17:04:32+00:00",
-          "content_snippet": "What can everyone else learn from designers and design engineers? As it turns out, there’s plenty, as I discovered when one of the best design engineers in the industry, Maggie Appleton, came onto the Pragmatic Engineer Podcast. She’s a staff research engineer at GitHub Next, where she builds prototypes to explore how software engineers might collaborate with AI in new ways. Maggie is at the intersection of design, anthropology, and web development, and was the first designer hired by AI startup",
+          "title": "Agents should show, not ask",
+          "url": "https://www.youtube.com/watch?v=gnYNZEwq9ho",
+          "published": "2026-09-24T17:18:41+00:00",
+          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Bringing Private Processing to Meta AI Glasses",
-          "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
-          "published": "2026-09-24T00:00:00+00:00",
-          "content_snippet": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and that’s it. But AI glasses have the capacity to provide superpowers like translating a conversation or summarizing notes or a conversation. Many directions people give their glas",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
+        {
+          "source_name": "Airbnb Tech",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -40,7 +35,7 @@
       ],
       "deduped_sources": {
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1
+        "Meta Engineering": 3
       }
     },
     {
@@ -67,10 +62,10 @@
       ],
       "items": [
         {
-          "title": "How to predict if a couple will break up | John Gottman",
-          "url": "https://www.youtube.com/watch?v=BtvUin3jbGo",
-          "published": "2026-09-23T16:05:28+00:00",
-          "content_snippet": "How to predict if a couple will break up | John Gottman",
+          "title": "How to beat procrastination in 5 minutes | Tal Ben-Shahar: Full Interview",
+          "url": "https://www.youtube.com/watch?v=yzNzjg1c0V4",
+          "published": "2026-09-25T13:00:31+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-benshahar-yzNzjg1c0V4 Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -141,74 +136,97 @@
       ],
       "items": [
         {
-          "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
-          "published": "2026-09-23T22:51:00+00:00",
-          "content_snippet": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring customers to specify partition keys to publish data. This capability simplifies data ingestion for workloads where record ordering is not required, eliminating hot partition keys and reducing time to production for streaming workloads. Amazon Kinesis Data Streams is a serverless streaming data service th",
+          "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+          "published": "2026-09-25T00:58:00+00:00",
+          "content_snippet": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your accounts are positioned in the billing hierarchy, such as management accounts, member accounts, or billing group primary accounts. You can also identify which accounts managed your billing relationship and the rate settings, either billable or pro forma, applied to your cost data. T",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
-          "published": "2026-09-23T17:41:00+00:00",
-          "content_snippet": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts directly into their managed knowledge base. Previously, bringing content from these platforms into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connectors handle dat",
+          "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+          "published": "2026-09-24T21:00:00+00:00",
+          "content_snippet": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom event bus, share it across accounts, and now teams can publish and consume events with strict ordering, open event formats, built-in retention, and support for advanced event transformations. The EventBridge Custom event bus is a serverless event broker that enables you to create scalable event-drive",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
-          "published": "2026-09-23T16:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such as contacts queued and contacts joined at each routing step, without complex data pipelines. For example, an analyst can now report on how contacts progressed through each routing step, identify where agent matching criteria were relaxed, and",
+          "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+          "published": "2026-09-24T18:29:00+00:00",
+          "content_snippet": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience. Lambda durable functions extend the Lambda programming model with new primitives in your event handler, such as \"step\" and \"wait\", allowing you to checkpoint progress, automatically recover from failures, and pause executions without incurring compute charges for on-demand ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
-          "published": "2026-09-23T15:00:00+00:00",
-          "content_snippet": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow. You can no",
+          "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+          "published": "2026-09-24T16:00:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities and Exposures (CVE) and bugs beyond a major version's end of standard support date, giving you more time to upgrade to a new major version. You can upgrade your database using Amazon RDS Blue/Green Deployments , in-place upgrade, or restore",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How I built agent-based security reviews on Databricks",
-          "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
-          "published": "2026-09-24T02:00:00+00:00",
-          "content_snippet": "We already had automation in parts of our security review process. It was useful,...",
+          "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+          "published": "2026-09-24T16:00:00+00:00",
+          "content_snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 4 refines the query performance and autovacuum management capabilities introduced in earlier releases and includes bug fixes and stability improvements since Beta 3. Fixes include pg_stat_autovacuum_scores view reporting for TOAST tables and corrected freeze-score scaling so you",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+          "published": "2026-09-24T16:00:00+00:00",
+          "content_snippet": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS for PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the RDS for PostgreSQL allow list to align with your organization's security standards. Amazon RDS for PostgreSQL makes it simple to set up, operate, and scale PostgreSQL d",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
+          "published": "2026-09-24T15:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization. Network Securit",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+          "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+          "published": "2026-09-24T20:58:46+00:00",
+          "content_snippet": "Organizations building event-driven applications on Amazon EventBridge typically start with a single custom event bus in one account. This works well when a single team owns the architecture. As adoption grows across the organization, though, things get complicated. AWS best practices recommend a multi-account structure, which means each team runs in its own account. To route events between them, teams create multiple event buses connected through cross-account rules or bus-to-bus configurations",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Running open-Jev in SQL on Databricks",
+          "url": "https://www.databricks.com/blog/running-open-jev-sql-databricks",
+          "published": "2026-09-24T16:55:01+00:00",
+          "content_snippet": "Over the weekend, “System One” decision models such as Jev have launched, which are...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Today’s forecast? Nothing but 80s, baby.",
-          "url": "https://www.youtube.com/watch?v=rmDu2sSBIrw",
-          "published": "2026-09-23T18:48:52+00:00",
-          "content_snippet": "Create your own with ChatGPT Images.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Get Stuff Done with ChatGPT Voice",
-          "url": "https://www.youtube.com/watch?v=96ogPwN9ykM",
-          "published": "2026-09-23T17:11:13+00:00",
-          "content_snippet": "We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking. Rolling out globally today in the latest version of the app.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
+          "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
+          "published": "2026-09-24T16:46:05+00:00",
+          "content_snippet": "In the last six months, GPT-6, Claude Opus 5.5, Gemini 3.8, and Grok 4.7 all shipped,...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -218,7 +236,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 2
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -233,91 +253,55 @@
       ],
       "items": [
         {
-          "title": "Physical AI's Next Bottleneck Is Finding the Right Video — Rafael Levi, Bright Data",
-          "url": "https://www.youtube.com/watch?v=I_VEh7XSwyc",
-          "published": "2026-09-24T14:00:34+00:00",
-          "content_snippet": "AI without data is just a box.\" Rafael Levi of Bright Data points out that LLMs train on trillions of words, but robotics has only about a million videos of robots doing things. Paying people to record staged actions produces biased data, because nobody opens a door naturally when told to. Meanwhile, the web holds billions of hours of real people handling objects and real physics, with gravity, motion and cause and effect. The catch is noise. Levi notes that NVIDIA discards about 96% of the vide",
+          "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+          "url": "https://www.youtube.com/watch?v=2LRIAfng7eA",
+          "published": "2026-09-25T14:30:25+00:00",
+          "content_snippet": "One in four US Spotify Premium subscribers now use a single system every day, which Spotify calls the Large Taste Model. Yves Raimond, Spotify's SVP and GM of AI & Personalization, explains how Spotify turned its recommendation system \"on its head\" to be LLM-native. It went from curated playlists, to recommendations like Discover Weekly, to what Spotify calls generative personalization: a steerable DJ, prompted playlists, an editable taste profile and personal podcasts, across a catalog of more ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI",
-          "url": "https://www.youtube.com/watch?v=4Gqg0HVe-AY",
-          "published": "2026-09-24T13:30:23+00:00",
-          "content_snippet": "In 2007, Google already had a language model trained on 2 trillion tokens, the same order of magnitude as today's frontier models. Christopher Manning, Stanford professor, former director of the Stanford AI Lab and now at Moonlake AI, uses that as one stop in a tour of AI history. It runs from Dartmouth in 1956 and Shakey the robot to the rise of LLMs, and it ends at his argument for what comes next: embodied intelligence built on simulation. Manning argues that generative video like Genie 3 sim",
+          "title": "Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta",
+          "url": "https://www.youtube.com/watch?v=lIgdnF0s0kQ",
+          "published": "2026-09-25T14:00:27+00:00",
+          "content_snippet": "Four of the 10 most-used apps in the world are content feeds, and for an hour of engagement they can be up to 100x cheaper to run than AI chat apps. The reason is that a feed decodes pointers to existing content instead of generating every token itself. Devansh Tandon, who leads Meta Recommendations Research, argues that recommendation systems scale just like LLMs, that the field is still early on that curve, and that the LLM recommender will become one of the biggest consumer applications of AI",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Robotics Has Been Stuck for 70 Years — Deepak Pathak, Skild AI",
-          "url": "https://www.youtube.com/watch?v=jFHteJjRl8A",
-          "published": "2026-09-24T13:00:19+00:00",
-          "content_snippet": "Show a robotics demo from 1957 next to one from today, and most people can't tell which is which. Deepak Pathak, co-founder and CEO of Skild AI and a professor at Carnegie Mellon, argues robotics stalled because it was treated as a hardware problem rather than a problem of building a general brain. Collecting robot data by teleoperation at one example a minute, he calculates, would take the entire US population more than a century to reach GPT-3 scale. Skild's answer is an \"omni-bodied\" brain: o",
+          "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+          "url": "https://www.youtube.com/watch?v=ACPEpji5NV4",
+          "published": "2026-09-25T13:30:37+00:00",
+          "content_snippet": "Search for gluten-free pasta and a ranker trained on engagement may show you regular spaghetti, because it sells well. Raghav Saboo, Staff ML Engineer and Tech Lead for Search & Personalization at DoorDash, argues that the real bottleneck in marketplace discovery is semantic understanding, not engagement. As DoorDash grows into grocery, retail, pets and gifting across billions of store-level items, it uses LLMs to understand what items mean and what shoppers actually intend. His core pattern: do",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Engineer Paris 2026 Main Stage: Google DeepMind, ElevenLabs, Hugging Face & Stripe | Day 2",
-          "url": "https://www.youtube.com/watch?v=g0vqT_wZtXA",
-          "published": "2026-09-23T17:20:26+00:00",
-          "content_snippet": "Live from STATION F, the AI Engineer Paris 2026 Main Stage continues with a full day of technical talks from the teams building and scaling production AI systems. Watch sessions covering model customization, inference infrastructure, voice and realtime AI, coding agents, software factories, and the emerging AI economy. Day 2 main-stage lineup: • Jakob Pörschmann (Black Forest Labs) — From Pixels to Robots • Dorian Lods (ElevenLabs) — Generating Identity at Scale • Harry Mellor (Hugging Face) — H",
+          "title": "I Gave an AI a Body — Cyrus Clarke, MIT Media Lab",
+          "url": "https://www.youtube.com/watch?v=jgWY66RaSrQ",
+          "published": "2026-09-24T15:30:06+00:00",
+          "content_snippet": "The first thing it did was breathe. Cyrus Clarke connected an OpenClaw agent to a 900-pin shape display at the MIT Media Lab and, instead of giving it tasks, asked it to discover who it is. It raised and lowered the whole grid like breathing, reached for its own edges, and spelled \"HI CYRUS\" in pins. The video of that first day reached 15 million views, with reactions that swung from awe to calls for him to stop. Clarke explains why he chose a body with no face, no limbs and no instruction manua",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
-          "url": "https://www.youtube.com/watch?v=CGq9KRSb9Kc",
-          "published": "2026-09-24T05:13:10+00:00",
-          "content_snippet": "Live from STATION F, AI Engineer Paris 2026 opens with welcome remarks and main-stage talks on AI infrastructure, coding agents, software factories, and building frontier AI. AI Engineer Paris returns for its second edition, bringing together 1,000+ engineers, founders, CTOs, and VPs of AI for two days of technical talks, practical workshops, and AI engineering research. Day 1 main-stage lineup: • Jen Person (Mistral) — Welcome to AI Engineer Paris 2026 • Lia McBride (AI Engineer) — Intro to AI ",
+          "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+          "url": "https://www.youtube.com/watch?v=2wgPHvW0mG8",
+          "published": "2026-09-24T15:00:35+00:00",
+          "content_snippet": "Suchet Bargoti opens with a live demo instead of slides. From a laptop on conference Wi-Fi, he launches a docked drone over San Mateo, starts a second one on a power line in Colorado, has one autonomously track a car, and then sends the whole fleet back to dock. Skydio, the largest US drone manufacturer, now has thousands of these docks deployed with utilities, police and construction companies, and about 16 million people live within two miles of one. Bargoti, Skydio's Director of Inspection an",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From Scratch to SOTA: Training a 3B State-Space Vision Model — Krishna Prasad Srinivasan, Sarvam",
-          "url": "https://www.youtube.com/watch?v=T72nqdC92PM",
-          "published": "2026-09-23T16:30:19+00:00",
-          "content_snippet": "Well under one percent of the Common Crawl corpus that frontier models train on is in an Indian language, even as frontier labs call India a fast growing market. Krishna Prasad Srinivasan says the knowledge exists but was never digitized, and Sarvam's answer is a three billion parameter vision language model, small enough for one GPU, that he says beats document AI models a hundred times larger. The model is unusual twice over. Its backbone is a state space model rather than a transformer, becau",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From VLM/VLA's to Embodied Agents — Armen Aghajanyan, Perceptron AI",
-          "url": "https://www.youtube.com/watch?v=ZZcE0HeO-Hc",
-          "published": "2026-09-23T16:00:30+00:00",
-          "content_snippet": "Feed a model one hour of video and roughly a million visual tokens go in, yet the loss lands on about two percent of them, since the only ground truth is a transcript or a few labeled frames. Armen Aghajanyan calls that a humongous waste, and predicting every pixel treats a background pixel with the same weight as a gripper tip or a contact point. Perceptron's answer is a perceptive objective that learns which percepts will matter, rather than hardcoding the gripper. The second problem is contex",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "You’re Not Thinking Big Enough: Rebuilding Food Systems with AI Agents — Cody Menefee, Firecrawl",
-          "url": "https://www.youtube.com/watch?v=ztlXKfPCT3Q",
-          "published": "2026-09-23T15:30:27+00:00",
-          "content_snippet": "Cody Menefee once drove three hours to a processor with ten turkeys strapped to the roof of his Tesla, and reports that a windbreak of birds up top does real damage to your range. He raised them in a Nashville backyard where that is not allowed, nearly quit engineering to farm, and learned how hard it is to make money at it. Instead he asks why only three percent of cattle finish on pasture when it is better for animal, consumer, and land. The answer is labor. Grazing done right means splitting ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Best Models Still Reason Like Toddlers — Andrew Dai, Elorian",
-          "url": "https://www.youtube.com/watch?v=A_I8mw8yfns",
-          "published": "2026-09-23T15:00:10+00:00",
-          "content_snippet": "[music] Hi, thanks for coming everyone. Um, I'm the co-founder and CEO of Elorium and I'm here to talk about some of the issues with current models, current frontier models. This includes um Claude Chat GBD and Gemini um and how they handle visual problems and um uh this might be new to some of you who don't work in the visual space but actually there's quite a big gap between how these models handle visual reasoning and how humans deal with it. And you will see that we're actually quite far away from any definition of AGI for visual reasoning. So here are some examples of where uh how easy it is to find where models break down. And um you can find these examples yourself. Just takes a few minutes. Uh in this first example uh we have a chessboard hallucination and we give the models um this picture and ask how many white squares are in the image and any ordinary person uh who doesn't hallucinate would probably not say it's 32. So 32 of course the models say this because they see part of the chessboard and they hallucinate the complete board and as a result they give the wrong number and you see this quite a lot that models rely a lot current models rely a lot on pattern matching. That's what makes them so good at identifying plants and animals and flowers uh in the real world. But when it comes to like complex questions that part hurts them. So the pattern matching is actively hurting them in this case. Um so in their in what's going on in their reasoning is that oh this is a chess board. Chess boards all have 32 squares. Therefore this one must have 32 Y squares too. On the right example um I'm a big board game player. Have quite a collection. Um so you can see there's a a board game theme going on here. And actually you can uh reproduce this outside if you just go to you know outside the talks. It's a ball game area there. There are chess boards. Um I will bet if any of you uh place the pieces in some kind of random position, no frontier model will be able to tell you where those pieces are located, where all those pieces are located. Um and then another example here is katan. Um here another very simple question. How many rows does the blue player have? Um, these frontier models think extensively about this problem. Uh, one response I've seen is that, oh, the the guy has uh 10 blue rows off to the side of the board. Therefore, there must be five uh blue rows on the can board. Uh, but obviously that's not true. There's seven if you actually count. So these models um again are great at guessing uh great at pattern matching but they are not very spatially grounded and they just can't handle any kind of detailed questions. Um and then finally um we have this example where it actually um affects robots where here you have a robot arm uh manipulating this uh cup and um uh cooker basically and the state-of-the-art models today they miss the fact that the uh robot arm lifted the lid um and at the end they also missed the fact that the robot is turning",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "From Ingestion to Agents: How AI Teams Build on Document Intelligence — Adit Abraham, Reducto",
-          "url": "https://www.youtube.com/watch?v=0I07YAuF8xA",
-          "published": "2026-09-23T14:30:11+00:00",
-          "content_snippet": "The newest frontier model scores about thirty percent on a data lab's benchmark of decisions from PDFs, and Adit Abraham has met people who worked on PDF processing before he was born. The format was built to print, not to be reasoned over, and humans encode meaning visually: merged cells, line charts, unreadable handwriting. Reducto has processed billions of them, and the talk is the lessons, not the product. RAG meant a bad parse cost one answer; with agents, bad inputs compound across every s",
+          "title": "Robot Demos Are Easy. Reliability Is Hard — Jason Ma, Dyna Robotics",
+          "url": "https://www.youtube.com/watch?v=Sjfz1TqxzEs",
+          "published": "2026-09-24T14:30:12+00:00",
+          "content_snippet": "A generalist robot that succeeds 80 to 90% of the time makes a great video but a poor product. Jason Ma, co-founder and CTO of Dyna Robotics, shows how Dyna got its model, Dyna-1, to a 99.4% success rate folding restaurant napkins for 24 hours straight, including recovering after it pulled over the whole stack. The key is a reward model that watches the robot and scores its progress. When the score dips, the robot is making a mistake, so the team can collect targeted recovery data and fine-tune ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -327,5 +311,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 12
+  "deduped_count": 14
 }
