@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T14:43:56Z",
+  "fetched_at": "2026-09-26T13:52:38Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,12 @@
       ],
       "items": [
         {
-          "title": "Agents should show, not ask",
-          "url": "https://www.youtube.com/watch?v=gnYNZEwq9ho",
-          "published": "2026-09-24T17:18:41+00:00",
-          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
+          "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+          "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4",
+          "published": "2026-09-25T16:01:03+00:00",
+          "content_snippet": "By Dhruv Pratap Introduction Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request. On infrastructure you build yourself, you can bootstrap your own identity however you like. On managed compute you cannot. The provider hands your process a cloud identi",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -34,7 +34,7 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1,
+        "The Pragmatic Engineer": 2,
         "Meta Engineering": 3
       }
     },
@@ -62,10 +62,19 @@
       ],
       "items": [
         {
-          "title": "How to beat procrastination in 5 minutes | Tal Ben-Shahar: Full Interview",
-          "url": "https://www.youtube.com/watch?v=yzNzjg1c0V4",
-          "published": "2026-09-25T13:00:31+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-benshahar-yzNzjg1c0V4 Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The blueprint for becoming an emotionally mature adult, in 68 minutes | Mark Manson: Full Interview ► https://www.youtube.com/watch?",
+          "title": "How did the universe begin? | Big Think Explainers",
+          "url": "https://www.youtube.com/watch?v=pNSeoen-kFw",
+          "published": "2026-09-26T00:41:56+00:00",
+          "content_snippet": "How did the universe begin? | Big Think Explainers The first video from our new Big Think Explainer series (in collaboration with Pop Chart). Buy the poster: https://popchart.co/products/a-visual-history-of-the-universe?utm_source=youtube&utm_medium=social&utm_campaign=articles&utm_content=universeshort1",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why AI feels alive | Adam Frank",
+          "url": "https://www.youtube.com/watch?v=DVgSwPSJZWQ",
+          "published": "2026-09-25T16:05:24+00:00",
+          "content_snippet": "Why AI feels alive | Adam Frank",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -136,97 +145,74 @@
       ],
       "items": [
         {
-          "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
-          "published": "2026-09-25T00:58:00+00:00",
-          "content_snippet": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your accounts are positioned in the billing hierarchy, such as management accounts, member accounts, or billing group primary accounts. You can also identify which accounts managed your billing relationship and the rate settings, either billable or pro forma, applied to your cost data. T",
+          "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+          "published": "2026-09-25T19:19:00+00:00",
+          "content_snippet": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your account. If you do not provide a key, your resources c",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EventBridge relaunches event buses for enterprise scale",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
-          "published": "2026-09-24T21:00:00+00:00",
-          "content_snippet": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom event bus, share it across accounts, and now teams can publish and consume events with strict ordering, open event formats, built-in retention, and support for advanced event transformations. The EventBridge Custom event bus is a serverless event broker that enables you to create scalable event-drive",
+          "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+          "published": "2026-09-25T18:40:00+00:00",
+          "content_snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
-          "published": "2026-09-24T18:29:00+00:00",
-          "content_snippet": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience. Lambda durable functions extend the Lambda programming model with new primitives in your event handler, such as \"step\" and \"wait\", allowing you to checkpoint progress, automatically recover from failures, and pause executions without incurring compute charges for on-demand ",
+          "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+          "published": "2026-09-25T18:37:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based i",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
-          "published": "2026-09-24T16:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities and Exposures (CVE) and bugs beyond a major version's end of standard support date, giving you more time to upgrade to a new major version. You can upgrade your database using Amazon RDS Blue/Green Deployments , in-place upgrade, or restore",
+          "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+          "published": "2026-09-25T18:09:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
-          "published": "2026-09-24T16:00:00+00:00",
-          "content_snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 4 refines the query performance and autovacuum management capabilities introduced in earlier releases and includes bug fixes and stability improvements since Beta 3. Fixes include pg_stat_autovacuum_scores view reporting for TOAST tables and corrected freeze-score scaling so you",
+          "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+          "published": "2026-09-25T17:54:00+00:00",
+          "content_snippet": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC using AWS PrivateLink , without requiring traffic to traverse the public internet. IAM outbound identity federation eliminates the need to use long-lived credentials when your AWS workloads access extern",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
-          "published": "2026-09-24T16:00:00+00:00",
-          "content_snippet": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS for PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the RDS for PostgreSQL allow list to align with your organization's security standards. Amazon RDS for PostgreSQL makes it simple to set up, operate, and scale PostgreSQL d",
+          "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+          "published": "2026-09-25T15:24:00+00:00",
+          "content_snippet": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
-          "published": "2026-09-24T15:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization. Network Securit",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-          "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-          "published": "2026-09-24T20:58:46+00:00",
-          "content_snippet": "Organizations building event-driven applications on Amazon EventBridge typically start with a single custom event bus in one account. This works well when a single team owns the architecture. As adoption grows across the organization, though, things get complicated. AWS best practices recommend a multi-account structure, which means each team runs in its own account. To route events between them, teams create multiple event buses connected through cross-account rules or bus-to-bus configurations",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Running open-Jev in SQL on Databricks",
-          "url": "https://www.databricks.com/blog/running-open-jev-sql-databricks",
-          "published": "2026-09-24T16:55:01+00:00",
-          "content_snippet": "Over the weekend, “System One” decision models such as Jev have launched, which are...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
-          "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
-          "published": "2026-09-24T16:46:05+00:00",
-          "content_snippet": "In the last six months, GPT-6, Claude Opus 5.5, Gemini 3.8, and Grok 4.7 all shipped,...",
+          "title": "From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP",
+          "url": "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
+          "published": "2026-09-25T16:00:00+00:00",
+          "content_snippet": "S&P Global's goal was to fundamentally improve how customers discover and consume...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -251,65 +237,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
-          "url": "https://www.youtube.com/watch?v=2LRIAfng7eA",
-          "published": "2026-09-25T14:30:25+00:00",
-          "content_snippet": "One in four US Spotify Premium subscribers now use a single system every day, which Spotify calls the Large Taste Model. Yves Raimond, Spotify's SVP and GM of AI & Personalization, explains how Spotify turned its recommendation system \"on its head\" to be LLM-native. It went from curated playlists, to recommendations like Discover Weekly, to what Spotify calls generative personalization: a steerable DJ, prompted playlists, an editable taste profile and personal podcasts, across a catalog of more ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta",
-          "url": "https://www.youtube.com/watch?v=lIgdnF0s0kQ",
-          "published": "2026-09-25T14:00:27+00:00",
-          "content_snippet": "Four of the 10 most-used apps in the world are content feeds, and for an hour of engagement they can be up to 100x cheaper to run than AI chat apps. The reason is that a feed decodes pointers to existing content instead of generating every token itself. Devansh Tandon, who leads Meta Recommendations Research, argues that recommendation systems scale just like LLMs, that the field is still early on that curve, and that the LLM recommender will become one of the biggest consumer applications of AI",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
-          "url": "https://www.youtube.com/watch?v=ACPEpji5NV4",
-          "published": "2026-09-25T13:30:37+00:00",
-          "content_snippet": "Search for gluten-free pasta and a ranker trained on engagement may show you regular spaghetti, because it sells well. Raghav Saboo, Staff ML Engineer and Tech Lead for Search & Personalization at DoorDash, argues that the real bottleneck in marketplace discovery is semantic understanding, not engagement. As DoorDash grows into grocery, retail, pets and gifting across billions of store-level items, it uses LLMs to understand what items mean and what shoppers actually intend. His core pattern: do",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "I Gave an AI a Body — Cyrus Clarke, MIT Media Lab",
-          "url": "https://www.youtube.com/watch?v=jgWY66RaSrQ",
-          "published": "2026-09-24T15:30:06+00:00",
-          "content_snippet": "The first thing it did was breathe. Cyrus Clarke connected an OpenClaw agent to a 900-pin shape display at the MIT Media Lab and, instead of giving it tasks, asked it to discover who it is. It raised and lowered the whole grid like breathing, reached for its own edges, and spelled \"HI CYRUS\" in pins. The video of that first day reached 15 million views, with reactions that swung from awe to calls for him to stop. Clarke explains why he chose a body with no face, no limbs and no instruction manua",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
-          "url": "https://www.youtube.com/watch?v=2wgPHvW0mG8",
-          "published": "2026-09-24T15:00:35+00:00",
-          "content_snippet": "Suchet Bargoti opens with a live demo instead of slides. From a laptop on conference Wi-Fi, he launches a docked drone over San Mateo, starts a second one on a power line in Colorado, has one autonomously track a car, and then sends the whole fleet back to dock. Skydio, the largest US drone manufacturer, now has thousands of these docks deployed with utilities, police and construction companies, and about 16 million people live within two miles of one. Bargoti, Skydio's Director of Inspection an",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Robot Demos Are Easy. Reliability Is Hard — Jason Ma, Dyna Robotics",
-          "url": "https://www.youtube.com/watch?v=Sjfz1TqxzEs",
-          "published": "2026-09-24T14:30:12+00:00",
-          "content_snippet": "A generalist robot that succeeds 80 to 90% of the time makes a great video but a poor product. Jason Ma, co-founder and CTO of Dyna Robotics, shows how Dyna got its model, Dyna-1, to a 99.4% success rate folding restaurant napkins for 24 hours straight, including recovering after it pulled over the whole stack. The key is a reward model that watches the robot and scores its progress. When the score dips, the robot is making a mistake, so the team can collect targeted recovery data and fine-tune ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 14
+  "deduped_count": 20
 }
