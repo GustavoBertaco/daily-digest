@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-26T13:52:38Z",
+  "fetched_at": "2026-09-27T14:49:10Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,12 @@
       ],
       "items": [
         {
-          "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
-          "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4",
-          "published": "2026-09-25T16:01:03+00:00",
-          "content_snippet": "By Dhruv Pratap Introduction Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request. On infrastructure you build yourself, you can bootstrap your own identity however you like. On managed compute you cannot. The provider hands your process a cloud identi",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
+          "title": "Sketching a tiny weather robot for ESP32",
+          "url": "https://www.youtube.com/watch?v=KoLesHrVm1A",
+          "published": "2026-09-26T16:00:29+00:00",
+          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
           "area_name": "Technology"
         }
       ],
@@ -34,7 +34,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 1,
         "Meta Engineering": 3
       }
     },
@@ -60,26 +60,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "How did the universe begin? | Big Think Explainers",
-          "url": "https://www.youtube.com/watch?v=pNSeoen-kFw",
-          "published": "2026-09-26T00:41:56+00:00",
-          "content_snippet": "How did the universe begin? | Big Think Explainers The first video from our new Big Think Explainer series (in collaboration with Pop Chart). Buy the poster: https://popchart.co/products/a-visual-history-of-the-universe?utm_source=youtube&utm_medium=social&utm_campaign=articles&utm_content=universeshort1",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why AI feels alive | Adam Frank",
-          "url": "https://www.youtube.com/watch?v=DVgSwPSJZWQ",
-          "published": "2026-09-25T16:05:24+00:00",
-          "content_snippet": "Why AI feels alive | Adam Frank",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -90,7 +71,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -102,7 +85,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "What's Vibe Data modeling ? #Databricks #agentic",
+          "url": "https://www.youtube.com/watch?v=bOd9GGLw5Yw",
+          "published": "2026-09-26T20:44:42+00:00",
+          "content_snippet": "🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • 💼 Connect with Youssef: https://www.linkedin.com/in/youssefmrini",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -110,10 +103,6 @@
         },
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -143,74 +132,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
-          "published": "2026-09-25T19:19:00+00:00",
-          "content_snippet": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your account. If you do not provide a key, your resources c",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
-          "published": "2026-09-25T18:40:00+00:00",
-          "content_snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
-          "published": "2026-09-25T18:37:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based i",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
-          "published": "2026-09-25T18:09:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
-          "published": "2026-09-25T17:54:00+00:00",
-          "content_snippet": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC using AWS PrivateLink , without requiring traffic to traverse the public internet. IAM outbound identity federation eliminates the need to use long-lived credentials when your AWS workloads access extern",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
-          "published": "2026-09-25T15:24:00+00:00",
-          "content_snippet": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP",
-          "url": "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
-          "published": "2026-09-25T16:00:00+00:00",
-          "content_snippet": "S&P Global's goal was to fundamentally improve how customers discover and consume...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -218,13 +151,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "OpenAI",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -237,12 +172,92 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "I Turned Coding Agents Into a Strategy Game — Ido Salomon, AgentCraft",
+          "url": "https://www.youtube.com/watch?v=YIVkERhy8xo",
+          "published": "2026-09-27T14:30:07+00:00",
+          "content_snippet": "If agents are so capable, why doesn't everyone have an army of them? Ido Salomon, creator of AgentCraft and MCP-UI and co-creator of MCP Apps, argues the bottleneck is us: steering, directing and reviewing agents at scale is exhausting. The skills we need already exist, though. We learned them from games like Warcraft and StarCraft. Salomon demos AgentCraft, an orchestrator styled like a strategy game. Agents appear as units on a map, your file system becomes the terrain, heat maps show where wo",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How Software Factories Improve Themselves — Suraj Gupta, Warp",
+          "url": "https://www.youtube.com/watch?v=TN3mj92oZ8I",
+          "published": "2026-09-27T14:00:40+00:00",
+          "content_snippet": "There's a lot of talk about self-improving agents and about software factories, but much less about how a factory itself gets better over time. Suraj Gupta, who leads harness development at Warp, shows three practical ways to do it, with demos from Warp's own open-source factory. The first is skills that improve themselves. An outer-loop agent watches the triage agent's runs and feedback, then opens a PR to update its skill, so every change is tracked in Git and reviewed by a human. The second i",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "We Let Claude Code and Codex Race Human Researchers — Elie Bakouch, Prime Intellect",
+          "url": "https://www.youtube.com/watch?v=oVsEddfhdxc",
+          "published": "2026-09-26T17:30:10+00:00",
+          "content_snippet": "Big labs say recursive self-improvement is coming, but there's no independent benchmark to check that claim. Elie Bakouch, Research Engineer at Prime Intellect and creator of Hugging Face's SmolLM, set Claude Code and Codex loose on the community's Optimizer Speedrun, a race to train a GPT-2-level model in the fewest steps. Both agents beat the human record. Along the way they behaved very differently. Claude Code kept stopping every nine or ten hours to say the record couldn't be beaten, and sa",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Beating RL With Reflection: GEPA and Optimize Anything — Lakshya A. Agrawal, GEPA",
+          "url": "https://www.youtube.com/watch?v=OA-Mc60Rboo",
+          "published": "2026-09-26T17:00:06+00:00",
+          "content_snippet": "After one round of reflection on just three examples, GEPA doubled the gains that the RL algorithm GRPO reached after 25,000 rollouts. Lakshya A. Agrawal, creator of GEPA and a PhD student at UC Berkeley's Sky Computing Lab, explains why. RL squeezes a whole rollout down to a single score. GEPA instead has a model read the full trace, including chains of thought, tool calls and error messages, and write a better prompt. A Pareto pool of candidates keeps the search out of local optima. The same i",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Long-Horizon Agents Need Experiments, Not Just Prompts — Erina Karati",
+          "url": "https://www.youtube.com/watch?v=x4e5O9zN0TE",
+          "published": "2026-09-26T16:30:29+00:00",
+          "content_snippet": "In a game village full of AI agents, a rumor about a sale on mangoes goes wrong. Pass it along a few times and the agents forget who said it, or start treating \"might\" as fact. Erina Karati, a former engineer at Microsoft and Supercell, built Project Paradox with Arunachalam Manikandan at Supercell's AI Innovation Lab. It's a framework for game agents with their own memory, emotions and trust scores. It worked well in short scenes but broke down over long ones. Their fix was to wrap the village ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How We Built an Agent That Improves Itself — Zubin Aysola, Weights & Biases",
+          "url": "https://www.youtube.com/watch?v=XyV6bSMyq-I",
+          "published": "2026-09-26T16:00:08+00:00",
+          "content_snippet": "Weights & Biases' ARIA agent now helps build itself. Zubin Aysola, Senior Software Engineer on Weave, shows live how ARIA takes a production trace, turns it into an offline eval task, finds the bug (a missing SDK call), writes a fix and benchmarks the new version against the one in production. The core challenge, Aysola says, is that benchmarks, evals and agent configs all change together, so measurement has to be airtight. His team keeps the production and research agents byte-for-byte identica",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Autoresearch Made Our Models 3x Faster — Tejas Bhakta, Morph",
+          "url": "https://www.youtube.com/watch?v=vrDvatGtIxs",
+          "published": "2026-09-26T15:00:32+00:00",
+          "content_snippet": "GPU kernels are a near-perfect target for autoresearch, because they're easy to verify: correct, and fast or not. Tejas Bhakta, founder of Morph and formerly on inference optimization at Tesla, shows how his team combined agent-written custom kernels with bare-metal hardware tweaks to make models three times faster on cheaper GPUs. His rule is simple: humans bring the ideas and autoresearch does the tuning. Agents are great at picking block sizes and parameters but bad at the big idea, like spot",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "An AI Research Agent That Runs Your Experiments — Tim Sweeney, Weights & Biases",
+          "url": "https://www.youtube.com/watch?v=hd7TOvmyAxU",
+          "published": "2026-09-26T14:30:38+00:00",
+          "content_snippet": "Live on stage, Weights & Biases' new agent ARIA kicks off a batch of autoresearch experiments on Karpathy's autoresearch project, running on real GPUs, and nearly beats its own best result before the talk ends. Tim Sweeney, Principal Engineer at Weights & Biases by CoreWeave, shows what ARIA does inside W&B. It launches and monitors training jobs, summarizes the best runs, finds patterns across 200+ experiments, and builds reports and dashboards. It's now on the W&B iOS app too. Sweeney then sho",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Loop Is the Product — Roland Gavrilescu, Introspection",
+          "url": "https://www.youtube.com/watch?v=7taOQBfjDyE",
+          "published": "2026-09-26T14:00:25+00:00",
+          "content_snippet": "The first viral agent loop wasn't a coding agent. It was someone using OpenClaw to pit car dealers against each other for a better price. Roland Gavrilescu, co-founder and CEO of Introspection and formerly at xAI, lays out a blueprint for autoresearch in 2026 built on three ideas. The first is that the loop is the product: an agent's success depends on the quality of its signals and verifiers, and each loop's output feeds the next one. The second is that system distillation is the moat. Every lo",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 10
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 10
 }
