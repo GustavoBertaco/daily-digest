@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T17:48:19Z",
+  "fetched_at": "2026-09-29T16:06:26Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,10 @@
       ],
       "items": [
         {
-          "title": "Quitting Vercel to launch Total TypeScript",
-          "url": "https://www.youtube.com/watch?v=UXKJgI4iOc8",
-          "published": "2026-09-27T16:00:06+00:00",
-          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
+          "title": "“Problem solving on paper”",
+          "url": "https://www.youtube.com/watch?v=mZ1JyazxSds",
+          "published": "2026-09-29T16:00:04+00:00",
+          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -35,7 +35,7 @@
       ],
       "deduped_sources": {
         "Netflix Tech Blog": 1,
-        "Meta Engineering": 3
+        "Meta Engineering": 1
       }
     },
     {
@@ -62,26 +62,24 @@
       ],
       "items": [
         {
-          "title": "The importance of philosophy | Jonny Thomson",
-          "url": "https://www.youtube.com/watch?v=RRxfA2W57BM",
-          "published": "2026-09-28T16:04:36+00:00",
-          "content_snippet": "The importance of philosophy | Jonny Thomson",
-          "source_name": "Big Think",
+          "title": "Bill Ackman: “Some Dominant Companies Will Just Disappear”",
+          "url": "https://www.youtube.com/watch?v=Cpq8y5HpcF4",
+          "published": "2026-09-29T10:00:29+00:00",
+          "content_snippet": "Bill Ackman is the founder and CEO of Pershing Square Capital Management, one of the most closely watched investment firms in the world. In this conversation, he breaks down how he tells the difference between real innovation from hype, what he looks for before making a billion-dollar investment, and why he sold Netflix—and later bought it back. He also shares the mistakes that reshaped his investment process and his plan to build a modern-day Berkshire Hathaway. Bill also opens up about somethi",
+          "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [
         {
-          "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -133,47 +131,115 @@
       ],
       "items": [
         {
-          "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
-          "published": "2026-09-28T16:14:54+00:00",
-          "content_snippet": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed on Amazon Bedrock over the past few days: GPT-6 Sol and GPT-6 Luna from OpenAI, giving you two new points on the intelligence-versus-efficiency curve, and Claude Opus 5.5 from Anthropic, the first of the Claude 5.5 family. GPT-6 Sol is built for the",
-          "source_name": "AWS Blog",
+          "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/",
+          "published": "2026-09-29T08:00:00+00:00",
+          "content_snippet": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS RAM). Previously, you could only share a document publicly or with a list of individual account IDs. You can now easily share a document with your organization or OUs, and Systems Manager automatically keeps that sharing up to date as accounts are added to or removed from your organization or OU, s",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to roll out Genie One: A step-by-step enterprise playbook",
-          "url": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
-          "published": "2026-09-28T16:30:00+00:00",
-          "content_snippet": "A regional sales director wants to know why the Northeast pipeline looks soft this quarter...",
+          "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
+          "published": "2026-09-28T21:17:00+00:00",
+          "content_snippet": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match your new timeline. When you postpone your start date, EC2 presents a quote that shows the new start date and the required commitment duration. The commitment duration can increase, depending on when you postpone the start date. After you re",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+          "published": "2026-09-28T20:41:00+00:00",
+          "content_snippet": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retr",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Grok 4.7 is now available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+          "published": "2026-09-28T18:29:00+00:00",
+          "content_snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. Get started with Grok 4.7 in the Amazon Bedrock console or programmatically through supported Amazon Bedrock APIs. For information ab",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Claude Sonnet 5.5 now available on AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+          "published": "2026-09-28T15:00:00+00:00",
+          "content_snippet": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same sess",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
+          "published": "2026-09-28T15:00:00+00:00",
+          "content_snippet": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
+          "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+          "published": "2026-09-28T20:11:23+00:00",
+          "content_snippet": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The 24 most commonly misunderstood marketing data terms",
-          "url": "https://www.databricks.com/blog/helping-marketing-data-engineering-same-word-different-meaning",
-          "published": "2026-09-28T07:01:10+00:00",
-          "content_snippet": "Imagine you’re a marketer planning a win-back campaign and you ask your data team for a list of “inactive customers.” Y...",
+          "title": "Lakebase Search: State-of-the-art full text and vector search for Postgres",
+          "url": "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres",
+          "published": "2026-09-28T20:04:33+00:00",
+          "content_snippet": "Traditional OLTP systems weren't built for the search demands of AI agents. They...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The Defender's Window: Cyber security keynote",
-          "url": "https://www.youtube.com/watch?v=3jDhHA9JGUE",
-          "published": "2026-09-28T13:29:06+00:00",
-          "content_snippet": "OpenAI's security experts explain why every organization needs a cyber defence factory, and how to build it with Daybreak.",
+          "title": "Manufacturing data and AI: Connecting the product value chain",
+          "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+          "published": "2026-09-28T19:47:19+00:00",
+          "content_snippet": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The Defender's Window at enterprise scale with Standard Chartered",
+          "url": "https://www.youtube.com/watch?v=a75xDflRooI",
+          "published": "2026-09-29T10:01:43+00:00",
+          "content_snippet": "Matt Weaver, Head of Applied AI Architects at OpenAI, and Reuben Athaide, Head of Innovation, Applications & Assurance at Standard Chartered, discuss how the global bank is using OpenAI Daybreak to stay ahead of attackers.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Building the partner ecosystem with Sophos",
+          "url": "https://www.youtube.com/watch?v=zoohZ1BiHs0",
+          "published": "2026-09-29T10:00:28+00:00",
+          "content_snippet": "Claire Lawlor, Digital Native AD EMEA at OpenAI, and John Peterson, CTO at Sophos, explain the role of technology partnerships in keeping organizations safe from cyber threats",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "GPT-6 Astra in practice: Turning ideas into projects",
+          "url": "https://www.youtube.com/watch?v=6wNqpZdHE_s",
+          "published": "2026-09-28T18:05:42+00:00",
+          "content_snippet": "See what members of the OpenAI Developer Experience team are building with Astra, from a YouTube thumbnail generator and visual learning tools to music workflows, a hardware prototype, and a tactical RPG. The team shares how Astra helps them turn loosely defined ideas into working projects, navigate complex software, and work through the details along the way.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -183,7 +249,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AWS Blog": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -196,83 +264,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
-          "url": "https://www.youtube.com/watch?v=474j-n1Ltxc",
-          "published": "2026-09-27T18:30:07+00:00",
-          "content_snippet": "More than a quarter of the pull requests Greptile reviewed in April showed signs of being written largely or entirely by AI agents, up from under 1% a year earlier. Daksh Gupta, co-founder of Greptile, analyzed more than a million pull requests a month from companies like NVIDIA, Coinbase and Scale to test a simple question: are fully vibe-coded PRs actually any good in enterprise codebases? He compares agent-written PRs (Codex, Claude Code, Devin, Cursor) with human-written ones on four measure",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Get Out of the Model's Way — Kevin Hou, Google Antigravity",
-          "url": "https://www.youtube.com/watch?v=buHC7bQE1X4",
-          "published": "2026-09-27T18:00:24+00:00",
-          "content_snippet": "93 subagents, 12 hours, 2 billion tokens and under $1,000: that's what it took Google's Antigravity to build an operating system kernel from scratch that runs Doom. Kevin Hou, who leads engineering on Antigravity, Google DeepMind's agentic coding product, explains the principle behind it: \"Give Messi the ball and get out of the way.\" Your product should get better every time the model does. Hou traces how coding tools evolved, from autocomplete in 2022 to agents in 2024, agent managers in 2025 a",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Software Engineering Is Becoming Factory Engineering — Zach Lloyd, Warp",
-          "url": "https://www.youtube.com/watch?v=tUPPVhBBcoM",
-          "published": "2026-09-27T17:30:36+00:00",
-          "content_snippet": "Zach Lloyd, founder and CEO of Warp and a former principal engineer who led engineering on Google Docs, is still shipping all the time, but hasn't written a line of code in six months. His thesis: software engineering is turning into factory engineering. Every serious project will run a software factory, the same way every project now has CI/CD. Lloyd explains why Warp open-sourced after five years closed (60,000+ GitHub stars and over 800,000 active developers). When software gets cheap to buil",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "GLM-5.2: Open Weights, Near-Frontier Intelligence — Zixuan Li, Z.ai",
-          "url": "https://www.youtube.com/watch?v=9JFGohx4E7U",
-          "published": "2026-09-27T17:00:01+00:00",
-          "content_snippet": "Zixuan Li, head of Z.ai, introduces GLM-5.2 to the world. On the hardest long-horizon coding and agentic benchmarks, it lands between Claude Opus 4.7 and 4.8. Even its non-thinking mode beats GLM-5.1 with thinking turned on, and it leads other open-weight models on the Artificial Analysis Intelligence Index. Li also explains where the GLM name comes from (a 2021 paper that put Z.ai among the earliest LLM labs), and why GLM is more than a coding model. The core of his talk is why Z.ai releases ne",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Orchestras, Not Factories: How the Fastest Builders Work — Charlie Holtz, Conductor",
-          "url": "https://www.youtube.com/watch?v=TRfzFJCJ7ZE",
-          "published": "2026-09-27T16:30:08+00:00",
-          "content_snippet": "\"I honestly kind of hate the term 'software factory.'\" Charlie Holtz, co-founder and CEO of Conductor, the desktop app for running many coding agents at once, has watched many of the best builders up close. He shares the principles they have in common. Stay near the frontier, but don't try to beat the market: if a workflow works for everyone, the big labs will build it into the default. Create \"slop-free zones,\" like migrations, docs and skill files, that always get careful human review. Feed th",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Scale the Judgment, Not the Model — Andrew Orobator, Reddit",
-          "url": "https://www.youtube.com/watch?v=6MudaeKdBSk",
-          "published": "2026-09-27T16:00:17+00:00",
-          "content_snippet": "Swap in a smarter model and you get a slightly better answer. Take away the tests, gates and review, and everything falls apart. Andrew Orobator, a senior Android engineer at Reddit, argues that the model was never the bottleneck. The bottleneck is the judgment around it. Humans absorb judgment implicitly, but agents need it spelled out. He shows how to get judgment out of people's heads and into the repo. Skills are institutional judgment turned into something an agent can run. Work logs let a ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "No, That's Not a Software Factory — Ryan Cooke, WorkOS",
-          "url": "https://www.youtube.com/watch?v=HvboD89DyQ8",
-          "published": "2026-09-27T15:30:30+00:00",
-          "content_snippet": "The standard software factory puts an agent in a sandbox, prompts it and merges the PR. When WorkOS built one, the results were hard to tell apart from engineers running Claude Code on their laptops. Ryan Cooke, an engineer at WorkOS, argues that counting PRs or lines of AI code is the wrong measure. What matters is outcomes: are you actually shipping more to customers? WorkOS's answer is to build its engineering process into the factory itself. TARS, its agent, lives in Slack, Linear and GitHub",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "What It Actually Takes to Build a Software Factory — Tereza Tížková, Factory",
-          "url": "https://www.youtube.com/watch?v=vGCJ7diEtrw",
-          "published": "2026-09-27T15:00:02+00:00",
-          "content_snippet": "Everyone is talking about software factories, but few people are building one. Tereza Tížková of Factory, which runs software factories for enterprises like EY and Adobe, defines one as the whole software lifecycle run autonomously: collecting signals, prioritizing, building, validating and improving. It's not just a swarm of coding agents, because writing code is the easy part. She lays out three principles. Stay agnostic: fit how your team already works, and route between models automatically ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 10
+      }
     }
   ],
-  "deduped_count": 12
+  "deduped_count": 20
 }
