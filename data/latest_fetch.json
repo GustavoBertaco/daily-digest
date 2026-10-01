@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T16:04:24Z",
+  "fetched_at": "2026-10-01T16:41:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,25 +14,37 @@
       ],
       "items": [
         {
-          "title": "Personalization without user identity",
-          "url": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4",
-          "published": "2026-09-29T17:01:01+00:00",
-          "content_snippet": "How Airbnb uses proximity signals to personalize without relying on individual user history. By : Wei Jiang , Bin Xu , Bharathi Thangamani , Weiwei Guo , Sundar Srinivasavaradhan , Tracy Yu , Huiji Gao , Swapnil Ghike , Michael Kinoti Great personalization starts with knowing your user. But what happens when the user is a stranger? A significant share of Airbnb users arrive without a login, without a recent search history, or without any prior booking — especially those landing from paid adverti",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
+          "title": "Turning down Google in 2001",
+          "url": "https://www.youtube.com/watch?v=Mo3BUY15aDU",
+          "published": "2026-10-01T16:00:16+00:00",
+          "content_snippet": "with Peter Mattis, CTO and cofounder at Cockroach Labs See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Distributed databases with Peter Mattis",
+          "url": "https://www.youtube.com/watch?v=0GzwuYGvKA4",
+          "published": "2026-09-30T16:11:44+00:00",
+          "content_snippet": "How is it that a software veteran who regularly shipped ~100K of database-grade code to production each year, pre-AI, feels like he’s even more productive today, with no drop in quality? Peter Mattis is co-founder and CTO of Cockroach Labs, and an original creator of GIMP. He also worked on Gmail and distributed storage at Google. In this episode, Peter reflects on his journey from open source to Google to founding a database company, and we explore how to keep systems fast, reliable, and correc",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
           "area_name": "Technology"
         }
       ],
       "errors": [
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
-        "Meta Engineering": 1
+        "Airbnb Tech": 1
       }
     },
     {
@@ -59,10 +71,19 @@
       ],
       "items": [
         {
-          "title": "The story behind the \"Donnie Darko\" mask | Richard Kelly",
-          "url": "https://www.youtube.com/watch?v=bQS_YXPCKC0",
-          "published": "2026-09-29T23:25:07+00:00",
-          "content_snippet": "The story behind the \"Donnie Darko\" mask | Richard Kelly The 25th Anniversary showing of “Donnie Darko” premieres in theaters October 2nd. Get tickets here: https://hubs.la/Q04wnCmM0",
+          "title": "AI and filmmaking | Richard Kelly",
+          "url": "https://www.youtube.com/watch?v=NiEF0pu04JU",
+          "published": "2026-09-30T18:01:26+00:00",
+          "content_snippet": "AI and filmmaking | Richard Kelly The 25th Anniversary showing of “Donnie Darko” premieres in theaters October 2nd. Get tickets here: https://hubs.la/Q04wnCmM0",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why compatibility is overrated | Julie Gottman",
+          "url": "https://www.youtube.com/watch?v=Q8ebAhEm71s",
+          "published": "2026-09-30T16:06:41+00:00",
+          "content_snippet": "Why compatibility is overrated | Julie Gottman",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -103,6 +124,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Analytics Engineering Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -111,9 +136,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Data Stack Show": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -131,165 +154,195 @@
       ],
       "items": [
         {
-          "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
-          "published": "2026-09-29T21:10:00+00:00",
-          "content_snippet": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use. BMA manages how the model preserves state, selects and uses tools, executes code, and coordinates work across multiple steps and decisions. Durable sessions r",
+          "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+          "published": "2026-09-30T23:59:00+00:00",
+          "content_snippet": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads compared to previous generation G6 instances. With Graphics G7, customers can run demanding professional applications such as CAD/CAM, 3D rendering, scientific visualization, video editing, and AI-assisted design workflows at higher fidelity and fra",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS now adds full snapshot size information to the Console and API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
-          "published": "2026-09-29T21:00:23+00:00",
-          "content_snippet": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view this on the console with the ‘Full Snapshot Size’ column. Amazon RDS snapshots are incremental. This means that if you take multiple snapshots of a volume over time, each snapshot only stores the new or modified blocks while maintaining referen",
+          "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+          "published": "2026-09-30T20:16:00+00:00",
+          "content_snippet": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed skills against the latest versions available in the registry, and use aws agent-toolkit update-skill --all to update every outdated skill in a single command. The Agent Toolkit for AWS consists of the AWS MCP Server (which provides a secure",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
-          "published": "2026-09-29T20:17:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it approaches GPT-6 Astra across demanding evaluations at roughly one-fifth of the cost, giving developers more room to build and run capable agents at scale. The Amazon Bedrock inference engine delivers the performance, security, and reliability requi",
+          "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+          "published": "2026-09-30T20:00:00+00:00",
+          "content_snippet": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in real time",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
-          "published": "2026-09-29T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per table for defining configurations such as operating hours, escalation rules, AI agent prompts or queue assignments that drive contact flows. Administrators can now also export tables, edit hundreds of records, move tables between Connect Customer instances, or load reference data from external syst",
+          "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+          "published": "2026-09-30T19:30:00+00:00",
+          "content_snippet": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository, enabling version control for tracking, reviewing, and reverting dashboard modifications. Dynamic dashboards provide a m",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon WorkSpaces Applications introduces unified graphics images",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
-          "published": "2026-09-29T17:00:00+00:00",
-          "content_snippet": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated image. Now customers can use one image to create and manage fleets on any supported graphics instance family. Unified graphics images simplify image management and make it easier to adopt newer GPU generations as they become available. When creating a",
+          "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+          "published": "2026-09-30T19:00:00+00:00",
+          "content_snippet": "Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters most. According to OpenAI, Ultrafast delivers up to 6x faster inference in the API, with up to 300 tokens per second. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6 Astra Ultrafast for latency-sensitive applications such ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Service Availability Updates",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
-          "published": "2026-09-29T16:21:00+00:00",
-          "content_snippet": "We're announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these services and features can continue to do so. AWS will continue to operate and support these services and features. We recommend that customers learn about the changes in the product pages and documentation. · Amazon Chime SDK SIP Media Application · Ama",
+          "title": "AWS Parallel Computing Service now supports scaling logs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+          "published": "2026-09-30T19:00:00+00:00",
+          "content_snippet": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration, a scale-down, or a launch failure with its reason. Using scaling logs, you can more easily troubleshoot scaling issues. For example, you can determine why a compute node group did not reach its target size, which launches failed for capacit",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
-          "published": "2026-09-29T16:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities and Exposures (CVE) and bugs beyond a major version's end of standard support date, giving you more time to upgrade to a new major version. You can upgrade your database using Amazon RDS Blue/Green Deployments , in-p",
+          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+          "published": "2026-09-30T17:50:00+00:00",
+          "content_snippet": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity that it requires. When the workload finishes, Aurora serverless automatically scales down to zero, so you only pay for what you use. This makes it especially well-suited for agentic AI applications, which typically have bursts of activity, long idle",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
-          "published": "2026-09-29T16:00:00+00:00",
-          "content_snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to benefit from these improvements and address Common Vulnerabilities and Exposures (CVEs), as detailed in the release notes . You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplif",
+          "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+          "published": "2026-09-30T17:00:00+00:00",
+          "content_snippet": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, R8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All R8a instances are built on the AWS Nitro System using sixth-generatio",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
-          "published": "2026-09-29T15:41:00+00:00",
-          "content_snippet": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5 , and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process data within a specific geography, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In India, the regional endpoint is served through geographic ",
+          "title": "Amazon RDS now supports AMD-based M8a instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+          "published": "2026-09-30T17:00:00+00:00",
+          "content_snippet": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, M8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All instances are built on the AWS Nitro System using si",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
-          "published": "2026-09-29T15:00:00+00:00",
-          "content_snippet": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK) . AWS Transform migration assessments use agentic AI to analyze your workloads, recommend the best-fit AWS services, and generate a total cost of ownership (TCO) business case with pricing options and actionable next steps - all in minutes, through natural-language chat or with AWS Transform MCP server . For Apache Ka",
+          "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+          "published": "2026-09-30T17:00:00+00:00",
+          "content_snippet": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In the UK, Amazon Bedrock supports Claude Opus 5.5 and Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint in the London (eu-west-2)",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Your data, your storage, your rules: a 2026 guide to storing Unity Catalog managed tables",
-          "url": "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables",
-          "published": "2026-09-29T16:40:16+00:00",
-          "content_snippet": "Unity catalog managed tables allow you to control the placement of your data when...",
+          "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+          "published": "2026-09-30T22:10:00+00:00",
+          "content_snippet": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 specification. You can create V3 tables or upgrade existing V2 tables to take advantage of V3 features like deletion vectors, row lineage, and new data types such as variant, nanosecond timestamps, unknown, geometry, and geography. Apache Iceberg has become the open standard for managing large analytics datasets. It lets you manage petabyte-scale tables with features like schema evolution, hidden partitioning, and time travel q",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+          "published": "2026-09-30T20:03:34+00:00",
+          "content_snippet": "Today, we’re announcing metadata pre-filtering for Amazon S3 Vectors , which delivers higher recall on filtered queries by evaluating your metadata filter before the similarity search. You can filter on attributes such as tenant, category, status, or time, and pre-filtering adds prefix matching with $startsWith for paths, URLs, and hierarchical keys. Each vector carries up to 2 KB of filterable metadata, and a single query supports up to 100 filter constraints. There is no additional cost, no re",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+          "published": "2026-09-30T17:22:31+00:00",
+          "content_snippet": "Today, we’re announcing a new capability for Amazon Aurora PostgreSQL that you can use to directly query operational data together with data stored in your data lake in Apache Iceberg and Apache Parquet formats, using your existing PostgreSQL applications and tools. By eliminating the need to extract, transform, and load (ETL) structured data from data lakes into your operational database, you can reduce operational complexity and simplify application development. You can also use Aurora Postgre",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Celebrating Our Newest AWS Heroes – September 2026",
+          "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
+          "published": "2026-09-30T17:04:05+00:00",
+          "content_snippet": "Today, we’re excited to introduce the newest members of the AWS Heroes program . AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome three exceptional community leaders from across the globe, each bringing unique expertise and a deep commitment to empowering builders everywhere. Av",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Connecting customer context to measurable ROI with agentic marketing",
+          "url": "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing",
+          "published": "2026-10-01T12:11:31+00:00",
+          "content_snippet": "Marketing leaders today face greater complexity than ever before. They work with...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Build faster with Ultrafast",
-          "url": "https://www.youtube.com/watch?v=sKltfHvsDQM",
-          "published": "2026-09-29T18:47:34+00:00",
-          "content_snippet": "Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast. Bring your ideas to life as fast as you can type them.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "IP Functions are Generally Available, bringing high-performance network analytics to the Lakehouse",
+          "url": "https://www.databricks.com/blog/ip-functions-are-generally-available-bringing-high-performance-network-analytics-lakehouse",
+          "published": "2026-10-01T01:46:05+00:00",
+          "content_snippet": "IP data is warehousing dataEvery firewall, load balancer, VPN, CDN edge, DNS resolver,...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI DevDay 2026 Keynote (FULL)",
-          "url": "https://www.youtube.com/watch?v=Fls_onRviPM",
-          "published": "2026-09-29T18:42:29+00:00",
-          "content_snippet": "Watch Sam Altman, Romain Huet, Tejal Patwardhan, and Holly Li announce and demo 20+ launches at OpenAI DevDay, including dots, ChatGPT Spaces, GPT-6.1 Sol, Astra Ultrafast, and more.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Introducing ai_decide: make fast decisions on your governed data",
+          "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
+          "published": "2026-09-30T16:59:34+00:00",
+          "content_snippet": "Today, we’re launching a new Databricks AI Function ai_decide that makes fast decisions...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Meet the all new Codex Cloud",
-          "url": "https://www.youtube.com/watch?v=7Bv68f5szSU",
-          "published": "2026-09-29T18:18:13+00:00",
-          "content_snippet": "Start a Codex task, close your laptop, and pick it up from your phone. See how to create a reusable cloud environment with your repositories, networking, and secrets, then share it with your team.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "A practical guide to cost optimization with Lakebase Postgres",
+          "url": "https://www.databricks.com/blog/practical-guide-cost-optimization-lakebase-postgres",
+          "published": "2026-09-30T16:53:12+00:00",
+          "content_snippet": "Lakebase is a fully managed Postgres database, built for the operational realities...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing dots, always-on agents built to handle everything.",
-          "url": "https://www.youtube.com/watch?v=uXspbC2srEQ",
-          "published": "2026-09-29T18:04:41+00:00",
-          "content_snippet": "Dots are frontier intelligence that have your back. Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them. Your dot is always within reach, whether it is through ChatGPT, Slack, or Teams. You can ask questions, explore ideas, and give feedback along the way; or you can simply hop on a voice c",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "How to scale agentic applications without creating AI sprawl",
+          "url": "https://www.databricks.com/blog/how-scale-agentic-applications-without-creating-ai-sprawl",
+          "published": "2026-09-30T16:46:25+00:00",
+          "content_snippet": "Building an agent is getting easier. More capable models and coding agents are making...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Meet the builders of our time - the Codex Originals.",
-          "url": "https://www.youtube.com/watch?v=m8VkCbkFAKA",
-          "published": "2026-09-29T17:00:15+00:00",
-          "content_snippet": "These builders aren’t just writing code. They’re rewriting what’s possible.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Barclays scales Claude to upgrade operations and improve client experience",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude",
+          "published": "2026-10-01T15:19:00+00:00",
+          "content_snippet": "Barclays scales Claude to upgrade operations and improve client experience\nBarclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.\nBarclays is extending Claude across the bank to accelerate software development, modernize legacy systems, and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by th",
+          "source_name": "Anthropic News",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 9
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -302,47 +355,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "The State of AI in Software Development: Data from 400+ Orgs — Justin Reock, DX",
-          "url": "https://www.youtube.com/watch?v=Se8jHLliLXE",
-          "published": "2026-09-30T14:30:20+00:00",
-          "content_snippet": "Justin Reock (Deputy CTO, DX) shares five trends from DX's data on about 200,000 engineers. Deployment frequency is rising, but change failure rate has become far more volatile. Maintainability is up while change confidence is down. PRs have grown from about 44 to 72 lines. Juniors use AI the most, but staff+ engineers save as much time while using fewer tokens. Median gains in PR throughput are around 7.7%, and even top performers didn't reach 2x, because code generation was never the bottlenec",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2",
-          "url": "https://www.youtube.com/watch?v=9cJrbj23fOA",
-          "published": "2026-09-30T14:00:21+00:00",
-          "content_snippet": "The Chief AI Officer is one of the fastest-growing roles in tech, and one of the least defined. AI is in everything, so the job can easily turn into everything. Rania Khalaf (Chief AI Officer, WSO2; previously 20 years at IBM Research, where she ran about a third of the global AI research organization) shares a framework from two years in the role. It splits the job into three focus areas, Scientist, Architect and Coach, each a slider whose setting depends on your company type, its AI maturity a",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "The Death of the Code Review: What the Data Actually Says — Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=_mi3alkqy4s",
-          "published": "2026-09-30T13:30:35+00:00",
-          "content_snippet": "Developers using autonomous agents wrote 741% more code but shipped only 30% more software. The bottleneck is human review, and \"just review harder\" doesn't scale. Reviewer effectiveness collapses past about 400 lines, and agents now open 10,000-line PRs. Laurie Voss (Head of Developer Relations at Arize AI, co-founder of npm) reviews what the industry is actually doing about it. The evidence covers OpenAI's zero-human-code product, METR's finding that about half of SWE-bench-passing PRs wouldn'",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your Agents Are in Solitary Confinement: Why MCP & A2A Aren't Enough — Vlad Luzin, Band",
-          "url": "https://www.youtube.com/watch?v=UOcHfR3_tys",
-          "published": "2026-09-30T13:00:33+00:00",
-          "content_snippet": "If you run Claude and Codex side by side, one planning and one reviewing, you're doing the job of a network router, passing messages between two stateful agents by hand. Loop engineering hands that job to a script. Neither one lets agents actually work together. Vlad Luzin (Co-founder & CTO, Band) explains why connecting agents is a distributed systems problem. Bigger context windows don't fix the single-agent bottleneck. Messaging platforms like Slack, Discord and WhatsApp are built for humans ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 4
+      }
     }
   ],
-  "deduped_count": 17
+  "deduped_count": 19
 }
