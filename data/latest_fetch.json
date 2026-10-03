@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T15:57:53Z",
+  "fetched_at": "2026-10-03T14:24:51Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -15,6 +15,10 @@
       "items": [],
       "errors": [
         {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Meta Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -24,8 +28,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 3,
-        "Netflix Tech Blog": 1,
+        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1
       }
     },
@@ -53,28 +56,19 @@
       ],
       "items": [
         {
-          "title": "Bill Ackman: The Inevitable Market Reset",
-          "url": "https://www.youtube.com/watch?v=SPEtDJatlF0",
-          "published": "2026-10-01T16:59:43+00:00",
-          "content_snippet": "What makes a great investment? Bill Ackman is the founder and CEO of hedge fund Pershing Square. Since founding it in 2004, he has grown it to $20 billion in assets by keeping his bets highly concentrated, even in as few as 10 companies. On our latest episode, he talks about finding great businesses, knowing when to walk away, AI, and the market blowup he sees coming. If you want to understand investing better, the full episode is live now. The Knowledge Project is a show featuring in-depth conv",
+          "title": "How to Master Anything",
+          "url": "https://www.youtube.com/watch?v=01kYGMwlt6Q",
+          "published": "2026-10-02T19:32:33+00:00",
+          "content_snippet": "*Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive success. Learn more at https://fs.blog/podcast",
           "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "The political philosophy that changed the world | Jonathan Rauch: Full Interview",
-          "url": "https://www.youtube.com/watch?v=fzol1qf9qTo",
-          "published": "2026-10-02T13:00:09+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-rauch-fzol1qf9qTo Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Arguing is a constructive skill: The blueprint to build yours | Bo Seo: Full Interview ► https://www.youtube.com/watch?v=8vYZ5oQb4M8 Jon",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Telling a story with one line | Richard Kelly",
-          "url": "https://www.youtube.com/watch?v=ifkx7ordSB4",
-          "published": "2026-10-01T18:03:38+00:00",
-          "content_snippet": "Telling a story with one line | Richard Kelly The 25th Anniversary showing of “Donnie Darko” premieres in theaters October 2nd. Get tickets here: https://hubs.la/Q04wnCmM0",
+          "title": "3 tips for working with AI | Adam Frank",
+          "url": "https://www.youtube.com/watch?v=a7zQWaWlXME",
+          "published": "2026-10-02T16:04:42+00:00",
+          "content_snippet": "3 tips for working with AI | Adam Frank",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -143,113 +137,90 @@
       ],
       "items": [
         {
-          "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
-          "published": "2026-10-02T03:35:00+00:00",
-          "content_snippet": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity to surface threats such as container escapes, privilege escalation, and cryptomining on Amazon EC2 instances, Amazon EKS clusters, and Amazon ECS tasks on AWS Fargate. Security Hub now bills this coverage through streamlined pricing. If you have Security Hub enabled in an account and region, you no lo",
+          "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+          "published": "2026-10-02T20:18:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates. With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly t",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Well-Architected Agent is now available in preview",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-          "published": "2026-10-01T20:00:00+00:00",
-          "content_snippet": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and reliability, delivering contextualized recommendations prioritized by business goals. It automatically correlates key metrics and application topology against Well-Architected best practices and analyzes Terraform, CDK templates and CloudFor",
+          "title": "AWS Health introduces the version catalog for software lifecycle management",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+          "published": "2026-10-02T18:09:00+00:00",
+          "content_snippet": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and end-of-support risk. It is available in the AWS Health Dashboard, and customers on Business Support Plus, Enterprise Support, or Unified Operations can use the AWS Health API to integrate lifecycle data into their operational workflows. Custome",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift now supports cross-Region queries for your data lake",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
-          "published": "2026-10-01T18:41:00+00:00",
-          "content_snippet": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC. Both capabilities are powered by the integrated data lake query engine that runs directly on the compute of RG provisioned and Serverless clusters. These features are aimed at enterprises with globally distributed data and at security-sensitive customers who need tight control over h",
+          "title": "Amazon Aurora DSQL now supports partial indexes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+          "published": "2026-10-02T17:30:00+00:00",
+          "content_snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set alongside a much larger history, such as open orders among years of completed ones. Add a WHERE clause to CREATE INDEX to index just that working set. The index stays small as the table grows, and queries that target those rows read less data. A",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
-          "published": "2026-10-01T17:00:00+00:00",
-          "content_snippet": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered export enables you to specify exactly which items and attributes to export, producing a dataset that contains only the data relevant to your use case. With filtered export, you use a key condition expression on a key attribute and a filter expression on a",
+          "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+          "published": "2026-10-02T17:30:00+00:00",
+          "content_snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS clusters using version 1.37 and upgrade existing clusters to version 1.37 using the EKS console, the eksctl command line interface, or through an infrastructure-as-code tool. Kubernetes version 1.37 introduces several key improvements, promotin",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
-          "published": "2026-10-01T16:44:00+00:00",
-          "content_snippet": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific (Osaka), Asia Pacific (Seoul), Asia Pacific (Taipei), Asia Pacific (Thailand), Canada West (Calgary), Europe (Milan), Europe (Zurich), Israel (Tel Aviv), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West). DAX",
+          "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+          "published": "2026-10-02T16:30:00+00:00",
+          "content_snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withh",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon GuardDuty now supports centralized management using AWS Organizations declarative policies",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
-          "published": "2026-10-01T16:01:00+00:00",
-          "content_snippet": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an organization policy, you can now apply a centrally managed GuardDuty enablement configuration. The configuration applies to existing accounts and is automatically maintained as new accounts join your organization. Enabling GuardDuty across all relevant accounts and Regions helps ensure comprehensive th",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Corretto 8 September 2026 Patch Updates",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
-          "published": "2026-10-01T14:00:00+00:00",
-          "content_snippet": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto 8u504 is now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. This patch includes the tzdata 2026d updates. Visit Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Co",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-          "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
-          "published": "2026-10-01T20:04:04+00:00",
-          "content_snippet": "Today, we’re announcing the public preview of AWS Well-Architected Agent , an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications’ cost, security, performance, and resilience. The AWS Well-Architected Agent analyzes your infrastructure, understands unique business goals, and delivers contextual recommendations with ready-to-implement fixes. It delivers context-aware optimization without relying on manual audits or ",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks",
-          "url": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
-          "published": "2026-10-02T11:00:00+00:00",
-          "content_snippet": "The opportunity: Personalization as a revenue engineEvery second a shopper spends...",
+          "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
+          "url": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
+          "published": "2026-10-02T17:40:26+00:00",
+          "content_snippet": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
-          "url": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
-          "published": "2026-10-01T17:53:52+00:00",
-          "content_snippet": "In managed OLTP, restores have always been painfully slow and they get slower at...",
+          "title": "How to choose your first Genie Agents for maximum impact",
+          "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
+          "published": "2026-10-02T16:15:00+00:00",
+          "content_snippet": "With more than 1 million Genie Agents created in 2026 alone, the question facing...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The dots demo, take two | OpenAI DevDay 2026",
-          "url": "https://www.youtube.com/watch?v=fHEIw5CcN5U",
-          "published": "2026-10-01T17:20:52+00:00",
-          "content_snippet": "Meet dots, always-on AI agents that get to know what matters to you and take work off your plate. See dots in action, from planning a trip to making sense of user feedback and catching up on Slack. https://openai.com/index/introducing-dots/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "published": "2026-10-02T23:01:00+00:00",
+          "content_snippet": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap\nThe first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others.\nToday we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent. Backed b",
+          "source_name": "Anthropic News",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Anthropic News": 1
+        "OpenAI": 1
       }
     },
     {
@@ -265,28 +236,64 @@
       ],
       "items": [
         {
-          "title": "Your Coding Agent Is 6 Months Out of Date — Jakub Hojsan, Exa",
-          "url": "https://www.youtube.com/watch?v=cKhpeEBnT1o",
-          "published": "2026-10-02T15:30:31+00:00",
-          "content_snippet": "Every model ships about six months behind its knowledge cutoff. Your code review agent is reviewing changes it has never seen. Jakub Hojsan, forward deployed engineer at Exa, explains how Exa built search for coding and code-review agents. He walks through a real PR that falls in a model's blind spot, shows why just adding a web search tool doesn't fix it, and explains how to give your agent rules for when to search. He also covers query-dependent highlights that cut a 100,000-character page dow",
+          "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
+          "url": "https://www.youtube.com/watch?v=rTojoVotlD8",
+          "published": "2026-10-03T01:30:33+00:00",
+          "content_snippet": "Latency, errors, traffic and saturation tell you your app is up. They don't tell you if it's right. Marina Petzel, GenAI advocate at Datadog, explains why the classic golden signals are necessary but no longer enough for generative AI applications, and which metrics to add on top. She covers cost monitoring (token creep, model drift, uncached calls and tagging for cost attribution), safety monitoring (prompt injection, PII leakage, toxicity and jailbreaks) and quality monitoring (hallucination r",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "MCP Doesn't Suck. Your Agent Does. — Jan Čurn, Apify",
-          "url": "https://www.youtube.com/watch?v=pAnLpiAG6Es",
-          "published": "2026-10-02T14:00:05+00:00",
-          "content_snippet": "Everyone's dunking on MCP. The protocol isn't the problem. Your agent harness is. Jan Čurn, founder and CEO of Apify, goes through the 'MCP is dead' backlash and shows that most of the complaints, like context bloat and token burn, come from naive client implementations, not the protocol. He covers the three fixes the industry has landed on (sub-agents, progressive tool discovery, Code Mode), explains why CLIs feel better to agents, and makes the case for using MCP for remote access and a CLI fo",
+          "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
+          "url": "https://www.youtube.com/watch?v=OE_lLNCNfQo",
+          "published": "2026-10-03T00:30:06+00:00",
+          "content_snippet": "Rowan tried to hack himself with his own coding agent. Five prompts later it had found his browser history, his bank accounts and more. Rowan Christmas, product manager at Docker, shows why harness-level guardrails aren't enough to protect your machine from your own agent, and how microVM sandboxes give you security by design. He demos Docker Sandboxes (sbx): one command spins up an isolated VM with its own kernel, filesystem isolation, secret placeholders, default-deny networking and a full aud",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Renting Your AI's Memory — Dylan Couzon, Qdrant",
-          "url": "https://www.youtube.com/watch?v=apyrzaWj0Z4",
-          "published": "2026-10-02T07:00:14+00:00",
-          "content_snippet": "Superintelligence is coming. The real question is who it belongs to. Dylan Couzon, developer relations engineer at Qdrant, argues that frontier-class models now run on hardware you can own, but the most valuable part of the stack, the memory that makes an assistant yours, still lives in someone else's cloud. He breaks memory down into write, retrieve and forget, explains why retrieval beats a big folder of markdown, and runs a live, fully offline demo: a drone that builds its own searchable memo",
+          "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
+          "url": "https://www.youtube.com/watch?v=y-OVWZD4j6U",
+          "published": "2026-10-02T23:30:30+00:00",
+          "content_snippet": "Coding agents made development faster. They also made production a lot harder to debug. Eric Schwartz, product manager at Traversal, explains why more AI-written code means more time spent troubleshooting, why observability dashboards tell you what broke but not why, and why root cause analysis is a causal problem rather than an observability problem. He lays out five levels of 'self-driving production' and shares case studies on alert intelligence for a PepsiCo supply chain team and incident ro",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Lessons from Generating 12 Trillion Synthetic Tokens — Bogdan Gaza, DatologyAI",
+          "url": "https://www.youtube.com/watch?v=FQwTqUmcbRg",
+          "published": "2026-10-02T23:30:27+00:00",
+          "content_snippet": "The web has roughly 30 trillion tokens of usable text. Frontier pre-training needs more. Here's how DatologyAI generates the rest. Bogdan Gaza, co-founder and CTO of DatologyAI, shares the engineering lessons from running synthetic data jobs at trillion-token scale, including a recent run of about 12 trillion tokens across web, math and code. He covers BeyondWeb, DatologyAI's rephrasing-based synthetic data recipe, and the move from a split Slurm/Kubernetes setup to a single Ray, KubeRay and vLL",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Why AI Didn't Actually Make You Ship Faster — Gabriel Spencer-Harper, Meticulous",
+          "url": "https://www.youtube.com/watch?v=HLTa7Vcs4X0",
+          "published": "2026-10-02T21:30:22+00:00",
+          "content_snippet": "AI writes code faster than humans can review it. Verification is now your bottleneck. Gabriel Spencer-Harper, co-founder and CEO of Meticulous, explains why assertion-based tests can't keep up with AI-generated code, and what near-exhaustive frontend verification with zero developer effort looks like. He demos how Meticulous records real user flows, replays them on every pull request and shows visual before/after diffs. He also explains the three technologies that make it work: fully mocked netw",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Why 99% Accurate Browser Agents Still Fail — Derek Meegan, Browserbase",
+          "url": "https://www.youtube.com/watch?v=5xi_S1f9sDU",
+          "published": "2026-10-02T21:30:15+00:00",
+          "content_snippet": "A browser agent that's 99% accurate per step succeeds only about 36% of the time over 100 steps. Here's how to beat that math. Derek Meegan, software engineer at Browserbase, explains what separates a browser-agent demo from thousands of unattended production runs. He covers how agents see the web (text, screenshots and code), why cost builds up with every step while value only comes at the end, and why you should measure success per transaction, not per run. Then he walks through a real archite",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Stop Rationing Tokens: Let the Harness Pick the Model — Kimchi by Cast AI",
+          "url": "https://www.youtube.com/watch?v=48YUYDjwfYY",
+          "published": "2026-10-02T20:00:14+00:00",
+          "content_snippet": "Token budgets are out of control, and limiting tokens cripples your developers. Cast AI took a different route. Laurent Gil, co-founder and president of Cast AI, and Žilvinas Urbonas, who leads engineering for Kimchi, show how Cast AI built its own open-source coding harness after its coding-agent bill took off. The key idea is to measure cost per task instead of cost per token, and to let the harness choose the right proprietary or open model for each task based on the outcome. They share three",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -296,5 +303,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 12
 }
