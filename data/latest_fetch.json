@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T14:24:51Z",
+  "fetched_at": "2026-10-04T14:58:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The F1 driver era of AI coding",
+          "url": "https://www.youtube.com/watch?v=LHLmcxARfXo",
+          "published": "2026-10-03T15:30:03+00:00",
+          "content_snippet": "with Peter Mattis, CTO and cofounder at Cockroach Labs See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -28,7 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1
       }
     },
@@ -54,33 +63,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "How to Master Anything",
-          "url": "https://www.youtube.com/watch?v=01kYGMwlt6Q",
-          "published": "2026-10-02T19:32:33+00:00",
-          "content_snippet": "*Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive success. Learn more at https://fs.blog/podcast",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "3 tips for working with AI | Adam Frank",
-          "url": "https://www.youtube.com/watch?v=a7zQWaWlXME",
-          "published": "2026-10-02T16:04:42+00:00",
-          "content_snippet": "3 tips for working with AI | Adam Frank",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Knowledge Project Podcast": 2,
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -135,83 +128,22 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-          "published": "2026-10-02T20:18:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates. With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Health introduces the version catalog for software lifecycle management",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
-          "published": "2026-10-02T18:09:00+00:00",
-          "content_snippet": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and end-of-support risk. It is available in the AWS Health Dashboard, and customers on Business Support Plus, Enterprise Support, or Unified Operations can use the AWS Health API to integrate lifecycle data into their operational workflows. Custome",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Aurora DSQL now supports partial indexes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-          "published": "2026-10-02T17:30:00+00:00",
-          "content_snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set alongside a much larger history, such as open orders among years of completed ones. Add a WHERE clause to CREATE INDEX to index just that working set. The index stays small as the table grows, and queries that target those rows read less data. A",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-          "published": "2026-10-02T17:30:00+00:00",
-          "content_snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS clusters using version 1.37 and upgrade existing clusters to version 1.37 using the EKS console, the eksctl command line interface, or through an infrastructure-as-code tool. Kubernetes version 1.37 introduces several key improvements, promotin",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
-          "published": "2026-10-02T16:30:00+00:00",
-          "content_snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withh",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
-          "url": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
-          "published": "2026-10-02T17:40:26+00:00",
-          "content_snippet": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to choose your first Genie Agents for maximum impact",
-          "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
-          "published": "2026-10-02T16:15:00+00:00",
-          "content_snippet": "With more than 1 million Genie Agents created in 2026 alone, the question facing...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
-          "url": "https://www.anthropic.com/news/claude-frontier-academy",
-          "published": "2026-10-02T23:01:00+00:00",
-          "content_snippet": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap\nThe first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others.\nToday we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent. Backed b",
-          "source_name": "Anthropic News",
-          "source_type": "website",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -236,64 +168,64 @@
       ],
       "items": [
         {
-          "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
-          "url": "https://www.youtube.com/watch?v=rTojoVotlD8",
-          "published": "2026-10-03T01:30:33+00:00",
-          "content_snippet": "Latency, errors, traffic and saturation tell you your app is up. They don't tell you if it's right. Marina Petzel, GenAI advocate at Datadog, explains why the classic golden signals are necessary but no longer enough for generative AI applications, and which metrics to add on top. She covers cost monitoring (token creep, model drift, uncached calls and tagging for cost attribution), safety monitoring (prompt injection, PII leakage, toxicity and jailbreaks) and quality monitoring (hallucination r",
+          "title": "Dashboards Are Dead — Sarah Simionescu, Composio",
+          "url": "https://www.youtube.com/watch?v=YiFqcu9YA38",
+          "published": "2026-10-04T01:30:36+00:00",
+          "content_snippet": "Sarah used Datadog every day for six months without ever opening the dashboard. Sarah Simionescu, member of technical staff at Composio and on the team behind the Composio dashboard, makes the case that the dashboard is dead. She traces how we got here: five tools and five query languages, then the AI 'sparkle button', then MCP. She explains why MCP alone is still a mess (agents don't learn, too many tools drown the model, every app is isolated) and shows how an interface designed for agents fix",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
-          "url": "https://www.youtube.com/watch?v=OE_lLNCNfQo",
-          "published": "2026-10-03T00:30:06+00:00",
-          "content_snippet": "Rowan tried to hack himself with his own coding agent. Five prompts later it had found his browser history, his bank accounts and more. Rowan Christmas, product manager at Docker, shows why harness-level guardrails aren't enough to protect your machine from your own agent, and how microVM sandboxes give you security by design. He demos Docker Sandboxes (sbx): one command spins up an isolated VM with its own kernel, filesystem isolation, secret placeholders, default-deny networking and a full aud",
+          "title": "Stop Fine-Tuning to Fix Retrieval Problems — Anant Srivastava",
+          "url": "https://www.youtube.com/watch?v=qflLT3SoVbw",
+          "published": "2026-10-04T00:00:35+00:00",
+          "content_snippet": "Most AI teams never decide where their knowledge lives. Six months of normal product work decides for them. Anant Srivastava, principal technologist for data and AI platforms at Oracle, argues that prompt, memory and weights aren't a ladder you climb when answers go wrong. They're three tools for three jobs. Through a support assistant that kept inventing product names after a fine-tune, he shows how architecture builds up by accident. He then gives a simple diagnostic for each: the prompt is fo",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
-          "url": "https://www.youtube.com/watch?v=y-OVWZD4j6U",
-          "published": "2026-10-02T23:30:30+00:00",
-          "content_snippet": "Coding agents made development faster. They also made production a lot harder to debug. Eric Schwartz, product manager at Traversal, explains why more AI-written code means more time spent troubleshooting, why observability dashboards tell you what broke but not why, and why root cause analysis is a causal problem rather than an observability problem. He lays out five levels of 'self-driving production' and shares case studies on alert intelligence for a PepsiCo supply chain team and incident ro",
+          "title": "What Makes Open Models Fast in Production — Sujee Maniyam, Nebius",
+          "url": "https://www.youtube.com/watch?v=TRe1u7dHYiA",
+          "published": "2026-10-03T22:30:28+00:00",
+          "content_snippet": "Open models have nearly caught up with proprietary ones. Serving them fast and cheaply is the hard part. Dylan Bristot, who leads product marketing for Nebius Token Factory, and developer advocate Sujee Maniyam explain what it takes to run open LLMs in production. Dylan covers the trade-off between closed APIs and self-hosting, and the inference → data → post-training → deployment loop. Sujee then goes layer by layer through the optimizations behind fast inference: NVFP4 on the latest NVIDIA har",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Lessons from Generating 12 Trillion Synthetic Tokens — Bogdan Gaza, DatologyAI",
-          "url": "https://www.youtube.com/watch?v=FQwTqUmcbRg",
-          "published": "2026-10-02T23:30:27+00:00",
-          "content_snippet": "The web has roughly 30 trillion tokens of usable text. Frontier pre-training needs more. Here's how DatologyAI generates the rest. Bogdan Gaza, co-founder and CTO of DatologyAI, shares the engineering lessons from running synthetic data jobs at trillion-token scale, including a recent run of about 12 trillion tokens across web, math and code. He covers BeyondWeb, DatologyAI's rephrasing-based synthetic data recipe, and the move from a split Slurm/Kubernetes setup to a single Ray, KubeRay and vLL",
+          "title": "GPU Died. Training Didn't: Self-Healing Training at Scale — Crusoe",
+          "url": "https://www.youtube.com/watch?v=bRGyYaE0lxI",
+          "published": "2026-10-03T21:00:39+00:00",
+          "content_snippet": "Across thousands of GPUs, hardware failures are guaranteed. Fixing them by hand at 3 a.m. doesn't scale. Connor Guerrero, Young Jeong and Nikhil Gupta from Crusoe explain why they built Managed Slurm on top of Kubernetes. Slurm gives researchers gang scheduling, topology awareness and familiar sbatch workflows, but falls short on dynamic resources, node health and observability. Kubernetes fills those gaps without either team changing how it works. They walk through AutoClusters' fully automatic",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why AI Didn't Actually Make You Ship Faster — Gabriel Spencer-Harper, Meticulous",
-          "url": "https://www.youtube.com/watch?v=HLTa7Vcs4X0",
-          "published": "2026-10-02T21:30:22+00:00",
-          "content_snippet": "AI writes code faster than humans can review it. Verification is now your bottleneck. Gabriel Spencer-Harper, co-founder and CEO of Meticulous, explains why assertion-based tests can't keep up with AI-generated code, and what near-exhaustive frontend verification with zero developer effort looks like. He demos how Meticulous records real user flows, replays them on every pull request and shows visual before/after diffs. He also explains the three technologies that make it work: fully mocked netw",
+          "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=8aVbXXvJUY4",
+          "published": "2026-10-03T19:30:16+00:00",
+          "content_snippet": "Models became agents, and the APIs didn't keep up. Google DeepMind rebuilt them. Ivan Leo, developer experience engineer at Google DeepMind, introduces the Gemini Interactions API and Managed Agents. He traces how we went from single completions to function calling to agents, then shows server-side state with interaction IDs (no more hand-managing thought signatures), strongly typed multimodal outputs, mixing built-in and custom tools, and the new steps data model. He then demos Managed Agents, ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why 99% Accurate Browser Agents Still Fail — Derek Meegan, Browserbase",
-          "url": "https://www.youtube.com/watch?v=5xi_S1f9sDU",
-          "published": "2026-10-02T21:30:15+00:00",
-          "content_snippet": "A browser agent that's 99% accurate per step succeeds only about 36% of the time over 100 steps. Here's how to beat that math. Derek Meegan, software engineer at Browserbase, explains what separates a browser-agent demo from thousands of unattended production runs. He covers how agents see the web (text, screenshots and code), why cost builds up with every step while value only comes at the end, and why you should measure success per transaction, not per run. Then he walks through a real archite",
+          "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j",
+          "url": "https://www.youtube.com/watch?v=oUZEt4EiPbk",
+          "published": "2026-10-03T16:30:34+00:00",
+          "content_snippet": "No Mac Mini, no laptop agent. Jeremy Adams runs his personal AI agent on an old Raspberry Pi he wears around his neck. Jeremy Adams, senior developer advocate at Neo4j, assembles a wearable AI agent live on stage: NanoClaw on a Raspberry Pi 4B, messaged over WhatsApp, with Docker-isolated agents and a Neo4j graph database. He shows how he built graph memory using the POLE schema (person, object, location, event) mid-flight, added voice-to-text through a USB mic and a hardware button, ran an offl",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Rationing Tokens: Let the Harness Pick the Model — Kimchi by Cast AI",
-          "url": "https://www.youtube.com/watch?v=48YUYDjwfYY",
-          "published": "2026-10-02T20:00:14+00:00",
-          "content_snippet": "Token budgets are out of control, and limiting tokens cripples your developers. Cast AI took a different route. Laurent Gil, co-founder and president of Cast AI, and Žilvinas Urbonas, who leads engineering for Kimchi, show how Cast AI built its own open-source coding harness after its coding-agent bill took off. The key idea is to measure cost per task instead of cost per token, and to let the harness choose the right proprietary or open model for each task based on the outcome. They share three",
+          "title": "How VS Code Went from Monthly to Weekly Releases with AI — Harald Kirschner",
+          "url": "https://www.youtube.com/watch?v=I2LL_wd89-A",
+          "published": "2026-10-03T15:00:10+00:00",
+          "content_snippet": "After 10 years of monthly releases, VS Code now ships weekly. It wasn't more AI that made it work. It was rebuilding the whole system around it. Harald Kirschner, principal product manager on VS Code at Microsoft, explains how a small team shipping to more than 50 million users moved from monthly to weekly releases with AI agents, and what broke along the way. He covers three stages: shipping faster (agent-ready codebases, skills, TypeScript Go's 10x faster builds, letting agents drive the app),",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -303,5 +235,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 12
+  "deduped_count": 11
 }
