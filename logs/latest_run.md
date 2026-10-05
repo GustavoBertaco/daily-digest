@@ -1,23 +1,23 @@
 ---
-date: 2026-10-04
+date: 2026-10-05
 type: run-log
 ---
 
-# Digest Run Log — October 4, 2026
-Fetched at: 2026-10-04T14:58:17Z | default window: 26h (per-source/per-type overrides may differ)
+# Digest Run Log — October 5, 2026
+Fetched at: 2026-10-05T10:05:45Z | default window: 26h (per-source/per-type overrides may differ)
 
 ## Results by source
 
 | Source | Area | Items | Status |
 |--------|------|-------|--------|
-| The Pragmatic Engineer | Technology | 1 | ✅ |
+| The Pragmatic Engineer | Technology | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Netflix Tech Blog | Technology | 0 | ❌ No items returned (feed empty or all outside time window) |
+| Airbnb Tech | Technology | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Meta Engineering | Technology | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Uber Engineering | Technology | 0 | ❌ No items returned (feed empty or all outside time window) |
-| Airbnb Tech | Technology | 0 | ↩️ 1 already digested |
+| The Knowledge Project Podcast | Personal Development | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Daniel Pink | Personal Development | 0 | ❌ No items returned (feed empty or all outside time window) |
-| The Knowledge Project Podcast | Personal Development | 0 | ↩️ 2 already digested |
-| Big Think | Personal Development | 0 | ↩️ 3 already digested |
+| Big Think | Personal Development | 0 | ❌ No items returned (feed empty or all outside time window) |
 | The Data Engineering Show | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Data Mesh Learning | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
 | NextGenLakehouse | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
@@ -28,12 +28,12 @@ Fetched at: 2026-10-04T14:58:17Z | default window: 26h (per-source/per-type over
 | AWS Blog | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Databricks Blog | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Anthropic News | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
+| OpenAI | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Devin AI (Cognition) | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
-| OpenAI | Providers Updates | 0 | ↩️ 1 already digested |
-| AI Engineer | AI & Machine Learning | 7 | ✅ |
+| AI Engineer | AI & Machine Learning | 0 | ❌ No items returned (feed empty or all outside time window) |
 
 ## Summary
 
-- Total items fetched: 8
-- Sources with errors: 15
-- Areas with 0 items: 4 (Product Management, Personal Development, Data Platform, Providers Updates)
+- Total items fetched: 0
+- Sources with errors: 21
+- Areas with 0 items: 6 (Technology, Product Management, Personal Development, Data Platform, Providers Updates, AI & Machine Learning)
