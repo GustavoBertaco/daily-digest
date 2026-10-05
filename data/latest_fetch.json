@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04T14:58:17Z",
+  "fetched_at": "2026-10-05T18:49:20Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,10 @@
       ],
       "items": [
         {
-          "title": "The F1 driver era of AI coding",
-          "url": "https://www.youtube.com/watch?v=LHLmcxARfXo",
-          "published": "2026-10-03T15:30:03+00:00",
-          "content_snippet": "with Peter Mattis, CTO and cofounder at Cockroach Labs See the full episode on The Pragmatic Engineer Podcast",
+          "title": "Why models struggle with design",
+          "url": "https://www.youtube.com/watch?v=HAwxOr99KjQ",
+          "published": "2026-10-04T16:00:12+00:00",
+          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -63,7 +63,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "How to be free of distress | Jonny Thomson",
+          "url": "https://www.youtube.com/watch?v=s-XRVz4nDHY",
+          "published": "2026-10-05T16:04:40+00:00",
+          "content_snippet": "How to be free of distress | Jonny Thomson",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "Daniel Pink",
@@ -71,8 +81,7 @@
         }
       ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 2,
-        "Big Think": 3
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -128,20 +137,54 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "AWS Private CA now provides detailed certificate issuance logs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+          "published": "2026-10-05T09:00:00+00:00",
+          "content_snippet": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing status for every issuance. You can use these events for compliance auditing, certificate inventory, algorithm migration tracking, and failed-issuance monitoring. Previously, the CloudTrail management event for the IssueCertificate API confirmed that the API call succeeded by providing a certificate A",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+          "published": "2026-10-05T15:41:19+00:00",
+          "content_snippet": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI , built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use. You can choose an execution environment: self-hosted compute to use an existing development machine, container, or compute environmen",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Unlocking Data Portability: Preventing Catalog Lock-in with REGISTER and UNREGISTER APIs",
+          "url": "https://www.databricks.com/blog/unlocking-data-portability-preventing-catalog-lock-register-and-unregister-apis",
+          "published": "2026-10-05T16:00:00+00:00",
+          "content_snippet": "As organizations embrace the lakehouse architecture, data is shifting from proprietary...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "How Genie Ontology powers product development at Databricks",
+          "url": "https://www.databricks.com/blog/how-genie-ontology-powers-product-development-databricks",
+          "published": "2026-10-05T15:07:02+00:00",
+          "content_snippet": "General-purpose AI agents are good at searching the web, reasoning, and writing code....",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Meet the New Codex CLI",
+          "url": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
+          "published": "2026-10-05T18:29:08+00:00",
+          "content_snippet": "Take a look at the latest Codex CLI updates and the refreshed terminal experience. Follow a walkthrough of the new interface and ways to work with Codex.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -151,9 +194,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -168,64 +209,91 @@
       ],
       "items": [
         {
-          "title": "Dashboards Are Dead — Sarah Simionescu, Composio",
-          "url": "https://www.youtube.com/watch?v=YiFqcu9YA38",
-          "published": "2026-10-04T01:30:36+00:00",
-          "content_snippet": "Sarah used Datadog every day for six months without ever opening the dashboard. Sarah Simionescu, member of technical staff at Composio and on the team behind the Composio dashboard, makes the case that the dashboard is dead. She traces how we got here: five tools and five query languages, then the AI 'sparkle button', then MCP. She explains why MCP alone is still a mess (agents don't learn, too many tools drown the model, every app is isolated) and shows how an interface designed for agents fix",
+          "title": "How I Learned to Stop Worrying and Love the Sandbox — Matt Brockman, E2B",
+          "url": "https://www.youtube.com/watch?v=fz6-NS7qpZc",
+          "published": "2026-10-05T18:00:17+00:00",
+          "content_snippet": "A runaway process consumes 99.7% of a sandbox's CPU, and killing it unlocks the next level of a capture the flag lab. Matt Brockman walks the room through deliberately broken environments to make sandbox operations concrete. Participants identify their sandbox, find memory pressure, locate a file filling the disk, and clean up background processes. Each challenge runs in its own environment, so a mistake can be reset without destroying the rest of the workshop. Brockman explains how E2B template",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Fine-Tuning to Fix Retrieval Problems — Anant Srivastava",
-          "url": "https://www.youtube.com/watch?v=qflLT3SoVbw",
-          "published": "2026-10-04T00:00:35+00:00",
-          "content_snippet": "Most AI teams never decide where their knowledge lives. Six months of normal product work decides for them. Anant Srivastava, principal technologist for data and AI platforms at Oracle, argues that prompt, memory and weights aren't a ladder you climb when answers go wrong. They're three tools for three jobs. Through a support assistant that kept inventing product names after a fine-tune, he shows how architecture builds up by accident. He then gives a simple diagnostic for each: the prompt is fo",
+          "title": "Evals in AI: A Deep Dive — Tejas Kumar, IBM",
+          "url": "https://www.youtube.com/watch?v=NdrSPm6NCdk",
+          "published": "2026-10-05T17:00:22+00:00",
+          "content_snippet": "A customer support answer passes a test because it contains the word “cannot,” even though it approves a return outside the store's policy. Tejas Kumar builds that failure live to show where ordinary assertions and fuzzy matching stop being useful. The example grows into an LLM judge, then a dataset of customer scenarios, agent responses, and human verdicts. Along the way, the judge starts favoring an answer generated by its own model family. Adding the actual return policy improves its decision",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "What Makes Open Models Fast in Production — Sujee Maniyam, Nebius",
-          "url": "https://www.youtube.com/watch?v=TRe1u7dHYiA",
-          "published": "2026-10-03T22:30:28+00:00",
-          "content_snippet": "Open models have nearly caught up with proprietary ones. Serving them fast and cheaply is the hard part. Dylan Bristot, who leads product marketing for Nebius Token Factory, and developer advocate Sujee Maniyam explain what it takes to run open LLMs in production. Dylan covers the trade-off between closed APIs and self-hosting, and the inference → data → post-training → deployment loop. Sujee then goes layer by layer through the optimizations behind fast inference: NVFP4 on the latest NVIDIA har",
+          "title": "Your AI Agent Is Confidently Wrong About Production — Willem Pienaar, Cleric",
+          "url": "https://www.youtube.com/watch?v=J17o5r5PKmw",
+          "published": "2026-10-05T17:00:02+00:00",
+          "content_snippet": "Point an agent at a production alert and it comes back with a confident root cause. Often it's just the first error log it found. Willem Pienaar, co-founder and CTO of Cleric, explains why agents that are great at writing code struggle to debug production. Prod has no tests or linter to push back, it's sprawling, always changing and often impossible to reproduce, and LLMs are trained to be decisive when debugging needs doubt. He walks through the most common failure modes (mistaking a symptom fo",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "GPU Died. Training Didn't: Self-Healing Training at Scale — Crusoe",
-          "url": "https://www.youtube.com/watch?v=bRGyYaE0lxI",
-          "published": "2026-10-03T21:00:39+00:00",
-          "content_snippet": "Across thousands of GPUs, hardware failures are guaranteed. Fixing them by hand at 3 a.m. doesn't scale. Connor Guerrero, Young Jeong and Nikhil Gupta from Crusoe explain why they built Managed Slurm on top of Kubernetes. Slurm gives researchers gang scheduling, topology awareness and familiar sbatch workflows, but falls short on dynamic resources, node health and observability. Kubernetes fills those gaps without either team changing how it works. They walk through AutoClusters' fully automatic",
+          "title": "Lifestyles of the AI-Native — Nick Nisi & Zack Proser, WorkOS",
+          "url": "https://www.youtube.com/watch?v=AgBAOXVxt4A",
+          "published": "2026-10-05T16:00:31+00:00",
+          "content_snippet": "A coding agent learned to fake a test run by touching the file meant to prove the tests had run. Nick Nisi and Zack Proser turn that failure into a rule for operating agents: define completion with checks the system must satisfy. Their WorkOS workshop starts with voice coding, using Handy for local dictation and speaking desired outcomes into Claude Code. They show how voice input carries across several active sessions, with Fleet and session recaps helping an engineer track what each agent is d",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=8aVbXXvJUY4",
-          "published": "2026-10-03T19:30:16+00:00",
-          "content_snippet": "Models became agents, and the APIs didn't keep up. Google DeepMind rebuilt them. Ivan Leo, developer experience engineer at Google DeepMind, introduces the Gemini Interactions API and Managed Agents. He traces how we went from single completions to function calling to agents, then shows server-side state with interaction IDs (no more hand-managing thought signatures), strongly typed multimodal outputs, mixing built-in and custom tools, and the new steps data model. He then demos Managed Agents, ",
+          "title": "Agentic Search vs Vector Search for Coding Agents: We Ran the Eval — Braintrust",
+          "url": "https://www.youtube.com/watch?v=T3SS931wU0I",
+          "published": "2026-10-05T15:30:36+00:00",
+          "content_snippet": "Same accuracy. Four times the cost. What happened when Braintrust pitted vector search against agentic search for a coding agent. Jess Wang, developer advocate at Braintrust, starts with the basics of evals: why shipping on vibes fails, the four parts of an eval (dataset, task, scorer, experiments), and how observability and evals form a flywheel. Then she runs a real one. Using fix PRs from Microsoft's TypeScript Go repo, she has Claude Code find the buggy code with either agentic search (grep,",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j",
-          "url": "https://www.youtube.com/watch?v=oUZEt4EiPbk",
-          "published": "2026-10-03T16:30:34+00:00",
-          "content_snippet": "No Mac Mini, no laptop agent. Jeremy Adams runs his personal AI agent on an old Raspberry Pi he wears around his neck. Jeremy Adams, senior developer advocate at Neo4j, assembles a wearable AI agent live on stage: NanoClaw on a Raspberry Pi 4B, messaged over WhatsApp, with Docker-isolated agents and a Neo4j graph database. He shows how he built graph memory using the POLE schema (person, object, location, event) mid-flight, added voice-to-text through a USB mic and a hardware button, ran an offl",
+          "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte",
+          "url": "https://www.youtube.com/watch?v=9_oy4owGtPI",
+          "published": "2026-10-05T14:00:20+00:00",
+          "content_snippet": "One agent can remember. A team of agents still can't learn together. Karthik Ranganathan, co-founder and co-CEO of Yugabyte, explains why per-agent memory is a solved problem but shared learning across agents isn't. When one agent hands work to another, it passes on the output but loses the reasoning, the dead ends and the context, so the next agent burns tokens re-deriving it all. He covers five misconceptions about memory, what Yugabyte got wrong building its own agents, and how fixing its RAG",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How VS Code Went from Monthly to Weekly Releases with AI — Harald Kirschner",
-          "url": "https://www.youtube.com/watch?v=I2LL_wd89-A",
-          "published": "2026-10-03T15:00:10+00:00",
-          "content_snippet": "After 10 years of monthly releases, VS Code now ships weekly. It wasn't more AI that made it work. It was rebuilding the whole system around it. Harald Kirschner, principal product manager on VS Code at Microsoft, explains how a small team shipping to more than 50 million users moved from monthly to weekly releases with AI agents, and what broke along the way. He covers three stages: shipping faster (agent-ready codebases, skills, TypeScript Go's 10x faster builds, letting agents drive the app),",
+          "title": "Agents That Write Their Own Tools at Runtime — Sandhya Subramani, AWS",
+          "url": "https://www.youtube.com/watch?v=33Oct2hqGnk",
+          "published": "2026-10-04T21:00:13+00:00",
+          "content_snippet": "This agent starts with zero tools. Ask it for something it can't do, and it writes the tool and uses it without restarting. Sandhya Subramani, senior developer advocate for GenAI at AWS, demos meta-tooling with the open-source Strands Agents SDK. That means agents that write, load and use their own tools at runtime, and even spin up their own sub-agents. All it takes is a system prompt describing what a good tool looks like, plus three tools: editor, shell and load_tool. She walks through agenti",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
+          "url": "https://www.youtube.com/watch?v=Bdrs3uAX0_M",
+          "published": "2026-10-04T19:30:20+00:00",
+          "content_snippet": "Claude Code can make the change. But what if you have 90,000 repositories to make it in? Dan Adler, CEO of Sourcegraph, makes the case for the people who own the huge, decades-old codebases that run banks, cars and airlines. Coding agents are producing a tidal wave of code, and those codebases are starting to decay through duplicated code, drifting standards, brittle dependencies and new vulnerabilities. Agents understand code by searching, but you can't grep what you can't see. Dan argues that ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal",
+          "url": "https://www.youtube.com/watch?v=YXb2Wx1r_Pk",
+          "published": "2026-10-04T18:00:25+00:00",
+          "content_snippet": "Shoppers are moving from typing keywords to describing what they need, and agents are doing the searching. Nixon Dinh, director of product for agentic commerce at PayPal, explains how shopping is moving from the search era to the intent era and then the delegation era, and why product catalogs built for keyword SEO aren't ready for AI agents. He breaks down keyword vs semantic search and shares the results of PayPal's experiments enriching merchant product data. Enrichment consistently improved ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Human Is an Async API — Melanie Warrick, Temporal",
+          "url": "https://www.youtube.com/watch?v=jc3kbZkuHTo",
+          "published": "2026-10-04T16:30:17+00:00",
+          "content_snippet": "Humans don't respond in 200 milliseconds. Your agent shouldn't fall over waiting for one. Melanie Warrick from developer relations at Temporal shows how to build human-in-the-loop agents that don't block or lose state. Using a live multi-agent ice cream delivery demo with fleet, customer and dispatch agents on Google ADK and LangGraph, she explains why durability belongs in the agent harness and how Temporal's workers, workflows and activities track state. She shows how two primitives, a wait co",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -235,5 +303,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 11
+  "deduped_count": 5
 }
