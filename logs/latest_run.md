@@ -1,10 +1,10 @@
 ---
-date: 2026-10-07
+date: 2026-10-08
 type: run-log
 ---
 
-# Digest Run Log — October 7, 2026
-Fetched at: 2026-10-07T10:06:14Z | default window: 26h (per-source/per-type overrides may differ)
+# Digest Run Log — October 8, 2026
+Fetched at: 2026-10-08T10:06:57Z | default window: 26h (per-source/per-type overrides may differ)
 
 ## Results by source
 
@@ -24,16 +24,16 @@ Fetched at: 2026-10-07T10:06:14Z | default window: 26h (per-source/per-type over
 | The Data Stack Show | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
 | The Analytics Engineering Podcast | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Data Engineering Weekly | Data Platform | 0 | ❌ No items returned (feed empty or all outside time window) |
-| Anthropic News | Providers Updates | 1 | ✅ |
 | AWS What's New | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | AWS Blog | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Databricks Blog | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
+| Anthropic News | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | OpenAI | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | Devin AI (Cognition) | Providers Updates | 0 | ❌ No items returned (feed empty or all outside time window) |
 | AI Engineer | AI & Machine Learning | 0 | ❌ No items returned (feed empty or all outside time window) |
 
 ## Summary
 
-- Total items fetched: 1
-- Sources with errors: 20
-- Areas with 0 items: 5 (Technology, Product Management, Personal Development, Data Platform, AI & Machine Learning)
+- Total items fetched: 0
+- Sources with errors: 21
+- Areas with 0 items: 6 (Technology, Product Management, Personal Development, Data Platform, Providers Updates, AI & Machine Learning)
