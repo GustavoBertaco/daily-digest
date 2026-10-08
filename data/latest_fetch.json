@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T16:15:30Z",
+  "fetched_at": "2026-10-08T16:56:09Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,29 +14,29 @@
       ],
       "items": [
         {
-          "title": "The state of the tech industry in 2026 - LDX3 New York",
-          "url": "https://www.youtube.com/watch?v=Ru99FGJ_yuE",
-          "published": "2026-10-06T15:51:58+00:00",
-          "content_snippet": "A look into what has changed, what’s still the same – and what’s broken – in the tech industry. The keynote presentation on 15 September 2026, at LDX3, in New York. Related The Pragmatic Engineer deepdives: • Inside OpenAI’s agentic software factory https://newsletter.pragmaticengineer.com/p/openai-software-factory • How building software is changing at Anthropic, in 2026 https://newsletter.pragmaticengineer.com/p/inside-anthropic • When AI writes almost all code, what happens to software engine",
+          "title": "Microservices: the architecture of last resort",
+          "url": "https://www.youtube.com/watch?v=z5usRAeqSSY",
+          "published": "2026-10-08T16:00:34+00:00",
+          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "Agents are lazy about testing",
-          "url": "https://www.youtube.com/watch?v=Y8Fv4SlEUp4",
-          "published": "2026-10-06T11:54:52+00:00",
-          "content_snippet": "with Peter Mattis, CTO and cofounder at Cockroach Labs See the full episode on The Pragmatic Engineer Podcast",
+          "title": "Building resilient systems with Sam Newman",
+          "url": "https://www.youtube.com/watch?v=a0sZV0qIbI0",
+          "published": "2026-10-07T16:49:23+00:00",
+          "content_snippet": "Sam Newman wrote one of the most-read books about microservices (“Building Microservices”), but he calls them an architecture of “last resort.” In this episode of the Pragmatic Engineer podcast, Sam explains his thinking on this, and he’s certainly well placed to do so; he was in the room when the term “microservices” was coined. We discuss what teams get wrong when adopting microservices, why independent deployment matters, and how microservices can help teams work more autonomously. We also de",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "NTS: Authenticated Time at Meta",
-          "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
-          "published": "2026-10-06T16:00:06+00:00",
-          "content_snippet": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com . Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including the protocol, server, client through Meta’s Time library on GitHub . We’re also encouraging everyone, particularly those who maintain an NTP client on Android or ",
-          "source_name": "Meta Engineering",
+          "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
+          "url": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4",
+          "published": "2026-10-06T17:01:04+00:00",
+          "content_snippet": "How we capture real production database traffic at Airbnb and replay it offline to load-test, plan capacity, and de-risk upgrades. By: Zuofei Wang , Erluo Li Introduction At Airbnb, MySQL-compatible databases are a critical backbone of our online database infrastructure: a fleet of hundreds of clusters supporting thousands of use cases at millions of queries per second (QPS). Operating databases at scale brings hard problems, including sizing clusters for future growth, keeping behavior consiste",
+          "source_name": "Airbnb Tech",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -52,7 +52,7 @@
         }
       ],
       "deduped_sources": {
-        "Airbnb Tech": 1
+        "Meta Engineering": 1
       }
     },
     {
@@ -79,11 +79,20 @@
       ],
       "items": [
         {
-          "title": "Better Meetings",
-          "url": "https://www.youtube.com/watch?v=rm_-BJIevQU",
-          "published": "2026-10-06T13:06:25+00:00",
-          "content_snippet": "Rogelberg is a Chancellor's Professor at UNC Charlotte. His finding on agendas is the one to know: in his research, having one made little to no difference to how people rated a meeting. One chapter of his book is titled \"Agendas Are a Hollow Crutch.\" He also has a name for what happens after a bad meeting: meeting recovery syndrome, the time people spend cooling off, usually by complaining to a colleague. Rogelberg, S. G. (2019). The surprising science of meetings: How you can lead your team to",
+          "title": "Four questions to help you stop overthinking",
+          "url": "https://www.youtube.com/watch?v=hKHUq_uXvzc",
+          "published": "2026-10-07T16:47:19+00:00",
+          "content_snippet": "Overthinking feels productive, and that is exactly the trap the research pins down. Sonja Lyubomirsky and Susan Nolen-Hoeksema had people either dwell on themselves or focus on something unrelated, then asked them to solve real problems from their own lives. The ruminators produced worse solutions. They also reported feeling like they had gained insight. Confidence went up while quality went down. Which is why questions beat argument. Each of these four pushes the mind out of the loop and toward",
           "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "3 rules for being smart about stress | Lisa Damour",
+          "url": "https://www.youtube.com/watch?v=vEDkowLG4Tc",
+          "published": "2026-10-07T16:07:33+00:00",
+          "content_snippet": "3 rules for being smart about stress | Lisa Damour",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -94,9 +103,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -153,136 +160,154 @@
       ],
       "items": [
         {
-          "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
-          "published": "2026-10-06T14:01:00+00:00",
-          "content_snippet": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface endpoint to the ACM ACME service and route issuance traffic from any ACMEv2-compatible client through your VPC. If you're already using ACME with ACM, setup requires no changes to your ACME clients. After you create your managed ACME endpoint in A",
+          "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+          "published": "2026-10-07T15:00:00+00:00",
+          "content_snippet": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS Regions you are interested in, and receive an in-app notification and a weekly email digest covering all the capabilities that became available since you enabled availability notifications. Setting availability notifications for a service covers",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
-          "published": "2026-10-05T21:57:18+00:00",
-          "content_snippet": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets, registered in the AWS Glue Data Catalog. Materialized views are created using familiar SQL — CREATE MATERIALIZED VIEW ... USING ICEBERG and the results are instantly queryable by any Iceberg-compatible engine, including Amazon Athena, Apache Spark o",
+          "title": "AWS Config now supports 77 new resource types",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+          "published": "2026-10-07T15:00:00+00:00",
+          "content_snippet": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also availab",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
-          "published": "2026-10-05T21:42:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security and compliance posture. GLM 5.3 is Z.ai’s flagship model, a mixture-of-experts architecture with 753B total parameters and roughly 40B active per token, built on the same base model as GLM 5.2 with all improvements driven by scaled post-training. It",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
-          "published": "2026-10-05T21:00:00+00:00",
-          "content_snippet": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Store, which stores your users and groups. You can restrict access to the Identity Store API and the SCIM API based on the network that requests originate from. Your custom applications and user provisioning workflows use the Identity Store API to manage and look up users and groups, and your external ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Control Tower AFT now supports plan-only customization runs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
-          "published": "2026-10-05T19:31:00+00:00",
-          "content_snippet": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts. AFT is an open-source Terraform module that automates account provisioning and customization in AWS Control Tower environments. Previously, invoking customizations always triggered a full Terraform apply with no way to preview changes, making it difficult to validate expected outcomes or",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
-          "published": "2026-10-05T18:32:00+00:00",
-          "content_snippet": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration testing without the need to contract third-party pentest vendors. Now, in public preview, Continuum for Penetration Testing shifts security testing even further left by integrating directly into your existing CI/CD systems, making penetration tes",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
-          "published": "2026-10-05T17:28:00+00:00",
-          "content_snippet": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically shared alongside the AMI, eliminating the need to build and maintain custom tag replication workflows. AMI owners simply add the 'ec2:SharedTag/' prefix to any tag key, and every account the AMI is shared with can immediately see it. This rem",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Advanced Ruby Driver Wrapper is generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-          "published": "2026-10-05T17:00:00+00:00",
-          "content_snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database switchover and database failover times, improving application availability. Additionally, it supports multiple authentication mechanisms for your database, including AWS Secrets Manager authentication, and token-based authentication with AWS",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Client VPN now supports device posture assessment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
-          "published": "2026-10-05T17:00:00+00:00",
-          "content_snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so only trusted, compliant devices can access your AWS resources through Client VPN. Previously, Client VPN authenticated users through certificates, SAML, or Active Directory. With device posture assessment, you can now also integrate CrowdStri",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Batch now supports Amazon EKS access entry authentication",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
-          "published": "2026-10-05T15:31:00+00:00",
-          "content_snippet": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap . AWS Batch can now authenticate to your cluster through the access entry mechanism, simplifying cluster setup and authentication lifecycle management. To get started, use the CreateComputeEnvironment or UpdateComputeEnvironment APIs to set accessEntry.desir",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-          "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
-          "published": "2026-10-06T16:09:36+00:00",
-          "content_snippet": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day ( 2016 , 2017 , 2019 , 2020 , 2021 , 2022 , 2023 , 2024 , and 2025 ), I want to share the services and chart-topping metrics from AWS that made your amazing shopping experience possible. Prime Day 2026 – all the numbers As always, Prime Day was powered by AWS. Here are some of the most interest",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Scaling and Operating a Large dbt Project on Databricks: IFCO's Data Team on Performance, Visibility, and Debugging",
-          "url": "https://www.databricks.com/blog/scaling-and-operating-large-dbt-project-databricks-ifcos-data-team-performance-visibility-and-debugging",
-          "published": "2026-10-06T16:00:00+00:00",
-          "content_snippet": "AbstractIFCO runs one of the world's largest reusable packaging pools with hundreds of millions of crates and pallets...",
+          "title": "Announcing Workday Data Connect federation in Unity Catalog",
+          "url": "https://www.databricks.com/blog/announcing-workday-data-connect-federation-unity-catalog",
+          "published": "2026-10-08T23:00:00+00:00",
+          "content_snippet": "We're excited to announce the publicly available Beta of the Workday Data Connect federation connector for Unity Catalog...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Meta’s ads MCP server comes to Databricks: Put your customer intelligence to work in advertising campaigns",
-          "url": "https://www.databricks.com/blog/meta-ads-mcp-databricks",
-          "published": "2026-10-06T12:45:00+00:00",
-          "content_snippet": "Here’s a familiar scenario for enterprise advertisers: the data team has done real...",
+          "title": "How to build governed enterprise apps on Databricks with Replit and Lakebase",
+          "url": "https://www.databricks.com/blog/how-build-governed-enterprise-apps-databricks-replit-and-lakebase",
+          "published": "2026-10-08T13:00:00+00:00",
+          "content_snippet": "The combination of Replit & Databricks gives enterprises a complete development-to-deployment platform...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "NEAREST BY Join: Scaling Vector Search in Databricks Runtime",
-          "url": "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
-          "published": "2026-10-05T20:00:00+00:00",
-          "content_snippet": "Vector search originated as a serving problem. The classical use case is a chatbot...",
+          "title": "Set Budgets and Alerts for Cloud Data Warehouse Costs",
+          "url": "https://www.databricks.com/blog/set-budgets-and-alerts-cloud-data-warehouse-costs",
+          "published": "2026-10-07T19:02:06+00:00",
+          "content_snippet": "Every analytics team has been here: a month-end invoice arrives, and a single SQL...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Building a custom website to stay on top of business with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=q0_JXcrx3jk",
-          "published": "2026-10-06T00:36:28+00:00",
-          "content_snippet": "This furniture shop is popular. So popular that it's tough to keep track of all of the inbound requests. ChatGPT can fix that. Victor Nunez Rodriguez visited Philadelphia Table Company in Philly to help him build a tool to stay on top of it all. Do you have something you wish existed? Drop your idea below or send us a DM and we'll come build it with you next.",
+          "title": "Now GA: Building permission-aware Databricks Apps with on-behalf-of-user authorization",
+          "url": "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization",
+          "published": "2026-10-07T16:40:00+00:00",
+          "content_snippet": "Databricks Apps lets developers build and deploy data and AI applications directly on the Databricks platform...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Building on our commitment to American scientific discovery",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "published": "2026-10-08T13:00:00+00:00",
+          "content_snippet": "Building on our commitment to American scientific discovery\nAnthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. The funding will go toward making Claude available to more than 15 agencies that are part of the mission, including NASA, the National Institutes of Health, and the National Science Foundation.\nWe first announced our p",
+          "source_name": "Anthropic News",
+          "source_type": "website",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing GPT-6 in ChatGPT with Intelligent UI",
+          "url": "https://www.youtube.com/watch?v=IsL4dVezs18",
+          "published": "2026-10-07T21:55:41+00:00",
+          "content_snippet": "ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh, and also...GPT-6 is coming to ChatGPT. For everyone. GPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. GPT‑6 with Intellige",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Build Plugins for ChatGPT",
+          "url": "https://www.youtube.com/watch?v=LiNhqbetrbU",
+          "published": "2026-10-07T21:34:02+00:00",
+          "content_snippet": "Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Stop Overpaying for Intelligence | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=_nmlHbSB8kM",
+          "published": "2026-10-07T21:10:51+00:00",
+          "content_snippet": "Cut AI costs while preserving quality. Learn to measure cost per completed task, choose models and reasoning effort, and use prompt caching, Programmatic Tool Calling, and the Batch API.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Stack Overflow - From Idea to Product | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=3glzJZ-_qB8",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "See how small teams at Stack Overflow used Codex to build Stack Overflow for Agents and reimagine Stack Internal. Take away lessons for accelerating R&D and bringing new products to market.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Higgsfield - Building Agents That Provision Their Own Compute | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=8804JYm81cc",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "Explore how Higgsfield agents choose models and provision their own compute. Learn when to use dedicated GPUs or hosted models, how to deliver predictable throughput, and where the approach can fail.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How OpenAI Puts ChatGPT to Work | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=SXCfs7mitPo",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "See how OpenAI’s teams use ChatGPT to manage launches, research competitors, and turn expertise into tools. Take practical ideas back to your own work.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Codex Has Left The Laptop | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=XkKdbPhIvbY",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "Explore what’s new in Codex across the CLI, app, and web. Through live demos, see how to move from delegating individual tasks to letting Codex tackle entire problems and goals.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "From Single Player to Multiplayer with Codex | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=aDTPTwnrRyA",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "Follow a 2am outage from the first Slack message to a reviewed fix. See how voice, Appshots, plugins, and meeting notes help a persistent personal agent investigate and keep the team informed.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Qodo - The Last Human Code Review | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=bQ3-pXCpCTg",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "See how Qodo uses OpenAI to review AI-generated code. Explore an adversarial reviewer that challenges coding agents’ assumptions and output, and learn when model confidence still needs human judgment.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "ClawLabs: Building Open Source Together | DevDay 2026",
+          "url": "https://www.youtube.com/watch?v=wZYnJfL4c2Y",
+          "published": "2026-10-07T21:10:48+00:00",
+          "content_snippet": "See how agents help small open-source teams build together. Explore workflows for sharing context across projects and working with contributors, with live demos of cloud sessions and computer use.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -290,7 +315,7 @@
       ],
       "errors": [
         {
-          "source_name": "Anthropic News",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -313,91 +338,91 @@
       ],
       "items": [
         {
-          "title": "Harness Engineering: How to Build a Software Factory — Dru Knox, Tessl",
-          "url": "https://www.youtube.com/watch?v=X6l4lpA0_NY",
-          "published": "2026-10-06T15:30:27+00:00",
-          "content_snippet": "In a software factory, agents write everything your users get. Your engineers build the factory. Dru Knox, head of product and design at Tessl, explains harness engineering (some now call it loop engineering), the discipline that takes a team from using coding agents to running a software factory. He defines a factory by three metrics: autonomy, automation and quality. He breaks the work into inner, outer and meta loops, and explains why harness engineering is hard: the field changes weekly, the",
+          "title": "Let Anyone at Your Company Ship Internal Apps with AI — Garrett Galow, WorkOS",
+          "url": "https://www.youtube.com/watch?v=HTzgC3FoYsI",
+          "published": "2026-10-08T15:30:31+00:00",
+          "content_snippet": "Building an app with AI got cheap. Getting it in front of your coworkers didn't. Garrett Galow from the WorkOS product team shows how WorkOS lets anyone at the company build and ship internal apps. It started when an account executive built a helpful sales chatbot before her leave, and the CEO couldn't even open it. Building got cheap with AI, but deploying, securing and sharing apps still needed engineers. So WorkOS built two things: WOW, a CLI pushed to every laptop that sets up the repo, tool",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Cooking with Codex — Charlie Guo & Gabriel Chua, OpenAI",
-          "url": "https://www.youtube.com/watch?v=FwiS44-xyYw",
-          "published": "2026-10-06T02:00:02+00:00",
-          "content_snippet": "Four minutes and two seconds after receiving a capture of a Slack conversation, Codex produces a macOS live translation app. Charlie Guo and Gabriel Chua use that build to show how context, plugins, and supervision fit together. The conversation supplies the idea, plugins supply development practices, and a live German translation tests the result. Other demonstrations turn repository history into a shareable site about the Agents SDK, request an IKEA style repository visualization from a phone,",
+          "title": "Giving AI Agents Memory That Learns — Jake Broekhuizen, LangChain",
+          "url": "https://www.youtube.com/watch?v=KGFyOtl5ktI",
+          "published": "2026-10-08T14:00:37+00:00",
+          "content_snippet": "Most teams are great at watching what their agents did. Far fewer turn that into lessons for the next run. Jake Broekhuizen from LangChain's Labs team explains how to give agents memory that actually changes their behavior. Using a real financial services agent whose tone kept slipping from advisory to pushy, he shows why traces and logs are only evidence: they become memory only when a lesson turns into durable context the agent reads next time. He breaks memory into semantic, episodic and proc",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How AI Agents Pay: Checkout in ChatGPT and Google AI Mode — Sam Parsons, PayPal",
-          "url": "https://www.youtube.com/watch?v=c5U-XbbEN-g",
-          "published": "2026-10-06T01:30:12+00:00",
-          "content_snippet": "Your next customer might check out without ever visiting your site. Here's how the payment actually works. Sam Parsons, senior staff engineer at PayPal working on PayPal Enterprise Payments (formerly Braintree), walks through three ways merchants can accept payments initiated by AI agents. First, Instant Checkout in ChatGPT with the Agentic Commerce Protocol and a merchant-built MCP app. Second, Google AI Mode with the Universal Commerce Protocol and Google Pay, where merchants only stand up end",
+          "title": "Why Bigger Context Windows Won't Save Your Agent — Elizabeth Fuentes Leone, AWS",
+          "url": "https://www.youtube.com/watch?v=DrfyORO8RqA",
+          "published": "2026-10-08T00:30:18+00:00",
+          "content_snippet": "A bigger context window won't save your agent. Past a point, it forgets the middle. Elizabeth Fuentes Leone, developer advocate at AWS, explains why agents break when tools return huge amounts of data, and why bigger context windows aren't the fix: models remember the start and end of a long context but lose the middle. Using the open-source, model-agnostic Strands Agents framework, she walks through four strategies (externalize, select, compress, isolate) with code. She covers sliding-window an",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Advanced Workshop: Mastering AI Observability — Doug Guthrie, Braintrust",
-          "url": "https://www.youtube.com/watch?v=hfEczxdNyvU",
-          "published": "2026-10-06T01:00:25+00:00",
-          "content_snippet": "A batch of 968 sample support traces exposes order lookup failures and broken escalation calls. Doug Guthrie uses those cases to connect Braintrust observability with the work of improving an agent. The workshop starts with a Python support agent built on the OpenAI Agents SDK, adds tracing, establishes an offline evaluation baseline, and publishes custom scorers. Online automations grade incoming traces, while Topics groups patterns in tasks, sentiment, and workflow issues. A custom facet targe",
+          "title": "AI Hackers Are Faster Than Your Pen Test — Eli Cohen, Snyk",
+          "url": "https://www.youtube.com/watch?v=f3o0-9Dlw3E",
+          "published": "2026-10-07T21:30:34+00:00",
+          "content_snippet": "Attackers use AI too, and the fastest AI attack he cites took four minutes. A pen test once or twice a year can't keep up. Eli Cohen of Snyk, co-founder of the runtime security company Helios, explains why security has to go on the offense in an agent-first world. Developers now ship far more code, much of it insecure, while attackers use frontier models to chain small vulnerabilities into critical ones in minutes. He walks through why traditional tools fall short: static scanning misses runtime",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Many Credentials Should Your AI Agent Have? Zero. — Jim Clark, Docker",
-          "url": "https://www.youtube.com/watch?v=ZUZVNKFSmTM",
-          "published": "2026-10-06T00:30:15+00:00",
-          "content_snippet": "Agents now run long enough that you stop watching them. So what are they allowed to touch? Jim Clark, principal software engineer at Docker, uses MCP gateways as a way into agent safety. Harnesses are simple loops. Safety comes from what context and tools flow into them, so the boundary to manage is the sandbox. Through two examples, a newsroom split into researcher, fact-checker and publisher sandboxes, and a coding agent that only gets signing keys when it's committing, he shows how to model e",
+          "title": "The Software Factory: From Bug Report to Production Code — Davis Palmie, Factory",
+          "url": "https://www.youtube.com/watch?v=exiwa9QbQXI",
+          "published": "2026-10-07T20:00:04+00:00",
+          "content_snippet": "Engineers are going from typing code to governing agents. The next step is a system that turns bug reports into production code. Davis Palmie, member of technical staff at Factory, explains the software factory: a system of agents that takes input signals like bug reports and user feedback and turns them into production code. He covers the questions every leader asks, from runaway costs and model choice to what happens to engineers and org charts, and argues coding was never the bottleneck: revi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "What Is an Inference Engine, Anyway? — Charles Frye, Modal",
-          "url": "https://www.youtube.com/watch?v=woIYJYd_etI",
-          "published": "2026-10-06T00:00:12+00:00",
-          "content_snippet": "A traffic spike on a museum placard generator produces longer waits for the first token and slower tokens afterward. Charles Frye reads those symptoms from an inference dashboard and shows how additional replicas relieve the queue. The example connects an application people can see to the machinery behind its API. He follows a request through server IO, tokenization, scheduling, model execution, and detokenization, using SGLang and vLLM as reference points. The scheduler controls what reaches th",
+          "title": "Why Your AI Agents Can't Talk to Each Other (Yet) — Vlad Luzin, BAND",
+          "url": "https://www.youtube.com/watch?v=toq-jyGLZDk",
+          "published": "2026-10-07T18:30:34+00:00",
+          "content_snippet": "If you run Claude and Codex side by side, you're the router passing messages between them. It doesn't have to be that way. Vlad Luzin, co-founder and CTO of BAND, argues the future belongs to AI agents talking to other AI agents, inside companies, between companies, and between businesses and consumers. Most of us already run multi-agent systems by hand, copying output between a planning session and a reviewing session, and loop engineering just hands that job to a script. He explains why: a sin",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your LLM Judge Is a Confident Liar: Building Better Verifiers — Browserbase",
-          "url": "https://www.youtube.com/watch?v=xLxhT2ZI7UM",
-          "published": "2026-10-05T23:30:05+00:00",
-          "content_snippet": "The official judge said the agent succeeded 74% of the time. A better verifier said 38%. Miguel González Fernández, tech lead for Browserbase's agent platform, and Corby Rosset, researcher at Microsoft Research, present their research on verifiers for computer-use and web agents. Deterministic evals stopped scaling as agents improved, and the LLM judges bundled with popular web benchmarks turned out to be confidently wrong. Train against them and you get a more confident liar, not a better agent",
+          "title": "Why AI Agents Should Have Their Own Sandbox — Philipp Schmid, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=oWTEiYpxl80",
+          "published": "2026-10-07T17:00:07+00:00",
+          "content_snippet": "Your agent shouldn't run on your laptop. Give it its own computer in the cloud, with one API call. Philipp Schmid from Google DeepMind walks through the Gemini Interactions API, Google's new API for both models and agents. It handles server-side state, long-running background jobs, and built-in plus custom tools across text, audio and images, and it replaces user/model turns with a timeline of steps. Then he shows the Antigravity agent in the Gemini API, which runs the same harness as Antigravit",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=F0TNSmbo5hE",
-          "published": "2026-10-05T23:00:09+00:00",
-          "content_snippet": "A toy store agent fails a request for toys under $6 because its search tool has no price filter. Laurie Voss turns that missing feature into a live demonstration of an improvement loop: add observability, inspect what happened, find the problem, and ask a coding agent to fix it. The Wonder Toys application starts without traces flowing into Arize AX. Skills installed in the workshop repository help the coding agent add tracing and query the resulting data. The diagnosis reaches beyond exceptions",
+          "title": "Redesigning How Software Gets Built With AI Agents — Sonar & McKinsey Panel",
+          "url": "https://www.youtube.com/watch?v=XqF-IFHBCkM",
+          "published": "2026-10-07T15:30:19+00:00",
+          "content_snippet": "Most companies say they've deployed AI agents. Fewer than a third say it's paying off. What do the rest do differently? A panel with Sonar CEO Tariq Shaukat and Ali-Reza Adl-Tabatabai, former CEO of Gitar (now part of Sonar) and former head of Uber's developer platform, moderated by McKinsey. Research with Sonar found the teams getting real results from agents change three things: their process, their tooling and, most often overlooked, their people and roles. Tariq explains why lighthouse teams",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From Raw Documents to AI-Ready Data — Leo Platzer & Jeff Koss",
-          "url": "https://www.youtube.com/watch?v=wzWNYDY7toc",
-          "published": "2026-10-05T22:30:12+00:00",
-          "content_snippet": "A chatbot pilot on 40 hand-picked files works great. Point it at 80,000 SharePoint documents and it falls apart. Jeff Koss and Leo Platzer, co-founder and former CTO of Deasy Labs (acquired by Collibra), walk through taking an unstructured-data AI project from stalled POC to production. Using a manufacturer building a legal-ops chatbot over 80,000 SharePoint files, they demo AI-assisted taxonomies and metadata tagging with evidence and confidence scores, sensitive-data detection, and quality che",
+          "title": "From 36% to 100%: How Self-Improving Agents Write Their Own Skills — Rafal Wilinski, Runlayer",
+          "url": "https://www.youtube.com/watch?v=u-o0sW9nwmk",
+          "published": "2026-10-07T14:00:10+00:00",
+          "content_snippet": "When one agent finally cracks a hard problem, what if every agent in the company learned it too? Rafal Wilinski, founding engineer at Runlayer, shows how to go from one self-improving agent to a self-improving company. He explains why skills matter more as agents work longer (a bad start can send them down an hours-long rabbit hole) and the three problems holding skills back: they're built for developers, nobody has time to write them, and many clients don't support them. His fix is to deliver s",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 — Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=qZj7sqmidqA",
-          "published": "2026-10-05T22:00:36+00:00",
-          "content_snippet": "An LLM correctness judge rejects all 13 reports from a financial analysis agent. Laurie Voss examines why: the agent used live web research, while the judge graded from its own knowledge without that research context. Supplying the collected sources to a faithfulness evaluator produces a more useful split of six faithful reports and seven unfaithful ones. The notebook builds the agent with the Claude Agent SDK and instruments it with OpenTelemetry and OpenInference to send traces to Arize AX. Re",
+          "title": "Grep or Embeddings? Agentic Search Over Company Documents — George He, LlamaIndex",
+          "url": "https://www.youtube.com/watch?v=X4w2Pkz5tDY",
+          "published": "2026-10-07T01:30:36+00:00",
+          "content_snippet": "Grep works great on a codebase. Try it on millions of PDFs, slides and scanned schematics. George He, head of engineering at LlamaIndex, explains when agents need pre-indexed search and when plain file traversal is enough. Claude Code skipped embeddings because code is small, text-based, local and full of breadcrumbs. Company data is huge, messy, multimodal and permissioned. He shows how to give an agent a harness of tools so it can choose: hybrid retrieval as a compass, then listing, metadata f",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -407,5 +432,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 8
+  "deduped_count": 5
 }
