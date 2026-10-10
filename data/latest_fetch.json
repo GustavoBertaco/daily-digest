@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T16:32:55Z",
+  "fetched_at": "2026-10-10T15:33:45Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,35 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Microservices: the architecture of last resort",
-          "url": "https://www.youtube.com/watch?v=z5usRAeqSSY",
-          "published": "2026-10-08T16:00:34+00:00",
-          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Building resilient systems with Sam Newman",
-          "url": "https://www.youtube.com/watch?v=a0sZV0qIbI0",
-          "published": "2026-10-07T16:49:23+00:00",
-          "content_snippet": "Sam Newman wrote one of the most-read books about microservices (“Building Microservices”), but he calls them an architecture of “last resort.” In this episode of the Pragmatic Engineer podcast, Sam explains his thinking on this, and he’s certainly well placed to do so; he was in the room when the term “microservices” was coined. We discuss what teams get wrong when adopting microservices, why independent deployment matters, and how microservices can help teams work more autonomously. We also de",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
-          "url": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4",
-          "published": "2026-10-06T17:01:04+00:00",
-          "content_snippet": "How we capture real production database traffic at Airbnb and replay it offline to load-test, plan capacity, and de-risk upgrades. By: Zuofei Wang , Erluo Li Introduction At Airbnb, MySQL-compatible databases are a critical backbone of our online database infrastructure: a fleet of hundreds of clusters supporting thousands of use cases at millions of queries per second (QPS). Operating databases at scale brings hard problems, including sizing clusters for future growth, keeping behavior consiste",
-          "source_name": "Airbnb Tech",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -52,6 +24,8 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 2,
+        "Airbnb Tech": 1,
         "Meta Engineering": 1
       }
     },
@@ -79,38 +53,11 @@
       ],
       "items": [
         {
-          "title": "Four questions to help you stop overthinking",
-          "url": "https://www.youtube.com/watch?v=hKHUq_uXvzc",
-          "published": "2026-10-07T16:47:19+00:00",
-          "content_snippet": "Overthinking feels productive, and that is exactly the trap the research pins down. Sonja Lyubomirsky and Susan Nolen-Hoeksema had people either dwell on themselves or focus on something unrelated, then asked them to solve real problems from their own lives. The ruminators produced worse solutions. They also reported feeling like they had gained insight. Confidence went up while quality went down. Which is why questions beat argument. Each of these four pushes the mind out of the loop and toward",
+          "title": "Popular Advice That Is Ruining Your Life",
+          "url": "https://www.youtube.com/watch?v=tkIE4HtOlgQ",
+          "published": "2026-10-09T17:01:06+00:00",
+          "content_snippet": "-\"Fake it till you make it\" got its most famous scientific backing from power posing, and what happened next is worth knowing. The original study reported that standing in an expansive posture changed your hormones and your appetite for risk. Then Eva Ranehill and her colleagues repeated it with a sample about five times larger. The hormone and risk effects disappeared. What survived was the smaller result: posing made people feel more powerful. Feeling powerful and performing well turned out to",
           "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How smart were T. Rex? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=1WHg1S4UV60",
-          "published": "2026-10-09T16:05:47+00:00",
-          "content_snippet": "How smart were T. Rex? | Steve Brusatte",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The engines behind 4 billion years of increasing complexity | Blaise Aguera y Arcas: Full Interview",
-          "url": "https://www.youtube.com/watch?v=9zJL0l99ejQ",
-          "published": "2026-10-09T13:00:09+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-aguera-9zJL0l99ejQ Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Science’s difficult journey to try to understand consciousness | Annaka Harris: Full Interview ► https://www.youtube.com/watch?v=dNNs2E",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "3 rules for being smart about stress | Lisa Damour",
-          "url": "https://www.youtube.com/watch?v=vEDkowLG4Tc",
-          "published": "2026-10-07T16:07:33+00:00",
-          "content_snippet": "3 rules for being smart about stress | Lisa Damour",
-          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -121,7 +68,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -133,17 +82,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Roundup: Personal agents, AI policy, GPT-6.1 Astra, and Jev decision models",
-          "url": "https://roundup.getdbt.com",
-          "published": "2026-10-09T07:00:00+00:00",
-          "content_snippet": "Personal AI agents hit a tipping point, AI became a top voter issue, and OpenAI shelved GPT-6.1 Astra. Tristan Handy and Jason Ganz break down stories from the past few weeks and what they mean for data teams. In this episode: Personal agents: Instinct, Meta's Muse, Grokbot, and OpenAI's Dot, and why filtering information overload is the real prize. AI policy: 8% of voters now name AI their top issue, and senators ask whether recursive self-improvement should be illegal. GPT-6.1 Astra: why OpenA",
-          "source_name": "The Analytics Engineering Podcast",
-          "source_type": "podcast",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -166,7 +105,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -184,145 +125,109 @@
       ],
       "items": [
         {
-          "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
-          "published": "2026-10-08T19:41:00+00:00",
-          "content_snippet": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6.1 Sol Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality responses. ",
+          "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+          "published": "2026-10-09T22:00:00+00:00",
+          "content_snippet": "Today, AWS Security Hub announces support for exporting findings to Amazon S3 in CSV or JSON (OCSF) format. Security teams that need findings outside the console for use cases such as compliance reporting and audit evidence can now export findings from every findings page in the Security Hub console, including Threats, Exposure, Vulnerabilities, Posture Management, Sensitive Data, and All Findings, without building and maintaining their own extraction pipelines. With this launch, you can start a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
-          "published": "2026-10-08T18:51:00+00:00",
-          "content_snippet": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and Dashboards, you can group and filter costs by these attributes. In Budgets, you can filter budgets by the same attributes. With this launch, finance and platform teams get a direct view of which models and workloads drive their Bedrock spend, and ",
+          "title": "Amazon EC2 R8gd instances are now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+          "published": "2026-10-09T19:29:00+00:00",
+          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances are available in AWS European Sovereign Cloud (Germany) region. These instances feature up to 11.4 TB of local NVMe-based SSD block-level storage and are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. These instances are built on the AWS Nitro System and are a great fit for applications that need access to high-speed, low latency local storage. R8gd instances are available in 12",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
-          "published": "2026-10-08T18:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that tells you when your DB instance is accepting connections again. With this event, you can bring your applications back while the remaining maintenance tasks are still in progress, which can reduce your application downtime during patching. At the",
+          "title": "Amazon EC2 R8g instances now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+          "published": "2026-10-09T19:19:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These instances are built on the AWS Nitro System , which offloads CPU virtualizati",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Network Firewall adds wildcard support for container attribute filters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
-          "published": "2026-10-08T16:00:00+00:00",
-          "content_snippet": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters using wildcard patterns to match multiple container workloads in a single rule, eliminating the need to create individual container associations for each variant. With wildcard support, you can use patterns like app=payments-* to automaticall",
+          "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+          "published": "2026-10-09T17:44:00+00:00",
+          "content_snippet": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its response, helping you understand its approach to complex tasks such as coding, analysis, and multi-step problem solving. Reasoning summaries give developers additional context for evaluating responses, debugging applications, and showing users how a model approached a request. The summary is returne",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Solving defense supply chain visibility through governed data sharing",
-          "url": "https://www.databricks.com/blog/solving-defense-supply-chain-visibility-through-governed-data-sharing",
-          "published": "2026-10-09T14:00:00+00:00",
-          "content_snippet": "When every tier of the defense supply chain can share governed data with the people who need it...",
+          "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
+          "published": "2026-10-09T17:13:00+00:00",
+          "content_snippet": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every request, deciding how much effort each task needs, and completes tasks with roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal benchmarking. Available with a 1M context window and 2.0x credit multiplier, dow",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer now provides automated checks to improve performance evaluation forms",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms/",
+          "published": "2026-10-09T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now suggests changes to performance evaluation forms that improve the accuracy of evaluations automatically filled by AI. While setting up an evaluation form, managers can run an automated check that compares the form against best practices with a single click. Managers then receive a list of evaluation questions that are missing context for AI to score reliably, along with suggestions to make them more specific. For example, the check might flag \"Did the agent provide a ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+          "published": "2026-10-09T17:00:00+00:00",
+          "content_snippet": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+          "published": "2026-10-09T16:30:00+00:00",
+          "content_snippet": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent Cloud, Aiven, and Redpanda. With this launch, customers can authenticate their Lambda Kafka consumers through their enterprise identity provider, helping them meet the security and compliance requirements for their Kafka applications. Customers building event-driven Kafka workloads for use cases such",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
+          "published": "2026-10-09T15:00:00+00:00",
+          "content_snippet": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and everyone gets on-brand output, without hunting for the right file in each chat. Brand managers upload PowerPoint or Word templates, or pull them from a connected file store such as SharePoint. Quick extracts the colors, fonts, logos, layouts and brand rules from each file. A brand manager reviews and",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How California built its Behavioral Health Public County Profile on Databricks",
+          "url": "https://www.databricks.com/blog/how-california-built-its-behavioral-health-public-county-profile-databricks",
+          "published": "2026-10-09T21:30:00+00:00",
+          "content_snippet": "The California Department of Health Care Services (DHCS) built the Behavioral Health...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing Workday Data Connect federation in Unity Catalog",
-          "url": "https://www.databricks.com/blog/announcing-workday-data-connect-federation-unity-catalog",
-          "published": "2026-10-08T23:00:00+00:00",
-          "content_snippet": "We're excited to announce the publicly available Beta of the Workday Data Connect federation connector for Unity Catalog...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Funke: Native HL7v2 Parsing on Databricks",
-          "url": "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks",
-          "published": "2026-10-08T22:00:00+00:00",
-          "content_snippet": "The HL7v2 problem in the lakehouseHL7v2 is the messaging standard that quietly runs healthcare...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Lakebase and Agentic SDLC: Branching Databases for Coding Agents",
-          "url": "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents",
-          "published": "2026-10-08T22:00:00+00:00",
-          "content_snippet": "AI has changed how software gets built. As coding agents take on a growing share...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Biomedical Imaging's Real Bottleneck Is the Data, Not the Model",
-          "url": "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model",
-          "published": "2026-10-08T21:00:00+00:00",
-          "content_snippet": "Part I — The problemFour sectors, one bottleneckHospitals and health systems generate...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Load terabytes of data in minutes into Lakebase Postgres",
-          "url": "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres",
-          "published": "2026-10-08T18:49:31+00:00",
-          "content_snippet": "Operational databases like Postgres are built to reliably execute highly concurrent...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Sophos cuts threat response time by 96% with OpenAI Daybreak",
-          "url": "https://www.youtube.com/watch?v=MUHjyljBPHI",
-          "published": "2026-10-09T08:37:55+00:00",
-          "content_snippet": "Sophos CTO John Peterson shares how agents built through OpenAI Daybreak combine AI with Sophos’s cybersecurity expertise to reduce average response time from 38 minutes to 89 seconds for cases using those agents. Hear how Sophos is helping its MDR team investigate threats faster, protect customers at scale and keep human judgement at the centre. Read the full customer story - https://openai.com/index/sophos/",
+          "title": "Set up your dot in the ChatGPT mobile app",
+          "url": "https://www.youtube.com/watch?v=p5KxBTUncoE",
+          "published": "2026-10-09T19:13:03+00:00",
+          "content_snippet": "You can now create a dot from the ChatGPT mobile app. Set up your dot, edit the name, customize the avatar, and set your dot to be the first conversation you see when you open the ChatGPT app. Learn more about dots here: https://learn.chatgpt.com/docs/dots",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
-          "url": "https://www.youtube.com/watch?v=RQfg-zo4R-g",
-          "published": "2026-10-08T21:35:18+00:00",
-          "content_snippet": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex Security finding connects service availability to a missing resource limit. See how telemetry, release history, and code support an investigation; learn how engineers review a proposed change and check",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "More visual answers from GPT-6 with Intelligent UI",
-          "url": "https://www.youtube.com/watch?v=OgjMGn4T6Ok",
-          "published": "2026-10-08T17:46:54+00:00",
-          "content_snippet": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with Intelligent UI is rolled out globally to ChatGPT Plus, Pro, Business and Enterprise tiers in the Chat tab. Starting today, the rollout expands to Free and Go tiers. Enterprise availability depends on wor",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-          "url": "https://www.youtube.com/watch?v=Rs5qLAnkNcI",
-          "published": "2026-10-08T17:43:05+00:00",
-          "content_snippet": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Get a more visual answer from GPT-6 with Intelligent UI",
-          "url": "https://www.youtube.com/watch?v=Wv0PRPMzkJg",
-          "published": "2026-10-08T17:41:31+00:00",
-          "content_snippet": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with Intelligent UI is rolled out globally to ChatGPT Plus, Pro, Business and Enterprise tiers in the Chat tab. Starting today, the rollout expands to Free and Go tiers. Enterprise availability depends on wor",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Play a game against GPT-6 with Intelligent UI",
-          "url": "https://www.youtube.com/watch?v=BHQF1xl2ScU",
-          "published": "2026-10-08T17:40:12+00:00",
-          "content_snippet": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with Intelligent UI is rolled out globally to ChatGPT Plus, Pro, Business and Enterprise tiers in the Chat tab. Starting today, the rollout expands to Free and Go tiers. Enterprise availability depends on wor",
+          "title": "Building the Codex community",
+          "url": "https://www.youtube.com/watch?v=enPbh_A5F7E",
+          "published": "2026-10-09T17:00:34+00:00",
+          "content_snippet": "See how the Codex community brings people together to build, learn, and share. Pauline Narvas and VB talk about growing the Codex Ambassador program, their favorite moments from local meetups and Build Week, and what it means to build with heart.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -335,33 +240,6 @@
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
-        },
-        {
-          "title": "Make a game using GPT-6 with Intelligent UI",
-          "url": "https://www.youtube.com/watch?v=qmOOspYLhzg",
-          "published": "2026-10-08T17:37:43+00:00",
-          "content_snippet": "GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. GPT‑6 with Intelligent UI is rolled out globally to ChatGPT Plus, Pro, Business and Enterprise tiers in the Chat tab. Starting today, the rollout expands to Free and Go tiers. Enterprise availability depends on wor",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing GPT-6 in ChatGPT with Intelligent UI",
-          "url": "https://www.youtube.com/watch?v=IsL4dVezs18",
-          "published": "2026-10-07T21:55:41+00:00",
-          "content_snippet": "ChatGPT just got a lot more visual—introducing Intelligent UI. Intelligent UI allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual. It makes learning complex topics easier, and it quickly creates tools to solve a task right in the moment. Oh, and also...GPT-6 is coming to ChatGPT. For everyone. GPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. GPT‑6 with Intellige",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Build Plugins for ChatGPT",
-          "url": "https://www.youtube.com/watch?v=LiNhqbetrbU",
-          "published": "2026-10-07T21:34:02+00:00",
-          "content_snippet": "Explore plugin extensions through Meetings and OpenAI Developers. See how a custom interface can live beside a conversation and bring selected context into your work with ChatGPT.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
         }
       ],
       "errors": [
@@ -370,13 +248,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Anthropic News": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -391,91 +271,64 @@
       ],
       "items": [
         {
-          "title": "Building on the Codex Harness — Dominik Kundel, OpenAI",
-          "url": "https://www.youtube.com/watch?v=9WiBJRO84yY",
-          "published": "2026-10-09T15:30:04+00:00",
-          "content_snippet": "Building your own agent harness is daunting. So use the one that already powers Codex. Dominik Kundel from OpenAI's Codex developer experience team explains the Codex App Server, the open-source JSON-RPC protocol that wraps the Codex harness and powers the Codex app, the IDE extensions, and third-party clients in Xcode, JetBrains and more. Using an inspector he built, he shows the real events flowing between the Codex app and the server, then covers what you can control: more than 120 client mes",
+          "title": "The Lethal Trifecta Is Already on Your Laptops — Michael Patterson, Coder",
+          "url": "https://www.youtube.com/watch?v=abw_m-DRi1k",
+          "published": "2026-10-10T15:00:03+00:00",
+          "content_snippet": "Your coding agent can read private data, take in untrusted content and talk to the internet. That's the lethal trifecta, and it's already running on your developers' laptops. Michael Patterson, staff solutions engineer at Coder, explains Simon Willison's lethal trifecta (access to private data, exposure to untrusted content, and the ability to communicate externally) and why agents like Claude Code, Codex and OpenClaw running on a laptop hit all three. He covers prompt injection, what blocks big",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Prompting — Greg Pstrucha, Sentry",
-          "url": "https://www.youtube.com/watch?v=E3KbFLAGD6A",
-          "published": "2026-10-09T14:00:20+00:00",
-          "content_snippet": "You correct your agent. It says \"You're absolutely right.\" Five minutes later, after compaction, it makes the same mistake again. Greg Pstrucha, who works on the infrastructure behind Seer, Sentry's debugging agent, argues you should stop re-prompting your coding agent and start codifying the rules you keep repeating. Agents have no memory, so the same elementary mistakes come back: overly defensive code, useless tests, endpoints nobody needs. Tests, strict types and especially linters turn thos",
+          "title": "From 15% to 90% GPU Utilization: Fix the Data Pipeline, Not the Model",
+          "url": "https://www.youtube.com/watch?v=tNAV259UhCM",
+          "published": "2026-10-10T01:30:14+00:00",
+          "content_snippet": "Your GPUs might be waiting on your data, not your model. This pipeline went from 15% to 90% GPU utilization. Tarun Sunkaraneni from Amazon AGI shows that the hardest part of fast multimodal training often isn't the GPU at all, but keeping it fed with data. Training a Qwen3-VL-style model on images stored in S3, the baseline pipeline spent about 85% of its time waiting on data, mostly loading, decoding and resizing images one at a time. He fixes the bottlenecks one by one: concurrency with asynci",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar",
-          "url": "https://www.youtube.com/watch?v=uuwDWRbxoYo",
-          "published": "2026-10-09T01:30:15+00:00",
-          "content_snippet": "AI means more PRs, bigger PRs, and more bugs. Your choice is to slow down or rubber-stamp, unless validation gets automated too. Ali-Reza Adl-Tabatabai, co-founder of Gitar (now part of Sonar), focuses on verifying code. CI and code review are where quality gates live, and they get slower and more expensive as teams grow. AI makes it worse with more and bigger PRs, leaving teams to either slow down or rubber-stamp and risk incidents. His answer is agentic validation: an agent that reviews PRs wi",
+          "title": "Small Models, Big Results: Training a Finance Agent for Under $500 — Charles Dickens, Snorkel AI",
+          "url": "https://www.youtube.com/watch?v=TyPpSRXGhbc",
+          "published": "2026-10-10T00:30:10+00:00",
+          "content_snippet": "A 4 billion parameter model, trained with RL for under $500, beat its 235 billion parameter sibling on real financial questions. Charles Dickens, research scientist at Snorkel AI, shares how Snorkel and UC Berkeley's Sky Computing Lab trained a small model to beat a much bigger one. Working from SEC 10-K filings, they built FinQA, a financial question-answering dataset with expert-validated answers, and found even frontier models hallucinating table schemas, flooding their own context, and repea",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why 80% Reliability Isn't Good Enough — Felipe Blanes, Amazon AGI Lab",
-          "url": "https://www.youtube.com/watch?v=Emo5FGGY-wM",
-          "published": "2026-10-09T00:30:02+00:00",
-          "content_snippet": "Your agent scores great on benchmarks. Then real customers use it and it breaks. Felipe Blanes from the Amazon AGI Lab shares what he learned working directly with customers of Nova Act, Amazon's service for building browser agents, from research preview to general availability on AWS. He calls the core problem the benchmark illusion: static evals look great until customers do things nobody expected, and then all you have left is hope. His fix is an eval flywheel built around the customer: defin",
+          "title": "Why Your Company Needs a Context Graph (and How to Build It) — Gil Feig, Merge",
+          "url": "https://www.youtube.com/watch?v=cSz7aL2nl2U",
+          "published": "2026-10-09T23:30:08+00:00",
+          "content_snippet": "Your agent can tell you why one customer was upset. Ask which customers were upset last year, and it falls apart. Gil Feig, co-founder and CTO of Merge, explains why every company needs a context graph, a company brain that brings together third-party data, structured context, memories and skills. Using the question \"which customers were upset last week?\", he shows why connecting a few MCP servers isn't enough: live API lookups can't search across large datasets, so you need a synced copy for se",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How a Remote Company Builds AI Fluency — Em Shreve, Automattic",
-          "url": "https://www.youtube.com/watch?v=3XI90A3ENSg",
-          "published": "2026-10-08T23:30:33+00:00",
-          "content_snippet": "Handing people AI tools doesn't change how they work. Giving them real time to learn does. Em Shreve, head of AI enablement at Automattic, the company behind WordPress.com and Tumblr with over 1,400 people in 82 countries, explains how a fully remote company builds AI fluency. Their bet: people need real time to learn, not just tools. So they run two-week, in-person programs that are half workshops and half real project work, for engineers, cross-functional teams and non-technical groups like fi",
+          "title": "Generation Is Cheap, Review Is Expensive: How to Stop Shipping AI Slop — Gabriel Martinez, G2i",
+          "url": "https://www.youtube.com/watch?v=6qkzlT962es",
+          "published": "2026-10-09T20:00:07+00:00",
+          "content_snippet": "Slop isn't AI-written code. It's work that looks finished before the thinking is. Gabriel \"Gabo\" Martinez, engineering manager and self-described slop warden at G2i, explains what slop really is: what happens when generation outruns judgment, when ambiguity gets cleared with guesses and nobody notices there was a choice to make. He's not anti-AI, but argues we need to sober up. Code is still a liability, agents make a messy codebase messier faster, and quick prototypes convince stakeholders the ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya",
-          "url": "https://www.youtube.com/watch?v=NaOkR3VSfR4",
-          "published": "2026-10-08T22:30:09+00:00",
-          "content_snippet": "Let the model decide what should happen next. Never let it improvise how a production cluster gets restarted. Viren Baraiya, co-founder and CTO of Orkes and the original creator of Netflix Conductor, explains how to run agents in production. Real agents aren't just chatbots: they run on schedules, react to events, coordinate other agents and can run for months, so the harness around them starts to look like an application, much like a set of microservices. His key idea is a clean split between t",
+          "title": "From Context to Memory: Your Agents Need a Real Memory Layer — Anders Swanson, Oracle",
+          "url": "https://www.youtube.com/watch?v=BIhiYL4U9_M",
+          "published": "2026-10-09T18:30:09+00:00",
+          "content_snippet": "Your agent rereads the same files every session because nothing it learned was saved. Anders Swanson, developer evangelist for Oracle Database, treats agent memory as a systems problem. Context windows aren't memory, bigger windows aren't the fix, and markdown scratch pads and grep don't scale. Keep going down that road and you'll end up building your own database. He walks through the pattern modern memory systems are converging on: formation, recall, evolution and evaluation, plus governance. ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "We Mapped 115 Microservices for Our Coding Agents — Kamalakannan Nandagopal, Postman",
-          "url": "https://www.youtube.com/watch?v=k2ClBT4aqAg",
-          "published": "2026-10-08T21:30:19+00:00",
-          "content_snippet": "Coding agents are great inside one repo. Postman has 115 microservices and thousands of endpoints. Kamalakannan Nandagopal, staff engineer at Postman, shares how Postman made coding agents work across a real distributed system. Docs go stale, skills and MCPs are only as good as their context, and agent memory stays stuck with one person. Borrowing from Postman's go-to-market team, they realized APIs are the context layer, and built an API context graph that maps every service, endpoint, implemen",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Turning Agent Memory Into Skills That Work — Will Lyon, Neo4j",
-          "url": "https://www.youtube.com/watch?v=XPj3mIKEtI4",
-          "published": "2026-10-08T20:00:21+00:00",
-          "content_snippet": "Agents finish a task, then forget what they learned. Retrieval alone won't fix that. Will Lyon, senior product manager at Neo4j, explains why agent memory built on embeddings and retrieval isn't enough: recall isn't actionable knowledge. Agents need knowledge that is connected, typed and traceable. He shows Neo4j's model of agent memory as a context graph with short-term, long-term and reasoning memory, covering entity extraction and resolution, shared ontologies, and decision traces that let ma",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace",
-          "url": "https://www.youtube.com/watch?v=YNT7Plf9KIg",
-          "published": "2026-10-08T18:30:21+00:00",
-          "content_snippet": "Your coding agent is fast. But it can't see how your services actually run, so it guesses. Matt Gibiec, who leads AI-native solutions engineering at Dynatrace, explains why AI agents need something like a nervous system: real context from the environment they're changing. Agents get stuck in loops, cause operational and security issues, and are hard to measure, because they work fast but blind, only as good as the data they can see. He introduces Bluebox by Dynatrace, an observability agent for ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Why We Deleted Our MCP Server and Rebuilt It — Abhi Arya, Reducto",
-          "url": "https://www.youtube.com/watch?v=jJQoVkd5yLg",
-          "published": "2026-10-08T17:00:23+00:00",
-          "content_snippet": "Reducto gave its whole team an MCP server with a tool for every endpoint. It broke the same day. Abhi Arya, who works on product at Reducto, argues that building agent-first software comes down to one question: who pays when the agent is wrong? He describes three approaches, auto mode, user-first, and agent experience in service of the user, and how Reducto learned the difference. A first MCP server with one tool per API endpoint demoed well but fell apart when the whole team used it: the agent ",
+          "title": "Designing CLIs for Agents, Not Humans — Pedro Lopez, Airbyte",
+          "url": "https://www.youtube.com/watch?v=3wj6sgbi1YA",
+          "published": "2026-10-09T17:00:31+00:00",
+          "content_snippet": "Airbyte built both an MCP server and a CLI so agents can use its data. Here's what each one is actually good for. Pedro Lopez, software engineer at Airbyte, shares lessons from building two ways for AI agents to reach company data through Airbyte's Context Store, a search-optimized index of tools like Zendesk, Stripe and HubSpot. Both are thin interfaces over one platform, built from OpenAPI specs. For the MCP server, he explains why to keep the tool count small and use progressive discovery, wh",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -485,5 +338,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 5
+  "deduped_count": 20
 }
