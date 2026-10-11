@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T15:33:45Z",
+  "fetched_at": "2026-10-11T15:57:13Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Why did the LLM delete my database?",
+          "url": "https://www.youtube.com/watch?v=VtMWkfMaJBw",
+          "published": "2026-10-10T16:00:13+00:00",
+          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -24,7 +34,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Airbnb Tech": 1,
         "Meta Engineering": 1
       }
@@ -51,17 +60,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Popular Advice That Is Ruining Your Life",
-          "url": "https://www.youtube.com/watch?v=tkIE4HtOlgQ",
-          "published": "2026-10-09T17:01:06+00:00",
-          "content_snippet": "-\"Fake it till you make it\" got its most famous scientific backing from power posing, and what happened next is worth knowing. The original study reported that standing in an expansive posture changed your hormones and your appetite for risk. Then Eva Ranehill and her colleagues repeated it with a sample about five times larger. The hormone and risk effects disappeared. What survived was the smaller result: posing made people feel more powerful. Feeling powerful and performing well turned out to",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -69,7 +68,8 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 3
+        "Daniel Pink": 1,
+        "Big Think": 2
       }
     },
     {
@@ -125,118 +125,10 @@
       ],
       "items": [
         {
-          "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
-          "published": "2026-10-09T22:00:00+00:00",
-          "content_snippet": "Today, AWS Security Hub announces support for exporting findings to Amazon S3 in CSV or JSON (OCSF) format. Security teams that need findings outside the console for use cases such as compliance reporting and audit evidence can now export findings from every findings page in the Security Hub console, including Threats, Exposure, Vulnerabilities, Posture Management, Sensitive Data, and All Findings, without building and maintaining their own extraction pipelines. With this launch, you can start a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 R8gd instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
-          "published": "2026-10-09T19:29:00+00:00",
-          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances are available in AWS European Sovereign Cloud (Germany) region. These instances feature up to 11.4 TB of local NVMe-based SSD block-level storage and are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. These instances are built on the AWS Nitro System and are a great fit for applications that need access to high-speed, low latency local storage. R8gd instances are available in 12",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 R8g instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
-          "published": "2026-10-09T19:19:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These instances are built on the AWS Nitro System , which offloads CPU virtualizati",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
-          "published": "2026-10-09T17:44:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its response, helping you understand its approach to complex tasks such as coding, analysis, and multi-step problem solving. Reasoning summaries give developers additional context for evaluating responses, debugging applications, and showing users how a model approached a request. The summary is returne",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
-          "published": "2026-10-09T17:13:00+00:00",
-          "content_snippet": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every request, deciding how much effort each task needs, and completes tasks with roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal benchmarking. Available with a 1M context window and 2.0x credit multiplier, dow",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer now provides automated checks to improve performance evaluation forms",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms/",
-          "published": "2026-10-09T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now suggests changes to performance evaluation forms that improve the accuracy of evaluations automatically filled by AI. While setting up an evaluation form, managers can run an automated check that compares the form against best practices with a single click. Managers then receive a list of evaluation questions that are missing context for AI to score reliably, along with suggestions to make them more specific. For example, the check might flag \"Did the agent provide a ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
-          "published": "2026-10-09T17:00:00+00:00",
-          "content_snippet": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
-          "published": "2026-10-09T16:30:00+00:00",
-          "content_snippet": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent Cloud, Aiven, and Redpanda. With this launch, customers can authenticate their Lambda Kafka consumers through their enterprise identity provider, helping them meet the security and compliance requirements for their Kafka applications. Customers building event-driven Kafka workloads for use cases such",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
-          "published": "2026-10-09T15:00:00+00:00",
-          "content_snippet": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and everyone gets on-brand output, without hunting for the right file in each chat. Brand managers upload PowerPoint or Word templates, or pull them from a connected file store such as SharePoint. Quick extracts the colors, fonts, logos, layouts and brand rules from each file. A brand manager reviews and",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How California built its Behavioral Health Public County Profile on Databricks",
-          "url": "https://www.databricks.com/blog/how-california-built-its-behavioral-health-public-county-profile-databricks",
-          "published": "2026-10-09T21:30:00+00:00",
-          "content_snippet": "The California Department of Health Care Services (DHCS) built the Behavioral Health...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Set up your dot in the ChatGPT mobile app",
-          "url": "https://www.youtube.com/watch?v=p5KxBTUncoE",
-          "published": "2026-10-09T19:13:03+00:00",
-          "content_snippet": "You can now create a dot from the ChatGPT mobile app. Set up your dot, edit the name, customize the avatar, and set your dot to be the first conversation you see when you open the ChatGPT app. Learn more about dots here: https://learn.chatgpt.com/docs/dots",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building the Codex community",
-          "url": "https://www.youtube.com/watch?v=enPbh_A5F7E",
-          "published": "2026-10-09T17:00:34+00:00",
-          "content_snippet": "See how the Codex community brings people together to build, learn, and share. Pauline Narvas and VB talk about growing the Codex Ambassador program, their favorite moments from local meetups and Build Week, and what it means to build with heart.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Oracle Uses ChatGPT Work to Transform Recruitment",
-          "url": "https://www.youtube.com/watch?v=Mm3EsJL73tM",
-          "published": "2026-10-08T17:38:00+00:00",
-          "content_snippet": "“We’ve gone from zero to 100, not zero to 60.” Jan Ackerman shares how Oracle built a talent market intelligence tool with ChatGPT Work to transform hiring preparation. Starting with a job description, it researches comparable roles, benchmarks compensation, and assesses talent pools across locations, giving hiring managers consistent data and insights. Read how Oracle is transforming work with ChatGPT Work and Codex: https://openai.com/index/oracle/",
+          "title": "How Oracle Uses Codex to Help Business Users Get Answers",
+          "url": "https://www.youtube.com/watch?v=Ju-JyxDgV7g",
+          "published": "2026-10-10T21:40:25+00:00",
+          "content_snippet": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. Read the full Oracle story: https://openai.com/index/oracle/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -244,7 +136,15 @@
       ],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -271,64 +171,91 @@
       ],
       "items": [
         {
-          "title": "The Lethal Trifecta Is Already on Your Laptops — Michael Patterson, Coder",
-          "url": "https://www.youtube.com/watch?v=abw_m-DRi1k",
-          "published": "2026-10-10T15:00:03+00:00",
-          "content_snippet": "Your coding agent can read private data, take in untrusted content and talk to the internet. That's the lethal trifecta, and it's already running on your developers' laptops. Michael Patterson, staff solutions engineer at Coder, explains Simon Willison's lethal trifecta (access to private data, exposure to untrusted content, and the ability to communicate externally) and why agents like Claude Code, Codex and OpenClaw running on a laptop hit all three. He covers prompt injection, what blocks big",
+          "title": "Building Self-Learning Loops for Your Agent — Fuad Ali, Arize AI",
+          "url": "https://www.youtube.com/watch?v=fnuNVFgLjHA",
+          "published": "2026-10-11T15:30:31+00:00",
+          "content_snippet": "A shopping assistant confidently returns products outside a user's budget because its price filter is broken. Fuad Ali uses the Wonder Toys assistant to show how a production failure can become a complete improvement loop: collect the trace, investigate the code, propose a fix and test it against the cases that failed. The example starts with an application built on the OpenAI Agents SDK and instrumented with Arize. Instead of treating telemetry as a dashboard that a person must inspect, Ali sho",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From 15% to 90% GPU Utilization: Fix the Data Pipeline, Not the Model",
-          "url": "https://www.youtube.com/watch?v=tNAV259UhCM",
-          "published": "2026-10-10T01:30:14+00:00",
-          "content_snippet": "Your GPUs might be waiting on your data, not your model. This pipeline went from 15% to 90% GPU utilization. Tarun Sunkaraneni from Amazon AGI shows that the hardest part of fast multimodal training often isn't the GPU at all, but keeping it fed with data. Training a Qwen3-VL-style model on images stored in S3, the baseline pipeline spent about 85% of its time waiting on data, mostly loading, decoding and resizing images one at a time. He fixes the bottlenecks one by one: concurrency with asynci",
+          "title": "Can Your Agent Hear You Now? Building Live Voice Agents with Gemini — Thor Schaeff",
+          "url": "https://www.youtube.com/watch?v=xfPVBzDYjH4",
+          "published": "2026-10-11T15:00:22+00:00",
+          "content_snippet": "An agent that hears you, sees you, and answers in your language, in real time. Here's how to build one with Gemini. Thor Schaeff, who works on developer experience at Google DeepMind, runs a set of live demos of Gemini's real-time and media models. He builds an illustrated story with Gemini Live and a fast Nano Banana image model, using the stateful Interactions API to keep characters and style consistent between images. He has the audience scan a QR code to hear the talk in their own language w",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Small Models, Big Results: Training a Finance Agent for Under $500 — Charles Dickens, Snorkel AI",
-          "url": "https://www.youtube.com/watch?v=TyPpSRXGhbc",
-          "published": "2026-10-10T00:30:10+00:00",
-          "content_snippet": "A 4 billion parameter model, trained with RL for under $500, beat its 235 billion parameter sibling on real financial questions. Charles Dickens, research scientist at Snorkel AI, shares how Snorkel and UC Berkeley's Sky Computing Lab trained a small model to beat a much bigger one. Working from SEC 10-K filings, they built FinQA, a financial question-answering dataset with expert-validated answers, and found even frontier models hallucinating table schemas, flooding their own context, and repea",
+          "title": "Agent Speedrun — Elizabeth Fuentes Leone & Sandhya Subramani, AWS",
+          "url": "https://www.youtube.com/watch?v=YXiLj4tJt5A",
+          "published": "2026-10-11T15:00:05+00:00",
+          "content_snippet": "A customer service agent looks up an account, checks an order, and handles a refund. The harder part is controlling what happens between those steps and keeping that control when the agent reaches production. Elizabeth Fuentes Leone and Sandhya Subramani build the workflow with Strands Agents, starting with a system prompt and three tools backed by mock customer data. They inspect messages and tool calls, add a conversational interface, then introduce a hook that limits tool invocations. Lowerin",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why Your Company Needs a Context Graph (and How to Build It) — Gil Feig, Merge",
-          "url": "https://www.youtube.com/watch?v=cSz7aL2nl2U",
-          "published": "2026-10-09T23:30:08+00:00",
-          "content_snippet": "Your agent can tell you why one customer was upset. Ask which customers were upset last year, and it falls apart. Gil Feig, co-founder and CTO of Merge, explains why every company needs a context graph, a company brain that brings together third-party data, structured context, memories and skills. Using the question \"which customers were upset last week?\", he shows why connecting a few MCP servers isn't enough: live API lookups can't search across large datasets, so you need a synced copy for se",
+          "title": "The SDLC You Build Yourself — Andy Wong, Andrei Bocan & Shane Wolf, Atlassian",
+          "url": "https://www.youtube.com/watch?v=ojJXgXLUQFc",
+          "published": "2026-10-11T14:30:40+00:00",
+          "content_snippet": "An engineering standard becomes a reusable code review rule, applied across selected repositories instead of enforced by hand on every pull request. Andy Wong demonstrates that workflow with a design token standard while Andrei Bocan and Shane Wolf explain the context and orchestration underneath it. The workshop moves beyond a coding assistant in an editor to work that begins with a Jira item, draws on organizational knowledge and produces a change for a human to review. Code, documents and pas",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Generation Is Cheap, Review Is Expensive: How to Stop Shipping AI Slop — Gabriel Martinez, G2i",
-          "url": "https://www.youtube.com/watch?v=6qkzlT962es",
-          "published": "2026-10-09T20:00:07+00:00",
-          "content_snippet": "Slop isn't AI-written code. It's work that looks finished before the thinking is. Gabriel \"Gabo\" Martinez, engineering manager and self-described slop warden at G2i, explains what slop really is: what happens when generation outruns judgment, when ambiguity gets cleared with guesses and nobody notices there was a choice to make. He's not anti-AI, but argues we need to sober up. Code is still a liability, agents make a messy codebase messier faster, and quick prototypes convince stakeholders the ",
+          "title": "Agents That Own Their Inference — Du'an Lightfoot & Khaja Omer, Akamai Technologies",
+          "url": "https://www.youtube.com/watch?v=4n08JHb90hI",
+          "published": "2026-10-11T14:00:20+00:00",
+          "content_snippet": "Speculative decoding drops a demo model from roughly 58 tokens per second to 16 instead of speeding it up. Du'an Lightfoot and Khaja Omer use that failed optimization to make a practical point: a faster inference configuration has to be measured against the actual model, hardware and workload. Their workshop starts with the decision to use hosted APIs or run inference on dedicated GPUs, then gives participants a Kubernetes namespace containing a Jupyter notebook and a vLLM endpoint. Qwen provide",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "From Context to Memory: Your Agents Need a Real Memory Layer — Anders Swanson, Oracle",
-          "url": "https://www.youtube.com/watch?v=BIhiYL4U9_M",
-          "published": "2026-10-09T18:30:09+00:00",
-          "content_snippet": "Your agent rereads the same files every session because nothing it learned was saved. Anders Swanson, developer evangelist for Oracle Database, treats agent memory as a systems problem. Context windows aren't memory, bigger windows aren't the fix, and markdown scratch pads and grep don't scale. Keep going down that road and you'll end up building your own database. He walks through the pattern modern memory systems are converging on: formation, recall, evolution and evaluation, plus governance. ",
+          "title": "AI Security Engineer Foundations + Certificate — Micah Silverman, Snyk",
+          "url": "https://www.youtube.com/watch?v=p-2MT8KYZqU",
+          "published": "2026-10-11T13:30:04+00:00",
+          "content_snippet": "A student chatbot refuses to reveal grades, but its refusal exposes that it has access to them. Micah Silverman uses that capture the flag exercise to connect AI risks with familiar application security controls. A system prompt telling an assistant to keep data private leaves the data within reach; a restricted database view removes it from the model's available context. The six module course covers OWASP risks, shadow AI, threat modeling, MCP security, secure agentic development and red teamin",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Designing CLIs for Agents, Not Humans — Pedro Lopez, Airbyte",
-          "url": "https://www.youtube.com/watch?v=3wj6sgbi1YA",
-          "published": "2026-10-09T17:00:31+00:00",
-          "content_snippet": "Airbyte built both an MCP server and a CLI so agents can use its data. Here's what each one is actually good for. Pedro Lopez, software engineer at Airbyte, shares lessons from building two ways for AI agents to reach company data through Airbyte's Context Store, a search-optimized index of tools like Zendesk, Stripe and HubSpot. Both are thin interfaces over one platform, built from OpenAPI specs. For the MCP server, he explains why to keep the tool count small and use progressive discovery, wh",
+          "title": "Vector Isn't Enough: Hybrid Search & Retrieval — Jeff Vestal & James Williams, Elastic",
+          "url": "https://www.youtube.com/watch?v=ksjwtQop4os",
+          "published": "2026-10-11T13:00:18+00:00",
+          "content_snippet": "An agent diagnoses exit code 137 by retrieving documentation, explaining an out of memory failure, and pointing to settings that can prevent it. Its answer depends on the search results it receives, and its citations lead back to the underlying documents. Jeff Vestal and James Williams work backward from that agent behavior to the retrieval layer in Elasticsearch. The hands on labs compare semantic search with BM25, showing why similar meaning can miss an exact identifier and why exact keywords ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "The Data Context Layer for Agents — Yoni Michael & Brandon Callender, Typedef",
+          "url": "https://www.youtube.com/watch?v=KhRjivBSwiw",
+          "published": "2026-10-11T12:30:23+00:00",
+          "content_snippet": "Two Rust types are both called PostingList, but changing them breaks different code. A text search finds both; a context graph preserves their identities and exposes their separate dependencies. Yoni Michael and Brandon Callender use that distinction to connect data engineering and coding agents. For a data system, valid SQL can still produce the wrong answer when a join multiplies rows or a refactor changes a metric's meaning. Michael describes a context layer that computes grain, lineage and r",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Turning My Obsidian Vault Into a Local AI Engineer — Filip Makraduli, Superlinked",
+          "url": "https://www.youtube.com/watch?v=Ndp5VaqFrl0",
+          "published": "2026-10-11T12:00:32+00:00",
+          "content_snippet": "A scanned NDA becomes a redacted Markdown document before a coding agent uses its contents. Filip Makraduli builds that workflow around an Obsidian vault, an MCP integration and Superlinked's inference engine, with small open models doing document processing on infrastructure the team controls. The starting problem combines sensitive files, expensive context and the need to adapt models to a particular task. Rather than send every page and image directly to a large model, the demo offloads OCR a",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Parsing the Epstein Files for JMail — Palak Agarwal & Omar Alhait, Reducto",
+          "url": "https://www.youtube.com/watch?v=HGfsfKaVuGY",
+          "published": "2026-10-11T11:30:30+00:00",
+          "content_snippet": "Handwritten flight logs and heavily redacted PDFs stand between a pile of documents and a searchable product. Palak Agarwal and Omar Alhait show how Reducto turned the Epstein files into structured data for JMail and its related applications. Agarwal introduces the document processing layer; Alhait walks through the extraction pipeline behind JFlights, showing how a schema turns difficult pages into usable records. The workflow starts with parsing, tests extraction results in Studio, and exposes",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -338,5 +265,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 16
 }
