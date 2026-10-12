@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T15:57:13Z",
+  "fetched_at": "2026-10-12T19:18:16Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,30 @@
       ],
       "items": [
         {
-          "title": "Why did the LLM delete my database?",
-          "url": "https://www.youtube.com/watch?v=VtMWkfMaJBw",
-          "published": "2026-10-10T16:00:13+00:00",
-          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
+          "title": "\"We’ll stop reading code like we stopped reading assembly\"",
+          "url": "https://www.youtube.com/watch?v=ztsuqMpVylM",
+          "published": "2026-10-11T16:00:20+00:00",
+          "content_snippet": "with Peter Mattis, CTO and cofounder at Cockroach Labs See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+          "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+          "published": "2026-10-12T16:01:32+00:00",
+          "content_snippet": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. This work was also presented at DEMOQED 2026 . Instagram Live now uses the open standard transport protocol Media over QUIC (MoQ) for live video ingest on iOS and And",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+          "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+          "published": "2026-10-12T16:00:50+00:00",
+          "content_snippet": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives significant advertiser value and capacity efficiency. Inference fleets face a capacity paradox: They can be globally constrained while me",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -34,8 +52,7 @@
         }
       ],
       "deduped_sources": {
-        "Airbnb Tech": 1,
-        "Meta Engineering": 1
+        "Airbnb Tech": 1
       }
     },
     {
@@ -60,17 +77,37 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "What Made Buffett Successful",
+          "url": "https://www.youtube.com/watch?v=9Um0JtnR0LQ",
+          "published": "2026-10-12T12:16:41+00:00",
+          "content_snippet": "Would you have ever heard of Warren Buffett if he had retired at 60? Morgan Housel, author of The Psychology of Money, argues you wouldn’t. He points out that 99% of Buffett’s net worth came after his 60th birthday and that endurance was the key to his success. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.b",
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Popular advice that is ruining your life",
+          "url": "https://www.youtube.com/watch?v=tGnH1eo8wBE",
+          "published": "2026-10-12T16:00:48+00:00",
+          "content_snippet": "Sign number one has a famous demonstration behind it. Hal Arkes and Catherine Blumer sold season tickets to a university theater and randomly handed some buyers a discount. Same seats, same plays, same kind of people. Over the first half of the season, the ones who had paid full price showed up to noticeably more performances. The money was already spent either way. It still decided their evenings. That's what \"never give up\" does once it hardens. It converts yesterday's spending into today's ob",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The 3 elements of stupidity | Jonny Thomson",
+          "url": "https://www.youtube.com/watch?v=-nMXrAkhCm8",
+          "published": "2026-10-12T16:06:06+00:00",
+          "content_snippet": "The 3 elements of stupidity | Jonny Thomson",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
-      "deduped_sources": {
-        "Daniel Pink": 1,
-        "Big Think": 2
-      }
+      "errors": [],
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -125,10 +162,55 @@
       ],
       "items": [
         {
-          "title": "How Oracle Uses Codex to Help Business Users Get Answers",
-          "url": "https://www.youtube.com/watch?v=Ju-JyxDgV7g",
-          "published": "2026-10-10T21:40:25+00:00",
-          "content_snippet": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. Read the full Oracle story: https://openai.com/index/oracle/",
+          "title": "AWS Transfer Family supports custom ports for public SFTP servers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
+          "published": "2026-10-12T08:00:00+00:00",
+          "content_snippet": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP connections differently on a single server. Previously, public SFTP servers accepted connections only on port 22 and used server-first communication. With this launch, you can configure up to three ports (22, or any port from 2000 to 65535), allowing you to use the port numbers your business or network req",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
+          "published": "2026-10-12T07:00:00+00:00",
+          "content_snippet": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, network, command throughput, latency, keyspace, and errors into a single view sourced from a set of OpenTelemetry metrics that ElastiCache publishes automatically. You can use ElastiCache Insights to check the health of your cache workloads across a Region at a glance, detect when a node nears its me",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon OpenSearch Service now supports index-level encryption",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
+          "published": "2026-10-12T02:30:00+00:00",
+          "content_snippet": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key. This helps you protect data with different ownership or sensitivity under separate keys on the same domain. For example, you can encrypt each tenant's data with its own key in a multi-tenant application. Index-level encryption builds on the existing encryption at rest capability in Amazon OpenSearch Service. To enable it, se",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Brickster Voices: Meet Clara Kurian",
+          "url": "https://www.databricks.com/blog/brickster-voices-meet-clara-kurian",
+          "published": "2026-10-12T16:40:00+00:00",
+          "content_snippet": "Brickster Voices is a series that spotlights the people who make our work possible. Through personal career journeys...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Flo Health built safer, more useful open models with Databricks AI Runtime",
+          "url": "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
+          "published": "2026-10-12T15:13:04+00:00",
+          "content_snippet": "For Flo Health, the bar for generative AI is unusually high. With 81 million monthly...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Review Code with Codex Before You Merge",
+          "url": "https://www.youtube.com/watch?v=IZXv6a78NDw",
+          "published": "2026-10-12T16:00:08+00:00",
+          "content_snippet": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub code review is generally available, with GitLab support in preview.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -136,15 +218,7 @@
       ],
       "errors": [
         {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -171,91 +245,91 @@
       ],
       "items": [
         {
-          "title": "Building Self-Learning Loops for Your Agent — Fuad Ali, Arize AI",
-          "url": "https://www.youtube.com/watch?v=fnuNVFgLjHA",
-          "published": "2026-10-11T15:30:31+00:00",
-          "content_snippet": "A shopping assistant confidently returns products outside a user's budget because its price filter is broken. Fuad Ali uses the Wonder Toys assistant to show how a production failure can become a complete improvement loop: collect the trace, investigate the code, propose a fix and test it against the cases that failed. The example starts with an application built on the OpenAI Agents SDK and instrumented with Arize. Instead of treating telemetry as a dashboard that a person must inspect, Ali sho",
+          "title": "Agents in Orbit: Workflows, Not Autopilot — Eduardo Simon & Javier Casal, Flywire",
+          "url": "https://www.youtube.com/watch?v=rAUyRDOFyHU",
+          "published": "2026-10-12T18:00:10+00:00",
+          "content_snippet": "More than 9,700 code review runs in 30 days came from a workflow that lets the model read code but never modify it. Eduardo Simon and Javier Casal describe Orbit, Flywire's internal platform for putting model steps inside deterministic engineering workflows. A YAML definition goes through the same merge request review as other code, declares the tools and access each step can use, and runs on the company's existing deployment infrastructure. The predictable work stays in code; a model supplies t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Can Your Agent Hear You Now? Building Live Voice Agents with Gemini — Thor Schaeff",
-          "url": "https://www.youtube.com/watch?v=xfPVBzDYjH4",
-          "published": "2026-10-11T15:00:22+00:00",
-          "content_snippet": "An agent that hears you, sees you, and answers in your language, in real time. Here's how to build one with Gemini. Thor Schaeff, who works on developer experience at Google DeepMind, runs a set of live demos of Gemini's real-time and media models. He builds an illustrated story with Gemini Live and a fast Nano Banana image model, using the stateful Interactions API to keep characters and style consistent between images. He has the audience scan a QR code to hear the talk in their own language w",
+          "title": "Reliable, Smart Workflows for Finance, Wealth and Insurance — Karthic Rao, Perpetual",
+          "url": "https://www.youtube.com/watch?v=8g0g1ncwzG0",
+          "published": "2026-10-12T17:00:05+00:00",
+          "content_snippet": "“Fill out a form for Mr. Harper” becomes a process that lasts days: identify the right household, find missing information, contact the client, wait, follow up, obtain a signature and retain the evidence. Karthic Rao uses that wealth management example to show why a fixed flowchart breaks on ambiguity and an improvising agent creates a different reliability problem. At Perpetual, his design puts control flow, evidence and external actions in a deterministic system. Models handle interpretation a",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agent Speedrun — Elizabeth Fuentes Leone & Sandhya Subramani, AWS",
-          "url": "https://www.youtube.com/watch?v=YXiLj4tJt5A",
-          "published": "2026-10-11T15:00:05+00:00",
-          "content_snippet": "A customer service agent looks up an account, checks an order, and handles a refund. The harder part is controlling what happens between those steps and keeping that control when the agent reaches production. Elizabeth Fuentes Leone and Sandhya Subramani build the workflow with Strands Agents, starting with a system prompt and three tools backed by mock customer data. They inspect messages and tool calls, add a conversational interface, then introduce a hook that limits tool invocations. Lowerin",
+          "title": "Just-in-Time Ontologies: What Cheap Intelligence Means for Data — Hrishi Olickel, Southbridge AI",
+          "url": "https://www.youtube.com/watch?v=Fa3hQVIKShw",
+          "published": "2026-10-12T16:00:35+00:00",
+          "content_snippet": "A pipeline stripped the minus signs from loan amounts and turned a net $784,000 into $5.3 million of debt, with multiple models agreeing on the wrong result. Hrishi Olickel uses failures like this to explain why transforming data requires more than a universal schema or a confident agent. A customer means something different to billing, support and compliance. Useful structure depends on the source, the storage constraints, the decision being made and the assumptions a model brings to the task. ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The SDLC You Build Yourself — Andy Wong, Andrei Bocan & Shane Wolf, Atlassian",
-          "url": "https://www.youtube.com/watch?v=ojJXgXLUQFc",
-          "published": "2026-10-11T14:30:40+00:00",
-          "content_snippet": "An engineering standard becomes a reusable code review rule, applied across selected repositories instead of enforced by hand on every pull request. Andy Wong demonstrates that workflow with a design token standard while Andrei Bocan and Shane Wolf explain the context and orchestration underneath it. The workshop moves beyond a coding assistant in an editor to work that begins with a Jira item, draws on organizational knowledge and produces a change for a human to review. Code, documents and pas",
+          "title": "Please… Enough with the Sloppy, One-Shot SaaS Replacements — Mahmoud Abdelwahab, Railway",
+          "url": "https://www.youtube.com/watch?v=oixzVKMAXG0",
+          "published": "2026-10-12T15:00:19+00:00",
+          "content_snippet": "A single internal app now handles Railway's marketing content, email, social posts, media, creator relationships and launch planning. Mahmoud Abdelwahab built it with coding agents, but getting the features to run was only the beginning. The difference between a quick SaaS replacement and a tool his team wants to open every day lives in the details: background saving, responsive interactions, reversible actions and consistent screens. His starting point is a structured codebase with reusable abs",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agents That Own Their Inference — Du'an Lightfoot & Khaja Omer, Akamai Technologies",
-          "url": "https://www.youtube.com/watch?v=4n08JHb90hI",
-          "published": "2026-10-11T14:00:20+00:00",
-          "content_snippet": "Speculative decoding drops a demo model from roughly 58 tokens per second to 16 instead of speeding it up. Du'an Lightfoot and Khaja Omer use that failed optimization to make a practical point: a faster inference configuration has to be measured against the actual model, hardware and workload. Their workshop starts with the decision to use hosted APIs or run inference on dedicated GPUs, then gives participants a Kubernetes namespace containing a Jupyter notebook and a vLLM endpoint. Qwen provide",
+          "title": "Your GPU Neighbor Can Hear Your Model — Branislav Brzak, Stealthium",
+          "url": "https://www.youtube.com/watch?v=SacJfmp33vM",
+          "published": "2026-10-12T14:00:27+00:00",
+          "content_snippet": "Three microseconds of extra latency can reveal activity on another tenant's GPU slice. Branislav Brzak demonstrates an H100 timing side channel that probes only the attacker's own memory, without reading the victim's memory or exploiting a software bug. His experiments use the signal to infer model depth and decoding speed, then distinguish workload categories such as code, prose, JSON and retrieval. He explicitly separates that inference from recovering actual prompts or answers: the attack obs",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Security Engineer Foundations + Certificate — Micah Silverman, Snyk",
-          "url": "https://www.youtube.com/watch?v=p-2MT8KYZqU",
-          "published": "2026-10-11T13:30:04+00:00",
-          "content_snippet": "A student chatbot refuses to reveal grades, but its refusal exposes that it has access to them. Micah Silverman uses that capture the flag exercise to connect AI risks with familiar application security controls. A system prompt telling an assistant to keep data private leaves the data within reach; a restricted database view removes it from the model's available context. The six module course covers OWASP risks, shadow AI, threat modeling, MCP security, secure agentic development and red teamin",
+          "title": "Your Agent Is a Lethal Trifecta (And What to Do About It) — Kim Maida, Keycard",
+          "url": "https://www.youtube.com/watch?v=ws9XcGGPBDk",
+          "published": "2026-10-12T13:00:35+00:00",
+          "content_snippet": "An on call agent drops a billing database, restarts a production server and scales a service from four pods to 40, adding $420 an hour to the bill. Kim Maida's staged triage demo shows what happens when an agent receives standing API keys and an administrator's database credentials. Private data, untrusted tickets and access to external services combine into the lethal trifecta. The agent can do useful work, but its credentials give it far more authority than any one ticket requires. A human app",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Vector Isn't Enough: Hybrid Search & Retrieval — Jeff Vestal & James Williams, Elastic",
-          "url": "https://www.youtube.com/watch?v=ksjwtQop4os",
-          "published": "2026-10-11T13:00:18+00:00",
-          "content_snippet": "An agent diagnoses exit code 137 by retrieving documentation, explaining an out of memory failure, and pointing to settings that can prevent it. Its answer depends on the search results it receives, and its citations lead back to the underlying documents. Jeff Vestal and James Williams work backward from that agent behavior to the retrieval layer in Elasticsearch. The hands on labs compare semantic search with BM25, showing why similar meaning can miss an exact identifier and why exact keywords ",
+          "title": "We Let Our Financial Planners Write the Agents — Matthew Ragone, Range",
+          "url": "https://www.youtube.com/watch?v=gpmze-6ueGU",
+          "published": "2026-10-12T12:00:24+00:00",
+          "content_snippet": "While one financial planner is on a client call, an agent drafts another client's cash flow or insurance analysis. The planner reviews every recommendation before anything reaches the client. At Range, Matthew Ragone and his colleagues built the skills behind that workflow without writing code. Six months in, he reports 24 skills across the company, including 17 in planning, with sales, product and marketing adopting the same approach without a mandate. The change came from capturing how the fir",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Data Context Layer for Agents — Yoni Michael & Brandon Callender, Typedef",
-          "url": "https://www.youtube.com/watch?v=KhRjivBSwiw",
-          "published": "2026-10-11T12:30:23+00:00",
-          "content_snippet": "Two Rust types are both called PostingList, but changing them breaks different code. A text search finds both; a context graph preserves their identities and exposes their separate dependencies. Yoni Michael and Brandon Callender use that distinction to connect data engineering and coding agents. For a data system, valid SQL can still produce the wrong answer when a join multiplies rows or a refactor changes a metric's meaning. Michael describes a context layer that computes grain, lineage and r",
+          "title": "Building AIE: Open Q&A and Feedback Session with swyx",
+          "url": "https://www.youtube.com/watch?v=snTZtttfL70",
+          "published": "2026-10-12T06:32:41+00:00",
+          "content_snippet": "An open mic with the organizer: what's working at AI Engineer, what isn't, and what changes next year. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes swyx, co-founder of AI Engineer, runs an open Q&A and feedback session at the 2026 World's Fair. Attendees raise an AI safety track, expo length, overfull workshops, Wi-Fi and the conference app. swyx covers plans to keep the",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Turning My Obsidian Vault Into a Local AI Engineer — Filip Makraduli, Superlinked",
-          "url": "https://www.youtube.com/watch?v=Ndp5VaqFrl0",
-          "published": "2026-10-11T12:00:32+00:00",
-          "content_snippet": "A scanned NDA becomes a redacted Markdown document before a coding agent uses its contents. Filip Makraduli builds that workflow around an Obsidian vault, an MCP integration and Superlinked's inference engine, with small open models doing document processing on infrastructure the team controls. The starting problem combines sensitive files, expensive context and the need to adapt models to a particular task. Rather than send every page and image directly to a large model, the demo offloads OCR a",
+          "title": "Build a Research Agent with Claude Managed Agents (Part 2 of 4) — Anthropic",
+          "url": "https://www.youtube.com/watch?v=FGftGOzfohc",
+          "published": "2026-10-12T06:07:50+00:00",
+          "content_snippet": "From a one-line console agent to a research desk with skills, subagents, memory and self-grading outcomes. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Priyanka Phatak finishes a no-code agent in the console, then Gabe Cemaj leads the hands-on build: a 'research desk' app with a chat UI on the session's event stream. He adds an SEC EDGAR skill, subagents, a custom tool a",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Parsing the Epstein Files for JMail — Palak Agarwal & Omar Alhait, Reducto",
-          "url": "https://www.youtube.com/watch?v=HGfsfKaVuGY",
-          "published": "2026-10-11T11:30:30+00:00",
-          "content_snippet": "Handwritten flight logs and heavily redacted PDFs stand between a pile of documents and a searchable product. Palak Agarwal and Omar Alhait show how Reducto turned the Epstein files into structured data for JMail and its related applications. Agarwal introduces the document processing layer; Alhait walks through the extraction pipeline behind JFlights, showing how a schema turns difficult pages into usable records. The workflow starts with parsing, tests extraction results in Studio, and exposes",
+          "title": "Claude Managed Agents Q&A: Evals, CI/CD and Multi-Tenancy (Part 4 of 4) — Anthropic",
+          "url": "https://www.youtube.com/watch?v=QSeaZ6qHyXs",
+          "published": "2026-10-12T06:07:45+00:00",
+          "content_snippet": "How to version agent configs, isolate customers, add GPUs and keep a long-running agent responsive. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes The workshop closes with audience Q&A for Priyanka Phatak and Gabe Cemaj: syncing agent configs in CI/CD with the ant CLI, what happens when you message an agent waiting on a custom tool, how Anthropic runs evals, sharing resour",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -265,5 +339,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 16
+  "deduped_count": 10
 }
