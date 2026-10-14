@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T17:07:18Z",
+  "fetched_at": "2026-10-14T14:39:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,29 +14,11 @@
       ],
       "items": [
         {
-          "title": "\"The SLA is what you're going to get sued for on a breach\"",
-          "url": "https://www.youtube.com/watch?v=19eqJQS1QfY",
-          "published": "2026-10-13T16:00:05+00:00",
-          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
-          "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
-          "published": "2026-10-13T16:01:00+00:00",
-          "content_snippet": "Last year, we introduced GEM , the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and intelligence transfer with next-generation hardware, and expand this capability across Meta’s entire ads ecosystem. This spans dozens of surfaces and objectives, delivering seamless full-funnel optimization ac",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-          "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-          "published": "2026-10-12T21:19:18+00:00",
-          "content_snippet": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launching the Open Switch Platform Architecture (OSPA) initiative within OCP. We’re inviting engineers, sil",
-          "source_name": "Meta Engineering",
+          "title": "CASTLE: training natural language search before the first real query",
+          "url": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828?source=rss----53c7c27702d5---4",
+          "published": "2026-10-13T17:01:02+00:00",
+          "content_snippet": "How we addressed the cold-start problem for Airbnb’s natural language search by jointly generating synthetic training data — queries and relevance labels — from de-identified booking and search signals. By : Wendy Ran Wei , Hao Li , Weiwei Guo , Xiaowei Liu , Xueyin Chen , Chun How Tan , Malay Haldar , Soumyadip Banerjee , Kedar Bellare , Huiji Gao , Sanjeev Katariya , and Stephanie Moyerman Introduction Natural language search lets guests express intent in their own words, such as “romantic cab",
+          "source_name": "Airbnb Tech",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -52,7 +34,8 @@
         }
       ],
       "deduped_sources": {
-        "Airbnb Tech": 1
+        "The Pragmatic Engineer": 2,
+        "Meta Engineering": 4
       }
     },
     {
@@ -79,26 +62,18 @@
       ],
       "items": [
         {
-          "title": "Ryan Serhant: The Sales Habits That Closed $1 Billion in a Year",
-          "url": "https://www.youtube.com/watch?v=xr7tUPuc7xA",
-          "published": "2026-10-13T10:00:24+00:00",
-          "content_snippet": "Ryan Serhant is a real estate broker, founder of SERHANT., and star of Bravo’s Million Dollar Listing New York and Netflix’s Owning Manhattan. He explains how to sell without making people feel sold to: build a connection, help first, and earn the right to ask. He also breaks down the psychology of attention and persuasion, showing how to get people's attention, hold it, and turn it into business. We explore why he rejects “fake it till you make it,” how he approached his Million Dollar Listing ",
+          "title": "The Art of Following up",
+          "url": "https://www.youtube.com/watch?v=WhfmN1seZqg",
+          "published": "2026-10-14T12:01:16+00:00",
+          "content_snippet": "Ryan Serhant, CEO of SERHANT., followed up with one client every other week for five years. His framework for a great follow up? The three F’s.",
           "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "7 Normal Things You Do That Will Horrify Your Grandkids",
-          "url": "https://www.youtube.com/watch?v=_87gmY1x6jQ",
-          "published": "2026-10-12T21:20:09+00:00",
-          "content_snippet": "Subscribe to my newsletter to get smarter and if you're a curious person: https://danielpink.substack.com/ Sometime today, you’re going to do something completely normal. Drive a car, eat a hamburger, maybe both at once. And I have some bad news for you: your grandchildren may be horrified. Here are my seven bets on the completely normal things we do today that might look insane 100 years from now, and I’m personally guilty of at least three of them. -- To find out more about Daniel Pink, his bo",
-          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
+        "Daniel Pink": 2,
         "Big Think": 1
       }
     },
@@ -155,82 +130,145 @@
       ],
       "items": [
         {
-          "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
-          "published": "2026-10-13T14:00:00+00:00",
-          "content_snippet": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill is now a core skill in the Agent Toolkit for AWS , so it works alongside the toolkit's other AWS skills like EC2, Bedrock, and more. We released the new AWS AI/ML skill on the Agent Toolkit for AWS. The toolkit is now the single, supported integration point, replacing the previous AWS Labs skills an",
+          "title": "AWS Security Hub now supports resource criticality for prioritization",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+          "published": "2026-10-14T01:00:00+00:00",
+          "content_snippet": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources. You can set criticality with an automation rule, for example marking every compute resource in a specific account as Very High. The rule applies to resources already in your inventory and to new resources as Security Hub discovers them. Security Hub also infers criticality from resource tags and resource names, w",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
-          "published": "2026-10-12T23:10:00+00:00",
-          "content_snippet": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. With CloudFront in front of a Lambda Web Function, you get TLS termination at the edge for lower latency and faster connections, caching for better performance, and custom domains with managed TLS certificates. No changes to application code are needed. CloudFront Origin Access Control (OAC) restricts your Lambda Web Function so it's reachable only through CloudFront, so u",
+          "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+          "published": "2026-10-13T22:00:00+00:00",
+          "content_snippet": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing RunningTaskCount metric in Amazon CloudWatch Container Insights no longer incurs a charge. LiveTaskCount reports the number of actively running ECS tasks across all desired states (ACTIVATING, RUNNING, and DEACTIVATING), including tasks still running w",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
-          "published": "2026-10-12T22:30:00+00:00",
-          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analys",
+          "title": "AWS Agent Registry now supports custom metadata for registry records",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
+          "published": "2026-10-13T21:00:00+00:00",
+          "content_snippet": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently. With custom metadata, pub",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now prefills step-by-step guides for after contact work",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw",
-          "published": "2026-10-12T22:28:00+00:00",
-          "content_snippet": "Amazon Connect Customer can now fill in the step-by-step guides that agents complete after a contact, using information extracted from customer conversations, such as booking identifiers, claim numbers, and conversation summaries. Managers can set which information populates each form field. Agents can review and submit rather than manually typing in each field, saving time and improving data accuracy during after contact work. Contact center agents spend time after each contact entering frequen",
+          "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
+          "published": "2026-10-13T19:35:00+00:00",
+          "content_snippet": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to securely access remote desktops and application sessions across Windows, Linux, and macOS. Amazon DCV 2026.0 includes the following key features and improvements: Support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04, with Linux ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda announces Lambda Web Functions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
-          "published": "2026-10-12T19:30:00+00:00",
-          "content_snippet": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP server. You use frameworks you already know, such as Express or Hono, with no adapters or custom configuration. This enables you to serve workloads such as AI inference endpoints, server-side rendered (SSR) web apps, streaming API endpoints, microservices, and webhooks. You pay for active CPU time an",
+          "title": "AWS Deadline Cloud now helps users find their accessible resources in the Deadline Cloud monitor",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/deadline-cloud/resources",
+          "published": "2026-10-13T18:54:00+00:00",
+          "content_snippet": "AWS Deadline Cloud now lets users who have access to specific queues, fleets, or jobs, rather than an entire farm, find the resources they can reach directly from the Deadline Cloud monitor. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads for visual effects, animation, product design, simulation, and gaming. Previously, a user with access to only one queue had to get the farm ID from an administrator before they could reach their work. With this launch,",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
-          "published": "2026-10-12T16:00:00+00:00",
-          "content_snippet": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event. AgentCore memory gives agents in-session context through short-term memory and persistent knowledge across sessions through long-term memory. With consumption-based pricing, developers building agents that write frequent, small events pay in p",
+          "title": "Amazon Location Service launches an interactive API Playground featuring Places, Routes and Maps APIs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground",
+          "published": "2026-10-13T18:46:00+00:00",
+          "content_snippet": "Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all 14 Amazon Location Service Places, Maps and Routes APIs are available in an interactive API Playground, where developers can make real API calls, see results rendered on an interactive map, adjust parameters, and copy ready-to-use request snippets directly into their applications. The API Playgroun",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
-          "published": "2026-10-13T15:59:06+00:00",
-          "content_snippet": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as a retrospective, and that gap is part of what makes it worth reading. By the time the numbers reach you, the only evidence that any of it happened is that nothing went wrong. The rest of the week pulled i",
-          "source_name": "AWS Blog",
+          "title": "Sizing Lakebase Search: lessons from a real app and 4 million passages",
+          "url": "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages",
+          "published": "2026-10-15T00:06:48+00:00",
+          "content_snippet": "Slide Hub is an internal Databricks app. Field engineers use it to find and reuse...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing AWS Lambda Web Functions",
-          "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-          "published": "2026-10-12T22:34:47+00:00",
-          "content_snippet": "Today, we’re announcing AWS Lambda Web Functions , a new form factor that lets you run standard HTTP web applications on Lambda without rewriting your code into an event handler. You can take a standard port-listening server built with Express, Hono, Fastify, Next.js, or any Node.js framework, deploy it with a single command, and Lambda automatically handles scaling, multi-region distribution, and active CPU billing. No adapters, no infrastructure to manage, and no framework lock-in. With this l",
-          "source_name": "AWS Blog",
+          "title": "Introducing Private Network Gateway",
+          "url": "https://www.databricks.com/blog/introducing-private-network-gateway",
+          "published": "2026-10-14T14:00:00+00:00",
+          "content_snippet": "Databricks serverless compute is fully managed, intelligent, and versionless, allowing...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Ride out this sticker storm in style",
-          "url": "https://www.youtube.com/watch?v=TD0bImyg_IM",
-          "published": "2026-10-13T15:47:28+00:00",
-          "content_snippet": "Make your own sticker packs with ChatGPT Images.",
+          "title": "A practical guide to real-time analytics in 2026",
+          "url": "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026",
+          "published": "2026-10-13T19:17:26+00:00",
+          "content_snippet": "Data has always been central to business decision-making, and most analytical workloads...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What's New in Lakeflow Designer - October 2026 Roundup",
+          "url": "https://www.databricks.com/blog/whats-new-lakeflow-designer-october-2026-roundup",
+          "published": "2026-10-13T19:00:00+00:00",
+          "content_snippet": "We launched Lakeflow Designer to general availability in June, and since then, over...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Databricks is a Visionary the Gartner® Magic Quadrant™ for Analytics and Business Intelligence Platforms",
+          "url": "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms",
+          "published": "2026-10-13T18:00:00+00:00",
+          "content_snippet": "We are incredibly excited to announce that Databricks has made its inaugural appearance...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Singapore office and government MOU | Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "published": "2026-10-14T08:30:00+00:00",
+          "content_snippet": "Anthropic opens Singapore office and signs MOU with the Government of Singapore\nToday, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTe",
+          "source_name": "Anthropic News",
+          "source_type": "website",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Oracle Uses Codex to Help Business Users Get Answers",
+          "url": "https://www.youtube.com/watch?v=DTcK95TAZ-k",
+          "published": "2026-10-14T09:35:27+00:00",
+          "content_snippet": "Richard Lam, Group Vice President at Oracle Applications Lab, shares how his team uses Codex to help business users get answers from company data. By describing the outcome they want, users can get an analysis, a report, or an application, with Codex gathering the information from internal systems. Read the full Oracle story: https://openai.com/index/oracle/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Work with your team in ChatGPT Space",
+          "url": "https://www.youtube.com/watch?v=G-9Y2xNiDKQ",
+          "published": "2026-10-13T21:01:10+00:00",
+          "content_snippet": "Explore a shared place to work with people and ChatGPT. See how Space brings conversations, context and collaborative work together.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Block on Finding and Fixing Security Risks with OpenAI",
+          "url": "https://www.youtube.com/watch?v=9aDuSpVoB-Y",
+          "published": "2026-10-13T18:02:20+00:00",
+          "content_snippet": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s cyber capabilities can help uncover software vulnerabilities and connect them into a path to compromise. Then comes the work that turns discovery into action: identify the affected software and its ow",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Block on Finding and Fixing Security Risks with OpenAI",
+          "url": "https://www.youtube.com/watch?v=N6K_pxaAh0w",
+          "published": "2026-10-13T17:59:33+00:00",
+          "content_snippet": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s cyber capabilities can help uncover software vulnerabilities and connect them into a path to compromise. Then comes the work that turns discovery into action: identify the affected software and its ow",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -238,16 +276,12 @@
       ],
       "errors": [
         {
-          "source_name": "Anthropic News",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Databricks Blog": 2
+        "AWS Blog": 1
       }
     },
     {
@@ -263,55 +297,46 @@
       ],
       "items": [
         {
-          "title": "Tokens Are the Cheap Part — Steve Jamison, Jellyfish",
-          "url": "https://www.youtube.com/watch?v=U7ZYBCcdJPg",
-          "published": "2026-10-13T17:00:19+00:00",
-          "content_snippet": "AI spending rises dramatically while the allocated cost of a merged pull request falls. Steve Jamison explains why those observations can coexist when developer salaries and model costs are counted together. Using Jellyfish's engineering data, he reports a 60 fold increase in AI spending, 43% more merged pull requests per engineer and a 26% decline in combined cost per merged pull request over the period discussed. The largest cost in that calculation remains salary. These are observational comp",
+          "title": "Rebuilding CI for AI-Scale Commit Volume — Gautam Korlam, SonarSource",
+          "url": "https://www.youtube.com/watch?v=7b9tov5Uc5s",
+          "published": "2026-10-14T14:00:18+00:00",
+          "content_snippet": "A coding agent can produce changes faster than the queues that test, review and merge them. Gautam Korlam examines that mismatch through his work on Uber's SubmitQueue and Gitar, now part of Sonar. A merge queue keeps the main branch healthy by testing combinations of changes before they land, but a process designed for human arrival rates can become a bottleneck when agents create many pull requests at once. Faster code generation shifts the constraint to failed builds, repeated repairs, review",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The Agent Works. Does Anyone Trust It? — Michele Grant, Leading at Scale",
-          "url": "https://www.youtube.com/watch?v=-a2oTS9J67U",
-          "published": "2026-10-13T16:00:11+00:00",
-          "content_snippet": "An agent's reports match the analysts' work during a pilot, yet the steering committee still has to decide whether it should operate in a core business process. Michele Grant uses an illustrative acquisition integration scenario to examine that decision. The question moves beyond technical accuracy to measurable value, accountable ownership and evidence for greater authority. A faster report is useful only if it changes a decision or releases capacity that the organization actually redeploys. He",
+          "title": "The Cost of Accessibility in AI — Jemima Abu, CAIS",
+          "url": "https://www.youtube.com/watch?v=ZccJsdOE54M",
+          "published": "2026-10-14T13:00:33+00:00",
+          "content_snippet": "The same Figma implementation prompt runs twice: once without accessibility guidance and once with an accessibility skill. In Jemima Abu's small experiment, the second run costs 58% less and finishes in about a third of the time. She immediately explains why that uncontrolled comparison cannot prove that accessible development is always cheaper. What it does expose is a familiar failure mode: an agent invents a verbose custom component when a native HTML element could supply much of the required",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Deploying AI Inside a Bank Is Not an Engineering Problem — Paden Gayle, Applied AI Engineers",
-          "url": "https://www.youtube.com/watch?v=3ZlQk4-knWM",
-          "published": "2026-10-13T15:00:00+00:00",
-          "content_snippet": "A bank's document exception assistant produces a convincing demo, but security, data owners and risk reviewers still cannot approve it. Paden Gayle uses that hypothetical project to show why a working model does not establish a route into production. The missing decisions concern where the system runs, who authorized the documents, who reviews a wrong exception and which existing controls the workflow must satisfy. Drawing on his engineering experience, Gayle makes discovery part of the build: f",
+          "title": "Your Fridge Is a Valid Payment Device — Eleonora Drykina & Nina Žižakić, In The Pocket",
+          "url": "https://www.youtube.com/watch?v=gonAewBZxfU",
+          "published": "2026-10-14T12:00:07+00:00",
+          "content_snippet": "A question about payment rules can require one table row, an entire section or several rulebooks. Eleonora Drykina and Nina Žižakić describe a RAG assistant built for an anonymous Belgian payments client whose source material spans about 270 PDFs and 6,000 pages. Much of the answer bearing information sits in tables. Their indexing pipeline preserves section paths and chunk order so a larger passage can be reconstructed, and converts tables into CSV while retaining the relationship between headi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Every Building Is a Balance Sheet: Spatial Memory for Real-World Assets — Jordi Spranger, Spranic",
-          "url": "https://www.youtube.com/watch?v=Fe4aSMXsOZ4",
-          "published": "2026-10-13T14:00:15+00:00",
-          "content_snippet": "Two scans of the same kitchen reveal that three chairs have moved. The change can be queried against the captured scene, with a reference back to the observation. Jordi Spranger demonstrates the idea behind Spranic's spatial memory: turn a walk through a building into a record of its objects, relationships and changes over time. A conference hall scan provides a second example. Instead of leaving the evidence scattered across photographs and PDFs, the system stores a semantic representation in a",
+          "title": "AI Engineer NYC Livestream | Bridgewater, Anthropic, Two Sigma, Arize, Coatue, Nous, Gen. Intuition",
+          "url": "https://www.youtube.com/watch?v=akEqiXFo3GM",
+          "published": "2026-10-13T21:42:19+00:00",
+          "content_snippet": "Schedule: https://ai.engineer/schedule Live from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management. Event: AI Engineer NYC Dates: October 12–14, 2026 Venue: Sheraton New York Times Square Hotel Learn more about the event: https://ai.engineer/nyc/2026# Subscribe for more AI Engineer talks, livestreams, and event cov",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Judge a Transaction by the Company It Keeps — Somya Rai & MD Sharique, EXL",
-          "url": "https://www.youtube.com/watch?v=SHvwutPSeZg",
-          "published": "2026-10-13T13:00:12+00:00",
-          "content_snippet": "A transaction can look harmless in isolation and suspicious once its links to recent fraud become visible. Somya Rai and MD Sharique explain an EXL fraud detection system that adds graph embeddings to an existing XGBoost classifier. The objective is precision within a fixed analyst alert budget, rather than a better headline score alone. Rai introduces the neighborhood signal and the constraints of two transaction portfolios; Sharique then walks through sampling, graph construction, explanation ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "I Believe Everything My Agents Tell Me: Three Levels of Review — Corey Gallon, Rexmore",
-          "url": "https://www.youtube.com/watch?v=dYh7TQkuYFE",
-          "published": "2026-10-13T12:00:08+00:00",
-          "content_snippet": "A demand letter passed its drafting agent's own checks, yet two independent reviewer agents found that the supposedly expired contract had renewed less than three weeks earlier. Sending it could have left the business owing thousands of dollars. Corey Gallon uses that case to explain a three level review method for agents that overstate completed work, misread facts or draw the wrong conclusions. His analysis of his own 2026 sessions found a consequential error in about four out of ten sessions;",
+          "title": "What Technical Due Diligence Finds When the Deck Says “70% Automated” — Soukaïna Abelhad",
+          "url": "https://www.youtube.com/watch?v=gDRCpTMCqEU",
+          "published": "2026-10-13T18:00:17+00:00",
+          "content_snippet": "A pitch deck says a workflow is 70% automated. Before accepting the number, Soukaïna Abelhad asks what it counts, what human work remains and who checked the result. Her first diligence test needs no model expertise: compare workload growth with the fully loaded labor required to deliver it. More output with proportionally more reviewers, trainers, escalations and rework can describe assistance rather than labor removal. A percentage without a clear denominator obscures that distinction, especia",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -321,5 +346,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 18
+  "deduped_count": 21
 }
