@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T14:23:59Z",
+  "fetched_at": "2026-10-16T14:13:48Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,101 +14,38 @@
       ],
       "items": [
         {
-          "title": "Uber’s AI infra, from the inside",
-          "url": "https://www.youtube.com/watch?v=MDUYSMJmi8A",
-          "published": "2026-10-14T16:57:55+00:00",
-          "content_snippet": "What do developer tools look like inside of Uber, today? They are very different from what you would see at most places. For example, can you guess what service a system called DevPods, Code Inbox, Slate or Wisdom would be providing to engineers? Today’s episode is a deepdive into the day-to-day tools of devs at Uber, our tour guide being on of Uber’s longest-tenured engineers: Uday Kiran Medisetty. Uday is one of the few Distinguished Engineers at the company, and leads much of the work on agen",
+          "title": "At Uber, 15% of PRs are from Minion",
+          "url": "https://www.youtube.com/watch?v=0PlOtbQIknk",
+          "published": "2026-10-15T16:38:49+00:00",
+          "content_snippet": "with Uday Kiran Medisetty, Distinguished Engineer at Uber See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
         },
         {
-          "title": "Integrating Netflix’s Foundation Model into Personalization applications",
-          "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T20:02:22+00:00",
-          "content_snippet": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya The motivation for building the Netflix Foundation Model for personalization was laid out in this previous blog post. The Netflix homepage is powered by several specialized models and it requires significant time and resources to maintain and continue innovating on these individual models. Therefore, we decided to centralize member preference learning and have one powerful model learned from comprehensive user interactio",
-          "source_name": "Netflix Tech Blog",
+          "title": "How Meta Built Forum With AI-Native Engineering",
+          "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+          "published": "2026-10-15T19:00:03+00:00",
+          "content_snippet": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we adapted the codebase, tested frameworks and internal tooling for agentic execution, what worked, and what didn’t. Forum is a standalone Groups app that a small team built from scratch. It’s ",
+          "source_name": "Meta Engineering",
           "source_type": "rss",
           "area_name": "Technology"
         },
         {
-          "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
-          "url": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:59:08+00:00",
-          "content_snippet": "by Olek Gorajek , Samuel Redai , Yian Shang Intro Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll showcase the critical role that DataJunction played in streamlining our data workflows and enhancing our ability to derive meaningful ins",
-          "source_name": "Netflix Tech Blog",
+          "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+          "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+          "published": "2026-10-15T18:30:29+00:00",
+          "content_snippet": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial World Cup tournament. The 2026 World Cup broke records across messaging, video, recommendations, and networking at the same time. Some highlights: WhatsApp: More than 30 million messag",
+          "source_name": "Meta Engineering",
           "source_type": "rss",
           "area_name": "Technology"
         },
         {
-          "title": "Measuring the Impact of Personalized Recommendations",
-          "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:57:43+00:00",
-          "content_snippet": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus Introduction Personalization is everywhere on the internet. It shapes the products we discover, the stories we read, the music we hear, and the movies and TV shows we watch. At Netflix, personalization has been central to the member experience for decades — from the Netflix Prize to our modern recommender system that helps members navigate a large and constantly changing catalog. But personalization is n",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
-          "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:56:08+00:00",
-          "content_snippet": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan Introduction In an earlier post , we introduced the TimeSeries Abstraction, our high-throughput, low-latency platform designed to store and query temporal event data at scale. It has since become the operational backbone for Netflix’s largest datasets, which now span multiple petabytes. However, managing such large datasets in hot storage, tuned for low-millisecond latency access , is not cheap. At Netfli",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
-          "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:51:35+00:00",
-          "content_snippet": "By Yogesh Nagarur Introduction In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enrichment, and a standard data contract. The result was Ads Event Publisher, the system that collects ad telemetry from client devices, enriches it with the context of the ad that was actually served, and publishes a single, unified stream of ad events to every downstream consumer:",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Netflix Conductor: The Next Chapter",
-          "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:50:17+00:00",
-          "content_snippet": "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes. If you’ve followed Conductor from the outside, the last thing you heard was probably the note on its GitHub repository : Netflix discontinued maintenance of Conductor OSS to refocus its resources on the internal fork. That announcement marked the end of the open-source chapter,",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Running Apache Spark experiments in my sleep (and on a plane)",
-          "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:49:11+00:00",
-          "content_snippet": "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signals, into individual viewing sessions per profile. A quick two-week tuning effort spiraled into two months when standard approaches hit a wall. Because the failures only happened at full production scale, each test took hours, limiting me to just three or four attempts daily. The t",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
-          "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:48:49+00:00",
-          "content_snippet": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale hits the same problem. You cannot evaluate everything manually. You don't know which outputs are great, which are mediocre, and which are harmful, because you simply cannot read them all. The standard solution is LLM-as-a-Judge , a second model that scores the first model’s output",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
-          "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:48:20+00:00",
-          "content_snippet": "By Violetta Pidvolotska and Naveen Mareddy Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of media workloads — including encoding, packaging, inspection, and quality scoring — behind playback, advertising, studio workflows, AI embeddings, and more. Engineers develop Stratum functions by packaging application code and OS dependencies into OCI images. Stratum then schedules",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Reliable GPU compute for large training & inference jobs",
-          "url": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
-          "published": "2026-10-14T19:47:42+00:00",
-          "content_snippet": "How we detect failing GPUs and network fabric, remediate machines automatically, and let long-running jobs survive hardware loss. Authors: Nick Rutigliano , Argha C , Samartha Chandrashekar Open Netflix, and the home screen is assembled for you: which rows appear, the order they appear in, the titles within them, and the artwork for each title are chosen by machine learning models trained on how hundreds of millions of members watch. Personalization is one of the most widely used things we build",
-          "source_name": "Netflix Tech Blog",
+          "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+          "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+          "published": "2026-10-15T16:00:59+00:00",
+          "content_snippet": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis ( ISSTA) 2026 Most Influential Paper Award for their 2016 research, “ Sapienz: multi-objective automated testing for Android applications. ” The recognition celebrates a decade of impact from work that began at University College London and went on to become testing infrastructure at Meta. Sapienz automatically tests apps to find crashes and helps engineers reproduc",
+          "source_name": "Meta Engineering",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -120,8 +57,8 @@
         }
       ],
       "deduped_sources": {
-        "Airbnb Tech": 1,
-        "Meta Engineering": 4
+        "Netflix Tech Blog": 10,
+        "Airbnb Tech": 1
       }
     },
     {
@@ -148,29 +85,31 @@
       ],
       "items": [
         {
-          "title": "The thing that remains when your senses go dark | Andrew Holecek",
-          "url": "https://www.youtube.com/watch?v=HdJxqW0-uZA",
-          "published": "2026-10-15T14:00:29+00:00",
-          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Andrew Holecek spends time in complete darkness: no light, no sound, no sensory distractions. Here's what he says happens to the mind after the panic wears off. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 We spend our lives reaching for something — a phone, a feed, or a distraction — without asking what we actually need. Andrew Holecek has spent years studying wha",
-          "source_name": "Big Think",
+          "title": "Avoid This Social Mistake",
+          "url": "https://www.youtube.com/watch?v=L1k-WeKrtIk",
+          "published": "2026-10-15T14:42:48+00:00",
+          "content_snippet": "Before you ask anyone for anything, give them an authentic compliment and find something you have in common. That's how you build a relationship with someone you just met. Ryan Serhant, founder of SERHANT., says trust comes first and the ask comes after. You can start using it in your very next conversation.",
+          "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "The hidden cost of ignoring your feelings | Lisa Damour",
-          "url": "https://www.youtube.com/watch?v=KtY6mDA1Ps4",
-          "published": "2026-10-14T16:06:28+00:00",
-          "content_snippet": "The hidden cost of ignoring your feelings | Lisa Damour",
+          "title": "Pantheism: A third way between religion and atheism | Jack Symes",
+          "url": "https://www.youtube.com/watch?v=S8l1jGHt_PI",
+          "published": "2026-10-16T13:00:35+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-symes-S8l1jGHt_PI Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, The strongest arguments for and against the existence of God | Alex O'Connor: Full Interview ► https://www.youtube.com/watch?v=aqWTlUOho",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 3,
-        "Daniel Pink": 2
-      }
+      "errors": [
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -182,17 +121,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Why Your SOC Needs Agentic AI (Databricks Lakewatch)",
-          "url": "https://www.youtube.com/watch?v=k_mJO2YgpGs",
-          "published": "2026-10-15T14:00:36+00:00",
-          "content_snippet": "Traditional SIEMs rely on bolt-on AI features that can't access the full context of your data. Lakewatch brings embedded AI directly to where your security data lives. Genie automates critical workflows such as ingesting and parsing new log sources to OCSF, authoring net-new detections based on the latest threat intelligence, modifying existing rules to reduce false positives, and translating natural language questions into SQL queries. Genie Spaces lets security teams query petabytes of data us",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -212,6 +141,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 2
       }
     },
@@ -231,91 +161,145 @@
       ],
       "items": [
         {
-          "title": "Amazon CloudWatch announces log routing and chained log parsers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
-          "published": "2026-10-14T22:14:00+00:00",
-          "content_snippet": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure. Log pipelines often carry a mix of event types that belong in different places, and individual events can nest one log format inside another. With conditional log rou",
+          "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+          "published": "2026-10-15T20:40:00+00:00",
+          "content_snippet": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully managed tool that provides AI agents with current grounding from the web, enabling more accurate and up-to-date responses for tasks such as research, summarization, and question answering. With this expansion, customers can build agents that retrieve web information closer to their applications and end u",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
-          "published": "2026-10-14T22:00:00+00:00",
-          "content_snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously, new customers who discovered a model on Hugging Face or an AWS product page had to complete a multi-step AWS account creation process, provide a credit card, navigate the AWS Console to find SageMaker AI, configure an environment, and set up I",
+          "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
+          "published": "2026-10-15T20:10:00+00:00",
+          "content_snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup and no console navigation required. Previously, new customers who discovered a model on Hugging Face or an AWS product page had to complete a multi-step AWS account creation process, provide a credit card, navigate the AWS Console to find SageMaker AI, configure an environment, and set up IAM permissions be",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "ARC Region switch adds four new capabilities",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
-          "published": "2026-10-14T17:38:00+00:00",
-          "content_snippet": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions. AWS Systems Manager Run Command execution block. During failover",
+          "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
+          "published": "2026-10-15T20:00:00+00:00",
+          "content_snippet": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro cards. T8i instances deliver up to 30% better price performance compared to previous generation T3 instances, and offer four sizes: nano, micro, small, and medium. These instances are designed for workloads requiring low to moderate CP",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
-          "published": "2026-10-14T17:04:00+00:00",
-          "content_snippet": "AWS License Manager now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding their fleet or migrating workloads to a new instance or AMI. With an Ubuntu Pro subscription, customers receive security patches for up to 10 years — extendable to 15 years with the Legacy add-on. This coverage extends beyond the base OS to thou",
+          "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
+          "published": "2026-10-15T18:30:00+00:00",
+          "content_snippet": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to 24 hours old) or from new records written after you start consuming the stream. Now, you can supply a timestamp and begin processing at the first record written at or after that time using the AT_TIMESTAMP shard iterator type. Timestamp-based stream processing can be used with th",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
-          "published": "2026-10-14T16:00:00+00:00",
-          "content_snippet": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers ",
+          "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+          "published": "2026-10-15T18:23:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Go, enabling Go developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications like infrastructure automation, deployment rollouts with approval gates, and pipelines that call AI models and pause for human review directly in their Go code without implementing custom progress tracking. Lambda durable functions extend Lambda's",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-          "published": "2026-10-14T19:30:48+00:00",
-          "content_snippet": "Developers building web and AI applications on Vercel can now add Amazon S3 storage resources directly from the Vercel Marketplace and v0, combining the durability, scalability, and performance of S3 with the convenience of Vercel’s provisioning workflow. Starting today, Amazon Simple Storage Service (Amazon S3) , including Amazon S3 Tables and Amazon S3 Vectors , is natively available on the Vercel Marketplace and v0 by Vercel , covering three distinct workloads: everyday storage, analytics, an",
-          "source_name": "AWS Blog",
+          "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
+          "published": "2026-10-15T18:00:00+00:00",
+          "content_snippet": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is purpose-built for agentic coding workflows, bringing multi-step reasoning and tool calling to enterprise software engineering on AWS infrastructure. Muse Spark Open is designed for long-running coding agents and multimodal engineering workflows. Built on a Mixture-of-Experts (MoE) architecture with 816",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Unlock powerful insights and forecasts with Predictive AI Functions",
-          "url": "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions",
-          "published": "2026-10-14T23:30:00+00:00",
-          "content_snippet": "Data teams all get asked the same questions: \"what will sales be next quarter?,\"...",
+          "title": "AWS HealthOmics now supports shared VPCs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+          "published": "2026-10-15T17:42:00+00:00",
+          "content_snippet": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM). AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. With shared VPCs, customers can centralize networking administration by sharing subnets and security gr",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all commercial regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
+          "published": "2026-10-15T17:34:00+00:00",
+          "content_snippet": "Amazon Time Sync Service introduces support for microsecond-accurate time on 135 additional EC2 instance types—spanning 12 instance families—in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nitro System, microsecond-accurate time and nanosecond-precision hardware timestamps leverage the reference clocks running in the Nitro System directly, enabling customers to easily order application events, measure 1-way network latency, and increase distributed applicat",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
+          "published": "2026-10-15T17:00:00+00:00",
+          "content_snippet": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Together these changes give customers more control over where their modernized databases are deployed after SQL Server modernization, supporting data residency, latency, and disaster recovery requirements. Customers can upload SQL Server Database Design Language (DDL) files and set a target AWS Region ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon MSK Connect and AWS Glue Schema Registry are now available in the AWS European Sovereign Cloud (Germany) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-aws-gsr-additional-aws-regions",
+          "published": "2026-10-15T16:40:00+00:00",
+          "content_snippet": "Starting today, Amazon MSK Connect and the AWS Glue Schema Registry are available in the AWS European Sovereign Cloud (Germany) region. Together with Amazon MSK Standard brokers, already available in the region, these launches give customers running streaming workloads on the AWS European Sovereign Cloud a more complete set of tools to build, connect, and govern their Apache Kafka applications. MSK Connect lets you run fully managed Kafka Connect clusters with Amazon MSK - deploy, monitor, and s",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How our AI Research team uses AI Runtime",
+          "url": "https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime",
+          "published": "2026-10-15T21:37:44+00:00",
+          "content_snippet": "At Databricks, we continuously develop and evaluate new AI research techniques to...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Power real-time applications and agents with Document Intelligence",
-          "url": "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence",
-          "published": "2026-10-14T20:00:00+00:00",
-          "content_snippet": "At Databricks, our enterprise customers receive millions of documents every single...",
+          "title": "Reducing the noise: How Atlassian built an OCSF security lakehouse on Databricks",
+          "url": "https://www.databricks.com/blog/reducing-noise-how-atlassian-built-ocsf-security-lakehouse-databricks",
+          "published": "2026-10-15T20:50:26+00:00",
+          "content_snippet": "The challenge: Two decades of logging noise at global scaleAtlassian is a global...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Preparing for the 2026 US midterms",
-          "url": "https://www.anthropic.com/news/2026-us-midterms",
-          "published": "2026-10-14T18:33:00+00:00",
-          "content_snippet": "Preparing for the 2026 US midterms\nEarlier this year, we shared an update on our election safeguards, which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information.\nBelow, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms.\nHow people use Claude for elections and politics\nOur goal is for Claude to be a useful tool for political conversations, while preventing ele",
+          "title": "Geospatial queries are up to 38X faster with Lakehouse//RT",
+          "url": "https://www.databricks.com/blog/geospatial-queries-are-38x-faster-lakehousert",
+          "published": "2026-10-15T17:31:02+00:00",
+          "content_snippet": "Spatial SQL and spatial joins now run on Lakehouse//RT and they're up to 38X faster...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Anthropic update on independent evaluators",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "published": "2026-10-15T17:20:00+00:00",
+          "content_snippet": "An update on independent evaluators\nLast month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from METR, a nonprofit that evaluates frontier AI models.\nMETR will publish the results of its risk assessments. Over the pa",
           "source_name": "Anthropic News",
           "source_type": "website",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI",
-          "url": "https://www.youtube.com/watch?v=3IVo-MNwk2I",
-          "published": "2026-10-15T14:13:38+00:00",
-          "content_snippet": "Cybersecurity research, moving from weeks to hours. SentinelOne’s Gregor Stewart describes OpenAI’s cyber capabilities reaching human-level output in about eight hours on reverse-engineering work that would take a top researcher four to six weeks. That lets security teams investigate more malware, connect related threats and keep a clearer picture of how attacks are evolving. “That’s a kind of intelligence that we were never able to afford before.” Watch Gregor explain what faster research makes",
+          "title": "Build more personal sites with Codex",
+          "url": "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
+          "published": "2026-10-15T20:48:59+00:00",
+          "content_snippet": "Keep your team's Sites up to date and make them personal to each visitor. Connect scheduled tasks to refresh site data automatically and let your users connect their plugins for a personalized view of your site. To try it out, just ask Codex.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "GPT-Live-1.1 has new voices and better accents.",
+          "url": "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
+          "published": "2026-10-15T18:24:44+00:00",
+          "content_snippet": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -324,33 +308,24 @@
           "title": "Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI",
           "url": "https://www.youtube.com/watch?v=BOTAeAU5ExQ",
           "published": "2026-10-15T14:12:09+00:00",
-          "content_snippet": "Cybersecurity research, moving from weeks to hours. SentinelOne’s Gregor Stewart describes OpenAI’s cyber capabilities reaching human-level output in about eight hours on reverse-engineering work that would take a top researcher four to six weeks. That lets security teams investigate more malware, connect related threats and keep a clearer picture of how attacks are evolving. “That’s a kind of intelligence that we were never able to afford before.” Watch Gregor explain what faster research makes",
+          "content_snippet": "Cybersecurity research, moving from weeks to hours. SentinelOne’s Gregor Stewart describes OpenAI’s cyber capabilities reaching human-level output in about eight hours on reverse-engineering work that would take a top researcher four to six weeks. That lets security teams investigate more malware, connect related threats and keep a clearer picture of how attacks are evolving. “That’s a kind of intelligence that we were never able to afford before.” Learn what faster research makes possible for S",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Cooking up a catering business with ChatGPT",
-          "url": "https://www.youtube.com/watch?v=PZxbaIp8PzE",
-          "published": "2026-10-14T17:47:37+00:00",
-          "content_snippet": "Running a restaurant is a 24/7 commitment. And apparently finding catering clients is just as time-consuming. Nick Baumann visited Richard at @thedumplingprince in Toronto to put ChatGPT to work on a catering deck and automated outreach. It didn't get an apron. 👉🛠️ Wish something existed? Drop your idea below or DM us and we'll come build it with you next.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Block on Finding and Fixing Security Risks with OpenAI",
-          "url": "https://www.youtube.com/watch?v=N6K_pxaAh0w",
-          "published": "2026-10-13T17:59:33+00:00",
-          "content_snippet": "“Now you know and now you can take action before someone else knows.” A weakness in your code can be part of a much bigger attack. Seeing how those weaknesses connect gives defenders a clearer picture of where to act. Block’s Chief Information Security Officer, James Nettesheim, shares how OpenAI’s cyber capabilities can help uncover software vulnerabilities and connect them into a path to compromise. Then comes the work that turns discovery into action: identify the affected software and its ow",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "National Design Studio and Cognition Launch the American Forge Residency",
+          "url": "https://cognition.ai/blog/american-forge-fellowship",
+          "published": "2026-10-16T17:00:00+00:00",
+          "content_snippet": "National Design Studio and Cognition Launch the American Forge Residency\nNational Design Studio and Cognition are looking for engineers to help modernize America’s federal software infrastructure. Apply here.\nAmerican Forge is a six-month residency for exceptional engineers to take on the toughest problems in government and make a real difference for hundreds of millions of Americans.\nOver and over we see teams that adopt Devin begin to take on increasingly ambitious engineering challenges. Engi",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "Devin AI (Cognition)",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -369,46 +344,10 @@
       ],
       "items": [
         {
-          "title": "AI Engineer NYC: OpenAI, Blackstone, Ramp, Coinbase, Apollo, Citadel, Basis, Runway, Compute Trading",
-          "url": "https://www.youtube.com/watch?v=jiUC6IUMdvc",
-          "published": "2026-10-14T21:54:49+00:00",
-          "content_snippet": "Live from the Sheraton New York Times Square Hotel in New York City, AI Engineer New York 2026 is an AI conference for engineers and technical leaders building production AI across banking, hedge funds, fintech, insurance, and asset management. Event: AI Engineer NYC Dates: October 12–14, 2026 Venue: Sheraton New York Times Square Hotel Learn more about the event: https://ai.engineer/nyc/2026# Subscribe for more AI Engineer talks, livestreams, and event coverage: / @aidotengineer",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "I Spent Two Years Building the Median — Hariprasad Sudharshan",
-          "url": "https://www.youtube.com/watch?v=0JZy5AuuQzc",
-          "published": "2026-10-14T18:00:11+00:00",
-          "content_snippet": "After two years of intense solo building, Hariprasad Sudharshan discovers that other people have independently produced calculators much like his own. Nobody needs to have copied anyone: the same models, tools and familiar problem can lead builders toward the same solution. He calls that shared starting point the median. Faster development makes it easier to ship useful software, including internal tools and learning projects, but a functioning demo does not establish a durable product advantage",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Paving the Road to Production: Governed Enterprise AI Agents — Harish Gaggar, Credit Karma",
-          "url": "https://www.youtube.com/watch?v=tZycGA_Fbfo",
-          "published": "2026-10-14T17:00:04+00:00",
-          "content_snippet": "Register an agent through an internal portal and receive more than a repository: the deployment also needs identity, memory, traces, evaluations and secret handling. Harish Gaggar walks through that paved path for enterprise agents at Intuit Credit Karma. Local development progresses through container builds, review, security scanning and Kubernetes deployment, with the supporting resources provisioned consistently. The architecture places a centralized MCP gateway between agents and tools so au",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your AI Isn’t the Problem. Your Infrastructure Is. — Jiachen Jiang, Coder",
-          "url": "https://www.youtube.com/watch?v=Wb2v9Phhnns",
-          "published": "2026-10-14T16:00:25+00:00",
-          "content_snippet": "A coding agent deletes production data despite a written code freeze. Jiachen Jiang uses that incident to distinguish a request in a chat from an enforced boundary in the environment. An agent that still possesses destructive credentials can act on them, and logs it can edit are an unreliable account of what happened. Jiang examines three security stories: the public Replit database incident, a secondhand and anonymized banking account involving a compromised Copilot session, and the Nx supply c",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to Actually Tokenmaxx and Save Millions — Alvin Pane, OutRival",
-          "url": "https://www.youtube.com/watch?v=8g1N_a3h9H0",
-          "published": "2026-10-14T15:00:14+00:00",
-          "content_snippet": "A cheaper candidate model disagrees with the production model on 18% of examples. Reject it immediately, or first ask how often production disagrees with itself? Alvin Pane uses that question to frame a token optimization workflow at OutRival. Repeated runs of the existing model reveal a reported 7% disagreement rate, making simple model to model agreement an incomplete quality measure. His HarborBite example is a synthetic proxy for a large instruction prompt, used to show the mechanics of redu",
+          "title": "The Highest Loop — swyx",
+          "url": "https://www.youtube.com/watch?v=Fva8hFosqyQ",
+          "published": "2026-10-16T02:03:26+00:00",
+          "content_snippet": "Why we gather at AI Engineer World’s Fair 2026.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -418,5 +357,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 26
+  "deduped_count": 40
 }
