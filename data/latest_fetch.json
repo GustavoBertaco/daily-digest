@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T13:11:02Z",
+  "fetched_at": "2026-10-18T13:31:57Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
-          "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
-          "published": "2026-10-16T16:01:02+00:00",
-          "content_snippet": "Prasanna Vijayanathan , Renzo Sanchez-Silva When Jake Paul and Mike Tyson stepped into the ring in November 2024, we delivered the fight to roughly 65 million concurrent streams. On an ordinary day our infrastructure takes in more than 2 billion requests and handles upwards of 38 million real-time logging events every second. At that scale, the whole picture doesn’t fit into a single engineering team’s head or onto a single dashboard. With more Live content, Podcasts and real-time streams, our n",
-          "source_name": "Netflix Tech Blog",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -30,7 +20,8 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
+        "The Pragmatic Engineer": 1,
+        "Netflix Tech Blog": 10,
         "Airbnb Tech": 1,
         "Meta Engineering": 7
       }
@@ -59,11 +50,11 @@
       ],
       "items": [
         {
-          "title": "Why are T. Rex arms so pathetic? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=nLDBRNj93Ak",
-          "published": "2026-10-16T16:06:06+00:00",
-          "content_snippet": "Why are T. Rex arms so pathetic? | Steve Brusatte",
-          "source_name": "Big Think",
+          "title": "The Secret to Berkshire's Success",
+          "url": "https://www.youtube.com/watch?v=4-vJ2OJREpM",
+          "published": "2026-10-17T15:23:35+00:00",
+          "content_snippet": "Charlie Munger’s take on Berkshire’s edge: “We were almost never forced to make decisions by circumstances.” Bill Ackman explains how he built Pershing Square around the same idea.",
+          "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -75,7 +66,7 @@
         }
       ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 2
+        "Big Think": 3
       }
     },
     {
@@ -126,101 +117,31 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
-          "published": "2026-10-16T20:04:00+00:00",
-          "content_snippet": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with AWS Organizations for efficient aggregation without the need for custom solutions. With this launch, organizations in the AWS GovCloud (US) partition and commercial partition can each centralize logs across their accounts and Regions for centralized ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
-          "published": "2026-10-16T18:26:00+00:00",
-          "content_snippet": "AWS Lambda durable functions are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience. Lambda durable functions extend the Lambda programming model with new primitives in your event handler, such as \"step\" and \"wait\", allowing you to checkpoint progress, automatically recover from failures, and pause executions without incurring c",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
-          "published": "2026-10-16T17:59:00+00:00",
-          "content_snippet": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron 3.5 family accepts images, video, and text as input and generates text, enabling customers to deploy multimodal AI solutions on AWS infrastructure. Nemotron 3.5 Super VL is designed for document intelligence, GUI understanding, video question answering, and multimodal agentic applications. It pairs a 1",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
-          "published": "2026-10-16T16:00:00+00:00",
-          "content_snippet": "Beam, the first open weight model offered by US-based Reflection, is now available in Amazon SageMaker JumpStart, the model hub in Amazon SageMaker AI. According to Beam, they operate at the frontier of open weight models in its class, with strong performance across reasoning, coding, and agentic benchmarks. With it, customers can now build advanced coding agents and automated workflows on a frontier open weight model while keeping control of their data and infrastructure and adapting the model ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
-          "published": "2026-10-16T13:50:00+00:00",
-          "content_snippet": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET applications to AWS. The AWS Transform .NET modernization agent identifies Azure service code and converts it to equivalent AWS service code. For example, an Azure Functions serverless function that uses Azure Cosmos DB can be converted to an AWS Lambda function that uses Amazon DynamoDB. AWS Transform",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Transactions are Generally Available, advancing warehousing on the Lakehouse",
-          "url": "https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse",
-          "published": "2026-10-16T21:00:00+00:00",
-          "content_snippet": "Multi-Statement Transactions are Generally Available, enabling organizations to run...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
-          "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
-          "published": "2026-10-16T15:37:00+00:00",
-          "content_snippet": "IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Put your dot on call",
-          "url": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
-          "published": "2026-10-16T21:43:48+00:00",
-          "content_snippet": "Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Put ChatGPT to work on shared team tasks",
-          "url": "https://www.youtube.com/watch?v=OMxEUdIgsQc",
-          "published": "2026-10-16T18:00:49+00:00",
-          "content_snippet": "Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the workflow, and keep work moving when someone is away. Available to Enterprise plans",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Devin AI (Cognition)": 1
+        "OpenAI": 6
       }
     },
     {
@@ -236,46 +157,55 @@
       ],
       "items": [
         {
-          "title": "The AI Bill Is Too Damn High: Tokenomics 101 — Eugene Cheah, Featherless AI",
-          "url": "https://www.youtube.com/watch?v=Ti-BmGU1_mQ",
-          "published": "2026-10-17T09:00:27+00:00",
-          "content_snippet": "If your token spend keeps going up and productivity isn't keeping pace, start here. Eugene Cheah lays out four steps for cutting AI inference costs at scale: measure, right-size, buy capacity well and check your processes. Along the way he covers splitting API keys per team, agentic vs. process workloads, open models that match frontier models on specific tasks, classifiers, fine-tuning, the speed-vs-cost tradeoff and \"slop grenades.\" Recorded live at AI Engineer NYC 2026. 🎟️ Join us at the next",
+          "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
+          "url": "https://www.youtube.com/watch?v=W4pnzOURwHQ",
+          "published": "2026-10-18T09:00:25+00:00",
+          "content_snippet": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records. Chapters: - 00:00 Intro - 01:43 Insurance's technology transformation - 09:34 How a claim ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Memory-Aware Agent Harnesses for Anti-Money Laundering — Nacho Martinez, Oracle",
-          "url": "https://www.youtube.com/watch?v=KtBivPzmOM8",
-          "published": "2026-10-17T07:00:25+00:00",
-          "content_snippet": "The model is the part you can't change. The harness around it is where you can make real gains. Nacho Martinez walks through the full agent stack (agent loop, short- and long-term memory, context engineering, the toolbox and skillbox patterns, skill distillation and continual learning) and applies it to an autonomous agent that flags suspicious bank transactions around the clock. 🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes Speaker Nacho Martinez — LinkedIn: https://www.linked",
+          "title": "Evals for High-Stakes AI Agents — Doneyli De Jesus & Annabell Schäfer, Langfuse",
+          "url": "https://www.youtube.com/watch?v=obfPzbapMIM",
+          "published": "2026-10-18T08:00:06+00:00",
+          "content_snippet": "A hands-on workshop on evaluating AI applications where mistakes are expensive. Annabell Schäfer and Doneyli De Jesus from Langfuse use a banking assistant to walk through the whole AI engineering loop. They cover tracing with PII masking, building datasets, turning domain-expert comments into failure modes, LLM-as-judge and code evaluators, and CI that blocks a prompt change when scores drop. Chapters: - 00:00 Why evals are hard - 05:01 The AI engineering loop - 12:47 Demo: a banking assistant ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Agents Cut 3-Day Portfolio Builds to Minutes — Jack McDonald, Apollo & Michael Manapat, Rowspace",
-          "url": "https://www.youtube.com/watch?v=BOWYujhIQuo",
-          "published": "2026-10-16T23:00:36+00:00",
-          "content_snippet": "Apollo's CLO business used to spend 2–3 days building a single mock portfolio by hand in Excel. Now it takes minutes. Jack McDonald (Principal at Apollo and COO of Redding Ridge, Apollo's ~$50B structured credit and CLO manager) talks with Rowspace co-founder Michael Manapat about where AI becomes mission-critical in finance. They cover automating a weekly trade reconciliation that used to take 2–3 people, why plugging your firm into a generic LLM isn't enough when one data point can come from 2",
+          "title": "Teach Your Agent to Prove It's Done — Nick Nisi & Zack Proser, WorkOS",
+          "url": "https://www.youtube.com/watch?v=q4WC4TowkBo",
+          "published": "2026-10-18T07:00:17+00:00",
+          "content_snippet": "Your agent says it's done. Is it? Nick Nisi and Zack Proser from WorkOS show how to build verification loops that let coding agents check their own work. They cover clear goals, CLI health checks, browser snapshots, LLM judges and evals, so a failure drives the next fix instead of landing on your desk. Includes the live \"Midnight Snack Club\" demo app and the repo to follow along. Chapters: - 00:00 Why \"done\" isn't done - 03:17 What it takes to trust agent output - 09:34 Give agents goals they ca",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
-          "url": "https://www.youtube.com/watch?v=kiClTcJUnhc",
-          "published": "2026-10-16T19:00:10+00:00",
-          "content_snippet": "Ken Thompson built Unix in a month. IBM put 1,000 engineers on OS/360. And in 1998, Linus Torvalds hit his limit. Now we're hitting that same wall managing AI agents. Anthropic's CJ Avilla and Harrison Stall introduce Flows in Claude Managed Agents. You hand Claude a goal, and it plans and runs its own multi-agent topology of up to 1,000 agents through the API. In this hands-on workshop they demo a stock watchlist scanner, show how to spend more compute on the phases that matter, walk through th",
+          "title": "An AI Agent Got Its User Banned From Resy — Keycard, JPMorgan Chase & AAuth",
+          "url": "https://www.youtube.com/watch?v=IavxrdVnwXM",
+          "published": "2026-10-17T23:00:05+00:00",
+          "content_snippet": "An AI agent trying to book a restaurant made 200 calls in 90 minutes and got its own user banned from Resy. It had good intentions. It just had no limits. Keycard's Allie Howe moderates a keynote panel with Keycard CEO Ian Livingstone, JPMorgan Chase Global Chief Security Architect Michael Davis, and OAuth co-creator Dick Hardt on why companies still won't hand agents real autonomy, and what has to change. They cover why OAuth scopes are too coarse for agents, onboarding agents like junior devel",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "65 seconds inside AI Engineer New York",
-          "url": "https://www.youtube.com/watch?v=N58CCnPqNoo",
-          "published": "2026-10-14T15:15:34+00:00",
-          "content_snippet": "A look at the talks, demos and conversations at AI Engineer New York. Follow AI Engineer for more talks, demos and conference highlights. #AIEngineerNY #AIEngineering #Shorts",
+          "title": "How to Know If Your AI Agent Is Any Good: Evals With Phoenix & Claude — Laurie Voss, Arize AI",
+          "url": "https://www.youtube.com/watch?v=SHMCGrNJJGc",
+          "published": "2026-10-17T19:00:23+00:00",
+          "content_snippet": "Your AI agent wrote a confident stock report saying 116% of analysts agree. Nothing in your checks caught it. This is the workshop for fixing that. Laurie Voss (Head of Developer Relations at Arize AI, co-founder of npm) builds a full evals loop on a Claude-powered financial analyst agent: trace it with Arize Phoenix, read the traces, write code evals and LLM-as-a-judge evals, test whether the judge can be trusted, prove a prompt fix with experiments, upgrade from Claude Haiku 4.5 to 5.5 with ev",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
+          "url": "https://www.youtube.com/watch?v=e9-br9hveRI",
+          "published": "2026-10-17T14:00:03+00:00",
+          "content_snippet": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head. Note: the speakers work at Monzo but are not presenting on Mon",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -285,5 +215,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 38
+  "deduped_count": 35
 }
