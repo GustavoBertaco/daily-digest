@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T13:31:57Z",
+  "fetched_at": "2026-10-19T10:09:22Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -15,16 +15,27 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Netflix Tech Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Airbnb Tech",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 10,
-        "Airbnb Tech": 1,
-        "Meta Engineering": 7
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -48,26 +59,22 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "The Secret to Berkshire's Success",
-          "url": "https://www.youtube.com/watch?v=4-vJ2OJREpM",
-          "published": "2026-10-17T15:23:35+00:00",
-          "content_snippet": "Charlie Munger’s take on Berkshire’s edge: “We were almost never forced to make decisions by circumstances.” Bill Ackman explains how he built Pershing Square around the same idea.",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Big Think",
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -90,7 +97,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "The Analytics Engineering Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -98,10 +113,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "NextGenLakehouse": 1,
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -117,7 +129,17 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Investing in the public benefit",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "published": "2026-10-18T16:49:35.513000+00:00",
+          "content_snippet": "Investing in the public benefit\nToday, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline.\nAs a public benefit corporation, most of our work in pursuit of our mission takes place insi",
+          "source_name": "Anthropic News",
+          "source_type": "website",
+          "area_name": "Providers Updates"
+        }
+      ],
       "errors": [
         {
           "source_name": "AWS What's New",
@@ -132,7 +154,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Anthropic News",
+          "source_name": "OpenAI",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -140,9 +162,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 6
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -155,65 +175,15 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
+      "items": [],
+      "errors": [
         {
-          "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
-          "url": "https://www.youtube.com/watch?v=W4pnzOURwHQ",
-          "published": "2026-10-18T09:00:25+00:00",
-          "content_snippet": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records. Chapters: - 00:00 Intro - 01:43 Insurance's technology transformation - 09:34 How a claim ",
           "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Evals for High-Stakes AI Agents — Doneyli De Jesus & Annabell Schäfer, Langfuse",
-          "url": "https://www.youtube.com/watch?v=obfPzbapMIM",
-          "published": "2026-10-18T08:00:06+00:00",
-          "content_snippet": "A hands-on workshop on evaluating AI applications where mistakes are expensive. Annabell Schäfer and Doneyli De Jesus from Langfuse use a banking assistant to walk through the whole AI engineering loop. They cover tracing with PII masking, building datasets, turning domain-expert comments into failure modes, LLM-as-judge and code evaluators, and CI that blocks a prompt change when scores drop. Chapters: - 00:00 Why evals are hard - 05:01 The AI engineering loop - 12:47 Demo: a banking assistant ",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Teach Your Agent to Prove It's Done — Nick Nisi & Zack Proser, WorkOS",
-          "url": "https://www.youtube.com/watch?v=q4WC4TowkBo",
-          "published": "2026-10-18T07:00:17+00:00",
-          "content_snippet": "Your agent says it's done. Is it? Nick Nisi and Zack Proser from WorkOS show how to build verification loops that let coding agents check their own work. They cover clear goals, CLI health checks, browser snapshots, LLM judges and evals, so a failure drives the next fix instead of landing on your desk. Includes the live \"Midnight Snack Club\" demo app and the repo to follow along. Chapters: - 00:00 Why \"done\" isn't done - 03:17 What it takes to trust agent output - 09:34 Give agents goals they ca",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "An AI Agent Got Its User Banned From Resy — Keycard, JPMorgan Chase & AAuth",
-          "url": "https://www.youtube.com/watch?v=IavxrdVnwXM",
-          "published": "2026-10-17T23:00:05+00:00",
-          "content_snippet": "An AI agent trying to book a restaurant made 200 calls in 90 minutes and got its own user banned from Resy. It had good intentions. It just had no limits. Keycard's Allie Howe moderates a keynote panel with Keycard CEO Ian Livingstone, JPMorgan Chase Global Chief Security Architect Michael Davis, and OAuth co-creator Dick Hardt on why companies still won't hand agents real autonomy, and what has to change. They cover why OAuth scopes are too coarse for agents, onboarding agents like junior devel",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to Know If Your AI Agent Is Any Good: Evals With Phoenix & Claude — Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=SHMCGrNJJGc",
-          "published": "2026-10-17T19:00:23+00:00",
-          "content_snippet": "Your AI agent wrote a confident stock report saying 116% of analysts agree. Nothing in your checks caught it. This is the workshop for fixing that. Laurie Voss (Head of Developer Relations at Arize AI, co-founder of npm) builds a full evals loop on a Claude-powered financial analyst agent: trace it with Arize Phoenix, read the traces, write code evals and LLM-as-a-judge evals, test whether the judge can be trusted, prove a prompt fix with experiments, upgrade from Claude Haiku 4.5 to 5.5 with ev",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
-          "url": "https://www.youtube.com/watch?v=e9-br9hveRI",
-          "published": "2026-10-17T14:00:03+00:00",
-          "content_snippet": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head. Note: the speakers work at Monzo but are not presenting on Mon",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
+          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 35
+  "deduped_count": 0
 }
