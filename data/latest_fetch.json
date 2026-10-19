@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T10:09:22Z",
+  "fetched_at": "2026-10-19T16:37:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,30 +12,54 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Codebases that improve themselves",
+          "url": "https://www.youtube.com/watch?v=WH5MXo75Lfc",
+          "published": "2026-10-19T16:00:15+00:00",
+          "content_snippet": "with Uday Kiran Medisetty, Distinguished Engineer at Uber See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Technology"
         },
         {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Airbnb Tech",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
+          "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+          "published": "2026-10-19T16:00:47+00:00",
+          "content_snippet": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise, compounding gains for advertisers. GenRecs Tokenization is the foundational data representation that makes this possible. Rather than maintaining a dedicated ID for every item, GenRecs Tokenization represents",
           "source_name": "Meta Engineering",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Technology"
         },
+        {
+          "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+          "published": "2026-10-19T15:30:37+00:00",
+          "content_snippet": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized agents do the domain reasoning. We’re sharing our own process and insights, plus how any team can apply this to their production AI agents. We built a 1,300-line orchestrator that routes 20+ workflows ",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+          "published": "2026-10-19T13:00:10+00:00",
+          "content_snippet": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling to help it operate efficiently. Right now, in New Albany, Ohio, Meta is undertaking its most ambitious AI infrastructure project to date.",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Netflix Tech Blog": 10,
+        "Airbnb Tech": 1
+      }
     },
     {
       "name": "Product Management",
@@ -59,18 +83,47 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Getting Rich Vs. Staying Rich",
+          "url": "https://www.youtube.com/watch?v=4EWuVMFKw7E",
+          "published": "2026-10-18T17:27:32+00:00",
+          "content_snippet": "Bill Gates was both bold and paranoid. He bet that every desk would have a computer, yet kept a year of payroll in the bank in case revenue went to zero. Morgan Housel on why so few people can both get rich and stay rich. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* i",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The Secret to Berkshire's Success",
+          "url": "https://www.youtube.com/watch?v=4-vJ2OJREpM",
+          "published": "2026-10-17T15:23:35+00:00",
+          "content_snippet": "Charlie Munger’s take on Berkshire’s edge: “We were almost never forced to make decisions by circumstances.” Bill Ackman explains how he built Pershing Square around the same idea.",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The 3 biggest origin mysteries | Paul Davies",
+          "url": "https://www.youtube.com/watch?v=btdZ8iMz_XU",
+          "published": "2026-10-19T16:06:25+00:00",
+          "content_snippet": "The 3 biggest origin mysteries | Paul Davies",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Reality isn't objective or subjective — it's a third thing entirely | Lisa Feldman Barrett",
+          "url": "https://www.youtube.com/watch?v=8RUjEGFFLTc",
+          "published": "2026-10-19T13:00:25+00:00",
+          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Psychologist Lisa Feldman Barrett argues that reality is built, not found, and that changes everything about how we interact with each other. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 We spend our lives reaching for something — a phone, a feed, or a distraction — without asking what we actually need. Andrew Holecek has spent years studying what happens when that",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
-          "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Big Think",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -105,15 +158,13 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "The Analytics Engineering Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Analytics Engineering Podcast": 1
+      }
     },
     {
       "name": "Providers Updates",
@@ -131,38 +182,87 @@
       ],
       "items": [
         {
-          "title": "Investing in the public benefit",
-          "url": "https://www.anthropic.com/news/public-benefit-fund",
-          "published": "2026-10-18T16:49:35.513000+00:00",
-          "content_snippet": "Investing in the public benefit\nToday, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline.\nAs a public benefit corporation, most of our work in pursuit of our mission takes place insi",
-          "source_name": "Anthropic News",
-          "source_type": "website",
+          "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+          "published": "2026-10-19T16:01:00+00:00",
+          "content_snippet": "Amazon GuardDuty now supports optional detection rules for Runtime Monitoring. You can enable more than 50 Runtime Monitoring rules that help detect process, file, and network activity that might be routine in one environment but a sign of compromise in another, such as modifying sudoers files or disabling audit logging. The new rules provide detections for Amazon EC2 instances, Amazon EKS, and Amazon ECS on both EC2 and AWS Fargate, and span 13 finding types mapped to MITRE ATT&CK® tactics incl",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+          "published": "2026-10-19T15:34:59+00:00",
+          "content_snippet": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the tool you were already using, without opening the AWS Management Console. Different services, same direction. The counterweight arrived on Thursday. As it gets easier to put things into production, it matte",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Databricks Is Doubling Down On New York City As A Premier AI Talent Hub",
+          "url": "https://www.databricks.com/blog/databricks-doubling-down-new-york-city-premier-ai-talent-hub",
+          "published": "2026-10-19T14:00:50+00:00",
+          "content_snippet": "When Databricks opened its New York R&D hub at 5 Bryant Park earlier this year, we...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
+          "url": "https://www.youtube.com/watch?v=7lC2N9woZy4",
+          "published": "2026-10-19T15:13:45+00:00",
+          "content_snippet": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise, connecting the tools lawyers rely on in one place.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI",
+          "url": "https://www.youtube.com/watch?v=ExVDpMeaWp0",
+          "published": "2026-10-19T15:07:35+00:00",
+          "content_snippet": "Bringing legal expertise and frontier AI together starts with trust. For Thomson Reuters’ Camillo Speroni, that means output lawyers can verify, cite and put their name on. Camillo discusses Thomson Reuters’ work with OpenAI to bring HighQ and Thomson Reuters CoCounsel Legal into ChatGPT Enterprise, connecting the tools lawyers rely on in one place.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "UK: This is the new ChatGPT Voice, powered by GPT Live",
+          "url": "https://www.youtube.com/watch?v=mEulEkuxCnM",
+          "published": "2026-10-19T05:30:13+00:00",
+          "content_snippet": "You’ll want to turn the sound on for this one. Read more here: https://chatgpt.com/features/voice/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Germany: This is the new ChatGPT Voice, powered by GPT Live",
+          "url": "https://www.youtube.com/watch?v=xIEzjwReF2s",
+          "published": "2026-10-19T04:30:15+00:00",
+          "content_snippet": "Ein kleiner Tipp von uns: Ton an, denn das willst du hören. Hier weiterlesen: https://chatgpt.com/de-DE/features/voice/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "France: This is the new ChatGPT Voice, powered by GPT Live",
+          "url": "https://www.youtube.com/watch?v=-vpwIHxkDFw",
+          "published": "2026-10-19T04:30:12+00:00",
+          "content_snippet": "Pour cette vidéo, pensez à activez le son pour ne rien manquer. En savoir plus: https://chatgpt.com/fr-FR/features/voice/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "OpenAI",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Anthropic News": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -175,15 +275,101 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "The Model Swap Workshop: GPT-5.5 vs Kimi vs DeepSeek vs Mistral — Pamela Fox, Microsoft",
+          "url": "https://www.youtube.com/watch?v=UGjk3Uk0MxM",
+          "published": "2026-10-19T14:06:53+00:00",
+          "content_snippet": "Benchmarks won't tell you how a model behaves in your app. Swapping it in and testing will. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Pamela Fox, Principal Cloud Advocate at Microsoft, runs the same scenarios against GPT-5.5, Kimi K2.6, DeepSeek V4 Flash and Mistral Large 3 on Microsoft Foundry so you can see where models differ and what you can do about it. She works",
           "source_name": "AI Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Why Buying Companies Beats Selling Them AI — Prathik Naidu, Long Lake",
+          "url": "https://www.youtube.com/watch?v=J7n3WJnFTto",
+          "published": "2026-10-19T09:00:32+00:00",
+          "content_snippet": "Deploying AI into real businesses is hard: org charts are messy, trust takes decades, and service firms don't scale like software. Prathik Naidu, founding partner at Long Lake, explains their strategy: acquire established service businesses, then transform them with AI from the inside. He covers how they choose companies and what changes once they own them, drawing on 40 businesses across residential services, architecture, HR and more. Chapters: - 00:00 Intro - 02:15 Why deploying AI into busin",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Version-Controlled Search: The Web as It Was — Ryan Ahern, Exa",
+          "url": "https://www.youtube.com/watch?v=vS2IA9pq0Q4",
+          "published": "2026-10-19T08:00:29+00:00",
+          "content_snippet": "Ryan Ahern of Exa introduces Exa Snapshot, which lets agents search the web as it looked on any past date. He covers why search quality matters when agents broker most searches, how snapshot results compare to live results, and how teams use point-in-time search to build and test predictive signals without overfitting. Chapters: - 00:00 Intro - 02:14 Agents as the new searchers - 04:15 Exa's three core principles - 08:19 Snapshot vs live search - 12:45 From signals to predictions - 16:58 Backtes",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Backtest Your Agent Against Yesterday's Web — Ryan Ahern, Exa",
+          "url": "https://www.youtube.com/watch?v=L4dUFimVDKU",
+          "published": "2026-10-19T07:00:39+00:00",
+          "content_snippet": "How do you know whether your agent would have made the right call? Ryan Ahern of Exa shows how to use version-controlled search to see the web exactly as it was on a past date, then backtest an agent's predictions against what actually happened. The hands-on example predicts company acquisitions from signals like leadership turnover, then tunes the system without leaking future information. Chapters: - 00:00 Why search matters for agents - 04:15 Exa's search benchmark - 06:17 Versioning the whol",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Why AI Agents Still Won't Pay for Anything — Jan Curn, Apify",
+          "url": "https://www.youtube.com/watch?v=-AOxpwVeIWw",
+          "published": "2026-10-18T23:00:35+00:00",
+          "content_snippet": "x402, AP2, ACP, MPP, TAP, UCP: every big fintech and payments company now has an agent payment standard, but real volume is close to zero. Jan Curn, founder of Apify, walks the agent payment funnel (need, setup, discovery, purchase) to show where it breaks. He covers why API keys still win, why crypto is well placed, the trust problem in finding services, and how pay-per-use billing finally landed. Chapters: - 00:00 The agent payments boom - 02:57 Every protocol, from x402 to AP2 - 05:47 Why cry",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Stop Telling Agents How — Dan Barrett, Raymond Weitekamp & Jose Montes de Oca, OpenProse",
+          "url": "https://www.youtube.com/watch?v=7T-gldvgfpo",
+          "published": "2026-10-18T19:00:05+00:00",
+          "content_snippet": "Say what you want, not how to get it. The OpenProse team shows how to write multi-agent workflows as declarative contracts in plain markdown, which any harness (Claude Code, Codex and others) can compile and run. Demos include event-driven jobs triggered by webhooks and pull requests, a \"grumpy senior\" PR reviewer, and an end-to-end bank model-documentation workflow. They also discuss composing contracts, pinning a winning run into a reusable workflow, and how this compares to DSPy. Chapters: - ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Insurance Claims Are AI's Messiest Data Problem — Denys Linkov, Wisedocs",
+          "url": "https://www.youtube.com/watch?v=W4pnzOURwHQ",
+          "published": "2026-10-18T09:00:25+00:00",
+          "content_snippet": "Insurance claims are full of handwriting, faxes, duplicates and 8GB PDFs. Denys Linkov of Wisedocs explains why that unstructured data is both the biggest barrier and the biggest opportunity for AI in insurance. He covers cleaning the data, analysis within a single document, and cross-claim insights, along with the benchmark Wisedocs built with Artificial Analysis to test how models handle medical records. Chapters: - 00:00 Intro - 01:43 Insurance's technology transformation - 09:34 How a claim ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Evals for High-Stakes AI Agents — Doneyli De Jesus & Annabell Schäfer, Langfuse",
+          "url": "https://www.youtube.com/watch?v=obfPzbapMIM",
+          "published": "2026-10-18T08:00:06+00:00",
+          "content_snippet": "A hands-on workshop on evaluating AI applications where mistakes are expensive. Annabell Schäfer and Doneyli De Jesus from Langfuse use a banking assistant to walk through the whole AI engineering loop. They cover tracing with PII masking, building datasets, turning domain-expert comments into failure modes, LLM-as-judge and code evaluators, and CI that blocks a prompt change when scores drop. Chapters: - 00:00 Why evals are hard - 05:01 The AI engineering loop - 12:47 Demo: a banking assistant ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Teach Your Agent to Prove It's Done — Nick Nisi & Zack Proser, WorkOS",
+          "url": "https://www.youtube.com/watch?v=q4WC4TowkBo",
+          "published": "2026-10-18T07:00:17+00:00",
+          "content_snippet": "Your agent says it's done. Is it? Nick Nisi and Zack Proser from WorkOS show how to build verification loops that let coding agents check their own work. They cover clear goals, CLI health checks, browser snapshots, LLM judges and evals, so a failure drives the next fix instead of landing on your desk. Includes the live \"Midnight Snack Club\" demo app and the repo to follow along. Chapters: - 00:00 Why \"done\" isn't done - 03:17 What it takes to trust agent output - 09:34 Give agents goals they ca",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "An AI Agent Got Its User Banned From Resy — Keycard, JPMorgan Chase & AAuth",
+          "url": "https://www.youtube.com/watch?v=IavxrdVnwXM",
+          "published": "2026-10-17T23:00:05+00:00",
+          "content_snippet": "An AI agent trying to book a restaurant made 200 calls in 90 minutes and got its own user banned from Resy. It had good intentions. It just had no limits. Keycard's Allie Howe moderates a keynote panel with Keycard CEO Ian Livingstone, JPMorgan Chase Global Chief Security Architect Michael Davis, and OAuth co-creator Dick Hardt on why companies still won't hand agents real autonomy, and what has to change. They cover why OAuth scopes are too coarse for agents, onboarding agents like junior devel",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
         }
       ],
+      "errors": [],
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 0
+  "deduped_count": 23
 }
