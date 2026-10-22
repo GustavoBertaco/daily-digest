@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T14:39:30Z",
+  "fetched_at": "2026-10-22T14:38:54Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,26 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The revised rules of engineering management with Will Larson",
+          "url": "https://www.youtube.com/watch?v=Prl858_AovM",
+          "published": "2026-10-21T16:38:31+00:00",
+          "content_snippet": "What’s changed in “the unwritten rules” of engineering management since the 2010s, what drove the shift to today, and what has it done to the engineer-to-CTO career path? Today’s guest is one of the best people I know who can tackle these questions. Will Larson is CTO of Imprint, was an engineering executive for 10+ years, and is the author of several popular books on engineering leadership, including ‘The Engineering Executive's Primer,’ ‘Staff Engineer, An Elegant Puzzle,’ and ‘Crafting Engine",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+          "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-199472cfded5?source=rss----2615bd06b42e---4",
+          "published": "2026-10-22T14:15:09+00:00",
+          "content_snippet": "Samartha Chandrashekar & Nick Parker You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that actually run containers) patched and up to date, so application teams get a consistent and reliable container experience. They hand us a container, a",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Airbnb Tech",
@@ -24,8 +43,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
-        "Netflix Tech Blog": 10,
         "Meta Engineering": 6
       }
     },
@@ -53,11 +70,20 @@
       ],
       "items": [
         {
-          "title": "Treat Your Time Like Money",
-          "url": "https://www.youtube.com/watch?v=k50UWV3eYAw",
-          "published": "2026-10-20T15:53:32+00:00",
-          "content_snippet": "You have about 1,000 productive minutes a day. Treat every one of them like a dollar. Ryan Serhant speaks to how thinking of himself as the CEO of his own bank of time made him far more productive.",
+          "title": "The Power of Walking Away",
+          "url": "https://www.youtube.com/watch?v=l4rXWe33TQQ",
+          "published": "2026-10-21T21:15:03+00:00",
+          "content_snippet": "People want what they can’t have. Ryan Serhant explains how a bad date taught him that, and how he used the same tactic to get cast on Million Dollar Listing New York.",
           "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why naming emotions is so powerful | Lisa Damour",
+          "url": "https://www.youtube.com/watch?v=yf5ggZt3i04",
+          "published": "2026-10-21T16:08:15+00:00",
+          "content_snippet": "Why naming emotions is so powerful | Lisa Damour",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
@@ -68,9 +94,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -82,17 +106,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Re-Air: What Every Developer Needs to Know About Microservices with Mark Fussell, Founder & CEO at Diagrid",
-          "url": "https://datastackshow.com",
-          "published": "2026-10-21T08:30:00+00:00",
-          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show , Eric and John welcome microservices expert Mark Fussell. Mark is Founder & CEO at Diagrid and Co-Creator of Dapr. In this conversation, the group explores the evolution of software architectures, focusing on the shift from monolithic to microservices systems. With over 20 years at Microsoft, Mark shares insights from his work on projects like Dapr and Azure S",
-          "source_name": "The Data Stack Show",
-          "source_type": "rss",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -112,6 +126,7 @@
         }
       ],
       "deduped_sources": {
+        "The Data Stack Show": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -131,130 +146,98 @@
       ],
       "items": [
         {
-          "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
-          "published": "2026-10-20T23:26:00+00:00",
-          "content_snippet": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting resources directly in your account. With ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to govern how traffic reaches their ECS s",
+          "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+          "published": "2026-10-21T19:10:00+00:00",
+          "content_snippet": "Migration assessments in AWS Transform now evaluate on-premises storage for migration to AWS. Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload a storage inventory and AWS Transform does the mapping for you. It matches each workload to the best-fit service, sizes the recommendation, and projects costs to produce a total cost of ownership business case. Bring NAS shares, SAN LUNs, direct-attached disks, or backup repositories via a NetApp D",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB global tables now support disassociating replicas",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
-          "published": "2026-10-20T23:00:00+00:00",
-          "content_snippet": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop replication to and from a replica and continue using the same table as a single-Region table. An account can leave a shared multi-account global table and continue using its table independently. You can also stop replication to a Region while keeping its table for local workloads, validation, or audit,",
+          "title": "AWS Direct Connect announces 100G expansion in Manchester, England",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/",
+          "published": "2026-10-21T17:21:00+00:00",
+          "content_snippet": "Today, AWS announced the expansion of 10 Gbps and 100 Gbps dedicated connections with MACsec encryption capabilities at the existing AWS Direct Connect location in the Equinix MA3 data center near Manchester, England. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. This is the third AWS Direct Connect location in England to provide 100 Gbps connections with MACsec encryption capa",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
-          "published": "2026-10-20T15:32:00+00:00",
-          "content_snippet": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new voices across nine locales, and two new languages—Hindi and Finnish—now generally available on the Generative engine for the first time. New voices include Kenneth and Nate (US English), Russell and Curtis (Australian English), Kiara and Arj",
+          "title": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+          "published": "2026-10-21T17:00:00+00:00",
+          "content_snippet": "Starting today, you can reserve compute capacity for your Amazon Aurora and Amazon RDS DB instances in one or more Availability Zones for as long as you need it. Reserving capacity helps ensure that DB instance create, restore, scale-compute, and start operations don't fail because of insufficient capacity. On-Demand Capacity Reservations are designed for workloads that need assurance that specific DB instance capacity will be available when they need it for business-critical events, such as mig",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
-          "published": "2026-10-20T15:00:00+00:00",
-          "content_snippet": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost efficiency for deep learning AI training and inference workloads. TorchNeuron enables AI scientists and researchers to experiment and build models with PyTorch natively on Trainium. With TorchNeuron, developers can enable their PyTorch code on Trainium simply by switching to .to('neuron') while maintaining fu",
+          "title": "Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/",
+          "published": "2026-10-21T17:00:00+00:00",
+          "content_snippet": "Amazon Cognito multi-Region replication (MRR) now supports AWS GovCloud (US) Regions, extending the resilience benefits of MRR to more workloads. MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate, in near real-time. With user data in the standby Region, you can redirect traffic and keep authentication available if there is a disruption in your primary Region. ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Structured outputs for Claude models available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
-          "published": "2026-10-20T14:00:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the bedrock-mantle endpoint, you can now receive schema-compliant JSON responses that conform to a defined structure, without custom parsing, retry logic, or post-processing. With structured outputs for Claude on Amazon Bedrock, you can automate reliable, s",
+          "title": "AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0",
+          "published": "2026-10-21T15:00:00+00:00",
+          "content_snippet": "AWS Neuron 2.33 is now available, introducing TorchNeuron, the native PyTorch backend for AWS Trainium, in public beta. You can run models written with the standard PyTorch APIs on Amazon EC2 Trn2 and Trn3 instances, in eager mode or with torch.compile. This release also introduces Neuron Observer in public beta, which detects Trainium health issues in under a second and identifies the affected node or device. The vLLM Neuron plugin upgrades to vLLM 0.29.0, and the vLLM Omni Neuron plugin for Wa",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-          "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
-          "published": "2026-10-20T17:03:38+00:00",
-          "content_snippet": "When platform teams manage containerized applications at scale on Amazon Elastic Container Service (Amazon ECS) , configuring ingress networking for each service often becomes a bottleneck. For every new service, teams must provision and connect Application Load Balancers (ALBs) , AWS Certificate Manager (ACM) certificates, AWS WAF web ACLs, and security groups, then keep those resources in sync as services scale, update, or operate. This per-service overhead slows down deployment velocity and i",
-          "source_name": "AWS Blog",
+          "title": "Amazon Connect Customer launches two new layouts for agent workspace",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-new-layouts-agent-workspace",
+          "published": "2026-10-21T13:48:00+00:00",
+          "content_snippet": "Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to resolve customer issues. Agents who handle different channels and workflows want the workspace arranged differently, so that they can quickly read, respond, and access their tools. Now, administrators can choose the best layout for each team, maximizin",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Databricks AI Runtime and NVIDIA make it easier to customize open models with enterprise data",
-          "url": "https://www.databricks.com/blog/databricks-ai-runtime-nvidia-train-fine-tune-models",
-          "published": "2026-10-21T11:30:00+00:00",
-          "content_snippet": "GPUs power today's most advanced AI workloads, from cutting-edge language models...",
-          "source_name": "Databricks Blog",
+          "title": "Amazon S3 server access log delivery to Amazon CloudWatch Logs now available in five additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-server-access-logs-cloudwatch-logs-regions/",
+          "published": "2026-10-21T13:00:00+00:00",
+          "content_snippet": "Amazon S3 server access log delivery to Amazon CloudWatch Logs is now available in the AWS GovCloud (US) Regions, AWS European Sovereign Cloud, and AWS China Regions. With your access logs in CloudWatch Logs, you can query them as they arrive, set alarms, and encrypt them with AWS Key Management Service (AWS KMS) keys. This new delivery path complements the existing delivery of server access logs to S3 general purpose buckets, giving you more flexibility in how you monitor and analyze access to ",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AI Runtime is Generally Available",
-          "url": "https://www.databricks.com/blog/ai-runtime-generally-available",
-          "published": "2026-10-21T11:20:00+00:00",
-          "content_snippet": "Today, we’re excited to announce the General Availability of AI Runtime (AIR), bringing...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Deploy RFD4-Proteina on Databricks",
-          "url": "https://www.databricks.com/blog/deploy-rfd4-proteina-model-databricks",
-          "published": "2026-10-21T04:42:46+00:00",
-          "content_snippet": "Bring RFD4-Proteina to your research data with AI-assisted development and serverless NVIDIA GPU compute....",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "MemCurrent: Designing Persistent Memory for Production Agents",
-          "url": "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents",
-          "published": "2026-10-20T18:15:47+00:00",
-          "content_snippet": "AI tools have made it easy to vibe code agents. Building and maintaining an enterprise...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Agent Memory on Databricks",
-          "url": "https://www.databricks.com/blog/introducing-agent-memory-databricks",
-          "published": "2026-10-20T17:26:56+00:00",
-          "content_snippet": "Today we're introducing agent memory on Agent Bricks, Databricks' agent developer...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Hamlet uses Databricks Lakebase Postgres to test changes against production data",
-          "url": "https://www.databricks.com/blog/how-hamlet-uses-databricks-lakebase-postgres-test-changes-against-production-data",
-          "published": "2026-10-20T14:45:00+00:00",
-          "content_snippet": "Hamlet, an AI-powered platform that makes local government decision-making accessible...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Build a Better Shopping Experience with OpenAI | Shopping Agent Demo",
-          "url": "https://www.youtube.com/watch?v=8n-SXxRIrm8",
-          "published": "2026-10-20T22:57:52+00:00",
-          "content_snippet": "See how an AI shopping agent can turn a room photo into a personalized shopping experience—from finding the right products to updating an order. In this demo for fictional home goods retailer Vesper & Alder, a shopper uses voice and images to create a cozy reading nook. The agent recommends products, generates a preview of the room, adjusts selections to fit a $250 budget, and suggests a complementary throw blanket. After checkout, it helps switch the order from store pickup to home delivery—all",
+          "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
+          "url": "https://www.youtube.com/watch?v=20IRGgQwPkc",
+          "published": "2026-10-21T22:05:10+00:00",
+          "content_snippet": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
           "source_name": "OpenAI",
           "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Building in London",
+          "url": "https://cognition.ai/blog/building-in-london",
+          "published": "2026-10-22T16:00:00+00:00",
+          "content_snippet": "Building in London\nCognition is growing fast in London. With our UK team expanding by more than 200% in just six months, we’ve opened a new office at The Gilbert in Finsbury Square. This week, we celebrated the milestone alongside the customers, partners and friends helping drive our growth.\nWhen we opened our first London office in January, we said we wanted to work with European customers on their home turf. Since then, UK demand has grown faster than we planned for. Banks, financial instituti",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "Anthropic News",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Devin AI (Cognition)",
+          "source_name": "Databricks Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
@@ -273,46 +256,46 @@
       ],
       "items": [
         {
-          "title": "One Day, $1,000 in Tokens: An AI War Room for Legacy Code — Ford Prior, GEICO",
-          "url": "https://www.youtube.com/watch?v=DouK81O8R3o",
-          "published": "2026-10-21T09:00:26+00:00",
-          "content_snippet": "At GEICO, coding got fast but everything around it (decisions, sign-offs, context) stayed slow. Ford Prior's fix was a multiplayer, AI-native war room: the right decision makers, one driver, and fleets of agents wired into GEICO's knowledge, tools and code. His bet was that one day and $1,000 in tokens could map a legacy claims domain end to end and ship one real change. He ran it three times across rentals, damages and salvage. He covers FleetKit, the markdown rulebook that steers the agent fle",
+          "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
+          "url": "https://www.youtube.com/watch?v=mMw3arwQsL0",
+          "published": "2026-10-22T09:00:12+00:00",
+          "content_snippet": "Vishal Srivastava and Tanmay Sah studied 1,368 incidents from a public AI incident database to ask what real failures say about how AI systems should be tested. They sort failures across three areas (technical strength, deployment controls and business impact) and 13 sub-areas that cover about 98% of incidents. Weak deployment controls, such as human review and monitoring, are the most closely tied to harm. They show how to rank use cases by how much is at stake, why the evaluator itself needs c",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Cut Our Research Time From 7 Days to 15 Minutes — Gareth Yoder, Vanguard",
-          "url": "https://www.youtube.com/watch?v=uA4ah-dVHvU",
-          "published": "2026-10-21T08:00:37+00:00",
-          "content_snippet": "Gareth Yoder leads the cash program at Vanguard. He walks through modernizing a cash ledger that takes up to 30 million calls a day, running data, producer and consumer migrations in parallel. The turning point was exposing the legacy code base to AI tools through an MCP server. Research that took a mainframe engineer seven days dropped to 15 minutes. He closes with five lessons: make legacy code AI-queryable, treat migration docs as product, reimagine instead of lift-and-shift, adopt AI increme",
+          "title": "How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada",
+          "url": "https://www.youtube.com/watch?v=c_SPW__jF9w",
+          "published": "2026-10-22T08:00:01+00:00",
+          "content_snippet": "Nathanael Weill leads a team building AI agents at Air Canada, where tasks are so specific there's no public benchmark and domain experts have little time to grade results. His fix is to write the answer first: start from a known answer, generate the input from it, and check whether the agent finds its way back. He shows how that took a past RAG project from one expert-graded test a week to dozens of automated tests a day, then applies it to a supplier-contract review agent with five ways to bui",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Is a Faster Model Actually Faster? Test the Whole Job — Morgan Suo, MiniMax",
-          "url": "https://www.youtube.com/watch?v=YvQ4BVTWfHI",
-          "published": "2026-10-21T07:00:34+00:00",
-          "content_snippet": "A faster model only helps if the finished job gets faster. Morgan Suo of MiniMax uses one real research task to test the changes inside the M3.1 Flash model: an analyst checking whether circuit-board suppliers are turning AI demand into cash. The changes are sparse attention on long inputs, a 4-bit KV cache, low-precision experts, speculative decoding, server load and reasoning budgets. Each one saves compute, and each can quietly cost accuracy or wait time. She then shows how to judge a model s",
+          "title": "Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI",
+          "url": "https://www.youtube.com/watch?v=_dTF3NpPzGo",
+          "published": "2026-10-22T07:00:28+00:00",
+          "content_snippet": "Louis-François Bouchard of Towards AI breaks down what makes AI writing feel like slop: overused words, vague generalities, saying nothing, repetition, hallucination and a voice that sounds like everyone at once. He then shows how his team built a benchmark to measure whether a model can write a video script in his own voice: 10 scripts, 5 drafts per model, 4 LLM judges, nine scoring metrics and 1,000 human A/B checks. He shares what it cost, why judges favor their own model family, and practica",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Same GPU, 50% More Output: Why the Operator Matters — Oliver Kennon, SemiAnalysis",
-          "url": "https://www.youtube.com/watch?v=3axY1wz2OvA",
-          "published": "2026-10-20T23:00:22+00:00",
-          "content_snippet": "Buying GPUs gives you potential. The operator decides how much useful work you actually get out of them. Oliver Kennon looks at compute as a commodity market: on the same B200 chip, the serving stack alone can deliver about 50% more output. Cluster security is part of whether intelligence is \"useful\". SemiAnalysis's ClusterMAX rates operators, and rental price and production cost are different numbers. Your spot on the cost curve depends on your competitors, not just you. He closes on what it ta",
+          "title": "The AI Content System Behind 200M Views — Sarah Chieng, Cerebras & Cova Lee, OpenAI",
+          "url": "https://www.youtube.com/watch?v=CFbnVpSsDFQ",
+          "published": "2026-10-21T23:00:14+00:00",
+          "content_snippet": "Sarah Chieng (head of developer experience at Cerebras) and Cova Lee (OpenAI developer experience, formerly a full-time creator) share the agent-powered system they use to make content. It runs across six stages: ideating, scripting, recording, editing, repurposing and publishing. Topics include swipe files and custom research tools, voice-based scripting and script skills, shot lists, design systems, and editing through APIs and computer use. They also cover cutting long videos into shorts, sch",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "A Bank Built Its Own Coding Agent. It Took Off — Felipe Felisola Caso & Francesco Galletta, Monzo",
-          "url": "https://www.youtube.com/watch?v=adfw3xJBx1o",
-          "published": "2026-10-20T19:00:34+00:00",
-          "content_snippet": "Monzo's in-house agent started as an emoji you could react with in Slack. Now it authors over 10% of all merged PRs across Monzo's tech teams and runs more than 1,800 tasks a day. Felipe and Francesco explain why it worked so fast. Their answer is the \"lots of little multipliers\" Monzo already had: an MCP gateway into internal tools and knowledge, a sandboxed agent orchestration system built for a regulated bank, and a platform that turns the agent itself into a building block. That building blo",
+          "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
+          "url": "https://www.youtube.com/watch?v=bU5gDVyu_28",
+          "published": "2026-10-21T19:01:02+00:00",
+          "content_snippet": "Every senior engineer's answer is \"it depends.\" Max Kanat-Alexander says what it actually depends on. Code quality always existed for two things: understanding a system and safely changing it. AI is making a new kind of software common: disposable software, with low consequences, few dependents and near-zero cost to replace or maintain. For that software, quality doesn't matter. For durable software it matters more than ever. He also shows how to make systems more disposable and how to make rigo",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -322,5 +305,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 33
+  "deduped_count": 24
 }
