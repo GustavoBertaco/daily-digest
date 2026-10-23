@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T14:38:54Z",
+  "fetched_at": "2026-10-23T14:25:29Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,18 +14,9 @@
       ],
       "items": [
         {
-          "title": "The revised rules of engineering management with Will Larson",
-          "url": "https://www.youtube.com/watch?v=Prl858_AovM",
-          "published": "2026-10-21T16:38:31+00:00",
-          "content_snippet": "What’s changed in “the unwritten rules” of engineering management since the 2010s, what drove the shift to today, and what has it done to the engineer-to-CTO career path? Today’s guest is one of the best people I know who can tackle these questions. Will Larson is CTO of Imprint, was an engineering executive for 10+ years, and is the author of several popular books on engineering leadership, including ‘The Engineering Executive's Primer,’ ‘Staff Engineer, An Elegant Puzzle,’ and ‘Crafting Engine",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
           "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-          "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-199472cfded5?source=rss----2615bd06b42e---4",
-          "published": "2026-10-22T14:15:09+00:00",
+          "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+          "published": "2026-10-22T22:19:12+00:00",
           "content_snippet": "Samartha Chandrashekar & Nick Parker You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that actually run containers) patched and up to date, so application teams get a consistent and reliable container experience. They hand us a container, a",
           "source_name": "Netflix Tech Blog",
           "source_type": "rss",
@@ -43,7 +34,8 @@
         }
       ],
       "deduped_sources": {
-        "Meta Engineering": 6
+        "The Pragmatic Engineer": 1,
+        "Meta Engineering": 3
       }
     },
     {
@@ -70,19 +62,10 @@
       ],
       "items": [
         {
-          "title": "The Power of Walking Away",
-          "url": "https://www.youtube.com/watch?v=l4rXWe33TQQ",
-          "published": "2026-10-21T21:15:03+00:00",
-          "content_snippet": "People want what they can’t have. Ryan Serhant explains how a bad date taught him that, and how he used the same tactic to get cast on Million Dollar Listing New York.",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why naming emotions is so powerful | Lisa Damour",
-          "url": "https://www.youtube.com/watch?v=yf5ggZt3i04",
-          "published": "2026-10-21T16:08:15+00:00",
-          "content_snippet": "Why naming emotions is so powerful | Lisa Damour",
+          "title": "Screens made belonging easy and selfhood nearly impossible | Luke Burgis: Full Interview",
+          "url": "https://www.youtube.com/watch?v=9WJ-GGD212s",
+          "published": "2026-10-23T13:00:05+00:00",
+          "content_snippet": "The Big Think Interview is brought to you by Yale Online. Learn something worth sharing with The Psychology of Psychopaths: https://www.coursera.org/learn/yale-the-psychology-of-psychopaths?utm_source=YALE&utm_medium=institutions&utm_campaign=2026-psychopaths%E2%80%93video-teaser-big-think-paid Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_conte",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -94,7 +77,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Knowledge Project Podcast": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -146,102 +131,123 @@
       ],
       "items": [
         {
-          "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
-          "published": "2026-10-21T19:10:00+00:00",
-          "content_snippet": "Migration assessments in AWS Transform now evaluate on-premises storage for migration to AWS. Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload a storage inventory and AWS Transform does the mapping for you. It matches each workload to the best-fit service, sizes the recommendation, and projects costs to produce a total cost of ownership business case. Bring NAS shares, SAN LUNs, direct-attached disks, or backup repositories via a NetApp D",
+          "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
+          "published": "2026-10-22T21:10:00+00:00",
+          "content_snippet": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile Explorer. Customer Profiles provides agents with a real-time, unified view of each customer during interactions, combining contact history with customer data from multiple sources. Agents who handle different kinds of requests need different customer data in front of them. Within Profile Explorer, administ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Direct Connect announces 100G expansion in Manchester, England",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/",
-          "published": "2026-10-21T17:21:00+00:00",
-          "content_snippet": "Today, AWS announced the expansion of 10 Gbps and 100 Gbps dedicated connections with MACsec encryption capabilities at the existing AWS Direct Connect location in the Equinix MA3 data center near Manchester, England. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. This is the third AWS Direct Connect location in England to provide 100 Gbps connections with MACsec encryption capa",
+          "title": "AWS Continuum for code vulnerabilities is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+          "published": "2026-10-22T21:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a context graph from your AWS environment, including resource topology, identity relationships, and network reachability. It knows which resources are part of your application, and which findings carry real business risk. It ingests your existin",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
-          "published": "2026-10-21T17:00:00+00:00",
-          "content_snippet": "Starting today, you can reserve compute capacity for your Amazon Aurora and Amazon RDS DB instances in one or more Availability Zones for as long as you need it. Reserving capacity helps ensure that DB instance create, restore, scale-compute, and start operations don't fail because of insufficient capacity. On-Demand Capacity Reservations are designed for workloads that need assurance that specific DB instance capacity will be available when they need it for business-critical events, such as mig",
+          "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
+          "published": "2026-10-22T18:34:00+00:00",
+          "content_snippet": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part. This improvement applies to the",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/",
-          "published": "2026-10-21T17:00:00+00:00",
-          "content_snippet": "Amazon Cognito multi-Region replication (MRR) now supports AWS GovCloud (US) Regions, extending the resilience benefits of MRR to more workloads. MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate, in near real-time. With user data in the standby Region, you can redirect traffic and keep authentication available if there is a disruption in your primary Region. ",
+          "title": "AWS CloudFormation now simplifies stack update rollback operations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
+          "published": "2026-10-22T17:30:00+00:00",
+          "content_snippet": "AWS CloudFormation now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot roll back automatically, force rollback enables you to complete the rollback it in a single operation. It works across every CloudFormation workflow, from the AWS CLI , and SDKs to AWS CDK and AI agents. With force rollback, CloudFormation completes the update rollback and returns your stack to a de",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0",
-          "published": "2026-10-21T15:00:00+00:00",
-          "content_snippet": "AWS Neuron 2.33 is now available, introducing TorchNeuron, the native PyTorch backend for AWS Trainium, in public beta. You can run models written with the standard PyTorch APIs on Amazon EC2 Trn2 and Trn3 instances, in eager mode or with torch.compile. This release also introduces Neuron Observer in public beta, which detects Trainium health issues in under a second and identifies the affected node or device. The vLLM Neuron plugin upgrades to vLLM 0.29.0, and the vLLM Omni Neuron plugin for Wa",
+          "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+          "published": "2026-10-22T16:30:00+00:00",
+          "content_snippet": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastructure. Managed techniques, including SFT, DPO, and other reinforcement learning methods, let customers pick a technique and a model and have SageMaker AI run the training. With training session APIs, teams get to write the training loop, whether that's reproducing SFT or DPO on their own terms or impl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer launches two new layouts for agent workspace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-new-layouts-agent-workspace",
-          "published": "2026-10-21T13:48:00+00:00",
-          "content_snippet": "Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to resolve customer issues. Agents who handle different channels and workflows want the workspace arranged differently, so that they can quickly read, respond, and access their tools. Now, administrators can choose the best layout for each team, maximizin",
+          "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+          "published": "2026-10-22T16:00:00+00:00",
+          "content_snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 server access log delivery to Amazon CloudWatch Logs now available in five additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-server-access-logs-cloudwatch-logs-regions/",
-          "published": "2026-10-21T13:00:00+00:00",
-          "content_snippet": "Amazon S3 server access log delivery to Amazon CloudWatch Logs is now available in the AWS GovCloud (US) Regions, AWS European Sovereign Cloud, and AWS China Regions. With your access logs in CloudWatch Logs, you can query them as they arrive, set alarms, and encrypt them with AWS Key Management Service (AWS KMS) keys. This new delivery path complements the existing delivery of server access logs to S3 general purpose buckets, giving you more flexibility in how you monitor and analyze access to ",
-          "source_name": "AWS What's New",
+          "title": "AWS Continuum for code vulnerabilities is now generally available",
+          "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+          "published": "2026-10-22T20:33:10+00:00",
+          "content_snippet": "Today, we’re announcing the general availability of AWS Continuum for code vulnerabilities . AWS Continuum is a security service that finds and validates code vulnerabilities, then delivers fixes as patches you can automate or as pull requests in your repositories. AWS Continuum for code vulnerabilities confirms which findings are exploitable in your environment, ranks the resulting issues by business impact, and proposes a fix for each one. Every remediation starts in a mode where Continuum pro",
+          "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna",
-          "url": "https://www.youtube.com/watch?v=20IRGgQwPkc",
-          "published": "2026-10-21T22:05:10+00:00",
-          "content_snippet": "V7 Go organizes company files into a Context Graph that agents can query to screen investment deals and support insurance underwriting. On V7’s hardest graph-query tests across thousands of documents, GPT-6 Astra reached 89% accuracy. Read the full story: https://openai.com/index/v7/",
+          "title": "The new economics of AI cost management",
+          "url": "https://www.databricks.com/blog/ai-cost-management",
+          "published": "2026-10-22T19:14:24+00:00",
+          "content_snippet": "For the past two years, the story around enterprise AI adoption has mostly been about...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The Fraud Analyst AI Coworker: Detecting Telecom Fraud in Real-Time on One Platform",
+          "url": "https://www.databricks.com/blog/fraud-analyst-ai-coworker-detecting-telecom-fraud-real-time-one-platform",
+          "published": "2026-10-22T18:30:00+00:00",
+          "content_snippet": "BackgroundAccording to the Communications Fraud Control Association's 2025 survey...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "The AI Bill is coming",
+          "url": "https://www.databricks.com/blog/ai-bill-coming",
+          "published": "2026-10-22T18:12:49+00:00",
+          "content_snippet": "In this conversation, Catherine Brown talks with Patrick about what happened when...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Messi asks ChatGPT to teach him a chess opening",
+          "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA",
+          "published": "2026-10-22T21:58:00+00:00",
+          "content_snippet": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Building in London",
-          "url": "https://cognition.ai/blog/building-in-london",
-          "published": "2026-10-22T16:00:00+00:00",
-          "content_snippet": "Building in London\nCognition is growing fast in London. With our UK team expanding by more than 200% in just six months, we’ve opened a new office at The Gilbert in Finsbury Square. This week, we celebrated the milestone alongside the customers, partners and friends helping drive our growth.\nWhen we opened our first London office in January, we said we wanted to work with European customers on their home turf. Since then, UK demand has grown faster than we planned for. Banks, financial instituti",
-          "source_name": "Devin AI (Cognition)",
-          "source_type": "website",
+          "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
+          "url": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
+          "published": "2026-10-22T18:00:13+00:00",
+          "content_snippet": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond engineering and helping teams rethink entire workflows. Read more about Uber’s rollout of ChatGPT Work: https://openai.com/index/uber-chatgpt-work-rollout/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Devin AI (Cognition)": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -256,46 +262,46 @@
       ],
       "items": [
         {
-          "title": "1,368 AI Failures and What They Teach About Evals — Vishal Srivastava & Tanmay Sah, New York Life",
-          "url": "https://www.youtube.com/watch?v=mMw3arwQsL0",
-          "published": "2026-10-22T09:00:12+00:00",
-          "content_snippet": "Vishal Srivastava and Tanmay Sah studied 1,368 incidents from a public AI incident database to ask what real failures say about how AI systems should be tested. They sort failures across three areas (technical strength, deployment controls and business impact) and 13 sub-areas that cover about 98% of incidents. Weak deployment controls, such as human review and monitoring, are the most closely tied to harm. They show how to rank use cases by how much is at stake, why the evaluator itself needs c",
+          "title": "A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo",
+          "url": "https://www.youtube.com/watch?v=UB6hoWyh3B0",
+          "published": "2026-10-23T09:00:35+00:00",
+          "content_snippet": "Freddy Lecue explains how Wells Fargo pre-trained its own transformer from scratch on billions of customer transactions instead of words. The model learns to predict the next transaction, and that one backbone can then be fine-tuned for fraud detection, credit line decisions, anti-money laundering and marketing. He covers the hardest part, turning tabular data like amounts, timing, merchants and zip codes into tokens, plus the model's size and training setup. On fraud, it caught more fraudulent ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How to Test AI Agents When No Benchmark Exists — Nathanael Weill, Air Canada",
-          "url": "https://www.youtube.com/watch?v=c_SPW__jF9w",
-          "published": "2026-10-22T08:00:01+00:00",
-          "content_snippet": "Nathanael Weill leads a team building AI agents at Air Canada, where tasks are so specific there's no public benchmark and domain experts have little time to grade results. His fix is to write the answer first: start from a known answer, generate the input from it, and check whether the agent finds its way back. He shows how that took a past RAG project from one expert-graded test a week to dozens of automated tests a day, then applies it to a supplier-contract review agent with five ways to bui",
+          "title": "How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS",
+          "url": "https://www.youtube.com/watch?v=uTrY8slys0w",
+          "published": "2026-10-23T08:00:39+00:00",
+          "content_snippet": "Isabelle Williams, a product manager at WorkOS, uses a travel app she built to show how to make an app ready for users who arrive as agents. She covers auth.md, an open file that tells agents how to get access; an anonymous mode where an agent can try the app before a person claims its work; and ID-JAG identity assertions, which let the agent's provider vouch for the user so nobody has to fill in a signup form. In a live demo, an agent signs up, plans a trip and books dinner on its own. She then",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why AI Writing Still Reads Like Slop — Louis-François Bouchard, Towards AI",
-          "url": "https://www.youtube.com/watch?v=_dTF3NpPzGo",
-          "published": "2026-10-22T07:00:28+00:00",
-          "content_snippet": "Louis-François Bouchard of Towards AI breaks down what makes AI writing feel like slop: overused words, vague generalities, saying nothing, repetition, hallucination and a voice that sounds like everyone at once. He then shows how his team built a benchmark to measure whether a model can write a video script in his own voice: 10 scripts, 5 drafts per model, 4 LLM judges, nine scoring metrics and 1,000 human A/B checks. He shares what it cost, why judges favor their own model family, and practica",
+          "title": "Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics",
+          "url": "https://www.youtube.com/watch?v=A3FL_zTQKU0",
+          "published": "2026-10-23T07:00:08+00:00",
+          "content_snippet": "Stephanie Jarmak, a former astronomer who now builds evals at Omni Analytics after building a large coding benchmark at Sourcegraph, argues that most agent evaluations are easy to misread. She shows how swapping only the harness moved results by 30%, why public benchmarks are for shortlisting rather than decisions, and how to design your own evals like an experiment: realistic tasks, repeated runs, full traces and a measurement that matches what you care about. She also covers quality gates that",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "The AI Content System Behind 200M Views — Sarah Chieng, Cerebras & Cova Lee, OpenAI",
-          "url": "https://www.youtube.com/watch?v=CFbnVpSsDFQ",
-          "published": "2026-10-21T23:00:14+00:00",
-          "content_snippet": "Sarah Chieng (head of developer experience at Cerebras) and Cova Lee (OpenAI developer experience, formerly a full-time creator) share the agent-powered system they use to make content. It runs across six stages: ideating, scripting, recording, editing, repurposing and publishing. Topics include swipe files and custom research tools, voice-based scripting and script skills, shot lists, design systems, and editing through APIs and computer use. They also cover cutting long videos into shorts, sch",
+          "title": "Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute",
+          "url": "https://www.youtube.com/watch?v=Wk2bUUGFC_o",
+          "published": "2026-10-22T23:00:12+00:00",
+          "content_snippet": "Evan Conrad explains how San Francisco Compute, which began as an AI lab that had to sublease its own GPU cluster to stay alive, ended up both operating clusters and running a market for them. He walks through the chain of problems a new lab or inference company hits: everyone is sold out, the deposit eats the bank balance, clusters arrive late and break, and demand is nearly impossible to predict. He argues these are all one risk problem, that AI companies run into credit limits before power li",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Does Code Quality Still Matter? It Depends on This — Max Kanat-Alexander, Capital One",
-          "url": "https://www.youtube.com/watch?v=bU5gDVyu_28",
-          "published": "2026-10-21T19:01:02+00:00",
-          "content_snippet": "Every senior engineer's answer is \"it depends.\" Max Kanat-Alexander says what it actually depends on. Code quality always existed for two things: understanding a system and safely changing it. AI is making a new kind of software common: disposable software, with low consequences, few dependents and near-zero cost to replace or maintain. For that software, quality doesn't matter. For durable software it matters more than ever. He also shows how to make systems more disposable and how to make rigo",
+          "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
+          "url": "https://www.youtube.com/watch?v=Ve2bAarPA2I",
+          "published": "2026-10-22T19:00:39+00:00",
+          "content_snippet": "Nicholas Arcolano, head of AI and research at Jellyfish, uses data from about 50,000 engineers at 447 companies to ask how much the model really matters for AI coding output. When Cursor pushed many of its users onto Grok, merged PRs barely moved. Breaking down what drives throughput, the tool explains under 1%, skill use about 3% (heavy skill users see roughly a 30% bump), token usage about 9%, company and team about 12%, and the individual engineer most of the rest. The engineers who were top ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -305,5 +311,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 24
+  "deduped_count": 19
 }
