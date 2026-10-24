@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T14:25:29Z",
+  "fetched_at": "2026-10-24T13:34:20Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,19 @@
       ],
       "items": [
         {
-          "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-          "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
-          "published": "2026-10-22T22:19:12+00:00",
-          "content_snippet": "Samartha Chandrashekar & Nick Parker You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that actually run containers) patched and up to date, so application teams get a consistent and reliable container experience. They hand us a container, a",
+          "title": "You can't control everything in resilient systems",
+          "url": "https://www.youtube.com/watch?v=lYpWiV9SwC4",
+          "published": "2026-10-23T15:30:10+00:00",
+          "content_snippet": "with Sam Newman, Author of Building Microservices & Building Resilient Distributed Systems See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+          "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
+          "published": "2026-10-23T18:32:51+00:00",
+          "content_snippet": "By Roberto Perez Alcolea , Java Platform Team Quasar connects a proposed API change with observed references in consumer repositories, giving the producer evidence for a release decision At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the sy",
           "source_name": "Netflix Tech Blog",
           "source_type": "rss",
           "area_name": "Technology"
@@ -34,7 +43,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
         "Meta Engineering": 3
       }
     },
@@ -62,10 +70,10 @@
       ],
       "items": [
         {
-          "title": "Screens made belonging easy and selfhood nearly impossible | Luke Burgis: Full Interview",
-          "url": "https://www.youtube.com/watch?v=9WJ-GGD212s",
-          "published": "2026-10-23T13:00:05+00:00",
-          "content_snippet": "The Big Think Interview is brought to you by Yale Online. Learn something worth sharing with The Psychology of Psychopaths: https://www.coursera.org/learn/yale-the-psychology-of-psychopaths?utm_source=YALE&utm_medium=institutions&utm_campaign=2026-psychopaths%E2%80%93video-teaser-big-think-paid Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_conte",
+          "title": "Did T. Rex have feathers? | Steve Brusatte",
+          "url": "https://www.youtube.com/watch?v=MgpM7QxPOr8",
+          "published": "2026-10-23T16:07:27+00:00",
+          "content_snippet": "Did T. Rex have feathers? | Steve Brusatte",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -78,7 +86,7 @@
         }
       ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 2
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -131,109 +139,127 @@
       ],
       "items": [
         {
-          "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
-          "published": "2026-10-22T21:10:00+00:00",
-          "content_snippet": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile Explorer. Customer Profiles provides agents with a real-time, unified view of each customer during interactions, combining contact history with customer data from multiple sources. Agents who handle different kinds of requests need different customer data in front of them. Within Profile Explorer, administ",
+          "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+          "published": "2026-10-23T21:04:00+00:00",
+          "content_snippet": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to excl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Continuum for code vulnerabilities is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-          "published": "2026-10-22T21:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a context graph from your AWS environment, including resource topology, identity relationships, and network reachability. It knows which resources are part of your application, and which findings carry real business risk. It ingests your existin",
+          "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
+          "published": "2026-10-23T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with full context, metadata, and transcripts carried over across Regions, eliminating the need for end users to repeat information and allowing agents to provide personalized service with access to the entire conversation history across AWS Regions. For example, an end user can start ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
-          "published": "2026-10-22T18:34:00+00:00",
-          "content_snippet": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part. This improvement applies to the",
+          "title": "AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/",
+          "published": "2026-10-23T15:43:00+00:00",
+          "content_snippet": "AWS Transit Gateway and AWS Cloud WAN now provide managed one-to-one network address translation (NAT) directly on their attachments, through integration with Regional Private NAT Gateway. This enables customers to connect private networks that share the same IP address ranges without renumbering either network, deploying a NAT appliance, or writing return-traffic rules. Networks with overlapping Classless Inter-Domain Routing (CIDR) blocks have long been unable to communicate, a common blocker ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS CloudFormation now simplifies stack update rollback operations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
-          "published": "2026-10-22T17:30:00+00:00",
-          "content_snippet": "AWS CloudFormation now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot roll back automatically, force rollback enables you to complete the rollback it in a single operation. It works across every CloudFormation workflow, from the AWS CLI , and SDKs to AWS CDK and AI agents. With force rollback, CloudFormation completes the update rollback and returns your stack to a de",
+          "title": "Amazon Corretto October 2026 Quarterly Updates",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
+          "published": "2026-10-23T14:00:00+00:00",
+          "content_snippet": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit the Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
-          "published": "2026-10-22T16:30:00+00:00",
-          "content_snippet": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastructure. Managed techniques, including SFT, DPO, and other reinforcement learning methods, let customers pick a technique and a model and have SageMaker AI run the training. With training session APIs, teams get to write the training loop, whether that's reproducing SFT or DPO on their own terms or impl",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
-          "published": "2026-10-22T16:00:00+00:00",
-          "content_snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Continuum for code vulnerabilities is now generally available",
-          "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-          "published": "2026-10-22T20:33:10+00:00",
-          "content_snippet": "Today, we’re announcing the general availability of AWS Continuum for code vulnerabilities . AWS Continuum is a security service that finds and validates code vulnerabilities, then delivers fixes as patches you can automate or as pull requests in your repositories. AWS Continuum for code vulnerabilities confirms which findings are exploitable in your environment, ranks the resulting issues by business impact, and proposes a fix for each one. Every remediation starts in a mode where Continuum pro",
-          "source_name": "AWS Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The new economics of AI cost management",
-          "url": "https://www.databricks.com/blog/ai-cost-management",
-          "published": "2026-10-22T19:14:24+00:00",
-          "content_snippet": "For the past two years, the story around enterprise AI adoption has mostly been about...",
+          "title": "Built for Agents: The Case for Spark Declarative Pipelines",
+          "url": "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+          "published": "2026-10-23T19:00:00+00:00",
+          "content_snippet": "AI agents now write a growing share of production data pipelines (over 70% of SDP...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The Fraud Analyst AI Coworker: Detecting Telecom Fraud in Real-Time on One Platform",
-          "url": "https://www.databricks.com/blog/fraud-analyst-ai-coworker-detecting-telecom-fraud-real-time-one-platform",
-          "published": "2026-10-22T18:30:00+00:00",
-          "content_snippet": "BackgroundAccording to the Communications Fraud Control Association's 2025 survey...",
+          "title": "Real-time energy trading and analytics on Databricks",
+          "url": "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
+          "published": "2026-10-23T19:00:00+00:00",
+          "content_snippet": "Why does real-time energy trading need more than faster data?Energy trading desks...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "The AI Bill is coming",
-          "url": "https://www.databricks.com/blog/ai-bill-coming",
-          "published": "2026-10-22T18:12:49+00:00",
-          "content_snippet": "In this conversation, Catherine Brown talks with Patrick about what happened when...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Messi asks ChatGPT to teach him a chess opening",
-          "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA",
-          "published": "2026-10-22T21:58:00+00:00",
-          "content_snippet": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+          "title": "Hunt bugs with your dot",
+          "url": "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
+          "published": "2026-10-23T22:05:37+00:00",
+          "content_snippet": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
-          "url": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
-          "published": "2026-10-22T18:00:13+00:00",
-          "content_snippet": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond engineering and helping teams rethink entire workflows. Read more about Uber’s rollout of ChatGPT Work: https://openai.com/index/uber-chatgpt-work-rollout/",
+          "title": "From notes to AI training with ChatGPT Work | Realpage.",
+          "url": "https://www.youtube.com/watch?v=7Cs5qyBlYQk",
+          "published": "2026-10-23T18:42:11+00:00",
+          "content_snippet": "Austin Braham at Realpage. uses ChatGPT Work to turn ideas, notes and source materials into complete AI training packages tailored to different teams, roles and skill levels.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Realpage. builds AI training with ChatGPT Work",
+          "url": "https://www.youtube.com/watch?v=hgX1hgyWD4g",
+          "published": "2026-10-23T18:39:14+00:00",
+          "content_snippet": "At Realpage., Austin Braham creates AI training for different teams, roles and skill levels. He uses ChatGPT Work to turn ideas, notes and source materials into complete enablement packages tailored to each audience. The result is more relevant, consistent education that helps colleagues put AI to work in their everyday jobs.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+          "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc",
+          "published": "2026-10-23T18:36:34+00:00",
+          "content_snippet": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Shield uses OpenAI’s Astra to support IT teams",
+          "url": "https://www.youtube.com/watch?v=m6MlxaFMmPI",
+          "published": "2026-10-23T18:34:39+00:00",
+          "content_snippet": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a technician. Shield reports that OpenAI’s model navigates and acts in software 35–40% faster on average than earlier models. The bigger change is where technicians spend their time: handling harder problems th",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How AT&T is building AI-powered legal workflows with OpenAI",
+          "url": "https://www.youtube.com/watch?v=V39_L7uh66M",
+          "published": "2026-10-23T18:32:03+00:00",
+          "content_snippet": "AT&T’s David McAtee and Bill Ryan describe how AI is changing their legal team’s work—and what they plan to build with OpenAI next. One initiative is a natural-language intake system that would classify and prioritize legal matters, then connect them with relevant knowledge. The aim is to put better information in lawyers’ hands and give them more time for strategy and judgment. Decision-making remains with the lawyers.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "From analyst to builder with Codex | Benefit Street Partners",
+          "url": "https://www.youtube.com/watch?v=qyGvwLgqmaU",
+          "published": "2026-10-23T18:22:30+00:00",
+          "content_snippet": "Anant Kumar at Benefit Street Partners used Codex to build a tool that collects loan valuations from SEC filings and turns them into a website with visualizations. The first version took about a day. “I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.”",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Benefit Street Partners is building financial analysis tools with Codex",
+          "url": "https://www.youtube.com/watch?v=CTkDi1THc_g",
+          "published": "2026-10-23T18:20:02+00:00",
+          "content_snippet": "“I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” Benefit Street Partners’ Anant Kumar wanted to compare how firms valued the same loans. The information was spread across SEC filings. He built a tool to collect it automatically and turn it into a website with visualizations. The first version took about a day. He calls Codex the big unlock. Watch how building his own tools changed the speed and depth of his analysis.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -241,13 +267,19 @@
       ],
       "errors": [
         {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Anthropic News",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Devin AI (Cognition)",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Devin AI (Cognition)": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -262,46 +294,64 @@
       ],
       "items": [
         {
-          "title": "A Bank Trained Its Own Foundation Model to Catch Fraud — Freddy Lecue, Wells Fargo",
-          "url": "https://www.youtube.com/watch?v=UB6hoWyh3B0",
-          "published": "2026-10-23T09:00:35+00:00",
-          "content_snippet": "Freddy Lecue explains how Wells Fargo pre-trained its own transformer from scratch on billions of customer transactions instead of words. The model learns to predict the next transaction, and that one backbone can then be fine-tuned for fraud detection, credit line decisions, anti-money laundering and marketing. He covers the hardest part, turning tabular data like amounts, timing, merchants and zip codes into tokens, plus the model's size and training setup. On fraud, it caught more fraudulent ",
+          "title": "Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence",
+          "url": "https://www.youtube.com/watch?v=WOszaC1WWbQ",
+          "published": "2026-10-24T09:00:16+00:00",
+          "content_snippet": "Harneet Kaur, founder and CEO of Axim Intelligence and a former distressed credit investor, tests whether frontier models can reason about a live distressed situation: iHeartMedia. Given the same context, two top models disagreed sharply on the odds of bankruptcy versus a negotiated restructuring. Breaking the analysis into checked layers (extraction, derivation, judgment, prediction) brought them to the same answer, which raises a new question: is agreement the same as being right? Chapters 00:",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How to Let AI Agents Sign Up for Your App Safely — Isabelle Williams, WorkOS",
-          "url": "https://www.youtube.com/watch?v=uTrY8slys0w",
-          "published": "2026-10-23T08:00:39+00:00",
-          "content_snippet": "Isabelle Williams, a product manager at WorkOS, uses a travel app she built to show how to make an app ready for users who arrive as agents. She covers auth.md, an open file that tells agents how to get access; an anonymous mode where an agent can try the app before a person claims its work; and ID-JAG identity assertions, which let the agent's provider vouch for the user so nobody has to fill in a signup form. In a live demo, an agent signs up, plans a trip and books dinner on its own. She then",
+          "title": "Proving Alpha: How a Hedge Fund Measures AI's ROI - Hari Kumar, Contour Asset Management",
+          "url": "https://www.youtube.com/watch?v=ZMZlAn6Pyfg",
+          "published": "2026-10-24T08:00:28+00:00",
+          "content_snippet": "Hari Kumar, head of AI at Contour Asset Management, a $6B fundamental long/short fund focused on tech, media and telecom, tackles the hardest question in AI adoption: what are we actually getting for the spend? He shares how Contour runs live A/B tests of analysts' research with and without AI tools, tracks \"cost per useful insight,\" uses agents to resurface old ideas when the market makes them interesting again, and extends the same thinking to trading, ops and compliance. Chapters 00:00 Intro:",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Don't Trust Your AI Agents. Test Them Like a Scientist — Stephanie Jarmak, Omni Analytics",
-          "url": "https://www.youtube.com/watch?v=A3FL_zTQKU0",
-          "published": "2026-10-23T07:00:08+00:00",
-          "content_snippet": "Stephanie Jarmak, a former astronomer who now builds evals at Omni Analytics after building a large coding benchmark at Sourcegraph, argues that most agent evaluations are easy to misread. She shows how swapping only the harness moved results by 30%, why public benchmarks are for shortlisting rather than decisions, and how to design your own evals like an experiment: realistic tasks, repeated runs, full traces and a measurement that matches what you care about. She also covers quality gates that",
+          "title": "Inside Arca's Long-Horizon Agents That Run the Business - Aman Singh, Arca",
+          "url": "https://www.youtube.com/watch?v=oP2WLFpMoDY",
+          "published": "2026-10-23T21:00:21+00:00",
+          "content_snippet": "Arca is an AI-native financial services firm where agents don't assist the business, they run it. Aman Singh, who leads AI at Arca, shows how long-horizon agents own a client goal end to end across days of stop-start work: a signal system that keeps agents aware of emails, calls, custodian events and in-app actions; operational context and a harness to do the work; persistent memory; and shared spaces where agents pull in the right person at the right time. The result: agents prompt people more ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why AI Startups Will Disappear Without Compute Markets — Evan Conrad, San Francisco Compute",
-          "url": "https://www.youtube.com/watch?v=Wk2bUUGFC_o",
-          "published": "2026-10-22T23:00:12+00:00",
-          "content_snippet": "Evan Conrad explains how San Francisco Compute, which began as an AI lab that had to sublease its own GPU cluster to stay alive, ended up both operating clusters and running a market for them. He walks through the chain of problems a new lab or inference company hits: everyone is sold out, the deposit eats the bank balance, clusters arrive late and break, and demand is nearly impossible to predict. He argues these are all one risk problem, that AI companies run into credit limits before power li",
+          "title": "Real AI Agent Attacks and What Would Have Stopped Them — Andrey Rybka, Bloomberg",
+          "url": "https://www.youtube.com/watch?v=5O6jLtoeKrg",
+          "published": "2026-10-23T19:00:34+00:00",
+          "content_snippet": "Andrey Rybka of Bloomberg walks through real security incidents involving AI agents and the controls that would have stopped each one: an agent that escaped its sandbox and took 17,600 actions over four and a half days, a zero-click email injection, instructions hidden in Morse code that drained a wallet, data smuggled out through DNS lookups, a poisoned MCP package, and an agent that dropped a production database after promising not to touch prod. His layered defense: one identity per agent wit",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Better AI Models Won't Fix Your Engineering Team — Nicholas Arcolano, Jellyfish",
-          "url": "https://www.youtube.com/watch?v=Ve2bAarPA2I",
-          "published": "2026-10-22T19:00:39+00:00",
-          "content_snippet": "Nicholas Arcolano, head of AI and research at Jellyfish, uses data from about 50,000 engineers at 447 companies to ask how much the model really matters for AI coding output. When Cursor pushed many of its users onto Grok, merged PRs barely moved. Breaking down what drives throughput, the tool explains under 1%, skill use about 3% (heavy skill users see roughly a 30% bump), token usage about 9%, company and team about 12%, and the individual engineer most of the rest. The engineers who were top ",
+          "title": "Why Compute Still Trades in Group Chats — Affaan Mustafa & Alejandro Soumah Fernandez, Jump Trading",
+          "url": "https://www.youtube.com/watch?v=GCse4OMzY8U",
+          "published": "2026-10-23T17:18:49+00:00",
+          "content_snippet": "Affaan Mustafa and Alejandro Soumah Fernandez lead compute trading at Jump Trading. They explain why most GPU capacity still trades out of public view: private quotes, bilateral contracts and deals struck over Slack, X and Telegram. They look at why GPU prices have held up even as token prices fell, how chips, power, buildings and capital all feed into the price of a GPU hour, and why mid-size companies get squeezed when a 15 to 25% prepayment on a three-year contract can eat a whole funding rou",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI",
+          "url": "https://www.youtube.com/watch?v=opHmX7qClzE",
+          "published": "2026-10-23T17:00:10+00:00",
+          "content_snippet": "Joseph Kim leads ChatGPT for Financial Services, which launched a month before this talk with design partners Morgan Stanley and Evercore. He demos the product and explains the \"capability overhang\": the gap between what models can do and the value people actually get from them at work. He covers why the team licensed and indexed financial data themselves instead of relying on existing MCP connectors, and how firm templates, interactive charts and citation viewers were built on the same ChatGPT ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange",
+          "url": "https://www.youtube.com/watch?v=laQ8wMysnkk",
+          "published": "2026-10-23T15:00:36+00:00",
+          "content_snippet": "Carmen Li, CEO of Compute Exchange and Silicon Data and a former energy options market maker, explains why buying compute should work more like trading on an exchange than calling hundreds of salespeople. Compute Exchange is a neutral marketplace that owns no GPUs, verifies both providers and buyers, and handles reserved and forward contracts for GPUs and tokens, plus a busy market for used servers. After a platform demo, she turns to Silicon Data's numbers: forward curves for H100 and B200 have",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -311,5 +361,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 19
+  "deduped_count": 15
 }
