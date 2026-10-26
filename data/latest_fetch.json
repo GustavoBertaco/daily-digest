@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T13:54:54Z",
+  "fetched_at": "2026-10-26T16:17:49Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,30 @@
       ],
       "items": [
         {
-          "title": "Why Staff engineers don’t only get to work on fun problems",
-          "url": "https://www.youtube.com/watch?v=PkFdtpdDG5c",
-          "published": "2026-10-24T16:00:30+00:00",
+          "title": "Middle managers: either retire or reskill",
+          "url": "https://www.youtube.com/watch?v=L2hOD5QtAqI",
+          "published": "2026-10-25T16:45:39+00:00",
           "content_snippet": "with Will Larson, 3x CTO, 4x book author See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+          "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+          "published": "2026-10-26T16:01:02+00:00",
+          "content_snippet": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple Introduction Clips in the Netflix mobile app. At Netflix, a crucial part of our mission is ensuring our content looks stunning on any device. Vertical formats are increasingly important for Netflix, as we have 1.2B followers across our soc",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+          "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+          "published": "2026-10-26T16:00:07+00:00",
+          "content_snippet": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark , and our gigawatt-scale Prometheus cluster . Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running FBOSS. Flattened Planar Fabric (FPF) for scale-out: Meta’s multi-plane scale-out fabric where each GPU c",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -33,10 +51,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Netflix Tech Blog": 2,
-        "Meta Engineering": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -62,23 +77,36 @@
       ],
       "items": [
         {
-          "title": "Why do People Play the Lottery?",
-          "url": "https://www.youtube.com/watch?v=PSbydooXDr8",
-          "published": "2026-10-24T18:43:14+00:00",
-          "content_snippet": "Americans spend $100 billion every year on lottery tickets, and the poorer you are the more likely you are to buy them. Morgan Housel on why it makes more sense than you’d think.",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "Counterfactual Thinking",
+          "url": "https://www.youtube.com/watch?v=JMQ87GSZxvY",
+          "published": "2026-10-26T14:38:20+00:00",
+          "content_snippet": "The medal finding survived a much bigger test. David Matsumoto at San Francisco State and photographer Bob Willingham coded the faces of judo medalists at the 2004 Athens Games, 84 athletes from 35 countries. Gold and bronze winners produced genuine smiles, the kind that pull the muscles around the eyes. Silver winners almost never did. Same podium, same day, different comparison. Neal Roese at Northwestern, who has studied regret for three decades, adds the useful half. Upward counterfactuals s",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Did life arise more than once? | Paul Davies",
+          "url": "https://www.youtube.com/watch?v=fGdFGBYn308",
+          "published": "2026-10-26T16:07:18+00:00",
+          "content_snippet": "Did life arise more than once? | Paul Davies",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The science of how your past contributes to your present | Lisa Feldman Barrett",
+          "url": "https://www.youtube.com/watch?v=YBr-dz44Bwo",
+          "published": "2026-10-26T13:07:55+00:00",
+          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Psychologist Lisa Feldman Barrett on how the way we perceive emotions is based on patterns in our culture, not universal signals. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Psychologist Lisa Feldman Barrett argues even color isn't fixed biologically — a four-coned visual system would make today's \"objective\" red look wrong, the way colorblindness already does for",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [
-        {
-          "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
-        }
-      ],
+      "errors": [],
       "deduped_sources": {
-        "Big Think": 2
+        "The Knowledge Project Podcast": 1
       }
     },
     {
@@ -131,44 +159,27 @@
       ],
       "items": [
         {
-          "title": "From notes to AI training with ChatGPT Work | Realpage.",
-          "url": "https://www.youtube.com/watch?v=7Cs5qyBlYQk",
-          "published": "2026-10-23T18:42:11+00:00",
-          "content_snippet": "Austin Braham at Realpage. uses ChatGPT Work to turn ideas, notes and source materials into complete AI training packages tailored to different teams, roles and skill levels.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+          "published": "2026-10-26T15:02:24+00:00",
+          "content_snippet": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional are exactly the ones where keeping up with this technology decides who ends up ahead of the curve. Nobody there was arguing about whether AI belongs in agriculture. The questions we",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AI agents for everyday IT fixes | Shield and OpenAI",
-          "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc",
-          "published": "2026-10-23T18:36:34+00:00",
-          "content_snippet": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "From analyst to builder with Codex | Benefit Street Partners",
-          "url": "https://www.youtube.com/watch?v=qyGvwLgqmaU",
-          "published": "2026-10-23T18:22:30+00:00",
-          "content_snippet": "Anant Kumar at Benefit Street Partners used Codex to build a tool that collects loan valuations from SEC filings and turns them into a website with visualizations. The first version took about a day. “I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.”",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "The media industry is becoming a prediction economy",
+          "url": "https://www.databricks.com/blog/media-industry-becoming-prediction-economy",
+          "published": "2026-10-26T13:36:46+00:00",
+          "content_snippet": "For two decades, media and advertising ran on attention. Impressions, reach and clicks...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -180,7 +191,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 8
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -195,55 +208,55 @@
       ],
       "items": [
         {
-          "title": "How to Build Financial Agents That Work Across the Web - Jay Sahnan & Arik Bird, Browserbase",
-          "url": "https://www.youtube.com/watch?v=DZ24Xbm9Joc",
-          "published": "2026-10-25T09:00:10+00:00",
-          "content_snippet": "Some of the most important financial data sits behind logins and anti-bot walls, with no API. Jay Sahnan and Arik Bird of Browserbase show how browser agents solve this through three case studies: Ramp fetching receipts at scale (over 30,000 manual hours saved), Bill paying across thousands of different vendor portals with one agent, and Stripe automating KYC checks. They also cover how Browserbase forked Chromium to run reliably in the cloud, and how Stagehand's act, extract and observe primiti",
+          "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
+          "url": "https://www.youtube.com/watch?v=4UtrRVtUN_g",
+          "published": "2026-10-26T09:00:23+00:00",
+          "content_snippet": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion (reviewing Claude-written code with GPT and vice versa catches about 10% more bugs), codebase contex",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Do Not Let Models Invent Numbers - Vinoo Ganesh, Kepler",
-          "url": "https://www.youtube.com/watch?v=dZgA6btnb_s",
-          "published": "2026-10-25T08:00:12+00:00",
-          "content_snippet": "In finance, you never show a figure you can't trace. Vinoo Ganesh, CEO of Kepler (previously Palantir and Citadel), explains Kepler's architecture where models cite numbers but never write them: retrieval finds the source, deterministic code does the math, and a post-processing filter strips any figure that can't be verified. He covers the citation registry built from more than 30 million SEC documents, hybrid search and re-ranking on turbopuffer, tenant isolation, and why plain RAG produced tho",
+          "title": "Build Your Own Team of Managed Agents - Jack Wotherspoon, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=Y_p3y6zP5QE",
+          "published": "2026-10-26T08:00:11+00:00",
+          "content_snippet": "Jack Wotherspoon, developer experience engineer at Google DeepMind, introduces Gemini Managed Agents: coding agents that run in cloud sandboxes from a single API call instead of on your laptop. He covers the Interactions API, the Antigravity harness, environments that several agents can share, uploaded skills and AGENTS.md files, a proxy that keeps secrets out of the sandbox, scheduled triggers and multi-agent workflows. Demos include an SEC filing researcher handing its work to a quant agent, a",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why Frontier Models Fail as Buy-Side Analysts - Janie Gu, Google DeepMind & Suyeol Yun, LinqAlpha",
-          "url": "https://www.youtube.com/watch?v=aVbRSIQO2dE",
-          "published": "2026-10-25T07:00:32+00:00",
-          "content_snippet": "Janie Gu, product manager at Google DeepMind leading Kaggle Benchmarks, explains why most AI benchmarks are broken: they don't reflect real work, they're expensive to keep current, and their scores can't be verified. After reproducing 65 industry benchmarks, Kaggle found models reading other models' API keys, rewriting grading scripts, and scores swinging up to 20% between identical runs. Suyeol Yun, head of AI at LinqAlpha, then presents MandateBench, built with Google DeepMind and Kaggle, whic",
+          "title": "How to Build Voice Agents That Don't Fall Apart When You Interrupt - Jesse Hall, LiveKit",
+          "url": "https://www.youtube.com/watch?v=OmyqelTwpOo",
+          "published": "2026-10-26T07:00:26+00:00",
+          "content_snippet": "Jesse Hall of LiveKit shows how to build voice agents for financial services that feel human, not robotic. He explains why model leaderboards mislead (they score components, but you ship a conversation), why you should measure time to first audio and time to first sentence instead of first byte or first token, and how async tool calls keep a conversation flowing while slow back-end work runs. He also covers audio-aware turn detection, the roughly 1.5-second latency budget (500-600ms feels truly ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI",
-          "url": "https://www.youtube.com/watch?v=kspZP5BgkEU",
-          "published": "2026-10-24T23:00:29+00:00",
-          "content_snippet": "Laurie Voss, head of developer relations at Arize AI and co-founder of npm, argues that coding agents made writing code nearly free, so the bottleneck keeps moving: first to code review, then to operations and security. What agents can't take over is finding out what people actually need and defining what \"good\" means. He calls the job that remains the product engineer, looks at the data on collapsing junior hiring, and lays out what engineering leaders should do now. Chapters 00:00 Intro: beyon",
+          "title": "How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI",
+          "url": "https://www.youtube.com/watch?v=gv4w23xYj-0",
+          "published": "2026-10-25T23:00:27+00:00",
+          "content_snippet": "A hands-on workshop from SallyAnn DeLucia, head of product at Arize AI, on moving from vibe checks to real evals. She covers what an eval is and how it differs from a unit test, the main types (LLM as a judge, decision models, code evals, annotations, agent as a judge), how to read a trace, how to write concrete pass/fail criteria, and how to build and iterate on an LLM judge in Arize's prompt playground. Chapters 00:00 Intro and agenda 02:06 Why vibe checks don't scale 03:08 Is an eval just a u",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI",
-          "url": "https://www.youtube.com/watch?v=v5tm5EAzsAs",
-          "published": "2026-10-24T19:00:09+00:00",
-          "content_snippet": "A one-line prompt change made a support agent 17 points safer and 17 points worse at finishing tasks. Sofia Jakovcevic, forward deployed engineer at Arize AI, explains why agents fail at runtime rather than in code, and walks through a five-step regression loop built from production traces: curate datasets, score with evaluators, run baseline experiments, compare changes, and gate merges in CI. Then she shows how to close the loop at agent speed, with coding agents that read traces and fix thems",
+          "title": "What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI",
+          "url": "https://www.youtube.com/watch?v=ImnZ7s68jw8",
+          "published": "2026-10-25T19:00:32+00:00",
+          "content_snippet": "Aparna Dhinakaran of Arize AI revisits what an AI engineer actually does as the field moves from writing features to running factories of agents. The job now is building the loop: evals that review non-deterministic work, telemetry that agents consume, and agents that act on it. She walks through how Arize built Signal, an always-on agent that reads traces, remembers past issues and opens PRs, covering triggers, sandboxes, durable state, and evaluating the evaluators. Chapters 00:00 Intro: what ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green & Aaron Linsky, Bridgewater",
-          "url": "https://www.youtube.com/watch?v=CLve4Nx_RwI",
-          "published": "2026-10-24T15:00:38+00:00",
-          "content_snippet": "Bridgewater Associates built the Vault: more than 100 million documents from 135 external sources plus the firm's own memos and meetings, cleaned, permissioned and tagged to its internal ontology. Sam Green (team lead, Applied AI) and Aaron Linsky (head of product engineering) share three lessons: humans and agents need different things from search, the biggest wins come from one tool that serves both, and the real prize is agents that proactively bring investors what deserves their attention. I",
+          "title": "Can Your AI Analyst Keep a Secret? - Aaron Linsky, Bridgewater & Nikhil Benesch, turbopuffer",
+          "url": "https://www.youtube.com/watch?v=u_jvuCjuvEk",
+          "published": "2026-10-25T15:00:33+00:00",
+          "content_snippet": "An AI analyst at a firm like Bridgewater needs private documents, but every email, memo and research note carries its own permissions. Aaron Linsky (head of product engineering, Bridgewater Associates) explains why the Vault's 100 million permissioned documents broke their first search setup, and Nikhil Benesch (CTO, turbopuffer) breaks down the fix: post-filtering loses recall, pre-filtering is too slow, and \"native filtering\" over a clustered vector index gets both, delivering about 120ms P90 ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -253,5 +266,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 24
 }
