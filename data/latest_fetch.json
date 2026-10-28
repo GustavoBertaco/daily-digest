@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T15:31:43Z",
+  "fetched_at": "2026-10-28T16:15:59Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,11 +14,38 @@
       ],
       "items": [
         {
-          "title": "Making Failure Diagnosis Reliable with Pensive AI",
-          "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
-          "published": "2026-10-26T17:04:57+00:00",
-          "content_snippet": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly 100,000 workloads fail. When workloads fail, the failure itself is only the beginning. Someone still needs to find the useful signal in several logs, decide whether the cause sits in their code or the",
-          "source_name": "Netflix Tech Blog",
+          "title": "Adding people to a late project doesn’t work",
+          "url": "https://www.youtube.com/watch?v=PHBtFsGE6HE",
+          "published": "2026-10-27T17:00:33+00:00",
+          "content_snippet": "with Will Larson, 3x CTO, 4x book author See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+          "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+          "published": "2026-10-28T16:00:01+00:00",
+          "content_snippet": "This post describes the next generation of Meta Andromeda, Meta’s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model performance at retrieval scale and surfaces the top candidates at over one billion ads per second, a new throughput benchmark for ads retrieval-stage models (i.e., a 100x lift compared to the 2024 Meta Androm",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+          "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+          "published": "2026-10-27T16:00:12+00:00",
+          "content_snippet": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside the clients of Meta’s data and processing systems. A system integrates with PrivacyLib once, and new privacy capabilities plu",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+          "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+          "published": "2026-10-27T15:59:24+00:00",
+          "content_snippet": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they use and experience Python typing: the language features, specifications, and tools used to describe and check types in Python code. We",
+          "source_name": "Meta Engineering",
           "source_type": "rss",
           "area_name": "Technology"
         }
@@ -34,8 +61,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
-        "Meta Engineering": 1
+        "Netflix Tech Blog": 4
       }
     },
     {
@@ -62,37 +88,27 @@
       ],
       "items": [
         {
-          "title": "No.1 Flow Expert: How to Enter Deep Lock-In Mode",
-          "url": "https://www.youtube.com/watch?v=uflp-68nXAY",
-          "published": "2026-10-27T13:02:13+00:00",
-          "content_snippet": "Steven Kotler is one of the world’s leading experts on ultimate human performance. Shane Parrish and him talk about how to get into flow, the state where you perform at your best, why your brain is built for 90-minute focus blocks, and the 4% rule for getting better without burning out. Watch the full episode now!",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "3 Step Shutdown Ritual",
+          "url": "https://www.youtube.com/watch?v=GSf0SO2Q1V0",
+          "published": "2026-10-28T14:15:11+00:00",
+          "content_snippet": "-In the 1920s, psychologist Kurt Lewin noticed a Berlin waiter could recall an unpaid order in full detail and lost it the moment the bill was settled. His student Bluma Zeigarnik spent her doctorate on why unfinished tasks keep nagging. Roy Baumeister and E. J. Masicampo at Florida State found the cheapest fix. People who wrote a specific plan for an unfinished task, when and where and how, stopped being distracted by it, even though none of the work had been done. Masicampo, E. J., & Baumeiste",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "No.1 Flow Expert: How to Enter Deep Lock-In Mode",
-          "url": "https://www.youtube.com/watch?v=w_p-68aRdmc",
-          "published": "2026-10-27T10:00:35+00:00",
-          "content_snippet": "Steven Kotler is a bestselling author and the executive director of the Flow Research Collective, where he studies the science of peak performance. Most of us have felt it. Hours disappear, everything else fades away, and the work seems to do itself. But what’s actually happening in those moments, and can you make them happen on purpose? Kotler has spent decades studying flow, and he makes the case that it’s far more trainable than most people think. We talk about what brings it on, how hard a t",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Ryan Serhant: The Sales Habits That Closed $1 Billion in a Year",
-          "url": "https://www.youtube.com/watch?v=054CHEfuZBA",
-          "published": "2026-10-26T16:17:41+00:00",
-          "content_snippet": "Ryan Serhant: The Sales Habits That Closed $1 Billion in a Year",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "The hidden trap of overthinking | Lisa Damour",
+          "url": "https://www.youtube.com/watch?v=9UtyrAipobI",
+          "published": "2026-10-28T16:06:24+00:00",
+          "content_snippet": "The hidden trap of overthinking | Lisa Damour",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 1,
-        "Big Think": 2
+        "The Knowledge Project Podcast": 3
       }
     },
     {
@@ -145,199 +161,152 @@
       ],
       "items": [
         {
-          "title": "Amazon ECR now supports replication backfill for existing container images",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
-          "published": "2026-10-26T20:24:00+00:00",
-          "content_snippet": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destination",
+          "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+          "published": "2026-10-27T23:31:00+00:00",
+          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU sharing helps you increase GPU utilization and reduce infrastructure costs for workloads that use only part of a GPU's capacity, such as small-model inference, AV/ADAS simulations, embedding generation, and multi-model serving. With GPU sharing, you can pack more workloads onto each GPU instance with",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
-          "published": "2026-10-26T18:27:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads. As the newest model in the Terra line, GPT-6.1 Terra combines detailed visual reasoning, accurate computer use, and improved factuality and natural writing over GPT-5.6 Terra, for complex workflows. In OpenAI’s Agents’ Last Exam evaluation, it scored 15 percentage points higher than GPT-5.6",
+          "title": "SageMaker MLflow Apps now support MLflow 3.16",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+          "published": "2026-10-27T20:40:00+00:00",
+          "content_snippet": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows. MLflow 3.16 improves debugging and analysis of generative AI applications and agents. The redesigned trace explorer is now the default, with adjustable row height, reorderable columns, custom columns from any trace tag or metadata field. This release also accelerates metric charts for experiments with large metric h",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
-          "published": "2026-10-26T18:00:00+00:00",
-          "content_snippet": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting the instance. Previously, changing storage capacity or performance on a deployed managed instance required rebuilding it. With ModifyVolume, you can increase volume size up to 16,384 GiB, switch between supported Amazon EBS volume types, adjust IOPS for gp3, io1, and io2 volumes, and modify throughput ",
+          "title": "Amazon Aurora serverless now supports up to 384 ACUs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+          "published": "2026-10-27T16:00:00+00:00",
+          "content_snippet": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU provides approximately 2 gibibytes (GiB) of memory with corresponding CPU and networking, so a single Aurora serverless database can now scale up to 768 GiB of memory. When the workload completes, Aurora serverless automatically scales down to zero. This makes Aurora serverless especially well-su",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
-          "published": "2026-10-26T15:32:00+00:00",
-          "content_snippet": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this launch, customers can set this visual preference in both IAM-based and IDC-based domains. Light mode helps improve readability in bright environments and provides a familiar visual experience for customers who prefer lighter interfaces. Combined with th",
+          "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+          "published": "2026-10-27T15:21:00+00:00",
+          "content_snippet": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle. You can choose between two durability options: synchronous ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer expands testing and simulation to validate flow action outcomes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions/",
-          "published": "2026-10-26T15:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now enables you to validate the outcomes of your customer experience flow actions during testing and simulation. In addition to confirming that an action started, you can now verify the data it returns when it completes, such as a Lambda function response, an Amazon Lex resolved intent, or the variables set by an Agentic CX block. When a test fails, you can pinpoint the exact action that returned an unexpected result instead of tracing it back from a downstream step, so y",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
-          "published": "2026-10-26T13:47:00+00:00",
-          "content_snippet": "Now you can view your metrics across customer segments: customer lifetime value (LTV) and repeat callers. See how any metric differs for repeat callers versus the rest of your contacts, or how results hold up among your highest-LTV customers; so you can spot the groups trending the wrong way before it shows up in the aggregate. Where a segment is underperforming, you can act. Route high-LTV customers to your most effective people, adjust the knowledge bases and self-service flows that repeat cal",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "BigQuery to Databricks: A Strategic Framework",
-          "url": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework",
-          "published": "2026-10-27T11:07:53+00:00",
-          "content_snippet": "Migration as a strategic evolutionMany organizations support a range of data and analytics workloads on BigQuery today...",
+          "title": "Vital Skills: Upskilling Genie Code with Healthcare and Life Sciences skills",
+          "url": "https://www.databricks.com/blog/vital-skills-upskilling-genie-code-healthcare-and-life-sciences-skills",
+          "published": "2026-10-27T19:00:00+00:00",
+          "content_snippet": "Code with AI on a unified, governed platformGenie Code, our coding agent optimized...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Unify your productivity and AI data with Lakeflow Connect",
-          "url": "https://www.databricks.com/blog/unify-your-productivity-and-ai-data-lakeflow-connect",
-          "published": "2026-10-26T23:20:12+00:00",
-          "content_snippet": "This is the second post in our series on how Lakeflow Connect brings fully managed...",
+          "title": "Unlocking Investment Insights Without Migrating Your Data: Lakehouse Federation",
+          "url": "https://www.databricks.com/blog/unlocking-investment-insights-without-migrating-your-data-lakehouse-federation",
+          "published": "2026-10-27T18:00:00+00:00",
+          "content_snippet": "Lakehouse Federation: Query Anywhere, Move NothingIn today's enterprise landscape,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How to teach with Databricks Free Edition",
-          "url": "https://www.databricks.com/blog/how-teach-databricks-free-edition",
-          "published": "2026-10-26T19:40:00+00:00",
-          "content_snippet": "You can run a full data or AI course on the same platform enterprises use in production - for free...",
+          "title": "From spot fixes to measured gains: improving document extraction accuracy with ai_extract and MLflow Prompt Registry",
+          "url": "https://www.databricks.com/blog/spot-fixes-measured-gains-improving-document-extraction-accuracy-aiextract-and-mlflow-prompt",
+          "published": "2026-10-27T18:00:00+00:00",
+          "content_snippet": "Document extraction often starts with a simple loop: spot an incorrect field, adjust...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Building live intelligence: Databricks AI Search supports Streaming Tables, Materialized Views, and Managed tables using Iceberg",
-          "url": "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views",
-          "published": "2026-10-26T18:03:59+00:00",
-          "content_snippet": "AI Search now natively supports Streaming Tables, Materialized Views, and Managed...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Getting a Head Start with Codex | Mitchell Hashimoto",
-          "url": "https://www.youtube.com/watch?v=lPZQrVFcz3c",
-          "published": "2026-10-27T15:04:57+00:00",
-          "content_snippet": "“The whole point is I want to hit the ground running.” HashiCorp co-founder Mitchell Hashimoto wraps up his day by putting Codex agents to work. They research the competition, compare tools and prototype features he’s still working out—giving him a head start on the next day’s work. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+          "title": "Merge CEO Shensi Ding: AI fluency starts at the top",
+          "url": "https://www.youtube.com/watch?v=kP26OlW5PBk",
+          "published": "2026-10-28T11:51:11+00:00",
+          "content_snippet": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. Using Codex, she asked it to help redesign a feature using the product’s existing design system. She describes it working through each task and filling in details she hadn’t specified. Her non-engineering teammates are also building tools for their own workflows. Watch Shensi explain why she stays hands-on.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
-          "url": "https://www.youtube.com/watch?v=cflbzHRvGvg",
-          "published": "2026-10-27T15:03:41+00:00",
-          "content_snippet": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+          "title": "Why Merge CEO Shensi Ding stays hands-on with Codex",
+          "url": "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
+          "published": "2026-10-28T11:50:26+00:00",
+          "content_snippet": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solution. It drew on Merge’s existing design system, proposed different approaches and helped her work through difficult UX decisions. That kind of experimentation has changed how she runs the business. When Shensi and her co-founder built Merg",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Sotira Gives Unsold Inventory a Second Life with Codex",
-          "url": "https://www.youtube.com/watch?v=C2vdw5GSTQo",
-          "published": "2026-10-27T15:02:46+00:00",
-          "content_snippet": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+          "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
+          "url": "https://www.youtube.com/watch?v=M2Oa42hF67E",
+          "published": "2026-10-28T09:45:24+00:00",
+          "content_snippet": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while keeping lawyers responsible for the decisions. Part of Intelligence at Work. Read the full story: https://openai.com/index/legora-agentic-operating-system-for-legal-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-          "url": "https://www.youtube.com/watch?v=vKMDQJpRSvA",
-          "published": "2026-10-27T14:55:22+00:00",
-          "content_snippet": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and help teams keep pace.",
+          "title": "Building the future of legal work with AI | Legora CEO Max Junestrand",
+          "url": "https://www.youtube.com/watch?v=UOfmD1fY-i8",
+          "published": "2026-10-28T09:45:18+00:00",
+          "content_snippet": "Legora co-founder and CEO Max Junestrand wants to make legal expertise available wherever it’s needed. He shares how OpenAI helped turn that ambition into a platform, why staying AI-native matters as the company grows, and what becomes possible when lawyers can take on work that time and capacity once put out of reach. Part of Intelligence at Work. Read the full story: https://openai.com/index/legora-agentic-operating-system-for-legal-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-          "url": "https://www.youtube.com/watch?v=ilG7LPrngkI",
-          "published": "2026-10-27T14:54:56+00:00",
-          "content_snippet": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and help teams keep pace.",
+          "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+          "url": "https://www.youtube.com/watch?v=z-WZMjNsg-k",
+          "published": "2026-10-28T09:45:16+00:00",
+          "content_snippet": "When deadlines limit how many contracts lawyers can examine, important risks can go unseen. Alex Fortescue-Webb, Global Head of Legal Engineering at Legora, explains how AI powered by OpenAI models helps teams analyse thousands of contracts across multiple questions in minutes, expanding the scope of due diligence and giving lawyers more information to apply their judgment. Part of Intelligence at Work. Read the full story: https://openai.com/index/legora-agentic-operating-system-for-legal-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Better Sources, Better Presentations | Hebbia on Astra",
-          "url": "https://www.youtube.com/watch?v=uhpS6vfhrH8",
-          "published": "2026-10-27T14:50:21+00:00",
-          "content_snippet": "Hebbia’s Kavita Anand explains two areas where Astra improved in the company’s evaluations: selecting the right sources and generating PowerPoint presentations. For bankers and investors working through thousands of documents, both help turn research into information they can use.",
+          "title": "How Legora is transforming legal work with OpenAI",
+          "url": "https://www.youtube.com/watch?v=yJxZef1Ylok",
+          "published": "2026-10-28T09:45:14+00:00",
+          "content_snippet": "What can lawyers achieve when time is no longer the limit? Discover how Legora uses OpenAI models, ChatGPT and Codex to help legal teams review contracts faster, broaden their analysis and make more room for work that needs human judgment. Part of Intelligence at Work, a series exploring how businesses are putting AI to work. Read the full story: https://openai.com/index/legora-agentic-operating-system-for-legal-work/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Taking on Harder Problems with Astra | Jump Trading",
-          "url": "https://www.youtube.com/watch?v=kc9SMiwHw5g",
-          "published": "2026-10-27T14:47:57+00:00",
-          "content_snippet": "At Jump Trading, Lucas Baker is seeing agents take on broader, less defined work—from building entire services to analyses that run for days across multiple data sources. He describes how AI is becoming part of his team’s everyday work.",
+          "title": "Lawyers Stay in Control | AT&T + OpenAI",
+          "url": "https://www.youtube.com/watch?v=Yim7JrVzSkk",
+          "published": "2026-10-27T15:40:48+00:00",
+          "content_snippet": "AT&T’s David McAtee and Bill Ryan discuss how AI can support legal work while lawyers remain responsible for strategy, judgment and decisions.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Moving IPO Work Forward with AI | Cooley + OpenAI",
-          "url": "https://www.youtube.com/watch?v=XAVYrC9lY7Q",
-          "published": "2026-10-27T14:42:25+00:00",
-          "content_snippet": "How can AI help reduce the demands of IPO preparation? Cooley’s Chief Innovation Officer David Wang explains how GO Public, built with OpenAI, helps put substantive work in front of clients sooner and spot issues earlier. People remain responsible for reviewing the output and standing behind the answers.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
-          "url": "https://www.youtube.com/watch?v=tFmlEKQkZi0",
-          "published": "2026-10-27T12:49:09+00:00",
-          "content_snippet": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen defenses for the businesses that depend on them. Watch why Cisco is rethinking how defense gets done.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
-          "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c",
-          "published": "2026-10-27T12:45:06+00:00",
-          "content_snippet": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen defenses for the businesses that depend on them. Watch why Cisco is rethinking how defense gets done.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "FrontierCode 2.0",
+          "url": "https://cognition.ai/blog/frontier-code-2.0",
+          "published": "2026-10-27T17:00:00+00:00",
+          "content_snippet": "FrontierCode 2.0\nRecent progress in AI has made software engineers dramatically more productive. However, our experience building and deploying Devin suggests that agentic software engineering remains far from solved. Models struggle to infer user intent, respect unstated constraints, and anticipate long-term consequences of their changes, forcing human intervention.\nMost existing coding benchmarks fail to capture these gaps and tend to be saturated quickly. We are excited to introduce FrontierC",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "Anthropic News",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
-          "source_name": "Devin AI (Cognition)",
+          "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "AWS Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -352,55 +321,46 @@
       ],
       "items": [
         {
-          "title": "What a $900M Bank Error Teaches Us About AI Agents - John Feminella, Two Sigma",
-          "url": "https://www.youtube.com/watch?v=iniryju23Sk",
-          "published": "2026-10-27T15:00:06+00:00",
-          "content_snippet": "In 2020, Citibank accidentally sent about $900 million to Revlon’s lenders instead of an $8 million interest payment, even though the procedure, the warning pop-up and three approvers all did what they were supposed to. John Feminella, who works on AI architecture and engineering at Two Sigma, uses that story to show how to give AI agents real autonomy without locking everything down. He walks through five composable controls: an agent registry, risk-based review, tool access that follows an age",
+          "title": "Stop Guessing Your vLLM Config: Benchmarking LLMs on Runpod - Chris Vela, Runpod",
+          "url": "https://www.youtube.com/watch?v=P_0_Th_ZzIg",
+          "published": "2026-10-28T09:00:20+00:00",
+          "content_snippet": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts inter-token latency, and asks whether you need a frontier model at all. Chapters: 0:00 Intro 0:29 What Runpod ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
-          "url": "https://www.youtube.com/watch?v=h8jgniNJcbQ",
-          "published": "2026-10-27T09:00:16+00:00",
-          "content_snippet": "Nobody would hire a worker with no ID, no manager and shared passwords, yet that's how most companies deploy AI agents. Tim Tyler of Gravitee presents the Agent Accountability framework, which governs agents like a digital workforce in three stages: Assignment (identity, team, a named human sponsor), Alignment (role, mission and least-privilege authority) and Administration (oversight scorecards, guardian agents and step-by-step recourse when agents go off course). Chapters: 0:00 The job posting",
+          "title": "Who Is Making This Request? Agent Auth 101 - Kamil Potrec, Keycard",
+          "url": "https://www.youtube.com/watch?v=58ulJViGFgU",
+          "published": "2026-10-28T08:00:37+00:00",
+          "content_snippet": "When an agent sends an invoice using your token, who actually made the request? Kamil Potrec of Keycard breaks down how agents get credentials today (personal tokens, static keys, over-privileged service accounts) and what proper agent auth requires: per-agent identity, delegation, short-lived scoped credentials, federation with legacy systems, policy and audit. He compares SDKs and gateways for keeping credentials out of an agent's reach, including the gateway tradeoffs. Chapters: 0:00 Intro 0:",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer",
-          "url": "https://www.youtube.com/watch?v=BgLdvF7Qkh8",
-          "published": "2026-10-27T08:00:00+00:00",
-          "content_snippet": "Runlayer is a company of about 60 people running 300+ agents every day. Founding engineer Aiden Sochowski shares what they found once they put a gateway in front of everything and logged every session and tool call: prompt injection through email, PR-review agents getting talked into approvals, over-permissioned bots, one poisoned agent contaminating others, buggy vibe-coded MCP servers burning tokens, and a model switch that raised costs over 100x in a week. Chapters: 0:00 Intro 0:25 Zero visib",
+          "title": "Exploits Now Beat Patches: Open Source Security in the AI Era - Patrick Smyth, Chainguard",
+          "url": "https://www.youtube.com/watch?v=xZX3pmaB8Hk",
+          "published": "2026-10-28T07:00:33+00:00",
+          "content_snippet": "Frontier AI has made every attacker a level more dangerous, and on average, exploits now land before the patch. Patrick Smyth of Chainguard covers this year's AI-assisted attacks and supply chain malware waves, why 30-day remediation windows no longer hold up, the four attack surfaces to cover (malware, known CVEs, zero days and \"side doors\" like CI/CD, developer laptops and agent skills), and what to do now: cooldown periods, faster CVE fixes, and signing everything with SLSA and Sigstore. Chap",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver",
-          "url": "https://www.youtube.com/watch?v=aGIUg8zKI8A",
-          "published": "2026-10-27T07:00:26+00:00",
-          "content_snippet": "At Optiver, a change rolled out to traders shows up in P&L within hours, so AI has to move fast and still be measurable. Noyan Tokgozoglu, head of AI Engineering, walks through Optiver's on-prem AI platform: an inference gateway for routing and budgets, same-day adoption of new frontier models benchmarked on internal golden sets, a model- and harness-agnostic \"meta harness\", and how they got AI spend back under control after the summer's big model releases. Chapters: 0:00 Intro 0:22 What a marke",
+          "title": "We Kept Rebuilding Our AI Agent. Here's What Survived - Fuad Ali, Arize AI",
+          "url": "https://www.youtube.com/watch?v=YIhvrvHtonk",
+          "published": "2026-10-27T23:00:06+00:00",
+          "content_snippet": "Arize's in-product agent Alex went from a 2023 prototype that was \"50% hallucination\" to a single agent with planning, memory and on-demand skills, all built with custom harness code instead of a framework. AI PM Fuad Ali covers each decision: moving the plan into the harness, making \"finish\" an explicit gate, treating large tool results like files, why one 8,000-character memory file per user beat vector stores and knowledge graphs, merging 10 specialists into one agent, and using production se",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Agents That Self Improve While You Sleep - Fuad Ali, Arize AI",
-          "url": "https://www.youtube.com/watch?v=UGuNt2_Oz8s",
-          "published": "2026-10-26T23:00:39+00:00",
-          "content_snippet": "In this workshop, Fuad Ali of Arize AI shows how to build a self-improvement loop for AI agents: trace everything, let Signal (an always-on agent) read your traces on a schedule and file deduplicated issues, turn failures into evals and living regression datasets, run experiments to prove a fix works, and keep humans at the highest-leverage points: eval design, dataset curation and reviewing fixes. He demos the loop on a toy-shopping agent with a planted bug and takes questions on evaluating qua",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How to Test Your Agents on Real Tasks With Harbor - Xander Song, Arize AI",
-          "url": "https://www.youtube.com/watch?v=kRJjSOYqW0I",
-          "published": "2026-10-26T19:00:25+00:00",
-          "content_snippet": "Xander Song, an engineer at Arize AI who works on Phoenix, introduces Harbor, an open source framework for evaluating agents on realistic tasks with real data in isolated sandboxes. He explains tasks, Docker environments, verifiers and rewards, trials and jobs, oracles that validate your setup before you spend tokens, and ATIF trajectories. Then he shows how his team runs Harbor at scale on Daytona and with Phoenix to test a prompt change that steered agents toward a new SQL tool, cutting tool c",
+          "title": "Stop Giving Your Agent Tools. Give It a Sandbox - Mikyo King, Arize AI",
+          "url": "https://www.youtube.com/watch?v=dAoOYFx7ZYw",
+          "published": "2026-10-27T19:00:27+00:00",
+          "content_snippet": "Classic tool-calling agents fill their context with tool catalogs and raw outputs. Code mode gives the agent a sandbox and lets it search for and compose tools in code, returning only what it needs. Mikyo King, head of open source at Arize AI, explains why code mode works, how Arize built it into Phoenix (Bash, a Python sandbox, SQL and even UI control), its hidden costs (secrets, permissions, durability, double sandboxing), and how Harbor evals showed 43% fewer tokens and 31% lower cost. Chapte",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -410,5 +370,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 18
+  "deduped_count": 22
 }
