@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T16:23:38Z",
+  "fetched_at": "2026-10-30T16:12:56Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Software engineering at Google & CS education with Titus Winters",
-          "url": "https://www.youtube.com/watch?v=mQu0zN4IvSI",
-          "published": "2026-10-28T18:41:17+00:00",
-          "content_snippet": "An engineer who helped create today’s software engineering curriculum now says to burn down almost all of it. What’s the cause of this contradiction? We find out from the lead author of Software Engineering at Google. Titus Winters spent more than a decade at Google, where he led its readability program and built Abseil, Google’s open-sourced foundational C++ libraries. He is currently a Senior Principal Scientist at Adobe, where he focuses on developer experience and productivity. In this episo",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
-          "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
-          "published": "2026-10-29T16:00:12+00:00",
-          "content_snippet": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “ Just-in-Time Catching Test Generation at Meta ,” fully details our initial deployment and testing with Catching JiTTests. Every code change improves our platform, but it also introduces new complexity. Wi",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Airbnb Tech",
@@ -43,7 +24,9 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 4
+        "The Pragmatic Engineer": 2,
+        "Netflix Tech Blog": 3,
+        "Meta Engineering": 5
       }
     },
     {
@@ -70,10 +53,19 @@
       ],
       "items": [
         {
-          "title": "How did dinosaurs get so big? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=tHL__t1DiCI",
-          "published": "2026-10-28T20:27:59+00:00",
-          "content_snippet": "How did dinosaurs get so big? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains how dinosaurs got so big. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short05",
+          "title": "Envy",
+          "url": "https://www.youtube.com/watch?v=D2D1ZckdoTQ",
+          "published": "2026-10-30T12:55:31+00:00",
+          "content_snippet": "That twinge when a friend lands the thing you wanted? Useful data. In Envy, Stacy S. Kim makes the case that envy can work like a compass, as long as you read it instead of hiding it. The person you envy might be your best teacher. Annoying, but true. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "1 in 6 people are narcissists. Learn to spot them early | Ramani Durvasula: Full Interview",
+          "url": "https://www.youtube.com/watch?v=XfxQL1LP2BM",
+          "published": "2026-10-30T13:00:28+00:00",
+          "content_snippet": "The Big Think Interview is brought to you by Yale Online. Learn something worth sharing with The Psychology of Psychopaths: https://www.coursera.org/learn/yale-the-psychology-of-psychopaths?utm_source=YALE&utm_medium=institutions&utm_campaign=2026-psychopaths%E2%80%93video-teaser-big-think-paid Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_conte",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
@@ -81,8 +73,7 @@
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 3,
-        "Daniel Pink": 2
+        "The Knowledge Project Podcast": 2
       }
     },
     {
@@ -119,7 +110,7 @@
         }
       ],
       "deduped_sources": {
-        "The Analytics Engineering Podcast": 1
+        "The Analytics Engineering Podcast": 2
       }
     },
     {
@@ -138,118 +129,91 @@
       ],
       "items": [
         {
-          "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
-          "published": "2026-10-28T21:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the Oracle September CSPU . We recommend upgrading to the September 2026 MRP as it",
+          "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+          "published": "2026-10-30T08:00:00+00:00",
+          "content_snippet": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query performance over large tables in data lakes. With this launch, you can enable table optimization for individual tables or for all tables in your Data Catalog. Apache Iceberg tables accumulate small files, snapshots, and unreferenced files with every write, which slows queries and increases storage costs ov",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
-          "published": "2026-10-28T20:00:00+00:00",
-          "content_snippet": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal. With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory, identity, gateways, and payments without first adding them to a p",
+          "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+          "published": "2026-10-29T20:12:00+00:00",
+          "content_snippet": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct private offers — eliminating the need to recreate and maintain duplicate listings across every account. From the primary account, which retains ownership of the listing, partners authorize which products each subsidiary can sell and which buyer countries it can extend private offers to. Each subsidiary",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
-          "published": "2026-10-28T18:44:00+00:00",
-          "content_snippet": "AWS Lambda now supports Seekable OCI (SOCI) for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances . With SOCI support, Lambda fetches only the files needed at each stage of the execution environment startup rather than downloading the entire image upfront, reducing container startup times by up to 70%. Customers building compute-intensive applications such as data processing pipelines, high-throughput API backends, and batch compu",
+          "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+          "published": "2026-10-29T18:06:00+00:00",
+          "content_snippet": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes . RDS storage autoscaling automatically scales storage capacity in response to growing database workloads, with zero downtime. Additional storage volumes allow you to add up to three additional volumes to increase your storage capacity up to 256 TiB. Previously, you had to manually provision storage capacity on the additional storage volumes based on anticipated application capac",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-          "published": "2026-10-28T18:35:00+00:00",
-          "content_snippet": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb ingest spikes automatically, keep recent data fast to query, and make months or years of history searchable at low cost, all in the same collection. Time series collections add a new, lower-cost warm storage tier in addition t",
+          "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
+          "published": "2026-10-29T16:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in transit. Amazon Aurora PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the Amazon Aurora PostgreSQL allow list to align with your organization's security standards. Amazon Aurora is designed for high performance and ava",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Quick now supports smart approvals for agentic actions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
-          "published": "2026-10-28T18:28:00+00:00",
-          "content_snippet": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a user's behalf, such as sending email, updating records, and creating tickets, asking a person to approve every step leads to approval fatigue and weaker oversight over time. With smart approvals, a separate review model called the classifier evaluates each eligible action against the user's request. ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
-          "published": "2026-10-28T18:07:00+00:00",
-          "content_snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually. Each Amazon EKS cluster has its own CA, and clusters created",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
-          "published": "2026-10-28T18:00:00+00:00",
-          "content_snippet": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them onto fewer instances to raise utilization and lower costs. Spot consolidation extends this capability to Spot capacity, consolidating underutilized Spot Instances after first verifying replacement capacity is available. Am",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
-          "published": "2026-10-28T18:00:00+00:00",
-          "content_snippet": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends them to one or more destinations of your choice. You can use the exported data to gather operational and business insights and keep history beyond the standard retention period. We are also releasing a companion Model Context Protocol (MCP) server that lets AI agents such as Kiro query your exported",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
-          "published": "2026-10-28T17:33:00+00:00",
-          "content_snippet": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically. With this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management standard without installing or configuring a separate controller",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Smarter cost controls for serverless",
-          "url": "https://www.databricks.com/blog/smarter-cost-controls-serverless",
+          "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
           "published": "2026-10-29T15:00:00+00:00",
-          "content_snippet": "At Databricks, our serverless compute usage has grown more than 3x in the past year,...",
+          "content_snippet": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update the custom plugin to run a new version of your connector code, for example one with updated dependencies. You can also update the worker configuration to change worker-level settings, such as switching key and value converters or tuning producer and consumer properties for throughput and latency. Ama",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing General Availability of Real-Time Mode for Spark Declarative Pipelines on Databricks",
+          "url": "https://www.databricks.com/blog/announcing-general-availability-real-time-mode-spark-declarative-pipelines-databricks",
+          "published": "2026-10-29T22:30:04+00:00",
+          "content_snippet": "We introduced Real-Time Mode (RTM) last year which enabled customers to build low-latency, operational use cases...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Procore is powering construction analytics with OpenSharing",
-          "url": "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing-0",
-          "published": "2026-10-29T00:29:00+00:00",
-          "content_snippet": "Connecting an industry built on disconnected dataConstruction runs on data that rarely sits in one place...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+          "url": "https://www.youtube.com/watch?v=7TtGMileCus",
+          "published": "2026-10-30T15:24:48+00:00",
+          "content_snippet": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into decisions while the work is still happening.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Voice Agents are here. Context turns them into real customer value.",
-          "url": "https://www.databricks.com/blog/voice-agents-are-here-context-turns-them-real-customer-value",
-          "published": "2026-10-28T18:00:00+00:00",
-          "content_snippet": "Why voice, and why nowConsider three moments that happen every day in consumer businesses: At...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+          "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
+          "published": "2026-10-30T15:22:47+00:00",
+          "content_snippet": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into decisions while the work is still happening.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "API credits, now in ChatGPT Pro and Business plans",
-          "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
-          "published": "2026-10-28T23:45:26+00:00",
-          "content_snippet": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace. https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+          "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+          "url": "https://www.youtube.com/watch?v=GNYHDltnwZQ",
+          "published": "2026-10-29T22:48:11+00:00",
+          "content_snippet": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface expansion opportunities—and helps salespeople explain how the customer could benefit. About 1,000 people use t",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+          "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
+          "published": "2026-10-29T16:23:43+00:00",
+          "content_snippet": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface expansion opportunities—and helps salespeople explain how the customer could benefit. About 1,000 people use t",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -284,46 +248,46 @@
       ],
       "items": [
         {
-          "title": "How Revolut Cut AI Coding Costs 90% With Self-Hosted Open Models - David Abitbol, Revolut",
-          "url": "https://www.youtube.com/watch?v=Ok6QdZHCcI8",
-          "published": "2026-10-29T09:00:21+00:00",
-          "content_snippet": "David Abitbol, who leads AI operations at Revolut, shares data from 2,000 engineers on what AI tools did to coding time and lead time, and why self-hosting open-source GLM models made the biggest difference: about 60-70% faster delivery at roughly a tenth of what they were paying frontier labs. He covers the GPUs needed, the latency targets that keep engineers happy, the tuning that made the same hardware 88% faster, and how an EU-regulated bank keeps it compliant. Chapters: 0:00 Intro 0:36 Who ",
+          "title": "Your Agent Just Paid for Nothing: 6 Attacks on x402 Payments - Ishween Kaur, SoFi",
+          "url": "https://www.youtube.com/watch?v=YU1uD_YkpjU",
+          "published": "2026-10-30T09:00:31+00:00",
+          "content_snippet": "x402 lets AI agents pay for data and APIs with tiny on-chain payments over HTTP. Ishween Kaur explains how the protocol works, then walks through six of the 20 ways she broke it in a safe test environment: price changes in the payment header, paying twice, getting data for free, one payment unlocking many pages, lookalike sellers, and prompt injection that talks an agent into paying again. For each one, she shows the guard that stopped it and how to roll out agent payments safely, trace by trace",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "We Trust AI Agents That Break Every Day - Shy Ruparel, Temporal",
-          "url": "https://www.youtube.com/watch?v=mJ7q8CuVmbw",
-          "published": "2026-10-29T08:00:26+00:00",
-          "content_snippet": "Temporal's State of Development survey found that 80.8% of engineers use agents daily, but only 49.1% run them in production. Developer advocate Shy Ruparel walks through the four gaps behind that number (usage vs. production, trust vs. reality, prototype vs. enterprise, seeing vs. recovering), then demos a $2,500 payout workflow with a local model that survives having its workers killed mid-flight, without losing state, repeating tool calls or re-spending tokens. Chapters: 0:00 Intro 0:34 Finan",
+          "title": "Why AI Won't Replace Stock Pickers - Jack Woodruff, Candlestick & Vinoo Ganesh, Kepler",
+          "url": "https://www.youtube.com/watch?v=y2dyD6slKxE",
+          "published": "2026-10-30T08:00:09+00:00",
+          "content_snippet": "Jack Woodruff, founder and former CIO of long/short equity fund Candlestick Capital and a former Citadel portfolio manager, sits down with Kepler CEO Vinoo Ganesh to talk about what AI really changes in fundamental investing. They discuss why humans are still the bottleneck, how AI turns hours of prep into minutes and raises the table stakes, why you should never trust a number you can't audit, where edge comes from when every fund has the same models, how fund teams will be structured, and why ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Why a One-Line Change Can Break Your Whole Stack - Cole Gannaway, Qodo",
-          "url": "https://www.youtube.com/watch?v=YqxpPI7YUjE",
-          "published": "2026-10-29T07:00:25+00:00",
-          "content_snippet": "Code generation is moving faster than ever, and the bottleneck has moved to review. Cole Gannaway, a solutions engineer at Qodo, shows how a one-line data model change that passes every test can quietly break web, mobile, CLI and MCP clients, and how a software graph of your repos reveals that blast radius. He covers turning tribal knowledge and PR comments into custom rules, bringing review context in before code is written, why the agent that wrote the code shouldn't grade it, and checking PRs",
+          "title": "The Cheaper AI Model That Costs You More - Rayan Krishnan, Vals AI",
+          "url": "https://www.youtube.com/watch?v=rWtbOgl5FTU",
+          "published": "2026-10-30T07:00:03+00:00",
+          "content_snippet": "Vals AI builds benchmarks that frontier labs cite in their model cards, and Rayan Krishnan explains why those single scores hide a jagged frontier. In finance tasks like tax and Excel LBO modeling, the best model changes by task, and a model that's cheaper on paper can cost more and score lower because it burns extra tokens. He shares lessons from building benchmarks (the right accuracy metric, reward hacking, multi-turn work), a case study of a team that spent $1.5M on tokens in a month before ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
-          "url": "https://www.youtube.com/watch?v=AnsXWH2_EBU",
-          "published": "2026-10-28T23:00:26+00:00",
-          "content_snippet": "Coding agents are opening PRs faster than anyone can review them. Manish Kapur (Sonar) and Addy Osmani (Anthropic) discuss \"light\" vs. \"dark\" software factories, how Anthropic scaled from about 2,500 to 30,000 merged changes a day with Claude doing first-pass review backed by real verification evidence, new data from Sonar's State of Code survey, and why every loop in the factory needs independent, multi-layered verification. They close with a lightning round on labeling agent-written PRs and wh",
+          "title": "Catch the Bugs Your Code Review Misses - Killian Carlsen-Phelan & Taylor Luttrell-Williams, Sonar",
+          "url": "https://www.youtube.com/watch?v=wP3P89YB9fA",
+          "published": "2026-10-29T23:00:04+00:00",
+          "content_snippet": "In this hands-on session, Killian Carlsen-Phelan and Taylor Luttrell-Williams of Sonar set up Gitar, a code change verification agent, on a sample ticketing app and run three pull requests through it. Gitar catches a bug that isn't in the diff at all (a buyer can refund a ticket after giving it to a friend), enforces a business rule from a project config (show customers the all-in price), then diagnoses a failing CI test and keeps pushing fixes until the PR passes and auto-merges. They close wit",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI That Hunts Logic Bugs Before Attackers Do - Taylor Luttrell-Williams, Sonar",
-          "url": "https://www.youtube.com/watch?v=UW8Qkk7MG8A",
-          "published": "2026-10-28T19:00:15+00:00",
-          "content_snippet": "Pattern-based SAST catches bad code, but not valid code with flawed intent: broken access control, business logic gaps and authentication holes. Taylor Luttrell-Williams of Sonar introduces the SonarQube Hunter Agent, which maps a repo, runs three specialist agents and adversarially validates every finding, and announces Sonar joining the OpenAI Daybreak cyber partner program. The live demo turns up 46 issues in a Python app, including a user who can make themselves admin and an MFA bypass. Chap",
+          "title": "Why Humans Can't Keep Up With AI-Written Code - Tariq Shaukat, Sonar",
+          "url": "https://www.youtube.com/watch?v=LQW_Wvqhp04",
+          "published": "2026-10-29T19:00:16+00:00",
+          "content_snippet": "Agents have made code cheap: one study saw lines of code up 2,450% but releases up only 30%. Sonar CEO Tariq Shaukat draws on the factory revolution that Toyota and Lexus started to explain how to build agentic software factories you can trust. He breaks down five hard problems: human review that doesn't scale (people agree with AI that's wrong 4 out of 5 times), agents struggling with large codebases, errors compounding over long tasks, unreliable LLM judges, and near-zero time to exploit. Then",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -333,5 +297,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 32
+  "deduped_count": 29
 }
