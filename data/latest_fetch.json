@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-31T15:29:36Z",
+  "fetched_at": "2026-11-01T16:22:02Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -15,6 +15,10 @@
       "items": [],
       "errors": [
         {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -24,7 +28,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 2,
         "Meta Engineering": 5
       }
@@ -53,23 +56,27 @@
       ],
       "items": [
         {
-          "title": "How to change your toxic relationship | Ramani Durvasula",
-          "url": "https://www.youtube.com/watch?v=do1Hkubz-Eo",
-          "published": "2026-10-30T16:04:01+00:00",
-          "content_snippet": "How to change your toxic relationship | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains what you can actually change in a toxic relationship. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short07",
-          "source_name": "Big Think",
+          "title": "The 4% Rule for Focus",
+          "url": "https://www.youtube.com/watch?v=PqA-jONWvN0",
+          "published": "2026-11-01T12:36:43+00:00",
+          "content_snippet": "*Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive success. Learn more at https://fs.blog/podcast",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Halloween!!",
+          "url": "https://www.youtube.com/watch?v=vmvvcx19JIc",
+          "published": "2026-10-31T17:01:09+00:00",
+          "content_snippet": "Here’s your research backed reminder to stay safe this Halloween weekend. Especially around 6PM. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [
-        {
-          "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
-        }
-      ],
+      "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 2
+        "Big Think": 2
       }
     },
     {
@@ -125,142 +132,20 @@
       ],
       "items": [
         {
-          "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
-          "published": "2026-10-30T20:43:00+00:00",
-          "content_snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It also adds support for Cross-Region Inference, allowing customers to use Cross-Region Inference within AWS GovCloud (US) regions to access higher throughput and increased redundancy. Cross-Region Inference automatically routes inference requests across both AWS GovCloud (US) Regions to give you higher t",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Web Search now available on Kiro in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
-          "published": "2026-10-30T19:40:00+00:00",
-          "content_snippet": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when a question involves recent changes or topics beyond the model's training data. Answers that use web results include citations. Kiro enterprise administrators can turn off web search and web fetch for their organization from the Kiro console under Settings. Teams can also remove web tools from indiv",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
-          "published": "2026-10-30T19:30:00+00:00",
-          "content_snippet": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally closed or refreshed. When agents return, their drafts are restored with the message body, recipients, subject line, and attachment references intact. Customers can also access saved draft data in their Amazon S3 buckets to build integrations with other applications.",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
-          "published": "2026-10-30T18:20:00+00:00",
-          "content_snippet": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East), bringing advanced AI to this work. Part of OpenAI’s Daybreak cyber defense initiative, Daybreak Red: GPT-5.6 Cyber is built for authorized vulnerability research, exploit reproduction, and mitigation development. It gives verified defenders more room to investigate complex security problems, wit",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
-          "published": "2026-10-30T18:15:00+00:00",
-          "content_snippet": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which network a request came from. The CloudFront-Viewer-TLS-Details header describes the cryptography used on each viewer's TLS connection, so you can see whether a connection used post-quantum cryptography (PQC). With CloudFront-Viewer-ISP, you can break down traffic and performance by network. You can also",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MSK now supports TLS 1.3 for data in transit",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
-          "published": "2026-10-30T17:00:00+00:00",
-          "content_snippet": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming data and is increasingly required by compliance frameworks and enterprise security standards. It is also one of the prerequisites for post-quantum cryptography for protecting data against attacks that collect encrypted traffic now with the intent to decrypt it later. Customers can opt in to TLS 1.3 b",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
-          "published": "2026-10-30T17:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be enabled. With this change, you decide when to apply minor version upgrades to DB instances using these options. If you turn off automatic minor version upgrades, we recommend that you apply new minor versions regularly so your ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
-          "published": "2026-10-30T15:57:00+00:00",
-          "content_snippet": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no change to your application code, build process, or deployment. The SDK supplies the client-side signals used by three AWS WAF managed rule groups: Bot Control at the targeted inspection level, Fraud Control account takeover prevention (ATP), and Fraud Control account creation fraud prevention (ACFP). Prev",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
-          "published": "2026-10-30T15:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live end-customer traffic. With this launch, you can now create immutable versions of a flow and attach one or more friendly names (i.e., aliases) to a version, then point resources such as queues, quick connects, and phone numbers at an alias instead of a specific version. Rolling out a new version takes a singl",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks and SAP unleash end-to-end data & AI capabilities to level up enterprise AI transformation",
-          "url": "https://www.databricks.com/blog/databricks-and-sap-unleash-end-end-data-ai-capabilities-level-enterprise-ai-transformation",
-          "published": "2026-10-30T21:00:00+00:00",
-          "content_snippet": "Today's AI models are more capable than ever. What they still lack is the business...",
+          "title": "Lakebase branching for CI/CD: lessons from 100 PR databases",
+          "url": "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases",
+          "published": "2026-10-31T21:25:00+00:00",
+          "content_snippet": "The problem: testing against production data shouldn't take over 30 minutesSnorkel...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Wealth Management Client Onboarding Needs More Than AI",
-          "url": "https://www.databricks.com/blog/wealth-management-client-onboarding-needs-more-ai",
-          "published": "2026-10-30T19:40:00+00:00",
-          "content_snippet": "Wealth Management client onboarding can stall even when every system has done its job. The document is collected...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Deliberate decisions and enterprise AI value",
-          "url": "https://www.databricks.com/blog/deliberate-decisions-and-enterprise-ai-value",
-          "published": "2026-10-30T19:30:00+00:00",
-          "content_snippet": "AI progress is moving quickly. Expectations are rising, experimentation is spreading...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "There are many futures. Which do you want to build?",
-          "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-          "published": "2026-10-30T20:17:12+00:00",
-          "content_snippet": "",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
-          "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
-          "published": "2026-10-30T15:22:47+00:00",
-          "content_snippet": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into decisions while the work is still happening.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
-          "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
-          "published": "2026-10-29T16:23:43+00:00",
-          "content_snippet": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface expansion opportunities—and helps salespeople explain how the customer could benefit. About 1,000 people use t",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -274,7 +159,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 5
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -289,46 +176,46 @@
       ],
       "items": [
         {
-          "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble",
-          "url": "https://www.youtube.com/watch?v=CvmZtAPmAW4",
-          "published": "2026-10-31T09:00:01+00:00",
-          "content_snippet": "Bumble product manager Supriya Subudhi shares five lessons from A/B testing an AI photo feedback feature in a dating app with over 20 million monthly users. 78% of surveyed users said they wanted feedback, but only 10-15% used it; the average win hid odd outputs like telling smiling people to smile more; the best model cost about 10x more; switching to a cheaper model also shrank the results; and regulation meant the feature couldn't ship outside the US. She closes with five questions to ask bef",
+          "title": "Why We Rebuilt Microsoft Office From Scratch for AI Agents - Yijia Liang, Compound AI",
+          "url": "https://www.youtube.com/watch?v=v0UkV5qS9E4",
+          "published": "2026-11-01T10:00:14+00:00",
+          "content_snippet": "Yijia Liang spent years as a finance analyst living in Excel and PowerPoint before founding Compound to build autonomous AI analysts for institutional investors. Personal agents took off because they run reliably in the background, act on their own and connect to your context, but finance needs more: multiplayer agents with their own inboxes that join deal-team email threads, a headless Office engine rebuilt from scratch with agents (1.5 trillion tokens and over 8 million lines of code) that run",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec",
-          "url": "https://www.youtube.com/watch?v=9-Y_oS9OBLc",
-          "published": "2026-10-31T08:00:24+00:00",
-          "content_snippet": "Steven Latré leads AI at imec, the Belgian semiconductor R&D center, and his team ran thousands of benchmark runs to find out what moving from APIs to your own GPUs really costs for long-running coding agents. Testing open-weight models and three coding harnesses on SWE-Bench Pro, they found that hardware costs jump in steps rather than a smooth curve, that concurrency matters even more than accuracy, that break-even GPU utilization ranges from 89% on small systems to about 15% on 8x B200 machin",
+          "title": "Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify & Lincoln Murr, Coinbase",
+          "url": "https://www.youtube.com/watch?v=YX4Z4XqZ9Vo",
+          "published": "2026-11-01T08:00:01+00:00",
+          "content_snippet": "In this fireside chat, Mintlify co-founder and CTO Hahnbee Lee and Coinbase head of AI product Lincoln Murr discuss what changes when agents, not people, are the main users of your product. Lee shares that agent traffic on Mintlify docs sites grew from about 10% to about 80% this year, why page size and accuracy now matter more than design, and where AI writing fits. Murr explains why Coinbase is making its whole business available through APIs, how the x402 payment standard has seen around 100 ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
-          "url": "https://www.youtube.com/watch?v=3osCbSufv8g",
-          "published": "2026-10-31T07:00:11+00:00",
-          "content_snippet": "Upstart handles thousands of lending calls a day, where one wrong question can become a regulatory problem. Shiv Indap, who leads voice AI at Upstart, and Brooke Hopkins, founder of Coval and former head of evaluation infrastructure at Waymo, walk through automating loan verification calls: the compliance traps, outgrowing a Google Sheet for human review, and raising agreement between the LLM judge and human reviewers from 33% to 92%. Then they lay out the full loop from live monitoring and huma",
+          "title": "If Your AI Scores 100%, Your Eval Is Wrong - Ramakrishnan Lokanathan, eslams.com",
+          "url": "https://www.youtube.com/watch?v=7WUzHIF32vA",
+          "published": "2026-11-01T07:00:02+00:00",
+          "content_snippet": "Ramakrishnan Lokanathan, an AI safety researcher and former startup founder, lays out how to build evals for high-stakes AI applications. Define the most ambitious version of success, test every step of the workflow and not just the final answer, combine automated checks with human review and adversarial tests, keep testing what used to work so upgrades don't break it, and turn real user failures into new tests. He also introduces eSlams, an open-source package that has AI models play games like",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
-          "url": "https://www.youtube.com/watch?v=qq2Hm4XNRgI",
-          "published": "2026-10-30T23:00:13+00:00",
-          "content_snippet": "RAG gives agents a way to read, but memory gives them a way to write, and that's where your business value lives. Wojciech Pluta, head of technical marketing for Oracle AI Database, explains memory promotion: deciding what's worth keeping, checking it against existing records and admitting, rejecting or escalating it to a human. A mortgage-agent demo remembers an operator's preferences across sessions and refuses to store an \"approve every application\" rule. He also covers short-term, long-term ",
+          "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
+          "url": "https://www.youtube.com/watch?v=LnQce-eHm8k",
+          "published": "2026-10-31T23:00:11+00:00",
+          "content_snippet": "Jeff Smith has built database tools at Oracle for 25 years, and he's here to make agents and databases get along safely. He explains why natural language to SQL is powerful but risky, since queries can run cleanly and still return the wrong data, and how Oracle's MCP server makes it safer: offering your team's vetted reports as tools instead of ad hoc SQL, pointing agents at a read-only standby for performance tuning, annotating schemas so agents stop brute-forcing your data dictionary, and deep",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
-          "url": "https://www.youtube.com/watch?v=8vDzncmzxyg",
-          "published": "2026-10-30T19:00:14+00:00",
-          "content_snippet": "Every new coding agent session starts like a new hire: it doesn't know your conventions, architecture rules or approved libraries, so it burns time and tokens searching your repo and repeats the issues already in it. Killian Carlsen-Phelan of Sonar introduces Sonar Vortex, a plugin that hands your agent a map of the codebase and your guidelines before it writes, then deterministically checks every edit. In a live session, Vortex catches a temp-file permission bug the agent's own tests missed, an",
+          "title": "Everyone Has the Same AI Models. Here's What Sets Agents Apart - Richmond Alake, Oracle",
+          "url": "https://www.youtube.com/watch?v=1_lX0m64-aI",
+          "published": "2026-10-31T19:00:24+00:00",
+          "content_snippet": "Richmond Alake was talking about agent memory before most people had heard of it, and now he argues the next layer after the control plane is an intelligence plane: what an agent knows, what it remembers, what it's allowed to see, and how it gets better. Using the WWII codebreakers who worked out that \"AF\" meant Midway, he shows why having the same information as everyone else isn't the same as intelligence. He then demos an agent built with an ontology and semantic layer that gets answers right",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -338,5 +225,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 26
+  "deduped_count": 21
 }
