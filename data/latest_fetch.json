@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T16:22:02Z",
+  "fetched_at": "2026-11-02T19:46:02Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -56,28 +56,44 @@
       ],
       "items": [
         {
-          "title": "The 4% Rule for Focus",
-          "url": "https://www.youtube.com/watch?v=PqA-jONWvN0",
-          "published": "2026-11-01T12:36:43+00:00",
-          "content_snippet": "*Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show featuring in-depth conversations with the top CEOs, investors, and business leaders to uncover the timeless principles that drive success. Learn more at https://fs.blog/podcast",
+          "title": "ADHD is an Evolutionary Superpower",
+          "url": "https://www.youtube.com/watch?v=PtGKqqu0cmg",
+          "published": "2026-11-02T11:41:51+00:00",
+          "content_snippet": "ADHD is an Evolutionary Superpower",
           "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "Halloween!!",
-          "url": "https://www.youtube.com/watch?v=vmvvcx19JIc",
-          "published": "2026-10-31T17:01:09+00:00",
-          "content_snippet": "Here’s your research backed reminder to stay safe this Halloween weekend. Especially around 6PM. -- To find out more about Daniel Pink, his books, and view his resources, visit https://danpink.com",
+          "title": "DRIVE: Mastery Is An Asymptote",
+          "url": "https://www.youtube.com/watch?v=wLwEsX2VxrU",
+          "published": "2026-11-02T15:12:07+00:00",
+          "content_snippet": "Anders Ericsson found the mechanism behind the gap that never closes. In most skills people improve quickly, reach good enough, and the behavior goes automatic. Typing is the classic case. Performance flattens and can stay flat for decades. What separates experts is that they refuse to let the skill go automatic. They keep the work slightly beyond current ability, where it still takes conscious effort and still produces errors. So the gap is not evidence you are behind. It is evidence you are st",
           "source_name": "Daniel Pink",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "What is life? | Paul Davies",
+          "url": "https://www.youtube.com/watch?v=j1ztlNlPnnk",
+          "published": "2026-11-02T17:10:31+00:00",
+          "content_snippet": "What is life? | Paul Davies Paul Davies is a physicist at Arizona State University and the author of What's Eating the Universe? In this clip from our full interview, he takes on the question of what life actually is.",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Your brain didn't invent reality — it inherited it | Lisa Feldman Barrett",
+          "url": "https://www.youtube.com/watch?v=KLeOL1CFZVM",
+          "published": "2026-11-02T14:00:12+00:00",
+          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Psychologist Lisa Feldman Barrett explains how collective belief creates the things we treat as fact, and how fast that belief can collapse. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Psychologist Lisa Feldman Barrett argues much of what feels like objective reality — color, money, even the idea of a \"president\" — is social reality: built through collective agree",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -89,7 +105,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Extract Insights Directly from Your Data with AI in Lakeflow Designer",
+          "url": "https://www.youtube.com/watch?v=Tm6aALES4HI",
+          "published": "2026-11-02T09:53:56+00:00",
+          "content_snippet": "🚀 Extract insights directly from your data with AI in Lakeflow Designer in @databricks AI isn't just for building out workflows,you can also leverage it directly inside your data transformations to analyze and get insights out of your data. In this short, watch how you can: 🔧Configure AI functions: Use an intuitive builder to evaluate incoming customer messages and target specific questions. ⌛️Get results in seconds: Run fast models to process and analyze data almost instantly. 🧭Automate categor",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -97,10 +123,6 @@
         },
         {
           "source_name": "Data Mesh Learning",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "NextGenLakehouse",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -132,22 +154,45 @@
       ],
       "items": [
         {
-          "title": "Lakebase branching for CI/CD: lessons from 100 PR databases",
-          "url": "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases",
-          "published": "2026-10-31T21:25:00+00:00",
-          "content_snippet": "The problem: testing against production data shouldn't take over 30 minutesSnorkel...",
-          "source_name": "Databricks Blog",
+          "title": "Amazon RDS now supports per snapshot billing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+          "published": "2026-11-02T18:43:00+00:00",
+          "content_snippet": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot. Previously, RDS snapshot charges were aggregated at the database instance level on the Cost and Usage report as well as the Cost Explorer. This meant that while understanding the snapshot charges, you could only see the aggregate view at the database instance instead of drilling down to each individual snapshot. Now, you can use cost allo",
+          "source_name": "AWS What's New",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+          "published": "2026-11-02T18:36:00+00:00",
+          "content_snippet": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application. To turn on desktop access, an administrator adds the desktop connector once in the Amazo",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+          "published": "2026-11-02T16:45:48+00:00",
+          "content_snippet": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions , which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the same week, the AI blog published how one engagement platform exposed roughly 400 internal API operations the same way. Neither story involves rebuilding anything, only describing what exists a",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Coinbase on OpenAI Private Intelligence",
+          "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+          "published": "2026-11-02T16:59:21+00:00",
+          "content_snippet": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models. We’re building these protections with some of our largest customers to help businesses apply frontier ",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "AWS Blog",
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -159,9 +204,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 5
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -176,46 +219,46 @@
       ],
       "items": [
         {
-          "title": "Why We Rebuilt Microsoft Office From Scratch for AI Agents - Yijia Liang, Compound AI",
-          "url": "https://www.youtube.com/watch?v=v0UkV5qS9E4",
-          "published": "2026-11-01T10:00:14+00:00",
-          "content_snippet": "Yijia Liang spent years as a finance analyst living in Excel and PowerPoint before founding Compound to build autonomous AI analysts for institutional investors. Personal agents took off because they run reliably in the background, act on their own and connect to your context, but finance needs more: multiplayer agents with their own inboxes that join deal-team email threads, a headless Office engine rebuilt from scratch with agents (1.5 trillion tokens and over 8 million lines of code) that run",
+          "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
+          "url": "https://www.youtube.com/watch?v=JxNCuXkSWyQ",
+          "published": "2026-11-02T10:00:35+00:00",
+          "content_snippet": "A coding agent tried to fix a staging problem and deleted a production database and its backup instead. It did this with valid credentials. Sagar Batchu of Speakeasy uses that incident to lay out a control layer for agents in regulated industries. Every action is tied to an identity, checked against policy in real time, never allowed to exceed its owner's rights, and recorded for compliance. 0:00 Intro 1:21 The agent that deleted production 3:43 How this is playing out across the industry 4:48 W",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify & Lincoln Murr, Coinbase",
-          "url": "https://www.youtube.com/watch?v=YX4Z4XqZ9Vo",
-          "published": "2026-11-01T08:00:01+00:00",
-          "content_snippet": "In this fireside chat, Mintlify co-founder and CTO Hahnbee Lee and Coinbase head of AI product Lincoln Murr discuss what changes when agents, not people, are the main users of your product. Lee shares that agent traffic on Mintlify docs sites grew from about 10% to about 80% this year, why page size and accuracy now matter more than design, and where AI writing fits. Murr explains why Coinbase is making its whole business available through APIs, how the x402 payment standard has seen around 100 ",
+          "title": "AI Writes Code Faster Than Your Team Can Review It - Andrew Norrish, Sourcegraph",
+          "url": "https://www.youtube.com/watch?v=-X3yXTwGs9A",
+          "published": "2026-11-02T09:00:13+00:00",
+          "content_snippet": "AI has moved the bottleneck from writing code to reviewing it, and SREs are left handling the incidents. Andrew Norrish of Sourcegraph explains why unreviewed AI code is driving more outages, and why SRE and platform teams are best placed to fix it. He also shows how code search and a code-graph context engine help teams investigate, prevent and fix issues across huge codebases. 0:00 Intro 1:28 The story of AI-driven development 2:52 Code review is the new bottleneck 4:27 Why hiring more SREs is",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "If Your AI Scores 100%, Your Eval Is Wrong - Ramakrishnan Lokanathan, eslams.com",
-          "url": "https://www.youtube.com/watch?v=7WUzHIF32vA",
-          "published": "2026-11-01T07:00:02+00:00",
-          "content_snippet": "Ramakrishnan Lokanathan, an AI safety researcher and former startup founder, lays out how to build evals for high-stakes AI applications. Define the most ambitious version of success, test every step of the workflow and not just the final answer, combine automated checks with human review and adversarial tests, keep testing what used to work so upgrades don't break it, and turn real user failures into new tests. He also introduces eSlams, an open-source package that has AI models play games like",
+          "title": "Your AI Pilots Won't Move the P&L. Here's What Will - Adam Nahari, Apollo",
+          "url": "https://www.youtube.com/watch?v=vUJDyDnqT4c",
+          "published": "2026-11-02T08:00:03+00:00",
+          "content_snippet": "Most companies use AI, but very few see it show up in their margins. Adam Nahari of Apollo Global Management explains why engineering is the smaller part of an AI transformation. He walks through the six moves that turned an airline's crew-scheduling desk into a 10x win: start from the P&L, pick one or two problems, get a real owner, put the tools in everyone's hands, and set kill metrics before you start. 0:00 Intro: the airline crew scheduling desk 1:22 AI adoption vs. real EBIT impact 2:42 Wh",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
-          "url": "https://www.youtube.com/watch?v=LnQce-eHm8k",
-          "published": "2026-10-31T23:00:11+00:00",
-          "content_snippet": "Jeff Smith has built database tools at Oracle for 25 years, and he's here to make agents and databases get along safely. He explains why natural language to SQL is powerful but risky, since queries can run cleanly and still return the wrong data, and how Oracle's MCP server makes it safer: offering your team's vetted reports as tools instead of ad hoc SQL, pointing agents at a read-only standby for performance tuning, annotating schemas so agents stop brute-forcing your data dictionary, and deep",
+          "title": "I Don't Fear AI Slop. I Fear Untold Stories - Zack Proser, WorkOS",
+          "url": "https://www.youtube.com/watch?v=1et3Lb_KLQo",
+          "published": "2026-11-02T00:00:21+00:00",
+          "content_snippet": "Zack Proser, an engineer on the WorkOS applied AI team who has written and published obsessively for 15 years, is less worried about AI slop than about all the stories that never get told. He shares how he packed his writing know-how into Blogbot, a Slack tool that gets colleagues' drafts 85-90% of the way there while a human still reads, edits and puts their name on every post, and why craft can survive the assembly line. Then he applies the same idea to an audience of two, building a bedtime s",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Everyone Has the Same AI Models. Here's What Sets Agents Apart - Richmond Alake, Oracle",
-          "url": "https://www.youtube.com/watch?v=1_lX0m64-aI",
-          "published": "2026-10-31T19:00:24+00:00",
-          "content_snippet": "Richmond Alake was talking about agent memory before most people had heard of it, and now he argues the next layer after the control plane is an intelligence plane: what an agent knows, what it remembers, what it's allowed to see, and how it gets better. Using the WWII codebreakers who worked out that \"AF\" meant Midway, he shows why having the same information as everyone else isn't the same as intelligence. He then demos an agent built with an ontology and semantic layer that gets answers right",
+          "title": "I Made a Fruit Fly Review My Code - Nick Nisi, WorkOS",
+          "url": "https://www.youtube.com/watch?v=geMAe-PLJF4",
+          "published": "2026-11-01T20:00:08+00:00",
+          "content_snippet": "Code is being written faster than ever, and Nick Nisi, who leads developer and agent experience at WorkOS, argues that the human reviewer is now the bottleneck. To make the point, he hooked a simulated fruit fly brain, built from a full scan of its neurons, up to code review: AI turns each change into literal \"code smells,\" sugar and bitter rewards teach the fly what good and bad code taste like, and it was right about 88% of the time in testing. Then he plays a live round against the audience a",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
