@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T19:46:02Z",
+  "fetched_at": "2026-11-03T17:18:38Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,10 +12,29 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "How Uber manages AI spend",
+          "url": "https://www.youtube.com/watch?v=Z5Ad9HtuY2A",
+          "published": "2026-11-03T17:00:20+00:00",
+          "content_snippet": "with Uday Kiran Medisetty, Distinguished Engineer at Uber See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+          "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+          "published": "2026-11-03T17:00:35+00:00",
+          "content_snippet": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020 . F3 reduced execution computational costs by compiling all features into a single merged graph, but that graph also served as the release unit, so a single failure or invalid definition blocked the entire release pipeline. This post introduces F",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
-          "source_name": "The Pragmatic Engineer",
+          "source_name": "Netflix Tech Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -27,10 +46,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Netflix Tech Blog": 2,
-        "Meta Engineering": 5
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Product Management",
@@ -56,44 +72,20 @@
       ],
       "items": [
         {
-          "title": "ADHD is an Evolutionary Superpower",
-          "url": "https://www.youtube.com/watch?v=PtGKqqu0cmg",
-          "published": "2026-11-02T11:41:51+00:00",
-          "content_snippet": "ADHD is an Evolutionary Superpower",
+          "title": "The Secret To Entering Flow State",
+          "url": "https://www.youtube.com/watch?v=RTgNyFWdQec",
+          "published": "2026-11-03T16:41:05+00:00",
+          "content_snippet": "The Secret To Entering Flow State",
           "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "DRIVE: Mastery Is An Asymptote",
-          "url": "https://www.youtube.com/watch?v=wLwEsX2VxrU",
-          "published": "2026-11-02T15:12:07+00:00",
-          "content_snippet": "Anders Ericsson found the mechanism behind the gap that never closes. In most skills people improve quickly, reach good enough, and the behavior goes automatic. Typing is the classic case. Performance flattens and can stay flat for decades. What separates experts is that they refuse to let the skill go automatic. They keep the work slightly beyond current ability, where it still takes conscious effort and still produces errors. So the gap is not evidence you are behind. It is evidence you are st",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "What is life? | Paul Davies",
-          "url": "https://www.youtube.com/watch?v=j1ztlNlPnnk",
-          "published": "2026-11-02T17:10:31+00:00",
-          "content_snippet": "What is life? | Paul Davies Paul Davies is a physicist at Arizona State University and the author of What's Eating the Universe? In this clip from our full interview, he takes on the question of what life actually is.",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Your brain didn't invent reality — it inherited it | Lisa Feldman Barrett",
-          "url": "https://www.youtube.com/watch?v=KLeOL1CFZVM",
-          "published": "2026-11-02T14:00:12+00:00",
-          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Psychologist Lisa Feldman Barrett explains how collective belief creates the things we treat as fact, and how fast that belief can collapse. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Psychologist Lisa Feldman Barrett argues much of what feels like objective reality — color, money, even the idea of a \"president\" — is social reality: built through collective agree",
-          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Daniel Pink": 2,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -105,17 +97,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Extract Insights Directly from Your Data with AI in Lakeflow Designer",
-          "url": "https://www.youtube.com/watch?v=Tm6aALES4HI",
-          "published": "2026-11-02T09:53:56+00:00",
-          "content_snippet": "🚀 Extract insights directly from your data with AI in Lakeflow Designer in @databricks AI isn't just for building out workflows,you can also leverage it directly inside your data transformations to analyze and get insights out of your data. In this short, watch how you can: 🔧Configure AI functions: Use an intuitive builder to evaluate incoming customer messages and target specific questions. ⌛️Get results in seconds: Run fast models to process and analyze data almost instantly. 🧭Automate categor",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -135,6 +117,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -154,37 +137,91 @@
       ],
       "items": [
         {
-          "title": "Amazon RDS now supports per snapshot billing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
-          "published": "2026-11-02T18:43:00+00:00",
-          "content_snippet": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot. Previously, RDS snapshot charges were aggregated at the database instance level on the Cost and Usage report as well as the Cost Explorer. This meant that while understanding the snapshot charges, you could only see the aggregate view at the database instance instead of drilling down to each individual snapshot. Now, you can use cost allo",
+          "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
+          "published": "2026-11-03T00:00:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New Zealand) and Canada West (Calgary), and R8i instances are now available in Europe (Milan, Stockholm, and Zurich) and Israel (Tel Aviv). These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel proc",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
-          "published": "2026-11-02T18:36:00+00:00",
-          "content_snippet": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application. To turn on desktop access, an administrator adds the desktop connector once in the Amazo",
+          "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+          "published": "2026-11-02T20:45:00+00:00",
+          "content_snippet": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US). Claude Haiku 5.5 is the fastest model in the Claude 5.5 family. It's a clear step up from Claude Haiku 4.5, built for work that runs in large volumes and needs quick responses. Developers can use it to summarize and compact long context, classify and route requests, process text in bulk, and make small, targe",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
-          "published": "2026-11-02T16:45:48+00:00",
-          "content_snippet": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions , which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the same week, the AI blog published how one engagement platform exposed roughly 400 internal API operations the same way. Neither story involves rebuilding anything, only describing what exists a",
-          "source_name": "AWS Blog",
+          "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+          "published": "2026-11-02T17:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MySQL and to benefit from bug fixes, performance improvements, and new functionality added by the MySQL community. For more details, refer to the Aurora MySQL 8.4 and MySQL 8.4.10 release notes. Aurora MySQL 8.4.10 adds support for global transaction identifiers (GTID) tags, which ",
+          "source_name": "AWS What's New",
           "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+          "published": "2026-11-02T17:00:00+00:00",
+          "content_snippet": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent Cloud. Customers can now scale processing for Kafka workloads beyond the partition count of a topic, increasing throughput during traffic spikes and improving processing resilience. Customers building event-driven Kafka workloads for use cases such as image and video encoding, fraud detection, notification ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+          "published": "2026-11-02T17:00:00+00:00",
+          "content_snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operational improvements, Aurora MySQL 3.14 introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.46 release notes. You can upg",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+          "published": "2026-11-02T16:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to third-party applications through Amazon Bedrock AgentCore Gateway and reuse the same tools used by your agentic experiences to retrieve data or trigger actions, without writing custom Lambda functions. For example, when a customer contacts a financial institution about a recent transaction, a flow can u",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+          "published": "2026-11-02T16:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to waiting for a Lambda function to complete, you can now wait until a Connect Case field meets a specified condition or an External Tool invocation completes. This enables you to wait for critical information before advancing an interaction, reducing unnecessary transfers and saving time for both your ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Glean on privacy and OpenAI Private Intelligence",
+          "url": "https://www.youtube.com/watch?v=JR7xBi2kJjY",
+          "published": "2026-11-03T16:51:36+00:00",
+          "content_snippet": "Glean co-founder and CTO T.R. Vishwanath discusses customer control of data and Glean’s work with OpenAI on the Private Safety Processing preview. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Glean on privacy and OpenAI Private Intelligence",
+          "url": "https://www.youtube.com/watch?v=2h16j4K_NbA",
+          "published": "2026-11-03T16:46:37+00:00",
+          "content_snippet": "Using more capable AI starts with confidence that your data stays under your control. For Glean’s customers, privacy is a priority. Glean co-founder and CTO Vishwanath T R shares how Glean and OpenAI have worked together to help meet those needs, including through the Private Safety Processing preview. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
           "title": "Coinbase on OpenAI Private Intelligence",
-          "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
-          "published": "2026-11-02T16:59:21+00:00",
-          "content_snippet": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models. We’re building these protections with some of our largest customers to help businesses apply frontier ",
+          "url": "https://www.youtube.com/watch?v=NbDF90z-g6w",
+          "published": "2026-11-02T22:44:26+00:00",
+          "content_snippet": "Coinbase CTO Rob Witoff explains why security, guardrails, and zero data retention matter when using OpenAI. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -204,7 +241,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AWS Blog": 1
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -219,46 +258,46 @@
       ],
       "items": [
         {
-          "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
-          "url": "https://www.youtube.com/watch?v=JxNCuXkSWyQ",
-          "published": "2026-11-02T10:00:35+00:00",
-          "content_snippet": "A coding agent tried to fix a staging problem and deleted a production database and its backup instead. It did this with valid credentials. Sagar Batchu of Speakeasy uses that incident to lay out a control layer for agents in regulated industries. Every action is tied to an identity, checked against policy in real time, never allowed to exceed its owner's rights, and recorded for compliance. 0:00 Intro 1:21 The agent that deleted production 3:43 How this is playing out across the industry 4:48 W",
+          "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
+          "url": "https://www.youtube.com/watch?v=g_NgCLTibiM",
+          "published": "2026-11-03T10:00:09+00:00",
+          "content_snippet": "Graph engineering is a new name for an old idea: give agents a map of the logic they should follow, not just a pile of text. Zachary Blumenfeld of Neo4j explains how graphs make agents more predictable, governable and portable. He shows how to compile skills and past decision traces into graph-shaped skills, then demos a loan-approval agent that follows them. 0:00 Intro: what is graph engineering? 1:42 Three types of graphs 3:04 Predictability, governance, portability 4:42 Neo4j's knowledge laye",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Writes Code Faster Than Your Team Can Review It - Andrew Norrish, Sourcegraph",
-          "url": "https://www.youtube.com/watch?v=-X3yXTwGs9A",
-          "published": "2026-11-02T09:00:13+00:00",
-          "content_snippet": "AI has moved the bottleneck from writing code to reviewing it, and SREs are left handling the incidents. Andrew Norrish of Sourcegraph explains why unreviewed AI code is driving more outages, and why SRE and platform teams are best placed to fix it. He also shows how code search and a code-graph context engine help teams investigate, prevent and fix issues across huge codebases. 0:00 Intro 1:28 The story of AI-driven development 2:52 Code review is the new bottleneck 4:27 Why hiring more SREs is",
+          "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
+          "url": "https://www.youtube.com/watch?v=XIHZpZtYCzo",
+          "published": "2026-11-03T09:00:22+00:00",
+          "content_snippet": "Agents can't keep borrowing your identity and running on someone else's machines, especially at banks and other heavily regulated companies. Nikhil Harithas of Factory shows how they rebuilt their coding agent, Droid, to run on any compute inside a customer's own cloud. He covers the compute gateway and relay design, bring-your-own-key model calls, snapshots and forking, and why they plan to open source the layer. 0:00 Intro 1:09 Customers where none of the defaults worked 2:44 Agents can't keep",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Pilots Won't Move the P&L. Here's What Will - Adam Nahari, Apollo",
-          "url": "https://www.youtube.com/watch?v=vUJDyDnqT4c",
-          "published": "2026-11-02T08:00:03+00:00",
-          "content_snippet": "Most companies use AI, but very few see it show up in their margins. Adam Nahari of Apollo Global Management explains why engineering is the smaller part of an AI transformation. He walks through the six moves that turned an airline's crew-scheduling desk into a 10x win: start from the P&L, pick one or two problems, get a real owner, put the tools in everyone's hands, and set kill metrics before you start. 0:00 Intro: the airline crew scheduling desk 1:22 AI adoption vs. real EBIT impact 2:42 Wh",
+          "title": "Better Search Took This AI Agent From 36% to 98% Accuracy - Aamir Shakir, Mixedbread",
+          "url": "https://www.youtube.com/watch?v=3Ad73Onx3Aw",
+          "published": "2026-11-03T08:00:24+00:00",
+          "content_snippet": "Agents are smart enough. Most of the time, the real problem is getting them to the right data. Aamir Shakir of Mixedbread explains why the usual stack of OCR, chunking, embeddings and a vector database loses information and leaves agents reading every document. He shows multimodal, late-interaction retrieval on Intel earnings reports, and shares a customer whose answer accuracy went from 36% to 98% after switching their search. 0:00 Intro to Mixedbread 1:30 The equity analyst problem 3:30 The ke",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "I Don't Fear AI Slop. I Fear Untold Stories - Zack Proser, WorkOS",
-          "url": "https://www.youtube.com/watch?v=1et3Lb_KLQo",
-          "published": "2026-11-02T00:00:21+00:00",
-          "content_snippet": "Zack Proser, an engineer on the WorkOS applied AI team who has written and published obsessively for 15 years, is less worried about AI slop than about all the stories that never get told. He shares how he packed his writing know-how into Blogbot, a Slack tool that gets colleagues' drafts 85-90% of the way there while a human still reads, edits and puts their name on every post, and why craft can survive the assembly line. Then he applies the same idea to an audience of two, building a bedtime s",
+          "title": "You Can't Tell What's Real Anymore. Here's What Comes Next - Cristóbal Valenzuela, Runway",
+          "url": "https://www.youtube.com/watch?v=q4ITwvlFplQ",
+          "published": "2026-11-03T00:00:29+00:00",
+          "content_snippet": "Runway's first AI film in 2019 was 128x128 pixels. Today, people can't tell generated video from real footage. Runway co-founder and CEO Cristóbal Valenzuela explains how next-frame prediction at scale teaches models physics, object permanence and how the world works. He then shows what happens when those models become real-time and interactive: world interface models, robotics, and Continuum, an early research prototype where anything on your screen can become a live, interactive video. 0:00 In",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "I Made a Fruit Fly Review My Code - Nick Nisi, WorkOS",
-          "url": "https://www.youtube.com/watch?v=geMAe-PLJF4",
-          "published": "2026-11-01T20:00:08+00:00",
-          "content_snippet": "Code is being written faster than ever, and Nick Nisi, who leads developer and agent experience at WorkOS, argues that the human reviewer is now the bottleneck. To make the point, he hooked a simulated fruit fly brain, built from a full scan of its neurons, up to code review: AI turns each change into literal \"code smells,\" sugar and bitter rewards teach the fly what good and bad code taste like, and it was right about 88% of the time in testing. Then he plays a live round against the audience a",
+          "title": "Your Company Should Train Its Own AI Models - Will Brown, Prime Intellect",
+          "url": "https://www.youtube.com/watch?v=5SRjPT2Eo7A",
+          "published": "2026-11-02T20:00:09+00:00",
+          "content_snippet": "Agents relearn the same things every session because the knowledge that runs a company never gets written down. Will Brown of Prime Intellect makes the case for training models on your own traces, feedback and workflows, so they learn on the job the way human coworkers do. He covers evals as test cases, decision models and routing, and widget-style interfaces that turn your decisions into training data. He ends with nightly training runs and an example model trained for about $300K. 0:00 Intro 1",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
