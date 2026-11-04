@@ -298,6 +298,8 @@ synthesis; the rest of this section walks it.
 
 ![Kinds of obsolescence by reference: five lines of literature and their synthesis for data platform products](./assets/obsolescence-kinds-by-reference.png)
 
+*Portuguese version: [tipos-de-obsolescencia.png](./assets/tipos-de-obsolescencia.png).*
+
 ### 4.1 What the literature says
 
 **1. Vance Packard — *The Waste Makers* (1960), consumer goods.** The first popular taxonomy,
