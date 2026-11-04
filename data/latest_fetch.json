@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T17:18:38Z",
+  "fetched_at": "2026-11-04T17:29:51Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "How Uber manages AI spend",
-          "url": "https://www.youtube.com/watch?v=Z5Ad9HtuY2A",
-          "published": "2026-11-03T17:00:20+00:00",
-          "content_snippet": "with Uday Kiran Medisetty, Distinguished Engineer at Uber See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
-          "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
-          "published": "2026-11-03T17:00:35+00:00",
-          "content_snippet": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020 . F3 reduced execution computational costs by compiling all features into a single merged graph, but that graph also served as the release unit, so a single failure or invalid definition blocked the entire release pipeline. This post introduces F",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -46,7 +27,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Pragmatic Engineer": 1,
+        "Meta Engineering": 3
+      }
     },
     {
       "name": "Product Management",
@@ -72,19 +56,19 @@
       ],
       "items": [
         {
-          "title": "The Secret To Entering Flow State",
-          "url": "https://www.youtube.com/watch?v=RTgNyFWdQec",
-          "published": "2026-11-03T16:41:05+00:00",
-          "content_snippet": "The Secret To Entering Flow State",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "Why listening beats problem solving | Lisa Damour",
+          "url": "https://www.youtube.com/watch?v=EdfYPOffmsE",
+          "published": "2026-11-04T17:08:28+00:00",
+          "content_snippet": "Why listening beats problem solving | Lisa Damour Lisa Damour is a clinical psychologist and the author of The Emotional Lives of Teenagers. In this clip from our full interview, she explains why listening often helps more than jumping in to solve the problem.",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 2,
-        "Big Think": 2
+        "The Knowledge Project Podcast": 3,
+        "Daniel Pink": 1
       }
     },
     {
@@ -137,73 +121,82 @@
       ],
       "items": [
         {
-          "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
-          "published": "2026-11-03T00:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New Zealand) and Canada West (Calgary), and R8i instances are now available in Europe (Milan, Stockholm, and Zurich) and Israel (Tel Aviv). These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel proc",
+          "title": "Amazon Connect Customer lets agents pause and resume emails",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
+          "published": "2026-11-03T20:15:00+00:00",
+          "content_snippet": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting for a supervisor to approve a refund can pause the email and take an incoming call. Paused time is tracked separately from active handling time, giving supervisors a more accurate view of the time agents spend working on emails. Agents can pause and resume emails directly from the Agent Workspace or",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
-          "published": "2026-11-02T20:45:00+00:00",
-          "content_snippet": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US). Claude Haiku 5.5 is the fastest model in the Claude 5.5 family. It's a clear step up from Claude Haiku 4.5, built for work that runs in large volumes and needs quick responses. Developers can use it to summarize and compact long context, classify and route requests, process text in bulk, and make small, targe",
+          "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+          "published": "2026-11-03T18:00:00+00:00",
+          "content_snippet": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming. Linux desktops give agents full root access to the operating system where many developers already build, test, and automate agentic workflows. Agents can take on developer tasks, such as run",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
-          "published": "2026-11-02T17:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MySQL and to benefit from bug fixes, performance improvements, and new functionality added by the MySQL community. For more details, refer to the Aurora MySQL 8.4 and MySQL 8.4.10 release notes. Aurora MySQL 8.4.10 adds support for global transaction identifiers (GTID) tags, which ",
+          "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
+          "published": "2026-11-03T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces manual entry errors by eliminating the need to look up or type the address. Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
-          "published": "2026-11-02T17:00:00+00:00",
-          "content_snippet": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent Cloud. Customers can now scale processing for Kafka workloads beyond the partition count of a topic, increasing throughput during traffic spikes and improving processing resilience. Customers building event-driven Kafka workloads for use cases such as image and video encoding, fraud detection, notification ",
+          "title": "AWS Config now supports 10 new resource types",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+          "published": "2026-11-03T16:00:00+00:00",
+          "content_snippet": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Conf",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
-          "published": "2026-11-02T17:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operational improvements, Aurora MySQL 3.14 introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.46 release notes. You can upg",
-          "source_name": "AWS What's New",
+          "title": "Claude Platform now supports native OpenTelemetry observability in Databricks MLflow",
+          "url": "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow",
+          "published": "2026-11-03T21:00:00+00:00",
+          "content_snippet": "An agent can return a plausible answer while missing an important finding or reading the same source repeatedly...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
-          "published": "2026-11-02T16:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to third-party applications through Amazon Bedrock AgentCore Gateway and reuse the same tools used by your agentic experiences to retrieve data or trigger actions, without writing custom Lambda functions. For example, when a customer contacts a financial institution about a recent transaction, a flow can u",
-          "source_name": "AWS What's New",
+          "title": "Declare and optimize with UNIQUE constraints on Databricks",
+          "url": "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks",
+          "published": "2026-11-03T21:00:00+00:00",
+          "content_snippet": "Data teams often maintain uniqueness guarantees in their pipelines, but without a...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
-          "published": "2026-11-02T16:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to waiting for a Lambda function to complete, you can now wait until a Connect Case field meets a specified condition or an External Tool invocation completes. This enables you to wait for critical information before advancing an interaction, reducing unnecessary transfers and saving time for both your ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
+          "title": "TamaGPT",
+          "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+          "published": "2026-11-03T18:30:30+00:00",
+          "content_snippet": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Glean on privacy and OpenAI Private Intelligence",
-          "url": "https://www.youtube.com/watch?v=JR7xBi2kJjY",
-          "published": "2026-11-03T16:51:36+00:00",
-          "content_snippet": "Glean co-founder and CTO T.R. Vishwanath discusses customer control of data and Glean’s work with OpenAI on the Private Safety Processing preview. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+          "title": "Qodo brings company context into Codex code review",
+          "url": "https://www.youtube.com/watch?v=yC72iQx6rM0",
+          "published": "2026-11-03T18:11:23+00:00",
+          "content_snippet": "Qodo’s Codex plugin brings company context, codebase standards, and independent review into the development workflow. It helps developers catch bugs across repositories, where a change can look right in one codebase and break a service in another. In Behind the Build, co-founder Itamar Friedman and AI DevRel lead Nnenna Ndukwe discuss how they’re building with GPT-6 Astra and their vision for a workflow where one agent writes code and another challenges it. Read the full story: https://openai.co",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "ChatGPT Voice is now in Finances",
+          "url": "https://www.youtube.com/watch?v=63pcV4z0DwI",
+          "published": "2026-11-03T18:04:51+00:00",
+          "content_snippet": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -218,32 +211,26 @@
           "area_name": "Providers Updates"
         },
         {
-          "title": "Coinbase on OpenAI Private Intelligence",
-          "url": "https://www.youtube.com/watch?v=NbDF90z-g6w",
-          "published": "2026-11-02T22:44:26+00:00",
-          "content_snippet": "Coinbase CTO Rob Witoff explains why security, guardrails, and zero data retention matter when using OpenAI. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
+          "title": "A Practical Guide to Security in November 2026",
+          "url": "https://cognition.ai/blog/practical-guide-to-security-november-2026",
+          "published": "2026-11-03T17:00:00+00:00",
+          "content_snippet": "A Practical Guide to Security in November 2026\nI wouldn’t blame you if you’re having trouble keeping up with all of the security incidents over the last few weeks.\nOver a two-week period, we saw the largest theft in recorded history, a PHP vulnerability so critical that governments took their websites down, and a compromised Claude Code Cursor extension that tried to backdoor developer machines. Not to mention critical vulnerabilities in edge devices, a GitLab remote code execution vulnerability",
+          "source_name": "Devin AI (Cognition)",
+          "source_type": "website",
           "area_name": "Providers Updates"
         }
       ],
       "errors": [
         {
-          "source_name": "Databricks Blog",
+          "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Devin AI (Cognition)",
-          "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "AWS Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -258,46 +245,46 @@
       ],
       "items": [
         {
-          "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
-          "url": "https://www.youtube.com/watch?v=g_NgCLTibiM",
-          "published": "2026-11-03T10:00:09+00:00",
-          "content_snippet": "Graph engineering is a new name for an old idea: give agents a map of the logic they should follow, not just a pile of text. Zachary Blumenfeld of Neo4j explains how graphs make agents more predictable, governable and portable. He shows how to compile skills and past decision traces into graph-shaped skills, then demos a loan-approval agent that follows them. 0:00 Intro: what is graph engineering? 1:42 Three types of graphs 3:04 Predictability, governance, portability 4:42 Neo4j's knowledge laye",
+          "title": "Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse",
+          "url": "https://www.youtube.com/watch?v=-uBABM2AuFg",
+          "published": "2026-11-04T10:00:35+00:00",
+          "content_snippet": "Doneyli De Jesus, who leads AI engineering solutions at Langfuse by ClickHouse, shares how his team helped a top-five bank put deployment gates on AI agents. Banks don't certify models, they certify applications, and they need setups that are on-premises, gated and air-gapped. He walks through building a golden data set, scoring traces across several dimensions, and how a small model that was 97% grounded but only 60% accurate on numbers cleared the bank's 85% gate once it got a calculator tool.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
-          "url": "https://www.youtube.com/watch?v=XIHZpZtYCzo",
-          "published": "2026-11-03T09:00:22+00:00",
-          "content_snippet": "Agents can't keep borrowing your identity and running on someone else's machines, especially at banks and other heavily regulated companies. Nikhil Harithas of Factory shows how they rebuilt their coding agent, Droid, to run on any compute inside a customer's own cloud. He covers the compute gateway and relay design, bring-your-own-key model calls, snapshots and forking, and why they plan to open source the layer. 0:00 Intro 1:09 Customers where none of the defaults worked 2:44 Agents can't keep",
+          "title": "Why Datasite Stopped Building Its Own Parsing - Adit Abraham, Reducto & Raj Bakhru, Datasite",
+          "url": "https://www.youtube.com/watch?v=0PqGT2L6cZM",
+          "published": "2026-11-04T09:00:20+00:00",
+          "content_snippet": "Datasite global CTO Raj Bakhru talks with Reducto co-founder and CEO Adit Abraham about leading AI at a platform that handles about 60% of deals over $100 million. Raj shares how his startup BlueFlame was acquired into Datasite, why parsing billions of pages of deal documents is \"all edge cases,\" and how he decides what his 250 engineers build versus buy. He also covers how AI coding is changing who he hires, and VDR Bench, the internal eval where better parsing raised recall 22%. Chapters: 0:00",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Better Search Took This AI Agent From 36% to 98% Accuracy - Aamir Shakir, Mixedbread",
-          "url": "https://www.youtube.com/watch?v=3Ad73Onx3Aw",
-          "published": "2026-11-03T08:00:24+00:00",
-          "content_snippet": "Agents are smart enough. Most of the time, the real problem is getting them to the right data. Aamir Shakir of Mixedbread explains why the usual stack of OCR, chunking, embeddings and a vector database loses information and leaves agents reading every document. He shows multimodal, late-interaction retrieval on Intel earnings reports, and shares a customer whose answer accuracy went from 36% to 98% after switching their search. 0:00 Intro to Mixedbread 1:30 The equity analyst problem 3:30 The ke",
+          "title": "Building the AI Agent Is Easy. Proving It's Safe Isn't - Jonathan Osborne, NatWest",
+          "url": "https://www.youtube.com/watch?v=5UgnatzpZ9E",
+          "published": "2026-11-04T08:00:39+00:00",
+          "content_snippet": "NatWest lead AI engineer Jonathan Osborne shares how the UK's second-largest retail bank, with 19 million customers and about 100,000 assistant conversations a day, is moving its digital assistant Cora from scripted answers to AI agents. Building the agent was the easy part; proving it was safe was the hard part. He covers the routing funnel that limits what ever reaches a model, why quality is several scores instead of one, human reviews where an 83% pass rate hid a 54-point gap, an LLM judge t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "You Can't Tell What's Real Anymore. Here's What Comes Next - Cristóbal Valenzuela, Runway",
-          "url": "https://www.youtube.com/watch?v=q4ITwvlFplQ",
-          "published": "2026-11-03T00:00:29+00:00",
-          "content_snippet": "Runway's first AI film in 2019 was 128x128 pixels. Today, people can't tell generated video from real footage. Runway co-founder and CEO Cristóbal Valenzuela explains how next-frame prediction at scale teaches models physics, object permanence and how the world works. He then shows what happens when those models become real-time and interactive: world interface models, robotics, and Continuum, an early research prototype where anything on your screen can become a live, interactive video. 0:00 In",
+          "title": "Why AI Makes You 100x Faster but Not Your Company - Mitchell Troyanovsky, Basis",
+          "url": "https://www.youtube.com/watch?v=JGtkTjn4120",
+          "published": "2026-11-04T00:00:29+00:00",
+          "content_snippet": "Individual engineers have seen huge productivity gains from AI, but most companies haven't. Mitchell Troyanovsky, co-founder of Basis, argues that agents need to be simple and reliable to spread through a company, and the way to get there is to make them opinionated. He covers behavior specs, why outcome evals don't generalize to production, and two tools for finding out why an agent made a bad call: forking and sub-agent simulations. 0:00 Intro to Basis 0:42 Why company productivity hasn't jump",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Company Should Train Its Own AI Models - Will Brown, Prime Intellect",
-          "url": "https://www.youtube.com/watch?v=5SRjPT2Eo7A",
-          "published": "2026-11-02T20:00:09+00:00",
-          "content_snippet": "Agents relearn the same things every session because the knowledge that runs a company never gets written down. Will Brown of Prime Intellect makes the case for training models on your own traces, feedback and workflows, so they learn on the job the way human coworkers do. He covers evals as test cases, decision models and routing, and widget-style interfaces that turn your decisions into training data. He ends with nightly training runs and an example model trained for about $300K. 0:00 Intro 1",
+          "title": "Without Caching, Your AI Agent Costs 10x More - George Cameron, Artificial Analysis",
+          "url": "https://www.youtube.com/watch?v=prGP0huECPo",
+          "published": "2026-11-03T20:00:08+00:00",
+          "content_snippet": "Some models now cost dollars to complete a single task, while others cost a few cents. George Cameron, co-founder of Artificial Analysis, breaks down what actually drives agent costs in 2026: input tokens, cache hit rate and the number of steps. In one example, an agent task costs about $21 with caching and over $200 without it. He then shows how to decide when you need the smartest model and when a cheaper one gives the same answer. 0:00 Intro to Artificial Analysis 2:47 The AI landscape and th",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -307,5 +294,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 20
 }
