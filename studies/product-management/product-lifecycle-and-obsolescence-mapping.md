@@ -290,21 +290,92 @@ first-class column in §5 rather than a footnote.
 
 ## 4. The four kinds of obsolescence
 
-"Obsolete" is used for four different conditions that need four different decisions. Separating
-them is most of the value of the board.
+"Obsolete" is used for different conditions that need different decisions. Separating them is
+most of the value of the board. The four kinds used here are not invented from scratch: they
+apply five lines of literature, each of which classifies obsolescence its own way, to an
+internal data platform. The figure shows the construction, from market references to the
+synthesis; the rest of this section walks it.
 
-| # | Kind | What happened | Diagnostic signal | Right response |
-|---|------|---------------|-------------------|----------------|
-| 1 | **Demand obsolescence** | The problem changed or went away. Fewer people need this at all. | Active consumers *and* new-workload share both falling; no viable alternative gaining. | Sunset. There is nothing to migrate to because there is nothing to do. |
-| 2 | **Technology obsolescence** | The capability commoditized. A managed or open alternative now covers the use case at lower total cost. | Demand steady, but evolution stage has moved to *product*/*commodity* and new workloads are choosing the alternative. | **Replace**, then sunset the old. This is a migration project, not a shutdown. |
-| 3 | **Architectural obsolescence** | The thing still works but no longer fits the platform's contracts, governance model, or layering. It survives on exceptions. | Standing exception requests; cannot satisfy current contract/lineage/access requirements without special-casing. | Either invest to bring it into contract, or sunset. Never leave it on a permanent exception. |
-| 4 | **Orphaned** | Nobody owns it. It has consumers and no team, no on-call, no roadmap. | No named owner; changes only happen when it breaks. | Assign an owner *or* sunset — deciding which requires kinds 1–3 above. Never leave it in this state. |
+![Kinds of obsolescence by reference: five lines of literature and their synthesis for data platform products](./assets/obsolescence-kinds-by-reference.png)
+
+### 4.1 What the literature says
+
+**1. Vance Packard — *The Waste Makers* (1960), consumer goods.** The first popular taxonomy,
+written as a critique of producers. Obsolescence of **function** (a better product supersedes
+the old one), of **quality** (the product is made to wear out), and of **desirability** (it still
+works but *looks* old). Its lasting contribution is separating real obsolescence from
+*perceived* obsolescence.
+
+**2. Prakash et al. for the German Environment Agency (UBA, 2016), consumer goods.** An
+empirical study by Öko-Institut on product lifetimes. It names four kinds — **material** (wear,
+component failure), **functional** (no longer meets new technical requirements: software,
+interfaces, compatibility), **psychological** (fashion or a new generation makes it look
+outdated), and **economic** (repair or upkeep costs more than replacement) — and concludes that
+**the kinds interact**: there is rarely a single cause.
+
+**3. Clayton Christensen — *The Innovator's Dilemma* (1997), product and market.** How products
+are displaced. **Sustaining innovation** improves the product for the best customers and rarely
+topples anyone; **low-end disruption** brings something cheaper and *good enough* to
+over-served customers and moves upmarket; **new-market disruption** serves non-consumers until
+it matures. The dilemma: listening to your best customers is exactly what hides the threat, so
+the metrics look healthy until late.
+
+**4. Lehman and Parnas — software evolution (Lehman's laws, 1974–96; *Software Aging*, 1994).**
+The internal mechanism. Lehman: a system in real use must undergo **continuing change** or
+become progressively less satisfactory, and its **complexity increases** unless work is done to
+reduce it. Parnas names two causes of aging: **lack of movement** (the system is not modified as
+needs change) and **ignorant surgery** (changes by people who do not understand the original
+design, which degrade its structure).
+
+**5. Sandborn and IEC 62402 — systems engineering (CALCE; standard 2007, revised 2019).**
+Obsolescence as a managed discipline, from long-lived systems (defense, aerospace) whose parts go
+out of production long before the system retires (DMSMS). It classifies by **what was lost**:
+**procurement** (the item can no longer be obtained), **functional** (requirements changed),
+**logistical** (it can no longer be maintained — tools, parts, people who know it), and
+**technological** (newer versions exist, the old one loses support). It also classifies the
+responses: reactive, proactive (forecasting end of life), and strategic (planning refreshes that
+resolve several obsolescences at once). IEC 62402 turns this into an obsolescence management
+plan.
+
+### 4.2 Applied to data platform products
+
+The four kinds below are the synthesis of those references for the capabilities of an internal
+data platform. The *Grounded in* column shows which reference each kind rests on.
+
+| # | Kind | What happened | Grounded in | Diagnostic signal | Right response |
+|---|------|---------------|-------------|-------------------|----------------|
+| 1 | **Demand obsolescence** | The problem changed or went away. Fewer people need this at all. | Sandborn (functional) — the weakest grounding of the four | Active consumers *and* new-workload share both falling; no viable alternative gaining. | Sunset. There is nothing to migrate to because there is nothing to do. |
+| 2 | **Technology obsolescence** | The capability commoditized. A managed or open alternative now covers the use case at lower total cost. | Christensen; Packard (function); Sandborn (technological) | Demand steady, but evolution stage has moved to *product*/*commodity* and new workloads are choosing the alternative. | **Replace**, then sunset the old. This is a migration project, not a shutdown. |
+| 3 | **Architectural obsolescence** | The thing still works but no longer fits the platform's contracts, governance model, or layering. It survives on exceptions. | Lehman/Parnas (lack of movement); UBA (functional) | Standing exception requests; cannot satisfy current contract/lineage/access requirements without special-casing. | Either invest to bring it into contract, or sunset. Never leave it on a permanent exception. |
+| 4 | **Orphaned** | Nobody owns it. It has consumers and no team, no on-call, no roadmap. | Sandborn (logistical); Parnas (ignorant surgery) | No named owner; changes only happen when it breaks. | Assign an owner *or* sunset — deciding which requires kinds 1–3 above. Never leave it in this state. |
 
 Kind 2 is the one this study exists for, and the one the classic lifecycle curve is worst at
 detecting: **every demand-side metric looks healthy right up until the migration becomes
-urgent and expensive.** Kind 4 is not a lifecycle stage at all — it is an ownership failure that
-masquerades as one, and it is worth surfacing separately because a board full of orphans is a
-different problem from a board full of declining products.
+urgent and expensive** — Christensen's dilemma, restated for an internal platform. It is also
+the only kind that nearly every reference supports.
+
+Kind 4 is not a lifecycle stage at all — it is an ownership failure that masquerades as one, and
+it is worth surfacing separately because a board full of orphans is a different problem from a
+board full of declining products. Parnas explains why it rarely stays alone: an orphaned
+capability is changed only when it breaks, by whoever is nearest, which is ignorant surgery — so
+**kind 4 tends to produce kind 3**.
+
+### 4.3 Limits of the four kinds
+
+- **They overlap.** The kinds mix axes: 1 and 2 are external causes, 3 is internal fit, 4 is a
+  governance state. One capability can be commoditized *and* orphaned at once, which matches the
+  UBA finding that kinds of obsolescence interact. The board records the dominant kind, and
+  kind 4 is always resolved by asking which of 1–3 lies underneath.
+- **They are not exhaustive.** Three conditions in the references sit outside them:
+  - *Imposed by a supplier* — Sandborn's procurement obsolescence: a vendor deprecates the API,
+    model, or protocol and sets the date (see the Notion deprecation-window and MCP transport
+    cases in the [2026-07-25](../../digests/2026-07-25.md) and
+    [2026-08-29](../../digests/2026-08-29.md) digests). Today no signal in §5.3 catches it.
+  - *Economic* — UBA's economic obsolescence: demand holds and no alternative exists, but
+    cost-to-serve outgrows value. Signal S5 measures it; no kind names it.
+  - *Perceived* — Packard's desirability and UBA's psychological obsolescence. Not a kind to act
+    on but a **false positive to filter**: hype can light up S1 and S4 without real
+    commoditization.
 
 ## 5. Proposed artifact — the Lifecycle & Obsolescence Board
 
@@ -531,7 +602,41 @@ The board is worthless as a one-off audit and valuable as a standing instrument:
   — value follows an S-curve; incumbents win at sustaining innovation and lose to disruptive
   entrants whose technology becomes *good enough*, precisely because they listen to their best
   customers.
-  *Inspires:* kind-2 (technology) obsolescence in §4 and why healthy demand metrics conceal it.
+  *Inspires:* reference 3 in §4.1, kind-2 (technology) obsolescence in §4.2, and why healthy
+  demand metrics conceal it.
+
+- **The Waste Makers — Vance Packard (1960)** ([overview](https://en.wikipedia.org/wiki/The_Waste_Makers))
+  — obsolescence of function, quality, and desirability; the critique that made planned
+  obsolescence a public term.
+  *Inspires:* reference 1 in §4.1, the grounding of kind 2, and perceived obsolescence as a false
+  positive in §4.3. **Not fetched this session — summarized from prior knowledge.**
+
+- **Influence of the service life of products in terms of their environmental impact —
+  Prakash, Dehoust, Gsell, Schleicher & Stamminger, Öko-Institut for the German Environment
+  Agency (UBA *Texte* 11/2016; English edition *Texte* 09/2020)**
+  ([UBA](https://www.umweltbundesamt.de/en/publikationen/influence-of-the-service-life-of-products-in-terms),
+  [PDF, German](https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/texte_11_2016_einfluss_der_nutzungsdauer_von_produkten_obsoleszenz.pdf))
+  — material, functional, psychological, and economic obsolescence, which interact in a complex
+  pattern; first-use lifetimes of most product groups have shortened.
+  *Inspires:* reference 2 in §4.1, the grounding of kind 3, and the overlap and economic gap in
+  §4.3. **Authors, year, and the four kinds verified; per-kind definitions summarized.**
+
+- **Laws of Software Evolution — Meir M. Lehman (1974–1996)** ([overview](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution))
+  and **Software Aging — David L. Parnas, ICSE 1994** ([paper](https://plg.uwaterloo.ca/~holt/cs/446/08/slides/p279-parnas.pdf), DOI 10.1109/ICSE.1994.296790)
+  — continuing change and increasing complexity; aging through *lack of movement* and *ignorant
+  surgery*.
+  *Inspires:* reference 4 in §4.1, the grounding of kinds 3 and 4, and the kind-4-produces-kind-3
+  argument in §4.2. **Parnas's two causes verified; Lehman summarized from prior knowledge.**
+
+- **Software Obsolescence — Complicating the Part and Technology Obsolescence Management
+  Problem — Peter Sandborn, IEEE Trans. Components and Packaging Technologies 30(4), 2007**
+  ([CALCE abstract](https://web.calce.umd.edu/articles/abstracts/2007/07_sandborn_softwareobs.htm)),
+  and **IEC 62402:2019 Obsolescence management** ([IEC webstore](https://webstore.iec.ch/publication/59531))
+  — DMSMS: procurement, functional, logistical, and technological obsolescence; reactive,
+  proactive, and strategic responses; an obsolescence management plan as a requirement.
+  *Inspires:* reference 5 in §4.1, the grounding of kinds 1, 2 and 4, and the supplier-imposed
+  gap in §4.3. **Bibliography and the standard's scope verified; the taxonomy summarized from
+  prior knowledge and secondary sources.**
 
 - **Wardley Maps — Simon Wardley** ([evolution stages](https://www.wardleymaps.com/glossary/evolution-stages))
   — components evolve genesis → custom-built → product → commodity; invest where you
