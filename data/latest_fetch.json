@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T17:37:39Z",
+  "fetched_at": "2026-11-06T16:55:35Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,26 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "The hidden cost of layoffs",
-          "url": "https://www.youtube.com/watch?v=k28DlDFGm24",
-          "published": "2026-11-05T16:00:43+00:00",
-          "content_snippet": "with Titus Winters, co-author of Software Engineering at Google See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Scaling Slack and GitHub with Maude Lemaire",
-          "url": "https://www.youtube.com/watch?v=x6WqD4qHxSc",
-          "published": "2026-11-05T15:55:04+00:00",
-          "content_snippet": "What is involved in scaling up large, popular products at places like Slack and GitHub? We get an insider’s view on this from Maude Lemaire, a principal engineer and author of ‘Refactoring at Scale: Regaining Control of Your Codebase.’ She spent nearly eight years at Slack, where she led the backend performance infrastructure team, before joining GitHub to tackle database scaling challenges. Most recently, she worked on improving performance at Cursor – including time to first token. In this epi",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -47,7 +28,8 @@
         }
       ],
       "deduped_sources": {
-        "Meta Engineering": 2
+        "The Pragmatic Engineer": 3,
+        "Meta Engineering": 1
       }
     },
     {
@@ -74,27 +56,36 @@
       ],
       "items": [
         {
-          "title": "Master Your Brain's Focus Cycles",
-          "url": "https://www.youtube.com/watch?v=IDs_WGcNLYU",
-          "published": "2026-11-04T21:13:53+00:00",
-          "content_snippet": "Master Your Brain's Focus Cycles",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "Stop Hiring Geniuses",
+          "url": "https://www.youtube.com/watch?v=lOVjnrL35tg",
+          "published": "2026-11-06T16:37:05+00:00",
+          "content_snippet": "The team behind this is Grusha Agarwal, George Newman and Rachel Ruttan at Toronto's Rotman School. In their sample of postings, \"genius,\" \"visionary\" and \"unique\" showed up more than twice as often as \"curious,\" \"observant\" and \"experimental.\" When they asked more than 300 hiring managers to write a creative job posting from scratch, most of them reached for the genius language too. Agarwal, G. (2026). Seeking creative explorers: How dispelling genius myths enhances organizational recruiting. A",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "Horse Spinning",
-          "url": "https://www.youtube.com/watch?v=nIcN81-lqWs",
-          "published": "2026-11-04T18:26:03+00:00",
-          "content_snippet": "People can flip an ambiguous figure on purpose, partly by choosing which feature to look at first, as Thomas Toppino at Villanova found. Staring at the feet is a real technique. In To Sell Is Human, I wrote, \"Perspective-taking is a cognitive capacity; it's mostly about thinking. Empathy is an emotional response; it's mostly about feeling.\" Toppino, T. C. (2003). Reversible-figure perception: Mechanisms of intentional control. Perception & Psychophysics, 65(8), 1285-1295. -- To find out more abo",
-          "source_name": "Daniel Pink",
+          "title": "The laws of the universe are unable to explain these origin mysteries | Paul Davies: Full Interview",
+          "url": "https://www.youtube.com/watch?v=e41IyOlfj7I",
+          "published": "2026-11-06T14:00:30+00:00",
+          "content_snippet": "The Big Think Interview is brought to you by Pangram, the most accurate AI detector on the market. Visit https://www.pangram.com/big-think to try it for free. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-davies-e41IyOlfj7I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "One-way doors vs. two-way doors | Dambisa Moyo",
+          "url": "https://www.youtube.com/watch?v=112zzmKAfno",
+          "published": "2026-11-05T20:02:08+00:00",
+          "content_snippet": "One-way doors vs. two-way doors | Dambisa Moyo @DambisaMoyo Dambisa Moyo is an economist, a member of the UK House of Lords and the author of Dead Aid. In this clip from Big Think+, she explains the difference between decisions you can't reverse and ones you can walk back out of, and why the reversible ones make it easier to take bets. Watch her Big Think+ class here: https://bigthink.com/plus/paths/7304-financial-fundamentals-for-leaders/lessons/69998-financial-fundamentals-for-leaders/?utm_sou",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Big Think": 3
+        "The Knowledge Project Podcast": 2
       }
     },
     {
@@ -118,6 +109,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -127,7 +122,6 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
         "The Analytics Engineering Podcast": 1
       }
     },
@@ -147,147 +141,111 @@
       ],
       "items": [
         {
-          "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
-          "published": "2026-11-04T21:29:00+00:00",
-          "content_snippet": "Amazon Elastic Container Service (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features let you collect application logs with the observability agent of your choice and forward them to any destination you choose. With this launch, your application containers on ECS Managed Instances can write their logs as local files in standard Docker json-file format, which most observability agents ",
+          "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+          "published": "2026-11-06T14:00:00+00:00",
+          "content_snippet": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different reservation offerings such as On-Demand Capacity Reservations (ODCRs), interruptible Capacity Reservations, and Capacity Blocks for ML. Previously, a Capacity Reservation Resource Group could only include ODCRs. Now you can add any type of Capacity Reservation to a Capacity Reservation Resource Grou",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/",
-          "published": "2026-11-04T19:00:00+00:00",
-          "content_snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions, adding to the list of available Regions where you can use Amazon DocumentDB. Amazon DocumentDB is a fully managed, native JSON database that makes it simple and cost-effective to operate critical document workloads at virtually any scale without managing infrastructure. Amazon DocumentDB is designed to give you the scalability and durability you need when operating",
+          "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+          "published": "2026-11-06T00:30:00+00:00",
+          "content_snippet": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources. Security Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no additional configuration. The SBOM page lists each package with its ve",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS for Oracle now supports copying option groups during cross-Region snapshot copy",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/",
-          "published": "2026-11-04T18:40:00+00:00",
-          "content_snippet": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and configure features that make it simple to manage your databases. Option groups are specific to the AWS Region where you create them. Previously, customers wanting to replicate RDS backups that had option groups to a different AWS Region had to copy the snapshot without the option group and then recreate th",
+          "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/",
+          "published": "2026-11-05T21:30:00+00:00",
+          "content_snippet": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS. AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing m",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS announces AWS Interconnect - last mile preview with Equinix",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-preview-equinix/",
-          "published": "2026-11-04T17:00:00+00:00",
-          "content_snippet": "AWS Interconnect - last mile is now available in preview with Equinix. You can connect your infrastructure across Equinix's global network of 282 data centers worldwide to AWS in a few clicks. Interconnect - last mile gives you managed, private, and resilient connections to AWS, so you don't have to order cross-connects or configure routers. To set up in the AWS Management Console, choose an AWS Region, a bandwidth speed, a Direct Connect gateway, and your Equinix Fabric One project ID. AWS gene",
+          "title": "Announcing Web Answer on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
+          "published": "2026-11-05T20:56:00+00:00",
+          "content_snippet": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call, so agent builders can attach it to an agent and get back a finished answer grounded in current web sources, without building and maintaining their own search, retrieve, synthesis, and citation pipeline. Web Answer builds on Web Search on Amazon Bedrock AgentCore, which launched",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer now shows associated cases in contact records",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-contact-records/",
-          "published": "2026-11-04T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now includes case IDs and reference numbers in contact records, helping supervisors and analysts understand which customer issues drive contact volume. Cases track issues, such as refund requests or billing disputes, across interactions and teams. Supervisors can now identify the cases associated with an interaction directly on the Contact Details page without searching individual cases. Analysts can access the same information through the DescribeContact API and contact ",
+          "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
+          "published": "2026-11-05T20:00:00+00:00",
+          "content_snippet": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where no AWS Region exists today. With this launch, you can create an AWS Network Load Balancer directly in the Phoenix Local Zone. Previously, if your targets ran in the Phoenix Local Zone, you had to place the load balancer in ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
-          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
-          "published": "2026-11-04T23:34:52+00:00",
-          "content_snippet": "Today, we’re announcing a simple, cost-effective path for data lake modernization. Amazon S3 Tables now support managed migration of your Apache Hive tables to Apache Iceberg . Migration works with Parquet tables in Amazon S3 that are registered in the AWS Glue Data Catalog and allows you to upgrade your data lake with no pipelines to build or compute to provision, while production workloads keep running. Apache Iceberg has become the open standard for large analytics datasets. It lets you manag",
-          "source_name": "AWS Blog",
+          "title": "Amazon DynamoDB now supports bulk put items",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+          "published": "2026-11-05T18:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applications use data that other systems produce and store in Amazon S3. Writing this data into existing DynamoDB tables has typically meant building custom pipelines and managing table capacity. With bulk put items, developers and data engineers can write this data without impacting existing workloads or bu",
+          "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Which Data Collaboration Tool: OpenSharing, Clean Rooms, Marketplace",
-          "url": "https://www.databricks.com/blog/which-data-collaboration-tool-opensharing-clean-rooms-marketplace",
-          "published": "2026-11-05T16:29:00+00:00",
-          "content_snippet": "The world of sharing has extended far past tables. We can now securely share all...",
+          "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
+          "published": "2026-11-05T18:00:00+00:00",
+          "content_snippet": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on Essentials and Lite stay at the 99.9% Service Commitment with no change to their terms. To qualify for the 99.99% Service Commitment, you can switch a user pool to the Plus feature plan using the AWS Management Console, A",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+          "published": "2026-11-05T17:38:00+00:00",
+          "content_snippet": "AWS Identity and Access Management (IAM) Roles Anywhere now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks in sync with your certificate authority (CA) and can help improve your security posture. When you enable this capability on a trust anchor, IAM Roles Anywhere reads the CDP URLs embedded in authenticating certificates, downloads the corresponding CRLs, and denies credential requests that use revoke",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+          "published": "2026-11-05T17:00:00+00:00",
+          "content_snippet": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an agent session from start to finish, find the step that failed or slowed down, and check the related logs without switching tools. The optimized engine maps OpenTelemetry logs and traces to object, nested, and flat object fields, with support for multi-valued arrays. Span events, span links, prompts, an",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+          "published": "2026-11-05T15:39:00+00:00",
+          "content_snippet": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of 12,000 IOPS. The FSx for Lustre Intelligent-Tiering storage class delivers the lowest-cost and only fully elastic Lustre file storage in the cloud. It is optimized for workloads that mix hot and cold data and do not require consistent SSD-level performance. A file system's metadata IOPS determine how man",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How public sector organizations can govern AI at scale",
+          "url": "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale",
+          "published": "2026-11-06T15:14:29+00:00",
+          "content_snippet": "Every government CIO has the same mandate right now: adopt AI, move faster, do more...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "From Delta Sharing to OpenSharing: what changed, what's next",
-          "url": "https://www.databricks.com/blog/delta-sharing-opensharing-what-changed-whats-next",
-          "published": "2026-11-05T16:25:00+00:00",
-          "content_snippet": "Delta Sharing has been the way thousands of organizations exchange live data across...",
+          "title": "A builder’s guide to scaling Databricks Apps",
+          "url": "https://www.databricks.com/blog/builders-guide-scaling-databricks-apps",
+          "published": "2026-11-05T18:00:00+00:00",
+          "content_snippet": "Congratulations, you've built an app on Databricks Apps, and it's gone from a couple...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Push-based CDC into Unity Catalog with Zerobus Ingest and Debezium",
-          "url": "https://www.databricks.com/blog/push-based-cdc-unity-catalog-zerobus-ingest-and-debezium",
-          "published": "2026-11-05T12:48:00+00:00",
-          "content_snippet": "Data in operational databases drives business decisions, and much of that analysis...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing Apache Spark® 4.3 - Now available in Databricks Runtime 19",
-          "url": "https://www.databricks.com/blog/introducing-apache-spark-43-now-available-databricks-runtime-19",
-          "published": "2026-11-05T00:00:00+00:00",
-          "content_snippet": "IntroductionApache Spark 4.3 brings stateful processing to Real-Time Mode, achieving...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "The Enterprise Case for Open-Weight Models on Databricks",
-          "url": "https://www.databricks.com/blog/enterprise-case-open-weight-models-databricks",
-          "published": "2026-11-04T20:00:00+00:00",
-          "content_snippet": "As field engineers at Databricks, we spend our days inside enterprise AI deployments,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-          "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-          "published": "2026-11-05T17:14:11+00:00",
-          "content_snippet": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense. https://openai.com/index/introducing-gpt-6-cyber/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Introducing ChatGPT Images 2.6",
-          "url": "https://www.youtube.com/watch?v=bJldMYfRvMQ",
-          "published": "2026-11-05T02:32:21+00:00",
-          "content_snippet": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation. https://openai.com/index/introducing-images-2-6/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "GPT-Image-2.6: Faster image generation with Flare and Sunburst",
-          "url": "https://www.youtube.com/watch?v=9ZxCOHkfn_8",
-          "published": "2026-11-04T23:42:40+00:00",
-          "content_snippet": "We’re bringing GPT-Image-2.6 to Codex and the API. In the API, the 2.6 versions of Flare and Sunburst generate images 50% faster than before. Use Flare for a quick first pass on a poster or product shot. At low image quality, it can generate an image in as little as six seconds. When you need details to stay consistent across edits, use Sunburst at medium or high quality. Try changing a product’s backdrop while keeping its shape and texture, or bring a mascot to life as a looping GIF. http://ope",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Messi asks ChatGPT to reimagine his room",
-          "url": "https://www.youtube.com/watch?v=6IttBmI4P9M",
-          "published": "2026-11-04T19:25:46+00:00",
-          "content_snippet": "Messi wanted this empty room to feel a little more like him, but wasn’t sure where to start. So he asked ChatGPT for some ideas. Try it yourself: “Reimagine this room in my style. Surprise me.”",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
-          "url": "https://www.youtube.com/watch?v=0LDs5rvx1EI",
-          "published": "2026-11-04T17:33:11+00:00",
-          "content_snippet": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver self-serve analytics across Figma,” says Sharath Chandra, who leads Data Engineering. Watch Sharath expl",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
@@ -301,6 +259,10 @@
         }
       ],
       "errors": [
+        {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -325,55 +287,64 @@
       ],
       "items": [
         {
-          "title": "Why Waiting for the Next AI Model Can Pay Off - John Stecher, Blackstone & Scott Worland, Norm AI",
-          "url": "https://www.youtube.com/watch?v=ra8X7_bnujw",
-          "published": "2026-11-05T10:00:37+00:00",
-          "content_snippet": "Blackstone CTO John Stecher and Norm AI CTO Scott Worland discuss building technology that holds up as models keep improving. John explains why a solid data strategy and straight-through processing come before agents, how he weighs ROI against waiting for a better model, and why internal apps can now be thrown away and rebuilt. Scott describes how Norm's large hand-labeled eval set showed that much of its carefully built workflow code was in the way, why the team rebuilt its platform, and how it",
+          "title": "When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor | AI Engineer Shanghai",
+          "url": "https://www.youtube.com/watch?v=y9Sg--RDtks",
+          "published": "2026-11-06T14:44:57+00:00",
+          "content_snippet": "Ask an AI to build a journal and it might give you mood scores, streaks, daily reminders, and weekly reports. Which would you keep? Ryo Lu, a former founding designer at Cursor, uses a working journal demo to show how design decisions slip into an AI-generated answer and how a good tool lets you change them. Recorded at AI Engineer Shanghai on November 5, 2026. Choose Settings → Audio track to hear the original Mandarin or the AI-generated English dub, produced with Ryo’s permission. The slides ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How We Took an AI Agent From 41% to 97% Accurate - Milind Sunil Shah, Brainbase Labs",
-          "url": "https://www.youtube.com/watch?v=4VmugsE-iP0",
-          "published": "2026-11-05T09:00:12+00:00",
-          "content_snippet": "Milind Sunil Shah of Brainbase Labs walks through a six-step framework for improving back-office agents, using a Domino's project that tracks competitors' pizza prices across websites and delivery apps. From version 1 to version 11, accuracy went from 41% to 97%, cost per source halved from $2 to $1, and run time fell from 129 to 71 minutes, all through instructions, skills and playbooks rather than a new model. The steps: kickoff, ontology, benchmarks and evals, a narrow first agent, iteration,",
+          "title": "7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=EtZwTYahfek",
+          "published": "2026-11-06T10:00:00+00:00",
+          "content_snippet": "Philipp Schmid of Google DeepMind shows how to build an autonomous AI coworker for finance with Gemini and the Gemini API's Managed Agents. He breaks a coworker down into seven needs (a brain, a computer, playbooks, tools, credentials, house rules and a schedule) and builds each one: skills and files in the agent's own sandbox, built-in tools and MCP servers, credentials swapped in by a network proxy so a prompt injection can't steal them, hooks for approvals, and cron triggers. He finishes with",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Making Your Customers Click Approve - Emil Chetty, Wise",
-          "url": "https://www.youtube.com/watch?v=V2UqEUA8NjM",
-          "published": "2026-11-05T08:00:07+00:00",
-          "content_snippet": "Emil Chetty, who leads data and AI product at Wise, argues that AI assistants have turned customers into an approval queue. Wise moved $243 billion across borders last year for nearly 19 million customers under more than 80 licenses, so every payment needs proof of what the customer actually authorized. His answer: the customer agrees to the whole job once, as a locked agreement; the agent chooses the steps; and Wise's existing payment software enforces the terms, so even an agent tricked by a p",
+          "title": "Your AI Isn't the Advantage. Your Judgment Is - Sid Pednekar",
+          "url": "https://www.youtube.com/watch?v=C2-v6wkHXhY",
+          "published": "2026-11-06T09:00:15+00:00",
+          "content_snippet": "Sid Pednekar, an AI, technology and data executive in asset management, looks at why most companies now have AI but only a few see real results from it. Following two hypothetical firms, he lays out three things the leaders do differently: they pick the right problem and invest deeply in a few high-value workflows instead of scattering pilots, they build shared capabilities by standardizing the core and breaking down silos, and they make every success and failure feed back into the system. Runni",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Our Smaller Model Beat Opus on Finance Tasks - Alexander Shevchenko, Ramp",
-          "url": "https://www.youtube.com/watch?v=T-42NrYjwxM",
-          "published": "2026-11-04T22:00:34+00:00",
-          "content_snippet": "Alexander Shevchenko of Ramp Labs explains why an application company still runs applied research instead of waiting for the next frontier model. He walks through three projects now in production: a post-trained Qwen 3.5 model that beat Opus 4.6 on financial question answering at Haiku-level latency, KV cache \"cartridges\" that pack 20 to 30 times more context into an agent ahead of time for tasks like month-end close, and swarms of 10,000 parallel agents that pen-tested Ramp and found seven high",
+          "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI",
+          "url": "https://www.youtube.com/watch?v=SUqQlvyI3N8",
+          "published": "2026-11-06T08:00:37+00:00",
+          "content_snippet": "Sparsh Jain, Head of AI at CentralAgent AI, argues that giving AI agents more memory isn't the same as helping them learn. After his team worked with the same agent for two years and it still repeated the same mistakes, they rebuilt memory as an experiential system: forming notes from new experiences, updating or deactivating old ones, keeping inactive notes as a record of how a judgment was reached, and forgetting what no longer matters, with a regular cleanup loop that works like a good night'",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Labs Will Trap You or Replace You - Dillon Rolnick, Nous Research",
-          "url": "https://www.youtube.com/watch?v=Sg6vtKOAOQ0",
-          "published": "2026-11-04T21:00:12+00:00",
-          "content_snippet": "Dillon Rolnick, CEO of Nous Research, argues that as AI models commoditize, the labs that spent trillions building them have two ways to earn it back: lock businesses into their platforms and raise prices, or point their own systems at lucrative industries like finance and compete directly. He makes the case that the moats of proprietary software are gone, that agents are closer to operating systems than chatbots, and that companies should build on open foundations they own and control, like Her",
+          "title": "AI Agents Will Upend Investing Even More Than Coding - Frank Long, Coatue",
+          "url": "https://www.youtube.com/watch?v=AYFcmnQrZCg",
+          "published": "2026-11-06T00:00:09+00:00",
+          "content_snippet": "Frank Long of Coatue, a technology investment firm across public and private markets, bets that agents will have an even bigger impact on investing than they did on coding. He frames a hedge fund as a function that takes in outside and inside context and returns what to buy, how much and when, then breaks it into gather, analyze and decide steps. Using Korean-language semiconductor news as a case study, he shows how each step can be run by code, statistics, an LLM or a person, why every one of t",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Robots Will Be Trained on Video Games - Pim de Witte, General Intuition",
-          "url": "https://www.youtube.com/watch?v=MpkARD5pq-M",
-          "published": "2026-11-04T20:00:37+00:00",
-          "content_snippet": "Pim de Witte of General Intuition, the team behind the Medal game recorder, argues that models built to act in space and time need a different design than LLMs, which work turn by turn. His models take in frames and send out actions continuously, the way a gamer plays. Because game controllers already run most robots, Medal's game clips (about a billion videos a year and over 1.5 trillion action tokens a month) become training data, and one model can play games at a high level and control more t",
+          "title": "Stop Giving Your AI Agents API Keys - Kim Maida, Keycard & Mason Egger, Temporal",
+          "url": "https://www.youtube.com/watch?v=YqJ4asgj1R8",
+          "published": "2026-11-05T21:00:16+00:00",
+          "content_snippet": "Kim Maida of Keycard and Mason Egger of Temporal show how to build AI agents that are both secure and reliable. Kim replaces shared API keys with OAuth token exchange, so every tool call gets a short-lived token scoped to that one call and tied to both the agent's identity and the user it's acting for, building it live on an expense-approval agent with a full audit trail of who filed and approved what. Mason then uses Temporal's durable execution to kill an agent mid-task and bring it back exact",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How Netflix Evaluates AI When There's No Right Answer - Cameron Wolfe, Netflix",
+          "url": "https://www.youtube.com/watch?v=zLc8zeGeNaY",
+          "published": "2026-11-05T20:00:25+00:00",
+          "content_snippet": "Cameron Wolfe, a staff research scientist at Netflix and author of the Deep (Learning) Focus newsletter, lays out a three-part framework for evaluating tasks with no single right answer, like creative writing. Human evaluation with calibrated guidelines is the North Star; LLM judges and rubrics, checked against human \"golden\" data, scale up offline evals; and A/B tests and production monitoring confirm results in the real world. Along the way he covers fighting noise with power analysis, error b",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -383,5 +354,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 19
+  "deduped_count": 23
 }
