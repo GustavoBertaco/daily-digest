@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-06T16:55:35Z",
+  "fetched_at": "2026-11-07T15:54:44Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -28,7 +28,7 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 3,
+        "The Pragmatic Engineer": 2,
         "Meta Engineering": 1
       }
     },
@@ -56,37 +56,35 @@
       ],
       "items": [
         {
-          "title": "Stop Hiring Geniuses",
-          "url": "https://www.youtube.com/watch?v=lOVjnrL35tg",
-          "published": "2026-11-06T16:37:05+00:00",
-          "content_snippet": "The team behind this is Grusha Agarwal, George Newman and Rachel Ruttan at Toronto's Rotman School. In their sample of postings, \"genius,\" \"visionary\" and \"unique\" showed up more than twice as often as \"curious,\" \"observant\" and \"experimental.\" When they asked more than 300 hiring managers to write a creative job posting from scratch, most of them reached for the genius language too. Agarwal, G. (2026). Seeking creative explorers: How dispelling genius myths enhances organizational recruiting. A",
+          "title": "How to Rewrite Yourself",
+          "url": "https://www.youtube.com/watch?v=N1M2O8gHJS4",
+          "published": "2026-11-06T22:17:07+00:00",
+          "content_snippet": "Shopify CEO Tobi Lütke used to be terrified of public speaking. To overcome it, he used a simple habit: writing out his goal in the present tense, as if it were already true, over and over again. Listen to the full episode to hear how Tobi uses affirmations to fast-track his goals.",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "4 Ways Smart People Fool Themselves",
+          "url": "https://www.youtube.com/watch?v=QYYk12oTdOo",
+          "published": "2026-11-07T14:00:09+00:00",
+          "content_snippet": "Leon Rozenblit and Frank Keil at Yale asked people how well they understood everyday objects — a zipper, a flush toilet, a bicycle. Confidence was high. Then they asked for a step-by-step explanation of how the thing actually works. Confidence collapsed, immediately and often embarrassingly. They called it the illusion of explanatory depth, and the only way it ever surfaces is when you try to explain. Number four is the darker one. Dan Kahan at Yale handed people a data set to interpret. When th",
           "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "The laws of the universe are unable to explain these origin mysteries | Paul Davies: Full Interview",
-          "url": "https://www.youtube.com/watch?v=e41IyOlfj7I",
-          "published": "2026-11-06T14:00:30+00:00",
-          "content_snippet": "The Big Think Interview is brought to you by Pangram, the most accurate AI detector on the market. Visit https://www.pangram.com/big-think to try it for free. Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-davies-e41IyOlfj7I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "One-way doors vs. two-way doors | Dambisa Moyo",
-          "url": "https://www.youtube.com/watch?v=112zzmKAfno",
-          "published": "2026-11-05T20:02:08+00:00",
-          "content_snippet": "One-way doors vs. two-way doors | Dambisa Moyo @DambisaMoyo Dambisa Moyo is an economist, a member of the UK House of Lords and the author of Dead Aid. In this clip from Big Think+, she explains the difference between decisions you can't reverse and ones you can walk back out of, and why the reversible ones make it easier to take bets. Watch her Big Think+ class here: https://bigthink.com/plus/paths/7304-financial-fundamentals-for-leaders/lessons/69998-financial-fundamentals-for-leaders/?utm_sou",
+          "title": "How fast was T. Rex? | Steve Brusatte",
+          "url": "https://www.youtube.com/watch?v=Ms89FF_Jo3E",
+          "published": "2026-11-06T17:08:30+00:00",
+          "content_snippet": "How fast was T. Rex? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains how fast T. rex could actually move. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short01",
           "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -117,13 +115,15 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Analytics Engineering Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Data Engineering Weekly",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Analytics Engineering Podcast": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -141,118 +141,73 @@
       ],
       "items": [
         {
-          "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
-          "published": "2026-11-06T14:00:00+00:00",
-          "content_snippet": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different reservation offerings such as On-Demand Capacity Reservations (ODCRs), interruptible Capacity Reservations, and Capacity Blocks for ML. Previously, a Capacity Reservation Resource Group could only include ODCRs. Now you can add any type of Capacity Reservation to a Capacity Reservation Resource Grou",
+          "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+          "published": "2026-11-06T22:47:00+00:00",
+          "content_snippet": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-to",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
-          "published": "2026-11-06T00:30:00+00:00",
-          "content_snippet": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources. Security Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no additional configuration. The SBOM page lists each package with its ve",
+          "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+          "published": "2026-11-06T19:48:00+00:00",
+          "content_snippet": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your organization a central catalog for organizing, curating, and discovering resources. You can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry, and control what becomes discoverable through an approval workflow. People and AI agents can then find the right tools a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/",
-          "published": "2026-11-05T21:30:00+00:00",
-          "content_snippet": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS. AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing m",
+          "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
+          "published": "2026-11-06T16:00:00+00:00",
+          "content_snippet": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Provisioned clusters. MSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication infrastructure or configure open-source tools. With MSK Replicator,",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing Web Answer on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
-          "published": "2026-11-05T20:56:00+00:00",
-          "content_snippet": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call, so agent builders can attach it to an agent and get back a finished answer grounded in current web sources, without building and maintaining their own search, retrieve, synthesis, and citation pipeline. Web Answer builds on Web Search on Amazon Bedrock AgentCore, which launched",
+          "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+          "published": "2026-11-06T16:00:00+00:00",
+          "content_snippet": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types . Once you opt in through a database parameter, this enhancement applies when ingesting structured or semi-structured data from JSON, PARQUET, TEXT, and CSV source files, and when transforming data through extract load and transform (ELT) processes. Previously, individual strings within SUPER data types were limited to 65,535 bytes. Storing large individual strings in the SUPER data type helps avoid co",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
-          "published": "2026-11-05T20:00:00+00:00",
-          "content_snippet": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where no AWS Region exists today. With this launch, you can create an AWS Network Load Balancer directly in the Phoenix Local Zone. Previously, if your targets ran in the Phoenix Local Zone, you had to place the load balancer in ",
+          "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+          "published": "2026-11-06T15:00:00+00:00",
+          "content_snippet": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the amortized cost of each instance launched into a Capacity Block and the amortized cost of unused capacity, so you can attribute your upfront fee to the workloads that used it and identify capacity that went unused. Previously, a Capacity Block's upfront fee appeared as a single charge on the purchase ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon DynamoDB now supports bulk put items",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
-          "published": "2026-11-05T18:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applications use data that other systems produce and store in Amazon S3. Writing this data into existing DynamoDB tables has typically meant building custom pipelines and managing table capacity. With bulk put items, developers and data engineers can write this data without impacting existing workloads or bu",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
-          "published": "2026-11-05T18:00:00+00:00",
-          "content_snippet": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on Essentials and Lite stay at the 99.9% Service Commitment with no change to their terms. To qualify for the 99.99% Service Commitment, you can switch a user pool to the Plus feature plan using the AWS Management Console, A",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
-          "published": "2026-11-05T17:38:00+00:00",
-          "content_snippet": "AWS Identity and Access Management (IAM) Roles Anywhere now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks in sync with your certificate authority (CA) and can help improve your security posture. When you enable this capability on a trust anchor, IAM Roles Anywhere reads the CDP URLs embedded in authenticating certificates, downloads the corresponding CRLs, and denies credential requests that use revoke",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
-          "published": "2026-11-05T17:00:00+00:00",
-          "content_snippet": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an agent session from start to finish, find the step that failed or slowed down, and check the related logs without switching tools. The optimized engine maps OpenTelemetry logs and traces to object, nested, and flat object fields, with support for multi-valued arrays. Span events, span links, prompts, an",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
-          "published": "2026-11-05T15:39:00+00:00",
-          "content_snippet": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of 12,000 IOPS. The FSx for Lustre Intelligent-Tiering storage class delivers the lowest-cost and only fully elastic Lustre file storage in the cloud. It is optimized for workloads that mix hot and cold data and do not require consistent SSD-level performance. A file system's metadata IOPS determine how man",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How public sector organizations can govern AI at scale",
-          "url": "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale",
-          "published": "2026-11-06T15:14:29+00:00",
-          "content_snippet": "Every government CIO has the same mandate right now: adopt AI, move faster, do more...",
+          "title": "Read, don't copy: replacing file feeds with OpenSharing - Part 2 (How to Implement)",
+          "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-feeds-opensharing-part-2-how-implement",
+          "published": "2026-11-06T22:13:00+00:00",
+          "content_snippet": "Many data-sharing architectures begin with a familiar pattern: A provider exports...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "A builder’s guide to scaling Databricks Apps",
-          "url": "https://www.databricks.com/blog/builders-guide-scaling-databricks-apps",
-          "published": "2026-11-05T18:00:00+00:00",
-          "content_snippet": "Congratulations, you've built an app on Databricks Apps, and it's gone from a couple...",
+          "title": "Read, don't copy: replacing file and API feeds with OpenSharing - Part 1 (The Why)",
+          "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-and-api-feeds-opensharing-part-1-why",
+          "published": "2026-11-06T22:10:00+00:00",
+          "content_snippet": "If you ingest data from your customers over SFTP or APIs, you have probably asked...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
-          "url": "https://www.youtube.com/watch?v=44GBqQGc-v0",
-          "published": "2026-11-04T17:27:07+00:00",
-          "content_snippet": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver self-serve analytics across Figma,” says Sharath Chandra, who leads Data Engineering. Watch Sharath expl",
+          "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+          "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+          "published": "2026-11-06T21:11:34+00:00",
+          "content_snippet": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://openai.com/index/lifeval/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -287,64 +242,55 @@
       ],
       "items": [
         {
-          "title": "When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor | AI Engineer Shanghai",
-          "url": "https://www.youtube.com/watch?v=y9Sg--RDtks",
-          "published": "2026-11-06T14:44:57+00:00",
-          "content_snippet": "Ask an AI to build a journal and it might give you mood scores, streaks, daily reminders, and weekly reports. Which would you keep? Ryo Lu, a former founding designer at Cursor, uses a working journal demo to show how design decisions slip into an AI-generated answer and how a good tool lets you change them. Recorded at AI Engineer Shanghai on November 5, 2026. Choose Settings → Audio track to hear the original Mandarin or the AI-generated English dub, produced with Ryo’s permission. The slides ",
+          "title": "How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere",
+          "url": "https://www.youtube.com/watch?v=maitMe9HCvw",
+          "published": "2026-11-07T08:00:33+00:00",
+          "content_snippet": "Nouha Dziri, a senior research scientist at Cohere, shares research on teams of coding agents, where a lead splits up the work and workers explore, build and check in parallel. Teams can beat a single agent on long software tasks but cost several times more, so across hundreds of experiments on ProgramBench and Commit0 she maps where extra workers actually pay off: delegate the stage where the task is stuck, use a lead that waits for its workers instead of running ahead, and pair a strong lead w",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind",
-          "url": "https://www.youtube.com/watch?v=EtZwTYahfek",
-          "published": "2026-11-06T10:00:00+00:00",
-          "content_snippet": "Philipp Schmid of Google DeepMind shows how to build an autonomous AI coworker for finance with Gemini and the Gemini API's Managed Agents. He breaks a coworker down into seven needs (a brain, a computer, playbooks, tools, credentials, house rules and a schedule) and builds each one: skills and files in the agent's own sandbox, built-in tools and MCP servers, credentials swapped in by a network proxy so a prompt injection can't steal them, hooks for approvals, and cron triggers. He finishes with",
+          "title": "AI Can't Make Up a Number It Can't Look Up - Vinoo Ganesh, Kepler",
+          "url": "https://www.youtube.com/watch?v=RdQCY_-SXbA",
+          "published": "2026-11-07T08:00:25+00:00",
+          "content_snippet": "Vinoo Ganesh, CEO and co-founder of Kepler and former head of business engineering at Citadel, explains why Wall Street still doesn't trust AI and how to build systems it can. He breaks wrong numbers into three causes (the wrong document, the wrong number from the right document, and models doing math) and shows Kepler's approach: code extracts every fact ahead of time and gives it an ID, the model plans and points to those IDs instead of writing numbers itself, and anything it can't resolve get",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Isn't the Advantage. Your Judgment Is - Sid Pednekar",
-          "url": "https://www.youtube.com/watch?v=C2-v6wkHXhY",
-          "published": "2026-11-06T09:00:15+00:00",
-          "content_snippet": "Sid Pednekar, an AI, technology and data executive in asset management, looks at why most companies now have AI but only a few see real results from it. Following two hypothetical firms, he lays out three things the leaders do differently: they pick the right problem and invest deeply in a few high-value workflows instead of scattering pilots, they build shared capabilities by standardizing the core and breaking down silos, and they make every success and failure feed back into the system. Runni",
+          "title": "How Agents Cut Hour-Long Data Checks to 5 Minutes - Amol Kapoor & Clifford Ressel, Nori Agentic",
+          "url": "https://www.youtube.com/watch?v=kIlVNGZZr8o",
+          "published": "2026-11-07T07:00:18+00:00",
+          "content_snippet": "Amol Kapoor and Clifford Ressel of Nori Agentic show how cloud agents can keep an asset manager's security master database clean, especially as more money moves into private assets whose details live in PDFs, emails and call notes. Cliff explains what a security master is and why private assets break the usual identifiers, then Amol walks through work with a Fortune 200 asset manager, where every changed cell used to take an hour of manual checking. Now an agent investigates each change, cites i",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI",
-          "url": "https://www.youtube.com/watch?v=SUqQlvyI3N8",
-          "published": "2026-11-06T08:00:37+00:00",
-          "content_snippet": "Sparsh Jain, Head of AI at CentralAgent AI, argues that giving AI agents more memory isn't the same as helping them learn. After his team worked with the same agent for two years and it still repeated the same mistakes, they rebuilt memory as an experiential system: forming notes from new experiences, updating or deactivating old ones, keeping inactive notes as a record of how a judgment was reached, and forgetting what no longer matters, with a regular cleanup loop that works like a good night'",
+          "title": "Your AI Agent Is Hiding Its Mistakes From You - Ben Holmes, Warp",
+          "url": "https://www.youtube.com/watch?v=pz74r-4dGfQ",
+          "published": "2026-11-06T22:00:01+00:00",
+          "content_snippet": "Ben Holmes of Warp shows how to build agents that improve their own setup by reviewing their past work. He walks through collecting every agent conversation with its tool calls and outputs in one place, scoring them with LLM-as-judge rubrics for redundant tests, verbosity and efficiency, and running a daily agent that finds patterns in the failures and opens pull requests to fix skills and config. Along the way he shows how agents quietly work around broken instructions without telling you, and ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Agents Will Upend Investing Even More Than Coding - Frank Long, Coatue",
-          "url": "https://www.youtube.com/watch?v=AYFcmnQrZCg",
-          "published": "2026-11-06T00:00:09+00:00",
-          "content_snippet": "Frank Long of Coatue, a technology investment firm across public and private markets, bets that agents will have an even bigger impact on investing than they did on coding. He frames a hedge fund as a function that takes in outside and inside context and returns what to buy, how much and when, then breaks it into gather, analyze and decide steps. Using Korean-language semiconductor news as a case study, he shows how each step can be run by code, statistics, an LLM or a person, why every one of t",
+          "title": "Your Old Prompts Are Making Claude Worse - Lance Martin, Anthropic",
+          "url": "https://www.youtube.com/watch?v=ys6YQ2yfBpM",
+          "published": "2026-11-06T21:00:18+00:00",
+          "content_snippet": "Lance Martin of Anthropic shares simple fixes that get more out of frontier models, often improving quality and cutting cost at the same time. He covers auditing prompts for outdated habits like \"think step by step\" and contradictory rules, using the prompt cache properly (cutting costs up to 72% on internal benchmarks), designing evals Claude can actually climb, and hill climbing without overfitting, including a run that cut cost 90% while improving performance by switching to a stronger model ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Stop Giving Your AI Agents API Keys - Kim Maida, Keycard & Mason Egger, Temporal",
-          "url": "https://www.youtube.com/watch?v=YqJ4asgj1R8",
-          "published": "2026-11-05T21:00:16+00:00",
-          "content_snippet": "Kim Maida of Keycard and Mason Egger of Temporal show how to build AI agents that are both secure and reliable. Kim replaces shared API keys with OAuth token exchange, so every tool call gets a short-lived token scoped to that one call and tied to both the agent's identity and the user it's acting for, building it live on an expense-approval agent with a full audit trail of who filed and approved what. Mason then uses Temporal's durable execution to kill an agent mid-task and bring it back exact",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "How Netflix Evaluates AI When There's No Right Answer - Cameron Wolfe, Netflix",
-          "url": "https://www.youtube.com/watch?v=zLc8zeGeNaY",
-          "published": "2026-11-05T20:00:25+00:00",
-          "content_snippet": "Cameron Wolfe, a staff research scientist at Netflix and author of the Deep (Learning) Focus newsletter, lays out a three-part framework for evaluating tasks with no single right answer, like creative writing. Human evaluation with calibrated guidelines is the North Star; LLM judges and rubrics, checked against human \"golden\" data, scale up offline evals; and A/B tests and production monitoring confirm results in the real world. Along the way he covers fighting noise with power analysis, error b",
+          "title": "How We Mapped a 35-Million-Line Mainframe in 4 Days - Stephen Chin, Neo4j & Neeraj Deshmukh, Blitzy",
+          "url": "https://www.youtube.com/watch?v=oWqsBuhRRZ4",
+          "published": "2026-11-06T20:00:10+00:00",
+          "content_snippet": "Stephen Chin of Neo4j and Neeraj Deshmukh of Blitzy show why AI struggles to modernize the decades-old systems underneath banks and insurers, and how a knowledge graph fixes it. Using a COBOL interest calculation as the running example, they explain that AI can convert a formula but misses the batch jobs, data layouts and other places the logic is used, and that bigger context windows don't solve it. They walk through Blitzy's approach of mapping the whole codebase as a graph, giving thousands o",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -354,5 +300,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 23
+  "deduped_count": 21
 }
