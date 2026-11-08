@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T15:54:44Z",
+  "fetched_at": "2026-11-08T16:18:12Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "“Prototyping is a whole different game now”",
+          "url": "https://www.youtube.com/watch?v=BBdkmPFYnC0",
+          "published": "2026-11-07T16:00:09+00:00",
+          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -28,7 +38,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Meta Engineering": 1
       }
     },
@@ -56,35 +65,28 @@
       ],
       "items": [
         {
-          "title": "How to Rewrite Yourself",
-          "url": "https://www.youtube.com/watch?v=N1M2O8gHJS4",
-          "published": "2026-11-06T22:17:07+00:00",
-          "content_snippet": "Shopify CEO Tobi Lütke used to be terrified of public speaking. To overcome it, he used a simple habit: writing out his goal in the present tense, as if it were already true, over and over again. Listen to the full episode to hear how Tobi uses affirmations to fast-track his goals.",
+          "title": "Taste is a Superpower",
+          "url": "https://www.youtube.com/watch?v=Sj9PWdDZN2k",
+          "published": "2026-11-07T22:46:30+00:00",
+          "content_snippet": "Shopify CEO Tobi Lütke reveals the 2 skills that will matter most 10 years from now: 1. Taste 2. Judgment Both have always been valuable. Now they'll be pushed to the limit. The good news, he says: taste can be developed, and it has never been easier to start.",
           "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "4 Ways Smart People Fool Themselves",
-          "url": "https://www.youtube.com/watch?v=QYYk12oTdOo",
-          "published": "2026-11-07T14:00:09+00:00",
-          "content_snippet": "Leon Rozenblit and Frank Keil at Yale asked people how well they understood everyday objects — a zipper, a flush toilet, a bicycle. Confidence was high. Then they asked for a step-by-step explanation of how the thing actually works. Confidence collapsed, immediately and often embarrassingly. They called it the illusion of explanatory depth, and the only way it ever surfaces is when you try to explain. Number four is the darker one. Dan Kahan at Yale handed people a data set to interpret. When th",
+          "title": "The Preschooler Drawing Experiment",
+          "url": "https://www.youtube.com/watch?v=7jL_ok_iUVs",
+          "published": "2026-11-08T14:00:25+00:00",
+          "content_snippet": "The danger was never the reward. It was the promise. The moment something you love becomes something you're owed for, the love quietly leaves. The detail that makes it land: it wasn't the prize that did the damage. The children who got a surprise reward afterward kept drawing as much as ever. Only the ones who knew about the prize in advance lost interest, and they spent roughly half as much free time drawing two weeks later. Lepper, M. R., Greene, D., & Nisbett, R. E. (1973). Undermining childr",
           "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How fast was T. Rex? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=Ms89FF_Jo3E",
-          "published": "2026-11-06T17:08:30+00:00",
-          "content_snippet": "How fast was T. Rex? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains how fast T. rex could actually move. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short01",
-          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "Big Think": 3
+      }
     },
     {
       "name": "Data Platform",
@@ -139,83 +141,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
-          "published": "2026-11-06T22:47:00+00:00",
-          "content_snippet": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-to",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
-          "published": "2026-11-06T19:48:00+00:00",
-          "content_snippet": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your organization a central catalog for organizing, curating, and discovering resources. You can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry, and control what becomes discoverable through an approval workflow. People and AI agents can then find the right tools a",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
-          "published": "2026-11-06T16:00:00+00:00",
-          "content_snippet": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Provisioned clusters. MSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication infrastructure or configure open-source tools. With MSK Replicator,",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
-          "published": "2026-11-06T16:00:00+00:00",
-          "content_snippet": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types . Once you opt in through a database parameter, this enhancement applies when ingesting structured or semi-structured data from JSON, PARQUET, TEXT, and CSV source files, and when transforming data through extract load and transform (ELT) processes. Previously, individual strings within SUPER data types were limited to 65,535 bytes. Storing large individual strings in the SUPER data type helps avoid co",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
-          "published": "2026-11-06T15:00:00+00:00",
-          "content_snippet": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the amortized cost of each instance launched into a Capacity Block and the amortized cost of unused capacity, so you can attribute your upfront fee to the workloads that used it and identify capacity that went unused. Previously, a Capacity Block's upfront fee appeared as a single charge on the purchase ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Read, don't copy: replacing file feeds with OpenSharing - Part 2 (How to Implement)",
-          "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-feeds-opensharing-part-2-how-implement",
-          "published": "2026-11-06T22:13:00+00:00",
-          "content_snippet": "Many data-sharing architectures begin with a familiar pattern: A provider exports...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Read, don't copy: replacing file and API feeds with OpenSharing - Part 1 (The Why)",
-          "url": "https://www.databricks.com/blog/read-dont-copy-replacing-file-and-api-feeds-opensharing-part-1-why",
-          "published": "2026-11-06T22:10:00+00:00",
-          "content_snippet": "If you ingest data from your customers over SFTP or APIs, you have probably asked...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
-          "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
-          "published": "2026-11-06T21:11:34+00:00",
-          "content_snippet": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://openai.com/index/lifeval/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -227,7 +164,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 2
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -242,55 +181,55 @@
       ],
       "items": [
         {
-          "title": "How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere",
-          "url": "https://www.youtube.com/watch?v=maitMe9HCvw",
-          "published": "2026-11-07T08:00:33+00:00",
-          "content_snippet": "Nouha Dziri, a senior research scientist at Cohere, shares research on teams of coding agents, where a lead splits up the work and workers explore, build and check in parallel. Teams can beat a single agent on long software tasks but cost several times more, so across hundreds of experiments on ProgramBench and Commit0 she maps where extra workers actually pay off: delegate the stage where the task is stuck, use a lead that waits for its workers instead of running ahead, and pair a strong lead w",
+          "title": "How Financial Planners With Zero Coding Experience Built Their Own Agents - Matt Ragone, Range",
+          "url": "https://www.youtube.com/watch?v=EaOit1mmR9g",
+          "published": "2026-11-08T08:00:14+00:00",
+          "content_snippet": "Matt Ragone is a financial planner at Range, an all-in-one wealth management firm, not an engineer. He leads AI adoption for its planning team and shares the step-by-step method non-technical planners used to build their own agents and skills. With standardized processes and client data already in one place, the team could have an agent draft cash flow analyses, insurance reviews and tax reviews while planners are on calls with other clients, with a certified financial planner reviewing everythi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "AI Can't Make Up a Number It Can't Look Up - Vinoo Ganesh, Kepler",
-          "url": "https://www.youtube.com/watch?v=RdQCY_-SXbA",
-          "published": "2026-11-07T08:00:25+00:00",
-          "content_snippet": "Vinoo Ganesh, CEO and co-founder of Kepler and former head of business engineering at Citadel, explains why Wall Street still doesn't trust AI and how to build systems it can. He breaks wrong numbers into three causes (the wrong document, the wrong number from the right document, and models doing math) and shows Kepler's approach: code extracts every fact ahead of time and gives it an ID, the model plans and points to those IDs instead of writing numbers itself, and anything it can't resolve get",
+          "title": "Your Coding Agent Can't Undo Its Own Mistakes - Tanmay Sah & Dolly Sah",
+          "url": "https://www.youtube.com/watch?v=BT1Mo-fD-g0",
+          "published": "2026-11-08T08:00:03+00:00",
+          "content_snippet": "Tanmay Sah and Dolly Sah look at a capability today's coding agents are missing: undoing what they've done. Drawing on their research projects UndoBench and EvoUndo, they show that an agent that completes a task can't necessarily put things back when something breaks, because Git doesn't cover external API calls, runtime config or notifications, and retrying doesn't reverse side effects. In EvoUndo, 197 of 478 changes that made an agent more capable (about 42%) also broke its ability to recover.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How Agents Cut Hour-Long Data Checks to 5 Minutes - Amol Kapoor & Clifford Ressel, Nori Agentic",
-          "url": "https://www.youtube.com/watch?v=kIlVNGZZr8o",
-          "published": "2026-11-07T07:00:18+00:00",
-          "content_snippet": "Amol Kapoor and Clifford Ressel of Nori Agentic show how cloud agents can keep an asset manager's security master database clean, especially as more money moves into private assets whose details live in PDFs, emails and call notes. Cliff explains what a security master is and why private assets break the usual identifiers, then Amol walks through work with a Fortune 200 asset manager, where every changed cell used to take an hour of manual checking. Now an agent investigates each change, cites i",
+          "title": "Your Company Has No Model of Itself. Agents Can Build One - Joao Wenzel, Citadel Securities",
+          "url": "https://www.youtube.com/watch?v=jDwc0aXTAFg",
+          "published": "2026-11-08T07:00:36+00:00",
+          "content_snippet": "Every company has someone who knows everything: the reorgs, the politics, which projects are really on track. Joao Wenzel of Citadel Securities explains how his team approximates that person with an agentic system that builds an institutional memory from decks, Slack, meeting notes, code changes and agent traces. Borrowing the idea of a state estimator from robotics, the system updates its beliefs as evidence arrives, lets facts age, grades its own predictions against what actually happened, and",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your AI Agent Is Hiding Its Mistakes From You - Ben Holmes, Warp",
-          "url": "https://www.youtube.com/watch?v=pz74r-4dGfQ",
-          "published": "2026-11-06T22:00:01+00:00",
-          "content_snippet": "Ben Holmes of Warp shows how to build agents that improve their own setup by reviewing their past work. He walks through collecting every agent conversation with its tool calls and outputs in one place, scoring them with LLM-as-judge rubrics for redundant tests, verbosity and efficiency, and running a daily agent that finds patterns in the failures and opens pull requests to fix skills and config. Along the way he shows how agents quietly work around broken instructions without telling you, and ",
+          "title": "Don't Vibe Code Your Agent Infrastructure - Akshat Bubna, Modal",
+          "url": "https://www.youtube.com/watch?v=_0SQh8a1Osk",
+          "published": "2026-11-07T20:00:13+00:00",
+          "content_snippet": "Akshat Bubna, CTO of Modal, explains what AI agents actually need from the infrastructure underneath them, starting with a spreadsheet where every cell is backed by its own agent. He walks through the building blocks: a workspace for each agent, state that persists for days without paying for idle compute, resources that stretch and shrink as the agent works, GPUs on demand, shared file systems for agents that collaborate, network controls that keep credentials and data from leaking, and observa",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Old Prompts Are Making Claude Worse - Lance Martin, Anthropic",
-          "url": "https://www.youtube.com/watch?v=ys6YQ2yfBpM",
-          "published": "2026-11-06T21:00:18+00:00",
-          "content_snippet": "Lance Martin of Anthropic shares simple fixes that get more out of frontier models, often improving quality and cutting cost at the same time. He covers auditing prompts for outdated habits like \"think step by step\" and contradictory rules, using the prompt cache properly (cutting costs up to 72% on internal benchmarks), designing evals Claude can actually climb, and hill climbing without overfitting, including a run that cut cost 90% while improving performance by switching to a stronger model ",
+          "title": "Build Your Own Finance Agent Inside ChatGPT - Stefano Fabbri & Oliver Steffmann, OpenAI",
+          "url": "https://www.youtube.com/watch?v=ZJjRgvjhq3M",
+          "published": "2026-11-07T19:00:33+00:00",
+          "content_snippet": "Stefano Fabbri and Oliver Steffmann of OpenAI's applied AI team run a hands-on workshop on building financial workflows with ChatGPT Work and Codex. They show ChatGPT for financial services, with built-in market data, filings and earnings transcripts from partners like LSEG, PitchBook and Daloopa, plus finance plugins that bundle skills and MCP connections as a starting point. Using a wealth advisor's workflow as the example, from spotting a portfolio change to preparing the client deck, they th",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "How We Mapped a 35-Million-Line Mainframe in 4 Days - Stephen Chin, Neo4j & Neeraj Deshmukh, Blitzy",
-          "url": "https://www.youtube.com/watch?v=oWqsBuhRRZ4",
-          "published": "2026-11-06T20:00:10+00:00",
-          "content_snippet": "Stephen Chin of Neo4j and Neeraj Deshmukh of Blitzy show why AI struggles to modernize the decades-old systems underneath banks and insurers, and how a knowledge graph fixes it. Using a COBOL interest calculation as the running example, they explain that AI can convert a formula but misses the batch jobs, data layouts and other places the logic is used, and that bigger context windows don't solve it. They walk through Blitzy's approach of mapping the whole codebase as a graph, giving thousands o",
+          "title": "Your Financial Agent Needs to Show Its Work - Anirudh Veeraragavan, Fieldguide",
+          "url": "https://www.youtube.com/watch?v=gdzsJZJ6DDs",
+          "published": "2026-11-07T18:00:02+00:00",
+          "content_snippet": "Anirudh Veeraragavan, lead security engineer at Fieldguide, argues that in finance an agent getting the right answer isn't enough; you have to be able to show how it got there. Building an agent for a bank reconciliation audit, he walks through four controls that make its decisions defensible: authorization that stops an agent from overwriting work a human already reviewed, execution records that let you replay and compare individual steps, citations tied to an exact document version, and auditi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -300,5 +239,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 15
 }
