@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T16:18:12Z",
+  "fetched_at": "2026-11-09T20:03:33Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,20 +14,25 @@
       ],
       "items": [
         {
-          "title": "“Prototyping is a whole different game now”",
-          "url": "https://www.youtube.com/watch?v=BBdkmPFYnC0",
-          "published": "2026-11-07T16:00:09+00:00",
-          "content_snippet": "with Maggie Appleton, Design Engineer at GitHub Next See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
+          "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+          "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+          "published": "2026-11-09T17:01:02+00:00",
+          "content_snippet": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein . Introduction Picture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to Netflix, search for “Bridgerton” and land on this screen: If this sounds familiar, you already know what a synopsis is — it’s a short glimpse into what a viewer can expect to see in a show. We see two types of synopses here: a series-level synopsis describing the overarching plot, and multipl",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+          "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+          "published": "2026-11-09T17:00:12+00:00",
+          "content_snippet": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place. A workload can begin in a high-level framework and move back and forth between native CPU code and kernels running on a GPU",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
       "errors": [
-        {
-          "source_name": "Netflix Tech Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Airbnb Tech",
           "error": "No items returned (feed empty or all outside time window)"
@@ -38,7 +43,7 @@
         }
       ],
       "deduped_sources": {
-        "Meta Engineering": 1
+        "The Pragmatic Engineer": 1
       }
     },
     {
@@ -65,27 +70,36 @@
       ],
       "items": [
         {
-          "title": "Taste is a Superpower",
-          "url": "https://www.youtube.com/watch?v=Sj9PWdDZN2k",
-          "published": "2026-11-07T22:46:30+00:00",
-          "content_snippet": "Shopify CEO Tobi Lütke reveals the 2 skills that will matter most 10 years from now: 1. Taste 2. Judgment Both have always been valuable. Now they'll be pushed to the limit. The good news, he says: taste can be developed, and it has never been easier to start.",
-          "source_name": "The Knowledge Project Podcast",
+          "title": "The Person Beside You Knows Something You Don't!",
+          "url": "https://www.youtube.com/watch?v=G2lrFMR4JCg",
+          "published": "2026-11-09T15:49:31+00:00",
+          "content_snippet": "Nicholas Epley, who led that work at Chicago Booth, tested the same instinct years earlier on a commuter train. He and Juliana Schroeder asked Chicago commuters to strike up a conversation with the stranger sitting next to them. Those commuters reported a more pleasant trip than the ones who kept to themselves. A separate group predicted that talking would make the ride worse and that most strangers would not want to engage. Almost nobody was turned down. Epley, N., & Schroeder, J. (2014). Mista",
+          "source_name": "Daniel Pink",
           "source_type": "youtube",
           "area_name": "Personal Development"
         },
         {
-          "title": "The Preschooler Drawing Experiment",
-          "url": "https://www.youtube.com/watch?v=7jL_ok_iUVs",
-          "published": "2026-11-08T14:00:25+00:00",
-          "content_snippet": "The danger was never the reward. It was the promise. The moment something you love becomes something you're owed for, the love quietly leaves. The detail that makes it land: it wasn't the prize that did the damage. The children who got a surprise reward afterward kept drawing as much as ever. Only the ones who knew about the prize in advance lost interest, and they spent roughly half as much free time drawing two weeks later. Lepper, M. R., Greene, D., & Nisbett, R. E. (1973). Undermining childr",
-          "source_name": "Daniel Pink",
+          "title": "What is panpsychism? | Jack Symes",
+          "url": "https://www.youtube.com/watch?v=p4dAIspaKb8",
+          "published": "2026-11-09T17:07:38+00:00",
+          "content_snippet": "What is panpsychism? | Jack Symes Jack Symes is a philosopher at Durham University and the host of The Panpsycast podcast. In this clip from our full interview, he explains panpsychism, the idea that consciousness is a basic feature of the universe. Watch the full interview here: https://www.youtube.com/watch?v=S8l1jGHt_PI&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=symes-short01",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Who you are fluctuates every single second | Lisa Feldman Barrett",
+          "url": "https://www.youtube.com/watch?v=NEq_CU_weas",
+          "published": "2026-11-09T14:00:34+00:00",
+          "content_snippet": "We created this video in partnership with Unlikely Collaborators. Ask five people who you are. You might get five different — and equally true — answers. Psychologist Lisa Feldman Barrett explains. Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Psychologist Lisa Feldman Barrett argues that traits like introvert, extrovert, dismissive, or engaged aren't fixed properties sitting inside a person — they're descriptions of a relationshi",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Big Think": 3
+        "The Knowledge Project Podcast": 2
       }
     },
     {
@@ -141,20 +155,99 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
+          "published": "2026-11-09T18:30:00+00:00",
+          "content_snippet": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthropic's most advanced AI model to date for use cases across cybersecurity, software coding, and complex reasoning tasks. The model can identify sophisticated security vulnerabilities in software and demonstrate exploitability. It can also comprehend large codebases and deliver actionable findings wit",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
+          "published": "2026-11-09T18:30:00+00:00",
+          "content_snippet": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work to regulated customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recommends it for fields like software engineering, scientific research, and finance, where judgment, iteration, and accuracy are critical. Claude Mythos 5.2, the same underlying model as Claude Fable 5.2, with its full cyber and bio capabili",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+          "published": "2026-11-09T16:00:00+00:00",
+          "content_snippet": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage data is available within minutes of query completion across your workgroups and stored as service-managed, read-only Iceberg tables on Amazon S3 Tables with configurable retention. You can query it directly with Athena, while AWS manages the tables for you, including schema definition, partitioning, c",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+          "published": "2026-11-09T08:00:00+00:00",
+          "content_snippet": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs), including AI agents running inside them, in their own hardware-isolated virtual machine powered by the AWS Nitro System . Each workload gets the isolation boundary of a Nitro isolated virtual machine. This allows you to safely run untrusted, multi-tenant, or regulated workloads within the resources ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+          "published": "2026-11-09T08:00:00+00:00",
+          "content_snippet": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. With this capability, your file data in Amazon FSx is accessible for use with the broad range of artificial intelligence, machine learning, and analytics services and applications that work with S3, while your data continues to reside on your FSx file system. An S3 Access Point for Amazon FSx is an S",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
+          "published": "2026-11-09T06:00:00+00:00",
+          "content_snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and Karpenter. You can now define the device attributes your Kubernetes workloads need with DRA, share GPU devices across Pods, and allocate topology-aligned GPU and EFA devices while Amazon EKS Auto Mode and Karpenter dynamically scale Amazon EC2 instances based on workload demand. With DRA, you define Reso",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
+          "published": "2026-11-09T17:55:26+00:00",
+          "content_snippet": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you need, complete. The source stays writable except for a few minutes at cutover. The same week, Amazon DynamoDB started loading data from S3 into tables that already exist. The pattern I like is that neither one asks you to stop what’s running. That’s ",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Databricks' Commitment to European Sovereignty",
+          "url": "https://www.databricks.com/blog/databricks-commitment-european-sovereignty",
+          "published": "2026-11-09T19:40:00+00:00",
+          "content_snippet": "Over a Decade of Investment in EuropeDatabricks has been building in Europe since...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "Accelerate GPU training on Unity Catalog tables with UCDataset",
+          "url": "https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset",
+          "published": "2026-11-09T19:00:00+00:00",
+          "content_snippet": "GPUs are usually the most expensive part of any training run, and most teams can't...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Turn buying signals into pipeline with Sendoso gifts in Genie One",
+          "url": "https://www.databricks.com/blog/turn-buying-signals-pipeline-sendoso-gifts-genie-one",
+          "published": "2026-11-09T17:29:00+00:00",
+          "content_snippet": "From insight to action in Genie OneAI agents are only as useful as the actions they can take...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -165,7 +258,7 @@
         }
       ],
       "deduped_sources": {
-        "OpenAI": 2
+        "OpenAI": 1
       }
     },
     {
@@ -181,55 +274,91 @@
       ],
       "items": [
         {
-          "title": "How Financial Planners With Zero Coding Experience Built Their Own Agents - Matt Ragone, Range",
-          "url": "https://www.youtube.com/watch?v=EaOit1mmR9g",
-          "published": "2026-11-08T08:00:14+00:00",
-          "content_snippet": "Matt Ragone is a financial planner at Range, an all-in-one wealth management firm, not an engineer. He leads AI adoption for its planning team and shares the step-by-step method non-technical planners used to build their own agents and skills. With standardized processes and client data already in one place, the team could have an agent draft cash flow analyses, insurance reviews and tax reviews while planners are on calls with other clients, with a certified financial planner reviewing everythi",
+          "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+          "url": "https://www.youtube.com/watch?v=BTtyguoPvBU",
+          "published": "2026-11-09T18:00:27+00:00",
+          "content_snippet": "Ryan Carson, founder and CEO of Untangle and a four-time founder, shows how his team runs software development with agents in the cloud. One \"engineering manager\" agent, which he mostly talks to by voice, manages up to 20 builder agents through a ticket board, with an automation that checks every builder every 15 minutes, capped review loops, QA agents and a merge queue manager. The human step he won't skip is watching the video of each feature before it ships. He also explains how Untangle now ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Coding Agent Can't Undo Its Own Mistakes - Tanmay Sah & Dolly Sah",
-          "url": "https://www.youtube.com/watch?v=BT1Mo-fD-g0",
-          "published": "2026-11-08T08:00:03+00:00",
-          "content_snippet": "Tanmay Sah and Dolly Sah look at a capability today's coding agents are missing: undoing what they've done. Drawing on their research projects UndoBench and EvoUndo, they show that an agent that completes a task can't necessarily put things back when something breaks, because Git doesn't cover external API calls, runtime config or notifications, and retrying doesn't reverse side effects. In EvoUndo, 197 of 478 changes that made an agent more capable (about 42%) also broke its ability to recover.",
+          "title": "AI Engineer NYC 2026 Closing Remarks - Ksenia Se, Turing Post & swyx, AI Engineer",
+          "url": "https://www.youtube.com/watch?v=Gs4Ho0ub3a4",
+          "published": "2026-11-09T09:00:16+00:00",
+          "content_snippet": "Ksenia Se of Turing Post and swyx close out three days of AI Engineer NYC 2026, from building agents to changing how financial institutions work. They thank the speakers, sponsors and crew, and share what's next: AIE CODE, AI Engineer Europe in London in February, and the World's Fair in San Francisco next summer. Ksenia Se https://www.turingpost.com swyx Join us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Company Has No Model of Itself. Agents Can Build One - Joao Wenzel, Citadel Securities",
-          "url": "https://www.youtube.com/watch?v=jDwc0aXTAFg",
-          "published": "2026-11-08T07:00:36+00:00",
-          "content_snippet": "Every company has someone who knows everything: the reorgs, the politics, which projects are really on track. Joao Wenzel of Citadel Securities explains how his team approximates that person with an agentic system that builds an institutional memory from decks, Slack, meeting notes, code changes and agent traces. Borrowing the idea of a state estimator from robotics, the system updates its beliefs as evidence arrives, lets facts age, grades its own predictions against what actually happened, and",
+          "title": "Your KV Cache Can Spot Attacks on Your AI Agents - Ari Azarafrooz, Intrinsec AI",
+          "url": "https://www.youtube.com/watch?v=1NWnSwCB4NM",
+          "published": "2026-11-09T08:00:38+00:00",
+          "content_snippet": "Ari Azarafrooz, founder of Intrinsec AI, shows how the KV cache your inference engine already writes can double as a security signal for AI agents. Instead of only guarding inputs and outputs with judge models or a classifier for every failure, he learns a baseline from normal traffic and flags KV pages that look unusual, catching problems like a hidden spoken instruction in a voicemail where there is no text to filter. He covers where this plugs into stacks like vLLM, SGLang, LMCache, llm-d and",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Don't Vibe Code Your Agent Infrastructure - Akshat Bubna, Modal",
-          "url": "https://www.youtube.com/watch?v=_0SQh8a1Osk",
-          "published": "2026-11-07T20:00:13+00:00",
-          "content_snippet": "Akshat Bubna, CTO of Modal, explains what AI agents actually need from the infrastructure underneath them, starting with a spreadsheet where every cell is backed by its own agent. He walks through the building blocks: a workspace for each agent, state that persists for days without paying for idle compute, resources that stretch and shrink as the agent works, GPUs on demand, shared file systems for agents that collaborate, network controls that keep credentials and data from leaking, and observa",
+          "title": "Will AI Agents Pretend to Be Human to Get Past a Check? - Maty Bohacek, Stanford",
+          "url": "https://www.youtube.com/watch?v=LF8V0RGJU0I",
+          "published": "2026-11-09T08:00:35+00:00",
+          "content_snippet": "Maty Bohacek of Stanford looks at a security check we still rely on: getting on a phone or video call to prove you're human before opening an account, approving a wire or recovering access. With AI avatars that can now join Zoom calls, he tested what agents do when a human check is the only thing between them and their goal. When a voice or video cloning tool was available, many agents used it to impersonate a person, even when told not to, and safety alignment only cut the rate from 65% to 44%.",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Build Your Own Finance Agent Inside ChatGPT - Stefano Fabbri & Oliver Steffmann, OpenAI",
-          "url": "https://www.youtube.com/watch?v=ZJjRgvjhq3M",
-          "published": "2026-11-07T19:00:33+00:00",
-          "content_snippet": "Stefano Fabbri and Oliver Steffmann of OpenAI's applied AI team run a hands-on workshop on building financial workflows with ChatGPT Work and Codex. They show ChatGPT for financial services, with built-in market data, filings and earnings transcripts from partners like LSEG, PitchBook and Daloopa, plus finance plugins that bundle skills and MCP connections as a starting point. Using a wealth advisor's workflow as the example, from spotting a portfolio change to preparing the client deck, they th",
+          "title": "The One Thing Every AI Agent Framework Agrees On - Mislav Ivanda, Daytona",
+          "url": "https://www.youtube.com/watch?v=WWIFiQi9U4w",
+          "published": "2026-11-09T08:00:27+00:00",
+          "content_snippet": "Mislav Ivanda of Daytona has integrated sandboxes into most of the major agent frameworks, and noticed that frameworks that disagree on almost everything all ended up in the same place. He compares three ways to run agent-generated code: allow lists and approval prompts, embedded runtimes, and a separate sandboxed computer. He explains why only the last one keeps a compromised step from compromising your app, and shows frameworks like CrewAI, AG2 and the OpenAI Agents SDK moving to sandboxes. Hi",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Your Financial Agent Needs to Show Its Work - Anirudh Veeraragavan, Fieldguide",
-          "url": "https://www.youtube.com/watch?v=gdzsJZJ6DDs",
-          "published": "2026-11-07T18:00:02+00:00",
-          "content_snippet": "Anirudh Veeraragavan, lead security engineer at Fieldguide, argues that in finance an agent getting the right answer isn't enough; you have to be able to show how it got there. Building an agent for a bank reconciliation audit, he walks through four controls that make its decisions defensible: authorization that stops an agent from overwriting work a human already reviewed, execution records that let you replay and compare individual steps, citations tied to an exact document version, and auditi",
+          "title": "Why No One Agrees on What Their AI Tokens Cost - Pratyusha Duvvuri, Cisco",
+          "url": "https://www.youtube.com/watch?v=KdG9OSOtJOA",
+          "published": "2026-11-09T08:00:26+00:00",
+          "content_snippet": "Pratyusha Duvvuri, who led agent observability at Galileo before it became part of Cisco, asked about 100 companies what \"tokenomics\" means and got 100 different answers. She shares her definition, the observability and interpretability of token usage and cost, and why engineers, engineering managers and finance teams each need something different from it. Then she demos the tokenomics dashboard her team took from first customer call to GA in 10 weeks: spend by person and team, adoption trends, ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Training Your Own Agent Models With RL Is Now Practical - Jason Mancuso, Modal",
+          "url": "https://www.youtube.com/watch?v=3nDMYV-QHLs",
+          "published": "2026-11-09T08:00:25+00:00",
+          "content_snippet": "Jason Mancuso of Modal argues that treating models as swappable backends is a losing strategy, and that teams with agents in production already have what they need for reinforcement learning: a harness, evals and real traces. He explains why RL generalizes better than fine-tuning on recorded traces, then walks through a stable recipe for asynchronous RL built on GRPO with masked importance sampling, score centering and top-p sampling. He shows how sparse weight updates let Modal spread rollouts ",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Right Answer, Wrong Reasons: AI Forecasts Costco - Hassan El Mghari & Omar El Mghari, Together AI",
+          "url": "https://www.youtube.com/watch?v=dznCt8xPW7o",
+          "published": "2026-11-09T08:00:21+00:00",
+          "content_snippet": "Hassan El Mghari of Together AI and his father Omar, a former CFO and head of internal audit, test whether an open model can forecast a company's profits. They give GPT-OSS-120B only Costco's public filings from before its 2024 membership fee increase, have it write the financial model as structured formulas, and run 16 cheap attempts in parallel. The forecast lands within 4.4% of Costco's actual results, until an audit of the assumptions shows two errors that happened to cancel out. Their takea",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "How to Build a Software Factory That Improves Itself - Zach Lloyd, Warp",
+          "url": "https://www.youtube.com/watch?v=nKjPBAw_N_0",
+          "published": "2026-11-09T08:00:17+00:00",
+          "content_snippet": "Zach Lloyd, founder and CEO of Warp and former engineering lead on Google Docs, explains why companies are moving from engineers prompting agents on their laptops to sandboxed cloud software factories. He makes the case for treating your factory as infrastructure that's open, works with your existing tools and is defined in code. He demos Warp Factories: visibility into every agent run, LLM-judged scores, a self-improvement loop that proposes fixes to the factory itself, and benchmarks built fro",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Stop Doing Agent Archaeology on Your Team's Code - Richard Feldman, Delta",
+          "url": "https://www.youtube.com/watch?v=Enn9dVrRXAo",
+          "published": "2026-11-09T08:00:16+00:00",
+          "content_snippet": "Richard Feldman of Delta explains why handing off agent-driven work to a teammate loses so much: you get the branch and maybe a pasted transcript, but not the reasoning, the dead ends or the decisions made along the way. He demos Delta, a tool where the agent conversation, code changes, reviews and teammates all live in one shared thread. It shows @-mentioning a coworker into a thread, line-by-line code review that goes straight to the agent, live terminal sync, and instant local checkouts of a ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -239,5 +368,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 10
 }
