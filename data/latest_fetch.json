@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T17:43:45Z",
+  "fetched_at": "2026-11-13T17:21:57Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+          "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+          "published": "2026-11-13T17:00:39+00:00",
+          "content_snippet": "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product. While a lightweight emulator like Goldfish gets you part of the way, differences from the real device can hide bugs until later in development. This lack of fidelity also erodes trust in d",
+          "source_name": "Meta Engineering",
+          "source_type": "rss",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -22,8 +32,7 @@
       "deduped_sources": {
         "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1,
-        "Meta Engineering": 4
+        "Airbnb Tech": 1
       }
     },
     {
@@ -59,7 +68,25 @@
           "area_name": "Personal Development"
         },
         {
-          "title": "We keep thinking we’ve found the limit. We keep being wrong. | Matthew Nurse",
+          "title": "Why do whales make milk? | Steve Brusatte",
+          "url": "https://www.youtube.com/watch?v=huoYKP3hn5U",
+          "published": "2026-11-13T17:09:05+00:00",
+          "content_snippet": "Why do whales make milk? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains why whales, like all mammals, make milk. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short06",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "What makes life different from everything else in the universe | Adam Frank: Full Interview",
+          "url": "https://www.youtube.com/watch?v=nXsSG6tnx_Y",
+          "published": "2026-11-13T14:00:26+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=btclips-ytdesc-text-fi-frank-XTFFtA7Qc-I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Brian Cox: The quantum roots of reality | Full Interview ► https://www.youtube.com/watch?v=kO41iURud9c Descartes cut open living do",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "The body keeps exposing how much we don’t understand  | Matthew Nurse",
           "url": "https://www.youtube.com/watch?v=sxXAmPcx9C0",
           "published": "2026-11-12T15:24:19+00:00",
           "content_snippet": "We created this video in partnership with Nike. “We have so much opportunity still and so much room to grow. Science is never done.” Inside the Nike Sport Research Lab, Chief Science Officer Matthew Nurse and his team chase the questions that hold athletes back. Drawing on biomechanics, physiology and neuroscience, they start with the problems every athlete knows: fatigue, injury, the moment the body gives out. Why do female athletes face three to five times the risk of ACL injury? What can an u",
@@ -70,7 +97,7 @@
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 3
+        "Daniel Pink": 2
       }
     },
     {
@@ -152,92 +179,92 @@
       ],
       "items": [
         {
-          "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
-          "published": "2026-11-11T23:36:00+00:00",
-          "content_snippet": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, self-scaffolding agentic coding models released under the MIT license, achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo, and OpenClaw. These models ad",
+          "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
+          "published": "2026-11-13T13:13:00+00:00",
+          "content_snippet": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work before moving on. Compared with Grok 4.6, it plans and recovers from errors more reliably in repo-scale coding work. Grok 4.7 is available with experimental support and a 500K context window. Requests up to 200K tokens use a 2.7x credit multiplier, a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
-          "published": "2026-11-11T23:18:00+00:00",
-          "content_snippet": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) language models, released under the MIT license, deliver frontier-class performance across reasoning, coding, and agentic workloads while activating only a fraction of their total parameters per token, enabling high efficiency at scale. These models a",
+          "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+          "published": "2026-11-12T22:00:00+00:00",
+          "content_snippet": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the user's original token or build and maintain its own token minti",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
-          "published": "2026-11-11T21:00:00+00:00",
-          "content_snippet": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions Today, AWS announces the general availability of AWS Network Security Manager in the AWS European Sovereign Cloud Region and additional regions. Network Security Manager is a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield in AWS European Sovereign Cloud",
+          "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+          "published": "2026-11-12T19:02:00+00:00",
+          "content_snippet": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB. Graviton5-based R9g instances provide up to a 30% performance improvement and up to a 22% price-performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon Aurora, depending on database engine, version, and workload. Built on the AWS Nitro System, R9g in",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Cloud WAN now supports Flow Logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
-          "published": "2026-11-11T20:05:00+00:00",
-          "content_snippet": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving your AWS Cloud WAN account. Until now, network administrators had to stitch together VPC Flow Logs from many VPCs, accounts, and Regions to see traffic across their global network. They often depended on other teams for access to those logs. Cloud W",
+          "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+          "published": "2026-11-12T18:00:00+00:00",
+          "content_snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control is delivered through two new capabilities: IAM Identity Center integration and multi-team environments. With IAM Identity Center integration, users sign in to the Apache Airflow UI with their corporate identity provider. Authorization is evaluated pe",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
-          "published": "2026-11-11T19:45:00+00:00",
-          "content_snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the Kubernetes control plane that holds your cluster state, so its size limits how many Kubernetes objects your cluster can store. With 50% more capacity, you can run bigger clusters with more pods, jobs, events, and custom resources. The larger database gives more headroom to workloads that create and update man",
+          "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
+          "published": "2026-11-12T17:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business about the same issue more than once, or on different channels, the history can end up split across several cases. Agents can merge those cases into one case with a single, consolidated history. For example, an agent can merge the chat and email cases a customer opened about a delayed shipment. Agents ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Cognito now supports user pool session management",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-session-management/",
-          "published": "2026-11-11T19:00:00+00:00",
-          "content_snippet": "Amazon Cognito now supports session management for user pools, giving you visibility into and control over the sessions your users establish when they sign in to your applications. Single sign-on (SSO) sessions are created when a user signs in through managed login and let them access other app clients without re-authenticating. Token sessions are created when a user signs in to an app client and receives tokens. Session management lets you list a user's active SSO and token sessions across all ",
+          "title": "Amazon SNS now supports push notifications in four additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
+          "published": "2026-11-12T16:00:00+00:00",
+          "content_snippet": "Amazon Simple Notification Service (Amazon SNS) now supports sending push notifications in the Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Europe (Zurich), and AWS GovCloud (US-East) Regions. Amazon SNS is a fully managed pub/sub service that provides message delivery to multiple endpoints, including AWS Lambda, Amazon SQS, Amazon Data Firehose, HTTP, SMS (via AWS End User Messaging), push notifications, and email. With this launch, customers in these four additional Regions can use Amaz",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda MicroVMs now supports the x86 CPU architecture",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
-          "published": "2026-11-11T18:00:00+00:00",
-          "content_snippet": "AWS Lambda MicroVMs now supports the x86 CPU architecture, so you can run your existing x86 applications, tools, and software dependencies without recompiling or porting them. When you create a MicroVM image, you can now choose between x86 and Arm (AWS Graviton) to give each user or job an isolated MicroVM on the architecture your workload uses. Lambda MicroVMs is a serverless compute primitive that provides VM-level isolation, near-instant launch and resume, and state preservation for running u",
-          "source_name": "AWS What's New",
+          "title": "OpenAI and Databricks: Enterprise AI on your governed data",
+          "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+          "published": "2026-11-13T15:30:00+00:00",
+          "content_snippet": "Greg Brockman, co-founder and President of OpenAI, has a simple way to describe AI...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EKS Auto Mode now supports security groups for Pods",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
-          "published": "2026-11-11T17:26:00+00:00",
-          "content_snippet": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different security groups, giving your Pods network-level segmentation without creating separate node pools for each application. Security groups for Pods extends your existing AWS network controls to the Pod level, so your Pods can reach resources such as Amazon RDS and Amazon ElastiCache databases that authori",
-          "source_name": "AWS What's New",
+          "title": "Dispelling LTAP myths",
+          "url": "https://www.databricks.com/blog/dispelling-ltap-myths",
+          "published": "2026-11-12T21:49:43+00:00",
+          "content_snippet": "Reynold Xin's post \"From monolith to Lakebase to LTAP\" explained what LTAP is and...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Emulator is now available for building and testing AWS applications locally",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
-          "published": "2026-11-11T17:00:00+00:00",
-          "content_snippet": "AWS Emulator is now available for building and testing AWS applications locally. Starting today, you can use AWS Emulator to build and test AWS applications on your computer or in your continuous integration (CI) environment. Your existing AWS SDK and CLI calls go to AWS Emulator and come back in milliseconds, so you and your coding agents can find and fix errors locally, with no deployments or AWS account required. You create and manage resources with the same AWS SDK and AWS CLI calls you use ",
-          "source_name": "AWS What's New",
+          "title": "How Constellation is building a governed data foundation on Databricks",
+          "url": "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks",
+          "published": "2026-11-12T19:21:00+00:00",
+          "content_snippet": "Constellation operates the largest nuclear fleet in the United States. For them,...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Test your applications against AWS locally with AWS Emulator",
-          "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
-          "published": "2026-11-11T19:00:44+00:00",
-          "content_snippet": "Today we’re announcing AWS Emulator, a local emulator for Amazon Web Services (AWS) that you run on your machine. The AWS Command Line Interface (AWS CLI) , the AWS SDKs , and your coding agents speak to it over a local HTTPS endpoint using the same AWS APIs they would use in the cloud, from your laptop. AWS Emulator has no additional service fee. You pay only for AWS resources when you deploy on AWS. Its source is on GitHub. You install it from an RPM or Debian package on Linux, and on macOS an",
-          "source_name": "AWS Blog",
+          "title": "Eclipse Aerospace simplifies flight-data ingestion with Databricks",
+          "url": "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks",
+          "published": "2026-11-12T19:20:48+00:00",
+          "content_snippet": "As organizations in aerospace, manufacturing, life sciences, and other data-intensive...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
@@ -251,48 +278,39 @@
           "area_name": "Providers Updates"
         },
         {
-          "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
-          "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
-          "published": "2026-11-12T15:00:00+00:00",
-          "content_snippet": "Many business questions can’t be started and answered within the same conversation. ...",
+          "title": "Lakehouse//RT: Scale real-time analytics, not your bill",
+          "url": "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill",
+          "published": "2026-11-12T16:53:43+00:00",
+          "content_snippet": "AI agents are pushing the limits of data warehouses. A human analyst might run a...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
-          "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
-          "published": "2026-11-12T14:59:06+00:00",
-          "content_snippet": "Inside Block, Buzz brings employees and AI agents into a shared workspace. With Databricks...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+          "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
+          "published": "2026-11-13T16:56:45+00:00",
+          "content_snippet": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Detecting credential-driven attacks on Databricks",
-          "url": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
-          "published": "2026-11-11T23:00:00+00:00",
-          "content_snippet": "At Databricks, we know your data is your most valuable asset. Databricks has worked...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+          "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ",
+          "published": "2026-11-13T16:38:23+00:00",
+          "content_snippet": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Brickster Voices: Meet Alasdair Anderson",
-          "url": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
-          "published": "2026-11-11T22:50:00+00:00",
-          "content_snippet": "Q: What does a typical week look like for a Lead Solutions Architect, and how would...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
-          "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
-          "published": "2026-11-11T18:20:00+00:00",
-          "content_snippet": "Last week, we opened our new headquarters at One Sansome Street in San Francisco,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
+          "title": "Cyber at the Frontier",
+          "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+          "published": "2026-11-12T22:37:14+00:00",
+          "content_snippet": "A live keynote featuring OpenAI's latest cyber announcements.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
@@ -343,6 +361,10 @@
       ],
       "errors": [
         {
+          "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -365,6 +387,15 @@
         "llm"
       ],
       "items": [
+        {
+          "title": "AIE CODE: OpenAI, ArtCraft, Cognition, Exa, Anthropic, Amp, et al",
+          "url": "https://www.youtube.com/watch?v=y9JtCCZP2MQ",
+          "published": "2026-11-13T02:12:27+00:00",
+          "content_snippet": "Live from San Francisco, AI Engineer Code Summit 2026 brings together engineers and technical leaders building with AI. Session Day 2: Thursday, November 12, 2026 Livestream: 9:00 AM–6:00 PM Pacific (PST) Venue: Hilton San Francisco Union Square Explore the conference and agenda: https://ai.engineer/code Subscribe for more AI Engineer talks, livestreams, and event coverage: https://www.youtube.com/@aiDotEngineer",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
         {
           "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
           "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
@@ -433,5 +464,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 27
+  "deduped_count": 18
 }
