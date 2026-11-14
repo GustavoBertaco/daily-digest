@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T17:21:57Z",
+  "fetched_at": "2026-11-14T16:05:25Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,27 +12,21 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
-          "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
-          "published": "2026-11-13T17:00:39+00:00",
-          "content_snippet": "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product. While a lightweight emulator like Goldfish gets you part of the way, differences from the real device can hide bugs until later in development. This lack of fidelity also erodes trust in d",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "The Pragmatic Engineer",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 2,
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1
+        "Airbnb Tech": 1,
+        "Meta Engineering": 5
       }
     },
     {
@@ -59,45 +53,23 @@
       ],
       "items": [
         {
-          "title": "How Elon Handled Conflict",
-          "url": "https://www.youtube.com/watch?v=dYASCZFR6SE",
-          "published": "2026-11-11T11:49:08+00:00",
-          "content_snippet": "Jon McNeill on how Elon handled disagreements. \"I was a conflict avoider before Tesla, and I'm definitely not a conflict avoider now.\" \"You're talking about mistakes as much as you're talking about victories.\"",
+          "title": "Elon's No-Commission Motivation Trick",
+          "url": "https://www.youtube.com/watch?v=aCqUDSEA7kE",
+          "published": "2026-11-14T02:04:28+00:00",
+          "content_snippet": "How do you get people to sell without paying commission? Elon wanted Tesla stores to be the total opposite of car dealerships. So, no commissions. Jon McNeill, former president of Tesla and former COO of Lyft, leaned on a lesson from Charlie Munger: if you want to know how a system works, follow the incentives. His team put a leaderboard in every store, with a line drawn almost arbitrarily in the middle. No money, no commission. People did a lot to get above that line, which meant asking for the",
           "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why do whales make milk? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=huoYKP3hn5U",
-          "published": "2026-11-13T17:09:05+00:00",
-          "content_snippet": "Why do whales make milk? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains why whales, like all mammals, make milk. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short06",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "What makes life different from everything else in the universe | Adam Frank: Full Interview",
-          "url": "https://www.youtube.com/watch?v=nXsSG6tnx_Y",
-          "published": "2026-11-13T14:00:26+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=btclips-ytdesc-text-fi-frank-XTFFtA7Qc-I Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Brian Cox: The quantum roots of reality | Full Interview ► https://www.youtube.com/watch?v=kO41iURud9c Descartes cut open living do",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The body keeps exposing how much we don’t understand  | Matthew Nurse",
-          "url": "https://www.youtube.com/watch?v=sxXAmPcx9C0",
-          "published": "2026-11-12T15:24:19+00:00",
-          "content_snippet": "We created this video in partnership with Nike. “We have so much opportunity still and so much room to grow. Science is never done.” Inside the Nike Sport Research Lab, Chief Science Officer Matthew Nurse and his team chase the questions that hold athletes back. Drawing on biomechanics, physiology and neuroscience, they start with the problems every athlete knows: fatigue, injury, the moment the body gives out. Why do female athletes face three to five times the risk of ACL injury? What can an u",
-          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
-      "errors": [],
+      "errors": [
+        {
+          "source_name": "Daniel Pink",
+          "error": "No items returned (feed empty or all outside time window)"
+        }
+      ],
       "deduped_sources": {
-        "Daniel Pink": 2
+        "Big Think": 4
       }
     },
     {
@@ -110,35 +82,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Why telemetry was a mess  before  #databricks",
-          "url": "https://www.youtube.com/watch?v=wOsITHxNRM4",
-          "published": "2026-11-12T14:06:55+00:00",
-          "content_snippet": "In this NextGenLakehouse episode, I sit down with Robert (Bobby) Leach, a Senior Solutions Architect at Databricks, to trace observability from fragmented 1990s telemetry to today's open standard. We cover why \"build a pipeline or pay Splunk/Datadog/New Relic\" breaks at enterprise scale, how the 2019 merge of OpenCensus and OpenTracing created OpenTelemetry, and how Zerobus (part of Lakeflow Connect) now lands that telemetry directly in Unity Catalog. Full interview 👉 https://lnkd.in/eEdNJjYK",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "Agent Observability  #agenticai  #databricks",
-          "url": "https://www.youtube.com/watch?v=OTVF6l4-ppA",
-          "published": "2026-11-12T14:05:08+00:00",
-          "content_snippet": "In this NextGenLakehouse episode, I sit down with Robert (Bobby) Leach, a Senior Solutions Architect at Databricks, to trace observability from fragmented 1990s telemetry to today's open standard. We cover why \"build a pipeline or pay Splunk/Datadog/New Relic\" breaks at enterprise scale, how the 2019 merge of OpenCensus and OpenTracing created OpenTelemetry, and how Zerobus (part of Lakeflow Connect) now lands that telemetry directly in Unity Catalog. Full interview 👉 https://lnkd.in/eEdNJjYK",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "Databricks Zerobus + OpenTelemetry: Observability in Unity Catalog",
-          "url": "https://www.youtube.com/watch?v=3WQ7hsAea78",
-          "published": "2026-11-12T13:56:30+00:00",
-          "content_snippet": "Databricks Zerobus now exposes OpenTelemetry-compatible endpoints that forward logs, metrics, and traces straight into Unity Catalog Delta tables no streaming pipeline, no compute, no proprietary observability tool required. In this NextGenLakehouse episode, I sit down with Bobby, a Senior Solutions Architect at Databricks, to trace observability from fragmented 1990s telemetry to today's open standard. We cover why \"build a pipeline or pay Splunk/Datadog/New Relic\" breaks at enterprise scale, h",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -161,7 +105,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "NextGenLakehouse": 3
+      }
     },
     {
       "name": "Providers Updates",
@@ -179,181 +125,28 @@
       ],
       "items": [
         {
-          "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
-          "published": "2026-11-13T13:13:00+00:00",
-          "content_snippet": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work before moving on. Compared with Grok 4.6, it plans and recovers from errors more reliably in repo-scale coding work. Grok 4.7 is available with experimental support and a 500K context window. Requests up to 200K tokens use a 2.7x credit multiplier, a",
+          "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+          "published": "2026-11-13T16:00:00+00:00",
+          "content_snippet": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of express configuration. Aurora PostgreSQL clusters created with express configuration allow you to create and query an Aurora serverless database in seconds. The new withExpressConfiguration createOnly property on the AWS::RDS::D",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
-          "published": "2026-11-12T22:00:00+00:00",
-          "content_snippet": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the user's original token or build and maintain its own token minti",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
-          "published": "2026-11-12T19:02:00+00:00",
-          "content_snippet": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB. Graviton5-based R9g instances provide up to a 30% performance improvement and up to a 22% price-performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon Aurora, depending on database engine, version, and workload. Built on the AWS Nitro System, R9g in",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
-          "published": "2026-11-12T18:00:00+00:00",
-          "content_snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control is delivered through two new capabilities: IAM Identity Center integration and multi-team environments. With IAM Identity Center integration, users sign in to the Apache Airflow UI with their corporate identity provider. Authorization is evaluated pe",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
-          "published": "2026-11-12T17:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business about the same issue more than once, or on different channels, the history can end up split across several cases. Agents can merge those cases into one case with a single, consolidated history. For example, an agent can merge the chat and email cases a customer opened about a delayed shipment. Agents ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon SNS now supports push notifications in four additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
-          "published": "2026-11-12T16:00:00+00:00",
-          "content_snippet": "Amazon Simple Notification Service (Amazon SNS) now supports sending push notifications in the Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Europe (Zurich), and AWS GovCloud (US-East) Regions. Amazon SNS is a fully managed pub/sub service that provides message delivery to multiple endpoints, including AWS Lambda, Amazon SQS, Amazon Data Firehose, HTTP, SMS (via AWS End User Messaging), push notifications, and email. With this launch, customers in these four additional Regions can use Amaz",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "OpenAI and Databricks: Enterprise AI on your governed data",
-          "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
-          "published": "2026-11-13T15:30:00+00:00",
-          "content_snippet": "Greg Brockman, co-founder and President of OpenAI, has a simple way to describe AI...",
+          "title": "Apache Spark vs Apache Flink: which should you use?",
+          "url": "https://www.databricks.com/blog/spark-vs-flink",
+          "published": "2026-11-14T07:02:42+00:00",
+          "content_snippet": "For most teams, Apache Spark™ is the better choice. Spark runs batch ETL, SQL analytics,...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Dispelling LTAP myths",
-          "url": "https://www.databricks.com/blog/dispelling-ltap-myths",
-          "published": "2026-11-12T21:49:43+00:00",
-          "content_snippet": "Reynold Xin's post \"From monolith to Lakebase to LTAP\" explained what LTAP is and...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Constellation is building a governed data foundation on Databricks",
-          "url": "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks",
-          "published": "2026-11-12T19:21:00+00:00",
-          "content_snippet": "Constellation operates the largest nuclear fleet in the United States. For them,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Eclipse Aerospace simplifies flight-data ingestion with Databricks",
-          "url": "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks",
-          "published": "2026-11-12T19:20:48+00:00",
-          "content_snippet": "As organizations in aerospace, manufacturing, life sciences, and other data-intensive...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How H6.ai builds AI-powered financial automation with Lakebase Postgres",
-          "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
-          "published": "2026-11-12T16:56:52+00:00",
-          "content_snippet": "Traditional accounts payable and invoice processing tools often force companies into a trade-off...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Lakehouse//RT: Scale real-time analytics, not your bill",
-          "url": "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill",
-          "published": "2026-11-12T16:53:43+00:00",
-          "content_snippet": "AI agents are pushing the limits of data warehouses. A human analyst might run a...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
-          "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
-          "published": "2026-11-13T16:56:45+00:00",
-          "content_snippet": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially understood, helping inform which issues need attention first. Across its security workflow, Mozilla sa",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-          "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ",
-          "published": "2026-11-13T16:38:23+00:00",
-          "content_snippet": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Cyber at the Frontier",
-          "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
-          "published": "2026-11-12T22:37:14+00:00",
-          "content_snippet": "A live keynote featuring OpenAI's latest cyber announcements.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "What Codex Unlocks for Holiday Extras",
-          "url": "https://www.youtube.com/watch?v=vu3YlUMkvyg",
-          "published": "2026-11-12T09:45:17+00:00",
-          "content_snippet": "What happens when the people who understand your customers can build the software to help them? At Holiday Extras, Codex is helping turn that ambition into reality—from rebuilding its main app in two weeks to responding faster to customer feedback. Hear how CEO Matthew Pack, David Lee and Liam Thompson are giving colleagues the confidence to build, improving the travel experience and rethinking what the business can achieve with OpenAI. Read the full story: https://openai.com/business/customer-s",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to request and enable Daybreak Blue",
-          "url": "https://www.youtube.com/watch?v=NS220dAaRMo",
-          "published": "2026-11-11T21:10:28+00:00",
-          "content_snippet": "Learn how to request access to Daybreak Blue and enable it for your workspace and API organization. This walkthrough covers business verification, workspace permissions, role-based access controls, and confirming access in Codex. You’ll also see how to set up a project and API key for automation.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to enable PR security reviews with Codex Security",
-          "url": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
-          "published": "2026-11-11T21:10:24+00:00",
-          "content_snippet": "Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "ChatGPT Images: Three Ways to Get Started",
-          "url": "https://www.youtube.com/watch?v=CrrpfvbNyMw",
-          "published": "2026-11-11T21:10:10+00:00",
-          "content_snippet": "ChatGPT Images lets you create new images and edit existing images directly inside ChatGPT. Turn plain-language prompts into original images, explore different visual directions. In this video, learn three ways to get started: creating an image from scratch, refining its look through conversation, and editing a photo you already have. Along the way, see how the details you share help guide the result. Ready to try it? Open a chat to create something new or give an existing photo a different look",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to run your first Codex Security scan",
-          "url": "https://www.youtube.com/watch?v=hUhr0JiVZZs",
-          "published": "2026-11-11T21:10:05+00:00",
-          "content_snippet": "Get started with Codex Security, from installing the plugin to running your first scan. Learn how to select a repository, add context, review findings, and generate a patch. Then follow the fix into GitHub and see how to use the CLI to bring security scans into your automation workflows.",
+          "title": "6 Underrated Ways to Use ChatGPT",
+          "url": "https://www.youtube.com/watch?v=ErOVIC-MGVA",
+          "published": "2026-11-13T18:15:41+00:00",
+          "content_snippet": "We asked 6 people for their most underrated way to use ChatGPT. Their answers covered personal style, everyday logistics, and stopping random subscription charges. What’s yours?",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -386,83 +179,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "AIE CODE: OpenAI, ArtCraft, Cognition, Exa, Anthropic, Amp, et al",
-          "url": "https://www.youtube.com/watch?v=y9JtCCZP2MQ",
-          "published": "2026-11-13T02:12:27+00:00",
-          "content_snippet": "Live from San Francisco, AI Engineer Code Summit 2026 brings together engineers and technical leaders building with AI. Session Day 2: Thursday, November 12, 2026 Livestream: 9:00 AM–6:00 PM Pacific (PST) Venue: Hilton San Francisco Union Square Explore the conference and agenda: https://ai.engineer/code Subscribe for more AI Engineer talks, livestreams, and event coverage: https://www.youtube.com/@aiDotEngineer",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
-          "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
-          "published": "2026-11-12T03:26:55+00:00",
-          "content_snippet": "The models have gotten really good, and most of what we've added to our Claude Code setups over the past year is now holding them back. In this talk I'll go through what Claude Code best practices look like for the Claude 5.5 models, what's still worth keeping, and what you no longer need to think about. Speaker info: Lydia Hallie Member of Technical Staff, Anthropic Lydia Hallie is a Member of Technical Staff at Anthropic, working on developer relations for Claude Code. She creates technical co",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "AIE CODE: Google DeepMind, Anthropic, SpaceXSI, TypeSafe, Lovable, Ramp, etc (System One theme)",
-          "url": "https://www.youtube.com/watch?v=ZZ19zhYnDKY",
-          "published": "2026-11-12T02:16:57+00:00",
-          "content_snippet": "Live from San Francisco, AI Engineer Code Summit 2026 brings together engineers and technical leaders building with AI. Session Day 1: Wednesday, November 11, 2026 Livestream: 9:00 AM–6:00 PM Pacific (PST) Venue: Hilton San Francisco Union Square Explore the conference and agenda: https://ai.engineer/code Subscribe for more AI Engineer talks, livestreams, and event coverage: https://www.youtube.com/@aiDotEngineer",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Stop Shipping LLM Settings That Only Win on Paper - Rohan Pandey & Balaji Varadarajan, DigitalOcean",
-          "url": "https://www.youtube.com/watch?v=cWrYEBlWpcY",
-          "published": "2026-11-12T00:00:27+00:00",
-          "content_snippet": "Most LLM serving \"wins\" come from turning up a single setting, and on production hardware that setting often has little to do with what your users actually get. Rohan Pandey and Balaji Varadarajan walk through the optimization agent DigitalOcean runs on its AMD MI355 inference servers: it proposes a vLLM and Kubernetes configuration, rolls it out, measures throughput under real latency targets, and either keeps the winner or safely restores the old setup. They share what four studies revealed, i",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your SKILL.md Is 70% Stuff the Model Already Knows - Nikolay Petrov, Intel",
-          "url": "https://www.youtube.com/watch?v=yzx4IuEh_tU",
-          "published": "2026-11-11T23:00:23+00:00",
-          "content_snippet": "Adding a line to a skill takes seconds, but removing one is scary, so skills only grow. Nikolay Petrov shows how to see inside a skill: split it into small checkable claims, test the model with and without each one, and get a line-by-line map of what the skill actually teaches, what the model already knew, and what makes it worse. The first skill they tested was 70% things the model already knew. The value was in the other 30%, the exact details a naive shortener would cut first. Nikolay Petrov,",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Your Spec Has Bugs. Catch Them Before Your Agent Codes. - Rajath Mahendrappa Kotyal, AWS",
-          "url": "https://www.youtube.com/watch?v=0EnLxIbAvYk",
-          "published": "2026-11-11T22:00:35+00:00",
-          "content_snippet": "Spec-driven development only works if the spec is right, and specs are full of quiet bugs: rules that can't both hold, missing failure cases, sentences with two meanings. Your coding agent will faithfully build every one of them. Rajath Mahendrappa Kotyal shows how Kiro catches these before any design or code is generated by pairing LLMs with SMT solvers, turning the model's own disagreement into a signal that a requirement is ambiguous. You'll also see where solvers beat LLM-as-judge, and where",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "225,000 Lines of Tests, Written and Merged by Agents - Kush Agrawal, Duolingo",
-          "url": "https://www.youtube.com/watch?v=D_4Rn6uLdQM",
-          "published": "2026-11-11T21:00:23+00:00",
-          "content_snippet": "Duolingo's iOS app has nearly 2 million lines of code, and its unit test coverage lagged far behind. Kush Agrawal walks through the autonomous pipeline that fixed it: scheduled workflows pick untested code, coding agents open pull requests, and a lifecycle manager monitors CI, fixes failures, runs AI review and merges, with engineers as the final reviewers. Since March it has merged more than 700 PRs and 225,000 lines of tests, raising overall app coverage from 11% to 24%. He covers the architec",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Agents Made Code Free. Maintaining It Didn't Get Cheaper. - Dmitry Buykin, Maersk",
-          "url": "https://www.youtube.com/watch?v=oeknLUsN_GE",
-          "published": "2026-11-11T20:00:12+00:00",
-          "content_snippet": "Coding agents made writing code almost free, but maintaining it didn't get any cheaper. Dmitry Buykin shares what happens months in, once agents write most of a large production codebase: tests that pass while production breaks, work nobody asked for, rules that contradict each other, and sprawl no one can review. He covers the patterns that actually help, from replaying real tasks and expert-owned evals to runtime guardrails and weekly pruning, and closes with an 18-question checklist for audit",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 8
+      }
     }
   ],
-  "deduped_count": 18
+  "deduped_count": 32
 }
