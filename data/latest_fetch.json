@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T16:05:25Z",
+  "fetched_at": "2026-11-15T16:34:32Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,12 +12,18 @@
         "technology",
         "software"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "“AI has eaten tactical programming”",
+          "url": "https://www.youtube.com/watch?v=BFI2iykN0Yc",
+          "published": "2026-11-14T16:00:17+00:00",
+          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
@@ -51,17 +57,7 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Elon's No-Commission Motivation Trick",
-          "url": "https://www.youtube.com/watch?v=aCqUDSEA7kE",
-          "published": "2026-11-14T02:04:28+00:00",
-          "content_snippet": "How do you get people to sell without paying commission? Elon wanted Tesla stores to be the total opposite of car dealerships. So, no commissions. Jon McNeill, former president of Tesla and former COO of Lyft, leaned on a lesson from Charlie Munger: if you want to know how a system works, follow the incentives. His team put a leaderboard in every store, with a line drawn almost arbitrarily in the middle. No money, no commission. People did a lot to get above that line, which meant asking for the",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Daniel Pink",
@@ -69,7 +65,8 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 4
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 3
       }
     },
     {
@@ -123,38 +120,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
-          "published": "2026-11-13T16:00:00+00:00",
-          "content_snippet": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of express configuration. Aurora PostgreSQL clusters created with express configuration allow you to create and query an Aurora serverless database in seconds. The new withExpressConfiguration createOnly property on the AWS::RDS::D",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Apache Spark vs Apache Flink: which should you use?",
-          "url": "https://www.databricks.com/blog/spark-vs-flink",
-          "published": "2026-11-14T07:02:42+00:00",
-          "content_snippet": "For most teams, Apache Spark™ is the better choice. Spark runs batch ETL, SQL analytics,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "6 Underrated Ways to Use ChatGPT",
-          "url": "https://www.youtube.com/watch?v=ErOVIC-MGVA",
-          "published": "2026-11-13T18:15:41+00:00",
-          "content_snippet": "We asked 6 people for their most underrated way to use ChatGPT. Their answers covered personal style, everyday logistics, and stopping random subscription charges. What’s yours?",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -166,7 +143,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 5
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -179,12 +158,20 @@
         "machine-learning",
         "llm"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI",
+          "url": "https://www.youtube.com/watch?v=O_zcc6Xl12g",
+          "published": "2026-11-14T18:30:09+00:00",
+          "content_snippet": "11,000 pull requests in one month, with a revert rate around 0.5%. Lauren Tan (poteto) shares how the Grok Bot team at SpaceXSI scales AI coding agents through software architecture, lint rules, automated testing, runtime verification and formal verification with TLA+ and Lean. See how Cursor agents and pstack turn these software engineering foundations into reliable software factories. Speaker info: - https://x.com/poteto - https://github.com/poteto - https://github.com/cursor/plugins/tree/main",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        }
+      ],
       "errors": [],
-      "deduped_sources": {
-        "AI Engineer": 8
-      }
+      "deduped_sources": {}
     }
   ],
-  "deduped_count": 32
+  "deduped_count": 20
 }
