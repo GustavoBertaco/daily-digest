@@ -451,7 +451,7 @@ The artifact has **three parts**, in order: an *inventory* of what exists and ho
 made visible (§5.4) — and a *verdict* saying what we are doing about it, with a date (§5.5).
 The board is the part you put on a wall; the other two are what make it honest.
 
-### 5.1 Unit of analysis
+### 5.1 Unit of analysis and the platform journey
 
 One row per **platform capability a consumer can choose or refuse** — not per repo, per service,
 or per tool. The test is: *could a team plausibly solve this need another way?* If yes, it is a
@@ -459,58 +459,170 @@ capability and it belongs on the board with its own curve. If no, it is an imple
 of one. This keeps the board at roughly 20–40 rows for a mid-size platform, which is the size a
 group of people can actually review in an hour.
 
-Each capability is anchored to one **journey stage** of the platform:
+Each capability is anchored to one **journey stage** of the platform. The first version of this
+study used six stages, taken from the layer vocabulary of the
+[data-layer market scan](../data-platform/producer-layer-and-contract-gated-democratization.md).
+Before settling on them, it is worth checking them against how reference architectures and
+companies known for their data platforms actually divide the work.
+
+**What the market uses.**
+
+| Source | How it divides the platform | What it suggests for this board |
+|--------|-----------------------------|---------------------------------|
+| **Databricks lakehouse reference architecture** ([docs](https://docs.databricks.com/aws/en/lakehouse-architecture/reference)) | Swim lanes: source, ingest, transform, query/process, serve, analysis, storage, with Unity Catalog as a cross-cutting governance layer that also provides discovery | Confirms J1–J3 and J5; treats governance as a layer across stages, not a step in the flow |
+| **Google Cloud data lifecycle** ([summary](https://gcpstudyhub.com/blog/the-data-lifecycle-for-the-pde-exam-ingest-store-process-analyze-govern)) | Ingest, store, process and analyze, explore and visualize | Confirms the core flow; *explore* is named as its own step |
+| **Data mesh self-serve platform — Zhamak Dehghani** ([book, ch. 10](https://www.oreilly.com/library/view/data-mesh/9781492092384/ch10.html)) | Three planes: data infrastructure (utility), data product experience, and mesh experience — the last one serving discovery and governance *across* data products | Discovery and observation of the whole estate are platform services in their own right |
+| **DAMA-DMBOK2** ([overview](https://atlan.com/dama-dmbok-framework/)) | Eleven knowledge areas with governance at the centre, including metadata, data quality, security, and reference and master data | Metadata and data quality are first-class areas, not sub-items of governance |
+| **Lyft (Amundsen), Airbnb (Dataportal), LinkedIn (DataHub), Uber (Databook), Meta (Nemo)** ([comparison](https://eugeneyan.com/writing/data-discovery-platforms/)) | Each built a dedicated data discovery product, because finding and trusting data was a large share of analysts' time (around a quarter at Lyft, by secondary accounts) | **Discover & Understand** is a stage the largest platforms invested in separately |
+| **Uber — Unified Data Quality** ([blog](https://www.uber.com/blog/operational-excellence-data-quality/)) | A dedicated platform to monitor, detect, and handle data quality incidents across more than 2,000 critical datasets, reported to catch about 90% of incidents | **Observe & Assure** works across every stage and is run as its own product |
+| **Airbnb — Minerva** ([blog](https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70)) | A single metrics platform with more than 12,000 metrics, also used for A/B testing | Fits J5 (semantic layer), and shows experimentation consuming the same metrics |
+| **Netflix — Experimentation Platform** ([paper](https://ar5iv.labs.arxiv.org/html/1910.03878)) | A science-centric platform where data scientists contribute metrics and methods | Experimentation belongs with activation: using data to act and decide |
+| **Meta — Privacy Aware Infrastructure** ([lineage at scale](https://engineering.fb.com/2025/01/22/security/how-meta-discovers-data-flows-via-lineage-at-scale/)) | Lineage, policy zones, and retention enforced across millions of data flows | Retention and deletion are part of governance, not an afterthought |
+| **Databricks — Delta Sharing, Marketplace, Clean Rooms** ([docs](https://docs.databricks.com/data-sharing/delta-sharing/index.html)) | Sharing data with other organizations, with or without exposing the underlying data | Sharing outside the company is a way of activating data |
+| **Spotify — Backstage and Golden Paths** ([InfoQ](https://www.infoq.com/news/2021/03/spotify-paved-paths)) | Opinionated, supported paths per project type, including data science and ML, inside a developer portal | Developer experience is a property of every stage — the whole product — not a stage of its own |
+
+**What changes.** Two stages are added, and three needs are placed inside existing stages:
+
+- **Added — Discover & Understand.** Finding data, judging whether it can be trusted, and
+  understanding what it means. Every large platform above built this as its own product, and the
+  data mesh treats it as part of the mesh experience. It was previously hidden inside
+  "cataloguing" under governance, which mixed *control* with *finding*.
+- **Added — Observe & Assure.** Data quality monitoring, observability, incident handling, and
+  cost visibility. It cuts across every stage, so it is drawn as a cross-cutting stage. Contracts
+  stay in J4: they *prevent* bad data at the boundary, while this stage *detects* it in flight.
+- **Folded in:** experimentation and external data sharing into **Activate & Share**; retention,
+  deletion, and privacy enforcement into **Govern & Contract**; reference and master data into
+  **Transform & Model**.
+- **Not a stage:** developer experience and golden paths. They are what makes each stage a whole
+  product (§3, distortion 3), so they belong in how every capability is judged, not in a row.
 
 | # | Journey stage | What it covers |
 |---|---------------|----------------|
 | J1 | **Produce & Ingest** | Source contracts, CDC, batch and streaming ingestion, the producer boundary |
 | J2 | **Store & Format** | Object storage, open table formats, technical catalog |
-| J3 | **Transform & Model** | Medallion layers, transformation framework, orchestration |
-| J4 | **Govern & Contract** | Data contracts, quality, lineage, access control, cataloguing |
-| J5 | **Serve & Consume** | Semantic layer, query engines, BI, data APIs |
-| J6 | **Activate** | ML features, reverse ETL, agentic access |
+| J3 | **Transform & Model** | Medallion layers, transformation framework, orchestration, reference and master data |
+| J4 | **Govern & Contract** | Data contracts, lineage, access control, privacy, retention and deletion |
+| J5 | **Discover & Understand** | Search and catalog for consumers, business glossary, data product marketplace, previews and usage context |
+| J6 | **Serve & Consume** | Semantic layer and metrics, query engines, BI, data APIs |
+| J7 | **Activate & Share** | ML features, experimentation, reverse ETL, agentic access, sharing with other organizations |
+| J8 | **Observe & Assure** *(cross-cutting)* | Data quality monitoring, observability, incident management, cost visibility |
 
-### 5.2 The record — fields per capability
+### 5.2 Attributes to consider for each capability
 
-| Field | Type | Why it is here |
-|-------|------|----------------|
-| Capability | text | The thing a consumer chooses |
-| Journey stage | J1–J6 | Where it sits in the platform journey |
-| Owner | team + named person | Empty owner ⇒ **orphaned** (§4, kind 4), regardless of everything else |
-| **Lifecycle phase** | P1–P7 (§2) | The placement — the demand + adoption read |
-| **Evolution stage** | genesis / custom / product / commodity | The market read, reviewed against the outside, not telemetry |
-| **Investment posture** | invest / sustain / sunset | The decision (Cagan & Baxley); publishable as Radar rings — *adopt / trial / hold* |
-| Downstream dependents | count + list, from lineage | Transitive consumers of the capability's outputs; sizes the migration before a sunset date is set (§3, distortion 5) |
-| Obsolescence score | 0–16 (§5.3) | The measured risk |
-| Obsolescence kind | 1–4 or none (§4) | Determines which response applies |
-| Last discovery contact | date | Torres's habit, made auditable — a Phase-5 capability nobody has talked to a user about in six months is not being managed |
-| Verdict + review date | text + date | No row leaves the board without both |
+This is not a form to fill in. It is the set of attributes worth looking at when you study a
+capability, the question each one answers, and where the evidence for it comes from. Some
+attributes are facts you can look up; most are judgements you form from several sources. Record
+what you learn in whatever tool the team already uses. Only two things must always be written
+down: who owns the capability, and what was decided about it, by when (§5.5).
 
-### 5.3 The obsolescence score — eight signals
+| Attribute | The question it answers | Where the evidence comes from | Watch out for |
+|-----------|-------------------------|-------------------------------|---------------|
+| **Capability and journey stage** | What can a consumer choose or refuse here, and where in the journey (J1–J8) does it sit? | Platform architecture, consumer interviews | Drawing the boundary around a tool or a repo instead of a choice a consumer makes |
+| **Owner** | Who answers for it, runs it, and decides its future? | Team topology, on-call rotation, roadmap | A team name with no person, or an owner with no roadmap. No owner means **orphaned** (§4, kind 4), whatever else is true |
+| **Lifecycle phase** (P1–P7, §2) | Where is it on the demand and adoption curves? | Output consumption, new-workload share, the composition of its consumers | Reading phase from usage volume alone; a mandated capability can look like P5 while still being pre-chasm (§3) |
+| **Evolution stage** | Is this still differentiating for us, or has the market standardized it? | A deliberate review against the outside market (Wardley's genesis → custom → product → commodity) | Expecting internal telemetry to show it; it shows only once teams start choosing the alternative (§3, distortion 4) |
+| **Investment posture** | What have we decided to do: invest, sustain, or sunset? | Portfolio decisions (Cagan and Baxley); published as Radar rings — *adopt / trial / hold* | A posture that exists only in leadership's heads; if teams can't see *hold*, they keep starting new work on it |
+| **Obsolescence reading** (§5.3) | Is it going obsolete, and why? | The eight lenses in §5.3, read together | Treating a single number as the answer instead of the reading behind it |
+| **Obsolescence kind** (§4) | If it is going obsolete, which kind — demand, technology, architectural, or orphaned? | The pattern across the lenses | Forcing one kind when two apply; kinds overlap (§4.3) |
+| **Downstream dependents** | Who would break if it went away, including consumers several hops down? | Lineage and query logs (§3, distortion 5) | Counting only direct consumers; the cost of a sunset sits in the transitive ones |
+| **Cost and switching cost** | What does it cost to run, and what would it cost to leave? | Showback or chargeback, migration estimates, data gravity, contract terms | Comparing run cost alone; *replace* has to pass the total-cost check in §5.5 |
+| **Last discovery contact** | When did someone last talk to its users about their needs? | Interview notes, research log (Torres) | A capability in P5 that nobody has talked to a user about in six months is not being managed |
+| **Verdict and review date** | What are we doing about it, and when do we look again? | The quarterly review (§5.6) | A verdict of "monitor" with no date; no capability leaves the review without both |
 
-Each signal scores **0 (healthy) / 1 (watch) / 2 (red)**, for a total of 0–16 across eight
-signals. The first two are the leading indicators and carry the most weight in practice; the
-rest explain *why*.
+### 5.3 Reading obsolescence — eight lenses
 
-| # | Signal | How to measure | Watch (1) | Red (2) |
-|---|--------|----------------|-----------|---------|
-| S1 | **New-workload share** | Of new workloads started in the last 90 days in this journey stage, the % that chose this capability | 10–30% | < 10% |
-| S2 | **Workaround rate** | Consumers with a documented bypass, shadow path, or standing exception, ÷ total consumers | 10–25% | > 25% |
-| S3 | **Output consumption** | Distinct consumers (teams, dashboards, jobs, agents) that actually read the capability's outputs, from query logs and lineage, quarter over quarter — not how often it runs | flat, 2 quarters | falling, 2 quarters, or outputs with no reads in 90 days |
-| S4 | **Commoditization gap** | Does a managed/open alternative cover ≥ 80% of the use case? | emerging | yes, and adopted elsewhere in the org |
-| S5 | **Cost-to-serve** | Run cost ÷ active consumers, trend | rising, usage flat | rising, usage falling |
-| S6 | **Toil and voice** | Incidents, support tickets, complaints, and feature or exception requests per active consumer, trend — Hirschman's *voice* (§3) | rising | rising and on-call is degraded |
-| S7 | **Contract fit** | Satisfies current governance/contract/lineage standards? | with exceptions | only with permanent exceptions |
-| S8 | **Ownership** | Named owner with on-call and roadmap | owner but no roadmap | no named owner |
+This section is a guide to *observing* a capability, not a checklist to score. Each lens answers
+one question; none of them answers "is this obsolete?" on its own. The value is in reading them
+together, because the combination tells you which kind of obsolescence you are looking at (§4)
+and therefore which decision applies. The lenses keep their S1–S8 labels, which the rest of the
+study refers to.
 
-**S1 and S2 are the ones to instrument first.** They are the only two that move *before* the
-demand curve, they are exactly the internal substitutes for "new sales" and "churn," and
-together they detect kind-2 obsolescence — the expensive kind — before usage volume does. The
-lead time is a working estimate of two to four quarters, not a published benchmark; treat it as
-a hypothesis to calibrate against the platform's own history once S1 and S2 have a few quarters
-of data. Two cautions on S2: it counts only the workarounds you detect, so a low value can mean
-weak detection; and a workaround can be an unmet need rather than decline, which makes it
-discovery input before it is a score (§3, distortion 2).
+**S1 — New-workload share: are teams still choosing it?**
+Of the new workloads started in this journey stage in the last 90 days, how many chose this
+capability? This is the platform's equivalent of new sales, and the earliest sign that something
+better exists: new work leaves before old work does. A falling share with steady usage is the
+classic early sign of kind 2. Read it per journey stage, not across the platform, or a busy stage
+will hide a quiet one.
+
+**S2 — Workaround rate: are teams routing around it?**
+How many consumers have a bypass, a shadow path, or a standing exception? This is the internal
+equivalent of churn — Hirschman's *exit*, gone covert because open exit is blocked (§3,
+distortion 2). Two cautions: you only see the workarounds you detect, so a low rate can mean weak
+detection; and some workarounds are unmet needs, which makes them discovery input before they
+are a symptom. A high rate *alongside a mandate* is the signature of a capability that is still
+pre-chasm.
+
+**S3 — Output consumption: is anyone reading what it produces?**
+How many distinct consumers — teams, dashboards, jobs, agents — actually read its outputs, quarter
+over quarter? Measure reads, from query logs and lineage, not runs (§3, distortion 1). Outputs
+that nobody has read in 90 days are the strongest evidence of a zombie the platform has. When S3
+and S1 fall together and no alternative is gaining, the need itself is going away: kind 1.
+
+**S4 — Commoditization gap: has the market caught up?**
+Does a managed or open alternative now cover most of the use case, and is it already in use
+elsewhere in the organization? This lens comes from a deliberate look at the outside market, not
+from telemetry, which is why it is reviewed on a cadence (§5.6). It is necessary but not
+sufficient for *replace*: data gravity, migration effort, and the alternative's cost at your scale
+can still make *sustain* the right call (§3, distortion 4).
+
+**S5 — Cost-to-serve: is it worth what it costs?**
+Run cost per active consumer, and its direction. Cost rising while consumption is flat or falling
+is the pattern to watch. This lens depends on cost being visible per capability, so it assumes
+showback exists or is introduced (§3, distortion 1). It is also the only evidence the board has
+of economic obsolescence, which the four kinds do not name (§4.3).
+
+**S6 — Toil and voice: what is it costing the people around it?**
+Incidents, support tickets, complaints, and feature or exception requests per active consumer,
+and their direction. Toil shows the burden on the team that runs it; voice — Hirschman's other
+response — shows what consumers would change if they could. Rising voice that gets no response
+is usually followed by rising workarounds (S2).
+
+**S7 — Contract fit: does it still fit the platform's rules?**
+Can it meet current standards for contracts, lineage, access, and retention without special
+cases? A capability that survives on standing exceptions is the signature of kind 3. Read it
+against the standards as they are now, not as they were when the capability was built — Parnas's
+*lack of movement* (§4.1).
+
+**S8 — Ownership: does anyone answer for it?**
+Is there a named owner with on-call and a roadmap? No owner is kind 4 and stops every other
+reading (§5.5, rule 1), because nobody can explain what the other lenses show. An owner with no
+roadmap is the early version. Watch S7 alongside it: unowned capabilities tend to drift out of
+contract (§4.2).
+
+**Reading the lenses together.** The patterns below are the ones that matter most, because each
+points to a different decision.
+
+| Pattern | What it usually means | Points to |
+|---------|-----------------------|-----------|
+| S1 falling, S3 steady, S4 high | New work is going to an alternative while existing work stays — the expensive, hard-to-see case | Kind 2 — replace, after the total-cost check |
+| S1 and S3 falling, S4 low | The need itself is shrinking; nothing is replacing it | Kind 1 — sunset |
+| S2 high with a mandate in place | Compliance without adoption; the whole product is not ready | Pre-chasm (§5.5, rule 5) — invest in the whole product |
+| S7 on exceptions, S8 weak | Drifting out of contract because nobody is moving it | Kinds 4 and 3 together — assign an owner first |
+| S5 rising, S3 flat, S4 low | Costs more each quarter for the same value, with no alternative | Economic obsolescence (§4.3) — re-architect or sunset |
+| S6 voice rising, S2 still low | Consumers are asking before they leave | Discovery opportunity — act before S2 moves |
+
+**Lead time.** S1 and S2 are the lenses to instrument first. They are the only ones that move
+*before* the demand curve, they are the internal substitutes for "new sales" and "churn", and
+together they show kind-2 obsolescence before usage volume does. The lead time is a working
+estimate of two to four quarters, not a published benchmark; treat it as a hypothesis to
+calibrate against the platform's own history once S1 and S2 have a few quarters of data.
+
+**When a single number helps.** For the board (§5.4) and the decision bands (§5.5), each lens can
+be summarized as 0 (healthy), 1 (watch), or 2 (concern), giving a total from 0 to 16. Use the
+rules of thumb below as a starting point and adjust them to the platform. The number is a
+summary of the reading, never a substitute for it: two capabilities at 8 can need opposite
+decisions.
+
+| Lens | Watch (1) | Concern (2) |
+|------|-----------|-------------|
+| S1 New-workload share | 10–30% | < 10% |
+| S2 Workaround rate | 10–25% of consumers | > 25% of consumers |
+| S3 Output consumption | flat for 2 quarters | falling for 2 quarters, or outputs unread for 90 days |
+| S4 Commoditization gap | an alternative is emerging | an alternative covers most of the use case and is used elsewhere in the org |
+| S5 Cost-to-serve | rising while consumption is flat | rising while consumption falls |
+| S6 Toil and voice | rising | rising and on-call is degraded |
+| S7 Contract fit | meets standards with exceptions | only with permanent exceptions |
+| S8 Ownership | owner but no roadmap | no named owner |
 
 ### 5.4 The board — the curve, per journey stage
 
@@ -523,7 +635,7 @@ chasm, not a trough of disillusionment. The colours follow the decision bands in
 (0–4) is *sustain*, amber (5–9) is a bounded decision with a hard stop, red (≥ 10) is *replace*
 or *sunset*.
 
-![The board: one lifecycle curve per journey stage (J1–J6), with each capability placed at its lifecycle phase and coloured by obsolescence score](./assets/lifecycle-board-curves.png)
+![The board: one lifecycle curve per journey stage (J1–J8), with each capability placed at its lifecycle phase and coloured by obsolescence score](./assets/lifecycle-board-curves.png)
 
 *Portuguese version: [board-curvas-ciclo-de-vida.png](./assets/board-curvas-ciclo-de-vida.png).*
 
@@ -534,9 +646,11 @@ The same placements as a table, which is the source to edit when the board is up
 | **J1** Produce & Ingest | | | Producer-layer contracts `4` | Managed CDC `1` | Batch ingestion fwk `2` | Legacy SFTP drops `11` | Hand-rolled connectors `13` |
 | **J2** Store & Format | | Iceberg v3 features `2` | | Open table format `3` | Object storage `0` | Team-owned Parquet zones `9` | Legacy warehouse tier `14` |
 | **J3** Transform & Model | | | | Orchestrator (managed) `2` | Transformation fwk `1` | Bespoke Spark jobs `10` | Cron-driven scripts `12` |
-| **J4** Govern & Contract | Policy-as-code `—` | Contract enforcement `3` | Lineage `6` | | Access control `2` | In-house catalog `12` | Spreadsheet glossary `15` |
-| **J5** Serve & Consume | | | Semantic layer `5` | Query engine `2` | BI platform `3` | Extract-based dashboards `10` | |
-| **J6** Activate | Agentic access `—` | Feature serving `3` | Reverse ETL `6` | | | | |
+| **J4** Govern & Contract | Policy-as-code `—` | Contract enforcement `3` | Lineage `6` | | Access control `2` | Manual deletion scripts `10` | |
+| **J5** Discover & Understand | | Data product marketplace `3` | | Managed catalog `2` | | In-house catalog `12` | Spreadsheet glossary `15` |
+| **J6** Serve & Consume | | | Semantic layer `5` | Query engine `2` | BI platform `3` | Extract-based dashboards `10` | |
+| **J7** Activate & Share | Agentic access `—` | Feature serving `3` | Reverse ETL `6` | | | | |
+| **J8** Observe & Assure | Cost showback `—` | | Data observability `5` | | Pipeline alerting `2` | Hand-written quality checks `9` | |
 
 *Illustrative placements — the numbers are example obsolescence scores (0–16), not measurements
 from any real platform. `—` marks pre-instrumentation items where a score would be false
@@ -551,7 +665,7 @@ Three things the curves make visible that a list cannot:
 - **Amber or red dots at or near the peak (P4–P5)** are the kind-2 obsolescence trap: officially
   healthy, quietly losing new work. The in-house catalog at `12` in P6 is already understood; a `9` sitting in P5
   is the one nobody has noticed yet.
-- **Curves crowded on the left** (J6 here) are stages carrying real delivery risk, not just
+- **Curves crowded on the left** (J7 here) are stages carrying real delivery risk, not just
   novelty — several unproven capabilities and no default yet, which means consumers are choosing
   for themselves and the chasm is ahead, not behind.
 
@@ -810,6 +924,29 @@ The board is worthless as a one-off audit and valuable as a standing instrument:
   — agency costs arise when those who decide are not those who bear the consequences.
   *Inspires:* distortion 6 in §3 — why incentives favor keeping capabilities alive.
 
+- **Market references for the journey stages (§5.1)** — used to check J1–J8 against how
+  reference architectures and leading data platforms divide the work:
+  [Databricks lakehouse reference architecture](https://docs.databricks.com/aws/en/lakehouse-architecture/reference)
+  (swim lanes, with governance cross-cutting);
+  [Google Cloud data lifecycle](https://gcpstudyhub.com/blog/the-data-lifecycle-for-the-pde-exam-ingest-store-process-analyze-govern)
+  (secondary summary);
+  [Data Mesh, ch. 10 — Dehghani](https://www.oreilly.com/library/view/data-mesh/9781492092384/ch10.html)
+  (the three platform planes);
+  [DAMA-DMBOK2](https://atlan.com/dama-dmbok-framework/) (eleven knowledge areas, secondary
+  summary);
+  [data discovery platforms at Lyft, Airbnb, LinkedIn, Uber and Meta](https://eugeneyan.com/writing/data-discovery-platforms/)
+  (Eugene Yan's comparison);
+  [Uber Unified Data Quality](https://www.uber.com/blog/operational-excellence-data-quality/);
+  [Airbnb Minerva](https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70);
+  [Netflix Experimentation Platform](https://ar5iv.labs.arxiv.org/html/1910.03878);
+  [Meta lineage at scale](https://engineering.fb.com/2025/01/22/security/how-meta-discovers-data-flows-via-lineage-at-scale/);
+  [Delta Sharing](https://docs.databricks.com/data-sharing/delta-sharing/index.html);
+  [Spotify Golden Paths](https://www.infoq.com/news/2021/03/spotify-paved-paths).
+  *Inspires:* the two added stages (Discover & Understand, Observe & Assure) and the needs folded
+  into existing stages. **Found through search summaries; the figures quoted (Lyft's share of
+  time on discovery, Uber's incident coverage, Minerva's metric count) were not checked against
+  the full original posts.**
+
 - **Data Mesh — Zhamak Dehghani** ([thoughtworks.com](https://www.thoughtworks.com/en-us/insights/books/data-mesh))
   — data as a product, owned by a domain, with a real lifecycle: versioned changes, deprecation
   windows, sunset.
@@ -830,7 +967,7 @@ The board is worthless as a one-off audit and valuable as a standing instrument:
 ### Related studies in this repo
 
 - [Movements in Data-Layer Architecture — a 2026 market scan](../data-platform/producer-layer-and-contract-gated-democratization.md)
-  — the layer vocabulary (producer layer, contracts, semantic layer) used for the J1–J6 journey
+  — the layer vocabulary (producer layer, contracts, semantic layer) used for the original J1–J6 journey
   stages.
 - [Data Platforms in 2029](../data-platform/data-platforms-in-2029.md) — the forward view of
   which capabilities are commoditizing, which is the input the evolution-stage column needs.
