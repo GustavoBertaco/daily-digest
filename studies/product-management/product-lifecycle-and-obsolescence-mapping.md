@@ -514,9 +514,20 @@ discovery input before it is a score (§3, distortion 2).
 
 ### 5.4 The board — the curve, per journey stage
 
-This is the visual deliverable. Rows are the journey stages; columns are the lifecycle phases.
-Each capability is placed in exactly one cell, annotated with its obsolescence score. The shape
-of each row *is* the curve for that stage of the platform journey.
+This is the visual deliverable: **one lifecycle curve per journey stage**, with every capability
+of that stage placed on the curve at its current phase and coloured by its obsolescence score.
+The format borrows the legibility of Gartner's Hype Cycle — one curve, many items placed on it
+([methodology](https://www.gartner.com/en/research/methodologies/gartner-hype-cycle)) — but the
+curve is different: its height is **adoption**, not expectations, and the dip at P3 is Moore's
+chasm, not a trough of disillusionment. The colours follow the decision bands in §5.5: green
+(0–4) is *sustain*, amber (5–9) is a bounded decision with a hard stop, red (≥ 10) is *replace*
+or *sunset*.
+
+![The board: one lifecycle curve per journey stage (J1–J6), with each capability placed at its lifecycle phase and coloured by obsolescence score](./assets/lifecycle-board-curves.png)
+
+*Portuguese version: [board-curvas-ciclo-de-vida.png](./assets/board-curvas-ciclo-de-vida.png).*
+
+The same placements as a table, which is the source to edit when the board is updated:
 
 | Journey stage | P1 Incubation | P2 Early adoption | P3 Chasm | P4 Scaling | P5 Standard | P6 Decline | P7 Sunset |
 |---|---|---|---|---|---|---|---|
@@ -531,15 +542,16 @@ of each row *is* the curve for that stage of the platform journey.
 from any real platform. `—` marks pre-instrumentation items where a score would be false
 precision.*
 
-Three things this view makes visible that a list cannot:
+Three things the curves make visible that a list cannot:
 
-- **Rows with nothing left of P5** are stages where the platform has stopped renewing itself —
-  everything is mature or declining, and the next commoditization wave will land on all of it at
-  once. J2 above is the mild case; a row with entries *only* in P5–P7 is the alarm.
-- **High scores sitting in P4–P5** are the kind-2 obsolescence trap: officially healthy, quietly
-  losing new work. The in-house catalog at `12` in P6 is already understood; a `9` sitting in P5
+- **Curves with nothing left of the peak** are stages where the platform has stopped renewing
+  itself — everything is mature or declining, and the next commoditization wave will land on all
+  of it at once. J3 above is the case: nothing before P4. A curve with dots *only* in P5–P7 is
+  the alarm.
+- **Amber or red dots at or near the peak (P4–P5)** are the kind-2 obsolescence trap: officially
+  healthy, quietly losing new work. The in-house catalog at `12` in P6 is already understood; a `9` sitting in P5
   is the one nobody has noticed yet.
-- **Rows crowded on the left** (J6 here) are stages carrying real delivery risk, not just
+- **Curves crowded on the left** (J6 here) are stages carrying real delivery risk, not just
   novelty — several unproven capabilities and no default yet, which means consumers are choosing
   for themselves and the chasm is ahead, not behind.
 
