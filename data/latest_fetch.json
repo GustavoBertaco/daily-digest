@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T16:34:32Z",
+  "fetched_at": "2026-11-16T19:50:48Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,10 +14,10 @@
       ],
       "items": [
         {
-          "title": "“AI has eaten tactical programming”",
-          "url": "https://www.youtube.com/watch?v=BFI2iykN0Yc",
-          "published": "2026-11-14T16:00:17+00:00",
-          "content_snippet": "with Matt Pocock - educator, software engineer & creator of /grill-me See the full episode on The Pragmatic Engineer Podcast",
+          "title": "Software engineering after code becomes cheap with Satya Nadella",
+          "url": "https://www.youtube.com/watch?v=0NE89Nzfk20",
+          "published": "2026-11-16T13:26:00+00:00",
+          "content_snippet": "What does software engineering look like when generating code becomes cheap, and verifying it becomes the hard part? With Satya Nadella, Microsoft’s CEO, who is one of the very few Big Tech CEOs who started his career as a software engineer (back at Sun Microsystems). He joins me to discuss how building software is changing inside Microsoft, and what these changes mean for engineers. — *Brought to you by:* • turbopuffer – a vector and full-text search engine built on object storage. It’s fast, c",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
           "area_name": "Technology"
@@ -57,17 +57,33 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "5 Rules for Starting a Company",
+          "url": "https://www.youtube.com/watch?v=RXTT2q4CvJ8",
+          "published": "2026-11-16T00:39:33+00:00",
+          "content_snippet": "A great idea doesn’t guarantee a profitable company. Jon McNeill, former president of Tesla and former COO of Lyft, won't take one seriously until five things are true: 1. There's a big addressable market. 2. Gross margins are north of 50%. 3. There's a really hard technical problem that hasn't been solved. Solve it, and it could create a moat. 4. The competitive dynamic works. \"We don't want to go where everybody else is going.\" 5. There's liquidity in the space. If all five hold, DVx Ventures ",
+          "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "How narcissistic are you? | Ramani Durvasula",
+          "url": "https://www.youtube.com/watch?v=zHVlBtlQ56Q",
+          "published": "2026-11-16T17:09:24+00:00",
+          "content_snippet": "How narcissistic are you? | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains why narcissism is a spectrum, not an either/or. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short01",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "The Knowledge Project Podcast": 1,
-        "Big Think": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -90,6 +106,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -102,9 +122,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "NextGenLakehouse": 3
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -120,20 +138,99 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
-      "errors": [
+      "items": [
         {
+          "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+          "published": "2026-11-16T08:00:00+00:00",
+          "content_snippet": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 or 2 minute evaluation window in addition to the existing 5 and 10 minute options, the same capabilities already available in other AWS Regions. A rate-based rule counts requests and applies an action, such as Block or CAPTCHA, when the request rate e",
           "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "AgentCore runtime instances are now available in six more AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
+          "published": "2026-11-16T07:30:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pacific (Seoul). Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management. By expanding to these AWS Regions, more teams can use runtime instance capabilities such as GPU-accelerated, memory-optimized, or compute-optimiz",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+          "published": "2026-11-16T17:55:46+00:00",
+          "content_snippet": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS API interactions, inspect results, and try again without provisioning cloud resources for every attempt. I wrote about the Emulator’s launch last week, and it’s my main highlight in ",
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
         {
+          "title": "Talk to your clinical data: unlocking AWS HealthLake with OpenSharing and Genie One",
+          "url": "https://www.databricks.com/blog/talk-your-clinical-data-unlocking-aws-healthlake-opensharing-and-genie-one",
+          "published": "2026-11-16T18:30:00+00:00",
+          "content_snippet": "Many healthcare and life sciences organizations have standardized on AWS HealthLake to manage clinical data...",
           "source_name": "Databricks Blog",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "rss",
+          "area_name": "Providers Updates"
         },
+        {
+          "title": "Build a real-time next-best-offer recommender using Databricks Feature Views",
+          "url": "https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views",
+          "published": "2026-11-16T17:30:00+00:00",
+          "content_snippet": "Real-time personalization depends on understanding what customers want in the moment...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Teach Genie One your workflows: The ultimate guide for skills in Genie One",
+          "url": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
+          "published": "2026-11-16T17:00:00+00:00",
+          "content_snippet": "Every team has “recipes” that govern how they work. The way finance puts together...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
+          "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+          "published": "2026-11-16T17:00:00+00:00",
+          "content_snippet": "Developers have more AI models and coding agents to choose from than ever before....",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Tabular foundation models on Databricks AI Runtime",
+          "url": "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+          "published": "2026-11-16T17:00:00+00:00",
+          "content_snippet": "Many of the most valuable predictive machine learning applications rely on tabular data...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+          "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
+          "published": "2026-11-16T16:55:56+00:00",
+          "content_snippet": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "La Cousinade",
+          "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+          "published": "2026-11-16T05:00:26+00:00",
+          "content_snippet": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
+      "errors": [
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -143,9 +240,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 5
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -160,10 +255,19 @@
       ],
       "items": [
         {
-          "title": "All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI",
-          "url": "https://www.youtube.com/watch?v=O_zcc6Xl12g",
-          "published": "2026-11-14T18:30:09+00:00",
-          "content_snippet": "11,000 pull requests in one month, with a revert rate around 0.5%. Lauren Tan (poteto) shares how the Grok Bot team at SpaceXSI scales AI coding agents through software architecture, lint rules, automated testing, runtime verification and formal verification with TLA+ and Lean. See how Cursor agents and pstack turn these software engineering foundations into reliable software factories. Speaker info: - https://x.com/poteto - https://github.com/poteto - https://github.com/cursor/plugins/tree/main",
+          "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
+          "url": "https://www.youtube.com/watch?v=UCL4K36SHp0",
+          "published": "2026-11-16T13:00:07+00:00",
+          "content_snippet": "ArtCraft’s first Photoshop approximation took about 24 hours to build, Brandon Thomas says. At CODE Summit 2026, he explains how Rust and AI coding agents power open source alternatives to Adobe’s creative tools, Microsoft Office and Figma. MCP and CLI automation, Linux support, reusable UI components and CI bottlenecks lead into Autocraft, a forthcoming software factory for issue triage, agentic development, evaluations and post training. Speaker info: - https://github.com/echelon - https://x.c",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "I love you so jevving much — Diogo Almeida, TypeSafe AI",
+          "url": "https://www.youtube.com/watch?v=Cyt3LU8TyNc",
+          "published": "2026-11-15T21:00:07+00:00",
+          "content_snippet": "Being Einstein 95% of the time and Mr. Bean 5% is Diogo Almeida's analogy for unreliable LLM automation. At CODE Summit 2026, the TypeSafe AI cofounder argues that RLHF optimizes models for human assistance and makes the case for machine native AI with Jev. Reliable agents, KV cache limits, shared memory, semantic types and real time security point toward what software engineers could build beyond chatbots. Speaker info: - https://www.linkedin.com/in/diogomda - https://x.com/CompleteSkeptic - ht",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -173,5 +277,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 15
 }
