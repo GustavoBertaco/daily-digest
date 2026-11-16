@@ -107,7 +107,8 @@ The four curves, and the different question each one answers:
 any one of them.** Three gaps are worth naming, because each is a different kind of trouble:
 
 - **Adoption ≠ demand.** Usage is flat but every *new* workload is choosing something else. The
-  demand curve will not show this for two to four quarters. This is the single most valuable
+  demand curve will not show this for two to four quarters (a working estimate, not a benchmark —
+  see §5.3). This is the single most valuable
   early signal an internal platform has, and §5 turns it into a measured field
   (*new-workload share*).
 - **Evolution ≠ investment.** You are still actively investing in something the market has
@@ -250,43 +251,107 @@ each heading so the mapping back is obvious.
 ## 3. Why an internal data platform distorts the curve
 
 Everything above was written for products sold to a market. A data platform is bought by nobody
-and used by colleagues, and four things break as a result. This section is the reason the
-artifact in §5 measures what it measures.
+and used by colleagues, and six things distort as a result. Each one changes what the artifact
+in §5 has to measure; the table at the end of this section maps them.
 
-**There is no price signal, so demand is never revealed.** In a market, a customer who stops
-valuing something stops paying, and the demand curve moves. Internally, the cost sits in a
-central budget, consumption is free at the point of use, and the *only* thing the volume metric
-tells you is that pipelines someone wrote two years ago are still running. Usage is not demand;
-it is often just inertia with a scheduler attached.
+**1. There is no price signal by default — so read demand from the outputs, not the runs.** In
+a market, a customer who stops valuing something stops paying, and the demand curve moves.
+Internally, the cost usually sits in a central budget and consumption is free at the point of
+use, so the volume metric only tells you that pipelines someone wrote two years ago are still
+running. Usage is not demand; it is often just inertia with a scheduler attached. Two
+corrections apply. First, the missing price is a governance choice, not a law of nature: the
+FinOps Framework treats **showback** (each team sees what it consumes) as required in every
+practice and **chargeback** (each team pays) as optional
+([FinOps Invoicing & Chargeback](https://www.finops.org/framework/capabilities/invoicing-chargeback/)),
+and either one restores part of the signal. Second, a data platform has *better* demand
+telemetry than most market products, because lineage and query logs show who reads every
+output ([OpenLineage](https://openlineage.io/)). A pipeline that runs every day and whose tables
+nobody has read for 90 days is a zombie you can prove. **Output consumption, not execution
+volume, is the demand curve of a data platform** — §5.3 measures it as S3.
 
-**Users are captive, so decline shows up as workarounds instead of churn.** A team that has lost
-faith in a platform capability usually cannot leave. So they stay, and route around: a shadow
-pipeline, a direct warehouse query bypassing the semantic layer, a copy of the dataset in a
-team-owned bucket, an exception request against the governance standard. **The workaround rate
-is the internal equivalent of churn**, and unlike churn it is observable long before the volume
-metric moves.
+**2. Users are captive — so exit becomes workarounds, and voice becomes tickets.** Albert
+Hirschman's *Exit, Voice, and Loyalty* (1970) describes the two responses to decline in any
+firm or organization: **exit** (leave for an alternative) and **voice** (complain and push for
+change from inside), with loyalty delaying exit and giving voice room to work
+([overview](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty)). A team that has lost faith
+in a platform capability usually cannot exit openly, so both responses change shape. Exit goes
+covert: a shadow pipeline, a direct warehouse query bypassing the semantic layer, a copy of the
+dataset in a team-owned bucket. **The workaround rate is the internal equivalent of churn**, and
+unlike churn it is observable long before the volume metric moves. Voice shows up as support
+tickets, complaints, and exception requests — measurable, and usually ignored as noise. Three
+cautions. You can only count the workarounds you detect, and shadow paths are hidden by design,
+so a low rate may mean weak detection rather than health. Not every workaround is decline: some
+are unmet needs, which makes them discovery input, and some are legitimate edge cases. And
+captivity varies: in a decentralized or data-mesh organization, teams *can* buy their own tools,
+and open exit returns.
 
-**The chasm still exists, and a mandate cannot cross it.** This is the load-bearing point. The
-temptation with an internal platform is to skip Phase 3 by decree — *everyone must use the new
-ingestion framework* — and the result is compliance, not adoption: teams do the minimum, keep
-their old path warm, and the whole-product gap that caused the chasm never gets closed. Evan
-Bottcher's definition of a platform is the standing correction here — *a foundation of
+**3. The chasm still exists — and a mandate cannot replace the whole product.** The temptation
+with an internal platform is to skip Phase 3 by decree — *everyone must use the new ingestion
+framework*. When the whole product is not ready, the result is compliance, not adoption: teams
+do the minimum, keep their old path warm, and the gap that caused the chasm never gets closed.
+Evan Bottcher's definition of a platform is the standing correction — *a foundation of
 self-service APIs, tools, services, knowledge and support, arranged as a compelling internal
-product* — and the point that platforms **must be compelling and cannot stand on a mandate
-alone** ([platform prerequisites](https://martinfowler.com/articles/platform-prerequisites.html)),
-later codified in Team Topologies along with the *thinnest viable platform*. A mandated
-capability with a high workaround rate is pre-chasm wearing a Phase-5 badge, and §5 is designed
-to expose exactly that.
+product* — and platforms **must be compelling and cannot stand on a mandate alone**
+([platform prerequisites](https://martinfowler.com/articles/platform-prerequisites.html)),
+later codified in Team Topologies along with the *thinnest viable platform*. But "a mandate
+cannot cross the chasm" is too absolute. Mandates are the right tool in two cases.
+**Capabilities with network effects** — a catalog, lineage, a contract standard — are worth
+more the more teams are in them (Katz & Shapiro's network externalities:
+[AER, 1985](https://consortiuminfo.org/metalibrary/network-externalities-competition-and-compatibility/)),
+so waiting for voluntary adoption is the mistake. **Compliance capabilities** — access control
+over PII, retention — cannot be optional. And removing the old path works when it is the
+*second* step: Google's deprecation practice runs an *advisory* phase, in which the replacement
+proves itself and early adopters move, before a *compulsory* phase with a firm shutdown date
+([Software Engineering at Google, ch. 15](https://abseil.io/resources/swe-book/html/ch15.html)).
+The failing combination is a mandate *without* the whole product. A mandated capability with a
+high workaround rate is pre-chasm wearing a Phase-5 badge, and §5 is designed to expose exactly
+that.
 
-**The evolution curve is set by a vendor market you do not control.** This is the dominant
-obsolescence driver for data platforms specifically, and it has nothing to do with your users.
-The custom-built thing you were right to build in 2023 gets absorbed into a managed product in
-2026 — table format handling, catalog, lineage, orchestration, CDC, semantic layers have all
-been moving right along Wardley's axis at speed. Your adoption curve can look perfectly healthy
-while the evolution curve quietly reclassifies your differentiated capability as undifferentiated
-heavy lifting. Nothing in your usage telemetry will ever tell you this. It has to be reviewed
-deliberately, on a cadence, against the outside market — which is why *evolution stage* is a
-first-class column in §5 rather than a footnote.
+**4. The evolution curve is set by a vendor market you do not control — and replacing is not
+free.** The custom-built thing you were right to build in 2023 can be absorbed into a managed
+product by 2026; catalogs, lineage, table formats, CDC, and semantic layers have all been moving
+right along Wardley's axis (see [Data Platforms in 2029](../data-platform/data-platforms-in-2029.md)
+for the forward view). Your adoption curve can look healthy while the evolution curve quietly
+reclassifies your differentiated capability as undifferentiated heavy lifting. Internal
+telemetry catches this only once teams *act* on it — S1 (new-workload share) falls when new work
+starts choosing the alternative. It cannot tell you that the market moved before anyone chose,
+which is why *evolution stage* is re-read against the outside market on a cadence (§5.6). The
+counterweight matters as much: commoditization is not, on its own, a reason to replace.
+Migration cost, the **data gravity** that makes large datasets expensive to move (a term coined
+by Dave McCrory, 2010), vendor lock-in, and the cost of managed services at scale can make
+*sustain* the right call. Andreessen Horowitz estimated that cloud spend at scale was costing
+the top 50 public software companies about $100B of market value, and that repatriation could
+cut that spend by about half ([The Cost of Cloud, a Trillion Dollar Paradox](https://a16z.com/the-cost-of-cloud-a-trillion-dollar-paradox/),
+2021). The verdict in §5.5 therefore weighs total cost, not just market position.
+
+**5. Demand is derived — and runs through a dependency graph.** A platform capability is rarely
+consumed for its own sake. Its demand derives from the demand for the data products, dashboards,
+models, and agents built on top of it — what economics calls **derived demand**, after Alfred
+Marshall's *Principles of Economics* (1890) ([overview](https://en.wikipedia.org/wiki/Derived_demand)).
+The platform is also two-sided: producers publish into it and consumers read from it, and
+either side can decline first. Two consequences follow. Decline is indirect: a capability loses
+demand when the business stops using what is built on it, which no platform metric sees
+directly. And sunset cost scales with the **transitive consumers** that only lineage reveals —
+the dashboard three hops away that an executive opens every Monday. §5.2 records them, because
+they size the migration before anyone commits to a date.
+
+**6. Incentives favor keeping, not sunsetting.** Nobody gets promoted for switching something
+off, and a capability with a team behind it is also a headcount justification. This is a
+principal–agent problem: the people deciding whether a capability lives are not the ones who
+bear its cost, and their incentives diverge from the organization's (Jensen & Meckling,
+[*Theory of the Firm*, 1976](https://papers.ssrn.com/abstract=94043)). It is the mechanism behind
+the *inertia* that Cagan and Baxley name as the reason dead efforts continue in older
+companies, and it is why §5.5 forces a dated verdict on every row instead of trusting owners to
+volunteer their own capabilities for sunset.
+
+| # | Distortion | What it changes on the board (§5) |
+|---|------------|-----------------------------------|
+| 1 | No price signal by default | S3 measures **output consumption** from lineage and query logs, not execution volume; S5 assumes showback exists or is introduced |
+| 2 | Captive users: covert exit and voice | S2 (workaround rate, with its detection bias noted) and S6 (toil **and voice**) |
+| 3 | Mandate without the whole product | Decision rule 5 distinguishes mandates that work (network effects, compliance, advisory → compulsory) from those that hide a chasm |
+| 4 | Vendor-driven evolution, costly replacement | S4 plus a quarterly external read (§5.6); the *replace* verdict requires a total-cost check (§5.5) |
+| 5 | Derived demand through a dependency graph | The **downstream dependents** field in §5.2 sizes every sunset |
+| 6 | Incentives favor keeping | Every row gets a verdict and a date (§5.5–5.6); nobody has to volunteer |
 
 ## 4. The four kinds of obsolescence
 
@@ -346,7 +411,7 @@ data platform. The *Grounded in* column shows which reference each kind rests on
 
 | # | Kind | What happened | Grounded in | Diagnostic signal | Right response |
 |---|------|---------------|-------------|-------------------|----------------|
-| 1 | **Demand obsolescence** | The problem changed or went away. Fewer people need this at all. | Sandborn (functional) — the weakest grounding of the four | Active consumers *and* new-workload share both falling; no viable alternative gaining. | Sunset. There is nothing to migrate to because there is nothing to do. |
+| 1 | **Demand obsolescence** | The problem changed or went away. Fewer people need this at all. | Sandborn (functional) — the weakest grounding of the four | Output consumption (S3) *and* new-workload share both falling; no viable alternative gaining. | Sunset. There is nothing to migrate to because there is nothing to do. |
 | 2 | **Technology obsolescence** | The capability commoditized. A managed or open alternative now covers the use case at lower total cost. | Christensen; Packard (function); Sandborn (technological) | Demand steady, but evolution stage has moved to *product*/*commodity* and new workloads are choosing the alternative. | **Replace**, then sunset the old. This is a migration project, not a shutdown. |
 | 3 | **Architectural obsolescence** | The thing still works but no longer fits the platform's contracts, governance model, or layering. It survives on exceptions. | Lehman/Parnas (lack of movement); UBA (functional) | Standing exception requests; cannot satisfy current contract/lineage/access requirements without special-casing. | Either invest to bring it into contract, or sunset. Never leave it on a permanent exception. |
 | 4 | **Orphaned** | Nobody owns it. It has consumers and no team, no on-call, no roadmap. | Sandborn (logistical); Parnas (ignorant surgery) | No named owner; changes only happen when it breaks. | Assign an owner *or* sunset — deciding which requires kinds 1–3 above. Never leave it in this state. |
@@ -415,6 +480,7 @@ Each capability is anchored to one **journey stage** of the platform:
 | **Lifecycle phase** | P1–P7 (§2) | The placement — the demand + adoption read |
 | **Evolution stage** | genesis / custom / product / commodity | The market read, reviewed against the outside, not telemetry |
 | **Investment posture** | invest / sustain / sunset | The decision (Cagan & Baxley); publishable as Radar rings — *adopt / trial / hold* |
+| Downstream dependents | count + list, from lineage | Transitive consumers of the capability's outputs; sizes the migration before a sunset date is set (§3, distortion 5) |
 | Obsolescence score | 0–16 (§5.3) | The measured risk |
 | Obsolescence kind | 1–4 or none (§4) | Determines which response applies |
 | Last discovery contact | date | Torres's habit, made auditable — a Phase-5 capability nobody has talked to a user about in six months is not being managed |
@@ -430,17 +496,21 @@ rest explain *why*.
 |---|--------|----------------|-----------|---------|
 | S1 | **New-workload share** | Of new workloads started in the last 90 days in this journey stage, the % that chose this capability | 10–30% | < 10% |
 | S2 | **Workaround rate** | Consumers with a documented bypass, shadow path, or standing exception, ÷ total consumers | 10–25% | > 25% |
-| S3 | **Active consumers trend** | Distinct teams with real use, quarter over quarter | flat, 2 quarters | falling, 2 quarters |
+| S3 | **Output consumption** | Distinct consumers (teams, dashboards, jobs, agents) that actually read the capability's outputs, from query logs and lineage, quarter over quarter — not how often it runs | flat, 2 quarters | falling, 2 quarters, or outputs with no reads in 90 days |
 | S4 | **Commoditization gap** | Does a managed/open alternative cover ≥ 80% of the use case? | emerging | yes, and adopted elsewhere in the org |
 | S5 | **Cost-to-serve** | Run cost ÷ active consumers, trend | rising, usage flat | rising, usage falling |
-| S6 | **Toil load** | Incidents + support requests per active consumer, trend | rising | rising and on-call is degraded |
+| S6 | **Toil and voice** | Incidents, support tickets, complaints, and feature or exception requests per active consumer, trend — Hirschman's *voice* (§3) | rising | rising and on-call is degraded |
 | S7 | **Contract fit** | Satisfies current governance/contract/lineage standards? | with exceptions | only with permanent exceptions |
 | S8 | **Ownership** | Named owner with on-call and roadmap | owner but no roadmap | no named owner |
 
 **S1 and S2 are the ones to instrument first.** They are the only two that move *before* the
 demand curve, they are exactly the internal substitutes for "new sales" and "churn," and
-together they detect kind-2 obsolescence — the expensive kind — roughly two to four quarters
-earlier than usage volume will.
+together they detect kind-2 obsolescence — the expensive kind — before usage volume does. The
+lead time is a working estimate of two to four quarters, not a published benchmark; treat it as
+a hypothesis to calibrate against the platform's own history once S1 and S2 have a few quarters
+of data. Two cautions on S2: it counts only the workarounds you detect, so a low value can mean
+weak detection; and a workaround can be an unmet need rather than decline, which makes it
+discovery input before it is a score (§3, distortion 2).
 
 ### 5.4 The board — the curve, per journey stage
 
@@ -504,7 +574,10 @@ market standardized*. If you are already on the commodity (open table format, ac
 above), the verdict is **sustain**. If you are running a home-grown equivalent (the in-house
 catalog, the bespoke Spark jobs), the verdict is **replace, then sunset the old** — this is
 kind-2 obsolescence from §4, and it is the quadrant where healthy demand hides the most
-expensive decision on the board.
+expensive decision on the board. *Replace* still has to pass a total-cost check: migration
+effort sized by the downstream dependents, data gravity, lock-in, and the alternative's run cost
+at your scale. When those outweigh the saving, the honest verdict is **sustain** on the home-grown
+version, with a review date (§3, distortion 4).
 
 The decision rules, in the order they are applied:
 
@@ -519,7 +592,10 @@ The decision rules, in the order they are applied:
    new except compliance, and move the freed capacity to a P3/P4 row. Publish it as *hold* on
    the internal radar so nobody starts new work against it by accident.
 5. **P3 with a mandate in place → treat as pre-chasm regardless of usage**, and invest in the
-   whole product. A high S2 (workaround rate) alongside a mandate is the tell (§3).
+   whole product. A high S2 (workaround rate) alongside a mandate is the tell (§3). The
+   exceptions are capabilities with network effects or compliance requirements, where the
+   mandate is the right tool, and a compulsory deprecation that follows an advisory phase; even
+   then, a high S2 means the whole product is not ready yet.
 
 ### 5.6 Cadence and ownership
 
@@ -545,6 +621,9 @@ The board is worthless as a one-off audit and valuable as a standing instrument:
 - **The chasm is the phase the classic curve omits and the one internal platforms most reliably
   fail.** A mandate produces compliance, not adoption — and a mandated capability with a high
   workaround rate is pre-chasm no matter what its usage says.
+- **Usage is not demand; output consumption is.** A data platform can prove which outputs
+  nobody reads through lineage and query logs, which is better demand telemetry than most market
+  products have.
 - **Inside a platform, workaround rate is churn and new-workload share is new sales.** They are
   the two signals worth instrumenting first, because they are the only ones that lead the volume
   metric.
@@ -663,6 +742,61 @@ The board is worthless as a one-off audit and valuable as a standing instrument:
   *compelling internal product*; it must be compelling and cannot stand on a mandate alone.
   *Inspires:* §3 in full, particularly the mandate-versus-adoption argument and the workaround
   rate as the internal substitute for churn.
+
+- **Exit, Voice, and Loyalty — Albert O. Hirschman (Harvard University Press, 1970)**
+  ([overview](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty))
+  — the two responses to decline in firms and organizations: *exit* (leave) and *voice*
+  (agitate for change from within), with loyalty delaying exit.
+  *Inspires:* distortion 2 in §3 (covert exit as workarounds, voice as tickets) and signal S6.
+
+- **FinOps Framework — Invoicing & Chargeback, FinOps Foundation**
+  ([finops.org](https://www.finops.org/framework/capabilities/invoicing-chargeback/))
+  — showback is required in any FinOps practice; chargeback depends on the organization's
+  accounting policies; the difference is formality, not maturity.
+  *Inspires:* distortion 1 in §3 — the missing price signal is a governance choice.
+
+- **OpenLineage** ([openlineage.io](https://openlineage.io/))
+  — an open standard for collecting lineage metadata from pipelines and query engines.
+  *Inspires:* output consumption (S3) and the downstream dependents field (§5.2).
+
+- **Network Externalities, Competition, and Compatibility — Michael L. Katz & Carl Shapiro,
+  American Economic Review 75(3), 1985** ([record](https://consortiuminfo.org/metalibrary/network-externalities-competition-and-compatibility/))
+  — the foundational paper on network effects: a good is worth more to each user the more
+  others use it.
+  *Inspires:* distortion 3 in §3 — why mandates are right for catalog, lineage, and contract
+  standards — and decision rule 5.
+
+- **Software Engineering at Google, ch. 15 "Deprecation" — Winters, Manshreck & Wright
+  (O'Reilly, 2020)** ([online edition](https://abseil.io/resources/swe-book/html/ch15.html))
+  — *advisory* deprecation (no deadline, voluntary migration) versus *compulsory* deprecation
+  (a firm shutdown date announced well in advance).
+  *Inspires:* the advisory-then-compulsory exception to the mandate argument in §3 and decision
+  rule 5. **Chapter structure verified; content summarized from secondary notes.**
+
+- **The Cost of Cloud, a Trillion Dollar Paradox — Sarah Wang & Martin Casado, Andreessen
+  Horowitz (2021)** ([a16z.com](https://a16z.com/the-cost-of-cloud-a-trillion-dollar-paradox/))
+  — cloud cost becomes a drag on margins at scale; estimates about $100B of market value lost
+  across 50 top public software companies and roughly 50% savings from repatriation; recommends
+  hybrid, incremental moves.
+  *Inspires:* the replace-is-not-free counterweight in distortion 4 and the total-cost check in
+  §5.5.
+
+- **Data gravity — Dave McCrory (2010)** ([definition](https://whatis.techtarget.com/definition/data-gravity))
+  — large datasets attract applications, services, and other data, the way mass attracts mass,
+  which makes them harder to move.
+  *Inspires:* the migration-cost side of distortion 4. **Origin and meaning verified through
+  secondary sources; the original 2010 post was not consulted.**
+
+- **Derived demand — Alfred Marshall, *Principles of Economics* (1890)**
+  ([overview](https://en.wikipedia.org/wiki/Derived_demand))
+  — demand for an input derives from demand for the final goods it helps produce.
+  *Inspires:* distortion 5 in §3. **Summarized from prior knowledge.**
+
+- **Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure — Michael C.
+  Jensen & William H. Meckling, Journal of Financial Economics 3(4), 1976**
+  ([SSRN](https://papers.ssrn.com/abstract=94043))
+  — agency costs arise when those who decide are not those who bear the consequences.
+  *Inspires:* distortion 6 in §3 — why incentives favor keeping capabilities alive.
 
 - **Data Mesh — Zhamak Dehghani** ([thoughtworks.com](https://www.thoughtworks.com/en-us/insights/books/data-mesh))
   — data as a product, owned by a domain, with a real lifecycle: versioned changes, deprecation
