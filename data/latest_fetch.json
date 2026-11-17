@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T19:50:48Z",
+  "fetched_at": "2026-11-17T18:44:32Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -14,12 +14,30 @@
       ],
       "items": [
         {
-          "title": "Software engineering after code becomes cheap with Satya Nadella",
-          "url": "https://www.youtube.com/watch?v=0NE89Nzfk20",
-          "published": "2026-11-16T13:26:00+00:00",
-          "content_snippet": "What does software engineering look like when generating code becomes cheap, and verifying it becomes the hard part? With Satya Nadella, Microsoft’s CEO, who is one of the very few Big Tech CEOs who started his career as a software engineer (back at Sun Microsystems). He joins me to discuss how building software is changing inside Microsoft, and what these changes mean for engineers. — *Brought to you by:* • turbopuffer – a vector and full-text search engine built on object storage. It’s fast, c",
+          "title": "Why the CS curriculum needs “burning down”",
+          "url": "https://www.youtube.com/watch?v=YFEYYCQIR9A",
+          "published": "2026-11-17T14:30:03+00:00",
+          "content_snippet": "with Titus Winters, co-author of Software Engineering at Google See the full episode on The Pragmatic Engineer Podcast",
           "source_name": "The Pragmatic Engineer",
           "source_type": "youtube",
+          "area_name": "Technology"
+        },
+        {
+          "title": "Engineering AI Discover",
+          "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+          "published": "2026-11-17T17:01:02+00:00",
+          "content_snippet": "The challenges and decisions behind AI Discover’s intelligence layer By Varun Khaitan , Peng Ren , Gary Tang , Itay Teller , Atif Faheem , Nipun Kumar , Donnie DeBoer , Eduardo Lundgren , Matteo Rinaldi , Raghav Bakshi We recently introduced AI Discover , a new tab in our TV app where a small group of members can try new ways to find something to watch. For years, our recommendations have worked in the background, inferring what a member might enjoy from their viewing history. AI Discover moves ",
+          "source_name": "Netflix Tech Blog",
+          "source_type": "rss",
+          "area_name": "Technology"
+        },
+        {
+          "title": "De-identifying text at scale: How Airbnb protects personal data in AI training",
+          "url": "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0?source=rss----53c7c27702d5---4",
+          "published": "2026-11-17T18:01:03+00:00",
+          "content_snippet": "Here’s how Airbnb detects and replaces personal data in messages, reviews, and support chats before it reaches a model. By: Emelin Flores , Alex Klimov , Lee Formyduval , Bahador Nooraei Introduction Airbnb is built on trust. Every night that a guest books a stay, or a host welcomes someone into their home, that trust is backed by information they’ve shared with us, which includes personally identifiable information (PII) such as names, home location, current location, and payment details. We no",
+          "source_name": "Airbnb Tech",
+          "source_type": "rss",
           "area_name": "Technology"
         }
       ],
@@ -30,9 +48,7 @@
         }
       ],
       "deduped_sources": {
-        "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1,
-        "Meta Engineering": 5
+        "Meta Engineering": 4
       }
     },
     {
@@ -57,33 +73,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "5 Rules for Starting a Company",
-          "url": "https://www.youtube.com/watch?v=RXTT2q4CvJ8",
-          "published": "2026-11-16T00:39:33+00:00",
-          "content_snippet": "A great idea doesn’t guarantee a profitable company. Jon McNeill, former president of Tesla and former COO of Lyft, won't take one seriously until five things are true: 1. There's a big addressable market. 2. Gross margins are north of 50%. 3. There's a really hard technical problem that hasn't been solved. Solve it, and it could create a moat. 4. The competitive dynamic works. \"We don't want to go where everybody else is going.\" 5. There's liquidity in the space. If all five hold, DVx Ventures ",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "How narcissistic are you? | Ramani Durvasula",
-          "url": "https://www.youtube.com/watch?v=zHVlBtlQ56Q",
-          "published": "2026-11-16T17:09:24+00:00",
-          "content_snippet": "How narcissistic are you? | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains why narcissism is a spectrum, not an either/or. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short01",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 1
+      }
     },
     {
       "name": "Data Platform",
@@ -140,91 +140,208 @@
       ],
       "items": [
         {
-          "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
-          "published": "2026-11-16T08:00:00+00:00",
-          "content_snippet": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 or 2 minute evaluation window in addition to the existing 5 and 10 minute options, the same capabilities already available in other AWS Regions. A rate-based rule counts requests and applies an action, such as Block or CAPTCHA, when the request rate e",
+          "title": "AWS Security Hub extends unified security management to Google Cloud Platform",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/",
+          "published": "2026-11-17T08:00:00+00:00",
+          "content_snippet": "Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads in AWS and GCP have had to operate separate security tools for each environment, making it difficult to prioritize risks holistically or respond consistently. Security Hub now provides a single, unified experience to detect and ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AgentCore runtime instances are now available in six more AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
-          "published": "2026-11-16T07:30:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pacific (Seoul). Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, scaling, and lifecycle management. By expanding to these AWS Regions, more teams can use runtime instance capabilities such as GPU-accelerated, memory-optimized, or compute-optimiz",
+          "title": "AWS IAM announces Access Troubleshooter to debug access denied errors",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
+          "published": "2026-11-17T08:00:00+00:00",
+          "content_snippet": "AWS Identity and Access Management (IAM) introduces Access Troubleshooter , a new capability that gives you visibility into the full authorization context behind access denied errors so you can resolve them without trial-and-error. Previously, developers relied on the Amazon Resource Name (ARN) of the denying policy to debug a denial, with no visibility into the authorization context or other policies evaluated in the request that could contribute to the denial. This made troubleshooting access ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
-          "published": "2026-11-16T17:55:46+00:00",
-          "content_snippet": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS API interactions, inspect results, and try again without provisioning cloud resources for every attempt. I wrote about the Emulator’s launch last week, and it’s my main highlight in ",
+          "title": "Amazon ECR now replicates image deletions across regions and accounts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+          "published": "2026-11-16T22:07:00+00:00",
+          "content_snippet": "Amazon Elastic Container Registry (Amazon ECR) now supports replicating image deletions and tag removals to your replication destinations. Previously, ECR replication copied images to destination regions and accounts but did not replicate deletions, requiring you to manage deletions separately in each location. With replication of deletes, your destination repositories stay consistent with the source automatically. Teams running multi-region or multi-account architectures no longer need to scrip",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+          "published": "2026-11-16T22:00:00+00:00",
+          "content_snippet": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows. Customers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), f",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+          "published": "2026-11-16T21:00:00+00:00",
+          "content_snippet": "Amazon S3 Vectors now supports hybrid search that combines vector similarity search with full-text search within a single query. By combining semantic meaning and exact term matching into a single ranked list of results, hybrid search captures both intent and precise terms for retrieval-augmented generation (RAG), agent memory, and search applications. This can deliver more relevant ranked results than either method alone. Hybrid search works with the same S3 Vectors APIs and maintains subsecond",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+          "published": "2026-11-16T20:30:00+00:00",
+          "content_snippet": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+          "published": "2026-11-16T19:55:00+00:00",
+          "content_snippet": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem environments. DevOps Agent investigates incidents and identifies operational improvements as an experienced teammate would: by learning your applications and their relationships, working with your observability tools, runbooks, ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Health medical coding is now available in public preview",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-health-medical-coding/",
+          "published": "2026-11-16T19:18:00+00:00",
+          "content_snippet": "Today, AWS announces the public preview of medical coding in Amazon Connect Health , a HIPAA-eligible AI service that works alongside healthcare teams across patient engagement and point-of-care workflows. Medical coding uses existing clinical documentation to suggest ICD-10-CM and CPT codes, including E&M levels and modifiers, for a provider or coder to review and approve before submission. You can integrate medical coding into your EHR or billing application through the Amazon Connect Health S",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer agent assist now supports interactive responses",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/Connect-Custom-agent-interactive-responses",
+          "published": "2026-11-16T19:02:00+00:00",
+          "content_snippet": "Amazon Connect Customer agent assist now supports interactive components, including cards, carousels, buttons, and input fields. The AI agent analyzes conversation context in real time, recommends actions, retrieves information, and executes tasks on behalf of contact center agents using MCP tools in Connect Customer or third-party services. Interactive responses let agents review information, provide details, select options, and confirm actions without manually typing a separate request for eac",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS KMS now supports key sharing with AWS Resource Access Manager",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kms-key-sharing-resource-access-manager/",
+          "published": "2026-11-16T18:00:00+00:00",
+          "content_snippet": "AWS Key Management Service (KMS) now integrates with AWS Resource Access Manager (RAM), giving you a simpler and more consistent way to share KMS keys across your AWS accounts, within your organization in AWS Organizations, and with specific IAM roles and users. You can now let trusted parties define the access they need through reusable managed permissions in RAM, while keeping full control of your keys and key policies. To share a key, create a resource share by selecting the keys to share, ch",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+          "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+          "published": "2026-11-17T17:06:43+00:00",
+          "content_snippet": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes . Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders around them learn, grow, and lead. Let us take a moment to meet them! Andres Moreno – El Paso, United States Serverless Hero Andres Moreno leads the Cloud del Norte AWS User Gro",
           "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Talk to your clinical data: unlocking AWS HealthLake with OpenSharing and Genie One",
-          "url": "https://www.databricks.com/blog/talk-your-clinical-data-unlocking-aws-healthlake-opensharing-and-genie-one",
-          "published": "2026-11-16T18:30:00+00:00",
-          "content_snippet": "Many healthcare and life sciences organizations have standardized on AWS HealthLake to manage clinical data...",
+          "title": "Advancing Catalog Interoperability with Unity Catalog and Google Cloud’s Borderless Lakehouse",
+          "url": "https://www.databricks.com/blog/advancing-catalog-interoperability-unity-catalog-and-google-clouds-borderless-lakehouse",
+          "published": "2026-11-17T16:30:00+00:00",
+          "content_snippet": "The Lakehouse architecture is becoming more open than ever. What started with open...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Build a real-time next-best-offer recommender using Databricks Feature Views",
-          "url": "https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views",
-          "published": "2026-11-16T17:30:00+00:00",
-          "content_snippet": "Real-time personalization depends on understanding what customers want in the moment...",
+          "title": "How packaged clean rooms bring RampID to your lakehouse",
+          "url": "https://www.databricks.com/blog/liveramp-rampid-identity-resolution-packaged-clean-rooms",
+          "published": "2026-11-17T16:30:00+00:00",
+          "content_snippet": "Partner identity resolution used to mean sending your PII to the vendorHistorically on Databricks...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Teach Genie One your workflows: The ultimate guide for skills in Genie One",
-          "url": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
-          "published": "2026-11-16T17:00:00+00:00",
-          "content_snippet": "Every team has “recipes” that govern how they work. The way finance puts together...",
+          "title": "The new Azure Databricks on Azure Government is now in Beta",
+          "url": "https://www.databricks.com/blog/new-azure-databricks-azure-government-now-beta",
+          "published": "2026-11-17T16:30:00+00:00",
+          "content_snippet": "Modern data and AI, built for the missionGovernment agencies and their mission-critical...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
-          "url": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
-          "published": "2026-11-16T17:00:00+00:00",
-          "content_snippet": "Developers have more AI models and coding agents to choose from than ever before....",
+          "title": "Built on object storage, served from cache",
+          "url": "https://www.databricks.com/blog/built-object-storage-served-cache",
+          "published": "2026-11-17T13:54:05+00:00",
+          "content_snippet": "The common argument against running Postgres on object storage goes like this:Postgres...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Tabular foundation models on Databricks AI Runtime",
-          "url": "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
-          "published": "2026-11-16T17:00:00+00:00",
-          "content_snippet": "Many of the most valuable predictive machine learning applications rely on tabular data...",
+          "title": "Clean data was never enough: How IFS Copperleaf taught AI its business with Databricks Genie One",
+          "url": "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0",
+          "published": "2026-11-16T18:30:56+00:00",
+          "content_snippet": "IFS Copperleaf is a leading global provider of Asset Investment Planning (AIP) software...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
-          "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
-          "published": "2026-11-16T16:55:56+00:00",
-          "content_snippet": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
+          "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+          "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+          "published": "2026-11-17T17:55:40+00:00",
+          "content_snippet": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read le",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "La Cousinade",
-          "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
-          "published": "2026-11-16T05:00:26+00:00",
-          "content_snippet": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+          "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+          "url": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
+          "published": "2026-11-17T09:45:35+00:00",
+          "content_snippet": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. Read the full story: https://openai.com/business/customer-stories/revolut/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik",
+          "url": "https://www.youtube.com/watch?v=R_sl8zEp9ng",
+          "published": "2026-11-17T09:45:34+00:00",
+          "content_snippet": "Dmitry Pitik thought he’d need a team of developers to build Revolut’s internal code review service. In this film, the Senior Platform Engineer explains how he broke the design into tasks, assigned them to Codex agents working in parallel and reviewed the code himself. That gave him more time for the engineering decisions he wanted to get right. Read the full story: https://openai.com/business/customer-stories/revolut/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Making marketing feel local across 40 markets | Revolut’s Kim Maniovich",
+          "url": "https://www.youtube.com/watch?v=xkeXefmxArU",
+          "published": "2026-11-17T09:45:31+00:00",
+          "content_snippet": "A campaign that works in one market can need a different approach in the next. Kim Maniovich, Global Head of Business Marketing at Revolut, shares how her team uses AI to understand local differences and tailor campaigns faster. She also explains why she asks her team to challenge an answer even when it sounds convincing. Read the full story: https://openai.com/business/customer-stories/revolut/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+          "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
+          "published": "2026-11-17T09:45:26+00:00",
+          "content_snippet": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
+          "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
+          "published": "2026-11-17T09:45:10+00:00",
+          "content_snippet": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+          "url": "https://www.youtube.com/watch?v=Zbv70lLBHgo",
+          "published": "2026-11-16T20:23:56+00:00",
+          "content_snippet": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Watch the full video: https://www.youtube.com/watch?v=vVVdxMwPBuA Read the full customer story: https://openai.com/index/check-point-daybreak/",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -253,29 +370,12 @@
         "machine-learning",
         "llm"
       ],
-      "items": [
-        {
-          "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
-          "url": "https://www.youtube.com/watch?v=UCL4K36SHp0",
-          "published": "2026-11-16T13:00:07+00:00",
-          "content_snippet": "ArtCraft’s first Photoshop approximation took about 24 hours to build, Brandon Thomas says. At CODE Summit 2026, he explains how Rust and AI coding agents power open source alternatives to Adobe’s creative tools, Microsoft Office and Figma. MCP and CLI automation, Linux support, reusable UI components and CI bottlenecks lead into Autocraft, a forthcoming software factory for issue triage, agentic development, evaluations and post training. Speaker info: - https://github.com/echelon - https://x.c",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "I love you so jevving much — Diogo Almeida, TypeSafe AI",
-          "url": "https://www.youtube.com/watch?v=Cyt3LU8TyNc",
-          "published": "2026-11-15T21:00:07+00:00",
-          "content_snippet": "Being Einstein 95% of the time and Mr. Bean 5% is Diogo Almeida's analogy for unreliable LLM automation. At CODE Summit 2026, the TypeSafe AI cofounder argues that RLHF optimizes models for human assistance and makes the case for machine native AI with Jev. Reliable agents, KV cache limits, shared memory, semantic types and real time security point toward what software engineers could build beyond chatbots. Speaker info: - https://www.linkedin.com/in/diogomda - https://x.com/CompleteSkeptic - ht",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        }
-      ],
+      "items": [],
       "errors": [],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "AI Engineer": 3
+      }
     }
   ],
-  "deduped_count": 15
+  "deduped_count": 20
 }
