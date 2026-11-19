@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T18:22:35Z",
+  "fetched_at": "2026-11-19T18:39:22Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,44 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "Software factories and code reviews with Harjot Gill",
-          "url": "https://www.youtube.com/watch?v=4Cjb7691GJ8",
-          "published": "2026-11-18T18:03:02+00:00",
-          "content_snippet": "In this conversation, we step into the world of an AI-pilled CEO to explore how their startup works. This episode might as well be a way of succeeding that contradicts the growing convention that AI spending costs are too high and must be clamped down on. Harjot Gill is founder and CEO of CodeRabbit, an AI code review business, and he shipped over 5,000 pull requests last month, spending on AI at a monthly run rate of $250,000(!) It’s certainly not a conventional approach and Harjot gets into de",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Treat AI agents like an insider risk",
-          "url": "https://www.youtube.com/watch?v=6ZtSLtqdBlQ",
-          "published": "2026-11-18T17:11:37+00:00",
-          "content_snippet": "Satya Nadella: \"Treat AI agents like an insider risk\" From The Pragmatic Engineer Podcast Watch the full episode at pragmaticpodcast.com",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        },
-        {
-          "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
-          "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
-          "published": "2026-11-18T17:00:00+00:00",
-          "content_snippet": "Our previous post in this series introduced the Ranking Engineer Agent (REA) , an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural advancements and training optimizations efficiently across a large and diverse fleet of ads ranking models. This post walks through this process that we call “technique propagation” and how we’re opt",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        },
-        {
-          "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
-          "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
-          "published": "2026-11-18T16:59:38+00:00",
-          "content_snippet": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template-driven approach that standardizes model design into a small set of reusable and composable building blocks, turning model iteration from a per-model problem into a shared systems problem. Over the la",
-          "source_name": "Meta Engineering",
-          "source_type": "rss",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -57,8 +20,10 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 4,
         "Netflix Tech Blog": 1,
-        "Airbnb Tech": 1
+        "Airbnb Tech": 1,
+        "Meta Engineering": 3
       }
     },
     {
@@ -83,33 +48,17 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Elon's Communication Rules",
-          "url": "https://www.youtube.com/watch?v=57EzArJW2R8",
-          "published": "2026-11-18T00:14:49+00:00",
-          "content_snippet": "Could you run a company on three-sentence emails? That's what Elon asked Jon McNeill, former president of Tesla and former COO of Lyft. The format: First sentence: here's my problem. Second: here's what I think the solution is. Third: here's my next step, and if I need resources or permission, I ask for it here. The second rule was just as simple. \"Don't sit on bad news. Give me bad news as fast as you know about it.\" Bad news only gets worse with time. *Shane Parrish* Instagram: https://www.ins",
-          "source_name": "The Knowledge Project Podcast",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Is demonic possession common? | Jack Symes",
-          "url": "https://www.youtube.com/watch?v=s8wSNKbcMKE",
-          "published": "2026-11-18T17:10:51+00:00",
-          "content_snippet": "Is demonic possession common? | Jack Symes Jack Symes is a philosopher at Durham University and the host of The Panpsycast podcast. In this clip from our full interview, he looks at what a 1980s survey of religious experiences found about the negative ones. Watch the full interview here: https://www.youtube.com/watch?v=S8l1jGHt_PI&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=symes-short02",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "The Knowledge Project Podcast": 1,
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -123,19 +72,10 @@
       ],
       "items": [
         {
-          "title": "Custom Operators in Lakeflow Designer  #databricks",
-          "url": "https://www.youtube.com/watch?v=jxVO4RY5vdw",
-          "published": "2026-11-18T10:27:20+00:00",
-          "content_snippet": "NextGenLakehouse is your independent deep-dive into the Databricks ecosystem. Hosted by Youssef Mrini and Quentin Ambard, we go beyond the marketing slides to bring you hands-on tutorials, architecture breakdowns, and exclusive interviews with the engineers and leaders building the platform. 📌 Key Topics We Cover: • Data Engineering • Data Science, ML & AI + LLMs • BI & Datawarehousing & Apps • Governance, Unity Catalog & Marketplace 🔗 Let's Connect: • 🌐 Master Databricks at our official hub: ht",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        },
-        {
-          "title": "Guardrail operator in Lakeflow Designer  #databricks",
-          "url": "https://www.youtube.com/watch?v=VK4kT-EHDTA",
-          "published": "2026-11-18T10:19:42+00:00",
-          "content_snippet": "What you'll learn: • How Lakeflow Designer builds pipelines visually: add an operator, configure it with forms or natural language, preview the data at each step • The new core operators for filtering, joining, aggregating, running SQL, and writing outputs • The AI Function operator: run classification, extraction, and other AI tasks on your data as a pipeline step • Simplified custom operator creation: describe the transformation, generate a preview, approve, and reuse it (local to one flow or ",
+          "title": "Configure Databricks System Tables retention period #Databricks",
+          "url": "https://www.youtube.com/watch?v=H9QUwfyK0lM",
+          "published": "2026-11-19T12:44:50+00:00",
+          "content_snippet": "🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • 💼 Connect with Youssef: https://www.linkedin.com/in/youssefmrini",
           "source_name": "NextGenLakehouse",
           "source_type": "youtube",
           "area_name": "Data Platform"
@@ -179,172 +119,172 @@
       ],
       "items": [
         {
-          "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
-          "published": "2026-11-18T17:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MySQL and to benefit from bug fixes, performance improvements, and new functionality added by the MySQL community. Learn more about the enhancements in RDS for MySQL 8.4.13 in the Amazon RDS user guide and M",
+          "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/",
+          "published": "2026-11-19T15:56:00+00:00",
+          "content_snippet": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region cluster had to be in the same geographic Region set. With intercontinental multi-Region clusters, applications on two continents read and write to one strongly consistent database. If a Region becomes unavailable, committed writes are preserved and applications keep reading and writing in the other Reg",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Cognito now supports point-in-time recovery",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
-          "published": "2026-11-18T17:00:00+00:00",
-          "content_snippet": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices. Previously, you had to build and maintain your own export and restore process, and restored users received new identifiers and had to reset their passwords. With PITR, you choose a recovery point, preview how many users, groups, multi-factor authentication (MFA) ",
+          "title": "AWS Marketplace now supports buyer contact sharing at subscription",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-contact-sharing/",
+          "published": "2026-11-19T13:00:00+00:00",
+          "content_snippet": "AWS Marketplace now supports buyer contact sharing. When customers subscribe to a third-party product, they can share their contact information with the seller. This helps sellers onboard new customers, send deployment guides and setup instructions, provide technical support, and share product updates from the start of the subscription. Customers share their first name, last name, email address, company name, and country or region in the deployment contact information section of the AWS Marketpl",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon RDS now supports fast storage volume initialization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-fast-storage-volume-initialization/",
-          "published": "2026-11-18T16:00:00+00:00",
-          "content_snippet": "Amazon RDS now initializes storage volumes faster when you perform a point-in-time restore (PITR), create a read replica, or convert a Single-AZ instance to Multi-AZ. Each of these operations creates storage volumes from a snapshot, and the data blocks are downloaded from Amazon S3 before you can access them. With fast storage volume initialization, you get a fully performant DB instance in a predictable amount of time. Previously, the initialization rate varied with your workload and with which",
+          "title": "AWS Systems Manager Parameter Store raises API throughput limits",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+          "published": "2026-11-19T09:00:00+00:00",
+          "content_snippet": "AWS Systems Manager Parameter Store has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS): GetParametersByPath (from 100 to 500 TPS) PutParameter (10 to 50) DeleteParameter (5 to 50) DescribeParameters (10 to 100) GetParameterHistory (10 to 100) Parameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give mor",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Control Tower now supports existing Amazon S3 bucket for log delivery",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/",
-          "published": "2026-11-18T08:00:00+00:00",
-          "content_snippet": "AWS Control Tower now lets you use an existing Amazon S3 bucket in your landing zone to store AWS Config and AWS CloudTrail logs. Previously, AWS Control Tower required you to use the Amazon S3 bucket it creates and manages for log storage. Now, customers who want full control of bucket policies, lifecycle rules, and logging infrastructure can consolidate centralized logs in an Amazon S3 bucket they already manage. You can use your own Amazon S3 bucket for both AWS Config and AWS CloudTrail, giv",
+          "title": "AWS Transform supports optimized storage for server migration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+          "published": "2026-11-19T08:00:00+00:00",
+          "content_snippet": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on recent storage assessment capabilities , AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch. Re",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
-          "published": "2026-11-17T23:46:00+00:00",
-          "content_snippet": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications inside their streaming session. It also extends smart card sign-in, previously limited to single-session fleets, to multi-session fleets. This launch helps public sector, healthcare, and other regulated organizations that use Common Access Card (CAC) or Personal Identity Verification (PIV) cards run tho",
+          "title": "AWS Marketplace now supports buyer approval workflows",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-approvals/",
+          "published": "2026-11-19T08:00:00+00:00",
+          "content_snippet": "Today, AWS Marketplace announces the general availability of buyer approvals. This lets you decide which AWS Marketplace purchases need sign-off, who approves them, and where approval happens. You can define buying policies for the conditions that matter to you, such as purchase amount, product type, pricing, and whether an offer is public or private. Additionally, you can choose to route each purchase request to the right place: the AWS Marketplace console, a chain of approvers by email, or you",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EMR 8.2 is now available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/",
-          "published": "2026-11-17T22:25:00+00:00",
-          "content_snippet": "Amazon EMR 8.2 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless. This release upgrades Apache Spark to 4.1.3, Apache Iceberg to 1.11.0, and Delta Lake to 4.2.0, and it is designated a Long Term Support (LTS) release. This release makes it easier to run secure, governed analytics at scale — you can now write to the same Delta Lake table on Amazon S3 from multiple clusters concurrently, refresh Iceberg materialized views incrementally, and p",
+          "title": "Amazon Connect Customer enables Cases by default for new instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-cases-enabled-by-default/",
+          "published": "2026-11-19T08:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer enables Cases by default for new instances, so operations teams can start tracking and resolving customer issues on day one without any setup work. New instances come with Cases connected to rules for setting SLAs, Customer Profiles for personalizing customer experiences, and Amazon EventBridge for triggering actions in other business applications when a case is updated. Administrators of existing instances can enable these integrations with one click in the AWS Managemen",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
-          "published": "2026-11-17T22:25:00+00:00",
-          "content_snippet": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Server",
+          "title": "AWS Transform automates source and migration target actions to accelerate cutover",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/",
+          "published": "2026-11-19T08:00:00+00:00",
+          "content_snippet": "AWS Transform now automates the tasks that prepare and validate your servers during a migration, before they move and after they launch on AWS. AWS Transform is the agentic AI service that speeds up cloud migration, application modernization, and continuous tech debt reduction. With the new source actions capability, you can create actions and run them securely on your source servers at the right point in the migration, from the early stages through cutover. Post-launch actions complement this b",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Transform now accelerates migration deals for Migration Acceleration Program (MAP) benefits",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/map-integration-with-aws-transform/",
-          "published": "2026-11-17T22:00:00+00:00",
-          "content_snippet": "AWS Partners can now expedite Migration Acceleration Program (MAP) deals, from qualification to incentive payout, with an end-to-end agentic workflow in AWS Transform. Partners can manage the full MAP lifecycle without leaving AWS Transform, including deal qualification, funding approvals, agreement execution, migration planning and execution, resource tagging, and incentive disbursement. Previously, Partners had to switch between separate systems for opportunity discovery, assessments, deal qua",
+          "title": "Amazon OpenSearch Memory is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+          "published": "2026-11-18T21:09:00+00:00",
+          "content_snippet": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C8gn instances are now available in AWS Israel (Tel Aviv) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8gn/",
-          "published": "2026-11-17T22:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Israel (Tel Aviv) region. The C8gn instances provide up to 30% better compute performance than Graviton3-based Amazon EC2 C7gn instances. Amazon EC2 C8gn instances feature the latest 6th generation AWS Nitro Cards, and offer up to 600 Gbps network bandwidth, the highest network bandwidth among network optimized EC2 instances. Take advantage",
+          "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+          "published": "2026-11-18T20:00:00+00:00",
+          "content_snippet": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and reasoning behind each suggestion. You can use the agent on any completed job run from the AWS Glue console, or from your own tools through the Amazon SageMaker Unified Studio MCP Server. The a",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Ireland) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c8ine",
-          "published": "2026-11-17T22:00:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Ireland) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards, delivering up to 43% higher performance compared to previous generation C6in instances. C8ine instances offer up to 2.5 times higher packet performance per vCPU versus prior generation network opti",
+          "title": "Amazon SageMaker AI now supports cross-Region inference routing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-cross-region-routing/",
+          "published": "2026-11-18T20:00:00+00:00",
+          "content_snippet": "Today, Amazon SageMaker AI announces cross-Region inference routing, which helps keep inference applications available when a region runs short of capacity by sending requests to endpoints deployed in other AWS Regions and AWS accounts. Models served on accelerated instances can reach capacity limits in a single Region, and an unhealthy endpoint can lead to throttling and errors for end users. Previously, teams had to build and maintain their own routing, health checks, and retry logic across Re",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing Unity Gateway Insights",
-          "url": "https://www.databricks.com/blog/introducing-unity-gateway-insights",
-          "published": "2026-11-18T22:42:36+00:00",
-          "content_snippet": "When looking to cut AI costs, teams often start with budgets or open-source models....",
+          "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+          "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+          "published": "2026-11-18T19:39:07+00:00",
+          "content_snippet": "GPU support is now available for EC2 G-series GPU instances for Event Functions running on AWS Lambda Managed Instances (LMI). You can now run GPU-accelerated workloads, including machine learning inference, media processing, rendering, and scientific computing, on GPU instances with serverless simplicity. GPU-accelerated functions are deployed as container (Open Container Initiative, OCI) images. You build an OCI image, point the function at it, and let Lambda handle provisioning, scaling, and ",
+          "source_name": "AWS Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How partners use Genie's free tier on Azure Databricks",
+          "url": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+          "published": "2026-11-19T18:00:00+00:00",
+          "content_snippet": "Every Azure Databricks user gets $10 of free Genie usage each month, usage that many...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "What's new for Genie in Microsoft: Copilot Cowork and Chat, Microsoft Teams, and Excel.",
-          "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel",
-          "published": "2026-11-18T16:00:00+00:00",
-          "content_snippet": "Most AI assistants can read a person's email, files, and calendar, but it can't tell...",
+          "title": "Java4Shell vulnerability (CVE-2026-114938) assessment",
+          "url": "https://www.databricks.com/blog/java4shell-vulnerability-cve-2026-114938-assessment",
+          "published": "2026-11-19T17:00:00+00:00",
+          "content_snippet": "As of November 19 at 10 AM Pacific Time:Prior to Java4Shell’s public disclosure (CVE-2026-114938),...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How AUMOVIO centralized AI access with Databricks Unity Gateway",
-          "url": "https://www.databricks.com/blog/how-aumovio-centralized-ai-access-databricks-unity-gateway",
-          "published": "2026-11-18T14:03:54+00:00",
-          "content_snippet": "As AI adoption grew, AUMOVIO teams developed different ways to access large language...",
+          "title": "Bulk migrate your dashboards to AI/BI with Genie Code",
+          "url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
+          "published": "2026-11-19T16:00:00+00:00",
+          "content_snippet": "In our previous post, Migrate Your Dashboards to AI/BI with Genie Code, we walked...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "How we raised Databricks cluster rate limits by 7.5×",
-          "url": "https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75",
-          "published": "2026-11-18T02:30:31+00:00",
-          "content_snippet": "As part of the Compute Platform team at Databricks, we turn cloud infrastructure...",
+          "title": "Introducing Genie Migrate for Serverless",
+          "url": "https://www.databricks.com/blog/introducing-genie-migrate-serverless",
+          "published": "2026-11-19T16:00:00+00:00",
+          "content_snippet": "Serverless compute in Databricks offers a simpler, faster way to run your data and...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Azure Databricks sessions at Microsoft Ignite 2026",
-          "url": "https://www.databricks.com/blog/azure-databricks-sessions-microsoft-ignite-2026",
-          "published": "2026-11-17T19:00:00+00:00",
-          "content_snippet": "Azure Databricks is a Visionary-level sponsor at Microsoft Ignite 2026, November...",
+          "title": "Introducing CustomerLake Conversions: Improve advertising performance with first-party customer context",
+          "url": "https://www.databricks.com/blog/customerlake-conversions",
+          "published": "2026-11-19T13:35:00+00:00",
+          "content_snippet": "Two purchases can look identical in campaign reports and mean very different things to your business...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Branch, sync, serve: What our Lakebase Hackathon taught us about building on Lakebase",
-          "url": "https://www.databricks.com/blog/branch-sync-serve-what-our-lakebase-hackathon-taught-us-about-building-lakebase",
-          "published": "2026-11-17T19:00:00+00:00",
-          "content_snippet": "How Databricks hackathons workWe run these hackathons for a simple reason: the fastest...",
+          "title": "Databricks Wins A-Team Award for AI in Capital Markets",
+          "url": "https://www.databricks.com/blog/databricks-wins-team-award-ai-capital-markets-0",
+          "published": "2026-11-19T03:54:28+00:00",
+          "content_snippet": "Recognized for AI and governance, together.Capital markets have no shortage of AI...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "An underrated way to use ChatGPT: Life admin",
-          "url": "https://www.youtube.com/watch?v=2pdF52EVlbM",
-          "published": "2026-11-18T00:06:39+00:00",
-          "content_snippet": "Even ChatGPT researchers need a little help with life admin. Isa F. shares an underrated way she uses ChatGPT: keeping track of the details and making time for her next haircut.",
+          "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
+          "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
+          "published": "2026-11-19T11:38:57+00:00",
+          "content_snippet": "David Lee, Director of Innovation & Growth at Holiday Extras, calls his dot, Brian, on his morning commute. They talk through the meetings ahead, and Brian can have a report ready by the time David gets to his desk. His colleague Liam Thompson, VP of AI Innovation, calls his dot Beast. The day after Holiday Extras launched a new app feature, Beast checked how it was performing and brought Liam the numbers before he’d even asked. Get to know David, Liam and their dots in the Holiday Extras story:",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Introducing ChatGPT for Sales",
-          "url": "https://www.youtube.com/watch?v=pmOJIq7Ah00",
-          "published": "2026-11-17T23:24:04+00:00",
-          "content_snippet": "Spend less time on busywork and more time selling with ChatGPT for Sales. The new Sales plugin and 30+ new and expanded partner plugins bring your customer context and sales tools together in ChatGPT. Prepare for calls, tailor proposals, and follow up faster with insights from the tools your team already uses. Learn more: https://openai.com/index/introducing-chatgpt-for-sales/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Building 3D video sets with GPT-6.2 Astra",
-          "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
-          "published": "2026-11-17T18:41:32+00:00",
-          "content_snippet": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
+          "title": "Introducing ChatGPT for Accounting",
+          "url": "https://www.youtube.com/watch?v=AhmCKHNqhB8",
+          "published": "2026-11-18T21:01:26+00:00",
+          "content_snippet": "ChatGPT for Accounting helps take the busywork out of your month-end close. Watch how ChatGPT finds completed jobs in your email and drafts QuickBooks invoices for your review, flagging anything unclear along the way. The Accounting plugin also helps you reconcile transactions, process invoices and receipts, and prepare monthly reports using your existing spreadsheets and connected accounting tools. Learn more about the plugins: https://openai.com/business/solutions/accounting",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -360,9 +300,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "AWS Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -377,28 +315,19 @@
       ],
       "items": [
         {
-          "title": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, Cognition",
-          "url": "https://www.youtube.com/watch?v=U92J5mCDLMc",
-          "published": "2026-11-18T14:00:01+00:00",
-          "content_snippet": "Cognition's merged PRs grew 40x in a year while its engineering team grew 2.7x. Walden Yan explains what changed: self-driving PRs by default, small pods that own everything from bug reports to QA, and a workflow run almost entirely from Slack. He covers running every service locally so agents can test, VMs rebuilt every hour, and agents that optimize the factory itself. Then he shows the next step: giving agents jobs instead of tasks, from tuning inference on new GPUs to an Android app maintain",
+          "title": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable",
+          "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
+          "published": "2026-11-19T14:00:14+00:00",
+          "content_snippet": "Lovable nearly failed after building a sophisticated multi agent framework, Fabian Hedin says. At CODE Summit 2026, its CTO explains what changed: durable agent runtimes, Git inspired histories and forkable computers that support long running coding agents. Sandbox checkpointing, copy on write memory, a Rust rewrite of Vite and verification feedback loops connect reliable software generation to product and business outcomes. Speaker info: - https://x.com/FabianHedin - https://www.linkedin.com/in",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "2026 in LLMs — Simon Willison",
-          "url": "https://www.youtube.com/watch?v=9RKrSF9d2SE",
-          "published": "2026-11-17T20:00:09+00:00",
-          "content_snippet": "Simon Willison used AI coding agents to locate a beeping detector buried in 40 boxes. At CODE Summit 2026, the Datasette creator traces three LLM inflection points: reliable coding agents, persistent problem solving and vibe coded game development. Pelican benchmarks, prompt injection and rogue agents frame a broader question about developer productivity: why does software engineering still feel harder? Speaker info: - https://github.com/simonw - https://x.com/simonw - https://simonwillison.net/",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "New Ways of Working with Codex — Dominik Kundel & Charlie Guo, OpenAI",
-          "url": "https://www.youtube.com/watch?v=IPh9YsWvDQk",
-          "published": "2026-11-17T19:43:56+00:00",
-          "content_snippet": "An internal video app lets Codex edit footage in DaVinci Resolve and return a cut for review. OpenAI’s Dominik Kundel and Charlie Guo demonstrate connected agent workflows at CODE Summit 2026, from context gathering with plugins, Appshots and ChatGPT Space to fast UI iteration, Codex Cloud and ChatGPT Sites. Voice, Dots, code review and parallel agents show how the pieces fit into everyday work. Speaker info: Dominik Kundel: https://x.com/dkundel Charlie Guo: https://x.com/charlierguo Workshop r",
+          "title": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind",
+          "url": "https://www.youtube.com/watch?v=fTHByDwTxGM",
+          "published": "2026-11-18T22:30:09+00:00",
+          "content_snippet": "Passing the tests does not mean a coding agent solved the problem. At CODE Summit 2026, Google DeepMind's Melvin Johnson explains Gemini 4 post training for real engineering work, from harder tasks and rubric based grading to isolated evaluation environments. He connects reinforcement learning, reward hacking, honest model behavior and feedback from Google's engineers to faster releases, alongside Gemini 4 Carbon and Hydrogen. Speaker info: - https://melvin.app/ - https://research.google/people/",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -408,5 +337,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 22
+  "deduped_count": 28
 }
