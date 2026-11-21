@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T17:59:55Z",
+  "fetched_at": "2026-11-21T16:56:11Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "The lie: as a manager, you’ll never need to make a technical decision again",
+          "url": "https://www.youtube.com/watch?v=q8I-wmLaMfs",
+          "published": "2026-11-21T16:00:37+00:00",
+          "content_snippet": "with Will Larson, 3x CTO, 4x book author See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -20,10 +30,9 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 3,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
-        "Meta Engineering": 3
+        "Meta Engineering": 2
       }
     },
     {
@@ -48,34 +57,19 @@
         "digest",
         "personal-development"
       ],
-      "items": [
-        {
-          "title": "Could we bring dinosaurs back to life? | Steve Brusatte",
-          "url": "https://www.youtube.com/watch?v=bEVtKdCXHp4",
-          "published": "2026-11-20T17:10:55+00:00",
-          "content_snippet": "Could we bring dinosaurs back to life? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he explains whether we could ever bring dinosaurs back. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short07",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "The universe is stranger than you can imagine | Michelle Thaller: Full Interview",
-          "url": "https://www.youtube.com/watch?v=xXROVLqhchg",
-          "published": "2026-11-20T14:00:00+00:00",
-          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=yt_desc Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, [Sentence case video title] ► [YouTube’s share link of video] [Description] [CHAPTERS] Read the video transcript ► [Link to site article]?utm_source=youtube&utm_medium=video&utm_campaign=",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "The Knowledge Project Podcast",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "Daniel Pink",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1
+        "Big Think": 3
       }
     },
     {
@@ -128,199 +122,100 @@
       ],
       "items": [
         {
-          "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
-          "published": "2026-11-20T08:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency. You can use the Bogotá Local Zone for workloads such as real-time gaming, live video streaming, medical imaging, and financial transaction processing. AWS Local Zones are infrastructure deployments that place compute, storage, networking, and other select AWS services closer to metropolitan areas, wi",
+          "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+          "published": "2026-11-21T01:10:00+00:00",
+          "content_snippet": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on both AWS and Azure no longer need separate monitoring tools or custom pipelines to see their whole environment. Central operations, DevOps, and site reliability engineering (SRE) teams can now view Azure telemetry alongside their AWS telemetry in one place. To get started, connect a Microsoft Entra ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
-          "published": "2026-11-19T22:30:00+00:00",
-          "content_snippet": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they already work together. AWS DevOps Agent investigates incidents across AWS, multicloud, and on-premises environments. Slack code channels give each investigation its own channel. Choose Open in code channel on an investigation card, and your team and the agent work on the investigation together in that chan",
+          "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+          "published": "2026-11-21T00:17:00+00:00",
+          "content_snippet": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and Amazon Bedrock: Spanish, French, German, Italian, and Japanese. Agents serving users in these languages get results that draw on local-language sources. We are also introducing a new optional country field that biases results toward sources from a specific country - just pass an ISO 3166-1 alpha-2 c",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Marketplace now supports agentic payments with AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
-          "published": "2026-11-19T21:30:00+00:00",
-          "content_snippet": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon Bedrock AgentCore. Agents often need paid APIs, data, or content mid-task, but access usually requires a person to sign up, add a payment method, and create an API key. With agentic payments, customers skip that per-seller setup, and charges settle on their existing AWS bill with no crypto wallet requi",
+          "title": "Amazon RDS for Oracle now supports Primary Endpoint",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
+          "published": "2026-11-20T22:54:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now provides a Primary Endpoint, a DNS name that always resolves to the current primary DB instance in a replica configuration. When you switch over to an Oracle replica, Amazon RDS points the Primary Endpoint to the new primary DB instance, so you don't need to change your application connection strings. Previously, after each switchover, you had to update connection strings or DNS records to point to the new primary DB instance, which ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Cognito now supports client ID metadata documents",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
-          "published": "2026-11-19T21:00:00+00:00",
-          "content_snippet": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIMD, Model Context Protocol (MCP) clients and AI agents can sign users in to your user pool without registering a separate app client. Previously, each external client needed its own app client, either created in advance or through dynamic client registration, and you had to manage and clean up those ",
+          "title": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
+          "published": "2026-11-20T22:40:00+00:00",
+          "content_snippet": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge . Lambda emits an event each time an Event Function version changes state because of a customer action, such as creating, updating, publishing, or deleting a function. These events help platform and DevOps teams to trigger automation as soon as a function becomes ready to invoke, an update finishes, or an operation fails, without polling the GetFunction API. Customers use Lambda Event Functions to build APIs, event",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
-          "published": "2026-11-19T20:53:00+00:00",
-          "content_snippet": "With upgrades to its storage layer, Amazon Aurora DSQL now delivers up to 50% higher write throughput for many transactional workloads. Data loads finish sooner, and tables whose primary key always increases, such as tables keyed by a timestamp, an identity column, or a time-ordered ID like ULID or UUIDv7, see even greater benefits. Applications such as audit logs, ledgers, and event feeds are read in time order, and keying them by time keeps those reads fast. You can now use that design for wri",
+          "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+          "published": "2026-11-20T22:38:00+00:00",
+          "content_snippet": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated Internet firewall mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. Yo",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
-          "published": "2026-11-19T20:26:00+00:00",
-          "content_snippet": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For example, these platforms can serve premium and pro customers from dedicated Anycast static IP address lists, each with its own configuration, and serve free-tier customers on the shared CloudFront IP addresses, all under *. example.com . Additionally, these customers also have visibility into viewer c",
+          "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+          "published": "2026-11-20T22:00:00+00:00",
+          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for Enterprise Edition DB instances. With Replica First Patching, you apply a minor version upgrade to a replica in the same AWS Region first while your primary DB instance continues to serve traffic, and then switch over to the replica when you're ready to complete the upgrade. If the replica is in read-only mod",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
-          "published": "2026-11-19T20:22:00+00:00",
-          "content_snippet": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS certificate is being configured. The CloudFront multi-tenant distributions allow these platforms to serve many customer domains from one shared configuration. Together, these features help move existing AWS customers to multi-tenant distributions without impacting their traffic. Previously, moving a",
+          "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+          "published": "2026-11-20T22:00:00+00:00",
+          "content_snippet": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes, and MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate in near real-time. With user data in the sta",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect launches Resolutions, an agentic solution for high-volume operational work",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/",
-          "published": "2026-11-19T20:06:00+00:00",
-          "content_snippet": "Amazon Connect Customer announces the general availability of Resolutions, an agentic operations solution that resolves high-volume work end-to-end, including refund requests, transaction disputes, fraud investigations, and insurance claims. Resolutions helps businesses reduce resolution times and cost to serve by combining the reasoning of AI agents with the reliability of deterministic workflows. Every request follows business policy, gets the oversight it requires, and ends in a verifiable ou",
+          "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+          "published": "2026-11-20T21:50:00+00:00",
+          "content_snippet": "Amazon Neptune Serverless now delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an improved scaling algorithm that adjusts Neptune Capacity Units (NCUs) more closely to your workload. This especially helps applications with many concurrent graph queries, such as real-time fraud detection, recommendation engines and generative AI applications that run graph lookups on every request. ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Lambda durable functions now supports OpenTelemetry tracing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/",
-          "published": "2026-11-19T20:00:00+00:00",
-          "content_snippet": "AWS Lambda announces OpenTelemetry (OTel) support for Lambda durable functions. You can now trace your durable executions and emit traces to Amazon CloudWatch and other industry-standard observability tools. This helps you find bottlenecks in your system, root cause failures faster, and understand how your workflows behave in production. With Lambda durable functions, you can build resilient, multi-step applications and AI workflows that run for up to one year, with built-in checkpointing and au",
+          "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+          "published": "2026-11-20T21:23:00+00:00",
+          "content_snippet": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and week-over-week trends on one dashboard, and alarm on a 30-day baseline. Teams typically define service level objectives (SLOs) over a 30-day rolling window, longer than a 7-day query can measure. You can now calculate availability and remaining error budget for a full SLO period in one query, and alarm",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
-          "published": "2026-11-19T20:00:00+00:00",
-          "content_snippet": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies them as it guides you through discovery, purchase, and deployment. Describe your use case in natural language to get recommended software, services, AI agents and tools, and multi-product solutions that fit your business needs. To assess a seller's sec",
+          "title": "Account Mapping and Planning now available in AWS Partner Central",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+          "published": "2026-11-20T21:00:00+00:00",
+          "content_snippet": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS Partner Central replaces manual, spreadsheet-based account mapping. Upload a target account list through CSV, API, or CRM integration, and accounts are matched automatically against AWS records, including accounts without an ACE opportunity and in any country. Partners can use Account Mapping and Planning",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Interactive Databricks Reference Architectures Across 70 Industries",
-          "url": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
-          "published": "2026-11-20T14:48:28+00:00",
-          "content_snippet": "Why we built itMost Databricks architecture talks used to start with the same slide: ingestion on the left...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Why PostgreSQL 19 shipped late",
-          "url": "https://www.databricks.com/blog/why-postgresql-19-shipped-late",
-          "published": "2026-11-19T22:04:02+00:00",
-          "content_snippet": "PostgreSQL 19 is now generally available, and there are some really cool things in...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
-          "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-          "published": "2026-11-19T21:30:00+00:00",
-          "content_snippet": "In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Genie One Accuracy: Why Curated Agents Need Governed Context",
-          "url": "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
-          "published": "2026-11-19T20:15:41+00:00",
-          "content_snippet": "Ask Finance and Underwriting whether the loss ratio improved from 2024 to 2025, and...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Four AI Architecture Patterns for Regulated Industries",
-          "url": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
-          "published": "2026-11-19T19:30:00+00:00",
-          "content_snippet": "Enterprise AI cannot replace every deterministic control. These four patterns help...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "An underrated way to use ChatGPT: Finding a doctor",
-          "url": "https://www.youtube.com/watch?v=X19Q12hmRjY",
-          "published": "2026-11-20T17:22:23+00:00",
-          "content_snippet": "Your yearly checkups start with finding the right doctor. Magan Chin shares how she uses ChatGPT to find highly rated doctors nearby. Tip by 💡: Instagram @genzbestie · TikTok @genzbestie_",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "3 ChatGPT Tips to Save Money",
-          "url": "https://www.youtube.com/watch?v=WGvsk0LIveU",
-          "published": "2026-11-20T16:00:17+00:00",
-          "content_snippet": "ChatGPT can help you find ways to save, whether you’re shopping for a desk chair or wondering what you’re still paying for after a free trial ends. Learn three ways to save money with ChatGPT. Use a product screenshot to compare prices before you buy, spot subscriptions you no longer use, and build a monthly budget that leaves room for things you enjoy. Looking for a better deal? Try ChatGPT before your next purchase: https://chatgpt.com/?utm_source=youtube&utm_medium=organic_social&utm_campaign",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Create and Share a Dashboard in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=OSHSopaYjTw",
-          "published": "2026-11-20T06:07:50+00:00",
-          "content_snippet": "Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view. See how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashboard with annotations. The video also covers refreshes, matching your branding, and sharing through Sites with connected data. Sites data connections and viewer access: https://learn.chatgpt.com/docs/",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Ask Questions About Your Data in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=JEgTn37Sk50",
-          "published": "2026-11-20T06:05:59+00:00",
-          "content_snippet": "Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes. See how to ask follow-up questions, check which sources ChatGPT is using, and turn the findings into a concise three-slide presentation for your team. Explore the Data plugin: https://chatgpt.com/plugi",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Connect Your Team’s Data to ChatGPT",
-          "url": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
-          "published": "2026-11-20T06:02:57+00:00",
-          "content_snippet": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers. Workspace setup and access: https://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex Snowflake",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Meet the Data Agent in ChatGPT",
-          "url": "https://www.youtube.com/watch?v=KrlfehIapEA",
-          "published": "2026-11-20T05:35:32+00:00",
-          "content_snippet": "Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team. See where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills available for tasks like checking data quality, defining KPIs, and business analysis. Explore the Data plugin: https://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7 Plugin availability depends",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Create and Share a Report in ChatGPT Space",
-          "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
-          "published": "2026-11-20T05:32:52+00:00",
-          "content_snippet": "Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the findings you want to discuss. Create and edit Pages: https://learn.chatgpt.com/docs/space/pages Share a Page ",
+          "title": "How to claim your business in ChatGPT with Shopify",
+          "url": "https://www.youtube.com/watch?v=mX7wHNnsghs",
+          "published": "2026-11-20T20:48:27+00:00",
+          "content_snippet": "Claim your business in ChatGPT by connecting your Shopify store. This demo shows how to start in Business Hub or the Shopify App Store, then connect your store directly to ChatGPT. After that, you can manage your business information to shape how you show up in ChatGPT. Claim your business in Business Hub https://chatgpt.com/business-hub Connect through the Shopify App Store https://apps.shopify.com/chatgpt",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -329,6 +224,10 @@
       "errors": [
         {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -355,10 +254,19 @@
       ],
       "items": [
         {
-          "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
-          "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
-          "published": "2026-11-19T20:00:09+00:00",
-          "content_snippet": "Vibe coding a fighting game left Thariq Shihipar unsure how his own characters worked. At CODE Summit 2026, he revisits the Bitter Lesson, Bash, React and MCP, contrasting AI’s jagged frontier with its smooth interior. His live demo uses readable specifications, custom scripting languages and IDE workflows to show how coding agents can preserve creative control and help bring about a software renaissance. Speaker info: - https://x.com/trq212 - https://www.thariq.io/ Timestamps: 0:00 - The sweet ",
+          "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+          "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
+          "published": "2026-11-20T20:00:36+00:00",
+          "content_snippet": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together. Speaker info: - https://x.com/zachbruggeman - https://github.com/remixz - https://inspect.com/aie Timestamps:",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+          "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+          "published": "2026-11-20T18:30:06+00:00",
+          "content_snippet": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories as code, recorded agent runs, sandboxed compute, swappable models and harnesses, and orchestration. H",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -368,5 +276,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 24
+  "deduped_count": 26
 }
