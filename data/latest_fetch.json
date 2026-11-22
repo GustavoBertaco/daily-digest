@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T16:56:11Z",
+  "fetched_at": "2026-11-22T17:22:26Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "The lie: as a manager, you’ll never need to make a technical decision again",
-          "url": "https://www.youtube.com/watch?v=q8I-wmLaMfs",
-          "published": "2026-11-21T16:00:37+00:00",
-          "content_snippet": "with Will Larson, 3x CTO, 4x book author See the full episode on The Pragmatic Engineer Podcast",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -30,6 +20,7 @@
         }
       ],
       "deduped_sources": {
+        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
@@ -69,7 +60,7 @@
         }
       ],
       "deduped_sources": {
-        "Big Think": 3
+        "Big Think": 2
       }
     },
     {
@@ -82,7 +73,17 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Re-Air: The Power of a Triple Threat in Data: Business, Engineering, and Strategy with Solomon Kahn of Delivery Layer and Top Data People",
+          "url": "https://datastackshow.com",
+          "published": "2026-11-18T09:30:00+00:00",
+          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show, Eric and John welcome Solomon Kahn, Founder & CEO of Delivery Layer and Founder & Chief Data Officer at Top Data People. Solomon discusses his career journey from startups to large corporations, emphasizing the importance of being a \"triple threat\" in data—proficient in statistics, programming, and business. He shares insights from his work at Nielsen, particu",
+          "source_name": "The Data Stack Show",
+          "source_type": "rss",
+          "area_name": "Data Platform"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -102,8 +103,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 3,
-        "The Data Stack Show": 1
+        "NextGenLakehouse": 1
       }
     },
     {
@@ -120,108 +120,12 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
-          "published": "2026-11-21T01:10:00+00:00",
-          "content_snippet": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on both AWS and Azure no longer need separate monitoring tools or custom pipelines to see their whole environment. Central operations, DevOps, and site reliability engineering (SRE) teams can now view Azure telemetry alongside their AWS telemetry in one place. To get started, connect a Microsoft Entra ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
-          "published": "2026-11-21T00:17:00+00:00",
-          "content_snippet": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and Amazon Bedrock: Spanish, French, German, Italian, and Japanese. Agents serving users in these languages get results that draw on local-language sources. We are also introducing a new optional country field that biases results toward sources from a specific country - just pass an ISO 3166-1 alpha-2 c",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for Oracle now supports Primary Endpoint",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
-          "published": "2026-11-20T22:54:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now provides a Primary Endpoint, a DNS name that always resolves to the current primary DB instance in a replica configuration. When you switch over to an Oracle replica, Amazon RDS points the Primary Endpoint to the new primary DB instance, so you don't need to change your application connection strings. Previously, after each switchover, you had to update connection strings or DNS records to point to the new primary DB instance, which ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
-          "published": "2026-11-20T22:40:00+00:00",
-          "content_snippet": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge . Lambda emits an event each time an Event Function version changes state because of a customer action, such as creating, updating, publishing, or deleting a function. These events help platform and DevOps teams to trigger automation as soon as a function becomes ready to invoke, an update finishes, or an operation fails, without polling the GetFunction API. Customers use Lambda Event Functions to build APIs, event",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
-          "published": "2026-11-20T22:38:00+00:00",
-          "content_snippet": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated Internet firewall mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. Yo",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
-          "published": "2026-11-20T22:00:00+00:00",
-          "content_snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for Enterprise Edition DB instances. With Replica First Patching, you apply a minor version upgrade to a replica in the same AWS Region first while your primary DB instance continues to serve traffic, and then switch over to the replica when you're ready to complete the upgrade. If the replica is in read-only mod",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
-          "published": "2026-11-20T22:00:00+00:00",
-          "content_snippet": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes, and MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate in near real-time. With user data in the sta",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
-          "published": "2026-11-20T21:50:00+00:00",
-          "content_snippet": "Amazon Neptune Serverless now delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an improved scaling algorithm that adjusts Neptune Capacity Units (NCUs) more closely to your workload. This especially helps applications with many concurrent graph queries, such as real-time fraud detection, recommendation engines and generative AI applications that run graph lookups on every request. ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
-          "published": "2026-11-20T21:23:00+00:00",
-          "content_snippet": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and week-over-week trends on one dashboard, and alarm on a 30-day baseline. Teams typically define service level objectives (SLOs) over a 30-day rolling window, longer than a 7-day query can measure. You can now calculate availability and remaining error budget for a full SLO period in one query, and alarm",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Account Mapping and Planning now available in AWS Partner Central",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
-          "published": "2026-11-20T21:00:00+00:00",
-          "content_snippet": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS Partner Central replaces manual, spreadsheet-based account mapping. Upload a target account list through CSV, API, or CRM integration, and accounts are matched automatically against AWS records, including accounts without an ACE opportunity and in any country. Partners can use Account Mapping and Planning",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How to claim your business in ChatGPT with Shopify",
-          "url": "https://www.youtube.com/watch?v=mX7wHNnsghs",
-          "published": "2026-11-20T20:48:27+00:00",
-          "content_snippet": "Claim your business in ChatGPT by connecting your Shopify store. This demo shows how to start in Business Hub or the Shopify App Store, then connect your store directly to ChatGPT. After that, you can manage your business information to shape how you show up in ChatGPT. Claim your business in Business Hub https://chatgpt.com/business-hub Connect through the Shopify App Store https://apps.shopify.com/chatgpt",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
+        {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
         {
           "source_name": "AWS Blog",
           "error": "No items returned (feed empty or all outside time window)"
@@ -239,7 +143,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 9
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -254,19 +160,10 @@
       ],
       "items": [
         {
-          "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
-          "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
-          "published": "2026-11-20T20:00:36+00:00",
-          "content_snippet": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together. Speaker info: - https://x.com/zachbruggeman - https://github.com/remixz - https://inspect.com/aie Timestamps:",
-          "source_name": "AI Engineer",
-          "source_type": "youtube",
-          "area_name": "AI & Machine Learning"
-        },
-        {
-          "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
-          "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
-          "published": "2026-11-20T18:30:06+00:00",
-          "content_snippet": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories as code, recorded agent runs, sandboxed compute, swappable models and harnesses, and orchestration. H",
+          "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
+          "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
+          "published": "2026-11-21T17:00:06+00:00",
+          "content_snippet": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual learning on machines you control. Speaker info: - https://ahmadosman.com/ - https://github.com/theahm",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -276,5 +173,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 26
+  "deduped_count": 21
 }
