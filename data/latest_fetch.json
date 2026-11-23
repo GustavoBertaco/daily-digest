@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T17:22:26Z",
+  "fetched_at": "2026-11-23T21:39:24Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -48,7 +48,26 @@
         "digest",
         "personal-development"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Every discovery about the body leads to new questions | Matthew Nurse",
+          "url": "https://www.youtube.com/watch?v=Wk1PWv6re3o",
+          "published": "2026-11-23T20:00:27+00:00",
+          "content_snippet": "We made this video in partnership with @nike. Matthew Nurse is the chief science officer at the Nike Sport Research Lab. In this clip from our video made in partnership with Nike, he explains why every breakthrough in understanding the human body uncovers another challenge to solve, and why he believes science is never done. Watch the full video here: https://www.youtube.com/watch?v=sxXAmPcx9C0",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Why \"codependent\" may be the wrong label | Ramani Durvasula",
+          "url": "https://www.youtube.com/watch?v=35fnOp8DXg0",
+          "published": "2026-11-23T17:13:04+00:00",
+          "content_snippet": "Why \"codependent\" may be the wrong label | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains why people in relationships with narcissists are often mislabeled as codependent. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short02",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        }
+      ],
       "errors": [
         {
           "source_name": "The Knowledge Project Podcast",
@@ -59,9 +78,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Big Think": 2
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Data Platform",
@@ -75,12 +92,12 @@
       ],
       "items": [
         {
-          "title": "Re-Air: The Power of a Triple Threat in Data: Business, Engineering, and Strategy with Solomon Kahn of Delivery Layer and Top Data People",
-          "url": "https://datastackshow.com",
-          "published": "2026-11-18T09:30:00+00:00",
-          "content_snippet": "This episode is a re-air of one of our most popular conversations, featuring insights worth revisiting. This week on The Data Stack Show, Eric and John welcome Solomon Kahn, Founder & CEO of Delivery Layer and Founder & Chief Data Officer at Top Data People. Solomon discusses his career journey from startups to large corporations, emphasizing the importance of being a \"triple threat\" in data—proficient in statistics, programming, and business. He shares insights from his work at Nielsen, particu",
-          "source_name": "The Data Stack Show",
-          "source_type": "rss",
+          "title": "Block PII with Guardrails in Unity Gateway #databricks",
+          "url": "https://www.youtube.com/watch?v=WlhsClha3nM",
+          "published": "2026-11-23T14:48:13+00:00",
+          "content_snippet": "No company wants to appear in the next news headline about a security breach caused by AI. Guardrails serve to protect against the disclosure of a company’s sensitive data from the user to the model or vice versa. Blog 👉 https://databricks.com/blog/how-safeguard-ai-workloads-unity-ai-gateway-guardrails 🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • 💼 Connect with Youssef: h",
+          "source_name": "NextGenLakehouse",
+          "source_type": "youtube",
           "area_name": "Data Platform"
         }
       ],
@@ -103,7 +120,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1
+        "The Data Stack Show": 1
       }
     },
     {
@@ -120,18 +137,146 @@
         "anthropic",
         "databricks"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Amazon Connect Customer launches the ability to force logout agents directly from the analytics dashboard",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-force-logout/",
+          "published": "2026-11-23T18:35:00+00:00",
+          "content_snippet": "Amazon Connect Customer now allows supervisors to force logout agents directly from the real-time analytics dashboard, eliminating the need to manually contact agents to end their sessions. Force logout ends all active agent sessions and records the logout event in the Login/Logout report, so agent timecards stay complete. For example, a supervisor identifies an agent who left their workstation without logging out after a shift, and force logs them out from the dashboard, preventing idle time fr",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
+          "published": "2026-11-23T18:00:00+00:00",
+          "content_snippet": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also support cross-language evaluation and can complete assessments in English, even when the conversation is in another language. This enables mul",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Partner Central expands analytics access with Partner Central Agents and Data Subscriptions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-analytics-agent-s3/",
+          "published": "2026-11-23T17:36:00+00:00",
+          "content_snippet": "AWS Partners and AWS Marketplace sellers now have two new ways to access their analytics data in AWS Partner Central. Partner Central Agents answer questions in plain language, and Data Subscriptions deliver Partner Central data to an Amazon Simple Storage Service (Amazon S3) bucket every day. Partner Central Agents answer questions about leads, marketing campaigns, opportunities and pipeline, and funding, without navigating dashboards or exporting to spreadsheets. AWS Marketplace sellers can al",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+          "published": "2026-11-23T17:21:00+00:00",
+          "content_snippet": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handles provisioning, patching, scaling, and lifecycle management. With runtime instances, teams in AWS GovCloud (US) can choose GPU-accelerated, memory-optimized, or compute-optimized instance types for their agents and run agent sessions of up to 14 days. Agent instances, storage volumes, and session da",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
+          "published": "2026-11-23T17:00:00+00:00",
+          "content_snippet": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs. Until now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. Whe",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
+          "published": "2026-11-23T16:00:00+00:00",
+          "content_snippet": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original client IP address in your application. This means you can apply security groups, geo-blocking, rate limiting, fraud detection, audit logging, allowlists, and compliance controls based on the real client IP. Previously, you couldn't add an NLB with a TLS listener to an accelerator that had client IP ad",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing metal size for Amazon EC2 G7 instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
+          "published": "2026-11-23T16:00:00+00:00",
+          "content_snippet": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6. Customers can use the metal size of G7 instances to run physical AI simulations, deploy AI agent sandboxes, and accelerate graphics workloads that need direct access to bare metal infrastructure. G7 me",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Aurora serverless for MySQL now supports up to 384 ACUs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-serverless-mysql-supports-384-acu/",
+          "published": "2026-11-23T16:00:00+00:00",
+          "content_snippet": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora MySQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU provides approximately 2 gibibytes (GiB) of memory with corresponding CPU and networking, so a single Aurora serverless database can now scale up to 768 GiB of memory. When the workload completes, Aurora serverless automatically scales down to zero. This makes Aurora serverless especially well-suited ",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
+          "published": "2026-11-23T08:00:00+00:00",
+          "content_snippet": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads through a visual interface on HyperPod clusters orchestrated with Amazon Elastic Kubernetes Service (Amazon EKS). SageMaker HyperPod is a purpose-built infrastructure for distributed training and fine-tuning of foundation models at scale, designed to reduce infrastructure management overhead. Submittin",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Amazon Connect Customer AI agents now fill in step-by-step guides",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-agents-fill-guides/",
+          "published": "2026-11-23T08:00:00+00:00",
+          "content_snippet": "AI agents in Amazon Connect Customer can now populate fields of a step-by-step guide for contact center agents during live customer interactions. With step-by-step guides, managers can design forms and other user interfaces for common workflows, such as rebooking a trip or submitting a claim. Now, AI agents can fill in a guide when it first loads and suggest updates during live conversations, saving time and improving data accuracy. When contact center agents speak to customers, they spend valua",
+          "source_name": "AWS What's New",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming",
+          "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+          "published": "2026-11-23T16:32:10+00:00",
+          "content_snippet": "Low-latency use cases like fraud detection, live personalization, and real-time feature...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+          "url": "https://www.youtube.com/watch?v=w-ltt0Np2cY",
+          "published": "2026-11-23T20:03:11+00:00",
+          "content_snippet": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked with Linux maintainers to get fixes upstream. Read the full research: https://openai.com/index/a-thousa",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+          "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+          "published": "2026-11-23T20:02:15+00:00",
+          "content_snippet": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked with Linux maintainers to get fixes upstream, with lessons for security teams looking to scale their ow",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+          "url": "https://www.youtube.com/watch?v=gAmjBqXNoFI",
+          "published": "2026-11-23T15:23:23+00:00",
+          "content_snippet": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and developing their next investment idea. See how AI is changing the work behind investment decisions—and creating more room for the research and judgment that shape an idea. Read the full story: https://op",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+          "url": "https://www.youtube.com/watch?v=PXKvR8ta22Q",
+          "published": "2026-11-23T15:21:09+00:00",
+          "content_snippet": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and developing their next investment idea. See how AI is changing the work behind investment decisions—and creating more room for the research and judgment that shape an idea. Read the full story: https://op",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        }
+      ],
       "errors": [
         {
-          "source_name": "AWS What's New",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
           "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
-        {
-          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -143,9 +288,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "OpenAI": 9
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -160,10 +303,19 @@
       ],
       "items": [
         {
-          "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
-          "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
-          "published": "2026-11-21T17:00:06+00:00",
-          "content_snippet": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual learning on machines you control. Speaker info: - https://ahmadosman.com/ - https://github.com/theahm",
+          "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+          "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
+          "published": "2026-11-23T20:00:40+00:00",
+          "content_snippet": "The best model scores about 16% on Slop Code Bench, a new benchmark for how well agents evolve a code base over time. Dex Horthy uses that data to argue that software factories aren't new: they are good engineering with agents doing the building. He lays out 12 practices, from forward and back pressure to planning, visual alignment, lint rules against slop and a unified forge. Then he launches the Anti-Slop Manifesto and makes the case that reviewing work still matters. Read the manifesto: https",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+          "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
+          "published": "2026-11-22T20:00:27+00:00",
+          "content_snippet": "Earendil's Pi coding agent has the same core tools it had a year ago, yet it does far more because the models got better. Armin Ronacher shows his own session data: fewer corrections, tasks running 14 minutes instead of two and a half, and 141 projects started but only 10 to 15 kept alive. His case: human attention is still the limit, so build a workshop that produces excellent software before building a factory that produces more of it. He also covers knowing when to push back on an agent, open",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -173,5 +325,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 21
+  "deduped_count": 14
 }
