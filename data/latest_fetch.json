@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T21:39:24Z",
+  "fetched_at": "2026-11-24T20:19:38Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,7 +12,17 @@
         "technology",
         "software"
       ],
-      "items": [],
+      "items": [
+        {
+          "title": "Why new grads arrive afraid of getting it “wrong”",
+          "url": "https://www.youtube.com/watch?v=eqptplRWu2k",
+          "published": "2026-11-24T17:00:32+00:00",
+          "content_snippet": "with Titus Winters, co-author of Software Engineering at Google See the full episode on The Pragmatic Engineer Podcast",
+          "source_name": "The Pragmatic Engineer",
+          "source_type": "youtube",
+          "area_name": "Technology"
+        }
+      ],
       "errors": [
         {
           "source_name": "Uber Engineering",
@@ -20,7 +30,6 @@
         }
       ],
       "deduped_sources": {
-        "The Pragmatic Engineer": 1,
         "Netflix Tech Blog": 1,
         "Airbnb Tech": 1,
         "Meta Engineering": 2
@@ -50,35 +59,28 @@
       ],
       "items": [
         {
-          "title": "Every discovery about the body leads to new questions | Matthew Nurse",
-          "url": "https://www.youtube.com/watch?v=Wk1PWv6re3o",
-          "published": "2026-11-23T20:00:27+00:00",
-          "content_snippet": "We made this video in partnership with @nike. Matthew Nurse is the chief science officer at the Nike Sport Research Lab. In this clip from our video made in partnership with Nike, he explains why every breakthrough in understanding the human body uncovers another challenge to solve, and why he believes science is never done. Watch the full video here: https://www.youtube.com/watch?v=sxXAmPcx9C0",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why \"codependent\" may be the wrong label | Ramani Durvasula",
-          "url": "https://www.youtube.com/watch?v=35fnOp8DXg0",
-          "published": "2026-11-23T17:13:04+00:00",
-          "content_snippet": "Why \"codependent\" may be the wrong label | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains why people in relationships with narcissists are often mislabeled as codependent. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short02",
-          "source_name": "Big Think",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        }
-      ],
-      "errors": [
-        {
+          "title": "Ex-Amazon Board Member Reveals Everything Bezos Does to Win",
+          "url": "https://www.youtube.com/watch?v=EsNvJrkgAr4",
+          "published": "2026-11-24T11:00:12+00:00",
+          "content_snippet": "Bing Gordon is the former Chief Creative Officer of Electronic Arts and a partner at Kleiner Perkins. He spent more than a decade on Amazon’s board, a seat he got after bringing Jeff Bezos five ideas in writing. The first was Amazon Prime. Bing describes the week two directors told him they wanted to resign, and the fix he proposed: Bezos opens each meeting with what’s on his mind, and six-page memos replace slide decks. He explains Bezos’s first rule for the board, “first, do no harm,” and the ",
           "source_name": "The Knowledge Project Podcast",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         },
         {
+          "title": "Art Could Be As Healthy As Exercise",
+          "url": "https://www.youtube.com/watch?v=CXgfFLd949o",
+          "published": "2026-11-24T20:19:13+00:00",
+          "content_snippet": "The same UCL group has a much longer data set on this question. Daisy Fancourt and Andrew Steptoe followed 6,710 adults over 50 in the English Longitudinal Study of Ageing for about 14 years. People who visited a museum, gallery, concert or theatre every few months had a 31 percent lower risk of dying during that window than people who never went. Once or twice a year still tracked with 14 percent lower risk. Wealth, education and existing illness were accounted for, and the gap held. Fancourt, ",
           "source_name": "Daniel Pink",
-          "error": "No items returned (feed empty or all outside time window)"
+          "source_type": "youtube",
+          "area_name": "Personal Development"
         }
       ],
-      "deduped_sources": {}
+      "errors": [],
+      "deduped_sources": {
+        "Big Think": 2
+      }
     },
     {
       "name": "Data Platform",
@@ -90,17 +92,7 @@
         "data-platform",
         "data-engineering"
       ],
-      "items": [
-        {
-          "title": "Block PII with Guardrails in Unity Gateway #databricks",
-          "url": "https://www.youtube.com/watch?v=WlhsClha3nM",
-          "published": "2026-11-23T14:48:13+00:00",
-          "content_snippet": "No company wants to appear in the next news headline about a security breach caused by AI. Guardrails serve to protect against the disclosure of a company’s sensitive data from the user to the model or vice versa. Blog 👉 https://databricks.com/blog/how-safeguard-ai-workloads-unity-ai-gateway-guardrails 🔗 Let's Connect: • 🌐 Master Databricks at our official hub: https://nextgenlakehouse.com/ • 📩 Subscribe to our Substack for monthly recaps: https://nextgenlakehouse.com • 💼 Connect with Youssef: h",
-          "source_name": "NextGenLakehouse",
-          "source_type": "youtube",
-          "area_name": "Data Platform"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "The Data Engineering Show",
@@ -120,6 +112,7 @@
         }
       ],
       "deduped_sources": {
+        "NextGenLakehouse": 1,
         "The Data Stack Show": 1
       }
     },
@@ -139,109 +132,172 @@
       ],
       "items": [
         {
-          "title": "Amazon Connect Customer launches the ability to force logout agents directly from the analytics dashboard",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-force-logout/",
-          "published": "2026-11-23T18:35:00+00:00",
-          "content_snippet": "Amazon Connect Customer now allows supervisors to force logout agents directly from the real-time analytics dashboard, eliminating the need to manually contact agents to end their sessions. Force logout ends all active agent sessions and records the logout event in the Login/Logout report, so agent timecards stay complete. For example, a supervisor identifies an agent who left their workstation without logging out after a shift, and force logs them out from the dashboard, preventing idle time fr",
+          "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+          "published": "2026-11-23T23:21:00+00:00",
+          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generati",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
-          "published": "2026-11-23T18:00:00+00:00",
-          "content_snippet": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also support cross-language evaluation and can complete assessments in English, even when the conversation is in another language. This enables mul",
+          "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+          "published": "2026-11-23T23:14:00+00:00",
+          "content_snippet": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles. This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing ses",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Partner Central expands analytics access with Partner Central Agents and Data Subscriptions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-analytics-agent-s3/",
-          "published": "2026-11-23T17:36:00+00:00",
-          "content_snippet": "AWS Partners and AWS Marketplace sellers now have two new ways to access their analytics data in AWS Partner Central. Partner Central Agents answer questions in plain language, and Data Subscriptions deliver Partner Central data to an Amazon Simple Storage Service (Amazon S3) bucket every day. Partner Central Agents answer questions about leads, marketing campaigns, opportunities and pipeline, and funding, without navigating dashboards or exporting to spreadsheets. AWS Marketplace sellers can al",
+          "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+          "published": "2026-11-23T20:00:00+00:00",
+          "content_snippet": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom A",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
-          "published": "2026-11-23T17:21:00+00:00",
-          "content_snippet": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore handles provisioning, patching, scaling, and lifecycle management. With runtime instances, teams in AWS GovCloud (US) can choose GPU-accelerated, memory-optimized, or compute-optimized instance types for their agents and run agent sessions of up to 14 days. Agent instances, storage volumes, and session da",
+          "title": "Amazon API Gateway announces API Portal",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+          "published": "2026-11-23T20:00:00+00:00",
+          "content_snippet": "Today, Amazon API Gateway announces API Portal , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization. Many organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using AWS-side traffic logs and service configuration records, with nothin",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
-          "published": "2026-11-23T17:00:00+00:00",
-          "content_snippet": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs. Until now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. Whe",
+          "title": "Amazon OpenSearch Service now supports OpenSearch version 3.9",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9",
+          "published": "2026-11-23T19:30:00+00:00",
+          "content_snippet": "You can now run OpenSearch version 3.9 on Amazon OpenSearch Service. OpenSearch 3.9 helps you reduce vector memory and storage, evaluate search quality with more large language model (LLM) providers, build more responsive AI agents, and control access to shared resources. This release adds a new half-float vector type and a bf16 encoder, which store each vector dimension in 16 bits to reduce the memory and storage your vector indexes need. New 2-bit and 4-bit scalar quantization lets you choose ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
-          "published": "2026-11-23T16:00:00+00:00",
-          "content_snippet": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original client IP address in your application. This means you can apply security groups, geo-blocking, rate limiting, fraud detection, audit logging, allowlists, and compliance controls based on the real client IP. Previously, you couldn't add an NLB with a TLS listener to an accelerator that had client IP ad",
+          "title": "AWS WAF introduces simplified pricing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+          "published": "2026-11-23T18:51:00+00:00",
+          "content_snippet": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and capacity tier, making every security decision a billing calculation. Now, your bill follows three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply. This makes the cost-benefit trade-off easy to understand, and adding or changing rules no longer chang",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Announcing metal size for Amazon EC2 G7 instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
-          "published": "2026-11-23T16:00:00+00:00",
-          "content_snippet": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6. Customers can use the metal size of G7 instances to run physical AI simulations, deploy AI agent sandboxes, and accelerate graphics workloads that need direct access to bare metal infrastructure. G7 me",
+          "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+          "published": "2026-11-23T18:47:00+00:00",
+          "content_snippet": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF. Discovery is available through the new API Gateway API Portal, which recognizes the AI endpoints among the APIs it discovers automatically from traffic logs and service configur",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon Aurora serverless for MySQL now supports up to 384 ACUs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-serverless-mysql-supports-384-acu/",
-          "published": "2026-11-23T16:00:00+00:00",
-          "content_snippet": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora MySQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU provides approximately 2 gibibytes (GiB) of memory with corresponding CPU and networking, so a single Aurora serverless database can now scale up to 768 GiB of memory. When the workload completes, Aurora serverless automatically scales down to zero. This makes Aurora serverless especially well-suited ",
-          "source_name": "AWS What's New",
+          "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+          "published": "2026-11-24T15:39:59+00:00",
+          "content_snippet": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave platform teams their own runtimes. That is a lot of Lambda for one week. Two other threads ran through the week. A new AWS Local Zone in Bogotá brought AWS infrastructure closer to users in Colombia. And A",
+          "source_name": "AWS Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
-          "published": "2026-11-23T08:00:00+00:00",
-          "content_snippet": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads through a visual interface on HyperPod clusters orchestrated with Amazon Elastic Kubernetes Service (Amazon EKS). SageMaker HyperPod is a purpose-built infrastructure for distributed training and fine-tuning of foundation models at scale, designed to reduce infrastructure management overhead. Submittin",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Connect Customer AI agents now fill in step-by-step guides",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-agents-fill-guides/",
-          "published": "2026-11-23T08:00:00+00:00",
-          "content_snippet": "AI agents in Amazon Connect Customer can now populate fields of a step-by-step guide for contact center agents during live customer interactions. With step-by-step guides, managers can design forms and other user interfaces for common workflows, such as rebooking a trip or submitting a claim. Now, AI agents can fill in a guide when it first loads and suggest updates during live conversations, saving time and improving data accuracy. When contact center agents speak to customers, they spend valua",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming",
-          "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
-          "published": "2026-11-23T16:32:10+00:00",
-          "content_snippet": "Low-latency use cases like fraud detection, live personalization, and real-time feature...",
+          "title": "Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation",
+          "url": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
+          "published": "2026-11-24T19:36:52+00:00",
+          "content_snippet": "A customer saved a jacket to their wishlist on your site 9 days ago. This morning...",
           "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
-          "url": "https://www.youtube.com/watch?v=w-ltt0Np2cY",
-          "published": "2026-11-23T20:03:11+00:00",
-          "content_snippet": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked with Linux maintainers to get fixes upstream. Read the full research: https://openai.com/index/a-thousa",
+          "title": "Sharing catalog metadata across data platforms, engines, and agents",
+          "url": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+          "published": "2026-11-24T01:30:00+00:00",
+          "content_snippet": "We’re excited to announce support for catalog labels – a new capability in the Apache...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
+          "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+          "published": "2026-11-23T20:47:23+00:00",
+          "content_snippet": "Executive summaryThis report is the first of a series of blogs analyzing the supply chain threat landscape...",
+          "source_name": "Databricks Blog",
+          "source_type": "rss",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "How to Search for Exoplanets",
+          "url": "https://www.youtube.com/watch?v=p8lvQQebvpg",
+          "published": "2026-11-24T20:00:45+00:00",
+          "content_snippet": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in starlight that an orbiting planet can cause. Both found signals worth a second look. https://openai.com/index/searching-for-distant-planets-with-astra/",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Make sense of your day | with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=2DUJ2whBJRM",
+          "published": "2026-11-24T17:14:03+00:00",
+          "content_snippet": "Snap a photo and ask ChatGPT to help you figure out what you’re looking at, and highlight anything you should double-check.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Make a day of it | with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=4MFBNFyBmQg",
+          "published": "2026-11-24T17:14:01+00:00",
+          "content_snippet": "ChatGPT can turn a rough idea into the perfect-sized plan for your family. Tell ChatGPT what you’re looking for and it’ll browse sites on your behalf to find local information, and even help you book things.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Make room in your day | with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=Faoam45LT-Q",
+          "published": "2026-11-24T17:13:58+00:00",
+          "content_snippet": "A little more time at the park? Connect your calendar and ask ChatGPT to find a later time for your meeting.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Make your day move | with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=DLV3XRdJAog",
+          "published": "2026-11-24T17:13:55+00:00",
+          "content_snippet": "Plans changed? With your calendar connected, ChatGPT can check your schedule, find another time, and draft a note to let people know.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "School Day | Make A Day Do Anything with ChatGPT",
+          "url": "https://www.youtube.com/watch?v=bGiFYYrmnAg",
+          "published": "2026-11-24T17:09:11+00:00",
+          "content_snippet": "When an unexpected change of plans throws Marla and Ava’s day off course, the pair embark on a spontaneous adventure with a little help from ChatGPT. ChatGPT can move things around, plan trips and create room in your day to spend doing things you love, with people you love. With ChatGPT, you can Make a Day Do Anything.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Conheça o novíssimo ChatGPT Modo Voz.",
+          "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4",
+          "published": "2026-11-24T13:14:46+00:00",
+          "content_snippet": "De uma simples pergunta a uma tarefa resolvida. É só falar com o ChatGPT Modo Voz. Ele te escuta e faz com você.",
+          "source_name": "OpenAI",
+          "source_type": "youtube",
+          "area_name": "Providers Updates"
+        },
+        {
+          "title": "Waiting for a better price on that gift? Use ChatGPT.",
+          "url": "https://www.youtube.com/watch?v=asUuxCqj0GE",
+          "published": "2026-11-24T01:36:38+00:00",
+          "content_snippet": "Try it yourself 👉 Check the price of this item every day and let me know when it drops. Include the old price, new price, and a link to the offer.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -254,31 +310,9 @@
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Franklin Templeton uses AI for investment research | OpenAI",
-          "url": "https://www.youtube.com/watch?v=gAmjBqXNoFI",
-          "published": "2026-11-23T15:23:23+00:00",
-          "content_snippet": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and developing their next investment idea. See how AI is changing the work behind investment decisions—and creating more room for the research and judgment that shape an idea. Read the full story: https://op",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How Franklin Templeton uses AI for investment research | OpenAI",
-          "url": "https://www.youtube.com/watch?v=PXKvR8ta22Q",
-          "published": "2026-11-23T15:21:09+00:00",
-          "content_snippet": "“Just delivering data is not enough.” Franklin Templeton’s Katrina Dudley explains how OpenAI is helping the firm connect information from compliance, risk and trading, then turn it into insights for portfolio managers. That gives analysts more time in the field, talking to private companies and developing their next investment idea. See how AI is changing the work behind investment decisions—and creating more room for the research and judgment that shape an idea. Read the full story: https://op",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
         }
       ],
       "errors": [
-        {
-          "source_name": "AWS Blog",
-          "error": "No items returned (feed empty or all outside time window)"
-        },
         {
           "source_name": "Anthropic News",
           "error": "No items returned (feed empty or all outside time window)"
@@ -303,19 +337,19 @@
       ],
       "items": [
         {
-          "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
-          "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
-          "published": "2026-11-23T20:00:40+00:00",
-          "content_snippet": "The best model scores about 16% on Slop Code Bench, a new benchmark for how well agents evolve a code base over time. Dex Horthy uses that data to argue that software factories aren't new: they are good engineering with agents doing the building. He lays out 12 practices, from forward and back pressure to planning, visual alignment, lint rules against slop and a unified forge. Then he launches the Anti-Slop Manifesto and makes the case that reviewing work still matters. Read the manifesto: https",
+          "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
+          "url": "https://www.youtube.com/watch?v=TvsF67C2F54",
+          "published": "2026-11-24T20:00:04+00:00",
+          "content_snippet": "Jarred Sumner, creator of Bun, recently merged a PR of several million lines that adds an ahead-of-time compiler to Bun, the runtime behind Claude Code. It went through five rewrites in about a month, and the result uses about 4x less memory and starts about 2x faster. He explains why the team made JavaScript faster instead of rewriting Claude Code in Rust, why tests that predate the project are what make agent-written code trustworthy, and what he actually does all day while 140 agents write co",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
-          "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
-          "published": "2026-11-22T20:00:27+00:00",
-          "content_snippet": "Earendil's Pi coding agent has the same core tools it had a year ago, yet it does far more because the models got better. Armin Ronacher shows his own session data: fewer corrections, tasks running 14 minutes instead of two and a half, and 141 projects started but only 10 to 15 kept alive. His case: human attention is still the limit, so build a workshop that produces excellent software before building a factory that produces more of it. He also covers knowing when to push back on an agent, open",
+          "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
+          "url": "https://www.youtube.com/watch?v=SRhXgeNluIk",
+          "published": "2026-11-24T14:00:11+00:00",
+          "content_snippet": "Software factories can turn out code faster than anyone can keep it clean, and the pile grows. Steve Yegge, creator of Beads and Gas Town, takes on software factories and how to escape the trash mountain they can leave behind. Speaker info: - https://x.com/steve_yegge Timestamps: 0:00 - Evolution of software factories 2:56 - Case study: Wyvern RPG 3:36 - Managing a factory 5:53 - The five horsemen of automation 7:15 - Work and context management 7:57 - Fuel and cost optimization 10:26 - Context ",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
