@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T19:34:16Z",
+  "fetched_at": "2026-11-26T19:16:23Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -12,17 +12,7 @@
         "technology",
         "software"
       ],
-      "items": [
-        {
-          "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
-          "url": "https://www.youtube.com/watch?v=9oNvKMd7xJo",
-          "published": "2026-11-25T17:26:20+00:00",
-          "content_snippet": "How did Anthropic rewrite the API serving every Claude token from Python to Rust? And how has the software engineering role evolved at the company? With Katelyn Lesse, who leads platform engineering at Anthropic and previously led engineering teams at Stripe. Her team owns the Claude API and the infrastructure behind products like Claude Code and Claude Desktop. — *Brought to you by:* • Antithesis – verify your system’s correctness without human review or traditional integration tests – and avoi",
-          "source_name": "The Pragmatic Engineer",
-          "source_type": "youtube",
-          "area_name": "Technology"
-        }
-      ],
+      "items": [],
       "errors": [
         {
           "source_name": "Netflix Tech Blog",
@@ -33,12 +23,16 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "Meta Engineering",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "Uber Engineering",
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
       "deduped_sources": {
-        "Meta Engineering": 2
+        "The Pragmatic Engineer": 2
       }
     },
     {
@@ -65,27 +59,19 @@
       ],
       "items": [
         {
-          "title": "Negative Space Hidden Logos",
-          "url": "https://www.youtube.com/watch?v=d7CqCRlzFTA",
-          "published": "2026-11-25T14:30:43+00:00",
-          "content_snippet": "Raymond Nickerson and Marilyn Adams tested this in 1979 with something more familiar than any logo. They asked American adults to draw a penny from memory. Of the eight features on the coin, the average person placed about three correctly. Then they showed people fifteen versions of the penny with the details shuffled. Fewer than half picked the real one. These were adults who had handled thousands of them. Nickerson, R. S., & Adams, M. J. (1979). Long-term memory for a common object. Cognitive ",
-          "source_name": "Daniel Pink",
-          "source_type": "youtube",
-          "area_name": "Personal Development"
-        },
-        {
-          "title": "Why narcissistic abuse is hard to see | Ramani Durvasula",
-          "url": "https://www.youtube.com/watch?v=X1bm60e_QUk",
-          "published": "2026-11-25T17:12:16+00:00",
-          "content_snippet": "Why narcissistic abuse is hard to see | Ramani Durvasula Ramani Durvasula is a clinical psychologist and the author of It's Not You. In this clip from our full interview, she explains why a narcissistic relationship is death by a thousand cuts rather than one big event. Watch the full interview here: https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/?utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=durvasula-short03",
-          "source_name": "Big Think",
+          "title": "Are Investors Killing Their Own Companies?",
+          "url": "https://www.youtube.com/watch?v=IXK5jTlorFw",
+          "published": "2026-11-26T00:05:44+00:00",
+          "content_snippet": "Firing a founder before the company reaches 100 million is a mistake. Former Amazon board member Bing Gordon says many board members think their job is just to hire and fire the CEO, and that’s the wrong job. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show feat",
+          "source_name": "The Knowledge Project Podcast",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "The Knowledge Project Podcast": 1
+        "Daniel Pink": 2,
+        "Big Think": 3
       }
     },
     {
@@ -109,6 +95,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "The Data Stack Show",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Analytics Engineering Podcast",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -118,8 +108,7 @@
         }
       ],
       "deduped_sources": {
-        "NextGenLakehouse": 1,
-        "The Data Stack Show": 1
+        "NextGenLakehouse": 1
       }
     },
     {
@@ -138,118 +127,37 @@
       ],
       "items": [
         {
-          "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
-          "published": "2026-11-25T17:15:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in the Israel (Tel Aviv) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 M8g instances are built for general-purpose workloads, such as application servers, microservices, gaming servers, midsize data stores, and caching fleets. M8g instances are up to 40% faster for databases, up to 30% faster for web",
+          "title": "AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
+          "published": "2026-11-25T20:00:00+00:00",
+          "content_snippet": "Today, AWS announces a developer preview of a new extension for orchestrating Lambda MicroVMs with Lambda durable functions . The extension adds durable operations for running work on MicroVMs and managing their lifecycle. You can use the new operations to build software factories, security scanners, or orchestrate CI/CD jobs that run untrusted or agent-generated code in isolated sandboxes. With Lambda durable functions, you can build resilient, multi-step applications and AI workflows that run ",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 M9gd instances are now available in Asia Pacific (Seoul)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/",
-          "published": "2026-11-25T17:10:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9gd instances are available in the Asia Pacific (Seoul) region. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2. M9gd instances deliver up to 25% better compute performance than AWS Graviton4-based M8gd instances. They are up to 30% faster for databases, up to 35% faster for web applications",
+          "title": "Amazon CloudWatch Omni now integrates with PagerDuty",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/",
+          "published": "2026-11-25T20:00:00+00:00",
+          "content_snippet": "Amazon CloudWatch Omni alerts can now automatically create PagerDuty incidents, so notifications flow directly into your existing incident management workflows. This reduces mean time to resolution (MTTR) by eliminating manual notification steps and ensuring consistent incident workflows. CloudWatch Omni is a fully managed AI-powered observability experience built on open standards that unifies monitoring for AI agents, applications, and infrastructure. PagerDuty is an incident management platfo",
           "source_name": "AWS What's New",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C9gd instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions/",
-          "published": "2026-11-25T16:49:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9gd instances are available in the Europe (Ireland, Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2. C9gd instances deliver up to 25% better compute performance than AWS Graviton4-based C8gd instances. They are up to 30% faster for databases, up to 35% faster for web applicat",
-          "source_name": "AWS What's New",
+          "title": "Rethinking read replicas for the lakebase architecture",
+          "url": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
+          "published": "2026-11-26T13:45:08+00:00",
+          "content_snippet": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
+          "source_name": "Databricks Blog",
           "source_type": "rss",
           "area_name": "Providers Updates"
         },
         {
-          "title": "Amazon EC2 C9g instances are now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9g-instances-additional-regions/",
-          "published": "2026-11-25T16:17:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g instances are available in the Asia Pacific (Sydney), Europe (Ireland, Spain), and South America (São Paulo) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2. C9g instances deliver up to 25% better compute performance than AWS Graviton4-based C8g instances. They are up to 30% fast",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon EC2 M9g instances now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
-          "published": "2026-11-25T16:06:00+00:00",
-          "content_snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g instances, powered by AWS Graviton5 processors, are available in US West (N. California), Canada (Central), South America (São Paulo), and Asia Pacific (Seoul) regions. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance for memory-intensive workloads running on Amazon EC2. M9g instances deliver up to 25% better performance compared to AWS Graviton4-based M8g instances. They",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
-          "published": "2026-11-25T06:00:00+00:00",
-          "content_snippet": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control and to identify the originating human user or workload in AWS CloudTrail. AWS is expanding TIP to AWS Identity and Access Management (IAM) federation and IAM Roles Anywhere , while simplifying the existing TIP experience in AWS IAM Identity Center. In addition, IAM outbound identity federation now ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
-          "published": "2026-11-24T21:27:00+00:00",
-          "content_snippet": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your infere",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
-          "published": "2026-11-24T20:22:00+00:00",
-          "content_snippet": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that provisions resources in seconds, auto scales instantly to meet changing demand, and scales to zero when idle, so customers only pay for the compute they use. With this launch, customers in the Africa (Cape Town) Region can run agentic AI, search, and observability workloads without provisioning or man",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "AWS CloudFormation makes resource coverage comprehensive with 206 new types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-coverage-expansion/",
-          "published": "2026-11-24T20:00:00+00:00",
-          "content_snippet": "AWS CloudFormation now supports 206 additional resource types across 88 services, including Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, and Amazon EC2 Snapshot. This closes key gaps in CloudFormation coverage and helps customers to standardize on safe and scalable infrastructure management workflows. The launch utilized a new AI-driven internal framework to collapse the costs of onboarding resource types to CloudFormation, setting up CloudFormation for continued coverage expansi",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "How your dot can keep work moving while you’re away",
-          "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
-          "published": "2026-11-25T18:21:11+00:00",
-          "content_snippet": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch [insert slack channel] and [#on-call-[insert channel]]. Group related feedback in existing Linear tic",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "School Day | Make a day do anything with ChatGPT  (Official)",
-          "url": "https://www.youtube.com/watch?v=kfGYU_-SuaE",
-          "published": "2026-11-25T16:45:33+00:00",
-          "content_snippet": "When an unexpected change of plans throws Marla and Ava’s day off course, the pair embark on a spontaneous adventure with a little help from ChatGPT. ChatGPT can move things around, plan trips and create room in your day to spend doing things you love, with people you love. With ChatGPT, you can Make a Day Do Anything.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Finances in ChatGPT: A Beginner’s Guide",
-          "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ",
-          "published": "2026-11-25T14:00:28+00:00",
-          "content_snippet": "Finances in ChatGPT can help you get a clearer picture of your spending and find ways to make progress toward your financial goals. In this video, we'll get you up to speed with the basics of Finances in ChatGPT: connect your bank account, review your recurring subscriptions, and build a budget around what matters to you. Get started with Finances in ChatGPT: https://chatgpt.com/finances/?utm_source=youtube&utm_medium=organic_social&utm_campaign=getting_started_finances&utm_content=description",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Experiment with SVG & 3D Design with the Codex Plugin",
-          "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
-          "published": "2026-11-24T21:32:42+00:00",
-          "content_snippet": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in Codex and tell us what you build! Learn more: SVG & 3D Design Plugin: https://chatgpt.com/plugins/Plugin_1",
+          "title": "You had us at Deployed",
+          "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
+          "published": "2026-11-25T23:50:43+00:00",
+          "content_snippet": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
           "source_name": "OpenAI",
           "source_type": "youtube",
           "area_name": "Providers Updates"
@@ -269,9 +177,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "Databricks Blog": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "AI & Machine Learning",
@@ -286,10 +192,19 @@
       ],
       "items": [
         {
-          "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
-          "url": "https://www.youtube.com/watch?v=Xyb1Bn_L2U4",
-          "published": "2026-11-25T14:00:31+00:00",
-          "content_snippet": "Amp spun out of Sourcegraph with 21 people and, unable to hire for a year, was forced to work in a radically different way. Quinn Slack explains what that looks like: no task tracker, no PMs, one meeting a week, everything done in the agent, and tiny monitored pushes instead of big releases. He shows Amp's bug-report loop that fixes the issue and emails everyone affected, why they built their own CRM instead of using Salesforce, and how a company with more than $100M in ARR runs 40 to 50 times m",
+          "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
+          "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
+          "published": "2026-11-26T14:00:20+00:00",
+          "content_snippet": "Most of the time you don't know what you want yet, so putting new ideas through a factory wastes time and tokens. Justin McCarthy, founder and CEO of Diffusion, argues for brownfield factories instead: continuous loops that keep the promises of software customers already pay for, getting faster, cheaper and safer around the clock. He explains why these factories simplify with every model release and why one takes about a week to stand up. Then he raises the stakes: with code now abundant, engine",
+          "source_name": "AI Engineer",
+          "source_type": "youtube",
+          "area_name": "AI & Machine Learning"
+        },
+        {
+          "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+          "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
+          "published": "2026-11-25T20:00:32+00:00",
+          "content_snippet": "A team of 1,000 Claude agents formalized Fermat's Last Theorem in Lean over about 30 hours, using nothing but Git and a database, with no domain-specific harness and no human steering on the solution. Lance Martin shows how the lead agent built its own coordination tables and how the team reassigned itself as the work progressed. Then he turns to memory: why stronger models know what to write down, how Claude's Pokemon memory got tighter from Sonnet 3.7 to Fable 5, and how \"dreaming\" over transc",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -299,5 +214,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 20
+  "deduped_count": 22
 }
