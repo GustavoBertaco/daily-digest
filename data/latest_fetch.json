@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T19:16:23Z",
+  "fetched_at": "2026-11-27T19:10:17Z",
   "max_age_hours": 26,
   "areas": [
     {
@@ -59,19 +59,36 @@
       ],
       "items": [
         {
-          "title": "Are Investors Killing Their Own Companies?",
-          "url": "https://www.youtube.com/watch?v=IXK5jTlorFw",
-          "published": "2026-11-26T00:05:44+00:00",
-          "content_snippet": "Firing a founder before the company reaches 100 million is a mistake. Former Amazon board member Bing Gordon says many board members think their job is just to hire and fire the CEO, and that’s the wrong job. *Shane Parrish* Instagram: https://www.instagram.com/farnamstreet/ X: https://x.com/ShaneParrish LinkedIn: https://www.linkedin.com/in/shane-parrish-050a2183/ Books: https://fs.blog/books/ Website: https://fs.blog/ Newsletter: http://fs.blog/newsletter *The Knowledge Project* is a show feat",
+          "title": "The Building Blocks of Positioning",
+          "url": "https://www.youtube.com/watch?v=iP65bgnitQs",
+          "published": "2026-11-26T22:08:59+00:00",
+          "content_snippet": "What does good positioning actually look like? April Dunford, positioning expert and author of Obviously Awesome, breaks it into components: • Competitive alternatives: if you didn't exist, what would a customer do? • Differentiated capabilities: what do you have that the alternatives don't? • Differentiated value: why do those features matter to a business? • The customers who care a lot about that value. Then build the messaging around it. Get it right, and people will say, \"Well, of course th",
           "source_name": "The Knowledge Project Podcast",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "What did pre-historic birds look like? | Steve Brusatte",
+          "url": "https://www.youtube.com/watch?v=NN__5ki409g",
+          "published": "2026-11-27T17:09:04+00:00",
+          "content_snippet": "What did pre-historic birds look like? | Steve Brusatte Steve Brusatte is a paleontologist at the University of Edinburgh and the author of The Rise and Fall of the Dinosaurs. In this clip from our full interview, he describes what the earliest birds looked like. Watch the full interview here: https://www.youtube.com/watch?v=Kk0VyaXjWXQ&utm_source=youtube&utm_medium=social&utm_campaign=shorts&utm_content=brusatte-short08",
+          "source_name": "Big Think",
+          "source_type": "youtube",
+          "area_name": "Personal Development"
+        },
+        {
+          "title": "Physics is approaching the limits of the human mind | Brian Greene: Full Interview",
+          "url": "https://www.youtube.com/watch?v=uoj1ezJRUvA",
+          "published": "2026-11-27T14:00:18+00:00",
+          "content_snippet": "Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=bt-ytdesc-text-fi-greene-uoj1ezJRUvA Subscribe to Big Think on YouTube ► https://www.youtube.com/channel/UCvQECJukTDE2i6aCoMnS-Vg?sub_confirmation=1 Up next, Brian Cox: The quantum roots of reality | Full Interview ► https://www.youtube.com/watch?v=kO41iURud9c In 1915, an astronomer stationed",
+          "source_name": "Big Think",
           "source_type": "youtube",
           "area_name": "Personal Development"
         }
       ],
       "errors": [],
       "deduped_sources": {
-        "Daniel Pink": 2,
-        "Big Think": 3
+        "Daniel Pink": 2
       }
     },
     {
@@ -95,6 +112,10 @@
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
+          "source_name": "NextGenLakehouse",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "The Data Stack Show",
           "error": "No items returned (feed empty or all outside time window)"
         },
@@ -107,9 +128,7 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {
-        "NextGenLakehouse": 1
-      }
+      "deduped_sources": {}
     },
     {
       "name": "Providers Updates",
@@ -125,47 +144,18 @@
         "anthropic",
         "databricks"
       ],
-      "items": [
-        {
-          "title": "AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
-          "published": "2026-11-25T20:00:00+00:00",
-          "content_snippet": "Today, AWS announces a developer preview of a new extension for orchestrating Lambda MicroVMs with Lambda durable functions . The extension adds durable operations for running work on MicroVMs and managing their lifecycle. You can use the new operations to build software factories, security scanners, or orchestrate CI/CD jobs that run untrusted or agent-generated code in isolated sandboxes. With Lambda durable functions, you can build resilient, multi-step applications and AI workflows that run ",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Amazon CloudWatch Omni now integrates with PagerDuty",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/",
-          "published": "2026-11-25T20:00:00+00:00",
-          "content_snippet": "Amazon CloudWatch Omni alerts can now automatically create PagerDuty incidents, so notifications flow directly into your existing incident management workflows. This reduces mean time to resolution (MTTR) by eliminating manual notification steps and ensuring consistent incident workflows. CloudWatch Omni is a fully managed AI-powered observability experience built on open standards that unifies monitoring for AI agents, applications, and infrastructure. PagerDuty is an incident management platfo",
-          "source_name": "AWS What's New",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "Rethinking read replicas for the lakebase architecture",
-          "url": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
-          "published": "2026-11-26T13:45:08+00:00",
-          "content_snippet": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
-          "source_name": "Databricks Blog",
-          "source_type": "rss",
-          "area_name": "Providers Updates"
-        },
-        {
-          "title": "You had us at Deployed",
-          "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
-          "published": "2026-11-25T23:50:43+00:00",
-          "content_snippet": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
-          "source_name": "OpenAI",
-          "source_type": "youtube",
-          "area_name": "Providers Updates"
-        }
-      ],
+      "items": [],
       "errors": [
         {
+          "source_name": "AWS What's New",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
           "source_name": "AWS Blog",
+          "error": "No items returned (feed empty or all outside time window)"
+        },
+        {
+          "source_name": "Databricks Blog",
           "error": "No items returned (feed empty or all outside time window)"
         },
         {
@@ -177,7 +167,9 @@
           "error": "No items returned (feed empty or all outside time window)"
         }
       ],
-      "deduped_sources": {}
+      "deduped_sources": {
+        "OpenAI": 10
+      }
     },
     {
       "name": "AI & Machine Learning",
@@ -192,19 +184,19 @@
       ],
       "items": [
         {
-          "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
-          "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
-          "published": "2026-11-26T14:00:20+00:00",
-          "content_snippet": "Most of the time you don't know what you want yet, so putting new ideas through a factory wastes time and tokens. Justin McCarthy, founder and CEO of Diffusion, argues for brownfield factories instead: continuous loops that keep the promises of software customers already pay for, getting faster, cheaper and safer around the clock. He explains why these factories simplify with every model release and why one takes about a week to stand up. Then he raises the stakes: with code now abundant, engine",
+          "title": "Why Cloudflare Became a Neolab — Michelle Chen, Cloudflare",
+          "url": "https://www.youtube.com/watch?v=cYcYfM9Mvwo",
+          "published": "2026-11-27T14:00:04+00:00",
+          "content_snippet": "Cloudflare bet early that AI models would get smaller and network latency would matter. Instead models grew to trillions of parameters, so Cloudflare pivoted to serving them. Then System 1 decision models arrived, and Cloudflare trained its own over a weekend and shipped four models in three weeks. Michelle Chen, group PM for Workers AI, tells that story and demos Clef and Cleric alongside an LLM on a CI triage task: about 2x faster, 72% cheaper and 94% fewer tokens, with the same answer. Speake",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
         },
         {
-          "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
-          "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
-          "published": "2026-11-25T20:00:32+00:00",
-          "content_snippet": "A team of 1,000 Claude agents formalized Fermat's Last Theorem in Lean over about 30 hours, using nothing but Git and a database, with no domain-specific harness and no human steering on the solution. Lance Martin shows how the lead agent built its own coordination tables and how the team reassigned itself as the work progressed. Then he turns to memory: why stronger models know what to write down, how Claude's Pokemon memory got tighter from Sonnet 3.7 to Fable 5, and how \"dreaming\" over transc",
+          "title": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI",
+          "url": "https://www.youtube.com/watch?v=bFcob2p6u3A",
+          "published": "2026-11-26T20:00:28+00:00",
+          "content_snippet": "When execution is nearly free, ambition is about how you approach the work, not how many tokens you spend. Jason Liu of OpenAI's developer experience team takes on three fears: that AI means more slop, that it erodes critical thinking, and that it will replace us. His answers: own the work you ship, build the language to describe what good looks like, and use AI to pursue the fields you set aside for software. He draws on photography's effect on painting, his time in art school and his own proje",
           "source_name": "AI Engineer",
           "source_type": "youtube",
           "area_name": "AI & Machine Learning"
@@ -214,5 +206,5 @@
       "deduped_sources": {}
     }
   ],
-  "deduped_count": 22
+  "deduped_count": 21
 }
